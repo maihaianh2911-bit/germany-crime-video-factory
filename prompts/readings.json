@@ -1,0 +1,5 @@
+{
+ "_note": "Respellings for words the German voice misreads (names, foreign words, abbreviations). Applied to every line before it is read (whole words only, longest key first); the captions keep the normal spelling. Add a word here when the voice check (check.md) shows a real misreading. Example: \"LKA\": \"L K A\".",
+ "LKA": "L K A",
+ "BKA": "B K A"
+}
