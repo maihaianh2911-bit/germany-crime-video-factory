@@ -33,6 +33,8 @@ machine step failed.
 
 ## 1. `crime-plan` → `crime/<N>/script.json`
 Read the issue form (Vụ án, Kịch bản, Giọng đọc, Ghi chú) and the owner's comments.
+- `voice`: the voice **id only** (`clone_611`), never the dropdown text of the form (`clone_611 (mặc định)`); leave it
+  out when the form says `_No response_` (the channel's voice in `prompts/channel.json` is used).
 ```json
 {"title": "Der Fall Anneliese Michel", "voice": "clone_611",
  "lines": ["Im Jahr 1976 starb in Bayern eine 23-jährige Frau.", "Ihr Name war Anneliese Michel.", "In ihrem kleinen Zimmer wurden monatelang Exorzismen durchgeführt."],
@@ -51,7 +53,7 @@ Read the issue form (Vụ án, Kịch bản, Giọng đọc, Ghi chú) and the o
 - `tts`: respellings for names and abbreviations the voice may misread (`{"2": "Ihr Name war Anneliese Michell."}`) (`prompts/readings.json` is applied to every line).
 - `music`: dark, quiet bed under the voice. `style` `tension` (default) or `documentary`, minor key, `energy`
   0.2–0.4. `music_volume` (default 0.14) only if the owner asks.
-- Captions need nothing from you: the machine cuts every line into chunks of 2–3 words (German: 1–3 words, ≤ 20 characters, ending at punctuation, never on an article or preposition; shown in capitals) and shows each
+- Captions need nothing from you: the machine cuts every line into chunks of 2–3 words (German: 1–3 words, ≤ 20 characters, ending at punctuation, never on an article, a preposition, a title or an ordinal — `1. Juli`, `Dr. Müller` stay together and keep their dot; shown in capitals) and shows each
   when it is spoken (Whisper word times). Write lines so the chunks read well; check them in the preview.
 - **Pictures** — the owner's decision (13/11/2026): **real pictures first, AI illustrations only where no real
   picture fits, always labelled.** Ask for both in round 1:
@@ -150,6 +152,8 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
    woken at `crime-check`.)
 
 ## 3. `crime-check` → done
+If the issue also has `crime-fix` (the owner commented while the video was rendering), do §4 `crime-fix` instead
+(remove `crime-check` there too).
 Open `sheet.jpg` (every shot as a full frame, after its ring/zoom too). Push a corrected `picks.json` only for a real
 fault (wrong picture for the line, a cut subject, a caption over a face, a ring off its target, a blurred or
 watermarked picture, an AI picture with a face or text), all fixes in one push. Otherwise remove `crime-check`, add
@@ -161,6 +165,10 @@ watermarked picture, an AI picture with a face or text), all fixes in one push. 
 - one line on the pictures used (how many real, how many AI); "bình luận nếu muốn sửa".
 
 ## 4. `crime-fix` and `crime-failed`
+- `crime-fix` while the issue still has `crime-voice` or `crime-render`: a machine step is running. Do **not** push
+  now (a second run would race it). Unattended: leave `crime-fix` and stop; you are woken when the step ends
+  (`crime-pick` / `crime-check`), then do the fix. In a chat: say so in one line, wait until the label changes
+  (check every minute), then do the fix.
 - `crime-fix`: the request = owner comments after your last `🤖` comment. Text → `script.json` (changed lines are
   read again, the rest reused); pictures, crops, rings → `picks.json` (+ `search-<r>.json`). Push, one-line 🤖
   comment, remove `crime-fix`. Keep working in the same issue. A request that breaks the AI rules of §1 (a face of
