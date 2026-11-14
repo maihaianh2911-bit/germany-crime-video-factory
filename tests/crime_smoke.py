@@ -57,16 +57,17 @@ json.dump({'title': title, 'lines': lines, 'queries': ['test'], 'gen': [{'gen': 
 json.dump({'images': {'street': {'src': '1/1-1.jpg'}, 'room': {'src': '1/2-1.jpg'}, 'knife': {'src': '1/3-1.jpg', 'look': 'cutout'},
                       'paper': {'src': '1/1-2.jpg', 'look': 'clean', 'blur': [[0.1, 0.1, 0.3, 0.3]]}},
            'scenes': [
-               {'at': 1, 'items': [{'photo': 'street', 'pos': 'main'},
-                                   {'tape': 'Blut', 'color': 'red', 'pin': 'bl', 'at': 1.3}, {'tape': 'DNA', 'pin': 'br', 'at': 1.4},
-                                   {'tape': 'Fingerabdrücke', 'pin': 'bl', 'at': 1.5}, {'tape': '25+ JAHRE', 'color': 'white', 'pin': 'top', 'at': 1.7}]},
+               # a scene edit: the catalogue (scripts/crime/edits.py) places the print and the tapes, Claude gives the content
+               {'at': 1, 'edit': 'hook', 'why': 'câu đầu liệt kê dấu vết', 'items': [{'photo': 'street'},
+                                   {'tape': 'Blut', 'color': 'red', 'at': 1.3}, {'tape': 'DNA', 'at': 1.4},
+                                   {'tape': 'Fingerabdrücke', 'at': 1.5}, {'tape': '25+ JAHRE', 'color': 'white', 'at': 1.7}]},
                {'at': 2, 'head': {'kicker': 'AKTE 1976', 'title': 'Familie Michel'}},
                {'at': w2, 'items': [{'card': 'paper', 'head': 'NACHT 30./31.12.2000', 'rows': [['Anneliese Michel', '23 J.'], ['Josef M.', '55 J.', 2.6], ['≠', '', 2.7, ]],
                                      'note': {'text': 'im eigenen Haus', 'at': 2.8}, 'stamp': {'text': 'UNGELÖST', 'at': 2.9}}]},
                {'at': 3, 'head': False, 'items': [{'photo': 'street', 'pos': 'g1'}, {'photo': 'paper', 'pos': 'g4', 'at': 3.2}, {'string': [0, 1], 'at': 3.3},
                                                   {'sticker': 'knife', 'pos': 'g5', 'w': 380, 'at': 3.4},
                                                   {'stat': [['130', 'Paare\nin ganz Japan', 3.5], ['12', 'ermittelt', 3.7, 'yellow']], 'xy': [480, 1000]}]},
-               {'at': 4, 'items': [{'photo': 'room', 'pos': 'top', 'view': [0.2, 0.1, 0.8, 0.6], 'ring': {'box': [0.3, 0.2, 0.7, 0.4], 'at': w4}},
+               {'at': 4, 'edit': 'actions', 'items': [{'photo': 'room', 'pos': 'top', 'view': [0.2, 0.1, 0.8, 0.6], 'ring': {'box': [0.3, 0.2, 0.7, 0.4], 'at': w4}},
                                    {'card': 'lined', 'pos': 'bottom', 'rows': [['gegessen', '', 4.2], ['geschlafen', '', 4.4]]},
                                    {'tape': 'Täter?', 'pin': 'tr', 'on': 0}]}]},
           open(os.path.join(job, 'picks.json'), 'w', encoding='utf-8'), ensure_ascii=False)
@@ -117,6 +118,17 @@ src = json.load(open(os.path.join(out, 'sources.json'), encoding='utf-8'))
 assert len(src['scenes']) == 5 and any(x.get('ai') for x in src['scenes'][4]['items']) and src['pictures'][0]['page']
 assert os.path.getsize(os.path.join(pub, 'crime', N, 'bed.wav')) > 100000 and os.path.exists(os.path.join(pub, 'crime', N, 'bg.jpg'))
 assert Image.open(os.path.join(out, 'preview.jpg')).size[0] > 1000
+# scene edits: the name is in the plan and on the sheets, edits.md lists every scene for the owner, a scene without
+# "edit" has no such key, positions Claude wrote himself win, an unknown name is refused with the list of names
+assert sc[0]['edit'] == 'hook' and sc[4]['edit'] == 'actions' and all('edit' not in x for x in sc[1:4])
+assert tp[3]['align'] == 'center' and tp[3]['y'] < tp[0]['y'] and tp[0]['x'] < tp[1]['x']                    # the template's pins: top, bl, br
+for md in (os.path.join(out, 'edits.md'), os.path.join(out, 'preview.jpg.edits.md')):
+    t_ = open(md, encoding='utf-8').read(); assert '`hook`' in t_ and 'câu đầu liệt kê dấu vết' in t_ and '| 5 |' in t_ and '`actions`' in t_, t_
+bad = json.load(open(os.path.join(job, 'picks.json'), encoding='utf-8')); bad['scenes'][2]['edit'] = 'kein-edit'
+os.makedirs(os.path.join(tmp, 'badjob')); json.dump(bad, open(os.path.join(tmp, 'badjob', 'picks.json'), 'w'))
+shutil.copy(os.path.join(job, 'script.json'), os.path.join(tmp, 'badjob'))
+r = subprocess.run([sys.executable, os.path.join(S, 'build.py'), os.path.join(tmp, 'badjob'), pub, N, imgsrc, os.path.join(tmp, 'out2')], capture_output=True, text=True, cwd=ROOT)
+assert r.returncode and 'cảnh 3' in r.stderr and 'hook' in r.stderr and 'ending' in r.stderr, r.stderr
 if os.environ.get('FONTSOURCE'):
     plan = json.load(open(plan_p, encoding='utf-8')); assert len(plan['fonts']) >= 4 and all(os.path.exists(os.path.join(pub, f['file'])) for f in plan['fonts'])
 
