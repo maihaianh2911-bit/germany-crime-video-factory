@@ -1,0 +1,739 @@
+{
+ "images": {
+  "site": {
+   "src": "1/1-1.jpg"
+  },
+  "house": {
+   "src": "1/1-3.jpg"
+  },
+  "park": {
+   "src": "1/3-3.jpg"
+  },
+  "hq": {
+   "src": "1/7-2.jpg"
+  },
+  "seijo": {
+   "src": "1/8-1.jpg"
+  },
+  "knife": {
+   "src": "1/11-4.jpg",
+   "look": "cutout",
+   "tol": 1.6
+  },
+  "bag": {
+   "src": "1/13-1.jpg",
+   "look": "cutout"
+  },
+  "hat": {
+   "src": "1/14-4.jpg",
+   "look": "cutout"
+  },
+  "finger": {
+   "src": "1/15-5.jpg"
+  },
+  "dna": {
+   "src": "1/16-1.jpg",
+   "look": "cutout"
+  },
+  "tubes": {
+   "src": "1/17-3.jpg"
+  },
+  "centri": {
+   "src": "1/17-5.jpg"
+  },
+  "pc": {
+   "src": "1/18-1.jpg",
+   "look": "cutout"
+  },
+  "street": {
+   "src": "1/6-2.jpg"
+  },
+  "sweat": {
+   "src": "1/14-4.jpg"
+  },
+  "sole": {
+   "src": "1/15-8.jpg"
+  },
+  "cloth": {
+   "src": "1/13-1.jpg"
+  },
+  "hall": {
+   "src": "1/3-3.jpg"
+  },
+  "kitchen": {
+   "src": "1/6-2.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "items": [
+    {
+     "photo": "site"
+    },
+    {
+     "tape": "Blut",
+     "color": "red",
+     "pin": "bl",
+     "at": "2/Blut"
+    },
+    {
+     "tape": "DNA",
+     "pin": "br",
+     "at": "2/DNA"
+    },
+    {
+     "tape": "Fingerabdrücke",
+     "pin": "bl",
+     "at": "2/Finger"
+    },
+    {
+     "tape": "Kleidung",
+     "pin": "br",
+     "at": "2/Kleidung"
+    },
+    {
+     "tape": "Schuhspuren",
+     "pin": "bl",
+     "at": "2/Schuh"
+    },
+    {
+     "tape": "Tatwaffe",
+     "pin": "br",
+     "at": "2/Tatwaffe"
+    },
+    {
+     "tape": "25+ JAHRE",
+     "color": "white",
+     "pin": "top",
+     "at": "3/25"
+    }
+   ]
+  },
+  {
+   "at": 4,
+   "head": {
+    "kicker": "AKTE 2000",
+    "title": "Familie Miyazawa"
+   }
+  },
+  {
+   "at": 5,
+   "items": [
+    {
+     "card": "folder",
+     "tab": "AKTE · SETAGAYA",
+     "corner": "TOKIO"
+    },
+    {
+     "photo": "house",
+     "pos": "in",
+     "at": 5.05
+    },
+    {
+     "tape": "Setagaya, Tokio",
+     "pin": "tr",
+     "at": "5/Tokio"
+    },
+    {
+     "tape": "4 Todesopfer",
+     "color": "red",
+     "pin": "below-l",
+     "at": "5/getötet"
+    }
+   ]
+  },
+  {
+   "at": 6,
+   "items": [
+    {
+     "card": "paper",
+     "head": "NACHT 30./31.12.2000",
+     "rows": [
+      [
+       "Mikio Miyazawa",
+       "44 J.",
+       "6/Mikio"
+      ],
+      [
+       "Yasuko",
+       "41 J.",
+       "6/Yasuko"
+      ],
+      [
+       "Niina",
+       "8 J.",
+       "6/Niina"
+      ],
+      [
+       "Rei",
+       "6 J.",
+       "6/Rei"
+      ]
+     ],
+     "note": {
+      "text": "im eigenen Haus",
+      "at": 6.85
+     }
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "head": false,
+   "items": [
+    {
+     "sticker": "dna",
+     "pos": "center",
+     "w": 760,
+     "rot": -6
+    },
+    {
+     "tape": "biologische Identität",
+     "color": "red",
+     "pin": "below",
+     "at": "7/biologische"
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "items": [
+    {
+     "photo": "centri",
+     "pos": "top"
+    },
+    {
+     "tape": "an der Hand verletzt",
+     "pin": "tl",
+     "at": "8/Hand"
+    },
+    {
+     "tape": "Blutgruppe A",
+     "color": "red",
+     "pin": "below-r",
+     "at": "8/Blutgruppe"
+    },
+    {
+     "photo": "tubes",
+     "pos": "bottom",
+     "w": 560,
+     "at": "8/DNA"
+    },
+    {
+     "tape": "DNA gesichert",
+     "color": "white",
+     "pin": "br",
+     "at": "8/gesichert"
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "items": [
+    {
+     "photo": "finger",
+     "pos": "left"
+    },
+    {
+     "photo": "sole",
+     "pos": "right",
+     "at": "9/Schuhspur"
+    },
+    {
+     "tape": "fremde Abdrücke",
+     "pin": "tl",
+     "on": 0,
+     "at": 9.15
+    },
+    {
+     "tape": "1 Schuhspur",
+     "color": "white",
+     "pin": "above",
+     "on": 1,
+     "at": "9/Schuhspur"
+    },
+    {
+     "tape": "nur ein Täter",
+     "color": "red",
+     "pin": "below",
+     "on": 1,
+     "at": "9/Täter"
+    }
+   ]
+  },
+  {
+   "at": 10,
+   "items": [
+    {
+     "photo": "sweat",
+     "pos": "g1",
+     "at": "10/Sweat"
+    },
+    {
+     "sticker": "hat",
+     "pos": "g2",
+     "w": 340,
+     "at": "10/Mütze"
+    },
+    {
+     "tape": "Schal",
+     "pin": "center",
+     "xy": [
+      540,
+      900
+     ],
+     "at": "10/Schal"
+    },
+    {
+     "sticker": "bag",
+     "pos": "g5",
+     "w": 400,
+     "at": "10/Gürtel"
+    },
+    {
+     "photo": "cloth",
+     "pos": "g6",
+     "at": "10/Taschen"
+    },
+    {
+     "tape": "Sweatshirt",
+     "pin": "below",
+     "on": 0,
+     "at": "10/Sweat"
+    },
+    {
+     "tape": "Mütze",
+     "pin": "below",
+     "on": 1,
+     "at": "10/Mütze"
+    },
+    {
+     "tape": "Gürteltasche",
+     "pin": "above",
+     "on": 3,
+     "at": "10/Gürtel"
+    },
+    {
+     "tape": "Taschentücher",
+     "pin": "above",
+     "on": 4,
+     "at": "10/Taschen"
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "items": [
+    {
+     "photo": "sweat",
+     "pos": "small"
+    },
+    {
+     "stat": [
+      [
+       "130",
+       "Stück in\nganz Japan",
+       "11/130"
+      ],
+      [
+       "12",
+       "Käufer\nermittelt",
+       "12/zwölf",
+       "yellow"
+      ]
+     ]
+    },
+    {
+     "tape": "bis Ende 2025",
+     "color": "white",
+     "pin": "tr",
+     "on": 0,
+     "at": "12/Ende"
+    }
+   ]
+  },
+  {
+   "at": 13,
+   "items": [
+    {
+     "photo": "sole",
+     "pos": "main"
+    },
+    {
+     "tape": "Slazenger",
+     "pin": "tl",
+     "at": "13/Slazenger"
+    },
+    {
+     "tape": "Südkorea",
+     "pin": "tr",
+     "at": "13/Südkorea"
+    },
+    {
+     "tape": "GRÖSSE 27,5",
+     "color": "white",
+     "pin": "bottom",
+     "at": "13/Größe"
+    },
+    {
+     "tape": "nicht im Handel",
+     "color": "red",
+     "pin": "below",
+     "at": "13/Handel"
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "items": [
+    {
+     "sticker": "knife",
+     "pos": "center",
+     "w": 820,
+     "rot": -18
+    },
+    {
+     "tape": "Sashimi-Messer",
+     "pin": "below",
+     "at": "14/Sashimi"
+    },
+    {
+     "tape": "TATWAFFE",
+     "color": "white",
+     "pin": "above",
+     "at": "14/Tatwaffe"
+    }
+   ]
+  },
+  {
+   "at": 15,
+   "items": [
+    {
+     "card": "paper",
+     "pos": "center",
+     "head": "DNA-ABGLEICH",
+     "rows": [
+      [
+       "Käufer des Messers",
+       "",
+       "15/Mann"
+      ],
+      {
+       "l": "≠",
+       "r": "",
+       "at": "16/DNA",
+       "color": "red"
+      },
+      [
+       "DNA vom Tatort",
+       "",
+       "16/passte"
+      ]
+     ],
+     "stamp": {
+      "text": "KEINE\nÜBEREINSTIMMUNG",
+      "at": "16/nicht"
+     }
+    }
+   ]
+  },
+  {
+   "at": 17,
+   "items": [
+    {
+     "tape": "das verstörendste Detail",
+     "color": "red",
+     "big": true,
+     "pin": "center",
+     "at": 17.05
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "items": [
+    {
+     "photo": "hall"
+    },
+    {
+     "tape": "FLOH NICHT",
+     "color": "white",
+     "pin": "top",
+     "at": "18/floh"
+    },
+    {
+     "tape": "blieb im Haus",
+     "pin": "bl",
+     "at": "18/blieb"
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "items": [
+    {
+     "photo": "kitchen",
+     "pos": "top"
+    },
+    {
+     "card": "lined",
+     "pos": "bottom",
+     "rows": [
+      [
+       "gegessen",
+       "",
+       "19/aß"
+      ],
+      [
+       "Toilette benutzt",
+       "",
+       "19/Toilette"
+      ],
+      [
+       "Papiere durchgesehen",
+       "",
+       "19/Papiere"
+      ],
+      [
+       "Computer benutzt",
+       "",
+       "19/Computer"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 20,
+   "items": [
+    {
+     "sticker": "pc",
+     "pos": "top",
+     "w": 520,
+     "rot": -3
+    },
+    {
+     "card": "paper",
+     "pos": "bottom",
+     "head": "INTERNET",
+     "rows": [
+      [
+       "01:18 Uhr",
+       "online",
+       "20/1:18"
+      ],
+      [
+       "ca. 10:00 Uhr",
+       "erneut",
+       "20/10"
+      ]
+     ]
+    },
+    {
+     "tape": "Zeitpunkt unsicher",
+     "color": "red",
+     "pin": "bottom",
+     "at": "21/unsicher"
+    }
+   ]
+  },
+  {
+   "at": 22,
+   "items": [
+    {
+     "photo": "site",
+     "pos": "g1"
+    },
+    {
+     "photo": "tubes",
+     "pos": "g2",
+     "at": "22/Blut"
+    },
+    {
+     "photo": "finger",
+     "pos": "g3",
+     "at": "22/Finger"
+    },
+    {
+     "sticker": "bag",
+     "pos": "g4",
+     "w": 380,
+     "at": "22/Kleidung"
+    },
+    {
+     "string": [
+      0,
+      1
+     ],
+     "at": "22/Blut"
+    },
+    {
+     "string": [
+      1,
+      2
+     ],
+     "at": "22/Finger"
+    },
+    {
+     "string": [
+      2,
+      3
+     ],
+     "at": "22/Kleidung"
+    },
+    {
+     "tape": "kurze Haare",
+     "pin": "below",
+     "on": 3,
+     "at": "23/Haare"
+    },
+    {
+     "tape": "NAME: ???",
+     "color": "white",
+     "big": true,
+     "xy": [
+      540,
+      1300
+     ],
+     "at": "24/Nur"
+    }
+   ]
+  },
+  {
+   "at": 25,
+   "head": {
+    "kicker": "ANALYSE 2025",
+    "title": "Spur in der DNA"
+   }
+  },
+  {
+   "at": 26,
+   "items": [
+    {
+     "card": "paper",
+     "head": "ALTER DES TÄTERS",
+     "rows": [
+      [
+       "damals",
+       "ca. 30",
+       "26/damals"
+      ],
+      [
+       "heute",
+       "50–60",
+       "26/heute"
+      ]
+     ],
+     "note": {
+      "text": "nur ein Pressebericht",
+      "at": "27/Pressebericht"
+     },
+     "stamp": {
+      "text": "NICHT\nBESTÄTIGT",
+      "at": "27/bestätigte"
+     }
+    }
+   ]
+  },
+  {
+   "at": 28,
+   "head": false,
+   "items": [
+    {
+     "photo": "hq"
+    },
+    {
+     "tape": "2000 – 2025",
+     "color": "white",
+     "pin": "top",
+     "at": 28.05
+    },
+    {
+     "tape": "ungelöst",
+     "color": "red",
+     "pin": "below",
+     "at": "28/ungelöst"
+    }
+   ]
+  },
+  {
+   "at": 29,
+   "items": [
+    {
+     "photo": "site",
+     "pos": "main",
+     "view": [
+      0.1,
+      0,
+      0.9,
+      1
+     ]
+    },
+    {
+     "tape": "spurlos?",
+     "color": "white",
+     "pin": "bottom",
+     "at": "29/spurlos"
+    }
+   ]
+  },
+  {
+   "at": 30,
+   "items": [
+    {
+     "photo": "site",
+     "pos": "g1"
+    },
+    {
+     "photo": "centri",
+     "pos": "g2"
+    },
+    {
+     "photo": "finger",
+     "pos": "g3"
+    },
+    {
+     "photo": "sole",
+     "pos": "g4"
+    },
+    {
+     "string": [
+      0,
+      1
+     ]
+    },
+    {
+     "string": [
+      1,
+      3
+     ]
+    },
+    {
+     "string": [
+      2,
+      3
+     ]
+    },
+    {
+     "card": "paper",
+     "pos": [
+      540,
+      1270,
+      720,
+      300
+     ],
+     "head": "TÄTER",
+     "rows": [
+      [
+       "Name:",
+       "???",
+       "30/Namen"
+      ]
+     ],
+     "at": 30.1
+    }
+   ]
+  }
+ ]
+}
