@@ -7,7 +7,8 @@ overflowing cards and misplaced rings before a 20-minute render.
 Usage: preview.py <crime/N dir with script.json + picks.json> <renders crime/N dir with voice/ and img/> <out.jpg>
        [--scenes 3,4,9]   (only these scenes, faster while fixing)
 Needs `npm ci` (node_modules) and the fonts (FONTSOURCE, scripts/crime/get_fonts.sh). Also writes <out>.plan.json
-(times of every scene and subtitle) next to the sheet."""
+(times of every scene and subtitle) and <out>.edits.md (every scene's edit and why, as it will stand in the closing
+comment) next to the sheet. A scene with an "edit" carries its name on its tiles."""
 import json, os, shutil, subprocess, sys, tempfile
 from PIL import Image, ImageDraw
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
@@ -19,7 +20,10 @@ pub = os.path.join(tmp, 'public'); base = os.path.join(pub, 'crime', 'P')
 os.makedirs(base); shutil.copytree(os.path.join(rend, 'voice'), os.path.join(base, 'voice'))
 imgsrc = os.path.join(tmp, 'img'); shutil.copytree(os.path.join(rend, 'img'), imgsrc)
 if os.path.isdir(os.path.join(job, 'own')): shutil.copytree(os.path.join(job, 'own'), os.path.join(imgsrc, 'own'), dirs_exist_ok=True)
-run = lambda *a: subprocess.run([sys.executable, *a], check=True, stdout=subprocess.DEVNULL)
+def run(*a):   # the step prints why it stopped; its notes (lines starting with "chú ý") are passed on
+    r = subprocess.run([sys.executable, *a], stdout=subprocess.PIPE, text=True)
+    print(''.join(l + '\n' for l in r.stdout.splitlines() if l.startswith('chú ý')), end='')
+    if r.returncode: sys.exit(1)
 run(os.path.join(HERE, 'prep.py'), os.path.join(job, 'picks.json'), imgsrc, os.path.join(base, 'img'))
 run(os.path.join(HERE, 'build.py'), job, pub, 'P', imgsrc, os.path.join(tmp, 'out'))
 plan_p = os.path.join(tmp, 'out', 'plan.json')
@@ -33,21 +37,22 @@ for sc in plan['scenes']:
                + [i[k]['s'] for i in sc['items'] for k in ('note', 'stamp') if i.get(k)])
     times = [min(sc['e'] - 0.05, sc['s'] + 0.35)]
     if late > times[0] + 0.1 or sc['e'] - sc['s'] > 3: times.append(max(times[0] + 0.1, sc['e'] - 0.12))
-    frames += [(sc['scene'], round(t, 2), k) for k, t in enumerate(times)]
-subprocess.run(['node', os.path.join(HERE, 'stills.mjs'), plan_p, pub, os.path.join(tmp, 'st'), *[f'{t:.2f}' for _, t, _ in frames]],
+    frames += [(sc['scene'], round(t, 2), k, sc.get('edit', '')) for k, t in enumerate(times)]
+subprocess.run(['node', os.path.join(HERE, 'stills.mjs'), plan_p, pub, os.path.join(tmp, 'st'), *[f'{t:.2f}' for _, t, _, _ in frames]],
                check=True, cwd=ROOT, stdout=subprocess.DEVNULL)
 TW, TH = 270, 480
 tiles = []
-for n, t, k in frames:
+for n, t, k, ed in frames:
     f = Image.open(os.path.join(tmp, f'st_{t:.2f}.png')).convert('RGB').resize((TW, TH), Image.LANCZOS)
     tile = Image.new('RGB', (TW, TH + 24), (10, 10, 12)); tile.paste(f, (0, 24))
-    ImageDraw.Draw(tile).text((4, 6), f"#{n}  {t:.1f}s{'  end' if k else ''}", fill=(255, 210, 90))
+    ImageDraw.Draw(tile).text((4, 6), f"#{n}  {t:.1f}s{'  end' if k else ''}{'  · ' + ed if ed else ''}", fill=(255, 210, 90))
     tiles.append(tile)
 cols = 6; rows = (len(tiles) + cols - 1) // cols
 sheet = Image.new('RGB', (cols * (TW + 8), max(1, rows) * (TH + 32)), (0, 0, 0))
 for i, t in enumerate(tiles): sheet.paste(t, ((i % cols) * (TW + 8), (i // cols) * (TH + 32)))
 sheet.save(out, quality=85)
-json.dump({'duration': plan['duration'], 'scenes': [{'scene': s['scene'], 's': s['s'], 'e': s['e'], 'items': [i['type'] for i in s['items']]} for s in plan['scenes']],
+shutil.copy(os.path.join(tmp, 'out', 'edits.md'), out + '.edits.md')
+json.dump({'duration': plan['duration'], 'scenes': [{'scene': s['scene'], 's': s['s'], 'e': s['e'], 'edit': s.get('edit', ''), 'items': [i['type'] for i in s['items']]} for s in plan['scenes']],
            'subs': [[c['s'], c['text']] for c in plan['subs']]}, open(out + '.plan.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(out, len(tiles), 'frames', f"{plan['duration']:.1f}s")
 shutil.rmtree(tmp, ignore_errors=True)
