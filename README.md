@@ -37,7 +37,7 @@ Nhánh **`renders`**, thư mục `crime/<số phiếu>/`: `video.mp4`, `subtitle
 ## Cấu hình (làm một lần)
 
 - **Secrets** (Settings → Secrets and variables → Actions):
-  - `VN11_API_KEY` (giọng đọc 11labs, giống các repo khác);
+  - `VN11_API_KEY` (giọng đọc 11labs, giống các repo khác; tên `VOICE` cũng được — chủ kênh đã lưu khóa với tên này);
   - `CLAUDE_TASK_URL` + `CLAUDE_TASK_TOKEN` (để GitHub gọi Claude khi có việc; **cùng giá trị** như repo `japan-video-factory`);
   - khóa tạo ảnh AI, chọn **một**: `OPENAI_API_KEY` (đẹp nhất, trả tiền theo ảnh), `GEMINI_API_KEY` (đẹp, trả tiền theo ảnh) hoặc `CF_ACCOUNT_ID` + `CF_API_TOKEN` (Cloudflare Workers AI, có phần miễn phí mỗi ngày, ảnh kém hơn).
 - Nhãn của phiếu: **đã tạo** (13/11/2026). Chỉ chạy lại workflow **Tạo nhãn** nếu lỡ xóa nhãn.

@@ -78,7 +78,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
-      VN11_API_KEY: ${{ secrets.VN11_API_KEY }}
+      VN11_API_KEY: ${{ secrets.VN11_API_KEY || secrets.VOICE }}   # the owner saved the key as VOICE (14/11/2026)
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
