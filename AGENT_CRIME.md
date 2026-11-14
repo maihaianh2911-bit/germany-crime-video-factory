@@ -122,7 +122,7 @@ A 2-minute video uses **~20–35 different pictures** (prints and stickers). Ask
   Once round 1 exists (`img/1/` on renders), never change `queries`/`urls`/`gen` again: a new search renumbers round
   1 and the picks would point at other pictures (the machine then stops at `crime-pick`). Add searches and
   illustrations with `search-<r>.json`.
-Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures ~15–25 min; you are woken at `crime-pick`.)
+Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures ~15–25 min, ~22 s per line; you are woken at `crime-pick`.)
 
 ## 2. `crime-pick` → `crime/<N>/picks.json`
 1. `voice/check.md` lists lines where Whisper heard something different. Real misreadings: fix in `script.json`
@@ -219,7 +219,7 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
 6. **Keep clear:** the subtitle box sits at y ≈ 1560–1640 of 1920 and the board ends at ~1470: nothing important
    below 1470. On a print, tapes cover its corners: the subject (a face, a window, the detail) must be in the middle
    (move `view`). The chapter head covers y 170–320.
-7. **Preview before pushing** (a wrong picture found after the render costs a 20-minute render):
+7. **Preview before pushing** (a wrong picture found after the render costs another render and check):
    `pip install -q numpy pillow scipy pykakasi==2.3.0`, `npm ci` and `bash scripts/crime/get_fonts.sh /tmp/fontsource`
    if missing, then `FONTSOURCE=/tmp/fontsource python3 scripts/crime/preview.py crime/<N> /tmp/r/crime/<N> /tmp/preview.jpg`
    (~1 min; `--scenes 3,4` for only some) and open the sheet: every scene drawn by the video's own renderer, just
@@ -228,7 +228,7 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
    format, no recognisable face on an AI picture, every sticker is cleanly cut out, something new comes every
    1–3 s. Fix and run again until all are right.
 8. Commit `picks.json` together with any `script.json`/readings fixes in **one** push as `[crime #<N>] chọn ảnh`
-   (a push of `script.json` alone runs the voice step again), remove `crime-busy`. (Render ~15–25 min; you are
+   (a push of `script.json` alone runs the voice step again), remove `crime-busy`. (Render ~10 min for 2 minutes of video; you are
    woken at `crime-check`.)
 
 ## 3. `crime-check` → done

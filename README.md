@@ -2,7 +2,7 @@
 
 Dây chuyền làm **video vụ án tiếng Đức** khổ dọc 9:16 (1080×1920, khoảng **2 phút**) cho Shorts / TikTok / Reels, theo video mẫu của chủ kênh ([`00-video-mau/MAU-HO-SO.mp4`](00-video-mau/MAU-HO-SO.mp4)): **kiểu hồ sơ vụ án** trên bàn gỗ tối — ảnh trắng đen có viền trắng, **băng giấy dán** ghi từ khóa hiện đúng lúc giọng đọc nói tới, **tờ hồ sơ** gõ chữ từng dòng (tên, tuổi, ngày giờ), sổ ghi có dấu ✓, **số lớn**, đồ vật cắt rời, ảnh nối **dây đỏ**, tiêu đề chương ở trên, **phụ đề** trong hộp trắng nhỏ ở dưới. Giọng đọc và mọi chữ trên hình bằng tiếng Đức, viết theo thói quen người Đức (ngày 31.12.2000, 27,5 cm, giọng kể điềm tĩnh, không giật gân). Chạy hoàn toàn trên GitHub.
 
-Repo song sinh: [`maihaianh2911-bit/japan-crime-video-factory`](https://github.com/maihaianh2911-bit/japan-crime-video-factory) làm video vụ án bằng tiếng Nhật (còn theo kiểu cũ, chờ chủ kênh quyết định có đổi sang kiểu hồ sơ không).
+Repo song sinh: [`maihaianh2911-bit/japan-crime-video-factory`](https://github.com/maihaianh2911-bit/japan-crime-video-factory) làm video vụ án bằng tiếng Nhật (kiểu hồ sơ riêng của repo đó; chủ kênh chưa quyết định có gộp hai kiểu thành một không).
 
 ## Làm một video
 

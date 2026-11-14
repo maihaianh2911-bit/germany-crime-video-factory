@@ -7,7 +7,9 @@ answer questions.
 This repo has no Claude task of its own: the owner's shared task (the one of `japan-video-factory`, whose
 `AGENT_NIGHTLY.md` checks every channel) also serves it. This repo's workflows wake that task through the secrets
 `CLAUDE_TASK_URL` / `CLAUDE_TASK_TOKEN` (same values as in `japan-video-factory`): after each machine step, an
-owner comment, a failure, or the owner's button "Gọi Claude ngay" (`wake.yml`). There is no hourly run. If this repo
+owner comment, a failure, or the owner's button "Gọi Claude ngay" (`wake.yml`). There is no hourly run. A call is
+skipped while the issue carries a `crime-busy` younger than 2 hours (a Claude chat is on it); a call that fails
+(secrets missing, usage limit) leaves a 🤖 comment on the issue telling the owner how to start you. If this repo
 gets its own task later (one seat per repo), its prompt names this file and the check below is its first action.
 
 Issues waiting for Claude:
