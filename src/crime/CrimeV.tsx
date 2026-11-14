@@ -103,11 +103,14 @@ const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces 
   const iw = bw - 2 * BORDER, ih = bh - 2 * BORDER;
   const [v0, v1, v2, v3] = viewAt(it, t, it.s, sc.e);
   const sx = iw / ((v2 - v0) * it.w), sy = ih / ((v3 - v1) * it.h);
-  const k = easeOut((t - it.s) / 0.22);
+  const late = it.s > sc.s + 0.01;
+  const k = late ? backOut((t - it.s) / 0.34) : 1, lift = late ? 1 - easeOut((t - it.s) / 0.3) : 0;
+  const seed = (hash(it.src) % 1000) / 1000;
+  const sway = 0.45 * Math.sin(t * 0.75 + seed * 6.28);   // the print is never quite still
   return (
-    <div style={{ position: 'absolute', left: x, top: y, width: bw, height: bh, background: '#eeeae2', opacity: it.s > sc.s + 0.01 ? k : 1,
-      transform: `rotate(${it.rot}deg) scale(${it.s > sc.s + 0.01 ? 1.05 - 0.05 * k : 1})`,
-      boxShadow: '0 18px 40px rgba(0,0,0,.6), 0 3px 8px rgba(0,0,0,.5)' }}>
+    <div style={{ position: 'absolute', left: x, top: y, width: bw, height: bh, background: '#eeeae2', opacity: late ? clamp01((t - it.s) / 0.1) : 1,
+      transform: `rotate(${it.rot + sway + (seed < 0.5 ? -6 : 6) * lift}deg) scale(${1.22 - 0.22 * k})`,
+      boxShadow: `0 ${18 + 40 * lift}px ${40 + 50 * lift}px rgba(0,0,0,.6), 0 3px 8px rgba(0,0,0,.5)` }}>
       <div style={{ position: 'absolute', left: BORDER, top: BORDER, width: iw, height: ih, overflow: 'hidden', background: '#111' }}>
         <Img src={staticFile(it.src)} style={{ position: 'absolute', left: -v0 * it.w * sx, top: -v1 * it.h * sy, width: it.w * sx, height: it.h * sy, maxWidth: 'none' }} />
         <div style={{ position: 'absolute', inset: 0, boxShadow: 'inset 0 0 40px rgba(0,0,0,.35)' }} />
@@ -131,10 +134,12 @@ const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces 
 
 const Sticker: React.FC<{ it: StickerI; t: number; tag: string; F: Faces }> = ({ it, t, tag, F }) => {
   const [x, y, w, h] = it.box;
-  const k = backOut((t - it.s) / 0.32);
+  const k = backOut((t - it.s) / 0.4);
+  const seed = (hash(it.src) % 1000) / 1000;
+  const bob = Math.sin(t * 1.1 + seed * 6.28);
   return (
     <div style={{ position: 'absolute', left: x, top: y, width: w, height: h, opacity: clamp01((t - it.s) / 0.08),
-      transform: `rotate(${it.rot}deg) scale(${0.55 + 0.45 * k})` }}>
+      transform: `translateY(${6 * bob}px) rotate(${it.rot + 28 * (1 - k) + 1.2 * bob}deg) scale(${0.5 + 0.5 * k})` }}>
       <Img src={staticFile(it.src)} style={{ width: w, height: h, filter: 'drop-shadow(0 14px 22px rgba(0,0,0,.6))' }} />
       {it.ai ? <AiTag tag={tag} F={F} style={{ left: '50%', bottom: -8, transform: `translateX(-50%) rotate(${-it.rot}deg)` }} /> : null}
     </div>
@@ -268,6 +273,26 @@ const HeadV: React.FC<{ h: Head; t: number; F: Faces }> = ({ h, t, F }) => {
   );
 };
 
+// the camera over the board: a slow push and drift through every scene (direction changes per scene), a quick
+// slide-in when a scene cuts in, and a small punch each time something lands on the board
+const camera = (sc: Scene, t: number) => {
+  const p = clamp01((t - sc.s) / Math.max(0.5, sc.e - sc.s));
+  const a = (hash('cam' + sc.scene) % 628) / 100, dir = sc.scene % 2 ? 1 : -1;
+  const zoom = 1.0 + 0.055 * p;
+  let tx = Math.cos(a) * 26 * (p - 0.5), ty = Math.sin(a) * 18 * (p - 0.5), rot = dir * 0.5 * (p - 0.5);
+  const kin = sc.s > 0 ? easeOut((t - sc.s) / 0.32) : 1;
+  tx += dir * 120 * (1 - kin); rot += dir * 1.6 * (1 - kin);
+  let punch = 0, shake = 0;
+  for (const it of sc.items) {
+    if (it.s <= sc.s + 0.05 || t < it.s) continue;
+    const d = t - it.s;
+    punch += 0.016 * Math.exp(-d / 0.14);
+    if (it.type === 'tape' && it.color === 'red') shake += 7 * Math.exp(-d / 0.1) * Math.sin(d * 70);
+    if (it.type === 'card' && it.stamp) { const ds = t - it.stamp.s; if (ds >= 0) { punch += 0.02 * Math.exp(-ds / 0.12); shake += 9 * Math.exp(-ds / 0.1) * Math.sin(ds * 70); } }
+  }
+  return { tx: tx + shake, ty, rot, zoom: zoom + 0.07 * (1 - kin) + punch, kin };
+};
+
 // dust drifting over the board and a stray hair, as the sample's film grain
 const Dust: React.FC<{ t: number; scene: number }> = ({ t, scene }) => {
   const r = rng(12345);
@@ -298,11 +323,15 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
   const sub = plan.subs.find((c) => t >= c.s && t < c.e);
   const speaking = (tt: number) => plan.subs.some((c) => tt >= c.s - 0.2 && tt < c.e + 0.2);
   const flicker = 1 + 0.025 * Math.sin(t * 11.3) * Math.sin(t * 3.1 + 0.7);
+  const cam = camera(sc, t);
   const shown = sc.items.filter((i) => t >= i.s && (i.e === undefined || t < i.e));
   return (
     <AbsoluteFill style={{ background: '#1f1c19', overflow: 'hidden' }}>
-      {plan.bg ? <Img src={staticFile(plan.bg)} style={{ position: 'absolute', inset: 0, width: 1080, height: 1920, filter: `brightness(${flicker.toFixed(4)})` }} /> : null}
+      {plan.bg ? <Img src={staticFile(plan.bg)} style={{ position: 'absolute', inset: 0, width: 1080, height: 1920, filter: `brightness(${flicker.toFixed(4)})`,
+        transform: `translate(${(-cam.tx * 0.35).toFixed(2)}px, ${(-cam.ty * 0.35).toFixed(2)}px) scale(${(1.08 + (cam.zoom - 1) * 0.3).toFixed(4)})` }} /> : null}
       <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse 75% 55% at 50% 45%, rgba(255,240,215,.07) 0%, rgba(0,0,0,0) 55%, rgba(0,0,0,.6) 100%)' }} />
+      <div style={{ position: 'absolute', inset: 0, transformOrigin: '540px 820px', opacity: 0.35 + 0.65 * cam.kin,
+        transform: `translate(${cam.tx.toFixed(2)}px, ${cam.ty.toFixed(2)}px) rotate(${cam.rot.toFixed(3)}deg) scale(${cam.zoom.toFixed(4)})` }}>
       {shown.map((it, i) => {
         switch (it.type) {
           case 'photo': return <Photo key={i} it={it} t={t} sc={sc} tag={plan.aiTag} F={F} />;
@@ -315,6 +344,7 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
         }
       })}
       {sc.head ? <HeadV h={sc.head} t={t} F={F} /> : null}
+      </div>
       <Dust t={t} scene={sc.scene} />
       {sub ? (
         <div style={{ position: 'absolute', left: 540 - SUB_W / 2, width: SUB_W, top: SUB_Y, transform: 'translateY(-50%)', textAlign: 'center' }}>

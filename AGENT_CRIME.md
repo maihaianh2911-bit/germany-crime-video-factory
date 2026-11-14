@@ -199,7 +199,7 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
        the last `folder` card) | `[cx, cy, w]` in pixels. `w` sets the width. The print takes the shape of `view`
        (default: the whole picture; clamped to 0.6–1.8) or of `aspect` (`"3:4"`); `view` [x0, y0, x1, y1] is the
        part that must be seen. `rot` (degrees; default a small random turn). Slow push-in by default (`drift`
-       0.06; `"still": true` for none); `zoom` {`to`, `at`, `dur` 1.6} pushes into a detail; `ring` / `rings`
+       0.1; `"still": true` for none); `zoom` {`to`, `at`, `dur` 1.6} pushes into a detail; `ring` / `rings`
        {`box` in fractions of the picture, `at`, `color` `yellow` (default) | `red`, `shape` `ellipse` | `rect`}.
      - `sticker`: a `cutout` image; `pos` as photo (default `center`), `w`, `rot` (default ±4–14°).
      - `tape`: the text (1–3 words, ≤ ~18 characters); `color` `yellow` (handwriting, default) | `red` (bold serif:

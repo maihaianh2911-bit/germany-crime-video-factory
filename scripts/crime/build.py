@@ -71,7 +71,10 @@ def img_file(name):
 def credit_of(name):
     if is_ai(name): return ''
     it = image(name); r = idx.get(it['src']) or {}
-    return ' / '.join(x for x in (re.sub(r'\s+', ' ', it.get('artist') or r.get('artist') or '').strip()[:50],
+    artist = re.sub(r'\s+', ' ', it.get('artist') or r.get('artist') or '').strip()[:50]
+    if LANG != 'ja' and any(ord(c) > 0x2000 for c in artist):   # the German fonts have no Japanese: the full name is in credits.txt
+        artist = {'commons': 'Wikimedia Commons'}.get(r.get('source', ''), r.get('source', '').split('/')[-1].capitalize() or 'unbekannt')
+    return ' / '.join(x for x in (artist,
                                   it.get('license') or r.get('license') or '') if x)
 
 
@@ -158,7 +161,7 @@ for j, sc in enumerate(scenes_in):
             if kind == 'photo':
                 bas = (box[2] - 2 * L.BORDER) / (box[3] - 2 * L.BORDER)
                 o['view'] = L.fit_view(view, bas, w, h)
-                o['drift'] = 0 if it.get('still') else it.get('drift', 0.06)
+                o['drift'] = 0 if it.get('still') else it.get('drift', 0.1)
                 z = it.get('zoom')
                 if z:
                     zs = at_time(z['at']) if z.get('at') else ts + 0.4
