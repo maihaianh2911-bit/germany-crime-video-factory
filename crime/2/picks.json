@@ -44,11 +44,20 @@
   "rite": {
    "src": "1/22-4.jpg"
   },
-  "film1": {
-   "src": "1/3-2.jpg"
+  "fog": {
+   "src": "2/7-1.jpg",
+   "artist": "Filmszene",
+   "license": "© Sony Pictures 2005"
   },
-  "film2": {
-   "src": "1/17-7.jpg"
+  "poster": {
+   "src": "2/10-1.jpg",
+   "artist": "Filmszene",
+   "license": "© Sony Pictures 2005"
+  },
+  "scream": {
+   "src": "2/6-1.jpg",
+   "artist": "Filmszene",
+   "license": "© Sony Pictures 2005"
   }
  },
  "scenes": [
@@ -56,20 +65,36 @@
    "at": 1,
    "items": [
     {
-     "photo": "film1",
+     "photo": "fog",
      "pos": "main"
     },
     {
-     "tape": "FILM, 2005",
+     "tape": "Szene aus dem Film",
      "color": "white",
      "pin": "top",
-     "at": "1/Film"
+     "at": 1.02
     },
     {
      "tape": "wahre Geschichte",
      "color": "red",
      "pin": "below",
      "at": "1/wahre"
+    }
+   ]
+  },
+  {
+   "at": "1/Film",
+   "items": [
+    {
+     "photo": "poster",
+     "pos": "center",
+     "w": 560
+    },
+    {
+     "tape": "FILM, 2005",
+     "color": "white",
+     "pin": "tr",
+     "at": "1/Film"
     }
    ]
   },
@@ -128,7 +153,7 @@
    "at": 4,
    "items": [
     {
-     "photo": "film2",
+     "photo": "room",
      "pos": "main"
     },
     {
@@ -229,8 +254,14 @@
    "head": false,
    "items": [
     {
-     "photo": "reel",
+     "photo": "scream",
      "pos": "main"
+    },
+    {
+     "tape": "Filmszene",
+     "color": "white",
+     "pin": "top",
+     "at": 11
     },
     {
      "tape": "Stimme verändert",
