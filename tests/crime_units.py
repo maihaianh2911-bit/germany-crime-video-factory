@@ -240,4 +240,10 @@ assert made['items'][0][key] == mine and all(k in made['items'][1] for k in E.ED
 rows = [{'at': 1, 'edit': 'hook', 'why': 'vì câu đầu | liệt kê'}, {'at': '2/x', 'edit': 'hook'}, {'at': 3}]
 md = E.listing(rows, {1: 'eins', 2: 'zwei', 3: 'drei'}, [0, 4, 8, 12])
 assert E.repeats(rows) == [2] and 'vì câu đầu / liệt kê' in md and '⚠️' in md and '| 3 | 8–12 s | drei | — |' in md and '`ending`' in md, md
+# template details: the opening print is upright (a landscape picture is cut to 4:5 unless Claude names another shape),
+# and the white and red tapes under a print lie parallel so the lower one never crosses the upper one
+made = E.apply(E.EDITS['hook']['recipe'], 1, refuse); assert made['items'][0]['aspect'] == '4:5'
+own = copy.deepcopy(E.EDITS['hook']['recipe']); own['items'][0]['aspect'] = '3:2'; assert E.apply(own, 1, refuse)['items'][0]['aspect'] == '3:2'
+for name in ('detail', 'place'):
+    t_ = E.EDITS[name]['slots']['tape']; assert t_['white'][0]['pin'] == t_['red'][0]['pin'] and t_['white'][0]['rot'] == t_['red'][0]['rot'], name
 print('crime unit checks OK')

@@ -52,10 +52,10 @@ G6 = [{'pos': p} for p in ('g1', 'g2', 'g3', 'g4', 'g5', 'g6')]
 EDITS = {
  'hook': {
   'vi': 'mở đầu', 'sample': '0:00–0:11',
-  'look': 'một ảnh lớn; băng giấy dán dần xuống hai góc dưới, mỗi thứ giọng đọc kể một băng; băng trắng con số ở mép trên',
+  'look': 'một ảnh đứng lớn (ảnh ngang được cắt thành khung đứng 4:5 — đặt `view` vào chủ thể, hoặc tự ghi `aspect`); băng giấy dán dần xuống hai góc dưới, mỗi thứ giọng đọc kể một băng; băng trắng con số ở mép trên',
   'use': 'MỞ ĐẦU: 2–3 câu đầu kể điều lạ của vụ án, liệt kê những thứ để lại, rồi con số gây tò mò',
   'needs': {'photo': 1, 'tape': 2},
-  'slots': {'photo': [{'pos': 'main'}], 'tape': {'white': [{'pin': 'top'}], '*': [{'pin': 'bl'}, {'pin': 'br'}]}},
+  'slots': {'photo': [{'pos': 'main', 'aspect': '4:5'}], 'tape': {'white': [{'pin': 'top'}], '*': [{'pin': 'bl'}, {'pin': 'br'}]}},
   'recipe': {'at': 1, 'edit': 'hook', 'why': '…', 'items': [
       {'photo': 'house'}, {'tape': 'Blut', 'color': 'red', 'at': '2/Blut'}, {'tape': 'DNA', 'at': '2/DNA'},
       {'tape': 'Schuhspuren', 'at': '2/Schuh'}, {'tape': '25+ JAHRE', 'color': 'white', 'at': '3/25'}]}},
@@ -88,7 +88,7 @@ EDITS = {
   'look': 'một ảnh ngang ở nửa trên; băng trắng gõ giờ hoặc ngày ngay dưới ảnh',
   'use': 'THỜI ĐIỂM / HIỆN TRƯỜNG: câu nói việc xảy ra lúc mấy giờ, ngày nào, ở chỗ nào của hiện trường',
   'needs': {'photo': 1, 'tape': 1},
-  'slots': {'photo': [{'pos': 'top'}], 'tape': {'white': [{'pin': 'below-l'}], 'red': [{'pin': 'below-l'}], '*': [{'pin': 'tl'}, {'pin': 'tr'}]}},
+  'slots': {'photo': [{'pos': 'top'}], 'tape': {'white': [{'pin': 'below-l', 'rot': -1}], 'red': [{'pin': 'below-l', 'rot': -1}], '*': [{'pin': 'tl'}, {'pin': 'tr'}]}},
   'recipe': {'at': 8, 'edit': 'place', 'why': '…', 'items': [
       {'photo': 'street'}, {'tape': 'ca. 23:00 UHR', 'color': 'white', 'at': '8/23'}]}},
  'figure': {
@@ -154,7 +154,7 @@ EDITS = {
   'look': 'một ảnh lớn; vòng vàng (hoặc đỏ) vẽ tay khoanh chi tiết đúng lúc được nhắc, băng giấy ở các góc, băng trắng ở dưới',
   'use': 'CHỈ VÀO MỘT CHI TIẾT: câu nói "trên đó có…", một vết, một chỗ đáng chú ý trong ảnh hoặc tài liệu',
   'needs': {'photo': 1}, 'check': _ring,
-  'slots': {'photo': [{'pos': 'main'}], 'tape': {'white': [{'pin': 'below-l'}], 'red': [{'pin': 'below-l'}], '*': [{'pin': 'tl'}, {'pin': 'br'}]}},
+  'slots': {'photo': [{'pos': 'main'}], 'tape': {'white': [{'pin': 'below-l', 'rot': -1}], 'red': [{'pin': 'below-l', 'rot': -1}], '*': [{'pin': 'tl'}, {'pin': 'br'}]}},
   'recipe': {'at': 17, 'edit': 'detail', 'why': '…', 'items': [
       {'photo': 'cloth', 'ring': {'box': [0.1, 0.5, 0.45, 0.8], 'at': '17/Taschentuch'}},
       {'tape': 'schwarzes Taschentuch', 'at': '17/Taschentuch'}, {'tape': 'SCHNITT ~3 CM', 'color': 'white', 'at': '17/Schnitt'}]}},
@@ -299,6 +299,7 @@ def apply(sc, n, fail):
     if err: fail(f'cảnh {n}: kiểu edit "{name}": {err}. Mẫu: {recipe(name)}')
 
     slots, seen = ed.get('slots') or {}, {}
+    given = [set(it) for it in items]                # what Claude wrote himself, before the template adds to it
     pic_index = [k for k, it in enumerate(items) if kind_of(it) in PICS]
     for k, it in enumerate(items):
         kind = kind_of(it)
@@ -325,7 +326,7 @@ def apply(sc, n, fail):
                 if v[1] >= len(pic_index): continue
                 v = pic_index[v[1]]
             it.setdefault(g, v)
-    return finish(sc, n, fail) if finish else sc
+    return finish(sc, n, fail, given) if finish else sc
 
 
 def first_line(sc, default=1):
