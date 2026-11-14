@@ -163,7 +163,7 @@ EDITS = {
   'look': 'tờ giấy kem: hai vế gõ lần lượt, dấu ≠ đỏ ở giữa, rồi dấu đỏ kết luận đóng xuống',
   'use': 'SO SÁNH / MÂU THUẪN: câu đối chiếu hai thứ và có kết luận (DNA không trùng, lời khai không khớp, bị loại)',
   'needs': {'card:paper': 1}, 'most': {'pic': 0}, 'check': _stamp,
-  'slots': {'card': [{'pos': 'center'}], 'tape': {'*': [{'pin': 'below'}]}},
+  'slots': {'card': [{'pos': 'main', 'h': 1000}], 'tape': {'*': [{'pin': 'below'}]}},   # the stamp lands at 64 % of the card: room for 4 rows above it
   'recipe': {'at': 18, 'edit': 'compare', 'why': '…', 'items': [
       {'card': 'paper', 'head': 'DNA-ABGLEICH', 'rows': [['DNA Verdächtiger', '', '18/Mann'], {'l': '≠', 'color': 'red', 'at': '19/nicht'}, ['DNA Tatort', '', '19/Tatort']],
        'stamp': {'text': 'KEINE\nÜBEREINSTIMMUNG', 'at': '19/passt'}}]}},
@@ -231,7 +231,7 @@ EDITS = {
   'look': 'hàng ảnh chứng cứ nhỏ ở trên nối dây đỏ; bên dưới một thẻ hồ sơ: `TÄTER` / `Name: ???` (dấu hỏi màu đỏ)',
   'use': 'KẾT: câu cuối — có gần như mọi thứ, trừ cái tên; câu hỏi còn bỏ ngỏ',
   'needs': {'pic': 2, 'card': 1}, 'most': {'pic': 4, 'card': 1},
-  'slots': {'pic': G6[:4], 'card': [{'pos': [540, 1270, 720, 300]}], 'tape': {'*': [{'pin': 'above'}]}},
+  'slots': {'pic': G6[:4], 'card': [{'pos': [540, 1265, 720, 370]}], 'tape': {'*': [{'pin': 'above'}]}},
   'all': {'sticker': {'w': 380}},
   'recipe': {'at': 32, 'edit': 'ending', 'why': '…', 'items': [
       {'photo': 'site'}, {'photo': 'tubes'}, {'photo': 'finger'}, {'photo': 'sole'}, {'string': [0, 1]}, {'string': [1, 3]}, {'string': [2, 3]},
