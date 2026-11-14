@@ -6,7 +6,8 @@ picks.json "images": {"<name>": {"src": "<round>/<file>" (picture search or AI i
 removes borders, captions, watermarks), "look": "print" (default: the sample's black-and-white press print — hard
 contrast, a fine halftone screen, grain, a few specks) | "clean" (true colours, sharp: documents, maps) |
 "cutout" (the object alone, its plain background removed, in black and white with a thick white paper edge: a
-sticker, as the sample's knife, bag and DNA strand — needs a picture of one object on a plain background),
+sticker, as the sample's knife, bag and DNA strand — needs a picture of one object on a plain or softly graded
+background; "tol": 1.5–2.5 also removes a soft shadow, 0.6 keeps a pale object apart from a pale background),
 "blur": [[x0, y0, x1, y1], …] (optional: faces or details to blur — children, uninvolved people, names)}}
 → <out_dir>/<name>.jpg (<name>.png for a cutout). The grain is seeded by the name, so a picture looks the same in
 every render. board(path) writes the dark brushed-wood background of the board.
@@ -49,17 +50,24 @@ def _print(l, seed, specks=True):
     return out
 
 
-def _mask(im):
+def _mask(im, tol=1.0):
     """Object mask of a picture of one object on a plain background: the background is what is connected to the
     border and close to the border's colour. Returns a bool array, or None when no clear object is found."""
     from scipy import ndimage as nd
     a = np.asarray(im.convert('RGB')).astype(np.float32)
     H, W = a.shape[:2]
-    edge = np.concatenate([a[:3].reshape(-1, 3), a[-3:].reshape(-1, 3), a[:, :3].reshape(-1, 3), a[:, -3:].reshape(-1, 3)])
-    bg = np.median(edge, axis=0)
-    spread = np.percentile(np.sqrt(((edge - bg) ** 2).sum(1)), 90)
-    dist = np.sqrt(((a - bg) ** 2).sum(2))
-    near = nd.gaussian_filter(dist, 1.2) < max(28.0, spread * 2.2)
+    # the background as a smooth surface (a quadratic in x and y, per colour) fitted to the border: a plain backdrop
+    # with a light gradient (a studio sweep, a shadowed table) is still one background
+    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+    bm = np.zeros((H, W), bool); bm[:3] = bm[-3:] = True; bm[:, :3] = bm[:, -3:] = True
+    X, Y = xx / W - 0.5, yy / H - 0.5
+    basis = lambda X, Y: np.stack([np.ones_like(X), X, Y, X * X, Y * Y, X * Y], -1)
+    coef, *_ = np.linalg.lstsq(basis(X[bm], Y[bm]), a[bm], rcond=None)
+    model = basis(X, Y) @ coef
+    edge_d = np.sqrt(((a[bm] - model[bm]) ** 2).sum(1))
+    spread = np.percentile(edge_d, 90)
+    dist = np.sqrt(((a - model) ** 2).sum(2))
+    near = nd.gaussian_filter(dist, 1.2) < max(28.0, spread * 2.2) * tol
     lab, n = nd.label(near)
     border = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
     obj = ~np.isin(lab, list(border))
@@ -73,10 +81,10 @@ def _mask(im):
     return obj if 0.03 < share < 0.92 else None
 
 
-def cutout(im, seed):
+def cutout(im, seed, tol=1.0):
     """The object of `im` on transparency, in the print look, with a white paper edge (RGBA)."""
     from scipy import ndimage as nd
-    m = _mask(im)
+    m = _mask(im, tol)
     W, H = im.size
     if m is None:   # no plain background: the whole picture becomes a rectangular sticker
         print(f'  cutout: no plain background found, the whole picture is used', file=sys.stderr)
@@ -119,7 +127,7 @@ def prepare(it, root, name='x'):
     if look == 'clean':
         return im
     if look == 'cutout':
-        return cutout(im, seed)
+        return cutout(im, seed, it.get('tol', 1.0))
     if look != 'print':
         raise SystemExit(f'picks.json: ảnh "{name}": "look" phải là print, clean hoặc cutout (không phải "{look}")')
     return _print(_gray(im), seed).convert('RGB')
