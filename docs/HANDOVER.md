@@ -46,3 +46,4 @@ Bố cục đo từ video mẫu: `scripts/crime/layout.py` (vị trí có tên: 
 - Từ hay bị giọng đọc sai ghi vào `prompts/readings.json`.
 - Phông (`scripts/crime/fonts.json`): tiếng Đức Source Sans 3 (phụ đề), Courier Prime (chữ máy đánh chữ), Merriweather (tên, tiêu đề chương), Patrick Hand (chữ viết tay); tiếng Nhật Noto Sans JP, M PLUS 1 Code, Noto Serif JP, Yomogi. `scripts/crime/get_fonts.sh` tự chọn theo `prompts/channel.json`.
 - Wikimedia Commons bị chặn trong phiên Claude trên cloud (lỗi 403 ở proxy): tìm ảnh chỉ chạy trên GitHub.
+- 14/11: chủ kênh cho phép dùng **ảnh chụp từ phim** (vụ Anneliese Michel / phim "Emily Rose", 2–3 cảnh ở đầu, ghi "Szene aus dem Film (2005) © Sony Pictures", chủ kênh chịu rủi ro bản quyền). `find_images.py`: ảnh ngoài chỉ cần `page` (máy lấy ảnh chính og:image của trang). Thay đổi này **chưa** chép sang repo Nhật (ngoài phạm vi phiên này).

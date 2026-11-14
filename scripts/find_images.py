@@ -15,7 +15,9 @@ A query without prefix searches commons, openverse, europeana and loc and mixes 
 Write queries in English (or the language of the archive). `File:<name>` fetches one exact Commons file.
 With --spec, the JSON list may also hold pictures from any page Claude checked (journal figures under CC BY, a
 museum page …): {"url": "<direct image url>", "page": "<page that states the licence>", "title": "...",
-"artist": "...", "license": "CC BY 4.0", "date": "..."} — each becomes its own group with one picture.
+"artist": "...", "license": "CC BY 4.0", "date": "..."} — each becomes its own group with one picture. Without "url",
+the page's main picture (its og:image) is taken: for a film still the owner chose to use (14/11/2026), give the
+still's page, "license": "© <studio> (Filmszene)".
 
 For every query: up to 8 pictures, keeping only licences that allow use in a monetised video, dropping files under
 400 px and duplicate scans of the same picture (also across earlier rounds listed in FIND_SEEN). Writes
@@ -209,8 +211,20 @@ def search(q):
     return mixed
 
 
+def page_image(page):
+    """The main picture of a web page (its og:image / twitter:image), for an outside picture given by "page" only."""
+    html = get(page).decode('utf-8', 'replace')
+    for pat in (r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)(?::src)?["\'][^>]+content=["\']([^"\']+)',
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)'):
+        m = re.search(pat, html, re.I)
+        if m: return urllib.parse.urljoin(page, m.group(1).replace('&amp;', '&'))
+    raise RuntimeError(f'no og:image on {page}')
+
+
 def outside(q):
-    """A picture from any page, described by Claude (licence checked on its page)."""
+    """A picture from any page, described by Claude (licence checked on its page). Without "url", the page's own
+    main picture (og:image) is taken."""
+    if not q.get('url'): q = {**q, 'url': page_image(q['page'])}
     return item('page', q.get('title') or q['url'].rsplit('/', 1)[-1], q.get('page', ''), q['url'], q.get('license', '?'),
                 q.get('artist', ''), q.get('date', ''), q.get('description', ''))
 
@@ -274,7 +288,7 @@ def main():
             found = [outside(q)] if isinstance(q, dict) else search(q)
         except Exception as e:
             err = str(e)[:200]; print(f'{k}. {q}: lỗi {err[:120]}'); found = []
-        if isinstance(q, dict): q = q.get('title') or q['url']
+        if isinstance(q, dict): q = q.get('title') or q.get('url') or q.get('page')
         kept = []   # [(result, image, hash)] in search order; a duplicate inside this query keeps the bigger file
         for r in found:
             if len(kept) >= KEEP:
