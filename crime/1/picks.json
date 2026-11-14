@@ -22,7 +22,8 @@
   },
   "bag": {
    "src": "1/13-1.jpg",
-   "look": "cutout"
+   "look": "cutout",
+   "artist": "RJFJR"
   },
   "hat": {
    "src": "1/14-4.jpg",
@@ -49,19 +50,33 @@
    "src": "1/6-2.jpg"
   },
   "sweat": {
-   "src": "1/14-4.jpg"
+   "src": "2/1-4.jpg",
+   "look": "cutout",
+   "crop": [
+    0,
+    0,
+    1,
+    0.88
+   ]
   },
   "sole": {
-   "src": "1/15-8.jpg"
+   "src": "2/5-3.jpg"
   },
   "cloth": {
-   "src": "1/13-1.jpg"
+   "src": "2/6-1.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.84
+   ],
+   "artist": "unbekannt"
   },
   "hall": {
-   "src": "1/3-3.jpg"
+   "src": "2/11-7.jpg"
   },
   "kitchen": {
-   "src": "1/6-2.jpg"
+   "src": "2/12-3.jpg"
   }
  },
  "scenes": [
@@ -266,9 +281,10 @@
    "at": 10,
    "items": [
     {
-     "photo": "sweat",
      "pos": "g1",
-     "at": "10/Sweat"
+     "at": "10/Sweat",
+     "sticker": "sweat",
+     "w": 400
     },
     {
      "sticker": "hat",
@@ -326,8 +342,9 @@
    "at": 11,
    "items": [
     {
-     "photo": "sweat",
-     "pos": "small"
+     "pos": "small",
+     "sticker": "sweat",
+     "w": 400
     },
     {
      "stat": [
@@ -373,7 +390,7 @@
     {
      "tape": "GRÖSSE 27,5",
      "color": "white",
-     "pin": "bottom",
+     "pin": "above",
      "at": "13/Größe"
     },
     {
