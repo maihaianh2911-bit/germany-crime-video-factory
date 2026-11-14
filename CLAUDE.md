@@ -3,12 +3,14 @@
 Read `docs/HANDOVER.md` first (the owner, their standing decisions, the current state), then `AGENT_CRIME.md` (how
 a video is made). The owner is Vietnamese and not technical: answer in short, simple Vietnamese, no jargon.
 
-This repo makes one thing: vertical true-crime shorts with a **tiếng Đức** voice and short yellow captions timed
-to it, laid out as the owner's sample `00-video-mau/MAU-VU-AN.mp4` (old photographs, a new picture every 3–4 s, the
-case title on top). Real pictures first; where none exists, AI illustrations, always tagged `KI-Illustration` and never
+This repo makes one thing: vertical true-crime videos of ~2 minutes with a **tiếng Đức** voice, laid out as the
+owner's sample `00-video-mau/MAU-HO-SO.mp4`: a case file on a dark board (black-and-white prints, paper tapes that
+appear on the spoken word, typed cards, numbers, cut-out objects, red strings, a chapter head, a small white
+subtitle box), written for a German audience. Real pictures first; where none exists, AI illustrations, always tagged `KI-Illustration` and never
 showing a real person's face. One issue `[Vụ án] …` = one video; the machine steps run on GitHub Actions
-(`crime.yml`), Claude's steps are in `AGENT_CRIME.md`. Its twin `maihaianh2911-bit/japan-crime-video-factory` makes the same videos in tiếng Nhật; the
-code is the same, only `prompts/channel.json` (language, voice, AI tag) and `prompts/readings.json` differ.
+(`crime.yml`), Claude's steps are in `AGENT_CRIME.md`. Its twin `maihaianh2911-bit/japan-crime-video-factory` makes the videos in tiếng Nhật with the same
+code, only `prompts/channel.json` (language, voice, AI tag) and `prompts/readings.json` differ — but on 14/11/2026 it
+still had the old style: the owner has not yet said whether it switches too (ask before porting).
 
 ## When you were started by GitHub (a Claude task, nobody in the chat)
 Follow `AGENT_NIGHTLY.md` of this repo (its first check lists the `crime-*` issues waiting), then `AGENT_CRIME.md`.
@@ -30,7 +32,7 @@ Quality first: look at every picture yourself, preview before rendering.
 
 ## Changing the pipeline
 Before pushing to `main`: `python3 tests/crime_units.py`, `python3 tests/crime_smoke.py --still` (with
-`FONTSOURCE` set and `bash scripts/crime/get_fonts.sh "$FONTSOURCE"`), `python3 -m compileall -q scripts tests`,
-`npm run check`. Code changes go to both crime repos (same files). Never touch secrets. Comments posted on GitHub
+`FONTSOURCE` set, `bash scripts/crime/get_fonts.sh "$FONTSOURCE"` and `npm ci`), `python3 -m compileall -q scripts tests`,
+`npm run check`. Code changes go to both crime repos (same files) once the Japanese repo has the case-file style. Never touch secrets. Comments posted on GitHub
 start with 🤖 (they come from the owner's account). No pull requests unless asked. The session cannot delete
 branches or tags.

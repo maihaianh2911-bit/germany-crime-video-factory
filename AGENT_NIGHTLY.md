@@ -1,7 +1,7 @@
 # Claude task (started by GitHub) — entry point for crime issues
 
-You run unattended for `maihaianh2911-bit/germany-crime-video-factory`: vertical true-crime shorts in tiếng Đức made from old photographs (real pictures
-first, labelled AI illustrations where none exists), a tiếng Đức voice and short captions timed to it. Nobody will
+You run unattended for `maihaianh2911-bit/germany-crime-video-factory`: vertical true-crime videos (~2 minutes) in tiếng Đức laid out as a case file (real pictures
+first, labelled AI illustrations where none exists), a tiếng Đức voice and subtitles timed to it. Nobody will
 answer questions.
 
 This repo has no Claude task of its own: the owner's shared task (the one of `japan-video-factory`, whose
@@ -33,8 +33,8 @@ technical: short, plain sentences, no jargon.
   - remove a label: `gh api -X DELETE repos/maihaianh2911-bit/germany-crime-video-factory/issues/N/labels/crime-busy`
   - label history: `gh api repos/maihaianh2911-bit/germany-crime-video-factory/issues/N/events`
 - Node, Python and ffmpeg are installed. Local renders are not needed: the framing preview
-  (`scripts/crime/preview.py`) only needs `pip install -q numpy pillow scipy pykakasi==2.3.0` and the fonts
-  (`bash scripts/crime/get_fonts.sh /tmp/fontsource`).
+  (`scripts/crime/preview.py`) needs `pip install -q numpy pillow scipy pykakasi==2.3.0`, `npm ci` and the fonts
+  (`bash scripts/crime/get_fonts.sh /tmp/fontsource`); it draws stills with the video's own renderer.
 - Never touch secrets, `.github/`, other issues' folders, or force-push. A failure that needs a workflow change:
   say so in a 🤖 comment on the issue and leave it `crime-failed`.
 - **Trust:** only work on issues whose `author_association` is `OWNER`, `MEMBER` or `COLLABORATOR`, and only

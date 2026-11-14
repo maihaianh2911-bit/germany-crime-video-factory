@@ -25,6 +25,7 @@ DE_MONTHS = set('januar februar märz april mai juni juli august september oktob
 DE_ABBR = set('dr prof st nr hl sel bzw ca vgl ggf sog inkl evtl mio mrd jh chr hr fr frl dipl ing abs str bd kap '
               'ziff tel gebr verh geb gest usw etc'.split())
 DE_TITLE = set('dr prof st nr hl sel hr fr frl dipl ing'.split())   # a chunk never ends on these (nor on "z.", "v.")
+DE_NUM = set('ein eine einen zwei drei vier fünf sechs sieben acht neun zehn elf zwölf zwanzig dreißig hundert tausend'.split())
 DE_ORD_BEFORE = set('am im vom zum zur der die das den dem des ab seit bis jeden jedes jeder diesem dieses dieser'.split())
 DE_FUNC = set('''der die das den dem des ein eine einen einem einer eines und oder aber doch denn sondern dass ob wenn als wie weil da
 in im an am auf aus bei mit nach von vom zu zum zur für über unter vor hinter neben zwischen durch gegen ohne um bis seit während
@@ -199,6 +200,61 @@ def chunks_ja(line):
 def chunks(line, lang):
     """[(spoken part, shown text)] covering the whole line in order."""
     return chunks_ja(line) if lang == 'ja' else chunks_de(line)
+
+
+SUB_MAX = {'de': 38, 'ja': 17}   # characters of one subtitle (the sample's white box: one row of ~30–40)
+
+
+def _sub_len(s, lang):
+    return _ja_width(s) if lang == 'ja' else len(s)
+
+
+def subs(line, lang):
+    """[(spoken text with its punctuation, weight before it)] — the subtitles of one line, as the sample's white box:
+    pieces of up to SUB_MAX characters built from the caption chunks (so they never cut inside "1. Juli", a name or
+    a Japanese word), cut after a comma or a full stop when the piece is already long enough."""
+    parts = [sp for sp, _ in chunks(line, lang)]
+    sep = '' if lang == 'ja' else ' '
+    mx = SUB_MAX[lang]
+    n = len(parts)
+    best = [(0.0, 0)] + [(float('inf'), 0)] * n   # DP: few, even pieces, ending at punctuation
+    for j in range(1, n + 1):
+        for i in range(j - 1, -1, -1):
+            piece = sep.join(parts[i:j]); L = _sub_len(piece, lang)
+            if L > mx and j - i > 1: break
+            c = 10.0 + ((mx * 0.8 - L) / mx) ** 2 * 6
+            if L < mx * 0.35: c += 6
+            if j < n and re.search(r'[,.;:!?、。？！]["“”»«」』)]?$', piece): c -= 5
+            elif j < n and lang == 'de':
+                last, nxt = _bare_de(piece.split()[-1]).lower(), _bare_de(parts[j].split()[0])
+                if nxt[:1].isdigit() or last in DE_MONTHS: c += 5          # "31. Dezember | 2000"
+                if last in DE_NUM or last[:1].isdigit(): c += 4             # "vier | Menschen", "130 | Paar"
+                if last in DE_FUNC: c += 6
+            if best[i][0] + c < best[j][0]: best[j] = (best[i][0] + c, i)
+    cuts, j = [], n
+    while j > 0: cuts.append(j); j = best[j][1]
+    cuts = [0] + cuts[::-1]
+    out = [parts[a:b] for a, b in zip(cuts, cuts[1:])]
+    res, acc = [], 0
+    for piece in out:
+        txt = sep.join(piece)
+        res.append((txt, acc))
+        acc += sum(weight(p, lang) for p in piece)
+    return res
+
+
+def anchor(line, word, lang):
+    """Weight of the text of `line` before the first word starting with `word` (German, case-insensitive) or the
+    first occurrence of `word` (Japanese). None when it is not in the line."""
+    if lang == 'ja':
+        k = line.find(word)
+        return None if k < 0 else (weight(line[:k], lang) if k else 0)
+    want = _bare_de(word).lower()
+    ws = line.split()
+    for k, w in enumerate(ws):
+        if _bare_de(w).lower().startswith(want):
+            return weight(' '.join(ws[:k]), lang) if k else 0
+    return None
 
 
 def weight(text, lang):

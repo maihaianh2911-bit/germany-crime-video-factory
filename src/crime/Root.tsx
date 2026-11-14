@@ -4,7 +4,8 @@ import { CrimeV, PlanC } from './CrimeV';
 
 const FPS = 30;
 // The whole plan comes in as props (scripts/crime/build.py), its length included.
-const EMPTY: PlanC = { duration: 1, lang: 'ja', title: '', titleSize: 78, aiTag: '', shots: [], caps: [], voice: [], music: null, musicVolume: 0.14, fonts: [] };
+const EMPTY: PlanC = { duration: 1, lang: 'ja', title: '', aiTag: '', faces: { sub: 'sans-serif', mono: 'monospace', serif: 'serif', hand: 'cursive' },
+  bg: null, scenes: [], subs: [], voice: [], music: null, musicVolume: 0.14, fonts: [] };
 
 export const CrimeRoot: React.FC = () => (
   <Composition

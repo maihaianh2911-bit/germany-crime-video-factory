@@ -66,6 +66,20 @@ try:   # the voice check spells the same ordinals out (num2words, installed on G
     assert VC.words_de('Es war der 3. Exorzismus.')[3] == 'dritte' and 'dreiundzwanzig' in VC.words_de('Sie war 23. Niemand half.')
 except ImportError as e:
     print('voice check of ordinals skipped:', e)
+# subtitles (the white box): pieces ≤ SUB_MAX that cover the line in order, never cut inside "31. Dezember 2000",
+# after a number word or an article; word anchors find the weight before a word
+for line in de + list(de2) + ['In der Nacht zum 31. Dezember 2000 wurden in Tokio vier Menschen getötet.',
+                              'Es gibt einen Mordfall, bei dem der Täter fast alles am Tatort zurückließ.']:
+    sb = C.subs(line, 'de'); got = [x for x, _ in sb]
+    assert ' '.join(got) == line and all(len(x) <= C.SUB_MAX['de'] for x in got), got
+    assert [w for _, w in sb] == sorted(w for _, w in sb) and sb[0][1] == 0, sb
+    for a, b in zip(got, got[1:]):
+        assert not b[:1].isdigit() and a.split()[-1].lower() not in C.DE_FUNC | C.DE_NUM, got
+for line in list(ja) + more:
+    sb = C.subs(line, 'ja'); assert ''.join(x for x, _ in sb) == line and all(C._ja_width(x) <= C.SUB_MAX['ja'] for x, _ in sb), sb
+assert C.anchor('Die Polizei fand Blut und Schuhspuren.', 'Schuh', 'de') == C.weight('Die Polizei fand Blut und', 'de')
+assert C.anchor('Die Polizei fand Blut.', 'blut', 'de') == C.weight('Die Polizei fand', 'de') and C.anchor('Blut.', 'Blut', 'de') == 0
+assert C.anchor('Die Polizei fand Blut.', 'DNA', 'de') is None and C.anchor('彼女の名前は', '名前', 'ja') == C.weight('彼女の', 'ja')
 # timing: linear without word times, follows them when present
 assert abs(C.time_at(0.5, 4.0) - 2.0) < 1e-9
 assert abs(C.time_at(0.5, 4.0, [[0, 0.2], [0.5, 3.0], [1.0, 3.9]]) - 3.0) < 1e-9
@@ -94,6 +108,10 @@ assert g4['error'].startswith('HTTP 400') and not g4['results']
 assert Image.open(os.path.join(d, g3['results'][0]['file'])).size == (768, 1024)     # square cropped to 3:4
 assert Image.open(os.path.join(d, g5['results'][0]['file'])).size == (1024, 768)     # 4:3
 assert os.path.exists(os.path.join(d, 'sheet_3.jpg')) and 'No text' in calls[0][0]
+# a sticker object: square, plain white background asked for
+calls.clear(); d3 = tempfile.mkdtemp(prefix='crime-units-'); json.dump([{'gen': 'an old mattock', 'object': True, 'n': 1}], open(spec, 'w'))
+G.provider = lambda: 'fake'; sys.argv = ['gen_images.py', d3, '--spec', spec]; G.main()
+assert calls[0][1] == '1:1' and 'plain pure white' in calls[0][0] and Image.open(os.path.join(d3, '1-1.jpg')).size == (1024, 1024)
 # without any key: recorded as an error, no pictures
 G.provider = lambda: None
 d2 = tempfile.mkdtemp(prefix='crime-units-'); sys.argv = ['gen_images.py', d2, '--spec', spec]; G.main()

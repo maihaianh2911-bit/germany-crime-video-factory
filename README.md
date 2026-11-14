@@ -1,21 +1,21 @@
 # germany-crime-video-factory
 
-Dây chuyền làm **video vụ án tiếng Đức** khổ dọc 9:16 (1080×1920) cho Shorts / TikTok / Reels, theo video mẫu của chủ kênh ([`00-video-mau/MAU-VU-AN.mp4`](00-video-mau/MAU-VU-AN.mp4)): nền đen, ảnh kiểu **ảnh cũ** (màu phai, hạt, bụi, vết xước) phóng chậm, đổi ảnh mỗi 3–4 giây, **chữ vàng 2–3 từ** chạy đúng theo giọng đọc, **tiêu đề vụ án** ở trên cùng. Giọng đọc tiếng Đức. Chạy hoàn toàn trên GitHub.
+Dây chuyền làm **video vụ án tiếng Đức** khổ dọc 9:16 (1080×1920, khoảng **2 phút**) cho Shorts / TikTok / Reels, theo video mẫu của chủ kênh ([`00-video-mau/MAU-HO-SO.mp4`](00-video-mau/MAU-HO-SO.mp4)): **kiểu hồ sơ vụ án** trên bàn gỗ tối — ảnh trắng đen có viền trắng, **băng giấy dán** ghi từ khóa hiện đúng lúc giọng đọc nói tới, **tờ hồ sơ** gõ chữ từng dòng (tên, tuổi, ngày giờ), sổ ghi có dấu ✓, **số lớn**, đồ vật cắt rời, ảnh nối **dây đỏ**, tiêu đề chương ở trên, **phụ đề** trong hộp trắng nhỏ ở dưới. Giọng đọc và mọi chữ trên hình bằng tiếng Đức, viết theo thói quen người Đức (ngày 31.12.2000, 27,5 cm, giọng kể điềm tĩnh, không giật gân). Chạy hoàn toàn trên GitHub.
 
-Repo song sinh: [`maihaianh2911-bit/japan-crime-video-factory`](https://github.com/maihaianh2911-bit/japan-crime-video-factory) làm cùng kiểu video bằng tiếng Nhật.
+Repo song sinh: [`maihaianh2911-bit/japan-crime-video-factory`](https://github.com/maihaianh2911-bit/japan-crime-video-factory) làm video vụ án bằng tiếng Nhật (còn theo kiểu cũ, chờ chủ kênh quyết định có đổi sang kiểu hồ sơ không).
 
 ## Làm một video
 
 1. **Issues → New issue → 🔎 Video vụ án** ([mở thẳng](https://github.com/maihaianh2911-bit/germany-crime-video-factory/issues/new/choose)). Dán kịch bản (tiếng Việt hoặc tiếng Đức) → **Create**. ChatGPT cũng tạo phiếu được, theo mẫu trong [`docs/CHATGPT.md`](docs/CHATGPT.md).
 2. Không cần làm gì thêm. Claude chia lời (dịch sang tiếng Đức nếu cần) → máy tạo giọng đọc, tự kiểm tra phát âm, tìm ảnh thật và tạo ảnh minh họa → Claude xem từng ảnh, chọn ảnh đúng với câu đọc, xem trước khung hình → máy dựng video → Claude kiểm tra lại từng cảnh. Mỗi bước báo trong phiếu.
 3. Bình luận cuối có link **xem / tải video (MP4)**, **phụ đề** (SRT), **nguồn ảnh** (dán vào mô tả video) và **bảng nguồn từng cảnh**.
-4. Muốn sửa: viết **một bình luận** gom hết yêu cầu, ví dụ "cảnh 3 đổi ảnh khác, câu 5 đọc sai tên". Claude sửa và dựng lại trên cùng phiếu.
+4. Muốn sửa: viết **một bình luận** gom hết yêu cầu, ví dụ "cảnh 3 đổi ảnh khác, câu 5 đọc sai tên, thêm băng giấy 'Blut' ở cảnh 1". Claude sửa và dựng lại trên cùng phiếu.
 
 ## Ảnh
 
 - **Ảnh thật trước**: nơi xảy ra, nhà, nhà thờ, tòa án, báo cũ, tài liệu — chỉ ảnh được phép dùng trong video kiếm tiền (phạm vi công cộng, CC0, CC BY, CC BY-SA) từ Wikimedia Commons, Openverse (Flickr…), Europeana, Thư viện Quốc hội Mỹ.
 - **Ảnh AI minh họa** khi không có ảnh thật cho câu đó (căn phòng, buổi tối, phiên tòa…): luôn có chữ **"KI-Illustration"** trên ảnh, **không vẽ mặt người thật**, không máu me, không chữ giả. Cần một khóa tạo ảnh (xem Cấu hình); chưa có khóa thì video chỉ dùng ảnh thật.
-- Mọi ảnh đều được làm thành **ảnh cũ** như mẫu (giấy tờ, báo thì giữ rõ nét).
+- Mọi ảnh đều được làm thành **ảnh trắng đen in báo** như mẫu (giấy tờ, báo thì giữ rõ nét). Đồ vật (dao, túi, giày…) được cắt rời thành hình dán có viền trắng.
 
 ## Nhãn trên phiếu (máy tự gắn)
 

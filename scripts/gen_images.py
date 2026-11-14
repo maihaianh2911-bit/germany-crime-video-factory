@@ -2,7 +2,7 @@
 """AI illustrations for a crime video, added to a picture-search round. Usage: gen_images.py <round_dir> --spec <file.json>
 
 The spec is a list of {"gen": "<prompt in English>", "n": 2 (variants, 1–4), "aspect": "3:4" (default) | "4:3"
-| "1:1"}. Every variant becomes <round_dir>/<k>-<n>.jpg in its own group k, numbered after the groups already in
+| "1:1", "object": true (optional: one object alone on a plain white background, for a cut-out sticker; square)}. Every variant becomes <round_dir>/<k>-<n>.jpg in its own group k, numbered after the groups already in
 <round_dir>/index.json (find_images.py runs first), with a contact sheet sheet_<k>.jpg, and is recorded in
 index.json with "ai": true, source "ai/<provider>", licence "AI-generated" and the prompt as title, so the video
 prints the AI tag on it and the credits say it is an illustration.
@@ -22,6 +22,8 @@ import find_images as fi
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUFFIX = ' Photorealistic photograph. No text, no letters, no captions, no watermark, no logo, no border.'
 SIZES = {'3:4': (1024, 1536), '4:3': (1536, 1024), '1:1': (1024, 1024)}
+OBJECT = (' A single object alone, whole and centred with wide empty margins, on a plain pure white seamless background,'
+          ' even soft studio light, no shadow on the background.')
 
 
 def post(url, body, headers, timeout=180):
@@ -100,8 +102,8 @@ def main():
     made = 0
     for j, g in enumerate(spec, 1):
         k = k0 + j
-        aspect = g.get('aspect', '3:4') if g.get('aspect', '3:4') in SIZES else '3:4'
-        prompt = g['gen'].strip().rstrip('.') + '.' + SUFFIX
+        aspect = '1:1' if g.get('object') else g.get('aspect', '3:4') if g.get('aspect', '3:4') in SIZES else '3:4'
+        prompt = g['gen'].strip().rstrip('.') + '.' + (OBJECT if g.get('object') else '') + SUFFIX
         group = {'k': k, 'query': f"gen: {g['gen']}", 'ai': True, 'results': []}
         if not fn:
             group['error'] = 'chưa có khóa tạo ảnh AI (OPENAI_API_KEY, GEMINI_API_KEY hoặc CF_ACCOUNT_ID + CF_API_TOKEN)'

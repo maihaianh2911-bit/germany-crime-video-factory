@@ -21,7 +21,9 @@ clone_611 (mặc định)
 
 <độ dài mong muốn, ảnh nên có / nên tránh; không có thì để _No response_>
 ```
-- Độ dài: 60–120 giây là hợp nhất (video mẫu 95 giây); tối đa ~3 phút.
-- Viết mỗi câu một ý cụ thể (một nơi, một người, một việc, một ngày), vì mỗi câu sẽ có một bức ảnh đi kèm.
+- Độ dài: **khoảng 2 phút** (chủ kênh chọn 14/11/2026): ~22–30 câu. Kịch bản dài hơn thì Claude rút gọn (giữ đúng sự việc) và báo đã bỏ gì.
+- Viết mỗi câu một ý cụ thể (một nơi, một người, một việc, một ngày, một con số, một đồ vật), vì mỗi câu sẽ thành một ảnh, một băng giấy, một dòng hồ sơ hay một con số trên màn hình.
+- Bố cục hay: mở đầu 2–3 câu nêu điều lạ của vụ án → ai, ở đâu, khi nào → từng chứng cứ → bước ngoặt → câu hỏi để ngỏ ở cuối.
+- Người xem Đức: kể điềm tĩnh, không giật gân; người chưa bị kết án thì gọi là "nghi phạm", không gọi là "hung thủ".
 - Chuyện chưa được tòa xác nhận thì viết là "bị cáo buộc", "theo lời khai…".
 - Muốn sửa video: viết **một bình luận** gom hết yêu cầu vào phiếu (không bắt đầu bằng 🤖).

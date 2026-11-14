@@ -1,0 +1,21 @@
+{
+ "_note": "Fonts of the case-file videos per channel language (fontsource npm packages, pinned). Roles: sub = subtitles under the board, mono = typewriter (case-file heads, white tapes, stamps, big numbers), serif = names on cards and the chapter title, hand = handwriting (yellow tapes, checklists). Each role: family (as in the package CSS) and the CSS files of the package to load. Read by get_fonts.sh, fonts.py and build.py (the families go into the plan for CrimeV).",
+ "de": {
+  "packages": ["@fontsource-variable/source-sans-3@5.3.1", "@fontsource/courier-prime@5.3.0", "@fontsource/merriweather@5.3.0", "@fontsource/patrick-hand@5.3.0"],
+  "roles": {
+   "sub": {"family": "Source Sans 3 Variable", "css": [["source-sans-3", "wght.css"]]},
+   "mono": {"family": "Courier Prime", "css": [["courier-prime", "400.css"], ["courier-prime", "700.css"]]},
+   "serif": {"family": "Merriweather", "css": [["merriweather", "700.css"], ["merriweather", "700-italic.css"]]},
+   "hand": {"family": "Patrick Hand", "css": [["patrick-hand", "400.css"]]}
+  }
+ },
+ "ja": {
+  "packages": ["@fontsource-variable/noto-sans-jp@5.3.1", "@fontsource-variable/m-plus-1-code@5.3.1", "@fontsource-variable/noto-serif-jp@5.3.1", "@fontsource/yomogi@5.3.0"],
+  "roles": {
+   "sub": {"family": "Noto Sans JP Variable", "css": [["noto-sans-jp", "wght.css"]]},
+   "mono": {"family": "M PLUS 1 Code Variable", "css": [["m-plus-1-code", "wght.css"]]},
+   "serif": {"family": "Noto Serif JP Variable", "css": [["noto-serif-jp", "wght.css"]]},
+   "hand": {"family": "Yomogi", "css": [["yomogi", "400.css"]]}
+  }
+ }
+}
