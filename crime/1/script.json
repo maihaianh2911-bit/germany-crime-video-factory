@@ -1,0 +1,148 @@
+{
+ "title": "Der Fall Miyazawa",
+ "voice": "clone_611",
+ "lines": [
+  "Wusstest du? Bei einem Mord ließ der Täter fast alles am Tatort zurück.",
+  "Blut, DNA, Fingerabdrücke, Kleidung, Schuhspuren und sogar die Tatwaffe.",
+  "Doch nach über 25 Jahren weiß die Polizei nicht, wer er ist.",
+  "Der Fall Miyazawa, einer der bekanntesten ungelösten Fälle Japans.",
+  "In der Nacht zum 31. Dezember 2000 wurden in Tokio vier Menschen in ihrem Haus getötet.",
+  "Mikio Miyazawa, 44, seine Frau Yasuko, 41, und die Kinder Niina, 8, und Rei, 6.",
+  "Rätselhaft ist: Der Täter hinterließ seine biologische Identität.",
+  "Er verletzte sich an der Hand. Blutgruppe A, seine DNA wurde gesichert.",
+  "Fingerabdrücke und eine einzige Schuhspur: Es war wohl nur ein Täter.",
+  "Dazu Sweatshirt, Mütze, Schal, Gürteltasche und Taschentücher.",
+  "Das Sweatshirt wurde in ganz Japan nur 130-mal verkauft.",
+  "Bis Ende 2025 fand die Polizei nur zwölf Käufer.",
+  "Die Schuhe: Slazenger aus Südkorea, Größe 27,5, in Japan damals nicht im Handel.",
+  "Die Tatwaffe, ein Sashimi-Messer, blieb ebenfalls zurück.",
+  "Ein Mann, der so ein Messer gekauft hatte, wurde gefunden.",
+  "Doch seine DNA passte nicht.",
+  "Dann das verstörendste Detail.",
+  "Der Täter floh nicht sofort. Er blieb im Haus.",
+  "Er aß, ging auf die Toilette, sah Papiere durch und nutzte den Computer.",
+  "Der Computer war um 1:18 Uhr online und gegen 10 Uhr erneut.",
+  "Ob er bis zum Morgen blieb, ist aber unsicher.",
+  "Die Polizei hat sein Blut, seine DNA, seine Fingerabdrücke, seine Kleidung.",
+  "Sogar kurz geschnittene Haare aus seiner Gürteltasche.",
+  "Nur keinen Namen.",
+  "2025 berichteten japanische Medien über eine neue DNA-Analyse.",
+  "Demnach war er damals etwa 30, heute 50 bis 60 Jahre alt.",
+  "Ein Pressebericht, keine von der Polizei bestätigte Identität.",
+  "Ein Vierteljahrhundert später ist der Fall ungelöst.",
+  "Das Unheimlichste: Er verschwand nicht spurlos.",
+  "Er hinterließ fast alles, außer seinem Namen."
+ ],
+ "tts": {
+  "5": "In der Nacht zum einunddreißigsten Dezember zweitausend wurden in Tokio vier Menschen in ihrem Haus getötet.",
+  "11": "Das Sweatshirt wurde in ganz Japan nur hundertdreißig Mal verkauft.",
+  "12": "Bis Ende zweitausendfünfundzwanzig fand die Polizei nur zwölf Käufer.",
+  "13": "Die Schuhe: Slazenger aus Südkorea, Größe siebenundzwanzig Komma fünf, in Japan damals nicht im Handel.",
+  "20": "Der Computer war um ein Uhr achtzehn online und gegen zehn Uhr erneut.",
+  "25": "Zweitausendfünfundzwanzig berichteten japanische Medien über eine neue DNA-Analyse."
+ },
+ "music": {
+  "style": "tension",
+  "key": "D",
+  "mode": "minor",
+  "bpm": 68,
+  "energy": 0.28
+ },
+ "queries": [
+  "Setagaya family murder",
+  "commons: Setagaya family murder house",
+  "Soshigaya Park Setagaya",
+  "Kamisoshigaya Setagaya",
+  "Soshigaya-Okura station",
+  "Setagaya Tokyo residential street",
+  "Tokyo Metropolitan Police Department headquarters",
+  "Seijo police station Setagaya",
+  "Slazenger shoes",
+  "Slazenger sneaker sole",
+  "yanagiba knife",
+  "sashimi knife Seki",
+  "waist bag fanny pack",
+  "knit cap beanie",
+  "fingerprint",
+  "DNA double helix",
+  "blood sample tube laboratory",
+  "CRT monitor computer 2000",
+  "Tokyo winter night",
+  "Japanese house night",
+  "Tokyo skyline 2000",
+  "police line do not cross Japan"
+ ],
+ "urls": [],
+ "gen": [
+  {
+   "gen": "black-and-white press photograph, high contrast, around 2000, a two-storey Japanese family house at night in winter, one lit window, empty street, bare trees, no people",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, a man seen from behind as a dark silhouette at the end of a long narrow corridor, backlit door, face not visible",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, extreme close-up of a single fingerprint, forensic lighting, ridges sharp",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, a forensic DNA laboratory, test tubes in a rack, a pipette, no people",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, a dark room at night, an old year-2000 beige desktop computer with a glowing CRT monitor and keyboard, no people",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, a dark grey sweatshirt laid flat on a table under a single lamp, evidence photo, no people",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, sneaker sole prints on a wooden floor, forensic photo, no people",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, a folded black handkerchief on a dark table under a lamp, no people",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, short black hair strands on a white sheet, macro",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, a small Japanese kitchen at night lit only by an open refrigerator, no people",
+   "n": 2
+  },
+  {
+   "gen": "black-and-white press photograph, high contrast, a quiet Tokyo residential street beside a park at night in winter, around 2000, street lamps, no people",
+   "n": 2,
+   "aspect": "4:3"
+  },
+  {
+   "gen": "a long sashimi knife (yanagiba) with a plain wooden handle",
+   "n": 2,
+   "object": true
+  },
+  {
+   "gen": "a black nylon waist bag (fanny pack) with a zip",
+   "n": 2,
+   "object": true
+  },
+  {
+   "gen": "a pair of white sneakers seen from below showing the soles",
+   "n": 2,
+   "object": true
+  },
+  {
+   "gen": "a black knitted beanie hat",
+   "n": 2,
+   "object": true
+  },
+  {
+   "gen": "a DNA double helix model",
+   "n": 2,
+   "object": true
+  }
+ ]
+}
