@@ -11,7 +11,7 @@ owner; it is never drawn. A scene without "edit" is built exactly as before.
 
 An entry: vi (Vietnamese name), sample (m:ss in the sample), look, use (WHEN: by the meaning of the scene's lines),
 needs / most ({"photo" | "pic" (photo or sticker) | "card:lined" …: count}), check (a function → error text),
-scene (defaults of the scene itself), slots (defaults of the n-th item of a kind: a list, or for tapes a dict by
+scene (defaults of the scene itself), fit (the card is as high as its rows need), slots (defaults of the n-th item of a kind: a list, or for tapes a dict by
 colour with "*" for the others; ["pic", 1] = the item index of the scene's 2nd picture), all (defaults of every
 item of a kind), recipe (the JSON Claude copies; AGENT_CRIME.md §2.4 prints the same table: python3
 scripts/crime/edits.py).
@@ -27,7 +27,23 @@ GROUPS = {'tape': {'pin': ('pin', 'on'), 'xy': ('pin', 'on')}, 'photo': {'pos': 
           'card': {'pos': ('pos', 'h')}}
 LABEL = {'photo': 'ảnh (photo)', 'sticker': 'hình cắt rời (sticker)', 'pic': 'ảnh hoặc hình cắt rời (photo / sticker)',
          'tape': 'băng giấy (tape)', 'card': 'thẻ (card)', 'stat': 'số lớn (stat)', 'string': 'dây đỏ (string)'}
-finish = None
+
+
+def card_need(it):
+    """Height a card needs for its head, rows and note (the same sum as build.py's overflow check), plus some air."""
+    rows = len(it.get('rows') or [])
+    return (160 if it.get('head') else 50) + rows * {'lined': 80}.get(it.get('card'), 96) + (140 if it.get('note') else 0) + 70
+
+
+def finish(sc, n, fail, given):
+    """What a template cannot know before it sees the content: the card of an edit with "fit" is as high as its head,
+    rows and note need (unless Claude gave "h" or his own "pos"), so a short list is a small card in the middle of
+    the board and not a large sheet with an empty lower half."""
+    if EDITS[sc['edit']].get('fit'):
+        for it, mine in zip(sc.get('items') or [], given):
+            if 'card' in it and 'h' not in mine and 'pos' not in mine:
+                it['h'] = max(360, card_need(it))
+    return sc
 
 
 def style_of(it):
@@ -70,7 +86,7 @@ EDITS = {
   'look': 'bìa hồ sơ màu be kẹp một ảnh; băng vàng tên nơi chốn ở góc ảnh, băng đỏ tình trạng ở dưới',
   'use': 'NƠI CHỐN: câu nói vụ án xảy ra ở đâu (thành phố, khu, ngôi nhà) và tình trạng của nó (chưa có lời giải)',
   'needs': {'card:folder': 1, 'photo': 1},
-  'slots': {'card': [{'pos': 'main'}], 'photo': [{'pos': 'in'}], 'tape': {'red': [{'pin': 'below-l'}], '*': [{'pin': 'tr'}, {'pin': 'bl'}]}},
+  'slots': {'card': [{'pos': 'main', 'h': 960}], 'photo': [{'pos': 'in'}], 'tape': {'red': [{'pin': 'below-l'}], '*': [{'pin': 'tr'}, {'pin': 'bl'}]}},   # low: the tab stays clear of the chapter head
   'recipe': {'at': 5, 'edit': 'where', 'why': '…', 'items': [
       {'card': 'folder', 'tab': 'AKTE · SETAGAYA', 'corner': 'TOKIO'}, {'photo': 'house', 'at': 5.05},
       {'tape': 'Setagaya, Tokio', 'at': '5/Tokio'}, {'tape': 'ungelöst', 'color': 'red', 'at': '5/ungelöst'}]}},
@@ -78,8 +94,8 @@ EDITS = {
   'vi': 'tờ giấy tên và tuổi', 'sample': '0:18–0:31',
   'look': 'tờ giấy kem: dòng đầu gõ ngày giờ, rồi từng dòng tên + tuổi gõ ra khi được đọc; mẩu giấy viết tay ở cuối',
   'use': 'NGƯỜI / NGÀY THÁNG: câu giới thiệu nạn nhân, những người liên quan, tên, tuổi, ngày xảy ra',
-  'needs': {'card:paper': 1}, 'most': {'pic': 0},
-  'slots': {'card': [{'pos': 'main'}], 'tape': {'*': [{'pin': 'bottom'}]}},
+  'needs': {'card:paper': 1}, 'most': {'pic': 0}, 'fit': True,
+  'slots': {'card': [{'pos': 'center'}], 'tape': {'*': [{'pin': 'below'}]}},
   'recipe': {'at': 6, 'edit': 'who', 'why': '…', 'items': [
       {'card': 'paper', 'head': 'NACHT 30./31.12.2000', 'rows': [['Mikio M.', '44 J.', '6/Mikio'], ['Yasuko', '41 J.', '6/Yasuko']],
        'note': {'text': 'im eigenen Haus getötet', 'at': '7/Haus'}}]}},
@@ -137,13 +153,13 @@ EDITS = {
   'look': 'một ảnh nhỏ ở góc trên; các con số lớn kiểu máy đánh chữ hiện lần lượt bên dưới, mỗi số một dòng chú thích',
   'use': 'CON SỐ: câu có số đếm, số lượng, tỉ lệ (130 chiếc, 12 người mua, 3 nghi phạm) — tối đa 3 số',
   'needs': {'stat': 1}, 'most': {'pic': 1},
-  'slots': {'pic': [{'pos': 'small'}], 'tape': {'*': [{'pin': 'tr', 'on': ['pic', 0]}]}}, 'all': {'sticker': {'w': 400}},
+  'slots': {'pic': [{'pos': 'small'}], 'tape': {'*': [{'pin': 'tl', 'on': ['pic', 0]}]}}, 'all': {'sticker': {'w': 400}},   # tl: a long tape runs to the right, never off the left edge
   'recipe': {'at': 14, 'edit': 'number', 'why': '…', 'items': [
       {'photo': 'sweat'}, {'stat': [['130', 'Stück in\nganz Japan', '14/130'], ['12', 'Käufer\nermittelt', '15/zwölf', 'yellow']]},
       {'tape': 'bis Ende 2025', 'color': 'white', 'at': '15/Ende'}]}},
  'object': {
   'vi': 'đồ vật cắt rời', 'sample': '1:38–1:49, 3:04–3:15',
-  'look': 'một đồ vật cắt rời viền giấy trắng nằm giữa bảng; băng trắng tên hoặc số đo ở dưới, băng vàng chi tiết ở trên',
+  'look': 'một đồ vật cắt rời viền giấy trắng nằm giữa bảng; băng trắng tên hoặc số đo ở dưới, băng vàng chi tiết ở trên. Chỉ hợp với vật có dáng riêng trên nền trơn (dao, túi, tràng hạt); vật vuông vức hoặc tối màu (máy móc, sách) cắt rời trông như mảnh giấy rách — dùng `detail` (ảnh in + vòng khoanh)',
   'use': 'MỘT ĐỒ VẬT: câu tả một vật chứng (con dao, cái túi, chiếc giày), tên gọi, kích thước của nó',
   'needs': {'sticker': 1, 'tape': 1}, 'most': {'pic': 1},
   'slots': {'sticker': [{'pos': 'center', 'w': 780}], 'tape': {'white': [{'pin': 'below'}], 'red': [{'pin': 'below'}], '*': [{'pin': 'above'}, {'pin': 'below-r'}]}},
@@ -200,8 +216,8 @@ EDITS = {
   'vi': 'thẻ nhỏ khoảng thời gian', 'sample': '3:28–3:31, 3:42–3:45',
   'look': 'một thẻ giấy nhỏ ở giữa: dòng đầu gõ chữ, một hai dòng kết quả (dòng quan trọng màu đỏ)',
   'use': 'KHOẢNG THỜI GIAN / TUỔI / ƯỚC TÍNH: câu nói bao nhiêu năm đã qua, tuổi lúc đó và bây giờ, một ước tính',
-  'needs': {'card:paper': 1}, 'most': {'pic': 0},
-  'slots': {'card': [{'pos': 'center', 'h': 520}], 'tape': {'*': [{'pin': 'below-r'}]}},
+  'needs': {'card:paper': 1}, 'most': {'pic': 0}, 'fit': True,
+  'slots': {'card': [{'pos': 'center'}], 'tape': {'*': [{'pin': 'below-r'}]}},
   'recipe': {'at': 26, 'edit': 'span', 'why': '…', 'items': [
       {'card': 'paper', 'head': 'ALTER DES TÄTERS', 'rows': [['damals', 'ca. 30', '26/damals'], {'l': 'heute', 'r': '50–60', 'color': 'red', 'at': '26/heute'}]},
       {'tape': 'nur eine Schätzung', 'at': '27/Presse'}]}},

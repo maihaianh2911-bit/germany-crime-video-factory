@@ -246,4 +246,10 @@ made = E.apply(E.EDITS['hook']['recipe'], 1, refuse); assert made['items'][0]['a
 own = copy.deepcopy(E.EDITS['hook']['recipe']); own['items'][0]['aspect'] = '3:2'; assert E.apply(own, 1, refuse)['items'][0]['aspect'] == '3:2'
 for name in ('detail', 'place'):
     t_ = E.EDITS[name]['slots']['tape']; assert t_['white'][0]['pin'] == t_['red'][0]['pin'] and t_['white'][0]['rot'] == t_['red'][0]['rot'], name
+# cards sized to their rows and centred (who, span); the folder of "where" starts under the chapter head
+import layout as L_
+small, big_ = (E.apply({'at': 1, 'edit': 'who', 'items': [{'card': 'paper', 'head': 'X', 'rows': [['a', '']] * k}]}, 1, refuse)['items'][0] for k in (2, 6))
+assert small['pos'] == 'center' and small['h'] == E.card_need(small) < big_['h'] and E.apply({'at': 1, 'edit': 'who', 'items': [{'card': 'paper', 'rows': [['a', '']], 'h': 900}]}, 1, refuse)['items'][0]['h'] == 900
+fold = E.apply(E.EDITS['where']['recipe'], 1, refuse)['items'][0]
+assert L_.card_box(fold['pos'], True, fold['h'])[1] > L_.HEAD_TOP['title'] + 120, 'the folder must start under the chapter head'
 print('crime unit checks OK')
