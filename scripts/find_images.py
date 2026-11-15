@@ -167,12 +167,13 @@ def commons(q, n):
     out = []
     for pg in sorted((d.get('query') or {}).get('pages', {}).values(), key=lambda x: x.get('index', 0)):
         ii = (pg.get('imageinfo') or [{}])[0]
-        if ii.get('mime') not in ('image/jpeg', 'image/png', 'image/tiff'): continue
+        svg = ii.get('mime') == 'image/svg+xml' and ii.get('thumburl')   # maps: Commons renders the SVG as PNG
+        if ii.get('mime') not in ('image/jpeg', 'image/png', 'image/tiff') and not svg: continue
         md = ii.get('extmetadata') or {}
         lic = strip((md.get('LicenseShortName') or {}).get('value'))
         if not OK.search(lic): continue
         url = ii.get('thumburl') or ii.get('url')
-        if 'unscaled' in url and (ii.get('width') or 0) > 1920:   # originals are rate-limited: take the standard 1920 px size
+        if not svg and 'unscaled' in url and (ii.get('width') or 0) > 1920:   # originals are rate-limited: take the standard 1920 px size
             u = ii['url'].split('?')[0]; url = u.replace('/commons/', '/commons/thumb/', 1) + '/1920px-' + u.rsplit('/', 1)[1]
         out.append(item('commons', pg['title'][5:], ii.get('descriptionurl'), url, lic,
                         (md.get('Artist') or {}).get('value'), (md.get('DateTimeOriginal') or {}).get('value'),
