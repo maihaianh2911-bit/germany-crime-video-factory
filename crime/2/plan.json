@@ -1,0 +1,2022 @@
+{
+ "duration": 131.622,
+ "lang": "de",
+ "title": "Der Fall Anneliese Michel",
+ "aiTag": "KI-Illustration",
+ "timeline": {
+  "labels": [
+   "1968",
+   "1975",
+   "1976",
+   "1978"
+  ],
+  "marks": [
+   5.107,
+   54.141,
+   71.799,
+   84.375,
+   117.021
+  ],
+  "idx": [
+   2,
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/2/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 5.037,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/scream.jpg",
+     "w": 1400,
+     "h": 928,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Filmszene / © Sony Pictures 2005",
+     "bleed": true,
+     "view": [
+      0.53857,
+      0.0,
+      0.91143,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/cross.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Richard Avery / CC0",
+     "bleed": true,
+     "view": [
+      0.125,
+      0.0,
+      0.875,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.65
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/grave.jpg",
+     "w": 1896,
+     "h": 1629,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Offenbacherjung / CC BY-SA 3.0",
+     "bleed": true,
+     "view": [
+      0.43836,
+      0.0,
+      0.92164,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 1.39
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/poster.jpg",
+     "w": 1200,
+     "h": 1800,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Filmszene / © Sony Pictures 2005",
+     "bleed": true,
+     "view": [
+      0.07812,
+      0.0,
+      0.92188,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 1.93
+    },
+    {
+     "type": "tape",
+     "text": "Krank – oder besessen?",
+     "color": "red",
+     "px": 73,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1.97,
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "EINE WAHRE GESCHICHTE",
+     "color": "white",
+     "px": 46,
+     "x": 540,
+     "y": 1120,
+     "align": "center",
+     "rot": 3.35,
+     "s": 0.65
+    },
+    {
+     "type": "tape",
+     "text": "FILM, 2005",
+     "color": "white",
+     "px": 50,
+     "x": 540,
+     "y": 1000,
+     "align": "center",
+     "rot": -2.9,
+     "s": 1.93
+    }
+   ],
+   "credit": "Foto: Filmszene / © Sony Pictures 2005 · Richard Avery / CC0 · Offenbacherjung / CC BY-SA 3.0",
+   "edit": "hook"
+  },
+  {
+   "s": 5.037,
+   "e": 10.303,
+   "scene": 2,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/map.jpg",
+     "w": 1688,
+     "h": 2000,
+     "box": [
+      140.0,
+      238.5,
+      800,
+      989.1
+     ],
+     "ai": false,
+     "rot": -1.6,
+     "credit": "NordNordWest / CC BY-SA 3.0 de",
+     "view": [
+      0.04,
+      0.01666,
+      0.96,
+      0.98334
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.2,
+       0.49137,
+       0.54,
+       0.84863
+      ],
+      "s": 7.247,
+      "e": 9.047
+     },
+     "rings": [
+      {
+       "s": 7.247,
+       "box": [
+        0.358,
+        0.663,
+        0.378,
+        0.683
+       ],
+       "shape": "pin",
+       "color": "yellow"
+      }
+     ],
+     "s": 5.037
+    },
+    {
+     "type": "tape",
+     "text": "KLINGENBERG AM MAIN",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 1301.3,
+     "align": "center",
+     "rot": -1,
+     "s": 7.707
+    },
+    {
+     "type": "tape",
+     "text": "23 Jahre",
+     "color": "yellow",
+     "px": 67,
+     "x": 956.0,
+     "y": 248.5,
+     "align": "right",
+     "rot": -1.0,
+     "s": 8.207
+    }
+   ],
+   "credit": "Foto: NordNordWest / CC BY-SA 3.0 de",
+   "edit": "detail"
+  },
+  {
+   "s": 10.303,
+   "e": 18.812,
+   "scene": 3,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/house.jpg",
+     "w": 1920,
+     "h": 1080,
+     "box": [
+      30.0,
+      422.5,
+      580,
+      326.2
+     ],
+     "ai": false,
+     "rot": -2.06,
+     "credit": "David Pfister-Senz / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01981,
+      1.0,
+      0.98019
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 10.303
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/room.jpg",
+     "w": 1920,
+     "h": 1362,
+     "box": [
+      485.0,
+      802.4,
+      560,
+      397.2
+     ],
+     "ai": false,
+     "rot": 1.69,
+     "credit": "Uncredited / Public domain",
+     "view": [
+      0.0,
+      0.01085,
+      1.0,
+      0.98915
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 15.939
+    },
+    {
+     "type": "tape",
+     "text": "MONATELANG",
+     "color": "white",
+     "px": 67,
+     "x": 320.0,
+     "y": 362.2,
+     "align": "center",
+     "rot": -2.56,
+     "s": 11.293
+    },
+    {
+     "type": "tape",
+     "text": "bedrückend",
+     "color": "red",
+     "px": 62,
+     "x": 765.0,
+     "y": 1267.8,
+     "align": "center",
+     "rot": 0.69,
+     "s": 17.599
+    }
+   ],
+   "credit": "Foto: David Pfister-Senz / CC BY-SA 4.0 · Uncredited / Public domain",
+   "edit": "pair"
+  },
+  {
+   "s": 18.812,
+   "e": 25.986,
+   "scene": 4,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/uher.jpg",
+     "w": 2000,
+     "h": 1859,
+     "box": [
+      140.0,
+      361.2,
+      800,
+      743.6
+     ],
+     "ai": false,
+     "rot": -1.02,
+     "credit": "Roscheider Hof Open Air Museum / CC0",
+     "view": [
+      0.0,
+      0.00138,
+      1.0,
+      0.99862
+     ],
+     "drift": 0.1,
+     "rings": [
+      {
+       "s": 20.262,
+       "box": [
+        0.12,
+        0.08,
+        0.88,
+        0.5
+       ],
+       "shape": "ellipse",
+       "color": "yellow"
+      }
+     ],
+     "s": 18.812
+    },
+    {
+     "type": "tape",
+     "text": "TONBAND",
+     "color": "white",
+     "px": 67,
+     "x": 160.0,
+     "y": 1178.5,
+     "align": "left",
+     "rot": -1,
+     "s": 20.262
+    },
+    {
+     "type": "tape",
+     "text": "erschütterte das Land",
+     "color": "red",
+     "px": 62,
+     "x": 160.0,
+     "y": 1261.0,
+     "align": "left",
+     "rot": -1,
+     "s": 23.562
+    }
+   ],
+   "credit": "Foto: Roscheider Hof Open Air Museum / CC0",
+   "edit": "detail"
+  },
+  {
+   "s": 25.986,
+   "e": 28.198,
+   "scene": 5,
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Anneliese Michel",
+    "mode": "mid",
+    "from": null,
+    "s": 25.986
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 28.198,
+   "e": 34.152,
+   "scene": 6,
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Anneliese Michel",
+    "mode": "top",
+    "from": "mid",
+    "s": 28.198
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/cross.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      171.1,
+      404.9,
+      737.9,
+      922.3
+     ],
+     "ai": false,
+     "rot": -2.03,
+     "credit": "Richard Avery / CC0",
+     "view": [
+      0.1,
+      0.04707,
+      0.9,
+      0.80293
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 28.198
+    },
+    {
+     "type": "tape",
+     "text": "Exorzismen",
+     "color": "yellow",
+     "px": 67,
+     "x": 155.1,
+     "y": 414.9,
+     "align": "left",
+     "rot": 1.0,
+     "s": 28.588
+    },
+    {
+     "type": "tape",
+     "text": "ÜBERNATÜRLICH?",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 1319.2,
+     "align": "center",
+     "rot": -1.6,
+     "s": 31.768
+    }
+   ],
+   "credit": "Foto: Richard Avery / CC0",
+   "edit": "question"
+  },
+  {
+   "s": 34.152,
+   "e": 40.598,
+   "scene": 7,
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Anneliese Michel",
+    "mode": "top",
+    "from": "top",
+    "s": 34.152
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/shadow.jpg",
+     "w": 947,
+     "h": 1400,
+     "box": [
+      196.1,
+      383.0,
+      687.7,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.51,
+     "credit": "Erik Börjesson / CC BY 2.5",
+     "view": [
+      0.0,
+      0.08289,
+      1.0,
+      0.61711
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 34.152
+    },
+    {
+     "type": "card",
+     "style": "lined",
+     "box": [
+      100.0,
+      953.9,
+      880,
+      505.1
+     ],
+     "rot": 1.08,
+     "head": "",
+     "rows": [
+      {
+       "l": "hörte ständig Stimmen",
+       "r": "",
+       "s": 35.882,
+       "color": ""
+      },
+      {
+       "l": "verstörende Gesichter",
+       "r": "",
+       "s": 38.052,
+       "color": ""
+      },
+      {
+       "l": "Schatten um sich",
+       "r": "",
+       "s": 39.072,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 34.152
+    }
+   ],
+   "credit": "Foto: Erik Börjesson / CC BY 2.5",
+   "edit": "actions"
+  },
+  {
+   "s": 40.598,
+   "e": 44.23,
+   "scene": 8,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/scream.jpg",
+     "w": 1400,
+     "h": 928,
+     "box": [
+      220.0,
+      380.7,
+      640,
+      731.4
+     ],
+     "ai": false,
+     "rot": -2.1,
+     "credit": "Filmszene / © Sony Pictures 2005",
+     "view": [
+      0.42164,
+      0.0,
+      0.99836,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 40.598
+    },
+    {
+     "type": "tape",
+     "text": "FILMSZENE",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 320.4,
+     "align": "center",
+     "rot": 2.1,
+     "s": 40.783
+    },
+    {
+     "type": "tape",
+     "text": "Stimme verändert",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1180.3,
+     "align": "center",
+     "rot": -1.6,
+     "s": 42.408
+    }
+   ],
+   "credit": "Foto: Filmszene / © Sony Pictures 2005",
+   "edit": "figure"
+  },
+  {
+   "s": 44.23,
+   "e": 48.704,
+   "scene": 9,
+   "head": null,
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      423.0,
+      860,
+      754
+     ],
+     "rot": -0.89,
+     "head": "DIE „WESEN“ IN IHR",
+     "rows": [
+      {
+       "l": "Luzifer",
+       "r": "",
+       "s": 45.5,
+       "color": ""
+      },
+      {
+       "l": "Judas",
+       "r": "",
+       "s": 46.36,
+       "color": ""
+      },
+      {
+       "l": "Nero",
+       "r": "",
+       "s": 46.96,
+       "color": ""
+      },
+      {
+       "l": "Kain",
+       "r": "",
+       "s": 47.44,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "… und andere",
+      "s": 47.8
+     },
+     "stamp": null,
+     "s": 44.23
+    }
+   ],
+   "credit": "",
+   "edit": "who"
+  },
+  {
+   "s": 48.704,
+   "e": 61.704,
+   "scene": 10,
+   "head": null,
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      300.0,
+      900,
+      1000
+     ],
+     "rot": -0.89,
+     "head": "ZWEI ERKLÄRUNGEN",
+     "rows": [
+      {
+       "l": "Priester: Besessenheit",
+       "r": "",
+       "s": 49.534,
+       "color": ""
+      },
+      {
+       "l": "≠",
+       "r": "",
+       "s": 53.741,
+       "color": "red"
+      },
+      {
+       "l": "Ärzte: Epilepsie",
+       "r": "",
+       "s": 56.181,
+       "color": ""
+      },
+      {
+       "l": "+ schwere Depression",
+       "r": "",
+       "s": 60.576,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": {
+      "text": "DIAGNOSE\nJAHRE ZUVOR",
+      "s": 57.781
+     },
+     "s": 48.704
+    }
+   ],
+   "credit": "",
+   "edit": "compare"
+  },
+  {
+   "s": 61.704,
+   "e": 67.041,
+   "scene": 11,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/eeg.jpg",
+     "w": 1338,
+     "h": 1400,
+     "box": [
+      219.8,
+      143.4,
+      640.3,
+      670.0
+     ],
+     "ai": false,
+     "rot": -0.92,
+     "credit": "CC BY-SA 2.0",
+     "view": [
+      0.00103,
+      0.0,
+      0.99897,
+      1.0
+     ],
+     "drift": 0,
+     "rings": [],
+     "s": 61.704
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/pills.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      260.0,
+      873.7,
+      560,
+      522.7
+     ],
+     "ai": false,
+     "rot": 2.01,
+     "credit": "BuhaM / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.30129,
+      1.0,
+      0.99871
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 64.094
+    },
+    {
+     "type": "tape",
+     "text": "MEDIKAMENTE",
+     "color": "white",
+     "px": 67,
+     "x": 836.0,
+     "y": 1372.4,
+     "align": "right",
+     "rot": -2.14,
+     "s": 64.094
+    },
+    {
+     "type": "tape",
+     "text": "Symptome blieben",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1464.6,
+     "align": "center",
+     "rot": 1.57,
+     "s": 65.554
+    }
+   ],
+   "credit": "Foto: CC BY-SA 2.0 · BuhaM / CC BY-SA 4.0",
+   "edit": "fact"
+  },
+  {
+   "s": 67.041,
+   "e": 71.729,
+   "scene": 12,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/candles.jpg",
+     "w": 1920,
+     "h": 1609,
+     "box": [
+      150.0,
+      216.9,
+      780,
+      522.9
+     ],
+     "ai": false,
+     "rot": -2.59,
+     "credit": "Dudva / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.20734,
+      1.0,
+      0.99266
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 67.041
+    },
+    {
+     "type": "tape",
+     "text": "IMMER MEHR",
+     "color": "white",
+     "px": 67,
+     "x": 170.0,
+     "y": 813.5,
+     "align": "left",
+     "rot": -1,
+     "s": 69.831
+    },
+    {
+     "type": "tape",
+     "text": "auf die Kirche",
+     "color": "red",
+     "px": 62,
+     "x": 170.0,
+     "y": 896.0,
+     "align": "left",
+     "rot": -1,
+     "s": 70.791
+    }
+   ],
+   "credit": "Foto: Dudva / CC BY-SA 3.0",
+   "edit": "place"
+  },
+  {
+   "s": 71.729,
+   "e": 81.336,
+   "scene": 13,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/rite.jpg",
+     "w": 1337,
+     "h": 2000,
+     "box": [
+      176.7,
+      143.4,
+      286.7,
+      428.8
+     ],
+     "ai": false,
+     "rot": -2.03,
+     "credit": "MICHI abba / CC BY-SA 4.0",
+     "view": [
+      0.01723,
+      0.0,
+      0.98277,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 71.729
+    },
+    {
+     "type": "stat",
+     "x": 110,
+     "y": 632.2,
+     "rows": [
+      {
+       "n": "1975–76",
+       "text": "",
+       "s": 71.799,
+       "color": "yellow"
+      },
+      {
+       "n": "60+",
+       "text": "Exorzismen",
+       "s": 76.839,
+       "color": "white"
+      }
+     ],
+     "s": 71.729
+    },
+    {
+     "type": "tape",
+     "text": "offiziell genehmigt",
+     "color": "red",
+     "px": 62,
+     "x": 540,
+     "y": 1300,
+     "align": "center",
+     "rot": -3.0,
+     "s": 78.499
+    }
+   ],
+   "credit": "Foto: MICHI abba / CC BY-SA 4.0",
+   "edit": "number"
+  },
+  {
+   "s": 81.336,
+   "e": 88.731,
+   "scene": 14,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/bed.jpg",
+     "w": 1400,
+     "h": 932,
+     "box": [
+      150.0,
+      218.8,
+      780,
+      519.3
+     ],
+     "ai": false,
+     "rot": -0.81,
+     "credit": "Upplands Museum / CC0",
+     "view": [
+      0.0,
+      0.00931,
+      1.0,
+      0.99069
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 81.336
+    },
+    {
+     "type": "tape",
+     "text": "Körper verfiel",
+     "color": "yellow",
+     "px": 67,
+     "x": 170.0,
+     "y": 811.8,
+     "align": "left",
+     "rot": -1.5,
+     "s": 81.506
+    },
+    {
+     "type": "tape",
+     "text": "aß weniger",
+     "color": "yellow",
+     "px": 67,
+     "x": 910.0,
+     "y": 811.8,
+     "align": "right",
+     "rot": 1.5,
+     "s": 82.786
+    },
+    {
+     "type": "tape",
+     "text": "schwer unterernährt",
+     "color": "red",
+     "px": 62,
+     "x": 170.0,
+     "y": 894.3,
+     "align": "left",
+     "rot": -1.5,
+     "s": 87.356
+    }
+   ],
+   "credit": "Foto: Upplands Museum / CC0",
+   "edit": "list"
+  },
+  {
+   "s": 88.731,
+   "e": 98.327,
+   "scene": 15,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/grave.jpg",
+     "w": 1896,
+     "h": 1629,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Offenbacherjung / CC BY-SA 3.0",
+     "bleed": true,
+     "view": [
+      0.43836,
+      0.0,
+      0.92164,
+      1.0
+     ],
+     "drift": 0,
+     "rings": [
+      {
+       "s": 91.621,
+       "box": [
+        0.56,
+        0.78,
+        0.9,
+        0.93
+       ],
+       "shape": "rect",
+       "color": "yellow"
+      }
+     ],
+     "s": 88.731
+    },
+    {
+     "type": "tape",
+     "text": "JULI 1976",
+     "color": "white",
+     "px": 67,
+     "x": 540,
+     "y": 300,
+     "align": "center",
+     "rot": -1,
+     "s": 88.939
+    },
+    {
+     "type": "tape",
+     "text": "nur 23 Jahre alt",
+     "color": "red",
+     "px": 70,
+     "x": 540,
+     "y": 1330,
+     "align": "center",
+     "rot": -1,
+     "s": 96.048
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: Offenbacherjung / CC BY-SA 3.0",
+   "edit": "detail"
+  },
+  {
+   "s": 98.327,
+   "e": 101.685,
+   "scene": 16,
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Der Prozess",
+    "mode": "mid",
+    "from": null,
+    "s": 98.327
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 101.685,
+   "e": 106.608,
+   "scene": 17,
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Der Prozess",
+    "mode": "top",
+    "from": "mid",
+    "s": 101.685
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "folder",
+     "box": [
+      90.0,
+      441.0,
+      900,
+      960
+     ],
+     "rot": -0.43,
+     "head": "",
+     "rows": [],
+     "tab": "AKTE · ANKLAGE",
+     "corner": "JUSTIZ",
+     "note": null,
+     "stamp": null,
+     "s": 101.685
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/court.jpg",
+     "w": 1920,
+     "h": 1272,
+     "box": [
+      165.0,
+      605.4,
+      750,
+      496.9
+     ],
+     "ai": false,
+     "rot": 2.37,
+     "credit": "Tilman2007 / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.00985,
+      1.0,
+      0.99015
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 102.031
+    },
+    {
+     "type": "tape",
+     "text": "Eltern + 2 Priester",
+     "color": "yellow",
+     "px": 67,
+     "x": 931.0,
+     "y": 615.4,
+     "align": "right",
+     "rot": -3.39,
+     "s": 101.955
+    },
+    {
+     "type": "tape",
+     "text": "fahrlässige Tötung",
+     "color": "red",
+     "px": 62,
+     "x": 185.0,
+     "y": 1170.5,
+     "align": "left",
+     "rot": 1.4,
+     "s": 104.215
+    }
+   ],
+   "credit": "Foto: Tilman2007 / CC BY-SA 3.0",
+   "edit": "where"
+  },
+  {
+   "s": 106.608,
+   "e": 116.811,
+   "scene": 18,
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Der Prozess",
+    "mode": "top",
+    "from": "top",
+    "s": 106.608
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      518.0,
+      860,
+      806
+     ],
+     "rot": -0.89,
+     "head": "VOR GERICHT",
+     "rows": [
+      {
+       "l": "Anklage",
+       "r": "",
+       "s": 106.798,
+       "color": "red"
+      },
+      {
+       "l": "Behandlung hätte",
+       "r": "",
+       "s": 108.618,
+       "color": ""
+      },
+      {
+       "l": "sie gerettet",
+       "r": "",
+       "s": 110.038,
+       "color": ""
+      },
+      {
+       "l": "Verteidigung",
+       "r": "",
+       "s": 111.535,
+       "color": "red"
+      },
+      {
+       "l": "echte geistliche",
+       "r": "",
+       "s": 114.035,
+       "color": ""
+      },
+      {
+       "l": "Notlage",
+       "r": "",
+       "s": 115.115,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 106.608
+    }
+   ],
+   "credit": "",
+   "edit": "who"
+  },
+  {
+   "s": 116.811,
+   "e": 123.148,
+   "scene": 19,
+   "head": null,
+   "items": [
+    {
+     "type": "tape",
+     "text": "ALLE VIER SCHULDIG",
+     "color": "red",
+     "px": 88,
+     "x": 540.0,
+     "y": 800.0,
+     "align": "center",
+     "rot": -2.86,
+     "s": 117.901
+    },
+    {
+     "type": "tape",
+     "text": "Hilfe war notwendig",
+     "color": "white",
+     "px": 67,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 3.4,
+     "s": 121.517
+    }
+   ],
+   "hush": true,
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 123.148,
+   "e": 127.478,
+   "scene": 20,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/2/img/grave.jpg",
+     "w": 1896,
+     "h": 1629,
+     "box": [
+      80.0,
+      159.7,
+      430,
+      369.4
+     ],
+     "ai": false,
+     "rot": -2.59,
+     "credit": "Offenbacherjung / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.00577,
+      1.0,
+      0.99423
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 123.148
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/house.jpg",
+     "w": 1920,
+     "h": 1080,
+     "box": [
+      570.0,
+      263.7,
+      430,
+      241.9
+     ],
+     "ai": false,
+     "rot": 2.24,
+     "credit": "David Pfister-Senz / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.02703,
+      1.0,
+      0.97297
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 123.705
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/cross.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      139.2,
+      599.0,
+      321.6,
+      402.0
+     ],
+     "ai": false,
+     "rot": -2.19,
+     "credit": "Richard Avery / CC0",
+     "view": [
+      0.1,
+      0.04285,
+      0.9,
+      0.80715
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 124.143
+    },
+    {
+     "type": "photo",
+     "src": "crime/2/img/court.jpg",
+     "w": 1920,
+     "h": 1272,
+     "box": [
+      565.0,
+      697.8,
+      430,
+      284.9
+     ],
+     "ai": false,
+     "rot": 1.56,
+     "credit": "Tilman2007 / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.01769,
+      1.0,
+      0.98231
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 124.58
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      180.0,
+      1080.0,
+      720,
+      370
+     ],
+     "rot": 0.76,
+     "head": "DER FALL MICHEL",
+     "rows": [
+      {
+       "l": "Debatte",
+       "r": "bundesweit",
+       "s": 124.138,
+       "color": ""
+      },
+      {
+       "l": "bis heute",
+       "r": "diskutiert",
+       "s": 126.258,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 124.838
+    },
+    {
+     "type": "string",
+     "a": [
+      295.0,
+      185.7
+     ],
+     "b": [
+      785.0,
+      287.9
+     ],
+     "s": 123.924
+    },
+    {
+     "type": "string",
+     "a": [
+      785.0,
+      287.9
+     ],
+     "b": [
+      780.0,
+      723.8
+     ],
+     "s": 124.58
+    },
+    {
+     "type": "string",
+     "a": [
+      300.0,
+      625.0
+     ],
+     "b": [
+      780.0,
+      723.8
+     ],
+     "s": 124.799
+    }
+   ],
+   "credit": "Foto: Offenbacherjung / CC BY-SA 3.0 · David Pfister-Senz / CC BY-SA 4.0 · Richard Avery / CC0 · Tilman2007 / CC BY-SA 3.0",
+   "edit": "ending"
+  },
+  {
+   "s": 127.478,
+   "e": 131.622,
+   "scene": 21,
+   "head": null,
+   "items": [
+    {
+     "type": "tape",
+     "text": "Krank – oder besessen?",
+     "color": "red",
+     "px": 72,
+     "x": 540,
+     "y": 800,
+     "align": "center",
+     "rot": -2.19,
+     "s": 127.478
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare.",
+     "color": "yellow",
+     "px": 56,
+     "x": 540,
+     "y": 950,
+     "align": "center",
+     "rot": 3.29,
+     "s": 127.62
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 1.36,
+   "text": "Das ist die wahre Geschichte",
+   "line": 1
+  },
+  {
+   "s": 1.36,
+   "e": 3.38,
+   "text": "hinter dem Film „Der Exorzismus",
+   "line": 1
+  },
+  {
+   "s": 3.38,
+   "e": 5.057,
+   "text": "von Emily Rose“.",
+   "line": 1
+  },
+  {
+   "s": 5.077,
+   "e": 7.677,
+   "text": "1976 starb in Deutschland",
+   "line": 2
+  },
+  {
+   "s": 7.677,
+   "e": 10.323,
+   "text": "eine 23-jährige Frau.",
+   "line": 2
+  },
+  {
+   "s": 10.343,
+   "e": 11.923,
+   "text": "Zuvor hatte sie monatelang",
+   "line": 3
+  },
+  {
+   "s": 11.923,
+   "e": 13.603,
+   "text": "religiöse Rituale erlebt,",
+   "line": 3
+  },
+  {
+   "s": 13.603,
+   "e": 15.729,
+   "text": "in ihrem eigenen Zuhause.",
+   "line": 3
+  },
+  {
+   "s": 15.749,
+   "e": 17.149,
+   "text": "Das Zimmer war klein,",
+   "line": 4
+  },
+  {
+   "s": 17.149,
+   "e": 18.832,
+   "text": "die Stimmung bedrückend.",
+   "line": 4
+  },
+  {
+   "s": 18.852,
+   "e": 19.812,
+   "text": "Die Sitzungen wurden",
+   "line": 5
+  },
+  {
+   "s": 19.812,
+   "e": 21.933,
+   "text": "auf Tonband aufgenommen.",
+   "line": 5
+  },
+  {
+   "s": 21.953,
+   "e": 23.532,
+   "text": "Was darauf zu hören war,",
+   "line": 6
+  },
+  {
+   "s": 23.532,
+   "e": 26.006,
+   "text": "erschütterte später das ganze Land.",
+   "line": 6
+  },
+  {
+   "s": 26.026,
+   "e": 28.218,
+   "text": "Ihr Name war Anneliese Michel.",
+   "line": 7
+  },
+  {
+   "s": 28.238,
+   "e": 30.178,
+   "text": "Als die Exorzismen begannen,",
+   "line": 8
+  },
+  {
+   "s": 30.178,
+   "e": 31.738,
+   "text": "glaubte ihre Familie, etwas",
+   "line": 8
+  },
+  {
+   "s": 31.738,
+   "e": 34.172,
+   "text": "Übernatürliches habe sie ergriffen.",
+   "line": 8
+  },
+  {
+   "s": 34.192,
+   "e": 36.802,
+   "text": "Sie sagte, sie höre ständig Stimmen.",
+   "line": 9
+  },
+  {
+   "s": 36.822,
+   "e": 38.702,
+   "text": "Sie sah verstörende Gesichter",
+   "line": 10
+  },
+  {
+   "s": 38.702,
+   "e": 40.618,
+   "text": "und Schatten um sich herum.",
+   "line": 10
+  },
+  {
+   "s": 40.638,
+   "e": 41.938,
+   "text": "Bei den Ritualen soll",
+   "line": 11
+  },
+  {
+   "s": 41.938,
+   "e": 44.25,
+   "text": "sich ihre Stimme verändert haben.",
+   "line": 11
+  },
+  {
+   "s": 44.27,
+   "e": 46.33,
+   "text": "Die Wesen in sich nannte sie Luzifer,",
+   "line": 12
+  },
+  {
+   "s": 46.33,
+   "e": 48.724,
+   "text": "Judas, Nero, Kain und andere.",
+   "line": 12
+  },
+  {
+   "s": 48.744,
+   "e": 51.164,
+   "text": "Die beteiligten Priester sahen darin",
+   "line": 13
+  },
+  {
+   "s": 51.164,
+   "e": 53.691,
+   "text": "Zeichen dämonischer Besessenheit.",
+   "line": 13
+  },
+  {
+   "s": 53.711,
+   "e": 54.351,
+   "text": "Doch schon Jahre",
+   "line": 14
+  },
+  {
+   "s": 54.351,
+   "e": 56.151,
+   "text": "zuvor hatten Ärzte bei ihr",
+   "line": 14
+  },
+  {
+   "s": 56.151,
+   "e": 59.266,
+   "text": "Schläfenlappen-Epilepsie festgestellt.",
+   "line": 14
+  },
+  {
+   "s": 59.286,
+   "e": 61.724,
+   "text": "Dazu kam eine schwere Depression.",
+   "line": 15
+  },
+  {
+   "s": 61.744,
+   "e": 63.584,
+   "text": "Sie war in ärztlicher Behandlung",
+   "line": 16
+  },
+  {
+   "s": 63.584,
+   "e": 65.084,
+   "text": "und nahm Medikamente,",
+   "line": 16
+  },
+  {
+   "s": 65.084,
+   "e": 67.061,
+   "text": "doch die Symptome blieben.",
+   "line": 16
+  },
+  {
+   "s": 67.081,
+   "e": 68.761,
+   "text": "Als es ihr schlechter ging,",
+   "line": 17
+  },
+  {
+   "s": 68.761,
+   "e": 69.801,
+   "text": "setzte die Familie",
+   "line": 17
+  },
+  {
+   "s": 69.801,
+   "e": 71.749,
+   "text": "immer mehr auf die Kirche.",
+   "line": 17
+  },
+  {
+   "s": 71.769,
+   "e": 76.489,
+   "text": "Zwischen 1975 und 1976 wurden",
+   "line": 18
+  },
+  {
+   "s": 76.489,
+   "e": 78.469,
+   "text": "über 60 Exorzismen",
+   "line": 18
+  },
+  {
+   "s": 78.469,
+   "e": 81.356,
+   "text": "offiziell genehmigt und durchgeführt.",
+   "line": 18
+  },
+  {
+   "s": 81.376,
+   "e": 82.636,
+   "text": "Ihr Körper verfiel.",
+   "line": 19
+  },
+  {
+   "s": 82.636,
+   "e": 84.193,
+   "text": "Sie aß immer weniger.",
+   "line": 19
+  },
+  {
+   "s": 84.213,
+   "e": 85.447,
+   "text": "Im Sommer 1976",
+   "line": 20
+  },
+  {
+   "s": 85.447,
+   "e": 88.751,
+   "text": "war sie schwer unterernährt.",
+   "line": 20
+  },
+  {
+   "s": 88.771,
+   "e": 91.591,
+   "text": "Im Juli 1976 starb",
+   "line": 21
+  },
+  {
+   "s": 91.591,
+   "e": 93.81,
+   "text": "Anneliese Michel an Unterernährung",
+   "line": 21
+  },
+  {
+   "s": 93.81,
+   "e": 95.638,
+   "text": "und Flüssigkeitsmangel.",
+   "line": 21
+  },
+  {
+   "s": 95.658,
+   "e": 98.347,
+   "text": "Sie wurde nur 23 Jahre alt.",
+   "line": 22
+  },
+  {
+   "s": 98.367,
+   "e": 100.027,
+   "text": "Nach ihrem Tod beschäftigte",
+   "line": 23
+  },
+  {
+   "s": 100.027,
+   "e": 101.705,
+   "text": "der Fall die Justiz.",
+   "line": 23
+  },
+  {
+   "s": 101.725,
+   "e": 103.185,
+   "text": "Ihre Eltern und die beiden",
+   "line": 24
+  },
+  {
+   "s": 103.185,
+   "e": 104.925,
+   "text": "Priester wurden wegen fahrlässiger",
+   "line": 24
+  },
+  {
+   "s": 104.925,
+   "e": 106.628,
+   "text": "Tötung angeklagt.",
+   "line": 24
+  },
+  {
+   "s": 106.648,
+   "e": 109.068,
+   "text": "Die Anklage sagte: Mit ärztlicher",
+   "line": 25
+  },
+  {
+   "s": 109.068,
+   "e": 111.365,
+   "text": "Behandlung hätte sie überleben können.",
+   "line": 25
+  },
+  {
+   "s": 111.385,
+   "e": 113.085,
+   "text": "Die Verteidigung erklärte,",
+   "line": 26
+  },
+  {
+   "s": 113.085,
+   "e": 114.425,
+   "text": "sie hätten an eine echte",
+   "line": 26
+  },
+  {
+   "s": 114.425,
+   "e": 116.831,
+   "text": "geistliche Notlage geglaubt.",
+   "line": 26
+  },
+  {
+   "s": 116.851,
+   "e": 119.487,
+   "text": "Das Gericht sprach alle vier schuldig.",
+   "line": 27
+  },
+  {
+   "s": 119.507,
+   "e": 121.227,
+   "text": "Ärztliche Hilfe sei verfügbar",
+   "line": 28
+  },
+  {
+   "s": 121.227,
+   "e": 123.168,
+   "text": "und notwendig gewesen.",
+   "line": 28
+  },
+  {
+   "s": 123.188,
+   "e": 124.808,
+   "text": "Der Fall löste eine bundesweite",
+   "line": 29
+  },
+  {
+   "s": 124.808,
+   "e": 126.228,
+   "text": "Debatte aus und wird",
+   "line": 29
+  },
+  {
+   "s": 126.228,
+   "e": 128.442,
+   "text": "bis heute diskutiert.",
+   "line": 29
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/2/voice/line_01.mp3"
+  },
+  {
+   "s": 5.157,
+   "src": "crime/2/voice/line_02.mp3"
+  },
+  {
+   "s": 10.423,
+   "src": "crime/2/voice/line_03.mp3"
+  },
+  {
+   "s": 15.829,
+   "src": "crime/2/voice/line_04.mp3"
+  },
+  {
+   "s": 18.932,
+   "src": "crime/2/voice/line_05.mp3"
+  },
+  {
+   "s": 22.033,
+   "src": "crime/2/voice/line_06.mp3"
+  },
+  {
+   "s": 26.106,
+   "src": "crime/2/voice/line_07.mp3"
+  },
+  {
+   "s": 28.318,
+   "src": "crime/2/voice/line_08.mp3"
+  },
+  {
+   "s": 34.272,
+   "src": "crime/2/voice/line_09.mp3"
+  },
+  {
+   "s": 36.902,
+   "src": "crime/2/voice/line_10.mp3"
+  },
+  {
+   "s": 40.718,
+   "src": "crime/2/voice/line_11.mp3"
+  },
+  {
+   "s": 44.35,
+   "src": "crime/2/voice/line_12.mp3"
+  },
+  {
+   "s": 48.824,
+   "src": "crime/2/voice/line_13.mp3"
+  },
+  {
+   "s": 53.791,
+   "src": "crime/2/voice/line_14.mp3"
+  },
+  {
+   "s": 59.366,
+   "src": "crime/2/voice/line_15.mp3"
+  },
+  {
+   "s": 61.824,
+   "src": "crime/2/voice/line_16.mp3"
+  },
+  {
+   "s": 67.161,
+   "src": "crime/2/voice/line_17.mp3"
+  },
+  {
+   "s": 71.849,
+   "src": "crime/2/voice/line_18.mp3"
+  },
+  {
+   "s": 81.456,
+   "src": "crime/2/voice/line_19.mp3"
+  },
+  {
+   "s": 84.293,
+   "src": "crime/2/voice/line_20.mp3"
+  },
+  {
+   "s": 88.851,
+   "src": "crime/2/voice/line_21.mp3"
+  },
+  {
+   "s": 95.738,
+   "src": "crime/2/voice/line_22.mp3"
+  },
+  {
+   "s": 98.447,
+   "src": "crime/2/voice/line_23.mp3"
+  },
+  {
+   "s": 101.805,
+   "src": "crime/2/voice/line_24.mp3"
+  },
+  {
+   "s": 106.728,
+   "src": "crime/2/voice/line_25.mp3"
+  },
+  {
+   "s": 111.465,
+   "src": "crime/2/voice/line_26.mp3"
+  },
+  {
+   "s": 116.931,
+   "src": "crime/2/voice/line_27.mp3"
+  },
+  {
+   "s": 119.587,
+   "src": "crime/2/voice/line_28.mp3"
+  },
+  {
+   "s": 123.268,
+   "src": "crime/2/voice/line_29.mp3"
+  }
+ ],
+ "music": "crime/2/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ],
+ "sfx": "crime/2/sfx.wav",
+ "sfxVolume": 0.6
+}

@@ -1,0 +1,2124 @@
+{
+ "duration": 131.637,
+ "lang": "de",
+ "title": "Der Fall Miyazawa",
+ "aiTag": "KI-Illustration",
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/1/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 14.065,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/site.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      140.0,
+      466.3,
+      800,
+      533.3
+     ],
+     "ai": false,
+     "rot": -0.87,
+     "credit": "Wikimedia Commons / CC BY 3.0",
+     "view": [
+      0.0,
+      0.0091,
+      1.0,
+      0.9909
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "Blut",
+     "color": "red",
+     "px": 54,
+     "x": 124.0,
+     "y": 975.6,
+     "align": "left",
+     "rot": 2.96,
+     "s": 4.933
+    },
+    {
+     "type": "tape",
+     "text": "DNA",
+     "color": "yellow",
+     "px": 58,
+     "x": 956.0,
+     "y": 975.6,
+     "align": "right",
+     "rot": -1.56,
+     "s": 5.513
+    },
+    {
+     "type": "tape",
+     "text": "Fingerabdrücke",
+     "color": "yellow",
+     "px": 58,
+     "x": 124.0,
+     "y": 1058.0,
+     "align": "left",
+     "rot": 1.33,
+     "s": 5.803
+    },
+    {
+     "type": "tape",
+     "text": "Kleidung",
+     "color": "yellow",
+     "px": 58,
+     "x": 956.0,
+     "y": 1058.0,
+     "align": "right",
+     "rot": -1.55,
+     "s": 6.769
+    },
+    {
+     "type": "tape",
+     "text": "Schuhspuren",
+     "color": "yellow",
+     "px": 58,
+     "x": 124.0,
+     "y": 1140.3,
+     "align": "left",
+     "rot": 1.72,
+     "s": 7.328
+    },
+    {
+     "type": "tape",
+     "text": "Tatwaffe",
+     "color": "yellow",
+     "px": 58,
+     "x": 956.0,
+     "y": 1140.3,
+     "align": "right",
+     "rot": -2.15,
+     "s": 8.693
+    },
+    {
+     "type": "tape",
+     "text": "25+ JAHRE",
+     "color": "white",
+     "px": 58,
+     "x": 540.0,
+     "y": 474.3,
+     "align": "center",
+     "rot": 1.08,
+     "s": 10.475
+    }
+   ],
+   "credit": "Foto: Wikimedia Commons / CC BY 3.0"
+  },
+  {
+   "s": 14.065,
+   "e": 18.75,
+   "scene": 2,
+   "head": {
+    "kicker": "AKTE 2000",
+    "title": "Familie Miyazawa",
+    "mode": "mid",
+    "from": null,
+    "s": 14.065
+   },
+   "items": [],
+   "credit": ""
+  },
+  {
+   "s": 18.75,
+   "e": 25.901,
+   "scene": 3,
+   "head": {
+    "kicker": "AKTE 2000",
+    "title": "Familie Miyazawa",
+    "mode": "top",
+    "from": "mid",
+    "s": 18.75
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "folder",
+     "box": [
+      90.0,
+      388.5,
+      900,
+      1065.1
+     ],
+     "rot": -0.43,
+     "head": "",
+     "rows": [],
+     "tab": "AKTE · SETAGAYA",
+     "corner": "TOKIO",
+     "note": null,
+     "stamp": null,
+     "s": 18.75
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/house.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      165.0,
+      565.2,
+      750,
+      562.5
+     ],
+     "ai": false,
+     "rot": 2.24,
+     "credit": "Thirteen-fri / CC0",
+     "view": [
+      0.0,
+      0.00646,
+      1.0,
+      0.99354
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 19.208
+    },
+    {
+     "type": "tape",
+     "text": "Setagaya, Tokio",
+     "color": "yellow",
+     "px": 58,
+     "x": 931.0,
+     "y": 575.2,
+     "align": "right",
+     "rot": -1.24,
+     "s": 22.7
+    },
+    {
+     "type": "tape",
+     "text": "4 Todesopfer",
+     "color": "red",
+     "px": 54,
+     "x": 185.0,
+     "y": 1187.1,
+     "align": "left",
+     "rot": 3.4,
+     "s": 24.74
+    }
+   ],
+   "credit": "Foto: Thirteen-fri / CC0"
+  },
+  {
+   "s": 25.901,
+   "e": 33.005,
+   "scene": 4,
+   "head": {
+    "kicker": "AKTE 2000",
+    "title": "Familie Miyazawa",
+    "mode": "top",
+    "from": "top",
+    "s": 25.901
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      388.5,
+      900,
+      1065.1
+     ],
+     "rot": -0.89,
+     "head": "NACHT 30./31.12.2000",
+     "rows": [
+      {
+       "l": "Mikio Miyazawa",
+       "r": "44 J.",
+       "s": 25.971,
+       "color": ""
+      },
+      {
+       "l": "Yasuko",
+       "r": "41 J.",
+       "s": 28.222,
+       "color": ""
+      },
+      {
+       "l": "Niina",
+       "r": "8 J.",
+       "s": 30.549,
+       "color": ""
+      },
+      {
+       "l": "Rei",
+       "r": "6 J.",
+       "s": 31.612,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "im eigenen Haus",
+      "s": 31.719
+     },
+     "stamp": null,
+     "s": 25.901
+    }
+   ],
+   "credit": ""
+  },
+  {
+   "s": 33.005,
+   "e": 37.537,
+   "scene": 5,
+   "head": null,
+   "items": [
+    {
+     "type": "sticker",
+     "src": "crime/1/img/dna.png",
+     "w": 1288,
+     "h": 629,
+     "box": [
+      160.0,
+      560.8,
+      760,
+      371.1
+     ],
+     "ai": false,
+     "rot": -6,
+     "credit": "Jerome Walker / Public domain",
+     "s": 33.005
+    },
+    {
+     "type": "tape",
+     "text": "biologische Identität",
+     "color": "red",
+     "px": 54,
+     "x": 540.0,
+     "y": 991.3,
+     "align": "center",
+     "rot": 2.77,
+     "s": 35.675
+    }
+   ],
+   "credit": "Foto: Jerome Walker / Public domain"
+  },
+  {
+   "s": 37.537,
+   "e": 42.251,
+   "scene": 6,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/centri.jpg",
+     "w": 1400,
+     "h": 933,
+     "box": [
+      150.0,
+      218.5,
+      780,
+      519.8
+     ],
+     "ai": false,
+     "rot": -1.26,
+     "credit": "Goleisureintl / CC BY 4.0",
+     "view": [
+      0.0,
+      0.00933,
+      1.0,
+      0.99067
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 37.537
+    },
+    {
+     "type": "tape",
+     "text": "an der Hand verletzt",
+     "color": "yellow",
+     "px": 58,
+     "x": 134.0,
+     "y": 228.5,
+     "align": "left",
+     "rot": 1.27,
+     "s": 38.587
+    },
+    {
+     "type": "tape",
+     "text": "Blutgruppe A",
+     "color": "red",
+     "px": 54,
+     "x": 910.0,
+     "y": 797.7,
+     "align": "right",
+     "rot": -0.69,
+     "s": 39.486
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/tubes.jpg",
+     "w": 1920,
+     "h": 1707,
+     "box": [
+      260.0,
+      886.1,
+      560,
+      497.9
+     ],
+     "ai": false,
+     "rot": 2.24,
+     "credit": "Frankincense Diala / CC0",
+     "view": [
+      0.0,
+      0.00326,
+      1.0,
+      0.99674
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 40.407
+    },
+    {
+     "type": "tape",
+     "text": "DNA gesichert",
+     "color": "white",
+     "px": 58,
+     "x": 836.0,
+     "y": 1360.0,
+     "align": "right",
+     "rot": -1.8,
+     "s": 41.167
+    }
+   ],
+   "credit": "Foto: Goleisureintl / CC BY 4.0 · Frankincense Diala / CC0"
+  },
+  {
+   "s": 42.251,
+   "e": 46.875,
+   "scene": 7,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/finger.jpg",
+     "w": 1120,
+     "h": 1400,
+     "box": [
+      30.0,
+      223.1,
+      580,
+      725.0
+     ],
+     "ai": false,
+     "rot": -2.49,
+     "credit": "Saurabh R. Patil / CC BY-SA 3.0",
+     "view": [
+      0.00502,
+      0.0,
+      0.99498,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 42.251
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/sole.jpg",
+     "w": 1920,
+     "h": 956,
+     "box": [
+      485.0,
+      845.4,
+      560,
+      311.1
+     ],
+     "ai": false,
+     "rot": 2.54,
+     "credit": "Zalman992 / Public domain",
+     "view": [
+      0.03216,
+      0.0,
+      0.96784,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 44.159
+    },
+    {
+     "type": "tape",
+     "text": "fremde Abdrücke",
+     "color": "yellow",
+     "px": 58,
+     "x": 22,
+     "y": 233.1,
+     "align": "left",
+     "rot": -3.27,
+     "s": 43.005
+    },
+    {
+     "type": "tape",
+     "text": "1 Schuhspur",
+     "color": "white",
+     "px": 58,
+     "x": 765.0,
+     "y": 793.2,
+     "align": "center",
+     "rot": 2.37,
+     "s": 44.159
+    },
+    {
+     "type": "tape",
+     "text": "nur ein Täter",
+     "color": "red",
+     "px": 54,
+     "x": 765.0,
+     "y": 1215.9,
+     "align": "center",
+     "rot": -1.98,
+     "s": 45.893
+    }
+   ],
+   "credit": "Foto: Saurabh R. Patil / CC BY-SA 3.0 · Zalman992 / Public domain"
+  },
+  {
+   "s": 46.875,
+   "e": 51.226,
+   "scene": 8,
+   "head": null,
+   "items": [
+    {
+     "type": "sticker",
+     "src": "crime/1/img/sweat.png",
+     "w": 1304,
+     "h": 988,
+     "box": [
+      95.0,
+      192.9,
+      400,
+      303.1
+     ],
+     "ai": false,
+     "rot": -12.55,
+     "credit": "Army Museum / CC BY 4.0",
+     "s": 47.145
+    },
+    {
+     "type": "sticker",
+     "src": "crime/1/img/hat.png",
+     "w": 1381,
+     "h": 1357,
+     "box": [
+      615.0,
+      217.6,
+      340,
+      334.1
+     ],
+     "ai": false,
+     "rot": 5.16,
+     "credit": "ajay_suresh / CC BY 2.0",
+     "s": 48.085
+    },
+    {
+     "type": "tape",
+     "text": "Schal",
+     "color": "yellow",
+     "px": 58,
+     "x": 540,
+     "y": 900,
+     "align": "center",
+     "rot": -3.03,
+     "s": 48.605
+    },
+    {
+     "type": "sticker",
+     "src": "crime/1/img/bag.png",
+     "w": 1390,
+     "h": 1189,
+     "box": [
+      95.0,
+      1084.5,
+      400,
+      342.2
+     ],
+     "ai": false,
+     "rot": 6.8,
+     "credit": "RJFJR / CC BY-SA 3.0",
+     "s": 49.325
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/cloth.jpg",
+     "w": 1920,
+     "h": 1076,
+     "box": [
+      570.0,
+      1161.9,
+      430,
+      241.0
+     ],
+     "ai": false,
+     "rot": -2.57,
+     "credit": "unbekannt / Public domain",
+     "view": [
+      0.0,
+      0.02727,
+      1.0,
+      0.97273
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 50.085
+    },
+    {
+     "type": "tape",
+     "text": "Sweatshirt",
+     "color": "yellow",
+     "px": 58,
+     "x": 295.0,
+     "y": 559.8,
+     "align": "center",
+     "rot": 0.82,
+     "s": 47.145
+    },
+    {
+     "type": "tape",
+     "text": "Mütze",
+     "color": "yellow",
+     "px": 58,
+     "x": 785.0,
+     "y": 615.5,
+     "align": "center",
+     "rot": -1.35,
+     "s": 48.085
+    },
+    {
+     "type": "tape",
+     "text": "Gürteltasche",
+     "color": "yellow",
+     "px": 58,
+     "x": 295.0,
+     "y": 1032.3,
+     "align": "center",
+     "rot": 2.14,
+     "s": 49.325
+    },
+    {
+     "type": "tape",
+     "text": "Taschentücher",
+     "color": "yellow",
+     "px": 58,
+     "x": 785.0,
+     "y": 1109.7,
+     "align": "center",
+     "rot": -2.88,
+     "s": 50.085
+    }
+   ],
+   "credit": "Foto: Army Museum / CC BY 4.0 · ajay_suresh / CC BY 2.0 · RJFJR / CC BY-SA 3.0 · unbekannt / Public domain"
+  },
+  {
+   "s": 51.226,
+   "e": 60.626,
+   "scene": 9,
+   "head": null,
+   "items": [
+    {
+     "type": "sticker",
+     "src": "crime/1/img/sweat.png",
+     "w": 1304,
+     "h": 988,
+     "box": [
+      120.0,
+      206.3,
+      400,
+      303.1
+     ],
+     "ai": false,
+     "rot": -12.55,
+     "credit": "Army Museum / CC BY 4.0",
+     "s": 51.226
+    },
+    {
+     "type": "stat",
+     "x": 110,
+     "y": 569.4000000000001,
+     "rows": [
+      {
+       "n": "130",
+       "text": "Stück in\nganz Japan",
+       "s": 53.756,
+       "color": "white"
+      },
+      {
+       "n": "12",
+       "text": "Käufer\nermittelt",
+       "s": 59.194,
+       "color": "yellow"
+      }
+     ],
+     "s": 51.226
+    },
+    {
+     "type": "tape",
+     "text": "bis Ende 2025",
+     "color": "white",
+     "px": 58,
+     "x": 536.0,
+     "y": 216.3,
+     "align": "right",
+     "rot": -2.73,
+     "s": 56.054
+    }
+   ],
+   "credit": "Foto: Army Museum / CC BY 4.0"
+  },
+  {
+   "s": 60.626,
+   "e": 67.502,
+   "scene": 10,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/sole.jpg",
+     "w": 1920,
+     "h": 956,
+     "box": [
+      140.0,
+      510.8,
+      800,
+      444.4
+     ],
+     "ai": false,
+     "rot": -2.53,
+     "credit": "Zalman992 / Public domain",
+     "view": [
+      0.03843,
+      0.0,
+      0.96157,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 60.626
+    },
+    {
+     "type": "tape",
+     "text": "Slazenger",
+     "color": "yellow",
+     "px": 58,
+     "x": 124.0,
+     "y": 520.8,
+     "align": "left",
+     "rot": 1.43,
+     "s": 61.616
+    },
+    {
+     "type": "tape",
+     "text": "Südkorea",
+     "color": "yellow",
+     "px": 58,
+     "x": 956.0,
+     "y": 520.8,
+     "align": "right",
+     "rot": -2.06,
+     "s": 62.376
+    },
+    {
+     "type": "tape",
+     "text": "GRÖSSE 27,5",
+     "color": "white",
+     "px": 58,
+     "x": 540.0,
+     "y": 458.6,
+     "align": "center",
+     "rot": 2.61,
+     "s": 63.396
+    },
+    {
+     "type": "tape",
+     "text": "nicht im Handel",
+     "color": "red",
+     "px": 54,
+     "x": 540.0,
+     "y": 1014.6,
+     "align": "center",
+     "rot": -2.1,
+     "s": 66.636
+    }
+   ],
+   "credit": "Foto: Zalman992 / Public domain"
+  },
+  {
+   "s": 67.502,
+   "e": 71.597,
+   "scene": 11,
+   "head": null,
+   "items": [
+    {
+     "type": "sticker",
+     "src": "crime/1/img/knife.png",
+     "w": 1903,
+     "h": 1419,
+     "box": [
+      130.0,
+      440.7,
+      820,
+      611.4
+     ],
+     "ai": false,
+     "rot": -18,
+     "credit": "Kurosuke88 at English Wikipedia / Public domain",
+     "s": 67.502
+    },
+    {
+     "type": "tape",
+     "text": "Sashimi-Messer",
+     "color": "yellow",
+     "px": 58,
+     "x": 540.0,
+     "y": 1115.9,
+     "align": "center",
+     "rot": 3.41,
+     "s": 68.852
+    },
+    {
+     "type": "tape",
+     "text": "TATWAFFE",
+     "color": "white",
+     "px": 58,
+     "x": 540.0,
+     "y": 388.5,
+     "align": "center",
+     "rot": -1.61,
+     "s": 67.712
+    }
+   ],
+   "credit": "Foto: Kurosuke88 at English Wikipedia / Public domain"
+  },
+  {
+   "s": 71.597,
+   "e": 77.484,
+   "scene": 12,
+   "head": null,
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      384.6,
+      860,
+      830.8
+     ],
+     "rot": -0.89,
+     "head": "DNA-ABGLEICH",
+     "rows": [
+      {
+       "l": "Käufer des Messers",
+       "r": "",
+       "s": 71.847,
+       "color": ""
+      },
+      {
+       "l": "≠",
+       "r": "",
+       "s": 75.745,
+       "color": "red"
+      },
+      {
+       "l": "DNA vom Tatort",
+       "r": "",
+       "s": 76.061,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": {
+      "text": "KEINE\nÜBEREINSTIMMUNG",
+      "s": 76.5
+     },
+     "s": 71.597
+    }
+   ],
+   "credit": ""
+  },
+  {
+   "s": 77.484,
+   "e": 79.74,
+   "scene": 13,
+   "head": null,
+   "items": [
+    {
+     "type": "tape",
+     "text": "das verstörendste Detail",
+     "color": "red",
+     "px": 78,
+     "x": 540.0,
+     "y": 800.0,
+     "align": "center",
+     "rot": -1.3,
+     "s": 77.697
+    }
+   ],
+   "credit": ""
+  },
+  {
+   "s": 79.74,
+   "e": 82.91,
+   "scene": 14,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/hall.jpg",
+     "w": 1424,
+     "h": 2000,
+     "box": [
+      140.0,
+      171.2,
+      800,
+      1123.6
+     ],
+     "ai": false,
+     "rot": -2.53,
+     "credit": "IDS.photos from Tiverton, UK / CC BY-SA 2.0",
+     "view": [
+      0.00517,
+      0.0,
+      0.99483,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 79.74
+    },
+    {
+     "type": "tape",
+     "text": "FLOH NICHT",
+     "color": "white",
+     "px": 58,
+     "x": 540.0,
+     "y": 179.2,
+     "align": "center",
+     "rot": 0.7,
+     "s": 80.29
+    },
+    {
+     "type": "tape",
+     "text": "blieb im Haus",
+     "color": "yellow",
+     "px": 58,
+     "x": 124.0,
+     "y": 1270.8,
+     "align": "left",
+     "rot": -3.43,
+     "s": 81.61
+    }
+   ],
+   "credit": "Foto: IDS.photos from Tiverton, UK / CC BY-SA 2.0"
+  },
+  {
+   "s": 82.91,
+   "e": 87.54,
+   "scene": 15,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/kitchen.jpg",
+     "w": 1333,
+     "h": 2000,
+     "box": [
+      316.7,
+      143.4,
+      446.6,
+      670.0
+     ],
+     "ai": false,
+     "rot": -1.72,
+     "credit": "Daniel Case / CC BY-SA 3.0",
+     "view": [
+      0.01086,
+      0.0,
+      0.98914,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 82.91
+    },
+    {
+     "type": "card",
+     "style": "lined",
+     "box": [
+      100.0,
+      840.2,
+      880,
+      616.4
+     ],
+     "rot": 1.08,
+     "head": "",
+     "rows": [
+      {
+       "l": "gegessen",
+       "r": "",
+       "s": 83.14,
+       "color": ""
+      },
+      {
+       "l": "Toilette benutzt",
+       "r": "",
+       "s": 84.32,
+       "color": ""
+      },
+      {
+       "l": "Papiere durchgesehen",
+       "r": "",
+       "s": 84.96,
+       "color": ""
+      },
+      {
+       "l": "Computer benutzt",
+       "r": "",
+       "s": 86.5,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 82.91
+    }
+   ],
+   "credit": "Foto: Daniel Case / CC BY-SA 3.0"
+  },
+  {
+   "s": 87.54,
+   "e": 95.09,
+   "scene": 16,
+   "head": null,
+   "items": [
+    {
+     "type": "sticker",
+     "src": "crime/1/img/pc.png",
+     "w": 1283,
+     "h": 1455,
+     "box": [
+      280.0,
+      183.5,
+      520,
+      589.7
+     ],
+     "ai": false,
+     "rot": -3,
+     "credit": "MBlairMartin / CC BY-SA 4.0",
+     "s": 87.54
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      100.0,
+      840.2,
+      880,
+      616.4
+     ],
+     "rot": 0.58,
+     "head": "INTERNET",
+     "rows": [
+      {
+       "l": "01:18 Uhr",
+       "r": "online",
+       "s": 88.59,
+       "color": ""
+      },
+      {
+       "l": "ca. 10:00 Uhr",
+       "r": "erneut",
+       "s": 90.39,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 87.54
+    },
+    {
+     "type": "tape",
+     "text": "Zeitpunkt unsicher",
+     "color": "red",
+     "px": 54,
+     "x": 540.0,
+     "y": 1448.6,
+     "align": "center",
+     "rot": -1.47,
+     "s": 93.903
+    }
+   ],
+   "credit": "Foto: MBlairMartin / CC BY-SA 4.0"
+  },
+  {
+   "s": 95.09,
+   "e": 105.205,
+   "scene": 17,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/site.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      80.0,
+      201.1,
+      430,
+      286.7
+     ],
+     "ai": false,
+     "rot": -0.87,
+     "credit": "Wikimedia Commons / CC BY 3.0",
+     "view": [
+      0.0,
+      0.01735,
+      1.0,
+      0.98265
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 95.09
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/tubes.jpg",
+     "w": 1920,
+     "h": 1707,
+     "box": [
+      570.0,
+      193.5,
+      430,
+      382.3
+     ],
+     "ai": false,
+     "rot": 1.72,
+     "credit": "Frankincense Diala / CC0",
+     "view": [
+      0.0,
+      0.00434,
+      1.0,
+      0.99566
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 96.14
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/finger.jpg",
+     "w": 1120,
+     "h": 1400,
+     "box": [
+      139.2,
+      599.0,
+      321.6,
+      402.0
+     ],
+     "ai": false,
+     "rot": -0.83,
+     "credit": "Saurabh R. Patil / CC BY-SA 3.0",
+     "view": [
+      0.00936,
+      0.0,
+      0.99064,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 97.84
+    },
+    {
+     "type": "sticker",
+     "src": "crime/1/img/bag.png",
+     "w": 1390,
+     "h": 1189,
+     "box": [
+      590.0,
+      677.7,
+      380,
+      325.1
+     ],
+     "ai": false,
+     "rot": 6.8,
+     "credit": "RJFJR / CC BY-SA 3.0",
+     "s": 99.08
+    },
+    {
+     "type": "tape",
+     "text": "kurze Haare",
+     "color": "yellow",
+     "px": 58,
+     "x": 780.0,
+     "y": 1066.6,
+     "align": "center",
+     "rot": 1.34,
+     "s": 101.505
+    },
+    {
+     "type": "tape",
+     "text": "NAME: ???",
+     "color": "white",
+     "px": 84,
+     "x": 540,
+     "y": 1300,
+     "align": "center",
+     "rot": -0.64,
+     "s": 103.746
+    },
+    {
+     "type": "string",
+     "a": [
+      295.0,
+      227.1
+     ],
+     "b": [
+      785.0,
+      219.5
+     ],
+     "s": 96.14
+    },
+    {
+     "type": "string",
+     "a": [
+      785.0,
+      219.5
+     ],
+     "b": [
+      300.0,
+      625.0
+     ],
+     "s": 97.84
+    },
+    {
+     "type": "string",
+     "a": [
+      300.0,
+      625.0
+     ],
+     "b": [
+      780.0,
+      703.7
+     ],
+     "s": 99.08
+    }
+   ],
+   "credit": "Foto: Wikimedia Commons / CC BY 3.0 · Frankincense Diala / CC0 · Saurabh R. Patil / CC BY-SA 3.0 · RJFJR / CC BY-SA 3.0"
+  },
+  {
+   "s": 105.205,
+   "e": 110.969,
+   "scene": 18,
+   "head": {
+    "kicker": "ANALYSE 2025",
+    "title": "Spur in der DNA",
+    "mode": "mid",
+    "from": null,
+    "s": 105.205
+   },
+   "items": [],
+   "credit": ""
+  },
+  {
+   "s": 110.969,
+   "e": 120.033,
+   "scene": 19,
+   "head": {
+    "kicker": "ANALYSE 2025",
+    "title": "Spur in der DNA",
+    "mode": "top",
+    "from": "mid",
+    "s": 110.969
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      388.5,
+      900,
+      1065.1
+     ],
+     "rot": -0.89,
+     "head": "ALTER DES TÄTERS",
+     "rows": [
+      {
+       "l": "damals",
+       "r": "ca. 30",
+       "s": 111.679,
+       "color": ""
+      },
+      {
+       "l": "heute",
+       "r": "50–60",
+       "s": 113.238,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "nur ein Pressebericht",
+      "s": 115.929
+     },
+     "stamp": {
+      "text": "NICHT\nBESTÄTIGT",
+      "s": 117.869
+     },
+     "s": 110.969
+    }
+   ],
+   "credit": ""
+  },
+  {
+   "s": 120.033,
+   "e": 123.567,
+   "scene": 20,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/hq.jpg",
+     "w": 1920,
+     "h": 1418,
+     "box": [
+      140.0,
+      437.6,
+      800,
+      590.8
+     ],
+     "ai": false,
+     "rot": -2.31,
+     "credit": "Wikimedia Commons / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.00645,
+      1.0,
+      0.99355
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 120.033
+    },
+    {
+     "type": "tape",
+     "text": "2000 – 2025",
+     "color": "white",
+     "px": 58,
+     "x": 540.0,
+     "y": 445.6,
+     "align": "center",
+     "rot": 2.14,
+     "s": 120.31
+    },
+    {
+     "type": "tape",
+     "text": "ungelöst",
+     "color": "red",
+     "px": 54,
+     "x": 540.0,
+     "y": 1087.8,
+     "align": "center",
+     "rot": -3.48,
+     "s": 122.283
+    }
+   ],
+   "credit": "Foto: Wikimedia Commons / CC BY-SA 3.0"
+  },
+  {
+   "s": 123.567,
+   "e": 126.99,
+   "scene": 21,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/site.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      140.0,
+      399.7,
+      800,
+      666.7
+     ],
+     "ai": false,
+     "rot": -0.87,
+     "credit": "Wikimedia Commons / CC BY 3.0",
+     "view": [
+      0.0971,
+      0.0,
+      0.9029,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 123.567
+    },
+    {
+     "type": "tape",
+     "text": "spurlos?",
+     "color": "white",
+     "px": 58,
+     "x": 540.0,
+     "y": 1058.4,
+     "align": "center",
+     "rot": 1.06,
+     "s": 125.777
+    }
+   ],
+   "credit": "Foto: Wikimedia Commons / CC BY 3.0"
+  },
+  {
+   "s": 126.99,
+   "e": 131.637,
+   "scene": 22,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/1/img/site.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      80.0,
+      201.1,
+      430,
+      286.7
+     ],
+     "ai": false,
+     "rot": -0.87,
+     "credit": "Wikimedia Commons / CC BY 3.0",
+     "view": [
+      0.0,
+      0.01735,
+      1.0,
+      0.98265
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 126.99
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/centri.jpg",
+     "w": 1400,
+     "h": 933,
+     "box": [
+      570.0,
+      241.3,
+      430,
+      286.6
+     ],
+     "ai": false,
+     "rot": 1.91,
+     "credit": "Goleisureintl / CC BY 4.0",
+     "view": [
+      0.0,
+      0.01736,
+      1.0,
+      0.98264
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 126.99
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/finger.jpg",
+     "w": 1120,
+     "h": 1400,
+     "box": [
+      139.2,
+      599.0,
+      321.6,
+      402.0
+     ],
+     "ai": false,
+     "rot": -0.83,
+     "credit": "Saurabh R. Patil / CC BY-SA 3.0",
+     "view": [
+      0.00936,
+      0.0,
+      0.99064,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 126.99
+    },
+    {
+     "type": "photo",
+     "src": "crime/1/img/sole.jpg",
+     "w": 1920,
+     "h": 956,
+     "box": [
+      565.0,
+      720.8,
+      430,
+      238.9
+     ],
+     "ai": false,
+     "rot": 2.35,
+     "credit": "Zalman992 / Public domain",
+     "view": [
+      0.02546,
+      0.0,
+      0.97454,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 126.99
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      180.0,
+      1120.0,
+      720,
+      300
+     ],
+     "rot": 0.76,
+     "head": "TÄTER",
+     "rows": [
+      {
+       "l": "Name:",
+       "r": "???",
+       "s": 129.02,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 127.365
+    },
+    {
+     "type": "string",
+     "a": [
+      295.0,
+      227.1
+     ],
+     "b": [
+      785.0,
+      267.3
+     ],
+     "s": 126.99
+    },
+    {
+     "type": "string",
+     "a": [
+      785.0,
+      267.3
+     ],
+     "b": [
+      780.0,
+      744.7
+     ],
+     "s": 126.99
+    },
+    {
+     "type": "string",
+     "a": [
+      300.0,
+      625.0
+     ],
+     "b": [
+      780.0,
+      744.7
+     ],
+     "s": 126.99
+    }
+   ],
+   "credit": "Foto: Wikimedia Commons / CC BY 3.0 · Goleisureintl / CC BY 4.0 · Saurabh R. Patil / CC BY-SA 3.0 · Zalman992 / Public domain"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 2.1,
+   "text": "Wusstest du? Bei einem Mord",
+   "line": 1
+  },
+  {
+   "s": 2.1,
+   "e": 3.28,
+   "text": "ließ der Täter fast alles",
+   "line": 1
+  },
+  {
+   "s": 3.28,
+   "e": 4.883,
+   "text": "am Tatort zurück.",
+   "line": 1
+  },
+  {
+   "s": 4.903,
+   "e": 7.298,
+   "text": "Blut, DNA, Fingerabdrücke, Kleidung,",
+   "line": 2
+  },
+  {
+   "s": 7.298,
+   "e": 9.825,
+   "text": "Schuhspuren und sogar die Tatwaffe.",
+   "line": 2
+  },
+  {
+   "s": 9.845,
+   "e": 11.885,
+   "text": "Doch nach über 25 Jahren weiß",
+   "line": 3
+  },
+  {
+   "s": 11.885,
+   "e": 14.085,
+   "text": "die Polizei nicht, wer er ist.",
+   "line": 3
+  },
+  {
+   "s": 14.105,
+   "e": 15.585,
+   "text": "Der Fall Miyazawa,",
+   "line": 4
+  },
+  {
+   "s": 15.585,
+   "e": 16.625,
+   "text": "einer der bekanntesten",
+   "line": 4
+  },
+  {
+   "s": 16.625,
+   "e": 18.77,
+   "text": "ungelösten Fälle Japans.",
+   "line": 4
+  },
+  {
+   "s": 18.79,
+   "e": 21.15,
+   "text": "In der Nacht zum 31. Dezember",
+   "line": 5
+  },
+  {
+   "s": 21.15,
+   "e": 23.45,
+   "text": "2000 wurden in Tokio vier",
+   "line": 5
+  },
+  {
+   "s": 23.45,
+   "e": 25.921,
+   "text": "Menschen in ihrem Haus getötet.",
+   "line": 5
+  },
+  {
+   "s": 25.941,
+   "e": 27.597,
+   "text": "Mikio Miyazawa, 44,",
+   "line": 6
+  },
+  {
+   "s": 27.597,
+   "e": 29.183,
+   "text": "seine Frau Yasuko, 41,",
+   "line": 6
+  },
+  {
+   "s": 29.183,
+   "e": 33.025,
+   "text": "und die Kinder Niina, 8, und Rei, 6.",
+   "line": 6
+  },
+  {
+   "s": 33.045,
+   "e": 35.385,
+   "text": "Rätselhaft ist: Der Täter hinterließ",
+   "line": 7
+  },
+  {
+   "s": 35.385,
+   "e": 37.557,
+   "text": "seine biologische Identität.",
+   "line": 7
+  },
+  {
+   "s": 37.577,
+   "e": 39.456,
+   "text": "Er verletzte sich an der Hand.",
+   "line": 8
+  },
+  {
+   "s": 39.456,
+   "e": 41.017,
+   "text": "Blutgruppe A, seine DNA",
+   "line": 8
+  },
+  {
+   "s": 41.017,
+   "e": 42.271,
+   "text": "wurde gesichert.",
+   "line": 8
+  },
+  {
+   "s": 42.291,
+   "e": 44.129,
+   "text": "Fingerabdrücke und eine einzige",
+   "line": 9
+  },
+  {
+   "s": 44.129,
+   "e": 46.895,
+   "text": "Schuhspur: Es war wohl nur ein Täter.",
+   "line": 9
+  },
+  {
+   "s": 46.915,
+   "e": 49.295,
+   "text": "Dazu Sweatshirt, Mütze, Schal,",
+   "line": 10
+  },
+  {
+   "s": 49.295,
+   "e": 51.246,
+   "text": "Gürteltasche und Taschentücher.",
+   "line": 10
+  },
+  {
+   "s": 51.266,
+   "e": 53.266,
+   "text": "Das Sweatshirt wurde in ganz Japan",
+   "line": 11
+  },
+  {
+   "s": 53.266,
+   "e": 55.884,
+   "text": "nur 130-mal verkauft.",
+   "line": 11
+  },
+  {
+   "s": 55.904,
+   "e": 58.964,
+   "text": "Bis Ende 2025 fand die Polizei",
+   "line": 12
+  },
+  {
+   "s": 58.964,
+   "e": 60.646,
+   "text": "nur zwölf Käufer.",
+   "line": 12
+  },
+  {
+   "s": 60.666,
+   "e": 62.186,
+   "text": "Die Schuhe: Slazenger",
+   "line": 13
+  },
+  {
+   "s": 62.186,
+   "e": 65.466,
+   "text": "aus Südkorea, Größe 27,5,",
+   "line": 13
+  },
+  {
+   "s": 65.466,
+   "e": 67.522,
+   "text": "in Japan damals nicht im Handel.",
+   "line": 13
+  },
+  {
+   "s": 67.542,
+   "e": 69.802,
+   "text": "Die Tatwaffe, ein Sashimi-Messer,",
+   "line": 14
+  },
+  {
+   "s": 69.802,
+   "e": 71.617,
+   "text": "blieb ebenfalls zurück.",
+   "line": 14
+  },
+  {
+   "s": 71.637,
+   "e": 72.357,
+   "text": "Ein Mann,",
+   "line": 15
+  },
+  {
+   "s": 72.357,
+   "e": 74.017,
+   "text": "der so ein Messer gekauft hatte,",
+   "line": 15
+  },
+  {
+   "s": 74.017,
+   "e": 75.334,
+   "text": "wurde gefunden.",
+   "line": 15
+  },
+  {
+   "s": 75.354,
+   "e": 77.504,
+   "text": "Doch seine DNA passte nicht.",
+   "line": 16
+  },
+  {
+   "s": 77.524,
+   "e": 79.76,
+   "text": "Dann das verstörendste Detail.",
+   "line": 17
+  },
+  {
+   "s": 79.78,
+   "e": 81.5,
+   "text": "Der Täter floh nicht sofort.",
+   "line": 18
+  },
+  {
+   "s": 81.5,
+   "e": 82.93,
+   "text": "Er blieb im Haus.",
+   "line": 18
+  },
+  {
+   "s": 82.95,
+   "e": 84.93,
+   "text": "Er aß, ging auf die Toilette,",
+   "line": 19
+  },
+  {
+   "s": 84.93,
+   "e": 86.33,
+   "text": "sah Papiere durch und nutzte",
+   "line": 19
+  },
+  {
+   "s": 86.33,
+   "e": 87.56,
+   "text": "den Computer.",
+   "line": 19
+  },
+  {
+   "s": 87.58,
+   "e": 89.74,
+   "text": "Der Computer war um 1:18 Uhr online",
+   "line": 20
+  },
+  {
+   "s": 89.74,
+   "e": 92.053,
+   "text": "und gegen 10 Uhr erneut.",
+   "line": 20
+  },
+  {
+   "s": 92.073,
+   "e": 93.513,
+   "text": "Ob er bis zum Morgen blieb,",
+   "line": 21
+  },
+  {
+   "s": 93.513,
+   "e": 95.11,
+   "text": "ist aber unsicher.",
+   "line": 21
+  },
+  {
+   "s": 95.13,
+   "e": 97.69,
+   "text": "Die Polizei hat sein Blut, seine DNA,",
+   "line": 22
+  },
+  {
+   "s": 97.69,
+   "e": 100.055,
+   "text": "seine Fingerabdrücke, seine Kleidung.",
+   "line": 22
+  },
+  {
+   "s": 100.075,
+   "e": 101.855,
+   "text": "Sogar kurz geschnittene Haare",
+   "line": 23
+  },
+  {
+   "s": 101.855,
+   "e": 103.696,
+   "text": "aus seiner Gürteltasche.",
+   "line": 23
+  },
+  {
+   "s": 103.716,
+   "e": 105.225,
+   "text": "Nur keinen Namen.",
+   "line": 24
+  },
+  {
+   "s": 105.245,
+   "e": 108.365,
+   "text": "2025 berichteten japanische Medien",
+   "line": 25
+  },
+  {
+   "s": 108.365,
+   "e": 110.989,
+   "text": "über eine neue DNA-Analyse.",
+   "line": 25
+  },
+  {
+   "s": 111.009,
+   "e": 113.208,
+   "text": "Demnach war er damals etwa 30,",
+   "line": 26
+  },
+  {
+   "s": 113.208,
+   "e": 115.719,
+   "text": "heute 50 bis 60 Jahre alt.",
+   "line": 26
+  },
+  {
+   "s": 115.739,
+   "e": 117.219,
+   "text": "Ein Pressebericht, keine von",
+   "line": 27
+  },
+  {
+   "s": 117.219,
+   "e": 120.053,
+   "text": "der Polizei bestätigte Identität.",
+   "line": 27
+  },
+  {
+   "s": 120.073,
+   "e": 121.033,
+   "text": "Ein Vierteljahrhundert",
+   "line": 28
+  },
+  {
+   "s": 121.033,
+   "e": 123.587,
+   "text": "später ist der Fall ungelöst.",
+   "line": 28
+  },
+  {
+   "s": 123.607,
+   "e": 124.767,
+   "text": "Das Unheimlichste:",
+   "line": 29
+  },
+  {
+   "s": 124.767,
+   "e": 127.01,
+   "text": "Er verschwand nicht spurlos.",
+   "line": 29
+  },
+  {
+   "s": 127.03,
+   "e": 128.15,
+   "text": "Er hinterließ fast alles,",
+   "line": 30
+  },
+  {
+   "s": 128.15,
+   "e": 130.457,
+   "text": "außer seinem Namen.",
+   "line": 30
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/1/voice/line_01.mp3"
+  },
+  {
+   "s": 4.983,
+   "src": "crime/1/voice/line_02.mp3"
+  },
+  {
+   "s": 9.925,
+   "src": "crime/1/voice/line_03.mp3"
+  },
+  {
+   "s": 14.185,
+   "src": "crime/1/voice/line_04.mp3"
+  },
+  {
+   "s": 18.87,
+   "src": "crime/1/voice/line_05.mp3"
+  },
+  {
+   "s": 26.021,
+   "src": "crime/1/voice/line_06.mp3"
+  },
+  {
+   "s": 33.125,
+   "src": "crime/1/voice/line_07.mp3"
+  },
+  {
+   "s": 37.657,
+   "src": "crime/1/voice/line_08.mp3"
+  },
+  {
+   "s": 42.371,
+   "src": "crime/1/voice/line_09.mp3"
+  },
+  {
+   "s": 46.995,
+   "src": "crime/1/voice/line_10.mp3"
+  },
+  {
+   "s": 51.346,
+   "src": "crime/1/voice/line_11.mp3"
+  },
+  {
+   "s": 55.984,
+   "src": "crime/1/voice/line_12.mp3"
+  },
+  {
+   "s": 60.746,
+   "src": "crime/1/voice/line_13.mp3"
+  },
+  {
+   "s": 67.622,
+   "src": "crime/1/voice/line_14.mp3"
+  },
+  {
+   "s": 71.717,
+   "src": "crime/1/voice/line_15.mp3"
+  },
+  {
+   "s": 75.434,
+   "src": "crime/1/voice/line_16.mp3"
+  },
+  {
+   "s": 77.604,
+   "src": "crime/1/voice/line_17.mp3"
+  },
+  {
+   "s": 79.86,
+   "src": "crime/1/voice/line_18.mp3"
+  },
+  {
+   "s": 83.03,
+   "src": "crime/1/voice/line_19.mp3"
+  },
+  {
+   "s": 87.66,
+   "src": "crime/1/voice/line_20.mp3"
+  },
+  {
+   "s": 92.153,
+   "src": "crime/1/voice/line_21.mp3"
+  },
+  {
+   "s": 95.21,
+   "src": "crime/1/voice/line_22.mp3"
+  },
+  {
+   "s": 100.155,
+   "src": "crime/1/voice/line_23.mp3"
+  },
+  {
+   "s": 103.796,
+   "src": "crime/1/voice/line_24.mp3"
+  },
+  {
+   "s": 105.325,
+   "src": "crime/1/voice/line_25.mp3"
+  },
+  {
+   "s": 111.089,
+   "src": "crime/1/voice/line_26.mp3"
+  },
+  {
+   "s": 115.819,
+   "src": "crime/1/voice/line_27.mp3"
+  },
+  {
+   "s": 120.153,
+   "src": "crime/1/voice/line_28.mp3"
+  },
+  {
+   "s": 123.687,
+   "src": "crime/1/voice/line_29.mp3"
+  },
+  {
+   "s": 127.11,
+   "src": "crime/1/voice/line_30.mp3"
+  }
+ ],
+ "music": "crime/1/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ]
+}

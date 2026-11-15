@@ -1,0 +1,704 @@
+{
+ "pictures": [
+  {
+   "name": "scream",
+   "src": "2/6-1.jpg",
+   "title": "Der Exorzismus von Emily Rose (2005), Filmszene 966",
+   "artist": "Filmszene",
+   "date": "",
+   "license": "© Sony Pictures 2005",
+   "page": "https://www.movieinsider.com/photos/966",
+   "ai": false
+  },
+  {
+   "name": "cross",
+   "src": "1/11-1.jpg",
+   "title": "Trinity Chapel crucifix in Salisbury Cathedral.jpg",
+   "artist": "Richard Avery",
+   "date": "2024-03-19 10:20:42",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Trinity_Chapel_crucifix_in_Salisbury_Cathedral.jpg",
+   "ai": false
+  },
+  {
+   "name": "grave",
+   "src": "1/1-1.jpg",
+   "title": "Gravestone Anneliese Michel.jpg",
+   "artist": "Offenbacherjung",
+   "date": "2014-06-07 00:28:32",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gravestone_Anneliese_Michel.jpg",
+   "ai": false
+  },
+  {
+   "name": "poster",
+   "src": "2/10-1.jpg",
+   "title": "Der Exorzismus von Emily Rose (2005), Filmbild",
+   "artist": "Filmszene",
+   "date": "",
+   "license": "© Sony Pictures 2005",
+   "page": "https://kinocheck.com/movie/woo/the-exorcism-of-emily-rose-2005",
+   "ai": false
+  },
+  {
+   "name": "map",
+   "src": "3/2-1.jpg",
+   "title": "Germany adm location map.svg",
+   "artist": "NordNordWest",
+   "date": "2014-09-15",
+   "license": "CC BY-SA 3.0 de",
+   "page": "https://commons.wikimedia.org/wiki/File:Germany_adm_location_map.svg",
+   "ai": false
+  },
+  {
+   "name": "house",
+   "src": "1/1-3.jpg",
+   "title": "Anneliese Michel Villa.jpg",
+   "artist": "David Pfister-Senz",
+   "date": "2016-05-14 14:25:13",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Anneliese_Michel_Villa.jpg",
+   "ai": false
+  },
+  {
+   "name": "room",
+   "src": "1/17-7.jpg",
+   "title": "Merida - Consulate Office Building - 1976 - Bedroom.jpg",
+   "artist": "Uncredited",
+   "date": "1976",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Merida_-_Consulate_Office_Building_-_1976_-_Bedroom.jpg",
+   "ai": false
+  },
+  {
+   "name": "uher",
+   "src": "1/9-3.jpg",
+   "title": "Tonband - Uher 724 Stereo",
+   "artist": "Roscheider Hof Open Air Museum",
+   "date": "",
+   "license": "CC0",
+   "page": "https://www.europeana.eu/item/192/item_Q4SQEUZOVQXGGR5YNXUZFTHV5QHK23QU",
+   "ai": false
+  },
+  {
+   "name": "shadow",
+   "src": "2/2-5.jpg",
+   "title": "\"House wall with a shadow of a coffee pot. : Text according to photo: “Entrance to a nest of the engraving under the north-west corner of former loader Nilsson’",
+   "artist": "Erik Börjesson",
+   "date": "",
+   "license": "CC BY 2.5",
+   "page": "https://www.europeana.eu/item/52/gnm_photo_GNM4500_126",
+   "ai": false
+  },
+  {
+   "name": "eeg",
+   "src": "1/14-6.jpg",
+   "title": "Spike-waves.png",
+   "artist": "",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Spike-waves.png",
+   "ai": false
+  },
+  {
+   "name": "pills",
+   "src": "1/16-1.jpg",
+   "title": "Pills and medicines 01.jpg",
+   "artist": "BuhaM",
+   "date": "2018-01-18 19:43:20",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pills_and_medicines_01.jpg",
+   "ai": false
+  },
+  {
+   "name": "candles",
+   "src": "1/19-6.jpg",
+   "title": "Candles in the church.jpg",
+   "artist": "Dudva",
+   "date": "2010-05-21",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Candles_in_the_church.jpg",
+   "ai": false
+  },
+  {
+   "name": "rite",
+   "src": "1/22-4.jpg",
+   "title": "Rituale Romano, Rito degli Esorcismi.jpg",
+   "artist": "MICHI abba",
+   "date": "2017-06-03",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Rituale_Romano,_Rito_degli_Esorcismi.jpg",
+   "ai": false
+  },
+  {
+   "name": "bed",
+   "src": "1/18-2.jpg",
+   "title": "Säng",
+   "artist": "Upplands Museum",
+   "date": "",
+   "license": "CC0",
+   "page": "https://www.europeana.eu/item/91617/upmu_object_UM04733",
+   "ai": false
+  },
+  {
+   "name": "court",
+   "src": "1/7-1.jpg",
+   "title": "Aschaffenburg, Erthalstraße 3-001.jpg",
+   "artist": "Tilman2007",
+   "date": "2015-04-12",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aschaffenburg,_Erthalstra%C3%9Fe_3-001.jpg",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 5.037,
+   "said": [
+    "Das ist die wahre Geschichte",
+    "hinter dem Film „Der Exorzismus",
+    "von Emily Rose“."
+   ],
+   "edit": "hook",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "scream.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "cross.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "grave.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "poster.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Krank – oder besessen?"
+    },
+    {
+     "type": "tape",
+     "text": "EINE WAHRE GESCHICHTE"
+    },
+    {
+     "type": "tape",
+     "text": "FILM, 2005"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 5.037,
+   "end": 10.303,
+   "said": [
+    "1976 starb in Deutschland",
+    "eine 23-jährige Frau."
+   ],
+   "edit": "detail",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "map.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "KLINGENBERG AM MAIN"
+    },
+    {
+     "type": "tape",
+     "text": "23 Jahre"
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "start": 10.303,
+   "end": 18.812,
+   "said": [
+    "Zuvor hatte sie monatelang",
+    "religiöse Rituale erlebt,",
+    "in ihrem eigenen Zuhause.",
+    "Das Zimmer war klein,",
+    "die Stimmung bedrückend."
+   ],
+   "edit": "pair",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "room.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "MONATELANG"
+    },
+    {
+     "type": "tape",
+     "text": "bedrückend"
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "start": 18.812,
+   "end": 25.986,
+   "said": [
+    "Die Sitzungen wurden",
+    "auf Tonband aufgenommen.",
+    "Was darauf zu hören war,",
+    "erschütterte später das ganze Land."
+   ],
+   "edit": "detail",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "uher.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "TONBAND"
+    },
+    {
+     "type": "tape",
+     "text": "erschütterte das Land"
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "start": 25.986,
+   "end": 28.198,
+   "said": [
+    "Ihr Name war Anneliese Michel."
+   ],
+   "edit": "chapter",
+   "head": "Anneliese Michel",
+   "items": []
+  },
+  {
+   "scene": 6,
+   "start": 28.198,
+   "end": 34.152,
+   "said": [
+    "Als die Exorzismen begannen,",
+    "glaubte ihre Familie, etwas",
+    "Übernatürliches habe sie ergriffen."
+   ],
+   "edit": "question",
+   "head": "Anneliese Michel",
+   "items": [
+    {
+     "type": "photo",
+     "image": "cross.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Exorzismen"
+    },
+    {
+     "type": "tape",
+     "text": "ÜBERNATÜRLICH?"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 34.152,
+   "end": 40.598,
+   "said": [
+    "Sie sagte, sie höre ständig Stimmen.",
+    "Sie sah verstörende Gesichter",
+    "und Schatten um sich herum."
+   ],
+   "edit": "actions",
+   "head": "Anneliese Michel",
+   "items": [
+    {
+     "type": "photo",
+     "image": "shadow.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 40.598,
+   "end": 44.23,
+   "said": [
+    "Bei den Ritualen soll",
+    "sich ihre Stimme verändert haben."
+   ],
+   "edit": "figure",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "scream.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "FILMSZENE"
+    },
+    {
+     "type": "tape",
+     "text": "Stimme verändert"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 44.23,
+   "end": 48.704,
+   "said": [
+    "Die Wesen in sich nannte sie Luzifer,",
+    "Judas, Nero, Kain und andere."
+   ],
+   "edit": "who",
+   "head": "",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 48.704,
+   "end": 61.704,
+   "said": [
+    "Die beteiligten Priester sahen darin",
+    "Zeichen dämonischer Besessenheit.",
+    "Doch schon Jahre",
+    "zuvor hatten Ärzte bei ihr",
+    "Schläfenlappen-Epilepsie festgestellt.",
+    "Dazu kam eine schwere Depression."
+   ],
+   "edit": "compare",
+   "head": "",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 61.704,
+   "end": 67.041,
+   "said": [
+    "Sie war in ärztlicher Behandlung",
+    "und nahm Medikamente,",
+    "doch die Symptome blieben."
+   ],
+   "edit": "fact",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "eeg.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "pills.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "MEDIKAMENTE"
+    },
+    {
+     "type": "tape",
+     "text": "Symptome blieben"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 67.041,
+   "end": 71.729,
+   "said": [
+    "Als es ihr schlechter ging,",
+    "setzte die Familie",
+    "immer mehr auf die Kirche."
+   ],
+   "edit": "place",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "candles.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "IMMER MEHR"
+    },
+    {
+     "type": "tape",
+     "text": "auf die Kirche"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 71.729,
+   "end": 81.336,
+   "said": [
+    "Zwischen 1975 und 1976 wurden",
+    "über 60 Exorzismen",
+    "offiziell genehmigt und durchgeführt."
+   ],
+   "edit": "number",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "rite.jpg",
+     "ai": false
+    },
+    {
+     "type": "stat"
+    },
+    {
+     "type": "tape",
+     "text": "offiziell genehmigt"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 81.336,
+   "end": 88.731,
+   "said": [
+    "Ihr Körper verfiel.",
+    "Sie aß immer weniger.",
+    "Im Sommer 1976",
+    "war sie schwer unterernährt."
+   ],
+   "edit": "list",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "bed.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Körper verfiel"
+    },
+    {
+     "type": "tape",
+     "text": "aß weniger"
+    },
+    {
+     "type": "tape",
+     "text": "schwer unterernährt"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 88.731,
+   "end": 98.327,
+   "said": [
+    "Im Juli 1976 starb",
+    "Anneliese Michel an Unterernährung",
+    "und Flüssigkeitsmangel.",
+    "Sie wurde nur 23 Jahre alt."
+   ],
+   "edit": "detail",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "grave.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "JULI 1976"
+    },
+    {
+     "type": "tape",
+     "text": "nur 23 Jahre alt"
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "start": 98.327,
+   "end": 101.685,
+   "said": [
+    "Nach ihrem Tod beschäftigte",
+    "der Fall die Justiz."
+   ],
+   "edit": "chapter",
+   "head": "Der Prozess",
+   "items": []
+  },
+  {
+   "scene": 17,
+   "start": 101.685,
+   "end": 106.608,
+   "said": [
+    "Ihre Eltern und die beiden",
+    "Priester wurden wegen fahrlässiger",
+    "Tötung angeklagt."
+   ],
+   "edit": "where",
+   "head": "Der Prozess",
+   "items": [
+    {
+     "type": "card"
+    },
+    {
+     "type": "photo",
+     "image": "court.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Eltern + 2 Priester"
+    },
+    {
+     "type": "tape",
+     "text": "fahrlässige Tötung"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 106.608,
+   "end": 116.811,
+   "said": [
+    "Die Anklage sagte: Mit ärztlicher",
+    "Behandlung hätte sie überleben können.",
+    "Die Verteidigung erklärte,",
+    "sie hätten an eine echte",
+    "geistliche Notlage geglaubt."
+   ],
+   "edit": "who",
+   "head": "Der Prozess",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "start": 116.811,
+   "end": 123.148,
+   "said": [
+    "Das Gericht sprach alle vier schuldig.",
+    "Ärztliche Hilfe sei verfügbar",
+    "und notwendig gewesen."
+   ],
+   "edit": "statement",
+   "head": "",
+   "items": [
+    {
+     "type": "tape",
+     "text": "ALLE VIER SCHULDIG"
+    },
+    {
+     "type": "tape",
+     "text": "Hilfe war notwendig"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 123.148,
+   "end": 127.478,
+   "said": [
+    "Der Fall löste eine bundesweite",
+    "Debatte aus und wird",
+    "bis heute diskutiert."
+   ],
+   "edit": "ending",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "grave.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "cross.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "court.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "start": 127.478,
+   "end": 131.622,
+   "said": [],
+   "edit": "statement",
+   "head": "",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Krank – oder besessen?"
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare."
+    }
+   ]
+  }
+ ]
+}

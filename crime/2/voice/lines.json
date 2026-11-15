@@ -1,0 +1,1556 @@
+[
+ {
+  "i": 1,
+  "text": "Das ist die wahre Geschichte hinter dem Film „Der Exorzismus von Emily Rose“.",
+  "tts": "Das ist die wahre Geschichte hinter dem Film „Der Exorzismus von Emily Rose“.",
+  "voice": "clone_611",
+  "file": "line_01.mp3",
+  "duration": 4.457,
+  "heard": "Das ist die wahre Geschichte hinter dem Film der Exorzismus von Emily Rose.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0484,
+    0.16
+   ],
+   [
+    0.0968,
+    0.26
+   ],
+   [
+    0.1452,
+    0.4
+   ],
+   [
+    0.2258,
+    0.74
+   ],
+   [
+    0.3871,
+    1.14
+   ],
+   [
+    0.4839,
+    1.46
+   ],
+   [
+    0.5323,
+    1.68
+   ],
+   [
+    0.5968,
+    1.98
+   ],
+   [
+    0.6452,
+    2.36
+   ],
+   [
+    0.8065,
+    3.16
+   ],
+   [
+    0.8548,
+    3.5
+   ],
+   [
+    0.9355,
+    3.8
+   ],
+   [
+    1.0,
+    4.12
+   ]
+  ]
+ },
+ {
+  "i": 2,
+  "text": "1976 starb in Deutschland eine 23-jährige Frau.",
+  "tts": "Neunzehnhundertsechsundsiebzig starb in Deutschland eine dreiundzwanzigjährige Frau.",
+  "voice": "clone_611",
+  "file": "line_02.mp3",
+  "duration": 4.866,
+  "heard": "1976 starb in Deutschland eine 23-jährige Frau.",
+  "score": 0.8,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1026,
+    1.08
+   ],
+   [
+    0.2308,
+    2.06
+   ],
+   [
+    0.2821,
+    2.14
+   ],
+   [
+    0.5641,
+    2.6
+   ],
+   [
+    0.6667,
+    3.1
+   ],
+   [
+    0.7179,
+    3.64
+   ],
+   [
+    0.8974,
+    4.34
+   ],
+   [
+    1.0,
+    4.6
+   ]
+  ]
+ },
+ {
+  "i": 3,
+  "text": "Zuvor hatte sie monatelang religiöse Rituale erlebt, in ihrem eigenen Zuhause.",
+  "tts": "Zuvor hatte sie monatelang religiöse Rituale erlebt, in ihrem eigenen Zuhause.",
+  "voice": "clone_611",
+  "file": "line_03.mp3",
+  "duration": 5.006,
+  "heard": "Zuvor hatte sie monatelang religiöse Rituale erlebt in ihrem eigenen Zuhause.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0758,
+    0.48
+   ],
+   [
+    0.1515,
+    0.72
+   ],
+   [
+    0.197,
+    0.92
+   ],
+   [
+    0.3485,
+    1.58
+   ],
+   [
+    0.4848,
+    2.24
+   ],
+   [
+    0.5909,
+    2.8
+   ],
+   [
+    0.6818,
+    3.26
+   ],
+   [
+    0.7121,
+    3.62
+   ],
+   [
+    0.7879,
+    3.82
+   ],
+   [
+    0.8939,
+    4.18
+   ],
+   [
+    1.0,
+    4.82
+   ]
+  ]
+ },
+ {
+  "i": 4,
+  "text": "Das Zimmer war klein, die Stimmung bedrückend.",
+  "tts": "Das Zimmer war klein, die Stimmung bedrückend.",
+  "voice": "clone_611",
+  "file": "line_04.mp3",
+  "duration": 2.703,
+  "heard": "Das Zimmer war klein, die Stimmung bedrückend.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0789,
+    0.16
+   ],
+   [
+    0.2368,
+    0.46
+   ],
+   [
+    0.3158,
+    0.64
+   ],
+   [
+    0.4474,
+    1.4
+   ],
+   [
+    0.5263,
+    1.48
+   ],
+   [
+    0.7368,
+    1.82
+   ],
+   [
+    1.0,
+    2.46
+   ]
+  ]
+ },
+ {
+  "i": 5,
+  "text": "Die Sitzungen wurden auf Tonband aufgenommen.",
+  "tts": "Die Sitzungen wurden auf Tonband aufgenommen.",
+  "voice": "clone_611",
+  "file": "line_05.mp3",
+  "duration": 2.701,
+  "heard": "Die Sitzungen wurden auf Tonband aufgenommen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0769,
+    0.12
+   ],
+   [
+    0.3077,
+    0.62
+   ],
+   [
+    0.4615,
+    0.96
+   ],
+   [
+    0.5385,
+    1.38
+   ],
+   [
+    0.7179,
+    1.9
+   ],
+   [
+    1.0,
+    2.4
+   ]
+  ]
+ },
+ {
+  "i": 6,
+  "text": "Was darauf zu hören war, erschütterte später das ganze Land.",
+  "tts": "Was darauf zu hören war, erschütterte später das ganze Land.",
+  "voice": "clone_611",
+  "file": "line_06.mp3",
+  "duration": 3.673,
+  "heard": "Was darauf zu hören war, erschütterte später das ganze Land.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0612,
+    0.14
+   ],
+   [
+    0.1837,
+    0.4
+   ],
+   [
+    0.2245,
+    0.64
+   ],
+   [
+    0.3265,
+    0.88
+   ],
+   [
+    0.3878,
+    1.58
+   ],
+   [
+    0.6327,
+    2.1
+   ],
+   [
+    0.7551,
+    2.46
+   ],
+   [
+    0.8163,
+    2.74
+   ],
+   [
+    0.9184,
+    2.98
+   ],
+   [
+    1.0,
+    3.32
+   ]
+  ]
+ },
+ {
+  "i": 7,
+  "text": "Ihr Name war Anneliese Michel.",
+  "tts": "Ihr Name war Anneliese Michel.",
+  "voice": "clone_611",
+  "file": "line_07.mp3",
+  "duration": 1.812,
+  "heard": "Ihr Name war Anneliese Michel.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.12,
+    0.12
+   ],
+   [
+    0.28,
+    0.36
+   ],
+   [
+    0.4,
+    0.58
+   ],
+   [
+    0.76,
+    1.16
+   ],
+   [
+    1.0,
+    1.5
+   ]
+  ]
+ },
+ {
+  "i": 8,
+  "text": "Als die Exorzismen begannen, glaubte ihre Familie, etwas Übernatürliches habe sie ergriffen.",
+  "tts": "Als die Exorzismen begannen, glaubte ihre Familie, etwas Übernatürliches habe sie ergriffen.",
+  "voice": "clone_611",
+  "file": "line_08.mp3",
+  "duration": 5.554,
+  "heard": "Als die Exorzismen begannen, glaubte ihre Familie etwas Übernatürliches habe sie ergriffen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0385,
+    0.18
+   ],
+   [
+    0.0769,
+    0.32
+   ],
+   [
+    0.2051,
+    1.06
+   ],
+   [
+    0.3077,
+    1.94
+   ],
+   [
+    0.3974,
+    2.3
+   ],
+   [
+    0.4487,
+    2.46
+   ],
+   [
+    0.5385,
+    3.0
+   ],
+   [
+    0.6026,
+    3.5
+   ],
+   [
+    0.7949,
+    4.42
+   ],
+   [
+    0.8462,
+    4.62
+   ],
+   [
+    0.8846,
+    4.82
+   ],
+   [
+    1.0,
+    5.4
+   ]
+  ]
+ },
+ {
+  "i": 9,
+  "text": "Sie sagte, sie höre ständig Stimmen.",
+  "tts": "Sie sagte, sie höre ständig Stimmen.",
+  "voice": "clone_611",
+  "file": "line_09.mp3",
+  "duration": 2.23,
+  "heard": "Sie sagte, sie höre ständig Stimmen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1034,
+    0.16
+   ],
+   [
+    0.2759,
+    0.86
+   ],
+   [
+    0.3793,
+    0.98
+   ],
+   [
+    0.5172,
+    1.26
+   ],
+   [
+    0.7586,
+    1.66
+   ],
+   [
+    1.0,
+    2.02
+   ]
+  ]
+ },
+ {
+  "i": 10,
+  "text": "Sie sah verstörende Gesichter und Schatten um sich herum.",
+  "tts": "Sie sah verstörende Gesichter und Schatten um sich herum.",
+  "voice": "clone_611",
+  "file": "line_10.mp3",
+  "duration": 3.416,
+  "heard": "Sie sah verstörende Gesichter und Schatten um sich herum.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0625,
+    0.18
+   ],
+   [
+    0.125,
+    0.38
+   ],
+   [
+    0.3542,
+    1.2
+   ],
+   [
+    0.5417,
+    1.88
+   ],
+   [
+    0.6042,
+    2.22
+   ],
+   [
+    0.7708,
+    2.56
+   ],
+   [
+    0.8125,
+    2.68
+   ],
+   [
+    0.8958,
+    2.9
+   ],
+   [
+    1.0,
+    3.14
+   ]
+  ]
+ },
+ {
+  "i": 11,
+  "text": "Bei den Ritualen soll sich ihre Stimme verändert haben.",
+  "tts": "Bei den Ritualen soll sich ihre Stimme verändert haben.",
+  "voice": "clone_611",
+  "file": "line_11.mp3",
+  "duration": 3.232,
+  "heard": "Bei den Ritualen soll sich ihre Stimme verändert haben.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0652,
+    0.12
+   ],
+   [
+    0.1304,
+    0.26
+   ],
+   [
+    0.3043,
+    1.0
+   ],
+   [
+    0.3913,
+    1.3
+   ],
+   [
+    0.4783,
+    1.48
+   ],
+   [
+    0.5652,
+    1.74
+   ],
+   [
+    0.6957,
+    2.14
+   ],
+   [
+    0.8913,
+    2.52
+   ],
+   [
+    1.0,
+    2.9
+   ]
+  ]
+ },
+ {
+  "i": 12,
+  "text": "Die Wesen in sich nannte sie Luzifer, Judas, Nero, Kain und andere.",
+  "tts": "Die Wesen in sich nannte sie Luzifer, Judas, Nero, Kain und andere.",
+  "voice": "clone_611",
+  "file": "line_12.mp3",
+  "duration": 4.074,
+  "heard": "Die Wesen in sich nannte sie Lucifer, Judas, Nero, Kein und Andere.",
+  "score": 0.83,
+  "diff": [
+   "luzifer→lucifer",
+   "kain→kein"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0577,
+    0.12
+   ],
+   [
+    0.1538,
+    0.4
+   ],
+   [
+    0.1923,
+    0.54
+   ],
+   [
+    0.2692,
+    0.74
+   ],
+   [
+    0.3846,
+    1.08
+   ],
+   [
+    0.4423,
+    1.2
+   ],
+   [
+    0.5769,
+    2.06
+   ],
+   [
+    0.6731,
+    2.66
+   ],
+   [
+    0.75,
+    3.14
+   ],
+   [
+    0.8269,
+    3.38
+   ],
+   [
+    0.8846,
+    3.5
+   ],
+   [
+    1.0,
+    3.9
+   ]
+  ]
+ },
+ {
+  "i": 13,
+  "text": "Die beteiligten Priester sahen darin Zeichen dämonischer Besessenheit.",
+  "tts": "Die beteiligten Priester sahen darin Zeichen dämonischer Besessenheit.",
+  "voice": "clone_611",
+  "file": "line_13.mp3",
+  "duration": 4.567,
+  "heard": "Die beteiligten Priester sahen darin Zeichen dämonischer Besessenheit.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0484,
+    0.12
+   ],
+   [
+    0.2258,
+    0.76
+   ],
+   [
+    0.3548,
+    1.36
+   ],
+   [
+    0.4355,
+    1.98
+   ],
+   [
+    0.5161,
+    2.42
+   ],
+   [
+    0.629,
+    2.98
+   ],
+   [
+    0.8065,
+    3.68
+   ],
+   [
+    1.0,
+    4.44
+   ]
+  ]
+ },
+ {
+  "i": 14,
+  "text": "Doch schon Jahre zuvor hatten Ärzte bei ihr Schläfenlappen-Epilepsie festgestellt.",
+  "tts": "Doch schon Jahre zuvor hatten Ärzte bei ihr Schläfenlappen-Epilepsie festgestellt.",
+  "voice": "clone_611",
+  "file": "line_14.mp3",
+  "duration": 5.175,
+  "heard": "Doch schon Jahre zuvor hatten Ärzte bei ihr schläfen Lappenepilepsie festgestellt.",
+  "score": 0.82,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0563,
+    0.18
+   ],
+   [
+    0.1268,
+    0.4
+   ],
+   [
+    0.1972,
+    0.64
+   ],
+   [
+    0.2676,
+    1.18
+   ],
+   [
+    0.3521,
+    1.6
+   ],
+   [
+    0.4225,
+    2.16
+   ],
+   [
+    0.4648,
+    2.28
+   ],
+   [
+    0.507,
+    2.44
+   ],
+   [
+    0.6197,
+    2.88
+   ],
+   [
+    0.831,
+    4.04
+   ],
+   [
+    1.0,
+    4.82
+   ]
+  ]
+ },
+ {
+  "i": 15,
+  "text": "Dazu kam eine schwere Depression.",
+  "tts": "Dazu kam eine schwere Depression.",
+  "voice": "clone_611",
+  "file": "line_15.mp3",
+  "duration": 2.058,
+  "heard": "Dazu kam eine schwere Depression.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1429,
+    0.26
+   ],
+   [
+    0.25,
+    0.58
+   ],
+   [
+    0.3929,
+    0.88
+   ],
+   [
+    0.6429,
+    1.26
+   ],
+   [
+    1.0,
+    1.62
+   ]
+  ]
+ },
+ {
+  "i": 16,
+  "text": "Sie war in ärztlicher Behandlung und nahm Medikamente, doch die Symptome blieben.",
+  "tts": "Sie war in ärztlicher Behandlung und nahm Medikamente, doch die Symptome blieben.",
+  "voice": "clone_611",
+  "file": "line_16.mp3",
+  "duration": 4.937,
+  "heard": "Sie war in ärztlicher Behandlung und nahm Medikamente, doch die Symptome blieben.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0441,
+    0.18
+   ],
+   [
+    0.0882,
+    0.36
+   ],
+   [
+    0.1176,
+    0.5
+   ],
+   [
+    0.2647,
+    1.0
+   ],
+   [
+    0.4118,
+    1.84
+   ],
+   [
+    0.4559,
+    2.0
+   ],
+   [
+    0.5147,
+    2.32
+   ],
+   [
+    0.6765,
+    3.34
+   ],
+   [
+    0.7353,
+    3.58
+   ],
+   [
+    0.7794,
+    3.78
+   ],
+   [
+    0.8971,
+    4.34
+   ],
+   [
+    1.0,
+    4.72
+   ]
+  ]
+ },
+ {
+  "i": 17,
+  "text": "Als es ihr schlechter ging, setzte die Familie immer mehr auf die Kirche.",
+  "tts": "Als es ihr schlechter ging, setzte die Familie immer mehr auf die Kirche.",
+  "voice": "clone_611",
+  "file": "line_17.mp3",
+  "duration": 4.288,
+  "heard": "Als es ihr schlechter ging, setzte die Familie immer mehr auf die Kirche.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0508,
+    0.22
+   ],
+   [
+    0.0847,
+    0.4
+   ],
+   [
+    0.1356,
+    0.56
+   ],
+   [
+    0.3051,
+    1.04
+   ],
+   [
+    0.3729,
+    1.68
+   ],
+   [
+    0.4746,
+    2.12
+   ],
+   [
+    0.5254,
+    2.28
+   ],
+   [
+    0.6441,
+    2.72
+   ],
+   [
+    0.7288,
+    3.0
+   ],
+   [
+    0.7966,
+    3.32
+   ],
+   [
+    0.8475,
+    3.54
+   ],
+   [
+    0.8983,
+    3.68
+   ],
+   [
+    1.0,
+    4.1
+   ]
+  ]
+ },
+ {
+  "i": 18,
+  "text": "Zwischen 1975 und 1976 wurden über 60 Exorzismen offiziell genehmigt und durchgeführt.",
+  "tts": "Zwischen neunzehnhundertfünfundsiebzig und neunzehnhundertsechsundsiebzig wurden über sechzig Exorzismen offiziell genehmigt und durchgeführt.",
+  "voice": "clone_611",
+  "file": "line_18.mp3",
+  "duration": 9.207,
+  "heard": "Zwischen 1975 und 1976 wurden über 60 Exorzismen offiziell genehmigt und durchgeführt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1081,
+    0.36
+   ],
+   [
+    0.1622,
+    1.22
+   ],
+   [
+    0.2027,
+    2.44
+   ],
+   [
+    0.2568,
+    3.42
+   ],
+   [
+    0.3378,
+    4.72
+   ],
+   [
+    0.3919,
+    5.04
+   ],
+   [
+    0.4189,
+    5.6
+   ],
+   [
+    0.5541,
+    6.7
+   ],
+   [
+    0.6757,
+    7.26
+   ],
+   [
+    0.7973,
+    7.9
+   ],
+   [
+    0.8378,
+    8.28
+   ],
+   [
+    1.0,
+    8.96
+   ]
+  ]
+ },
+ {
+  "i": 19,
+  "text": "Ihr Körper verfiel. Sie aß immer weniger.",
+  "tts": "Ihr Körper verfiel. Sie aß immer weniger.",
+  "voice": "clone_611",
+  "file": "line_19.mp3",
+  "duration": 2.437,
+  "heard": "Ihr Körper verviel, sie aß immer weniger.",
+  "score": 0.86,
+  "diff": [
+   "verfiel→verviel"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0909,
+    0.1
+   ],
+   [
+    0.2727,
+    0.42
+   ],
+   [
+    0.4848,
+    1.26
+   ],
+   [
+    0.5758,
+    1.38
+   ],
+   [
+    0.6364,
+    1.62
+   ],
+   [
+    0.7879,
+    1.76
+   ],
+   [
+    1.0,
+    2.08
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "text": "Im Sommer 1976 war sie schwer unterernährt.",
+  "tts": "Im Sommer neunzehnhundertsechsundsiebzig war sie schwer unterernährt.",
+  "voice": "clone_611",
+  "file": "line_20.mp3",
+  "duration": 4.158,
+  "heard": "Im Sommer 1976 war sie schwer unternährt.",
+  "score": 0.86,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.14
+   ],
+   [
+    0.2353,
+    0.4
+   ],
+   [
+    0.3529,
+    1.4
+   ],
+   [
+    0.4412,
+    2.7
+   ],
+   [
+    0.5294,
+    2.88
+   ],
+   [
+    0.7059,
+    3.18
+   ],
+   [
+    1.0,
+    3.92
+   ]
+  ]
+ },
+ {
+  "i": 21,
+  "text": "Im Juli 1976 starb Anneliese Michel an Unterernährung und Flüssigkeitsmangel.",
+  "tts": "Im Juli neunzehnhundertsechsundsiebzig starb Anneliese Michel an Unterernährung und Flüssigkeitsmangel.",
+  "voice": "clone_611",
+  "file": "line_21.mp3",
+  "duration": 6.487,
+  "heard": "Im Juli 1976 starb Anne-Lise Michel an Unterernährung und Flüssigkeitsmangel.",
+  "score": 0.86,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0303,
+    0.14
+   ],
+   [
+    0.0909,
+    0.62
+   ],
+   [
+    0.1515,
+    1.54
+   ],
+   [
+    0.2273,
+    2.88
+   ],
+   [
+    0.2879,
+    3.1
+   ],
+   [
+    0.3485,
+    3.46
+   ],
+   [
+    0.4394,
+    3.76
+   ],
+   [
+    0.4697,
+    4.06
+   ],
+   [
+    0.6818,
+    5.02
+   ],
+   [
+    0.7273,
+    5.2
+   ],
+   [
+    1.0,
+    6.26
+   ]
+  ]
+ },
+ {
+  "i": 22,
+  "text": "Sie wurde nur 23 Jahre alt.",
+  "tts": "Sie wurde nur dreiundzwanzig Jahre alt.",
+  "voice": "clone_611",
+  "file": "line_22.mp3",
+  "duration": 2.309,
+  "heard": "Sie wurde nur 23 Jahre alt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1429,
+    0.16
+   ],
+   [
+    0.381,
+    0.36
+   ],
+   [
+    0.5238,
+    0.54
+   ],
+   [
+    0.619,
+    1.26
+   ],
+   [
+    0.8571,
+    1.68
+   ],
+   [
+    1.0,
+    2.02
+   ]
+  ]
+ },
+ {
+  "i": 23,
+  "text": "Nach ihrem Tod beschäftigte der Fall die Justiz.",
+  "tts": "Nach ihrem Tod beschäftigte der Fall die Justiz.",
+  "voice": "clone_611",
+  "file": "line_23.mp3",
+  "duration": 2.958,
+  "heard": "nach ihrem Tod beschäftigte der Fall die Justiz.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1,
+    0.18
+   ],
+   [
+    0.225,
+    0.38
+   ],
+   [
+    0.3,
+    0.76
+   ],
+   [
+    0.6,
+    1.66
+   ],
+   [
+    0.675,
+    1.78
+   ],
+   [
+    0.775,
+    2.02
+   ],
+   [
+    0.85,
+    2.2
+   ],
+   [
+    1.0,
+    2.68
+   ]
+  ]
+ },
+ {
+  "i": 24,
+  "text": "Ihre Eltern und die beiden Priester wurden wegen fahrlässiger Tötung angeklagt.",
+  "tts": "Ihre Eltern und die beiden Priester wurden wegen fahrlässiger Tötung angeklagt.",
+  "voice": "clone_611",
+  "file": "line_24.mp3",
+  "duration": 4.523,
+  "heard": "Ihre Eltern und die beiden Priester wurden wegen fahrlässiger Tötung angeklagt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.2
+   ],
+   [
+    0.1471,
+    0.62
+   ],
+   [
+    0.1912,
+    1.1
+   ],
+   [
+    0.2353,
+    1.26
+   ],
+   [
+    0.3235,
+    1.46
+   ],
+   [
+    0.4412,
+    2.0
+   ],
+   [
+    0.5294,
+    2.26
+   ],
+   [
+    0.6029,
+    2.46
+   ],
+   [
+    0.7794,
+    3.2
+   ],
+   [
+    0.8676,
+    3.62
+   ],
+   [
+    1.0,
+    4.32
+   ]
+  ]
+ },
+ {
+  "i": 25,
+  "text": "Die Anklage sagte: Mit ärztlicher Behandlung hätte sie überleben können.",
+  "tts": "Die Anklage sagte: Mit ärztlicher Behandlung hätte sie überleben können.",
+  "voice": "clone_611",
+  "file": "line_25.mp3",
+  "duration": 4.337,
+  "heard": "Die Anklage sagte, mit ärztlicher Behandlung hätte sie überleben können.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0492,
+    0.12
+   ],
+   [
+    0.1639,
+    0.7
+   ],
+   [
+    0.2459,
+    1.76
+   ],
+   [
+    0.2951,
+    1.94
+   ],
+   [
+    0.459,
+    2.42
+   ],
+   [
+    0.623,
+    2.94
+   ],
+   [
+    0.7049,
+    3.16
+   ],
+   [
+    0.7541,
+    3.36
+   ],
+   [
+    0.9016,
+    3.76
+   ],
+   [
+    1.0,
+    4.06
+   ]
+  ]
+ },
+ {
+  "i": 26,
+  "text": "Die Verteidigung erklärte, sie hätten an eine echte geistliche Notlage geglaubt.",
+  "tts": "Die Verteidigung erklärte, sie hätten an eine echte geistliche Notlage geglaubt.",
+  "voice": "clone_611",
+  "file": "line_26.mp3",
+  "duration": 5.066,
+  "heard": "Die Verteidigung erklärte, sie hätten an eine echte geistliche Notlage geglaubt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0441,
+    0.12
+   ],
+   [
+    0.2206,
+    0.7
+   ],
+   [
+    0.3382,
+    1.7
+   ],
+   [
+    0.3824,
+    1.88
+   ],
+   [
+    0.4706,
+    2.16
+   ],
+   [
+    0.5,
+    2.42
+   ],
+   [
+    0.5588,
+    2.62
+   ],
+   [
+    0.6324,
+    3.04
+   ],
+   [
+    0.7794,
+    3.7
+   ],
+   [
+    0.8824,
+    4.22
+   ],
+   [
+    1.0,
+    4.96
+   ]
+  ]
+ },
+ {
+  "i": 27,
+  "text": "Das Gericht sprach alle vier schuldig.",
+  "tts": "Das Gericht sprach alle vier schuldig.",
+  "voice": "clone_611",
+  "file": "line_27.mp3",
+  "duration": 2.256,
+  "heard": "Das Gericht sprach alle vierschuldig.",
+  "score": 0.73,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0938,
+    0.14
+   ],
+   [
+    0.3125,
+    0.52
+   ],
+   [
+    0.5,
+    1.02
+   ],
+   [
+    0.625,
+    1.24
+   ],
+   [
+    1.0,
+    2.02
+   ]
+  ]
+ },
+ {
+  "i": 28,
+  "text": "Ärztliche Hilfe sei verfügbar und notwendig gewesen.",
+  "tts": "Ärztliche Hilfe sei verfügbar und notwendig gewesen.",
+  "voice": "clone_611",
+  "file": "line_28.mp3",
+  "duration": 3.281,
+  "heard": "ärztliche Hilfe sei verfügbar und notwendig gewesen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.2,
+    0.54
+   ],
+   [
+    0.3111,
+    0.86
+   ],
+   [
+    0.3778,
+    1.1
+   ],
+   [
+    0.5778,
+    1.72
+   ],
+   [
+    0.6444,
+    1.98
+   ],
+   [
+    0.8444,
+    2.68
+   ],
+   [
+    1.0,
+    2.94
+   ]
+  ]
+ },
+ {
+  "i": 29,
+  "text": "Der Fall löste eine bundesweite Debatte aus und wird bis heute diskutiert.",
+  "tts": "Der Fall löste eine bundesweite Debatte aus und wird bis heute diskutiert.",
+  "voice": "clone_611",
+  "file": "line_29.mp3",
+  "duration": 4.374,
+  "heard": "der Fall löste eine bundesweite Debatte aus und wird bis heute diskutiert.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0484,
+    0.12
+   ],
+   [
+    0.1129,
+    0.38
+   ],
+   [
+    0.1935,
+    0.72
+   ],
+   [
+    0.2581,
+    0.92
+   ],
+   [
+    0.4355,
+    1.62
+   ],
+   [
+    0.5484,
+    1.94
+   ],
+   [
+    0.5968,
+    2.26
+   ],
+   [
+    0.6452,
+    2.84
+   ],
+   [
+    0.7097,
+    3.04
+   ],
+   [
+    0.7581,
+    3.2
+   ],
+   [
+    0.8387,
+    3.46
+   ],
+   [
+    1.0,
+    4.14
+   ]
+  ]
+ }
+]

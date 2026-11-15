@@ -1,0 +1,774 @@
+{
+ "pictures": [
+  {
+   "name": "site",
+   "src": "1/1-1.jpg",
+   "title": "祖師谷公園 世田谷一家殺人事件現場 - Panoramio 63788090.jpg",
+   "artist": "珈琲牛乳",
+   "date": "Taken on 21 December 2011Upload date: 21 December 2011",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%A5%96%E5%B8%AB%E8%B0%B7%E5%85%AC%E5%9C%92_%E4%B8%96%E7%94%B0%E8%B0%B7%E4%B8%80%E5%AE%B6%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6%E7%8F%BE%E5%A0%B4_-_Panoramio_63788090.jpg",
+   "ai": false
+  },
+  {
+   "name": "house",
+   "src": "1/1-3.jpg",
+   "title": "Setagaya-file1.jpg",
+   "artist": "Thirteen-fri",
+   "date": "Taken on 8 October 2010",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Setagaya-file1.jpg",
+   "ai": false
+  },
+  {
+   "name": "dna",
+   "src": "1/16-1.jpg",
+   "title": "DNA double helix horizontal.png",
+   "artist": "Jerome Walker",
+   "date": "2006-07-09",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:DNA_double_helix_horizontal.png",
+   "ai": false
+  },
+  {
+   "name": "centri",
+   "src": "1/17-5.jpg",
+   "title": "NABL Accredited Pathology Lab and Diagnostic Centre in Kharghar, Navi Mumbai - Full Body Checkup, CBC, Thyroid Blood Test and Home Blood Collection.jpg",
+   "artist": "Goleisureintl",
+   "date": "2026-06-03",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:NABL_Accredited_Pathology_Lab_and_Diagnostic_Centre_in_Kharghar,_Navi_Mumbai_-_Full_Body_Checkup,_CBC,_Thyroid_Blood_Test_and_Home_Blood_Collection.jpg",
+   "ai": false
+  },
+  {
+   "name": "tubes",
+   "src": "1/17-3.jpg",
+   "title": "Laboratory Test Tubes; from a medical laboratory in Abuja, Nigeria.jpg",
+   "artist": "Frankincense Diala",
+   "date": "2023-12-21 12:09:06",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Laboratory_Test_Tubes;_from_a_medical_laboratory_in_Abuja,_Nigeria.jpg",
+   "ai": false
+  },
+  {
+   "name": "finger",
+   "src": "1/15-5.jpg",
+   "title": "Fingerprint - Central Pocket Loop Whorl.jpg",
+   "artist": "Saurabh R. Patil",
+   "date": "2011-12-18",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Fingerprint_-_Central_Pocket_Loop_Whorl.jpg",
+   "ai": false
+  },
+  {
+   "name": "sole",
+   "src": "2/5-3.jpg",
+   "title": "Shoeprint(scene).JPG",
+   "artist": "Zalman992",
+   "date": "",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Shoeprint(scene).JPG",
+   "ai": false
+  },
+  {
+   "name": "sweat",
+   "src": "2/1-4.jpg",
+   "title": "Sweatshirt, Sweatshirt for menig, Germany: Group C.\\ nAv gray yllea. Long sleeves. Open in neckline. Around the sleeve lookups and neckline there is a green str",
+   "artist": "Army Museum",
+   "date": "",
+   "license": "CC BY 4.0",
+   "page": "https://www.europeana.eu/item/2048220/europeana_fashion_AM_021496",
+   "ai": false
+  },
+  {
+   "name": "hat",
+   "src": "1/14-4.jpg",
+   "title": "Beanie - Knit Cap (51013511676).jpg",
+   "artist": "ajay_suresh",
+   "date": "2021-03-06 21:34",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beanie_-_Knit_Cap_(51013511676).jpg",
+   "ai": false
+  },
+  {
+   "name": "bag",
+   "src": "1/13-1.jpg",
+   "title": "Fannypack1a.jpg",
+   "artist": "RJFJR",
+   "date": "6 December 2006 (original upload date)",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Fannypack1a.jpg",
+   "ai": false
+  },
+  {
+   "name": "cloth",
+   "src": "2/6-1.jpg",
+   "title": "Black Handkerchief With White And Grey Embroidery.jpg",
+   "artist": "unbekannt",
+   "date": "after 1800",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Handkerchief_With_White_And_Grey_Embroidery.jpg",
+   "ai": false
+  },
+  {
+   "name": "knife",
+   "src": "1/11-4.jpg",
+   "title": "YanagiBaKnifeBackFace.jpg",
+   "artist": "Kurosuke88 at English Wikipedia",
+   "date": "26 August 2009 (original upload date)",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:YanagiBaKnifeBackFace.jpg",
+   "ai": false
+  },
+  {
+   "name": "hall",
+   "src": "2/11-7.jpg",
+   "title": "Dark corridor (4676385338).jpg",
+   "artist": "IDS.photos from Tiverton, UK",
+   "date": "2010-06-06 14:31",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Dark_corridor_(4676385338).jpg",
+   "ai": false
+  },
+  {
+   "name": "kitchen",
+   "src": "2/12-3.jpg",
+   "title": "Fridge at night with open door.jpg",
+   "artist": "Daniel Case",
+   "date": "2016-10-18",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Fridge_at_night_with_open_door.jpg",
+   "ai": false
+  },
+  {
+   "name": "pc",
+   "src": "1/18-1.jpg",
+   "title": "Gateway 2000.jpg",
+   "artist": "MBlairMartin",
+   "date": "2006-01-14 01:43:11",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gateway_2000.jpg",
+   "ai": false
+  },
+  {
+   "name": "hq",
+   "src": "1/7-2.jpg",
+   "title": "Keishicho.jpg",
+   "artist": "っ",
+   "date": "2005-12",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Keishicho.jpg",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 14.065,
+   "said": [
+    "Wusstest du? Bei einem Mord",
+    "ließ der Täter fast alles",
+    "am Tatort zurück.",
+    "Blut, DNA, Fingerabdrücke, Kleidung,",
+    "Schuhspuren und sogar die Tatwaffe.",
+    "Doch nach über 25 Jahren weiß",
+    "die Polizei nicht, wer er ist."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "site.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Blut"
+    },
+    {
+     "type": "tape",
+     "text": "DNA"
+    },
+    {
+     "type": "tape",
+     "text": "Fingerabdrücke"
+    },
+    {
+     "type": "tape",
+     "text": "Kleidung"
+    },
+    {
+     "type": "tape",
+     "text": "Schuhspuren"
+    },
+    {
+     "type": "tape",
+     "text": "Tatwaffe"
+    },
+    {
+     "type": "tape",
+     "text": "25+ JAHRE"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 14.065,
+   "end": 18.75,
+   "said": [
+    "Der Fall Miyazawa,",
+    "einer der bekanntesten",
+    "ungelösten Fälle Japans."
+   ],
+   "head": "Familie Miyazawa",
+   "items": []
+  },
+  {
+   "scene": 3,
+   "start": 18.75,
+   "end": 25.901,
+   "said": [
+    "In der Nacht zum 31. Dezember",
+    "2000 wurden in Tokio vier",
+    "Menschen in ihrem Haus getötet."
+   ],
+   "head": "Familie Miyazawa",
+   "items": [
+    {
+     "type": "card"
+    },
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Setagaya, Tokio"
+    },
+    {
+     "type": "tape",
+     "text": "4 Todesopfer"
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "start": 25.901,
+   "end": 33.005,
+   "said": [
+    "Mikio Miyazawa, 44,",
+    "seine Frau Yasuko, 41,",
+    "und die Kinder Niina, 8, und Rei, 6."
+   ],
+   "head": "Familie Miyazawa",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "start": 33.005,
+   "end": 37.537,
+   "said": [
+    "Rätselhaft ist: Der Täter hinterließ",
+    "seine biologische Identität."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "sticker",
+     "image": "dna.png",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "biologische Identität"
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "start": 37.537,
+   "end": 42.251,
+   "said": [
+    "Er verletzte sich an der Hand.",
+    "Blutgruppe A, seine DNA",
+    "wurde gesichert."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "centri.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "an der Hand verletzt"
+    },
+    {
+     "type": "tape",
+     "text": "Blutgruppe A"
+    },
+    {
+     "type": "photo",
+     "image": "tubes.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "DNA gesichert"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 42.251,
+   "end": 46.875,
+   "said": [
+    "Fingerabdrücke und eine einzige",
+    "Schuhspur: Es war wohl nur ein Täter."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "finger.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "sole.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "fremde Abdrücke"
+    },
+    {
+     "type": "tape",
+     "text": "1 Schuhspur"
+    },
+    {
+     "type": "tape",
+     "text": "nur ein Täter"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 46.875,
+   "end": 51.226,
+   "said": [
+    "Dazu Sweatshirt, Mütze, Schal,",
+    "Gürteltasche und Taschentücher."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "sticker",
+     "image": "sweat.png",
+     "ai": false
+    },
+    {
+     "type": "sticker",
+     "image": "hat.png",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Schal"
+    },
+    {
+     "type": "sticker",
+     "image": "bag.png",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "cloth.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Sweatshirt"
+    },
+    {
+     "type": "tape",
+     "text": "Mütze"
+    },
+    {
+     "type": "tape",
+     "text": "Gürteltasche"
+    },
+    {
+     "type": "tape",
+     "text": "Taschentücher"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 51.226,
+   "end": 60.626,
+   "said": [
+    "Das Sweatshirt wurde in ganz Japan",
+    "nur 130-mal verkauft.",
+    "Bis Ende 2025 fand die Polizei",
+    "nur zwölf Käufer."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "sticker",
+     "image": "sweat.png",
+     "ai": false
+    },
+    {
+     "type": "stat"
+    },
+    {
+     "type": "tape",
+     "text": "bis Ende 2025"
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 60.626,
+   "end": 67.502,
+   "said": [
+    "Die Schuhe: Slazenger",
+    "aus Südkorea, Größe 27,5,",
+    "in Japan damals nicht im Handel."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "sole.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Slazenger"
+    },
+    {
+     "type": "tape",
+     "text": "Südkorea"
+    },
+    {
+     "type": "tape",
+     "text": "GRÖSSE 27,5"
+    },
+    {
+     "type": "tape",
+     "text": "nicht im Handel"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 67.502,
+   "end": 71.597,
+   "said": [
+    "Die Tatwaffe, ein Sashimi-Messer,",
+    "blieb ebenfalls zurück."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "sticker",
+     "image": "knife.png",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Sashimi-Messer"
+    },
+    {
+     "type": "tape",
+     "text": "TATWAFFE"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 71.597,
+   "end": 77.484,
+   "said": [
+    "Ein Mann,",
+    "der so ein Messer gekauft hatte,",
+    "wurde gefunden.",
+    "Doch seine DNA passte nicht."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 77.484,
+   "end": 79.74,
+   "said": [
+    "Dann das verstörendste Detail."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "tape",
+     "text": "das verstörendste Detail"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 79.74,
+   "end": 82.91,
+   "said": [
+    "Der Täter floh nicht sofort.",
+    "Er blieb im Haus."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "hall.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "FLOH NICHT"
+    },
+    {
+     "type": "tape",
+     "text": "blieb im Haus"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 82.91,
+   "end": 87.54,
+   "said": [
+    "Er aß, ging auf die Toilette,",
+    "sah Papiere durch und nutzte",
+    "den Computer."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "kitchen.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "start": 87.54,
+   "end": 95.09,
+   "said": [
+    "Der Computer war um 1:18 Uhr online",
+    "und gegen 10 Uhr erneut.",
+    "Ob er bis zum Morgen blieb,",
+    "ist aber unsicher."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "sticker",
+     "image": "pc.png",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "tape",
+     "text": "Zeitpunkt unsicher"
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "start": 95.09,
+   "end": 105.205,
+   "said": [
+    "Die Polizei hat sein Blut, seine DNA,",
+    "seine Fingerabdrücke, seine Kleidung.",
+    "Sogar kurz geschnittene Haare",
+    "aus seiner Gürteltasche.",
+    "Nur keinen Namen."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "site.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "tubes.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "finger.jpg",
+     "ai": false
+    },
+    {
+     "type": "sticker",
+     "image": "bag.png",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "kurze Haare"
+    },
+    {
+     "type": "tape",
+     "text": "NAME: ???"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 105.205,
+   "end": 110.969,
+   "said": [
+    "2025 berichteten japanische Medien",
+    "über eine neue DNA-Analyse."
+   ],
+   "head": "Spur in der DNA",
+   "items": []
+  },
+  {
+   "scene": 19,
+   "start": 110.969,
+   "end": 120.033,
+   "said": [
+    "Demnach war er damals etwa 30,",
+    "heute 50 bis 60 Jahre alt.",
+    "Ein Pressebericht, keine von",
+    "der Polizei bestätigte Identität."
+   ],
+   "head": "Spur in der DNA",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 120.033,
+   "end": 123.567,
+   "said": [
+    "Ein Vierteljahrhundert",
+    "später ist der Fall ungelöst."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "hq.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "2000 – 2025"
+    },
+    {
+     "type": "tape",
+     "text": "ungelöst"
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "start": 123.567,
+   "end": 126.99,
+   "said": [
+    "Das Unheimlichste:",
+    "Er verschwand nicht spurlos."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "site.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "spurlos?"
+    }
+   ]
+  },
+  {
+   "scene": 22,
+   "start": 126.99,
+   "end": 131.637,
+   "said": [
+    "Er hinterließ fast alles,",
+    "außer seinem Namen."
+   ],
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "site.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "centri.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "finger.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "sole.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  }
+ ]
+}
