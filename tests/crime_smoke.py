@@ -153,7 +153,7 @@ w_ = wave.open(os.path.join(pub, pb['sfx'])); x_ = np.frombuffer(w_.readframes(w
 assert abs(len(x_) / w_.getframerate() - pb['duration']) < 0.05 and np.abs(x_).max() > 3000, 'no sound effects'
 import sfx as SFX
 names = [n.split(':')[0] for _, n in SFX.events(pb)]
-assert {'key', 'slap', 'slap_red', 'stamp', 'boom', 'ping', 'tick', 'scratch', 'whoosh'} <= set(names), set(names)
+assert {'key', 'slap', 'slap_red', 'stamp', 'boom', 'ping', 'tick', 'scratch', 'whoosh', 'hit'} <= set(names) and names[0] == 'hit', set(names)   # the first frame is never silent
 
 if '--still' in sys.argv:
     t1 = sc[0]['e'] - 0.1                    # the print with its four tapes

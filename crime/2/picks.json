@@ -1,6 +1,5 @@
 {
  "sfx": true,
- "lead": 1.8,
  "tail": 3.8,
  "tape_scale": 1.15,
  "timeline": [
@@ -89,52 +88,79 @@
  "scenes": [
   {
    "at": 1,
-   "edit": "statement",
-   "hush": true,
-   "why": "câu hỏi mở đầu trước lời đọc: bệnh hay bị quỷ ám — cả video trả lời câu này",
+   "edit": "hook",
+   "why": "2 giây đầu quyết định: 3 hình mạnh nhất cắt nhanh theo từng chữ (cảnh hét trong phim, thánh giá, bia mộ thật), câu hỏi đập lên ngay khung hình đầu, có tiếng ngay từ đầu; rồi áp phích phim khi đọc \"Film\"",
    "items": [
+    {
+     "photo": "scream",
+     "pos": "full",
+     "view": [
+      0.54,
+      0.0,
+      0.91,
+      1.0
+     ]
+    },
+    {
+     "photo": "cross",
+     "pos": "full",
+     "view": [
+      0.1,
+      0.0,
+      0.9,
+      1.0
+     ],
+     "at": "1/wahre"
+    },
+    {
+     "photo": "grave",
+     "pos": "full",
+     "view": [
+      0.44,
+      0.0,
+      0.92,
+      1.0
+     ],
+     "at": "1/hinter"
+    },
+    {
+     "photo": "poster",
+     "pos": "full",
+     "view": [
+      0.0,
+      0.08,
+      1.0,
+      0.93
+     ],
+     "at": "1/Film"
+    },
+    {
+     "tape": "Krank – oder besessen?",
+     "color": "red",
+     "size": 74,
+     "xy": [
+      540,
+      1240
+     ]
+    },
     {
      "tape": "EINE WAHRE GESCHICHTE",
      "color": "white",
      "size": 46,
      "xy": [
       540,
-      720
-     ]
-    },
-    {
-     "tape": "Krank – oder besessen?",
-     "color": "red",
-     "size": 72,
-     "xy": [
-      540,
-      850
-     ]
-    }
-   ]
-  },
-  {
-   "at": 1,
-   "edit": "hook",
-   "why": "câu 1 là câu mở: chuyện thật sau bộ phim — cho xem áp phích phim",
-   "items": [
-    {
-     "photo": "poster",
-     "view": [
-      0.0,
-      0.08,
-      1.0,
-      0.93
-     ]
-    },
-    {
-     "tape": "wahre Geschichte",
-     "color": "red",
+      1120
+     ],
      "at": "1/wahre"
     },
     {
      "tape": "FILM, 2005",
      "color": "white",
+     "size": 50,
+     "xy": [
+      540,
+      1000
+     ],
      "at": "1/Film"
     }
    ]

@@ -11,7 +11,8 @@ from scipy import signal
 
 SR = 48000
 LEVEL = {'key': 0.16, 'scratch': 0.22, 'slap': 0.42, 'slap_red': 0.55, 'stamp': 0.95, 'swish': 0.3, 'drop': 0.4,
-         'whoosh': 0.22, 'boom': 0.6, 'ping': 0.3, 'tick': 0.18}
+         'whoosh': 0.22, 'boom': 0.6, 'ping': 0.3, 'tick': 0.18, 'hit': 1.0, 'cut': 0.6, 'shutter': 0.35}
+# phone speakers play almost nothing below ~150 Hz: every low sound also has a mid body and a bright edge
 
 
 def _f(x, kind, f):
@@ -79,11 +80,33 @@ def whoosh(r, d=0.38):
 
 
 def boom(r):
-    """A low cinematic hit: a falling sub tone and a burst of dark noise."""
+    """A low cinematic hit: a falling tone, driven so its overtones are heard on a phone, and a burst of noise."""
     t = _t(1.8)
-    f = 36 + 46 * np.exp(-t / 0.5)
-    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t / 0.8) + 0.45 * _f(r.uniform(-1, 1, t.size), 'lowpass', 300) * np.exp(-t / 0.12)
+    f = 48 + 70 * np.exp(-t / 0.4)
+    tone = np.tanh(2.5 * np.sin(2 * np.pi * np.cumsum(f) / SR)) * np.exp(-t / 0.7)
+    x = tone + 0.5 * _f(r.uniform(-1, 1, t.size), 'bandpass', [150, 2500]) * np.exp(-t / 0.09)
     x[: int(0.004 * SR)] *= np.linspace(0, 1, int(0.004 * SR))
+    return _norm(x)
+
+
+def hit(r, soft=False):
+    """The first frame's impact (and, softer, a hard cut): a punchy body at 120-250 Hz, a bright crack, a metallic
+    ring that lingers — all in the range a phone speaker plays."""
+    t = _t(1.4 if not soft else 0.6)
+    f = 90 + 180 * np.exp(-t / 0.04)
+    body = np.tanh(3 * np.sin(2 * np.pi * np.cumsum(f) / SR)) * np.exp(-t / (0.22 if not soft else 0.1))
+    crack = _f(r.uniform(-1, 1, t.size), 'bandpass', [900, 7000]) * np.exp(-t / 0.035)
+    ring = (np.sin(2 * np.pi * 820 * t) + 0.6 * np.sin(2 * np.pi * 1233 * t) + 0.3 * np.sin(2 * np.pi * 2071 * t)) * np.exp(-t / (0.5 if not soft else 0.15))
+    x = body + 0.8 * crack + (0.25 if not soft else 0.12) * ring
+    x[: int(0.002 * SR)] *= np.linspace(0, 1, int(0.002 * SR))
+    return _norm(x)
+
+
+def shutter(r):
+    """A camera shutter: two dry clicks."""
+    t = _t(0.09)
+    c = _f(r.uniform(-1, 1, t.size), 'bandpass', [1800, 8000]) * np.exp(-t / 0.005)
+    x = np.zeros(int(0.12 * SR)); x[:c.size] += c; i = int(0.045 * SR); x[i:i + c.size] += 0.7 * c[: x.size - i]
     return _norm(x)
 
 
@@ -116,7 +139,7 @@ def _typed(text, s, cps):
 
 def events(plan):
     """(time, sound) of everything that moves in a built plan."""
-    ev = [(0.0, 'boom')] if plan['scenes'] and plan['scenes'][0].get('hook_q') else []
+    ev = [(0.0, 'hit')] if plan['scenes'] and plan['scenes'][0]['items'] else []   # the first frame is never silent
     for sc in plan['scenes']:
         s0 = sc['s']
         if sc.get('hush'): ev.append((s0, 'boom'))
@@ -129,6 +152,7 @@ def events(plan):
             kind = it['type']
             if kind == 'photo':
                 if late and not it.get('bleed'): ev.append((t - 0.12, 'drop'))
+                if late and it.get('bleed'): ev += [(t, 'cut'), (t, 'shutter')]   # a hard cut to a full-frame picture
                 for rg in it.get('rings', []):
                     ev.append((rg['s'], 'ping' if rg.get('shape') == 'pin' else 'scratch:0.5'))
                 if it.get('zoom'): ev.append((it['zoom']['s'], 'whoosh'))
@@ -163,7 +187,8 @@ def render(ev, total, path, write, seed=11):
         elif kind in ('slap', 'slap_red'): x = slap(r, low=kind == 'slap_red')
         elif kind == 'swish': x = swish(r, float(arg) if arg else 0.3)
         elif kind == 'scratch': x = scratch(r, float(arg or 0.5))
-        else: x = {'stamp': stamp, 'drop': drop, 'whoosh': whoosh, 'boom': boom, 'ping': ping, 'tick': tick}[kind](r)
+        elif kind == 'cut': x = hit(r, soft=True)
+        else: x = {'stamp': stamp, 'drop': drop, 'whoosh': whoosh, 'boom': boom, 'ping': ping, 'tick': tick, 'hit': hit, 'shutter': shutter}[kind](r)
         i = int(max(0, t) * SR)
         if i >= out.size: continue
         x = x[: out.size - i] * LEVEL[kind]

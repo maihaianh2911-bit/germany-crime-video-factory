@@ -139,12 +139,14 @@ const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces 
   const seed = (hash(it.src) % 1000) / 1000;
   const sway = it.bleed ? 0 : 0.45 * Math.sin(t * 0.75 + seed * 6.28);   // the print is never quite still
   if (it.bleed) return (
-    <div style={{ position: 'absolute', left: x, top: y, width: bw, height: bh, overflow: 'hidden', background: '#000', opacity: clamp01((t - it.s) / 0.6) }}>
+    <div style={{ position: 'absolute', left: x, top: y, width: bw, height: bh, overflow: 'hidden', background: '#000',
+      opacity: late ? clamp01((t - it.s) / 0.04) : sc.hush ? clamp01((t - it.s) / 0.6) : 1 }}>
       <Img src={staticFile(it.src)} style={{ position: 'absolute', left: -v0 * it.w * sx, top: -v1 * it.h * sy, width: it.w * sx, height: it.h * sy, maxWidth: 'none' }} />
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 62%, rgba(0,0,0,.7) 100%)' }} />
       <div style={{ position: 'absolute', inset: 0, boxShadow: 'inset 0 0 160px rgba(0,0,0,.6)' }} />
       <Rings it={it} t={t} v={[v0, v1, v2, v3]} iw={iw} ih={ih} />
       {it.ai ? <AiTag tag={tag} F={F} style={{ left: 30, top: 140 }} /> : null}
+      {late ? <div style={{ position: 'absolute', inset: 0, background: '#fff', opacity: 0.75 * (1 - easeOut((t - it.s) / 0.18)) }} /> : null}
     </div>
   );
   return (
