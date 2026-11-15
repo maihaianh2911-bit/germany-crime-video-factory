@@ -8,9 +8,9 @@ import { AbsoluteFill, Audio, Img, Sequence, cancelRender, continueRender, delay
 // position comes from scripts/crime/layout.py via build.py: this file only draws the plan and animates entrances.
 type View = [number, number, number, number];
 type Box = [number, number, number, number];
-type Ring = { s: number; box: View; shape: 'ellipse' | 'rect'; color: string };
+type Ring = { s: number; box: View; shape: 'ellipse' | 'rect' | 'pin'; color: string };   // pin: a map pin at the box's centre
 type Base = { s: number; e?: number };
-export type PhotoI = Base & { type: 'photo'; src: string; w: number; h: number; box: Box; view: View; rot: number; ai: boolean;
+export type PhotoI = Base & { type: 'photo'; src: string; w: number; h: number; box: Box; view: View; rot: number; ai: boolean; bleed?: boolean;
   credit: string; drift: number; zoom?: { to: View; s: number; e: number }; rings: Ring[] };
 export type StickerI = Base & { type: 'sticker'; src: string; w: number; h: number; box: Box; rot: number; ai: boolean; credit: string };
 export type TapeI = Base & { type: 'tape'; text: string; color: 'yellow' | 'red' | 'white'; px: number; x: number; y: number;
@@ -22,12 +22,12 @@ export type StatI = Base & { type: 'stat'; x: number; y: number; rows: { n: stri
 export type StringI = Base & { type: 'string'; a: [number, number]; b: [number, number] };
 export type Item = PhotoI | StickerI | TapeI | CardI | StatI | StringI;
 export type Head = { kicker: string; title: string; mode: 'top' | 'mid'; from: 'top' | 'mid' | null; s: number };
-export type Scene = { s: number; e: number; scene: number; head: Head | null; items: Item[]; credit: string; edit?: string };   // edit: name of the scene edit (picks.json), for the sheets only
+export type Scene = { s: number; e: number; scene: number; head: Head | null; items: Item[]; credit: string; edit?: string; hush?: boolean };   // hush: a quiet moment (no music, slow camera)   // edit: name of the scene edit (picks.json), for the sheets only
 type FontChunk = { family: string; file: string; range: string; weight: string; style: string };
 type Faces = { sub: string; mono: string; serif: string; hand: string };
 export type PlanC = { duration: number; lang: 'ja' | 'de'; title: string; aiTag: string; faces: Faces; bg: string | null;
   scenes: Scene[]; subs: { s: number; e: number; text: string }[]; voice: { s: number; src: string }[]; music: string | null;
-  musicVolume: number; fonts: FontChunk[] };
+  musicVolume: number; fonts: FontChunk[]; sfx?: string; sfxVolume?: number; timeline?: { labels: string[]; marks: number[]; idx: number[] } | null };
 
 // layout.py
 const SUB_Y = 1600, SUB_W = 940, SUB_PX = 40, CREDIT_Y = 1872, BORDER = 14;
@@ -98,34 +98,63 @@ const AiTag: React.FC<{ tag: string; F: Faces; style?: React.CSSProperties }> = 
     fontFamily: fam(F.sub, 'sans-serif'), fontWeight: 600, fontSize: 22, letterSpacing: '0.03em', whiteSpace: 'nowrap', ...style }}>{tag}</div>
 );
 
+// rings drawn on a picture (they follow its zoom and push-in); a "pin" is a map pin: a red dot with two pulses
+const Rings: React.FC<{ it: PhotoI; t: number; v: View; iw: number; ih: number }> = ({ it, t, v, iw, ih }) => {
+  const [v0, v1, v2, v3] = v;
+  const X = (f: number) => ((f - v0) / (v2 - v0)) * iw, Y = (f: number) => ((f - v1) / (v3 - v1)) * ih;
+  return (
+    <svg width={iw} height={ih} style={{ position: 'absolute', left: 0, top: 0, overflow: 'visible' }}>
+      {it.rings.filter((r) => t >= r.s).map((r, i) => {
+        const [a, b, c, d] = r.box;
+        const col = r.color === 'red' || r.shape === 'pin' ? '#d1281e' : '#f2cc2f';
+        if (r.shape === 'pin') {
+          const cx = X((a + c) / 2), cy = Y((b + d) / 2), k = backOut((t - r.s) / 0.35);
+          return (
+            <g key={i}>
+              {[0, 0.6].map((o) => { const ph = ((t - r.s + o) % 1.2) / 1.2;
+                return <circle key={o} cx={cx} cy={cy} r={14 + 46 * ph} fill="none" stroke={col} strokeWidth={4} opacity={0.8 * (1 - ph) * clamp01((t - r.s) / 0.3)} />; })}
+              <circle cx={cx} cy={cy} r={13 * k} fill={col} stroke="#fff" strokeWidth={3} style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,.7))' }} />
+            </g>
+          );
+        }
+        const st = { fill: 'none', stroke: col, strokeWidth: 7, strokeLinecap: 'round' as const,
+          strokeLinejoin: 'round' as const, strokeDasharray: 1, strokeDashoffset: 1 - easeOut((t - r.s) / 0.55),
+          filter: 'drop-shadow(0 0 4px rgba(0,0,0,.6))' };
+        return r.shape === 'rect'
+          ? <rect key={i} pathLength={1} x={X(a)} y={Y(b)} width={X(c) - X(a)} height={Y(d) - Y(b)} rx={8} style={st} />
+          : <path key={i} pathLength={1} d={ringPath((X(a) + X(c)) / 2, (Y(b) + Y(d)) / 2, (X(c) - X(a)) / 2, (Y(d) - Y(b)) / 2, it.src + i)} style={st} />;
+      })}
+    </svg>
+  );
+};
+
 const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces }> = ({ it, t, sc, tag, F }) => {
   const [x, y, bw, bh] = it.box;
-  const iw = bw - 2 * BORDER, ih = bh - 2 * BORDER;
+  const B = it.bleed ? 0 : BORDER;   // a full-frame picture has no paper border
+  const iw = bw - 2 * B, ih = bh - 2 * B;
   const [v0, v1, v2, v3] = viewAt(it, t, it.s, sc.e);
   const sx = iw / ((v2 - v0) * it.w), sy = ih / ((v3 - v1) * it.h);
   const late = it.s > sc.s + 0.01;
   const k = late ? backOut((t - it.s) / 0.34) : 1, lift = late ? 1 - easeOut((t - it.s) / 0.3) : 0;
   const seed = (hash(it.src) % 1000) / 1000;
-  const sway = 0.45 * Math.sin(t * 0.75 + seed * 6.28);   // the print is never quite still
+  const sway = it.bleed ? 0 : 0.45 * Math.sin(t * 0.75 + seed * 6.28);   // the print is never quite still
+  if (it.bleed) return (
+    <div style={{ position: 'absolute', left: x, top: y, width: bw, height: bh, overflow: 'hidden', background: '#000', opacity: clamp01((t - it.s) / 0.6) }}>
+      <Img src={staticFile(it.src)} style={{ position: 'absolute', left: -v0 * it.w * sx, top: -v1 * it.h * sy, width: it.w * sx, height: it.h * sy, maxWidth: 'none' }} />
+      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 62%, rgba(0,0,0,.7) 100%)' }} />
+      <div style={{ position: 'absolute', inset: 0, boxShadow: 'inset 0 0 160px rgba(0,0,0,.6)' }} />
+      <Rings it={it} t={t} v={[v0, v1, v2, v3]} iw={iw} ih={ih} />
+      {it.ai ? <AiTag tag={tag} F={F} style={{ left: 30, top: 140 }} /> : null}
+    </div>
+  );
   return (
     <div style={{ position: 'absolute', left: x, top: y, width: bw, height: bh, background: '#eeeae2', opacity: late ? clamp01((t - it.s) / 0.1) : 1,
       transform: `rotate(${it.rot + sway + (seed < 0.5 ? -6 : 6) * lift}deg) scale(${1.22 - 0.22 * k})`,
       boxShadow: `0 ${18 + 40 * lift}px ${40 + 50 * lift}px rgba(0,0,0,.6), 0 3px 8px rgba(0,0,0,.5)` }}>
-      <div style={{ position: 'absolute', left: BORDER, top: BORDER, width: iw, height: ih, overflow: 'hidden', background: '#111' }}>
+      <div style={{ position: 'absolute', left: B, top: B, width: iw, height: ih, overflow: 'hidden', background: '#111' }}>
         <Img src={staticFile(it.src)} style={{ position: 'absolute', left: -v0 * it.w * sx, top: -v1 * it.h * sy, width: it.w * sx, height: it.h * sy, maxWidth: 'none' }} />
         <div style={{ position: 'absolute', inset: 0, boxShadow: 'inset 0 0 40px rgba(0,0,0,.35)' }} />
-        <svg width={iw} height={ih} style={{ position: 'absolute', left: 0, top: 0, overflow: 'visible' }}>
-          {it.rings.filter((r) => t >= r.s).map((r, i) => {
-            const X = (f: number) => ((f - v0) / (v2 - v0)) * iw, Y = (f: number) => ((f - v1) / (v3 - v1)) * ih;
-            const [a, b, c, d] = r.box;
-            const st = { fill: 'none', stroke: r.color === 'red' ? '#d1281e' : '#f2cc2f', strokeWidth: 7, strokeLinecap: 'round' as const,
-              strokeLinejoin: 'round' as const, strokeDasharray: 1, strokeDashoffset: 1 - easeOut((t - r.s) / 0.55),
-              filter: 'drop-shadow(0 0 4px rgba(0,0,0,.6))' };
-            return r.shape === 'rect'
-              ? <rect key={i} pathLength={1} x={X(a)} y={Y(b)} width={X(c) - X(a)} height={Y(d) - Y(b)} rx={8} style={st} />
-              : <path key={i} pathLength={1} d={ringPath((X(a) + X(c)) / 2, (Y(b) + Y(d)) / 2, (X(c) - X(a)) / 2, (Y(d) - Y(b)) / 2, it.src + i)} style={st} />;
-          })}
-        </svg>
+        <Rings it={it} t={t} v={[v0, v1, v2, v3]} iw={iw} ih={ih} />
         {it.ai ? <AiTag tag={tag} F={F} style={{ left: 10, bottom: 10 }} /> : null}
       </div>
     </div>
@@ -278,10 +307,11 @@ const HeadV: React.FC<{ h: Head; t: number; F: Faces }> = ({ h, t, F }) => {
 const camera = (sc: Scene, t: number) => {
   const p = clamp01((t - sc.s) / Math.max(0.5, sc.e - sc.s));
   const a = (hash('cam' + sc.scene) % 628) / 100, dir = sc.scene % 2 ? 1 : -1;
-  const zoom = 1.0 + 0.055 * p;
-  let tx = Math.cos(a) * 26 * (p - 0.5), ty = Math.sin(a) * 18 * (p - 0.5), rot = dir * 0.5 * (p - 0.5);
-  const kin = sc.s > 0 ? easeOut((t - sc.s) / 0.32) : 1;
-  tx += dir * 120 * (1 - kin); rot += dir * 1.6 * (1 - kin);
+  const q = sc.hush ? 0 : 1;   // a quiet moment: only a slow, deeper push-in
+  const zoom = 1.0 + (sc.hush ? 0.09 : 0.055) * p;
+  let tx = q * Math.cos(a) * 26 * (p - 0.5), ty = q * Math.sin(a) * 18 * (p - 0.5), rot = q * dir * 0.5 * (p - 0.5);
+  const kin = sc.s > 0 ? easeOut((t - sc.s) / (sc.hush ? 0.7 : 0.32)) : 1;
+  tx += q * dir * 120 * (1 - kin); rot += q * dir * 1.6 * (1 - kin);
   let punch = 0, shake = 0;
   for (const it of sc.items) {
     if (it.s <= sc.s + 0.05 || t < it.s) continue;
@@ -290,7 +320,40 @@ const camera = (sc: Scene, t: number) => {
     if (it.type === 'tape' && it.color === 'red') shake += 7 * Math.exp(-d / 0.1) * Math.sin(d * 70);
     if (it.type === 'card' && it.stamp) { const ds = t - it.stamp.s; if (ds >= 0) { punch += 0.02 * Math.exp(-ds / 0.12); shake += 9 * Math.exp(-ds / 0.1) * Math.sin(ds * 70); } }
   }
-  return { tx: tx + shake, ty, rot, zoom: zoom + 0.07 * (1 - kin) + punch, kin };
+  if (sc.hush) { punch *= 0.3; shake *= 0.3; }
+  return { tx: tx + shake, ty, rot, zoom: zoom + q * 0.07 * (1 - kin) + punch, kin };
+};
+
+// the year bar between the board and the subtitle: the years of the case, a red marker sliding to the current one
+const TL_Y = 1516, TL_X0 = 170, TL_X1 = 910;
+const Timeline: React.FC<{ tl: { labels: string[]; marks: number[]; idx: number[] }; t: number; F: Faces }> = ({ tl, t, F }) => {
+  const n = tl.labels.length;
+  if (!n || t < tl.marks[0]) return null;
+  const xs = tl.labels.map((_, i) => (n === 1 ? 540 : TL_X0 + ((TL_X1 - TL_X0) * i) / (n - 1)));
+  let m = 0;   // the last mark reached; the marker slides from the previous mark's year to its year
+  tl.marks.forEach((s, i) => { if (t >= s) m = i; });
+  const cur = tl.idx[m], k = ease((t - tl.marks[m]) / 0.6);
+  const mx = m > 0 ? xs[tl.idx[m - 1]] + (xs[cur] - xs[tl.idx[m - 1]]) * k : xs[cur];
+  const fade = easeOut((t - tl.marks[0]) / 0.5);
+  return (
+    <div style={{ position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, opacity: fade }}>
+      <div style={{ position: 'absolute', left: TL_X0 - 30, width: TL_X1 - TL_X0 + 60, top: TL_Y + 14, height: 3, background: 'rgba(235,228,214,.28)' }} />
+      <div style={{ position: 'absolute', left: TL_X0 - 30, width: mx - TL_X0 + 30, top: TL_Y + 14, height: 3, background: '#c3261e' }} />
+      {tl.labels.map((l, i) => {
+        const on = i === cur, past = i <= cur;
+        return (
+          <React.Fragment key={i}>
+            <div style={{ position: 'absolute', left: xs[i] - 6, top: TL_Y + 9, width: 12, height: 12, borderRadius: 6, background: past ? '#c3261e' : 'rgba(235,228,214,.45)' }} />
+            <div style={{ position: 'absolute', left: xs[i], top: TL_Y - 24, transform: `translateX(-50%) scale(${on ? 1 + 0.25 * k : 1})`, transformOrigin: '50% 100%',
+              fontFamily: fam(F.mono, 'monospace'), fontWeight: 700, fontSize: 30, letterSpacing: '0.04em', color: on ? '#f4efe4' : 'rgba(235,228,214,.45)',
+              textShadow: '0 2px 8px rgba(0,0,0,.8)' }}>{l}</div>
+          </React.Fragment>
+        );
+      })}
+      <div style={{ position: 'absolute', left: mx - 11, top: TL_Y + 4, width: 22, height: 22, borderRadius: 11, background: '#d1281e', border: '3px solid #f4efe4',
+        boxShadow: '0 2px 8px rgba(0,0,0,.7)' }} />
+    </div>
+  );
 };
 
 // dust drifting over the board and a stray hair, as the sample's film grain
@@ -313,7 +376,7 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
   const F = plan.faces;
   const allText = plan.scenes.map((s) => (s.head ? s.head.kicker + s.head.title : '') + s.credit + s.items.map((i) =>
     'text' in i ? i.text : i.type === 'card' ? i.head + i.tab + i.corner + i.rows.map((r) => r.l + r.r).join('') + (i.note?.text || '') + (i.stamp?.text || '')
-      : i.type === 'stat' ? i.rows.map((r) => r.n + r.text).join('') : '').join('')).join('') + plan.subs.map((c) => c.text).join('') + plan.aiTag;
+      : i.type === 'stat' ? i.rows.map((r) => r.n + r.text).join('') : '').join('')).join('') + plan.subs.map((c) => c.text).join('') + plan.aiTag + (plan.timeline?.labels.join('') || '');
   useFonts(plan.fonts, F, allText);
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -321,6 +384,8 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
   if (!plan.scenes.length) return <AbsoluteFill style={{ backgroundColor: '#1c1a18' }} />;
   const sc = plan.scenes.find((s) => t >= s.s && t < s.e) || plan.scenes[plan.scenes.length - 1];
   const sub = plan.subs.find((c) => t >= c.s && t < c.e);
+  // the music drops out over 0.3 s before a quiet scene and comes back over 0.8 s after it
+  const hushGain = (tt: number) => plan.scenes.reduce((g, s) => (s.hush ? Math.min(g, Math.max(clamp01((s.s - tt) / 0.3), clamp01((tt - s.e) / 0.8))) : g), 1);
   const speaking = (tt: number) => plan.subs.some((c) => tt >= c.s - 0.2 && tt < c.e + 0.2);
   const flicker = 1 + 0.025 * Math.sin(t * 11.3) * Math.sin(t * 3.1 + 0.7);
   const cam = camera(sc, t);
@@ -346,6 +411,7 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
       {sc.head ? <HeadV h={sc.head} t={t} F={F} /> : null}
       </div>
       <Dust t={t} scene={sc.scene} />
+      {plan.timeline && !sc.hush ? <Timeline tl={plan.timeline} t={t} F={F} /> : null}
       {sub ? (
         <div style={{ position: 'absolute', left: 540 - SUB_W / 2, width: SUB_W, top: SUB_Y, transform: 'translateY(-50%)', textAlign: 'center' }}>
           <span style={{ fontFamily: fam(F.sub, 'sans-serif'), fontWeight: 600, fontSize: SUB_PX, lineHeight: 1.32, color: '#111', background: '#f4f1ea',
@@ -360,9 +426,10 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
       {plan.music ? (
         <Audio src={staticFile(plan.music)} volume={(f) => {
           const tt = f / fps;
-          return plan.musicVolume * Math.max(0, Math.min(1, tt / 0.6, (durationInFrames / fps - tt) / 1.4)) * (speaking(tt) ? 0.7 : 1);
+          return plan.musicVolume * Math.max(0, Math.min(1, tt / 0.6, (durationInFrames / fps - tt) / 1.4)) * (speaking(tt) ? 0.7 : 1) * hushGain(tt);
         }} />
       ) : null}
+      {plan.sfx ? <Audio src={staticFile(plan.sfx)} volume={plan.sfxVolume ?? 0.6} /> : null}
     </AbsoluteFill>
   );
 };

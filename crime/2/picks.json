@@ -1,4 +1,30 @@
 {
+ "sfx": true,
+ "lead": 1.8,
+ "tail": 3.8,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "1976",
+   "2/1976"
+  ],
+  [
+   "1968",
+   "14/Jahre"
+  ],
+  [
+   "1975",
+   "18/Zwischen"
+  ],
+  [
+   "1976",
+   "20/Sommer"
+  ],
+  [
+   "1978",
+   "27/Gericht"
+  ]
+ ],
  "images": {
   "poster": {
    "src": "2/10-1.jpg",
@@ -55,9 +81,38 @@
   },
   "court": {
    "src": "1/7-1.jpg"
+  },
+  "map": {
+   "src": "3/2-1.jpg"
   }
  },
  "scenes": [
+  {
+   "at": 1,
+   "edit": "statement",
+   "hush": true,
+   "why": "câu hỏi mở đầu trước lời đọc: bệnh hay bị quỷ ám — cả video trả lời câu này",
+   "items": [
+    {
+     "tape": "EINE WAHRE GESCHICHTE",
+     "color": "white",
+     "size": 46,
+     "xy": [
+      540,
+      720
+     ]
+    },
+    {
+     "tape": "Krank – oder besessen?",
+     "color": "red",
+     "size": 72,
+     "xy": [
+      540,
+      850
+     ]
+    }
+   ]
+  },
   {
    "at": 1,
    "edit": "hook",
@@ -81,34 +136,53 @@
      "tape": "FILM, 2005",
      "color": "white",
      "at": "1/Film"
-    },
-    {
-     "tape": "Emily Rose",
-     "at": "1/Emily"
     }
    ]
   },
   {
    "at": 2,
-   "edit": "where",
-   "why": "câu 2 nói ở đâu, năm nào, cô gái bao nhiêu tuổi",
+   "edit": "detail",
+   "why": "câu 2: năm 1976, ở Đức — bản đồ nước Đức, ghim đỏ ở Klingenberg am Main nơi cô sống",
    "items": [
     {
-     "card": "folder",
-     "tab": "AKTE · 1976",
-     "corner": "DEUTSCHLAND"
+     "photo": "map",
+     "view": [
+      0.04,
+      0.02,
+      0.96,
+      0.98
+     ],
+     "still": true,
+     "zoom": {
+      "to": [
+       0.2,
+       0.53,
+       0.54,
+       0.81
+      ],
+      "at": "2/Deutschland",
+      "dur": 1.8
+     },
+     "ring": {
+      "box": [
+       0.358,
+       0.663,
+       0.378,
+       0.683
+      ],
+      "shape": "pin",
+      "at": "2/Deutschland"
+     }
     },
     {
-     "photo": "town",
-     "at": 2.05
+     "tape": "KLINGENBERG AM MAIN",
+     "color": "white",
+     "pin": "below",
+     "at": "2/eine"
     },
     {
-     "tape": "Deutschland",
-     "at": "2/Deutschland"
-    },
-    {
-     "tape": "23 Jahre alt",
-     "color": "red",
+     "tape": "23 Jahre",
+     "pin": "tr",
      "at": "2/23"
     }
    ]
@@ -133,18 +207,6 @@
      "at": "3/monatelang"
     },
     {
-     "tape": "Rituale",
-     "pin": "bl",
-     "on": 0,
-     "at": "3/Rituale"
-    },
-    {
-     "tape": "klein",
-     "pin": "bl",
-     "on": 1,
-     "at": "4/klein"
-    },
-    {
      "tape": "bedrückend",
      "color": "red",
      "at": "4/bedrückend"
@@ -167,10 +229,6 @@
       ],
       "at": "5/Tonband"
      }
-    },
-    {
-     "tape": "jede Sitzung",
-     "at": "5/Sitzungen"
     },
     {
      "tape": "TONBAND",
@@ -275,10 +333,6 @@
      "at": 11.02
     },
     {
-     "tape": "bei den Ritualen",
-     "at": "11/Ritualen"
-    },
-    {
      "tape": "Stimme verändert",
      "color": "red",
      "at": "11/Stimme"
@@ -369,10 +423,6 @@
      "still": true
     },
     {
-     "tape": "in ärztlicher Behandlung",
-     "at": "16/Behandlung"
-    },
-    {
      "photo": "pills",
      "at": "16/Medikamente",
      "view": [
@@ -409,10 +459,6 @@
       1.0,
       1.0
      ]
-    },
-    {
-     "tape": "die Familie",
-     "at": "17/Familie"
     },
     {
      "tape": "IMMER MEHR",
@@ -480,11 +526,6 @@
      "at": "19/aß"
     },
     {
-     "tape": "SOMMER 1976",
-     "color": "white",
-     "at": "20/Sommer"
-    },
-    {
      "tape": "schwer unterernährt",
      "color": "red",
      "pin": "below-l",
@@ -496,7 +537,7 @@
   {
    "at": 21,
    "edit": "detail",
-   "why": "câu 21–22: cô mất — chỉ vào tên cô trên bia mộ thật",
+   "why": "câu 21–22: cô mất — khoảnh khắc lặng: nhạc tắt, bia mộ đầy màn hình, khoanh tên cô",
    "items": [
     {
      "photo": "grave",
@@ -510,28 +551,37 @@
       ],
       "shape": "rect",
       "at": "21/Anneliese"
-     }
-    },
-    {
-     "tape": "Unterernährung",
-     "at": "21/Unterernährung"
-    },
-    {
-     "tape": "Flüssigkeitsmangel",
-     "pin": "tr",
-     "at": "21/Flüssigkeitsmangel"
+     },
+     "pos": "full",
+     "view": [
+      0.44,
+      0.0,
+      0.92,
+      1.0
+     ]
     },
     {
      "tape": "JULI 1976",
      "color": "white",
+     "xy": [
+      540,
+      300
+     ],
      "at": "21/Juli"
     },
     {
      "tape": "nur 23 Jahre alt",
      "color": "red",
+     "size": 70,
+     "xy": [
+      540,
+      1330
+     ],
      "at": "22/nur"
     }
-   ]
+   ],
+   "hush": true,
+   "head": false
   },
   {
    "at": 23,
@@ -624,7 +674,8 @@
      "tape": "Hilfe war notwendig",
      "at": "28/notwendig"
     }
-   ]
+   ],
+   "hush": true
   },
   {
    "at": 29,
@@ -690,6 +741,32 @@
       }
      ],
      "at": "29/Debatte"
+    }
+   ]
+  },
+  {
+   "at": 29.99,
+   "edit": "statement",
+   "why": "sau câu cuối: hỏi lại câu mở đầu, mời người xem bình luận",
+   "items": [
+    {
+     "tape": "Krank – oder besessen?",
+     "color": "red",
+     "size": 72,
+     "xy": [
+      540,
+      800
+     ]
+    },
+    {
+     "tape": "Schreib es in die Kommentare.",
+     "color": "yellow",
+     "size": 56,
+     "xy": [
+      540,
+      950
+     ],
+     "at": 29.995
     }
    ]
   }

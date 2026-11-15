@@ -24,6 +24,7 @@ import layout as L
 import captions as C
 import edits as E
 import prep
+import sfx as SFX
 from channel import LANG, AI_TAG
 
 job, pub, N, imgsrc, out = sys.argv[1:6]
@@ -82,7 +83,8 @@ def credit_of(name):
 
 
 # ---- voice timeline and subtitles
-LEAD, TAIL = 0.3, 1.8
+# before the first line / after the last one: "lead" leaves room for a hook card, "tail" for a closing card
+LEAD, TAIL = float(picks.get('lead', 0.3)), float(picks.get('tail', 1.8))
 t = LEAD; starts = {}; subs = []; voice = []; srt = []
 for i in range(1, len(lines) + 1):
     starts[i] = t
@@ -158,12 +160,16 @@ for j, sc in enumerate(scenes_in):
             if pos == 'in':
                 if not last_card: fail(f'cảnh {j + 1} mục {k + 1}: "pos": "in" cần một card "folder" phía trước')
                 box = L.in_card(last_card, asp)
+            elif pos == 'full' and kind == 'photo':   # the whole frame, no border: a quiet moment
+                box = [0, 0, L.W, L.H]
             else:
                 box = L.place(pos, asp, top, it.get('w'))
             o = {'type': kind, 'src': f'{base}/img/{f}', 'w': w, 'h': h, 'box': box, 'ai': is_ai(name),
                  'rot': it.get('rot', L.rot_of(name, k, 4, 14) if kind == 'sticker' else L.rot_of(name, k)), 'credit': credit_of(name)}
+            if kind == 'photo' and pos == 'full':
+                o['bleed'] = True; o['rot'] = 0
             if kind == 'photo':
-                bas = (box[2] - 2 * L.BORDER) / (box[3] - 2 * L.BORDER)
+                bas = (box[2] / box[3]) if o.get('bleed') else (box[2] - 2 * L.BORDER) / (box[3] - 2 * L.BORDER)
                 o['view'] = L.fit_view(view, bas, w, h)
                 o['drift'] = 0 if it.get('still') else it.get('drift', 0.1)
                 z = it.get('zoom')
@@ -198,7 +204,10 @@ for j, sc in enumerate(scenes_in):
         elif 'tape' in it:
             color = it.get('color', 'yellow')
             if color not in L.TAPE_PX: fail(f'cảnh {j + 1}: tape "color" phải là yellow, red hoặc white')
-            px = it.get('size') or round(L.TAPE_PX[color] * (1.45 if it.get('big') else 1))
+            px = it.get('size') or round(L.TAPE_PX[color] * (1.45 if it.get('big') else 1) * float(picks.get('tape_scale', 1)))
+            # never wider than the frame: an estimate of the strip's width (glyph widths of the three tape fonts)
+            est = len(it['tape']) * px * {'red': 0.56, 'white': 0.62, 'yellow': 0.47}[color] + 0.75 * px
+            if est > 960: px = int(px * 960 / est)
             if it.get('xy'):
                 x, y = it['xy']; al = it.get('align', 'center')
             else:
@@ -234,7 +243,7 @@ for j, sc in enumerate(scenes_in):
     cred = []
     for x in items:
         if x.get('credit') and x['credit'] not in cred: cred.append(x['credit'])
-    scenes.append({'s': round(s, 3), 'e': round(e, 3), 'scene': j + 1, 'head': hd, 'items': items,
+    scenes.append({'s': round(s, 3), 'e': round(e, 3), 'scene': j + 1, 'head': hd, 'items': items, **({'hush': True} if sc.get('hush') else {}),
                    'credit': (CREDIT_PFX + ' · '.join(cred)) if cred else '', **({'edit': sc['edit']} if sc.get('edit') else {})})
 open(f'{out}/edits.md', 'w', encoding='utf-8').write(E.listing(scenes_in, text, bounds))
 if E.repeats(scenes_in):
@@ -247,10 +256,22 @@ bed = music / (np.abs(music).max() or 1) * 0.8
 mg.write_wav(f'{pub}/{base}/bed.wav', bed)
 prep.board(f'{pub}/{base}/bg.jpg')
 
-plan = {'duration': total, 'lang': LANG, 'title': spec.get('title', ''), 'aiTag': AI_TAG,
+# ---- the year bar ("timeline": [[label, at], …]): the marker moves to each year when its "at" comes
+timeline = None
+if picks.get('timeline'):
+    tl = picks['timeline']
+    if not all(isinstance(x, list) and len(x) == 2 for x in tl) or len({str(x[0]) for x in tl}) > 6: fail('"timeline" phải là [["1968", "14/Jahre"], …], tối đa 6 năm')
+    labels = sorted({str(x[0]) for x in tl})   # the bar shows each year once, in order; the story may go back in time
+    timeline = {'labels': labels, 'marks': [round(at_time(x[1], '"timeline"'), 3) for x in tl], 'idx': [labels.index(str(x[0])) for x in tl]}
+    if timeline['marks'] != sorted(timeline['marks']): fail('"timeline": các mốc phải theo thứ tự lời đọc (năm có thể lùi lại)')
+
+plan = {'duration': total, 'lang': LANG, 'title': spec.get('title', ''), 'aiTag': AI_TAG, 'timeline': timeline,
         'faces': {k: v['family'] for k, v in FONTS.items()}, 'bg': f'{base}/bg.jpg',
         'scenes': scenes, 'subs': subs, 'voice': voice, 'music': f'{base}/bed.wav',
         'musicVolume': spec.get('music_volume', 0.14), 'fonts': []}
+if picks.get('sfx'):   # sound effects for every motion (sfx.py), mixed into one track under the voice
+    n_ev = SFX.render(SFX.events(plan), total, f'{pub}/{base}/sfx.wav', mg.write_wav)
+    plan['sfx'], plan['sfxVolume'] = f'{base}/sfx.wav', float(picks.get('sfx_volume', 0.6))
 json.dump(plan, open(f'{out}/plan.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 

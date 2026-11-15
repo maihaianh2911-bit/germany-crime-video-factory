@@ -1,0 +1,697 @@
+{
+ "images": {
+  "poster": {
+   "src": "2/10-1.jpg",
+   "artist": "Filmszene",
+   "license": "© Sony Pictures 2005"
+  },
+  "scream": {
+   "src": "2/6-1.jpg",
+   "artist": "Filmszene",
+   "license": "© Sony Pictures 2005"
+  },
+  "town": {
+   "src": "1/3-2.jpg"
+  },
+  "house": {
+   "src": "1/1-3.jpg"
+  },
+  "room": {
+   "src": "1/17-7.jpg"
+  },
+  "uher": {
+   "src": "1/9-3.jpg"
+  },
+  "cross": {
+   "src": "1/11-1.jpg"
+  },
+  "shadow": {
+   "src": "2/2-5.jpg",
+   "crop": [
+    0.06,
+    0.05,
+    0.94,
+    0.95
+   ]
+  },
+  "eeg": {
+   "src": "1/14-6.jpg",
+   "look": "clean"
+  },
+  "pills": {
+   "src": "1/16-1.jpg"
+  },
+  "candles": {
+   "src": "1/19-6.jpg"
+  },
+  "rite": {
+   "src": "1/22-4.jpg"
+  },
+  "bed": {
+   "src": "1/18-2.jpg"
+  },
+  "grave": {
+   "src": "1/1-1.jpg"
+  },
+  "court": {
+   "src": "1/7-1.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "câu 1 là câu mở: chuyện thật sau bộ phim — cho xem áp phích phim",
+   "items": [
+    {
+     "photo": "poster",
+     "view": [
+      0.0,
+      0.08,
+      1.0,
+      0.93
+     ]
+    },
+    {
+     "tape": "wahre Geschichte",
+     "color": "red",
+     "at": "1/wahre"
+    },
+    {
+     "tape": "FILM, 2005",
+     "color": "white",
+     "at": "1/Film"
+    },
+    {
+     "tape": "Emily Rose",
+     "at": "1/Emily"
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "where",
+   "why": "câu 2 nói ở đâu, năm nào, cô gái bao nhiêu tuổi",
+   "items": [
+    {
+     "card": "folder",
+     "tab": "AKTE · 1976",
+     "corner": "DEUTSCHLAND"
+    },
+    {
+     "photo": "town",
+     "at": 2.05
+    },
+    {
+     "tape": "Deutschland",
+     "at": "2/Deutschland"
+    },
+    {
+     "tape": "23 Jahre alt",
+     "color": "red",
+     "at": "2/23"
+    }
+   ]
+  },
+  {
+   "at": 3,
+   "edit": "pair",
+   "why": "câu 3–4 nói về hai nơi: ngôi nhà của gia đình và căn phòng nhỏ",
+   "items": [
+    {
+     "photo": "house"
+    },
+    {
+     "photo": "room",
+     "at": "4/Zimmer"
+    },
+    {
+     "tape": "MONATELANG",
+     "color": "white",
+     "pin": "above",
+     "on": 0,
+     "at": "3/monatelang"
+    },
+    {
+     "tape": "Rituale",
+     "pin": "bl",
+     "on": 0,
+     "at": "3/Rituale"
+    },
+    {
+     "tape": "klein",
+     "pin": "bl",
+     "on": 1,
+     "at": "4/klein"
+    },
+    {
+     "tape": "bedrückend",
+     "color": "red",
+     "at": "4/bedrückend"
+    }
+   ]
+  },
+  {
+   "at": 5,
+   "edit": "detail",
+   "why": "câu 5–6 chỉ vào một thứ: cuộn băng ghi âm trong máy",
+   "items": [
+    {
+     "photo": "uher",
+     "ring": {
+      "box": [
+       0.12,
+       0.08,
+       0.88,
+       0.5
+      ],
+      "at": "5/Tonband"
+     }
+    },
+    {
+     "tape": "jede Sitzung",
+     "at": "5/Sitzungen"
+    },
+    {
+     "tape": "TONBAND",
+     "color": "white",
+     "at": "5/Tonband"
+    },
+    {
+     "tape": "erschütterte das Land",
+     "color": "red",
+     "at": "6/erschütterte"
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "chapter",
+   "why": "câu 7 gọi tên cô gái: mở hồ sơ",
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Anneliese Michel"
+   }
+  },
+  {
+   "at": 8,
+   "edit": "question",
+   "why": "câu 8: gia đình tin có điều siêu nhiên — một câu hỏi còn để ngỏ",
+   "items": [
+    {
+     "photo": "cross",
+     "view": [
+      0.1,
+      0.05,
+      0.9,
+      0.8
+     ]
+    },
+    {
+     "tape": "Exorzismen",
+     "at": "8/Exorzismen"
+    },
+    {
+     "tape": "ÜBERNATÜRLICH?",
+     "color": "white",
+     "at": "8/Übernatürliches"
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "actions",
+   "why": "câu 9–10 kể lần lượt những điều cô nghe và thấy",
+   "items": [
+    {
+     "photo": "shadow",
+     "view": [
+      0.0,
+      0.08,
+      1.0,
+      0.62
+     ]
+    },
+    {
+     "card": "lined",
+     "rows": [
+      [
+       "hörte ständig Stimmen",
+       "",
+       "9/Stimmen"
+      ],
+      [
+       "verstörende Gesichter",
+       "",
+       "10/Gesichter"
+      ],
+      [
+       "Schatten um sich",
+       "",
+       "10/Schatten"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "edit": "figure",
+   "why": "câu 11 nói về chính cô trong buổi lễ: giọng nói đổi khác (cảnh phim)",
+   "head": false,
+   "items": [
+    {
+     "photo": "scream",
+     "view": [
+      0.42,
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "tape": "FILMSZENE",
+     "color": "white",
+     "at": 11.02
+    },
+    {
+     "tape": "bei den Ritualen",
+     "at": "11/Ritualen"
+    },
+    {
+     "tape": "Stimme verändert",
+     "color": "red",
+     "at": "11/Stimme"
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "who",
+   "why": "câu 12 đọc một dãy tên",
+   "items": [
+    {
+     "card": "paper",
+     "head": "DIE „WESEN“ IN IHR",
+     "rows": [
+      [
+       "Luzifer",
+       "",
+       "12/Luzifer"
+      ],
+      [
+       "Judas",
+       "",
+       "12/Judas"
+      ],
+      [
+       "Nero",
+       "",
+       "12/Nero"
+      ],
+      [
+       "Kain",
+       "",
+       "12/Kain"
+      ]
+     ],
+     "note": {
+      "text": "… und andere",
+      "at": "12/andere"
+     }
+    }
+   ]
+  },
+  {
+   "at": 13,
+   "edit": "compare",
+   "why": "câu 13–15 đặt hai cách giải thích cạnh nhau: linh mục nói quỷ ám, bác sĩ đã chẩn đoán bệnh",
+   "items": [
+    {
+     "card": "paper",
+     "head": "ZWEI ERKLÄRUNGEN",
+     "rows": [
+      [
+       "Priester: Besessenheit",
+       "",
+       "13/Priester"
+      ],
+      {
+       "l": "≠",
+       "color": "red",
+       "at": "14/Doch"
+      },
+      [
+       "Ärzte: Epilepsie",
+       "",
+       "14/Schläfenlappen"
+      ],
+      [
+       "+ schwere Depression",
+       "",
+       "15/Depression"
+      ]
+     ],
+     "stamp": {
+      "text": "DIAGNOSE\nJAHRE ZUVOR",
+      "at": "14/festgestellt"
+     }
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "fact",
+   "why": "câu 16: một sự việc có bằng chứng — được điều trị, uống thuốc, nhưng triệu chứng vẫn còn",
+   "items": [
+    {
+     "photo": "eeg",
+     "still": true
+    },
+    {
+     "tape": "in ärztlicher Behandlung",
+     "at": "16/Behandlung"
+    },
+    {
+     "photo": "pills",
+     "at": "16/Medikamente",
+     "view": [
+      0.0,
+      0.3,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "tape": "MEDIKAMENTE",
+     "color": "white",
+     "at": "16/Medikamente"
+    },
+    {
+     "tape": "Symptome blieben",
+     "color": "red",
+     "on": 2,
+     "pin": "below",
+     "at": "16/Symptome"
+    }
+   ]
+  },
+  {
+   "at": 17,
+   "edit": "place",
+   "why": "câu 17: gia đình quay sang nhà thờ — cho xem nơi đó",
+   "items": [
+    {
+     "photo": "candles",
+     "view": [
+      0.0,
+      0.2,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "tape": "die Familie",
+     "at": "17/Familie"
+    },
+    {
+     "tape": "IMMER MEHR",
+     "color": "white",
+     "at": "17/immer"
+    },
+    {
+     "tape": "auf die Kirche",
+     "color": "red",
+     "at": "17/Kirche"
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "edit": "number",
+   "why": "câu 18 có con số: hơn 60 lần trừ tà trong hai năm",
+   "items": [
+    {
+     "photo": "rite",
+     "w": 360
+    },
+    {
+     "stat": [
+      [
+       "1975–76",
+       "",
+       "18/Zwischen",
+       "yellow"
+      ],
+      [
+       "60+",
+       "Exorzismen",
+       "18/60"
+      ]
+     ]
+    },
+    {
+     "tape": "offiziell genehmigt",
+     "color": "red",
+     "xy": [
+      540,
+      1300
+     ],
+     "at": "18/offiziell"
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "edit": "list",
+   "why": "câu 19–20 liệt kê cơ thể suy sụp thế nào",
+   "items": [
+    {
+     "photo": "bed"
+    },
+    {
+     "tape": "Körper verfiel",
+     "rot": -1.5,
+     "at": "19/Körper"
+    },
+    {
+     "tape": "aß weniger",
+     "rot": 1.5,
+     "at": "19/aß"
+    },
+    {
+     "tape": "SOMMER 1976",
+     "color": "white",
+     "at": "20/Sommer"
+    },
+    {
+     "tape": "schwer unterernährt",
+     "color": "red",
+     "pin": "below-l",
+     "rot": -1.5,
+     "at": "20/unterernährt"
+    }
+   ]
+  },
+  {
+   "at": 21,
+   "edit": "detail",
+   "why": "câu 21–22: cô mất — chỉ vào tên cô trên bia mộ thật",
+   "items": [
+    {
+     "photo": "grave",
+     "still": true,
+     "ring": {
+      "box": [
+       0.56,
+       0.78,
+       0.9,
+       0.93
+      ],
+      "shape": "rect",
+      "at": "21/Anneliese"
+     }
+    },
+    {
+     "tape": "Unterernährung",
+     "at": "21/Unterernährung"
+    },
+    {
+     "tape": "Flüssigkeitsmangel",
+     "pin": "tr",
+     "at": "21/Flüssigkeitsmangel"
+    },
+    {
+     "tape": "JULI 1976",
+     "color": "white",
+     "at": "21/Juli"
+    },
+    {
+     "tape": "nur 23 Jahre alt",
+     "color": "red",
+     "at": "22/nur"
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "chapter",
+   "why": "câu 23 mở phần mới: phiên tòa",
+   "head": {
+    "kicker": "AKTE 1976",
+    "title": "Der Prozess"
+   }
+  },
+  {
+   "at": 24,
+   "edit": "where",
+   "why": "câu 24 đưa câu chuyện đến tòa án: ai bị truy tố, tội gì",
+   "items": [
+    {
+     "card": "folder",
+     "tab": "AKTE · ANKLAGE",
+     "corner": "JUSTIZ"
+    },
+    {
+     "photo": "court",
+     "at": 24.05
+    },
+    {
+     "tape": "Eltern + 2 Priester",
+     "at": "24/Eltern"
+    },
+    {
+     "tape": "fahrlässige Tötung",
+     "color": "red",
+     "at": "24/fahrlässiger"
+    }
+   ]
+  },
+  {
+   "at": 25,
+   "edit": "who",
+   "why": "câu 25–26: hai bên trước tòa và điều mỗi bên nói",
+   "items": [
+    {
+     "card": "paper",
+     "head": "VOR GERICHT",
+     "rows": [
+      {
+       "l": "Anklage",
+       "color": "red",
+       "at": "25/Anklage"
+      },
+      [
+       "Behandlung hätte",
+       "",
+       "25/ärztlicher"
+      ],
+      [
+       "sie gerettet",
+       "",
+       "25/überleben"
+      ],
+      {
+       "l": "Verteidigung",
+       "color": "red",
+       "at": "26/Verteidigung"
+      },
+      [
+       "echte geistliche",
+       "",
+       "26/echte"
+      ],
+      [
+       "Notlage",
+       "",
+       "26/Notlage"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 27,
+   "edit": "statement",
+   "why": "câu 27–28 là câu then chốt: tòa tuyên cả bốn người có tội",
+   "head": false,
+   "items": [
+    {
+     "tape": "ALLE VIER SCHULDIG",
+     "at": "27/alle"
+    },
+    {
+     "tape": "Hilfe war notwendig",
+     "at": "28/notwendig"
+    }
+   ]
+  },
+  {
+   "at": 29,
+   "edit": "ending",
+   "why": "câu cuối: vụ án vẫn được tranh luận đến hôm nay — gom lại các hình của hồ sơ",
+   "items": [
+    {
+     "photo": "grave"
+    },
+    {
+     "photo": "house",
+     "at": 29.1
+    },
+    {
+     "photo": "cross",
+     "at": 29.2,
+     "view": [
+      0.1,
+      0.05,
+      0.9,
+      0.8
+     ]
+    },
+    {
+     "photo": "court",
+     "at": 29.3
+    },
+    {
+     "string": [
+      0,
+      1
+     ],
+     "at": 29.15
+    },
+    {
+     "string": [
+      1,
+      3
+     ],
+     "at": 29.3
+    },
+    {
+     "string": [
+      2,
+      3
+     ],
+     "at": 29.35
+    },
+    {
+     "card": "paper",
+     "head": "DER FALL MICHEL",
+     "rows": [
+      [
+       "Debatte",
+       "bundesweit",
+       "29/bundesweite"
+      ],
+      {
+       "l": "bis heute",
+       "r": "diskutiert",
+       "color": "red",
+       "at": "29/bis"
+      }
+     ],
+     "at": "29/Debatte"
+    }
+   ]
+  }
+ ]
+}

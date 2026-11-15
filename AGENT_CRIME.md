@@ -243,6 +243,17 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
        under the last item, or at `"xy": [x, y]`. ≤ 3 rows.
      - `string`: `[i, j]` = a red string between items i and j of this scene (0-based, prints, stickers or cards).
    - `credit` is automatic (`Foto: Author / Licence` at the foot of the frame, nothing on AI pictures).
+   - **Version B options** (a trial the owner asked for on 15/11/2026, issue #2; until the owner chooses, use them only
+     where the owner asked for version B). Top level of picks.json: `"sfx": true` (synthesized sound effects for every
+     motion: typewriter keys, tape slaps, a stamp thud, paper swishes, a whoosh at each cut, a boom for chapter heads
+     and quiet scenes — `scripts/crime/sfx.py`; `"sfx_volume"` default 0.6), `"lead": 1.8` (seconds before the first
+     line: room for a hook card as the first scene), `"tail": 3.8` (seconds after the last line: room for a closing
+     card at `"at": <last line>.99`), `"tape_scale": 1.15` (all tapes larger), `"timeline": [["1976", "2/1976"],
+     ["1968", "14/Jahre"], …]` (a year bar between the board and the subtitle; the marker moves to each year when its
+     "at" comes, and may go back in time). Scene: `"hush": true` (a quiet moment: the music drops out, the camera
+     only pushes in slowly, no year bar). Photo: `"pos": "full"` (the whole frame, no border, darkened at top and
+     bottom). Ring: `"shape": "pin"` (a red map pin with pulses at the box's centre). Every tape is made smaller when
+     it would be wider than the frame.
 6. **Keep clear:** the subtitle box sits at y ≈ 1560–1640 of 1920 and the board ends at ~1470: nothing important
    below 1470. On a print, tapes cover its corners: the subject (a face, a window, the detail) must be in the middle
    (move `view`). The chapter head covers y 170–320.

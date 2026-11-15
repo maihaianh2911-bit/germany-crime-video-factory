@@ -131,6 +131,29 @@ r = subprocess.run([sys.executable, os.path.join(S, 'build.py'), os.path.join(tm
 assert r.returncode and 'cảnh 3' in r.stderr and 'hook' in r.stderr and 'ending' in r.stderr, r.stderr
 if os.environ.get('FONTSOURCE'):
     plan = json.load(open(plan_p, encoding='utf-8')); assert len(plan['fonts']) >= 4 and all(os.path.exists(os.path.join(pub, f['file'])) for f in plan['fonts'])
+# version B options (15/11/2026): sound effects, a lead-in and a tail, the year bar (going back in time), a quiet
+# scene, a full-frame print with a map pin, and a tape too long for the frame that is made smaller
+vb = json.load(open(os.path.join(job, 'picks.json'), encoding='utf-8'))
+vb.update({'sfx': True, 'lead': 1.5, 'tail': 3.0, 'timeline': [['1976', 1], ['1968', 2], ['1976', 3]]})
+vb['scenes'][3]['hush'] = True
+vb['scenes'][4]['items'][0].update({'pos': 'full', 'ring': {'box': [0.4, 0.4, 0.45, 0.45], 'shape': 'pin', 'at': w4}})
+vb['scenes'][0]['items'].append({'tape': 'Ein sehr langer Satz auf einem Klebeband, viel zu breit', 'color': 'red', 'size': 90})
+jb = os.path.join(tmp, 'jobB'); os.makedirs(jb); json.dump(vb, open(os.path.join(jb, 'picks.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+shutil.copy(os.path.join(job, 'script.json'), jb)
+run(sys.executable, os.path.join(S, 'build.py'), jb, pub, N, imgsrc, os.path.join(tmp, 'outB'))
+pb = json.load(open(os.path.join(tmp, 'outB', 'plan.json'), encoding='utf-8'))
+assert abs(pb['duration'] - plan['duration'] - (1.5 - 0.3) - (3.0 - 1.8)) < 0.01 and abs(pb['voice'][0]['s'] - 1.5) < 1e-6
+assert pb['timeline']['labels'] == ['1968', '1976'] and pb['timeline']['idx'] == [1, 0, 1] and pb['timeline']['marks'] == sorted(pb['timeline']['marks'])
+assert pb['scenes'][3].get('hush') and not pb['scenes'][2].get('hush')
+fb = pb['scenes'][4]['items'][0]; assert fb.get('bleed') and fb['box'] == [0, 0, layout.W, layout.H] and fb['rot'] == 0 and fb['rings'][0]['shape'] == 'pin'
+assert abs((fb['view'][2] - fb['view'][0]) * fb['w'] / ((fb['view'][3] - fb['view'][1]) * fb['h']) - layout.W / layout.H) < 0.01   # the frame's shape
+long_t = [i for i in pb['scenes'][0]['items'] if i['type'] == 'tape'][-1]; assert long_t['px'] < 60, long_t['px']
+import wave
+w_ = wave.open(os.path.join(pub, pb['sfx'])); x_ = np.frombuffer(w_.readframes(w_.getnframes()), '<i2')
+assert abs(len(x_) / w_.getframerate() - pb['duration']) < 0.05 and np.abs(x_).max() > 3000, 'no sound effects'
+import sfx as SFX
+names = [n.split(':')[0] for _, n in SFX.events(pb)]
+assert {'key', 'slap', 'slap_red', 'stamp', 'boom', 'ping', 'tick', 'scratch', 'whoosh'} <= set(names), set(names)
 
 if '--still' in sys.argv:
     t1 = sc[0]['e'] - 0.1                    # the print with its four tapes
