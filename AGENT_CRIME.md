@@ -1,5 +1,12 @@
 # Crime videos (case-file style) — runbook for Claude
 
+> **Iron rules (owner, 16/11/2026; full text at the top of `CLAUDE.md`).** (1) Voice, script lines, subtitles and
+> on-screen text are in **German**, never another language; check before the voice step and on the finished video.
+> (2) **No video under 60 seconds**: estimate before the voice step and read the real speech length after it; if it
+> would be under 60 seconds, write the script longer (true facts on the same subject, nothing invented), say on the
+> issue what was added, then go on. Never render or deliver under 60 seconds, except a trial or sample video (the
+> owner says so, or the title or notes say `thử`, `mẫu`, `test`, `demo`).
+
 The owner (Vietnamese, not technical) opens an issue `[Vụ án] …` with a script (Vietnamese, or already in the
 channel's language). The result is a vertical video (1080×1920, 30 fps, **about 2 minutes**) laid out as the owner's
 sample `00-video-mau/MAU-HO-SO.mp4` (see `00-video-mau/README.md`): **a case file on a dark board**. Black-and-white
