@@ -1,0 +1,1986 @@
+{
+ "duration": 122.109,
+ "lang": "de",
+ "title": "Der Fall JonBenét Ramsey",
+ "aiTag": "KI-Illustration",
+ "timeline": {
+  "labels": [
+   "05:30",
+   "05:52",
+   "13:05"
+  ],
+  "marks": [
+   44.439,
+   56.91,
+   65.681
+  ],
+  "idx": [
+   0,
+   1,
+   2
+  ]
+ },
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/3/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 4.836,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/house.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Jahnaiyabonaparte / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.23906,
+      0.0,
+      0.66094,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/letter.jpg",
+     "w": 1063,
+     "h": 1600,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain",
+     "bleed": true,
+     "view": [
+      0.07667,
+      0.0,
+      0.92333,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 1.45
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/money.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "401(K) 2013 / CC BY-SA 2.0",
+     "bleed": true,
+     "view": [
+      0.28906,
+      0.0,
+      0.71094,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 2.67
+    },
+    {
+     "type": "tape",
+     "text": "Wer schrieb diesen Brief?",
+     "color": "red",
+     "px": 65,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": 2.3,
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "118.000 $ LÖSEGELD",
+     "color": "white",
+     "px": 54,
+     "x": 540,
+     "y": 1110,
+     "align": "center",
+     "rot": -1.21,
+     "s": 2.67
+    }
+   ],
+   "credit": "Foto: Jahnaiyabonaparte / CC BY-SA 4.0 · SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain · 401(K) 2013 / CC BY-SA 2.0",
+   "edit": "hook"
+  },
+  {
+   "s": 4.836,
+   "e": 9.858,
+   "scene": 2,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/door.jpg",
+     "w": 1050,
+     "h": 1400,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "ell brown / CC BY-SA 2.0",
+     "bleed": true,
+     "view": [
+      0.125,
+      0.0,
+      0.875,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 4.836
+    },
+    {
+     "type": "tape",
+     "text": "8 STUNDEN SPÄTER",
+     "color": "white",
+     "px": 56,
+     "x": 540,
+     "y": 330,
+     "align": "center",
+     "rot": -1,
+     "s": 5.346
+    },
+    {
+     "type": "tape",
+     "text": "im eigenen Keller",
+     "color": "red",
+     "px": 66,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1,
+     "s": 8.026
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: ell brown / CC BY-SA 2.0",
+   "edit": "place"
+  },
+  {
+   "s": 9.858,
+   "e": 15.264,
+   "scene": 3,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/letter.jpg",
+     "w": 1063,
+     "h": 1600,
+     "box": [
+      44.0,
+      170.2,
+      552.0,
+      830.8
+     ],
+     "ai": false,
+     "rot": -0.92,
+     "credit": "SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain",
+     "view": [
+      0.00877,
+      0.0,
+      0.99123,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 9.858
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/pad.jpg",
+     "w": 1920,
+     "h": 925,
+     "box": [
+      485.0,
+      845.4,
+      560,
+      311.1
+     ],
+     "ai": false,
+     "rot": 1.91,
+     "credit": "User:Revital9 / CC BY-SA 3.0",
+     "view": [
+      0.04733,
+      0.0,
+      0.95267,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 12.988
+    },
+    {
+     "type": "tape",
+     "text": "FAST 3 SEITEN",
+     "color": "white",
+     "px": 67,
+     "x": 765.0,
+     "y": 785.1,
+     "align": "center",
+     "rot": -1.12,
+     "s": 10.848
+    },
+    {
+     "type": "tape",
+     "text": "Papier + Stift aus dem Haus",
+     "color": "yellow",
+     "px": 67,
+     "x": 28.0,
+     "y": 180.2,
+     "align": "left",
+     "rot": 3.35,
+     "s": 12.988
+    }
+   ],
+   "credit": "Foto: SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain · User:Revital9 / CC BY-SA 3.0",
+   "edit": "pair"
+  },
+  {
+   "s": 15.264,
+   "e": 22.099,
+   "scene": 4,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/lens.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      140.0,
+      433.0,
+      800,
+      600.0
+     ],
+     "ai": false,
+     "rot": -1.17,
+     "credit": "Stéphane Magnenat / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00604,
+      1.0,
+      0.99396
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 15.264
+    },
+    {
+     "type": "tape",
+     "text": "Wer schrieb ihn?",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1101.2,
+     "align": "center",
+     "rot": 1.99,
+     "s": 15.446
+    },
+    {
+     "type": "tape",
+     "text": "Opfer nie aus dem Haus",
+     "color": "yellow",
+     "px": 67,
+     "x": 124.0,
+     "y": 443.0,
+     "align": "left",
+     "rot": -0.86,
+     "s": 19.637
+    }
+   ],
+   "credit": "Foto: Stéphane Magnenat / CC BY-SA 4.0",
+   "edit": "question"
+  },
+  {
+   "s": 22.099,
+   "e": 27.534,
+   "scene": 5,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "mid",
+    "from": null,
+    "s": 22.099
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 27.534,
+   "e": 32.26,
+   "scene": 6,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "mid",
+    "s": 27.534
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/map.jpg",
+     "w": 1497,
+     "h": 853,
+     "box": [
+      140.0,
+      638.2,
+      800,
+      455.8
+     ],
+     "ai": false,
+     "rot": -1.6,
+     "credit": "DemocraticLuntz / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01374,
+      1.0,
+      0.98626
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.3,
+       0.03118,
+       0.75,
+       0.46882
+      ],
+      "s": 30.444,
+      "e": 31.844
+     },
+     "rings": [
+      {
+       "s": 30.444,
+       "box": [
+        0.515,
+        0.229,
+        0.535,
+        0.249
+       ],
+       "shape": "pin",
+       "color": "yellow"
+      }
+     ],
+     "s": 27.534
+    },
+    {
+     "type": "tape",
+     "text": "BOULDER, COLORADO",
+     "color": "white",
+     "px": 67,
+     "x": 160.0,
+     "y": 1167.7,
+     "align": "left",
+     "rot": -1,
+     "s": 30.444
+    },
+    {
+     "type": "tape",
+     "text": "Weihnachten",
+     "color": "yellow",
+     "px": 67,
+     "x": 124.0,
+     "y": 648.2,
+     "align": "left",
+     "rot": -3.5,
+     "s": 27.87
+    }
+   ],
+   "credit": "Foto: DemocraticLuntz / CC BY-SA 4.0",
+   "edit": "detail"
+  },
+  {
+   "s": 32.26,
+   "e": 37.966,
+   "scene": 7,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 32.26
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      614.0,
+      860,
+      614
+     ],
+     "rot": -0.89,
+     "head": "FAMILIE RAMSEY",
+     "rows": [
+      {
+       "l": "JonBenét",
+       "r": "6 J.",
+       "s": 33.137,
+       "color": ""
+      },
+      {
+       "l": "John",
+       "r": "Vater",
+       "s": 34.879,
+       "color": ""
+      },
+      {
+       "l": "Patsy",
+       "r": "Mutter",
+       "s": 35.999,
+       "color": ""
+      },
+      {
+       "l": "Burke",
+       "r": "Bruder",
+       "s": 36.997,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 32.26
+    }
+   ],
+   "credit": "",
+   "edit": "who"
+  },
+  {
+   "s": 37.966,
+   "e": 44.209,
+   "scene": 8,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 37.966
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/tree.jpg",
+     "w": 1399,
+     "h": 1400,
+     "box": [
+      265.7,
+      383.0,
+      548.6,
+      549.0
+     ],
+     "ai": false,
+     "rot": -2.04,
+     "credit": "Uppsala-Bild, Uppsala-Bild / CC0",
+     "view": [
+      3e-05,
+      0.0,
+      0.99997,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 37.966
+    },
+    {
+     "type": "tape",
+     "text": "25. DEZEMBER",
+     "color": "white",
+     "px": 67,
+     "x": 285.7,
+     "y": 1005.7,
+     "align": "left",
+     "rot": -1,
+     "s": 41.336
+    },
+    {
+     "type": "tape",
+     "text": "laut Eltern: schlief schon",
+     "color": "yellow",
+     "px": 67,
+     "x": 249.7,
+     "y": 393.0,
+     "align": "left",
+     "rot": -1.58,
+     "s": 38.676
+    }
+   ],
+   "credit": "Foto: Uppsala-Bild, Uppsala-Bild / CC0",
+   "edit": "place"
+  },
+  {
+   "s": 44.209,
+   "e": 49.604,
+   "scene": 9,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 44.209
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/stairs.jpg",
+     "w": 1050,
+     "h": 1400,
+     "box": [
+      334.1,
+      383.0,
+      411.8,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.49,
+     "credit": "Gareth1953 All Right Now / CC BY 2.0",
+     "view": [
+      0.00889,
+      0.0,
+      0.99111,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 44.209
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/letter.jpg",
+     "w": 1063,
+     "h": 1600,
+     "box": [
+      368.6,
+      937.5,
+      342.9,
+      516.1
+     ],
+     "ai": false,
+     "rot": 1.53,
+     "credit": "SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain",
+     "view": [
+      0.01446,
+      0.0,
+      0.98554,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 48.599
+    },
+    {
+     "type": "tape",
+     "text": "05:30 UHR",
+     "color": "white",
+     "px": 67,
+     "x": 318.1,
+     "y": 393.0,
+     "align": "left",
+     "rot": -2.71,
+     "s": 44.579
+    },
+    {
+     "type": "tape",
+     "text": "an der Treppe",
+     "color": "yellow",
+     "px": 67,
+     "x": 761.9,
+     "y": 908.0,
+     "align": "right",
+     "rot": 1.53,
+     "s": 46.799
+    }
+   ],
+   "credit": "Foto: Gareth1953 All Right Now / CC BY 2.0 · SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain",
+   "edit": "fact"
+  },
+  {
+   "s": 49.604,
+   "e": 56.412,
+   "scene": 10,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 49.604
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/money.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      85.8,
+      383.0,
+      468.5,
+      351.4
+     ],
+     "ai": false,
+     "rot": -1.17,
+     "credit": "401(K) 2013 / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01056,
+      1.0,
+      0.98944
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 49.604
+    },
+    {
+     "type": "stat",
+     "x": 110,
+     "y": 794.4,
+     "rows": [
+      {
+       "n": "118.000",
+       "text": "Dollar\nLösegeld",
+       "s": 52.514,
+       "color": "white"
+      }
+     ],
+     "s": 49.604
+    },
+    {
+     "type": "tape",
+     "text": "keine Polizei!",
+     "color": "red",
+     "px": 62,
+     "x": 69.8,
+     "y": 393.0,
+     "align": "left",
+     "rot": -0.77,
+     "s": 54.874
+    }
+   ],
+   "credit": "Foto: 401(K) 2013 / CC BY-SA 2.0",
+   "edit": "number"
+  },
+  {
+   "s": 56.412,
+   "e": 65.454,
+   "scene": 11,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 56.412
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/phone.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      150.0,
+      397.5,
+      780,
+      520.0
+     ],
+     "ai": false,
+     "rot": -0.91,
+     "credit": "Panelxf / CC0",
+     "view": [
+      0.0,
+      0.00931,
+      1.0,
+      0.99069
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 56.412
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      100.0,
+      953.9,
+      880,
+      505.1
+     ],
+     "rot": 0.58,
+     "head": "26.12.1996",
+     "rows": [
+      {
+       "l": "05:30 Uhr",
+       "r": "Brief",
+       "s": 56.597,
+       "color": ""
+      },
+      {
+       "l": "05:52 Uhr",
+       "r": "Notruf",
+       "s": 56.91,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 56.412
+    },
+    {
+     "type": "tape",
+     "text": "keine Spur einer Entführung",
+     "color": "red",
+     "px": 60,
+     "x": 540.0,
+     "y": 1451.0,
+     "align": "center",
+     "rot": -3.42,
+     "s": 61.047
+    }
+   ],
+   "credit": "Foto: Panelxf / CC0",
+   "edit": "timeline"
+  },
+  {
+   "s": 65.454,
+   "e": 73.51,
+   "scene": 12,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 65.454
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/door.jpg",
+     "w": 1050,
+     "h": 1400,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "ell brown / CC BY-SA 2.0",
+     "bleed": true,
+     "view": [
+      0.125,
+      0.0,
+      0.875,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 65.454
+    },
+    {
+     "type": "tape",
+     "text": "13:05 UHR",
+     "color": "white",
+     "px": 54,
+     "x": 540,
+     "y": 1090,
+     "align": "center",
+     "rot": -1,
+     "s": 65.765
+    },
+    {
+     "type": "tape",
+     "text": "im Weinkeller",
+     "color": "red",
+     "px": 66,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1,
+     "s": 70.992
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: ell brown / CC BY-SA 2.0",
+   "edit": "place"
+  },
+  {
+   "s": 73.51,
+   "e": 83.235,
+   "scene": 13,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 73.51
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/brushes.jpg",
+     "w": 1400,
+     "h": 931,
+     "box": [
+      150.0,
+      398.1,
+      780,
+      518.7
+     ],
+     "ai": false,
+     "rot": -1.79,
+     "credit": "Tech109 / CC BY 2.0",
+     "view": [
+      0.0,
+      0.00938,
+      1.0,
+      0.99062
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 73.51
+    },
+    {
+     "type": "tape",
+     "text": "erdrosselt",
+     "color": "red",
+     "px": 62,
+     "x": 134.0,
+     "y": 408.1,
+     "align": "left",
+     "rot": 0.81,
+     "s": 74.0
+    },
+    {
+     "type": "tape",
+     "text": "Kopfverletzung",
+     "color": "yellow",
+     "px": 67,
+     "x": 946.0,
+     "y": 657.5,
+     "align": "right",
+     "rot": -1.31,
+     "s": 75.98
+    },
+    {
+     "type": "tape",
+     "text": "Schnur + Pinselstiel",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 892.8,
+     "align": "left",
+     "rot": 1.07,
+     "s": 78.551
+    },
+    {
+     "type": "tape",
+     "text": "aus dem Haus",
+     "color": "white",
+     "px": 67,
+     "x": 910.0,
+     "y": 990.5,
+     "align": "right",
+     "rot": -2.2,
+     "s": 81.609
+    }
+   ],
+   "credit": "Foto: Tech109 / CC BY 2.0",
+   "edit": "list"
+  },
+  {
+   "s": 83.235,
+   "e": 87.771,
+   "scene": 14,
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey",
+    "mode": "top",
+    "from": "top",
+    "s": 83.235
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/letter.jpg",
+     "w": 1063,
+     "h": 1600,
+     "box": [
+      185.6,
+      383.0,
+      218.8,
+      329.4
+     ],
+     "ai": false,
+     "rot": -0.92,
+     "credit": "SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain",
+     "view": [
+      0.02358,
+      0.0,
+      0.97642,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 83.235
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/brushes.jpg",
+     "w": 1400,
+     "h": 931,
+     "box": [
+      570.0,
+      437.6,
+      430,
+      285.9
+     ],
+     "ai": false,
+     "rot": 0.89,
+     "credit": "Tech109 / CC BY 2.0",
+     "view": [
+      0.0,
+      0.01764,
+      1.0,
+      0.98236
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 84.805
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/door.jpg",
+     "w": 1050,
+     "h": 1400,
+     "box": [
+      176.5,
+      756.3,
+      247.0,
+      329.4
+     ],
+     "ai": false,
+     "rot": -2.22,
+     "credit": "ell brown / CC BY-SA 2.0",
+     "view": [
+      0.01559,
+      0.0,
+      0.98441,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 86.345
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/house.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      565.0,
+      792.7,
+      430,
+      322.5
+     ],
+     "ai": false,
+     "rot": 2.38,
+     "credit": "Jahnaiyabonaparte / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01161,
+      1.0,
+      0.98839
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 83.562
+    },
+    {
+     "type": "string",
+     "a": [
+      780.0,
+      818.7
+     ],
+     "b": [
+      295.0,
+      409.0
+     ],
+     "s": 83.769
+    },
+    {
+     "type": "string",
+     "a": [
+      780.0,
+      818.7
+     ],
+     "b": [
+      785.0,
+      463.6
+     ],
+     "s": 84.805
+    },
+    {
+     "type": "string",
+     "a": [
+      780.0,
+      818.7
+     ],
+     "b": [
+      300.0,
+      782.3
+     ],
+     "s": 86.345
+    }
+   ],
+   "credit": "Foto: SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain · Tech109 / CC BY 2.0 · ell brown / CC BY-SA 2.0 · Jahnaiyabonaparte / CC BY-SA 4.0",
+   "edit": "board"
+  },
+  {
+   "s": 87.771,
+   "e": 89.017,
+   "scene": 15,
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief",
+    "mode": "mid",
+    "from": null,
+    "s": 87.771
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 89.017,
+   "e": 92.199,
+   "scene": 16,
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief",
+    "mode": "top",
+    "from": "mid",
+    "s": 89.017
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/letter.jpg",
+     "w": 1063,
+     "h": 1600,
+     "box": [
+      140.0,
+      528.9,
+      800,
+      674.3
+     ],
+     "ai": false,
+     "rot": -0.92,
+     "credit": "SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain",
+     "view": [
+      0.0,
+      0.1219,
+      1.0,
+      0.6781
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.09547,
+       0.25,
+       0.90453,
+       0.7
+      ],
+      "s": 90.892,
+      "e": 92.292
+     },
+     "rings": [],
+     "s": 89.017
+    },
+    {
+     "type": "tape",
+     "text": "2,5 SEITEN",
+     "color": "white",
+     "px": 67,
+     "x": 160.0,
+     "y": 1276.9,
+     "align": "left",
+     "rot": -1,
+     "s": 89.137
+    },
+    {
+     "type": "tape",
+     "text": "voller Drohungen",
+     "color": "red",
+     "px": 62,
+     "x": 160.0,
+     "y": 1359.4,
+     "align": "left",
+     "rot": -1,
+     "s": 90.892
+    }
+   ],
+   "credit": "Foto: SLUB/Dresdner Digitalisierungszentrum (Herstellung / Public domain",
+   "edit": "detail"
+  },
+  {
+   "s": 92.199,
+   "e": 100.003,
+   "scene": 17,
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief",
+    "mode": "top",
+    "from": "top",
+    "s": 92.199
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      421.0,
+      900,
+      1000
+     ],
+     "rot": -0.89,
+     "head": "WARUM 118.000 $?",
+     "rows": [
+      {
+       "l": "Lösegeld",
+       "r": "118.000 $",
+       "s": 92.509,
+       "color": ""
+      },
+      {
+       "l": "≈",
+       "r": "",
+       "s": 94.809,
+       "color": "red"
+      },
+      {
+       "l": "Johns Bonus",
+       "r": "gut 118.000 $",
+       "s": 95.889,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "Kannte er die Finanzen?",
+      "s": 97.116
+     },
+     "stamp": {
+      "text": "FAST GLEICH",
+      "s": 95.889
+     },
+     "s": 92.199
+    }
+   ],
+   "credit": "",
+   "edit": "compare"
+  },
+  {
+   "s": 100.003,
+   "e": 104.487,
+   "scene": 18,
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief",
+    "mode": "top",
+    "from": "top",
+    "s": 100.003
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/pad.jpg",
+     "w": 1920,
+     "h": 925,
+     "box": [
+      150.0,
+      440.8,
+      780,
+      433.3
+     ],
+     "ai": false,
+     "rot": -0.99,
+     "credit": "User:Revital9 / CC BY-SA 3.0",
+     "view": [
+      0.05306,
+      0.0,
+      0.94694,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 100.003
+    },
+    {
+     "type": "photo",
+     "src": "crime/3/img/house.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      260.0,
+      985.5,
+      560,
+      420.0
+     ],
+     "ai": false,
+     "rot": 2.24,
+     "credit": "Jahnaiyabonaparte / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00877,
+      1.0,
+      0.99123
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 101.593
+    },
+    {
+     "type": "tape",
+     "text": "Block + Stift",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 450.8,
+     "align": "left",
+     "rot": -2.58,
+     "s": 100.327
+    },
+    {
+     "type": "tape",
+     "text": "Spuren eines Entwurfs",
+     "color": "red",
+     "px": 62,
+     "x": 910.0,
+     "y": 942.3,
+     "align": "right",
+     "rot": 0.85,
+     "s": 103.253
+    }
+   ],
+   "credit": "Foto: User:Revital9 / CC BY-SA 3.0 · Jahnaiyabonaparte / CC BY-SA 4.0",
+   "edit": "fact"
+  },
+  {
+   "s": 104.487,
+   "e": 108.952,
+   "scene": 19,
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief",
+    "mode": "top",
+    "from": "top",
+    "s": 104.487
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/3/img/house.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      140.0,
+      566.1,
+      800,
+      600.0
+     ],
+     "ai": false,
+     "rot": -2.06,
+     "credit": "Jahnaiyabonaparte / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00604,
+      1.0,
+      0.99396
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 104.487
+    },
+    {
+     "type": "tape",
+     "text": "Profi-Bande?",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1234.3,
+     "align": "center",
+     "rot": 3.22,
+     "s": 105.437
+    },
+    {
+     "type": "tape",
+     "text": "Brief erst im Haus geschrieben",
+     "color": "yellow",
+     "px": 64,
+     "x": 124.0,
+     "y": 576.1,
+     "align": "left",
+     "rot": -0.63,
+     "s": 107.437
+    }
+   ],
+   "credit": "Foto: Jahnaiyabonaparte / CC BY-SA 4.0",
+   "edit": "question"
+  },
+  {
+   "s": 108.952,
+   "e": 115.766,
+   "scene": 20,
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief",
+    "mode": "top",
+    "from": "top",
+    "s": 108.952
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      640.0,
+      860,
+      562
+     ],
+     "rot": -0.89,
+     "head": "SCHRIFTVERGLEICH",
+     "rows": [
+      {
+       "l": "John",
+       "r": "ausgeschlossen",
+       "s": 110.034,
+       "color": ""
+      },
+      {
+       "l": "Patsy",
+       "r": "nicht ganz",
+       "s": 111.45,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "kein Beweis",
+      "s": 113.17
+     },
+     "stamp": null,
+     "s": 108.952
+    }
+   ],
+   "credit": "",
+   "edit": "span"
+  },
+  {
+   "s": 115.766,
+   "e": 122.109,
+   "scene": 21,
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief",
+    "mode": "top",
+    "from": "top",
+    "s": 115.766
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "Die nächste Spur: der Keller",
+     "color": "white",
+     "px": 50,
+     "x": 540,
+     "y": 760,
+     "align": "center",
+     "rot": -1.02,
+     "s": 115.955
+    },
+    {
+     "type": "tape",
+     "text": "TEIL 2 FOLGT",
+     "color": "red",
+     "px": 86,
+     "x": 540,
+     "y": 900,
+     "align": "center",
+     "rot": 2.73,
+     "s": 117.556
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 1.24,
+   "text": "Eine Familie bekam",
+   "line": 1
+  },
+  {
+   "s": 1.24,
+   "e": 2.36,
+   "text": "einen Erpresserbrief",
+   "line": 1
+  },
+  {
+   "s": 2.36,
+   "e": 4.856,
+   "text": "über 118.000 Dollar.",
+   "line": 1
+  },
+  {
+   "s": 4.876,
+   "e": 6.916,
+   "text": "Doch knapp acht Stunden später lag",
+   "line": 2
+  },
+  {
+   "s": 6.916,
+   "e": 8.236,
+   "text": "das Kind tot im Keller",
+   "line": 2
+  },
+  {
+   "s": 8.236,
+   "e": 9.878,
+   "text": "des eigenen Hauses.",
+   "line": 2
+  },
+  {
+   "s": 9.898,
+   "e": 12.378,
+   "text": "Der Brief war fast drei Seiten lang,",
+   "line": 3
+  },
+  {
+   "s": 12.378,
+   "e": 13.478,
+   "text": "geschrieben mit Papier",
+   "line": 3
+  },
+  {
+   "s": 13.478,
+   "e": 15.284,
+   "text": "und Stift aus dem Haus.",
+   "line": 3
+  },
+  {
+   "s": 15.304,
+   "e": 16.927,
+   "text": "Wer hat ihn geschrieben?",
+   "line": 4
+  },
+  {
+   "s": 16.947,
+   "e": 18.427,
+   "text": "Und warum schreibt ein Entführer",
+   "line": 5
+  },
+  {
+   "s": 18.427,
+   "e": 19.967,
+   "text": "am Tatort, wenn das Opfer",
+   "line": 5
+  },
+  {
+   "s": 19.967,
+   "e": 22.119,
+   "text": "das Haus nie verlassen hat?",
+   "line": 5
+  },
+  {
+   "s": 22.139,
+   "e": 24.393,
+   "text": "Das ist der Fall JonBenét Ramsey,",
+   "line": 6
+  },
+  {
+   "s": 24.393,
+   "e": 25.262,
+   "text": "einer der bekanntesten",
+   "line": 6
+  },
+  {
+   "s": 25.262,
+   "e": 27.554,
+   "text": "ungelösten Fälle der USA.",
+   "line": 6
+  },
+  {
+   "s": 27.574,
+   "e": 32.28,
+   "text": "Weihnachten 1996 in Boulder, Colorado.",
+   "line": 7
+  },
+  {
+   "s": 32.3,
+   "e": 33.107,
+   "text": "Die sechsjährige",
+   "line": 8
+  },
+  {
+   "s": 33.107,
+   "e": 35.608,
+   "text": "JonBenét lebte mit Vater John,",
+   "line": 8
+  },
+  {
+   "s": 35.608,
+   "e": 37.986,
+   "text": "Mutter Patsy und Bruder Burke.",
+   "line": 8
+  },
+  {
+   "s": 38.006,
+   "e": 40.026,
+   "text": "Laut den Eltern schlief sie schon,",
+   "line": 9
+  },
+  {
+   "s": 40.026,
+   "e": 41.146,
+   "text": "als sie nach einer Feier",
+   "line": 9
+  },
+  {
+   "s": 41.146,
+   "e": 44.229,
+   "text": "am 25. Dezember ins Bett kam.",
+   "line": 9
+  },
+  {
+   "s": 44.249,
+   "e": 45.588,
+   "text": "Gegen 5:30 Uhr",
+   "line": 10
+  },
+  {
+   "s": 45.588,
+   "e": 47.269,
+   "text": "fand Patsy an der Treppe",
+   "line": 10
+  },
+  {
+   "s": 47.269,
+   "e": 49.624,
+   "text": "einen handgeschriebenen Brief.",
+   "line": 10
+  },
+  {
+   "s": 49.644,
+   "e": 51.584,
+   "text": "Eine angebliche ausländische Gruppe",
+   "line": 11
+  },
+  {
+   "s": 51.584,
+   "e": 54.244,
+   "text": "forderte genau 118.000 Dollar,",
+   "line": 11
+  },
+  {
+   "s": 54.244,
+   "e": 56.432,
+   "text": "und keine Polizei.",
+   "line": 11
+  },
+  {
+   "s": 56.452,
+   "e": 58.933,
+   "text": "Doch um 5:52 Uhr rief Patsy",
+   "line": 12
+  },
+  {
+   "s": 58.933,
+   "e": 60.097,
+   "text": "den Notruf.",
+   "line": 12
+  },
+  {
+   "s": 60.117,
+   "e": 62.437,
+   "text": "Die Polizei fand keine klare Spur,",
+   "line": 13
+  },
+  {
+   "s": 62.437,
+   "e": 63.577,
+   "text": "dass jemand JonBenét",
+   "line": 13
+  },
+  {
+   "s": 63.577,
+   "e": 65.474,
+   "text": "aus dem Haus gebracht hatte.",
+   "line": 13
+  },
+  {
+   "s": 65.494,
+   "e": 68.034,
+   "text": "Um 13:05 Uhr sollte John das Haus",
+   "line": 14
+  },
+  {
+   "s": 68.034,
+   "e": 69.702,
+   "text": "noch einmal durchsuchen.",
+   "line": 14
+  },
+  {
+   "s": 69.722,
+   "e": 71.562,
+   "text": "Im Keller öffnete er den Weinkeller",
+   "line": 15
+  },
+  {
+   "s": 71.562,
+   "e": 73.53,
+   "text": "und fand seine Tochter.",
+   "line": 15
+  },
+  {
+   "s": 73.55,
+   "e": 75.31,
+   "text": "Sie wurde erdrosselt und hatte",
+   "line": 16
+  },
+  {
+   "s": 75.31,
+   "e": 77.401,
+   "text": "eine schwere Kopfverletzung.",
+   "line": 16
+  },
+  {
+   "s": 77.421,
+   "e": 78.301,
+   "text": "Die Schlinge:",
+   "line": 17
+  },
+  {
+   "s": 78.301,
+   "e": 80.241,
+   "text": "eine Schnur und ein abgebrochener",
+   "line": 17
+  },
+  {
+   "s": 80.241,
+   "e": 83.255,
+   "text": "Pinselstiel aus den Malsachen im Haus.",
+   "line": 17
+  },
+  {
+   "s": 83.275,
+   "e": 85.175,
+   "text": "Ein Brief aus dem Haus, eine Schlinge",
+   "line": 18
+  },
+  {
+   "s": 85.175,
+   "e": 87.791,
+   "text": "aus dem Haus, und das Opfer im Keller.",
+   "line": 18
+  },
+  {
+   "s": 87.811,
+   "e": 89.107,
+   "text": "Die erste Spur: der Brief.",
+   "line": 19
+  },
+  {
+   "s": 89.107,
+   "e": 92.219,
+   "text": "Zweieinhalb Seiten, voller Drohungen.",
+   "line": 19
+  },
+  {
+   "s": 92.239,
+   "e": 94.779,
+   "text": "Warum genau 118.000 Dollar?",
+   "line": 20
+  },
+  {
+   "s": 94.779,
+   "e": 97.066,
+   "text": "Fast so viel wie Johns Bonus.",
+   "line": 20
+  },
+  {
+   "s": 97.086,
+   "e": 98.186,
+   "text": "Kannte der Verfasser",
+   "line": 21
+  },
+  {
+   "s": 98.186,
+   "e": 100.023,
+   "text": "die Finanzen der Familie?",
+   "line": 21
+  },
+  {
+   "s": 100.043,
+   "e": 101.983,
+   "text": "Block und Stift stammten aus dem Haus,",
+   "line": 22
+  },
+  {
+   "s": 101.983,
+   "e": 104.507,
+   "text": "dazu Spuren eines Entwurfs.",
+   "line": 22
+  },
+  {
+   "s": 104.527,
+   "e": 106.127,
+   "text": "Warum schreibt eine Profi-Bande",
+   "line": 23
+  },
+  {
+   "s": 106.127,
+   "e": 108.972,
+   "text": "ihren Brief erst im Haus des Opfers?",
+   "line": 23
+  },
+  {
+   "s": 108.992,
+   "e": 110.479,
+   "text": "Die Schrift? John wurde",
+   "line": 24
+  },
+  {
+   "s": 110.479,
+   "e": 112.72,
+   "text": "ausgeschlossen, Patsy nicht ganz.",
+   "line": 24
+  },
+  {
+   "s": 112.74,
+   "e": 114.34,
+   "text": "Doch das beweist nicht,",
+   "line": 25
+  },
+  {
+   "s": 114.34,
+   "e": 115.786,
+   "text": "dass sie ihn schrieb.",
+   "line": 25
+  },
+  {
+   "s": 115.806,
+   "e": 116.644,
+   "text": "Und im Keller wartete",
+   "line": 26
+  },
+  {
+   "s": 116.644,
+   "e": 120.129,
+   "text": "die nächste Spur. Teil zwei folgt.",
+   "line": 26
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/3/voice/line_01.mp3"
+  },
+  {
+   "s": 4.956,
+   "src": "crime/3/voice/line_02.mp3"
+  },
+  {
+   "s": 9.978,
+   "src": "crime/3/voice/line_03.mp3"
+  },
+  {
+   "s": 15.384,
+   "src": "crime/3/voice/line_04.mp3"
+  },
+  {
+   "s": 17.027,
+   "src": "crime/3/voice/line_05.mp3"
+  },
+  {
+   "s": 22.219,
+   "src": "crime/3/voice/line_06.mp3"
+  },
+  {
+   "s": 27.654,
+   "src": "crime/3/voice/line_07.mp3"
+  },
+  {
+   "s": 32.38,
+   "src": "crime/3/voice/line_08.mp3"
+  },
+  {
+   "s": 38.086,
+   "src": "crime/3/voice/line_09.mp3"
+  },
+  {
+   "s": 44.329,
+   "src": "crime/3/voice/line_10.mp3"
+  },
+  {
+   "s": 49.724,
+   "src": "crime/3/voice/line_11.mp3"
+  },
+  {
+   "s": 56.532,
+   "src": "crime/3/voice/line_12.mp3"
+  },
+  {
+   "s": 60.197,
+   "src": "crime/3/voice/line_13.mp3"
+  },
+  {
+   "s": 65.574,
+   "src": "crime/3/voice/line_14.mp3"
+  },
+  {
+   "s": 69.802,
+   "src": "crime/3/voice/line_15.mp3"
+  },
+  {
+   "s": 73.63,
+   "src": "crime/3/voice/line_16.mp3"
+  },
+  {
+   "s": 77.501,
+   "src": "crime/3/voice/line_17.mp3"
+  },
+  {
+   "s": 83.355,
+   "src": "crime/3/voice/line_18.mp3"
+  },
+  {
+   "s": 87.891,
+   "src": "crime/3/voice/line_19.mp3"
+  },
+  {
+   "s": 92.319,
+   "src": "crime/3/voice/line_20.mp3"
+  },
+  {
+   "s": 97.166,
+   "src": "crime/3/voice/line_21.mp3"
+  },
+  {
+   "s": 100.123,
+   "src": "crime/3/voice/line_22.mp3"
+  },
+  {
+   "s": 104.607,
+   "src": "crime/3/voice/line_23.mp3"
+  },
+  {
+   "s": 109.072,
+   "src": "crime/3/voice/line_24.mp3"
+  },
+  {
+   "s": 112.82,
+   "src": "crime/3/voice/line_25.mp3"
+  },
+  {
+   "s": 115.886,
+   "src": "crime/3/voice/line_26.mp3"
+  }
+ ],
+ "music": "crime/3/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ],
+ "sfx": "crime/3/sfx.wav",
+ "sfxVolume": 0.6
+}

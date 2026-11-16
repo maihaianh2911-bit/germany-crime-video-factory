@@ -1,0 +1,665 @@
+{
+ "pictures": [
+  {
+   "name": "house",
+   "src": "1/1-1.jpg",
+   "title": "Picture for Seminar.jpg",
+   "artist": "Jahnaiyabonaparte",
+   "date": "2020-12-09",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Picture_for_Seminar.jpg",
+   "ai": false
+  },
+  {
+   "name": "letter",
+   "src": "1/11-6.jpg",
+   "title": "Handschriftlicher Eintrag von Philipp Melanchthon",
+   "artist": "SLUB/Dresdner Digitalisierungszentrum (Herstellung) (Fotograf)",
+   "date": "",
+   "license": "Public domain",
+   "page": "https://www.europeana.eu/item/440/item_Q3BJH7S55DY6FL2XZBOD22EQYV7WDJS7",
+   "ai": false
+  },
+  {
+   "name": "money",
+   "src": "1/13-2.jpg",
+   "title": "Money Roll - $100 Dollar Bills",
+   "artist": "401(K) 2013",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/68751915@N05/6757882889",
+   "ai": false
+  },
+  {
+   "name": "door",
+   "src": "1/15-2.jpg",
+   "title": "Sudeley Castle & Gardens - former wine cellar - door",
+   "artist": "ell brown",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/39415781@N06/14130137662",
+   "ai": false
+  },
+  {
+   "name": "pad",
+   "src": "1/10-6.jpg",
+   "title": "Blue pen on paper.jpeg",
+   "artist": "User:Revital9",
+   "date": "10 April 2015 (according to Exif data)",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue_pen_on_paper.jpeg",
+   "ai": false
+  },
+  {
+   "name": "lens",
+   "src": "1/20-5.jpg",
+   "title": "Magnifying glass on antique table.jpg",
+   "artist": "Stéphane Magnenat",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Magnifying_glass_on_antique_table.jpg",
+   "ai": false
+  },
+  {
+   "name": "map",
+   "src": "1/4-4.jpg",
+   "title": "Boulder County Colorado Incorporated and Unincorporated areas Boulder Highlighted 0807850.svg",
+   "artist": "DemocraticLuntz",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Boulder_County_Colorado_Incorporated_and_Unincorporated_areas_Boulder_Highlighted_0807850.svg",
+   "ai": false
+  },
+  {
+   "name": "tree",
+   "src": "1/8-3.jpg",
+   "title": "Natt på Fyristorg, Uppsala",
+   "artist": "Uppsala-Bild, Uppsala-Bild",
+   "date": "",
+   "license": "CC0",
+   "page": "https://www.europeana.eu/item/91617/upmu_photo_UB018519",
+   "ai": false
+  },
+  {
+   "name": "stairs",
+   "src": "1/9-2.jpg",
+   "title": "Edwardian Hallway in Redhill - Oct 2013 - The Naked Staircase - From the Top",
+   "artist": "Gareth1953 All Right Now",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/40837632@N05/11351510713",
+   "ai": false
+  },
+  {
+   "name": "phone",
+   "src": "1/17-4.jpg",
+   "title": "Telephone Headset.jpg",
+   "artist": "Panelxf",
+   "date": "1990s",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Telephone_Headset.jpg",
+   "ai": false
+  },
+  {
+   "name": "brushes",
+   "src": "1/16-2.jpg",
+   "title": "Paint Brushes Close-Up",
+   "artist": "Tech109",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/78809678@N00/4687453830",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 4.836,
+   "said": [
+    "Eine Familie bekam",
+    "einen Erpresserbrief",
+    "über 118.000 Dollar."
+   ],
+   "edit": "hook",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "letter.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "money.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer schrieb diesen Brief?"
+    },
+    {
+     "type": "tape",
+     "text": "118.000 $ LÖSEGELD"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 4.836,
+   "end": 9.858,
+   "said": [
+    "Doch knapp acht Stunden später lag",
+    "das Kind tot im Keller",
+    "des eigenen Hauses."
+   ],
+   "edit": "place",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "door.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "8 STUNDEN SPÄTER"
+    },
+    {
+     "type": "tape",
+     "text": "im eigenen Keller"
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "start": 9.858,
+   "end": 15.264,
+   "said": [
+    "Der Brief war fast drei Seiten lang,",
+    "geschrieben mit Papier",
+    "und Stift aus dem Haus."
+   ],
+   "edit": "pair",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "letter.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "pad.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "FAST 3 SEITEN"
+    },
+    {
+     "type": "tape",
+     "text": "Papier + Stift aus dem Haus"
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "start": 15.264,
+   "end": 22.099,
+   "said": [
+    "Wer hat ihn geschrieben?",
+    "Und warum schreibt ein Entführer",
+    "am Tatort, wenn das Opfer",
+    "das Haus nie verlassen hat?"
+   ],
+   "edit": "question",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "lens.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer schrieb ihn?"
+    },
+    {
+     "type": "tape",
+     "text": "Opfer nie aus dem Haus"
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "start": 22.099,
+   "end": 27.534,
+   "said": [
+    "Das ist der Fall JonBenét Ramsey,",
+    "einer der bekanntesten",
+    "ungelösten Fälle der USA."
+   ],
+   "edit": "chapter",
+   "head": "JonBenét Ramsey",
+   "items": []
+  },
+  {
+   "scene": 6,
+   "start": 27.534,
+   "end": 32.26,
+   "said": [
+    "Weihnachten 1996 in Boulder, Colorado."
+   ],
+   "edit": "detail",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "map.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "BOULDER, COLORADO"
+    },
+    {
+     "type": "tape",
+     "text": "Weihnachten"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 32.26,
+   "end": 37.966,
+   "said": [
+    "Die sechsjährige",
+    "JonBenét lebte mit Vater John,",
+    "Mutter Patsy und Bruder Burke."
+   ],
+   "edit": "who",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 37.966,
+   "end": 44.209,
+   "said": [
+    "Laut den Eltern schlief sie schon,",
+    "als sie nach einer Feier",
+    "am 25. Dezember ins Bett kam."
+   ],
+   "edit": "place",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "tree.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "25. DEZEMBER"
+    },
+    {
+     "type": "tape",
+     "text": "laut Eltern: schlief schon"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 44.209,
+   "end": 49.604,
+   "said": [
+    "Gegen 5:30 Uhr",
+    "fand Patsy an der Treppe",
+    "einen handgeschriebenen Brief."
+   ],
+   "edit": "fact",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "stairs.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "letter.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "05:30 UHR"
+    },
+    {
+     "type": "tape",
+     "text": "an der Treppe"
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 49.604,
+   "end": 56.412,
+   "said": [
+    "Eine angebliche ausländische Gruppe",
+    "forderte genau 118.000 Dollar,",
+    "und keine Polizei."
+   ],
+   "edit": "number",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "money.jpg",
+     "ai": false
+    },
+    {
+     "type": "stat"
+    },
+    {
+     "type": "tape",
+     "text": "keine Polizei!"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 56.412,
+   "end": 65.454,
+   "said": [
+    "Doch um 5:52 Uhr rief Patsy",
+    "den Notruf.",
+    "Die Polizei fand keine klare Spur,",
+    "dass jemand JonBenét",
+    "aus dem Haus gebracht hatte."
+   ],
+   "edit": "timeline",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "phone.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "tape",
+     "text": "keine Spur einer Entführung"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 65.454,
+   "end": 73.51,
+   "said": [
+    "Um 13:05 Uhr sollte John das Haus",
+    "noch einmal durchsuchen.",
+    "Im Keller öffnete er den Weinkeller",
+    "und fand seine Tochter."
+   ],
+   "edit": "place",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "door.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "13:05 UHR"
+    },
+    {
+     "type": "tape",
+     "text": "im Weinkeller"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 73.51,
+   "end": 83.235,
+   "said": [
+    "Sie wurde erdrosselt und hatte",
+    "eine schwere Kopfverletzung.",
+    "Die Schlinge:",
+    "eine Schnur und ein abgebrochener",
+    "Pinselstiel aus den Malsachen im Haus."
+   ],
+   "edit": "list",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "brushes.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "erdrosselt"
+    },
+    {
+     "type": "tape",
+     "text": "Kopfverletzung"
+    },
+    {
+     "type": "tape",
+     "text": "Schnur + Pinselstiel"
+    },
+    {
+     "type": "tape",
+     "text": "aus dem Haus"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 83.235,
+   "end": 87.771,
+   "said": [
+    "Ein Brief aus dem Haus, eine Schlinge",
+    "aus dem Haus, und das Opfer im Keller."
+   ],
+   "edit": "board",
+   "head": "JonBenét Ramsey",
+   "items": [
+    {
+     "type": "photo",
+     "image": "letter.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "brushes.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "door.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 87.771,
+   "end": 89.017,
+   "said": [
+    "Die erste Spur: der Brief."
+   ],
+   "edit": "chapter",
+   "head": "Der Brief",
+   "items": []
+  },
+  {
+   "scene": 16,
+   "start": 89.017,
+   "end": 92.199,
+   "said": [
+    "Zweieinhalb Seiten, voller Drohungen."
+   ],
+   "edit": "detail",
+   "head": "Der Brief",
+   "items": [
+    {
+     "type": "photo",
+     "image": "letter.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "2,5 SEITEN"
+    },
+    {
+     "type": "tape",
+     "text": "voller Drohungen"
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "start": 92.199,
+   "end": 100.003,
+   "said": [
+    "Warum genau 118.000 Dollar?",
+    "Fast so viel wie Johns Bonus.",
+    "Kannte der Verfasser",
+    "die Finanzen der Familie?"
+   ],
+   "edit": "compare",
+   "head": "Der Brief",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 100.003,
+   "end": 104.487,
+   "said": [
+    "Block und Stift stammten aus dem Haus,",
+    "dazu Spuren eines Entwurfs."
+   ],
+   "edit": "fact",
+   "head": "Der Brief",
+   "items": [
+    {
+     "type": "photo",
+     "image": "pad.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Block + Stift"
+    },
+    {
+     "type": "tape",
+     "text": "Spuren eines Entwurfs"
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "start": 104.487,
+   "end": 108.952,
+   "said": [
+    "Warum schreibt eine Profi-Bande",
+    "ihren Brief erst im Haus des Opfers?"
+   ],
+   "edit": "question",
+   "head": "Der Brief",
+   "items": [
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Profi-Bande?"
+    },
+    {
+     "type": "tape",
+     "text": "Brief erst im Haus geschrieben"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 108.952,
+   "end": 115.766,
+   "said": [
+    "Die Schrift? John wurde",
+    "ausgeschlossen, Patsy nicht ganz.",
+    "Doch das beweist nicht,",
+    "dass sie ihn schrieb."
+   ],
+   "edit": "span",
+   "head": "Der Brief",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "start": 115.766,
+   "end": 122.109,
+   "said": [
+    "Und im Keller wartete",
+    "die nächste Spur. Teil zwei folgt."
+   ],
+   "edit": "statement",
+   "head": "Der Brief",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Die nächste Spur: der Keller"
+    },
+    {
+     "type": "tape",
+     "text": "TEIL 2 FOLGT"
+    }
+   ]
+  }
+ ]
+}
