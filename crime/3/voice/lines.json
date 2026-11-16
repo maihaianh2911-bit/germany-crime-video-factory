@@ -1,0 +1,1623 @@
+[
+ {
+  "i": 1,
+  "text": "Eine Familie bekam einen Erpresserbrief über 118.000 Dollar.",
+  "tts": "Eine Familie bekam einen Erpresserbrief über hundertachtzehntausend Dollar.",
+  "voice": "clone_611",
+  "file": "line_01.mp3",
+  "duration": 4.256,
+  "heard": "Eine Familie bekam einen Erpresserbrief über 118.000 Dollar.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0784,
+    0.2
+   ],
+   [
+    0.2157,
+    0.58
+   ],
+   [
+    0.3137,
+    1.02
+   ],
+   [
+    0.4118,
+    1.2
+   ],
+   [
+    0.6863,
+    2.14
+   ],
+   [
+    0.7647,
+    2.42
+   ],
+   [
+    0.8235,
+    3.1
+   ],
+   [
+    0.8824,
+    3.56
+   ],
+   [
+    1.0,
+    3.94
+   ]
+  ]
+ },
+ {
+  "i": 2,
+  "text": "Doch knapp acht Stunden später lag das Kind tot im Keller des eigenen Hauses.",
+  "tts": "Doch knapp acht Stunden später lag das Kind tot im Keller des eigenen Hauses.",
+  "voice": "clone_611",
+  "file": "line_02.mp3",
+  "duration": 4.622,
+  "heard": "Doch knapp acht Stunden später lag das Kind tot im Keller des eigenen Hauses.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0635,
+    0.14
+   ],
+   [
+    0.1429,
+    0.44
+   ],
+   [
+    0.2063,
+    0.88
+   ],
+   [
+    0.3175,
+    1.22
+   ],
+   [
+    0.4127,
+    1.8
+   ],
+   [
+    0.4603,
+    2.04
+   ],
+   [
+    0.5079,
+    2.24
+   ],
+   [
+    0.5714,
+    2.44
+   ],
+   [
+    0.619,
+    2.9
+   ],
+   [
+    0.6508,
+    3.12
+   ],
+   [
+    0.746,
+    3.36
+   ],
+   [
+    0.7937,
+    3.56
+   ],
+   [
+    0.9048,
+    3.86
+   ],
+   [
+    1.0,
+    4.34
+   ]
+  ]
+ },
+ {
+  "i": 3,
+  "text": "Der Brief war fast drei Seiten lang, geschrieben mit Papier und Stift aus dem Haus.",
+  "tts": "Der Brief war fast drei Seiten lang, geschrieben mit Papier und Stift aus dem Haus.",
+  "voice": "clone_611",
+  "file": "line_03.mp3",
+  "duration": 5.006,
+  "heard": "Der Brief war fast drei Seiten lang, geschrieben mit Papier und Stift aus dem Haus.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0448,
+    0.12
+   ],
+   [
+    0.1194,
+    0.38
+   ],
+   [
+    0.1642,
+    0.64
+   ],
+   [
+    0.2239,
+    0.92
+   ],
+   [
+    0.2836,
+    1.2
+   ],
+   [
+    0.3731,
+    1.52
+   ],
+   [
+    0.4328,
+    2.48
+   ],
+   [
+    0.597,
+    2.84
+   ],
+   [
+    0.6418,
+    3.06
+   ],
+   [
+    0.7313,
+    3.58
+   ],
+   [
+    0.7761,
+    3.8
+   ],
+   [
+    0.8507,
+    4.1
+   ],
+   [
+    0.8955,
+    4.26
+   ],
+   [
+    0.9403,
+    4.42
+   ],
+   [
+    1.0,
+    4.66
+   ]
+  ]
+ },
+ {
+  "i": 4,
+  "text": "Wer hat ihn geschrieben?",
+  "tts": "Wer hat ihn geschrieben?",
+  "voice": "clone_611",
+  "file": "line_04.mp3",
+  "duration": 1.243,
+  "heard": "Wer hat ihn geschrieben?",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.15,
+    0.2
+   ],
+   [
+    0.3,
+    0.4
+   ],
+   [
+    0.45,
+    0.5
+   ],
+   [
+    1.0,
+    0.8
+   ]
+  ]
+ },
+ {
+  "i": 5,
+  "text": "Und warum schreibt ein Entführer am Tatort, wenn das Opfer das Haus nie verlassen hat?",
+  "tts": "Und warum schreibt ein Entführer am Tatort, wenn das Opfer das Haus nie verlassen hat?",
+  "voice": "clone_611",
+  "file": "line_05.mp3",
+  "duration": 4.792,
+  "heard": "Und warum schreibt ein Entführer am Tatort, wenn das Opfer das Haus nie verlassen hat?",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0429,
+    0.16
+   ],
+   [
+    0.1143,
+    0.44
+   ],
+   [
+    0.2286,
+    0.86
+   ],
+   [
+    0.2714,
+    1.0
+   ],
+   [
+    0.4,
+    1.48
+   ],
+   [
+    0.4286,
+    1.58
+   ],
+   [
+    0.5143,
+    2.4
+   ],
+   [
+    0.5714,
+    2.48
+   ],
+   [
+    0.6143,
+    2.66
+   ],
+   [
+    0.6857,
+    3.02
+   ],
+   [
+    0.7286,
+    3.16
+   ],
+   [
+    0.7857,
+    3.36
+   ],
+   [
+    0.8286,
+    3.76
+   ],
+   [
+    0.9571,
+    4.28
+   ],
+   [
+    1.0,
+    4.5
+   ]
+  ]
+ },
+ {
+  "i": 6,
+  "text": "Das ist der Fall JonBenét Ramsey, einer der bekanntesten ungelösten Fälle der USA.",
+  "tts": "Das ist der Fall JonBenét Ramsey, einer der bekanntesten ungelösten Fälle der USA.",
+  "voice": "clone_611",
+  "file": "line_06.mp3",
+  "duration": 5.035,
+  "heard": "Das ist der Fall Jom Bene Ramsey, einer der bekanntesten ungelösten Fälle der USA.",
+  "score": 0.89,
+  "diff": [
+   "jonbenét→jombene"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0448,
+    0.16
+   ],
+   [
+    0.0896,
+    0.28
+   ],
+   [
+    0.1343,
+    0.44
+   ],
+   [
+    0.194,
+    0.7
+   ],
+   [
+    0.2388,
+    1.04
+   ],
+   [
+    0.2985,
+    1.24
+   ],
+   [
+    0.3881,
+    2.24
+   ],
+   [
+    0.4627,
+    2.36
+   ],
+   [
+    0.5075,
+    2.48
+   ],
+   [
+    0.6866,
+    3.1
+   ],
+   [
+    0.8358,
+    3.84
+   ],
+   [
+    0.9104,
+    4.2
+   ],
+   [
+    0.9552,
+    4.36
+   ],
+   [
+    1.0,
+    4.7
+   ]
+  ]
+ },
+ {
+  "i": 7,
+  "text": "Weihnachten 1996 in Boulder, Colorado.",
+  "tts": "Weihnachten neunzehnhundertsechsundneunzig in Boulder, Colorado.",
+  "voice": "clone_611",
+  "file": "line_07.mp3",
+  "duration": 4.326,
+  "heard": "Weihnachten 1996 in Boulder, Colorado.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.3438,
+    0.58
+   ],
+   [
+    0.4688,
+    1.72
+   ],
+   [
+    0.5312,
+    2.84
+   ],
+   [
+    0.75,
+    3.52
+   ],
+   [
+    1.0,
+    3.8
+   ]
+  ]
+ },
+ {
+  "i": 8,
+  "text": "Die sechsjährige JonBenét lebte mit Vater John, Mutter Patsy und Bruder Burke.",
+  "tts": "Die sechsjährige JonBenét lebte mit Vater John, Mutter Patsy und Bruder Burke.",
+  "voice": "clone_611",
+  "file": "line_08.mp3",
+  "duration": 5.306,
+  "heard": "Die sechsjährige Jan Benet lebte mit Vater John, Mutter Pezi und Bruder Burke.",
+  "score": 0.8,
+  "diff": [
+   "jonbenét→janbenet",
+   "patsy→pezi"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0469,
+    0.14
+   ],
+   [
+    0.2344,
+    0.82
+   ],
+   [
+    0.2812,
+    1.04
+   ],
+   [
+    0.3594,
+    1.46
+   ],
+   [
+    0.4375,
+    2.14
+   ],
+   [
+    0.4844,
+    2.3
+   ],
+   [
+    0.5625,
+    2.58
+   ],
+   [
+    0.625,
+    3.44
+   ],
+   [
+    0.7188,
+    3.7
+   ],
+   [
+    0.7812,
+    4.12
+   ],
+   [
+    0.8281,
+    4.32
+   ],
+   [
+    0.9219,
+    4.66
+   ],
+   [
+    1.0,
+    5.12
+   ]
+  ]
+ },
+ {
+  "i": 9,
+  "text": "Laut den Eltern schlief sie schon, als sie nach einer Feier am 25. Dezember ins Bett kam.",
+  "tts": "Laut den Eltern schlief sie schon, als sie nach einer Feier am fünfundzwanzigsten Dezember ins Bett kam.",
+  "voice": "clone_611",
+  "file": "line_09.mp3",
+  "duration": 5.843,
+  "heard": "Laut den Eltern schlief sie schon, als sie nach einer Feier am 25. Dezember ins Bett kam.",
+  "score": 0.94,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0571,
+    0.2
+   ],
+   [
+    0.1,
+    0.36
+   ],
+   [
+    0.1857,
+    0.64
+   ],
+   [
+    0.2857,
+    1.06
+   ],
+   [
+    0.3286,
+    1.22
+   ],
+   [
+    0.4,
+    2.02
+   ],
+   [
+    0.4429,
+    2.2
+   ],
+   [
+    0.4857,
+    2.32
+   ],
+   [
+    0.5429,
+    2.48
+   ],
+   [
+    0.6143,
+    2.7
+   ],
+   [
+    0.6857,
+    3.14
+   ],
+   [
+    0.7143,
+    3.3
+   ],
+   [
+    0.7429,
+    4.4
+   ],
+   [
+    0.8571,
+    4.88
+   ],
+   [
+    0.9,
+    5.02
+   ],
+   [
+    0.9571,
+    5.28
+   ],
+   [
+    1.0,
+    5.6
+   ]
+  ]
+ },
+ {
+  "i": 10,
+  "text": "Gegen 5:30 Uhr fand Patsy an der Treppe einen handgeschriebenen Brief.",
+  "tts": "Gegen fünf Uhr dreißig fand Patsy an der Treppe einen handgeschriebenen Brief.",
+  "voice": "clone_611",
+  "file": "line_10.mp3",
+  "duration": 4.995,
+  "heard": "Gegen 5 Uhr 30 fand Pazzi an der Treppe einen handgeschriebenen Brief.",
+  "score": 0.92,
+  "diff": [
+   "patsy→pazzi"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0862,
+    0.16
+   ],
+   [
+    0.1034,
+    0.58
+   ],
+   [
+    0.1552,
+    0.82
+   ],
+   [
+    0.1897,
+    1.34
+   ],
+   [
+    0.2586,
+    1.74
+   ],
+   [
+    0.3448,
+    2.26
+   ],
+   [
+    0.3793,
+    2.42
+   ],
+   [
+    0.431,
+    2.52
+   ],
+   [
+    0.5345,
+    3.02
+   ],
+   [
+    0.6207,
+    3.36
+   ],
+   [
+    0.9138,
+    4.32
+   ],
+   [
+    1.0,
+    4.6
+   ]
+  ]
+ },
+ {
+  "i": 11,
+  "text": "Eine angebliche ausländische Gruppe forderte genau 118.000 Dollar, und keine Polizei.",
+  "tts": "Eine angebliche ausländische Gruppe forderte genau hundertachtzehntausend Dollar, und keine Polizei.",
+  "voice": "clone_611",
+  "file": "line_11.mp3",
+  "duration": 6.408,
+  "heard": "Eine angebliche ausländische Gruppe forderte genau 118.000 Dollar und keine Polizei.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0556,
+    0.22
+   ],
+   [
+    0.1944,
+    0.86
+   ],
+   [
+    0.3611,
+    1.48
+   ],
+   [
+    0.4444,
+    1.94
+   ],
+   [
+    0.5556,
+    2.44
+   ],
+   [
+    0.625,
+    2.84
+   ],
+   [
+    0.6667,
+    3.6
+   ],
+   [
+    0.7083,
+    4.18
+   ],
+   [
+    0.7917,
+    4.6
+   ],
+   [
+    0.8333,
+    5.2
+   ],
+   [
+    0.9028,
+    5.52
+   ],
+   [
+    1.0,
+    6.02
+   ]
+  ]
+ },
+ {
+  "i": 12,
+  "text": "Doch um 5:52 Uhr rief Patsy den Notruf.",
+  "tts": "Doch um fünf Uhr zweiundfünfzig rief Patsy den Notruf.",
+  "voice": "clone_611",
+  "file": "line_12.mp3",
+  "duration": 3.265,
+  "heard": "Doch um 5 Uhr 52 rief Patz in dem Not rauf.",
+  "score": 0.6,
+  "diff": [
+   "patsydennotruf→patzindemnotrauf"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.125,
+    0.16
+   ],
+   [
+    0.1875,
+    0.3
+   ],
+   [
+    0.2188,
+    0.62
+   ],
+   [
+    0.3125,
+    0.78
+   ],
+   [
+    0.375,
+    1.46
+   ],
+   [
+    0.5,
+    2.02
+   ],
+   [
+    0.625,
+    2.4
+   ],
+   [
+    0.6875,
+    2.46
+   ],
+   [
+    0.7812,
+    2.62
+   ],
+   [
+    0.875,
+    2.8
+   ],
+   [
+    1.0,
+    3.12
+   ]
+  ]
+ },
+ {
+  "i": 13,
+  "text": "Die Polizei fand keine klare Spur, dass jemand JonBenét aus dem Haus gebracht hatte.",
+  "tts": "Die Polizei fand keine klare Spur, dass jemand JonBenét aus dem Haus gebracht hatte.",
+  "voice": "clone_611",
+  "file": "line_13.mp3",
+  "duration": 4.977,
+  "heard": "Die Polizei fand keine klare Spur, dass jemand Jon Benéd aus dem Haus gebracht hatte.",
+  "score": 0.9,
+  "diff": [
+   "jonbenét→jonbenéd"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0435,
+    0.12
+   ],
+   [
+    0.1449,
+    0.56
+   ],
+   [
+    0.2029,
+    0.9
+   ],
+   [
+    0.2754,
+    1.14
+   ],
+   [
+    0.3478,
+    1.52
+   ],
+   [
+    0.4058,
+    2.32
+   ],
+   [
+    0.4638,
+    2.4
+   ],
+   [
+    0.5507,
+    2.72
+   ],
+   [
+    0.5942,
+    3.04
+   ],
+   [
+    0.6667,
+    3.46
+   ],
+   [
+    0.7101,
+    3.62
+   ],
+   [
+    0.7536,
+    3.76
+   ],
+   [
+    0.8116,
+    3.98
+   ],
+   [
+    0.9275,
+    4.3
+   ],
+   [
+    1.0,
+    4.78
+   ]
+  ]
+ },
+ {
+  "i": 14,
+  "text": "Um 13:05 Uhr sollte John das Haus noch einmal durchsuchen.",
+  "tts": "Um dreizehn Uhr fünf sollte John das Haus noch einmal durchsuchen.",
+  "voice": "clone_611",
+  "file": "line_14.mp3",
+  "duration": 3.828,
+  "heard": "Um 13.05 Uhr solltet schon das Haus noch einmal durchsuchen.",
+  "score": 0.73,
+  "diff": [
+   "fuenfsolltejohn→solltetschon"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0408,
+    0.14
+   ],
+   [
+    0.0816,
+    0.54
+   ],
+   [
+    0.1224,
+    1.0
+   ],
+   [
+    0.1837,
+    1.54
+   ],
+   [
+    0.3265,
+    1.86
+   ],
+   [
+    0.4286,
+    2.08
+   ],
+   [
+    0.4898,
+    2.4
+   ],
+   [
+    0.5714,
+    2.58
+   ],
+   [
+    0.6531,
+    2.74
+   ],
+   [
+    0.7755,
+    2.98
+   ],
+   [
+    1.0,
+    3.56
+   ]
+  ]
+ },
+ {
+  "i": 15,
+  "text": "Im Keller öffnete er den Weinkeller und fand seine Tochter.",
+  "tts": "Im Keller öffnete er den Weinkeller und fand seine Tochter.",
+  "voice": "clone_611",
+  "file": "line_15.mp3",
+  "duration": 3.428,
+  "heard": "Im Keller öffnete er den Weinkeller und fand seine Tochter.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0408,
+    0.14
+   ],
+   [
+    0.1633,
+    0.42
+   ],
+   [
+    0.3061,
+    0.98
+   ],
+   [
+    0.3469,
+    1.12
+   ],
+   [
+    0.4082,
+    1.24
+   ],
+   [
+    0.6122,
+    1.84
+   ],
+   [
+    0.6735,
+    2.24
+   ],
+   [
+    0.7551,
+    2.46
+   ],
+   [
+    0.8571,
+    2.7
+   ],
+   [
+    1.0,
+    3.18
+   ]
+  ]
+ },
+ {
+  "i": 16,
+  "text": "Sie wurde erdrosselt und hatte eine schwere Kopfverletzung.",
+  "tts": "Sie wurde erdrosselt und hatte eine schwere Kopfverletzung.",
+  "voice": "clone_611",
+  "file": "line_16.mp3",
+  "duration": 3.471,
+  "heard": "Sie wurde ertrosselt und hatte eine schwere Kopfverletzung.",
+  "score": 0.88,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.2
+   ],
+   [
+    0.1569,
+    0.42
+   ],
+   [
+    0.3529,
+    1.2
+   ],
+   [
+    0.4118,
+    1.54
+   ],
+   [
+    0.5098,
+    1.76
+   ],
+   [
+    0.5882,
+    1.96
+   ],
+   [
+    0.7255,
+    2.4
+   ],
+   [
+    1.0,
+    3.24
+   ]
+  ]
+ },
+ {
+  "i": 17,
+  "text": "Die Schlinge: eine Schnur und ein abgebrochener Pinselstiel aus den Malsachen im Haus.",
+  "tts": "Die Schlinge: eine Schnur und ein abgebrochener Pinselstiel aus den Malsachen im Haus.",
+  "voice": "clone_611",
+  "file": "line_17.mp3",
+  "duration": 5.454,
+  "heard": "Die Schlinge, eine Schnur und ein abgebrochener Pinselstil aus den Mahlsachen im Haus.",
+  "score": 0.85,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0417,
+    0.12
+   ],
+   [
+    0.1528,
+    0.88
+   ],
+   [
+    0.2083,
+    1.1
+   ],
+   [
+    0.2917,
+    1.6
+   ],
+   [
+    0.3333,
+    1.84
+   ],
+   [
+    0.375,
+    1.98
+   ],
+   [
+    0.5556,
+    2.82
+   ],
+   [
+    0.6944,
+    3.62
+   ],
+   [
+    0.7361,
+    3.92
+   ],
+   [
+    0.7778,
+    4.1
+   ],
+   [
+    0.9167,
+    4.68
+   ],
+   [
+    0.9444,
+    4.88
+   ],
+   [
+    1.0,
+    5.1
+   ]
+  ]
+ },
+ {
+  "i": 18,
+  "text": "Ein Brief aus dem Haus, eine Schlinge aus dem Haus, und das Opfer im Keller.",
+  "tts": "Ein Brief aus dem Haus, eine Schlinge aus dem Haus, und das Opfer im Keller.",
+  "voice": "clone_611",
+  "file": "line_18.mp3",
+  "duration": 4.136,
+  "heard": "Ein Brief aus dem Haus, eine Schlinge aus dem Haus und das Opfer im Keller.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0508,
+    0.16
+   ],
+   [
+    0.1356,
+    0.44
+   ],
+   [
+    0.1864,
+    0.7
+   ],
+   [
+    0.2373,
+    0.84
+   ],
+   [
+    0.3051,
+    1.38
+   ],
+   [
+    0.3729,
+    1.5
+   ],
+   [
+    0.5085,
+    1.9
+   ],
+   [
+    0.5593,
+    2.0
+   ],
+   [
+    0.6102,
+    2.18
+   ],
+   [
+    0.678,
+    2.54
+   ],
+   [
+    0.7288,
+    2.9
+   ],
+   [
+    0.7797,
+    3.04
+   ],
+   [
+    0.8644,
+    3.44
+   ],
+   [
+    0.8983,
+    3.58
+   ],
+   [
+    1.0,
+    3.82
+   ]
+  ]
+ },
+ {
+  "i": 19,
+  "text": "Die erste Spur: der Brief. Zweieinhalb Seiten, voller Drohungen.",
+  "tts": "Die erste Spur: der Brief. Zweieinhalb Seiten, voller Drohungen.",
+  "voice": "clone_611",
+  "file": "line_19.mp3",
+  "duration": 4.028,
+  "heard": "die erste Spur der Brief, 2,5 Seiten voller Drohungen.",
+  "score": 0.8,
+  "diff": [
+   "zweieinhalb→zweikommafuenf"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0698,
+    0.14
+   ],
+   [
+    0.186,
+    0.36
+   ],
+   [
+    0.2791,
+    0.84
+   ],
+   [
+    0.3488,
+    1.08
+   ],
+   [
+    0.4651,
+    1.78
+   ],
+   [
+    0.4884,
+    2.06
+   ],
+   [
+    0.5116,
+    2.38
+   ],
+   [
+    0.6512,
+    2.8
+   ],
+   [
+    0.7907,
+    3.38
+   ],
+   [
+    1.0,
+    3.78
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "text": "Warum genau 118.000 Dollar? Fast so viel wie Johns Bonus.",
+  "tts": "Warum genau hundertachtzehntausend Dollar? Fast so viel wie Johns Bonus.",
+  "voice": "clone_611",
+  "file": "line_20.mp3",
+  "duration": 4.447,
+  "heard": "Warum genau 118.000 Dollar? Fast so viel wie Jones Bonus.",
+  "score": 0.9,
+  "diff": [
+   "johns→jones"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1111,
+    0.24
+   ],
+   [
+    0.2222,
+    0.56
+   ],
+   [
+    0.2889,
+    1.34
+   ],
+   [
+    0.3556,
+    1.8
+   ],
+   [
+    0.4889,
+    2.54
+   ],
+   [
+    0.5778,
+    2.74
+   ],
+   [
+    0.6222,
+    2.94
+   ],
+   [
+    0.7111,
+    3.2
+   ],
+   [
+    0.7778,
+    3.36
+   ],
+   [
+    0.8889,
+    3.62
+   ],
+   [
+    1.0,
+    3.98
+   ]
+  ]
+ },
+ {
+  "i": 21,
+  "text": "Kannte der Verfasser die Finanzen der Familie?",
+  "tts": "Kannte der Verfasser die Finanzen der Familie?",
+  "voice": "clone_611",
+  "file": "line_21.mp3",
+  "duration": 2.557,
+  "heard": "kannte der Verfasser die Finanzen der Familie.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1538,
+    0.36
+   ],
+   [
+    0.2308,
+    0.5
+   ],
+   [
+    0.4615,
+    1.1
+   ],
+   [
+    0.5385,
+    1.28
+   ],
+   [
+    0.7436,
+    1.74
+   ],
+   [
+    0.8205,
+    1.88
+   ],
+   [
+    1.0,
+    2.26
+   ]
+  ]
+ },
+ {
+  "i": 22,
+  "text": "Block und Stift stammten aus dem Haus, dazu Spuren eines Entwurfs.",
+  "tts": "Block und Stift stammten aus dem Haus, dazu Spuren eines Entwurfs.",
+  "voice": "clone_611",
+  "file": "line_22.mp3",
+  "duration": 4.084,
+  "heard": "Block und Stift stammten aus dem Haus dazu Spuren eines Entwurfs.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0926,
+    0.2
+   ],
+   [
+    0.1481,
+    0.38
+   ],
+   [
+    0.2407,
+    0.8
+   ],
+   [
+    0.3889,
+    1.24
+   ],
+   [
+    0.4444,
+    1.38
+   ],
+   [
+    0.5,
+    1.52
+   ],
+   [
+    0.5741,
+    1.94
+   ],
+   [
+    0.6481,
+    2.44
+   ],
+   [
+    0.7593,
+    2.94
+   ],
+   [
+    0.8519,
+    3.18
+   ],
+   [
+    1.0,
+    3.84
+   ]
+  ]
+ },
+ {
+  "i": 23,
+  "text": "Warum schreibt eine Profi-Bande ihren Brief erst im Haus des Opfers?",
+  "tts": "Warum schreibt eine Profi-Bande ihren Brief erst im Haus des Opfers?",
+  "voice": "clone_611",
+  "file": "line_23.mp3",
+  "duration": 4.065,
+  "heard": "Warum schreibt eine Profibande ihren Brief erst im Haus des Opfers?",
+  "score": 0.87,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0893,
+    0.28
+   ],
+   [
+    0.2321,
+    0.7
+   ],
+   [
+    0.3036,
+    0.88
+   ],
+   [
+    0.4821,
+    1.6
+   ],
+   [
+    0.5714,
+    1.84
+   ],
+   [
+    0.6607,
+    2.22
+   ],
+   [
+    0.7321,
+    2.66
+   ],
+   [
+    0.7679,
+    2.88
+   ],
+   [
+    0.8393,
+    3.14
+   ],
+   [
+    0.8929,
+    3.36
+   ],
+   [
+    1.0,
+    3.76
+   ]
+  ]
+ },
+ {
+  "i": 24,
+  "text": "Die Schrift? John wurde ausgeschlossen, Patsy nicht ganz.",
+  "tts": "Die Schrift? John wurde ausgeschlossen, Patsy nicht ganz.",
+  "voice": "clone_611",
+  "file": "line_24.mp3",
+  "duration": 3.348,
+  "heard": "Die Schrift, John wurde ausgeschlossen, hat sie nicht ganz.",
+  "score": 0.82,
+  "diff": [
+   "patsy→hatsie"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0625,
+    0.12
+   ],
+   [
+    0.2083,
+    1.0
+   ],
+   [
+    0.2917,
+    1.22
+   ],
+   [
+    0.3958,
+    1.46
+   ],
+   [
+    0.6875,
+    2.4
+   ],
+   [
+    0.75,
+    2.52
+   ],
+   [
+    0.8125,
+    2.66
+   ],
+   [
+    0.9167,
+    2.8
+   ],
+   [
+    1.0,
+    3.04
+   ]
+  ]
+ },
+ {
+  "i": 25,
+  "text": "Doch das beweist nicht, dass sie ihn schrieb.",
+  "tts": "Doch das beweist nicht, dass sie ihn schrieb.",
+  "voice": "clone_611",
+  "file": "line_25.mp3",
+  "duration": 2.666,
+  "heard": "Doch das beweist nicht, dass sie ihn schrieb.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1111,
+    0.14
+   ],
+   [
+    0.1944,
+    0.4
+   ],
+   [
+    0.3889,
+    0.92
+   ],
+   [
+    0.5278,
+    1.6
+   ],
+   [
+    0.6389,
+    1.8
+   ],
+   [
+    0.7222,
+    1.98
+   ],
+   [
+    0.8056,
+    2.08
+   ],
+   [
+    1.0,
+    2.42
+   ]
+  ]
+ },
+ {
+  "i": 26,
+  "text": "Und im Keller wartete die nächste Spur. Teil zwei folgt.",
+  "tts": "Und im Keller wartete die nächste Spur. Teil zwei folgt.",
+  "voice": "clone_611",
+  "file": "line_26.mp3",
+  "duration": 3.443,
+  "heard": "und im Keller wartete die nächste Spur. Teil 2 folgt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0714,
+    0.14
+   ],
+   [
+    0.119,
+    0.24
+   ],
+   [
+    0.2619,
+    0.44
+   ],
+   [
+    0.4286,
+    0.92
+   ],
+   [
+    0.5,
+    1.08
+   ],
+   [
+    0.6667,
+    1.3
+   ],
+   [
+    0.7619,
+    2.2
+   ],
+   [
+    0.8571,
+    2.52
+   ],
+   [
+    0.881,
+    2.74
+   ],
+   [
+    1.0,
+    3.26
+   ]
+  ]
+ }
+]
