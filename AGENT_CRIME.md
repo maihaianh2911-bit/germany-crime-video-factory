@@ -24,7 +24,8 @@ This repo's channel: **tiếng Đức** voice, subtitles and board texts (`promp
 `maihaianh2911-bit/japan-crime-video-factory`; never carry one channel's language over.
 
 Machine steps run in `.github/workflows/crime.yml` → `scripts/crime/run.py`; files land on the `renders` branch in
-`crime/<N>/` (`voice/`, `img/<round>/`, `video.mp4`, `sheet.jpg`, `subtitles.srt`, `credits.txt`, `sources.json`).
+`crime/<N>/` (`voice/`, `img/<round>/`, `video.mp4`, `sheet.jpg`, `subtitles.srt`, `credits.txt`, `sources.json`,
+`edits.md`, `caption.txt`).
 
 Steps (labels): `crime-plan` → you write `crime/<N>/script.json` → `crime-voice` (machine: voice, voice check,
 picture search, AI illustrations) → `crime-pick` → you write `crime/<N>/picks.json` → `crime-render` (machine) →
@@ -279,6 +280,20 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
    (a push of `script.json` alone runs the voice step again), remove `crime-busy`. (Render ~10 min for 2 minutes of video; you are
    woken at `crime-check`.)
 
+9. **Posting caption** (owner, 16/11/2026: every video comes with the text to post it): write `crime/<N>/caption.txt`
+   and push it **with** `picks.json` (step 8). UTF-8, ≤ 2000 characters, in the channel's language (German —
+   iron rule 1), nothing that is not in the script (no invented facts, respectful to the victims):
+   - line 1: a hook title, ≤ 80 characters, true to the script (`Der Täter ließ fast alles zurück – nur keinen Namen`);
+   - 2–4 short sentences: what happened, what is open;
+   - a blank line, then 5–8 hashtags plus `#shorts` (`#TrueCrime #Kriminalfall #Ungelöst … #shorts`);
+   - a blank line, then the picture-credit line (`Bildquellen: Wikimedia Commons u. a. (siehe Beschreibung)`; when the credits are long, a short pointer to them),
+     and, when the video uses AI illustrations, the line `Einige Bilder: KI-Illustration`.
+   The machine checks the length, the title, the language, the hashtags and the AI line (`scripts/crime/caption.py`)
+   and publishes it beside `video.mp4` with the render. A faulty caption never stops the render: the render comment
+   then says why it was left out. **A push that changes only `caption.txt`** (a later fix, or a video made before
+   16/11/2026) does not read the voice, search or render again: the machine only checks it, copies it to `renders`
+   and comments its link.
+
 ## 3. `crime-check` → done
 If the issue also has `crime-fix` (the owner commented while the video was rendering), do §4 `crime-fix` instead
 (remove `crime-check` there too).
@@ -288,6 +303,7 @@ off its target, a blurred or watermarked picture, an AI picture with a face or t
 Otherwise remove `crime-check`, add `crime-done` and comment (🤖, short, Vietnamese):
 - video: `https://github.com/maihaianh2911-bit/germany-crime-video-factory/blob/renders/crime/<N>/video.mp4` and the direct download
   `https://github.com/maihaianh2911-bit/germany-crime-video-factory/raw/renders/crime/<N>/video.mp4`, its length;
+- `caption.txt` (the posting caption: `https://github.com/maihaianh2911-bit/germany-crime-video-factory/blob/renders/crime/<N>/caption.txt`);
 - `subtitles.srt`, `credits.txt` (to paste into the video description: picture credits, and the AI note when AI
   illustrations were used) and `sources.json` (per scene: words, pictures, AI or not);
 - one line on the pictures used (how many real, how many AI); "bình luận nếu muốn sửa";
@@ -315,6 +331,8 @@ Otherwise remove `crime-check`, add `crime-done` and comment (🤖, short, Vietn
   `gh api -X POST repos/maihaianh2911-bit/germany-crime-video-factory/actions/workflows/crime.yml/dispatches -f ref=main -f 'inputs[issue]=<N>' -f 'inputs[steps]=render'`
   (or `prepare`, `search`), remove `crime-failed`. When the fix is a push under `crime/<N>/` (script.json,
   picks.json, search-<r>.json, own/), that push already starts the run: do not dispatch it by hand as well.
+- `crime-failed` after a push of `caption.txt` alone (the machine's comment names the problem: length, language,
+  hashtags, AI line): fix `caption.txt`, push it alone again, remove `crime-failed` and add `crime-done` back.
 - `crime-failed` where the machine's last 🤖 comment explains the stop itself (no log link): **the voice key is
   missing** → nothing to fix; when the owner says the key is added, dispatch `prepare` and remove `crime-failed`
   (and `crime-fix`). **The files were cleaned up** (no activity for 14 days; `picks.json` would no longer match
