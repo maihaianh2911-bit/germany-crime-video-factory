@@ -1,0 +1,695 @@
+{
+ "sfx": true,
+ "tail": 3.2,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "1996",
+   "3/Keller"
+  ],
+  [
+   "1999",
+   "15/1999"
+  ],
+  [
+   "2006",
+   "18/2006"
+  ],
+  [
+   "2008",
+   "22/2008"
+  ],
+  [
+   "2016",
+   "23/2016"
+  ],
+  [
+   "2026",
+   "25/November"
+  ]
+ ],
+ "images": {
+  "house": {
+   "src": "1/1-1.jpg"
+  },
+  "win": {
+   "src": "1/3-1.jpg"
+  },
+  "well": {
+   "src": "1/4-1.jpg"
+  },
+  "case": {
+   "src": "1/5-6.jpg"
+  },
+  "steps": {
+   "src": "1/6-1.jpg"
+  },
+  "bowl": {
+   "src": "1/7-6.jpg"
+  },
+  "tape": {
+   "src": "1/9-2.jpg"
+  },
+  "court": {
+   "src": "1/10-1.jpg"
+  },
+  "jury": {
+   "src": "1/11-1.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.9
+   ]
+  },
+  "bkk": {
+   "src": "1/13-3.jpg"
+  },
+  "media": {
+   "src": "1/14-3.jpg"
+  },
+  "lab": {
+   "src": "1/15-5.jpg"
+  },
+  "pip": {
+   "src": "1/15-8.jpg"
+  },
+  "gel": {
+   "src": "1/16-8.jpg"
+  },
+  "tree": {
+   "src": "1/17-7.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.42
+   ]
+  },
+  "cellar": {
+   "src": "1/3-5.jpg",
+   "crop": [
+    0.04,
+    0.03,
+    0.96,
+    0.97
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "2 giây đầu: cửa sổ vỡ đầy màn hình + \"TEIL 2\" ngay khung đầu, có tiếng; cắt nhanh theo từng chữ: bát dứa → ADN",
+   "items": [
+    {
+     "photo": "win",
+     "pos": "full",
+     "view": [
+      0.0,
+      0.15,
+      1.0,
+      0.95
+     ]
+    },
+    {
+     "photo": "bowl",
+     "pos": "full",
+     "view": [
+      0.15,
+      0.2,
+      0.85,
+      1.0
+     ],
+     "at": "1/Schale"
+    },
+    {
+     "photo": "gel",
+     "pos": "full",
+     "view": [
+      0.25,
+      0.0,
+      0.75,
+      1.0
+     ],
+     "at": "1/fremde"
+    },
+    {
+     "tape": "TEIL 2",
+     "color": "red",
+     "size": 96,
+     "xy": [
+      540,
+      1250
+     ]
+    },
+    {
+     "tape": "Fall JonBenét Ramsey",
+     "color": "white",
+     "size": 50,
+     "xy": [
+      540,
+      1115
+     ]
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "chapter",
+   "why": "câu 2 gọi tên vụ án, phần 2",
+   "head": {
+    "kicker": "AKTE 1996 · TEIL 2",
+    "title": "JonBenét Ramsey"
+   }
+  },
+  {
+   "at": 3,
+   "edit": "detail",
+   "why": "câu 3: cửa sổ vỡ ở tầng hầm, bên dưới có chiếc vali",
+   "head": {
+    "kicker": "SPUR 02",
+    "title": "Der Keller"
+   },
+   "items": [
+    {
+     "photo": "win",
+     "view": [
+      0.0,
+      0.2,
+      1.0,
+      0.85
+     ],
+     "ring": {
+      "box": [
+       0.38,
+       0.38,
+       0.72,
+       0.55
+      ],
+      "at": "3/Fenster"
+     }
+    },
+    {
+     "photo": "case",
+     "pos": [
+      800,
+      1250,
+      290
+     ],
+     "at": "3/Koffer"
+    },
+    {
+     "tape": "zerbrochen",
+     "color": "red",
+     "at": "3/zerbrochen",
+     "pin": "bl",
+     "on": 0
+    },
+    {
+     "tape": "Koffer darunter",
+     "at": "3/Koffer",
+     "pin": "above",
+     "on": 1
+    }
+   ]
+  },
+  {
+   "at": 4,
+   "edit": "question",
+   "why": "câu 4: hung thủ vào hay ra qua cửa sổ này?",
+   "items": [
+    {
+     "photo": "well"
+    },
+    {
+     "tape": "herein oder hinaus?",
+     "color": "red",
+     "at": 4.05
+    }
+   ]
+  },
+  {
+   "at": 5,
+   "edit": "compare",
+   "why": "câu 5–6: chính John khai từng làm vỡ cửa sổ khi quên chìa khóa → không chứng minh có đột nhập",
+   "items": [
+    {
+     "card": "paper",
+     "head": "DAS FENSTER",
+     "rows": [
+      [
+       "Theorie",
+       "Einstieg?",
+       5.02
+      ],
+      [
+       "John",
+       "Schlüssel vergessen",
+       "5/Schlüssel"
+      ]
+     ],
+     "stamp": {
+      "text": "EINBRUCH\nNICHT BEWIESEN",
+      "at": "6/bewiesen"
+     }
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "fact",
+   "why": "câu 7: dấu giày và dấu vết khác ở tầng hầm không dẫn tới ai",
+   "items": [
+    {
+     "photo": "cellar"
+    },
+    {
+     "photo": "steps",
+     "at": "7/Schuhabdrücke"
+    },
+    {
+     "tape": "Schuhabdrücke",
+     "at": "7/Schuhabdrücke"
+    },
+    {
+     "tape": "niemand angeklagt",
+     "color": "red",
+     "at": "7/niemandem"
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "edit": "place",
+   "why": "câu 8 mở manh mối 3: bát dứa trong bếp",
+   "head": {
+    "kicker": "SPUR 03",
+    "title": "Die Ananas"
+   },
+   "items": [
+    {
+     "photo": "bowl",
+     "view": [
+      0.0,
+      0.2,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "tape": "in der Küche",
+     "at": "8/Küche"
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "compare",
+   "why": "câu 9–11: lời khai (đã ngủ) ≠ khám nghiệm (có dứa trong ruột) — không biết ăn lúc nào, với ai",
+   "items": [
+    {
+     "card": "paper",
+     "head": "ANANAS",
+     "rows": [
+      [
+       "Eltern",
+       "schlief schon",
+       "9/schlief"
+      ],
+      {
+       "l": "≠",
+       "r": "",
+       "at": "10/Doch",
+       "color": "red"
+      },
+      [
+       "Obduktion",
+       "Ananas im Darm",
+       "10/Ananas"
+      ]
+     ],
+     "stamp": {
+      "text": "WANN?\nMIT WEM?",
+      "at": "11/Wann"
+     }
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "actions",
+   "why": "câu 12–13: sai sót ngày đầu — không phong tỏa nhà, người ra vào, bố bế con lên",
+   "head": {
+    "kicker": "FEHLER",
+    "title": "Der erste Tag"
+   },
+   "items": [
+    {
+     "photo": "tape"
+    },
+    {
+     "card": "lined",
+     "rows": [
+      [
+       "Haus nicht abgesperrt",
+       "",
+       "12/abgesperrt"
+      ],
+      [
+       "Freunde in vielen Räumen",
+       "",
+       "13/Freunde"
+      ],
+      [
+       "Tochter nach oben getragen",
+       "",
+       "13/trug"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "edit": "statement",
+   "why": "câu 14: không chứng minh ai có tội, nhưng dấu vết bị lẫn",
+   "items": [
+    {
+     "tape": "beweist keine Schuld",
+     "color": "white",
+     "at": 14.02,
+     "size": 54
+    },
+    {
+     "tape": "Spuren vermischt",
+     "color": "red",
+     "at": "14/Spuren"
+    }
+   ]
+  },
+  {
+   "at": 15,
+   "edit": "where",
+   "why": "câu 15: năm 1999, đại bồi thẩm đoàn bỏ phiếu truy tố cha mẹ",
+   "head": {
+    "kicker": "AKTE 1999",
+    "title": "Die Grand Jury"
+   },
+   "items": [
+    {
+     "card": "folder",
+     "tab": "GRAND JURY · 1999",
+     "corner": "COLORADO"
+    },
+    {
+     "photo": "jury",
+     "pos": "in",
+     "at": 15.05
+    },
+    {
+     "tape": "für Anklage der Eltern",
+     "at": "15/anzuklagen"
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "who",
+   "why": "câu 16–17: công tố viên không truy tố vì thiếu chứng cứ; không ai bị kết án",
+   "items": [
+    {
+     "card": "paper",
+     "head": "ENTSCHEIDUNG",
+     "rows": [
+      [
+       "Grand Jury",
+       "Anklage",
+       16.02
+      ],
+      {
+       "l": "Alex Hunter",
+       "r": "keine Anklage",
+       "at": "16/Hunter",
+       "color": "red"
+      }
+     ],
+     "note": {
+      "text": "niemand verurteilt",
+      "at": "17/Niemand"
+     }
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "edit": "figure",
+   "why": "câu 18–19: năm 2006 một người đàn ông bị bắt ở Thái Lan, tự nhận có liên quan",
+   "head": {
+    "kicker": "AKTE 2006",
+    "title": "Das Geständnis"
+   },
+   "items": [
+    {
+     "photo": "bkk"
+    },
+    {
+     "tape": "THAILAND",
+     "color": "white",
+     "at": "18/Thailand"
+    },
+    {
+     "tape": "John Mark Karr",
+     "at": "18/John"
+    },
+    {
+     "tape": "„Geständnis“",
+     "color": "red",
+     "at": "19/behauptete"
+    }
+   ]
+  },
+  {
+   "at": 20,
+   "edit": "place",
+   "why": "câu 20: ADN không khớp, cáo buộc bị hủy — báo chí chờ ở Boulder",
+   "items": [
+    {
+     "photo": "media"
+    },
+    {
+     "tape": "DNA passt nicht",
+     "color": "red",
+     "at": "20/DNA"
+    },
+    {
+     "tape": "Anklage fallengelassen",
+     "at": "20/Anklage",
+     "pin": "bl"
+    }
+   ]
+  },
+  {
+   "at": 21,
+   "edit": "detail",
+   "why": "câu 21 mở manh mối 4: ADN lạ trên quần áo, không thuộc gia đình",
+   "head": {
+    "kicker": "SPUR 04",
+    "title": "Die DNA"
+   },
+   "items": [
+    {
+     "photo": "gel",
+     "zoom": {
+      "to": [
+       0.0,
+       0.3,
+       0.6,
+       0.85
+      ],
+      "at": "21/DNA",
+      "dur": 1.4
+     }
+    },
+    {
+     "tape": "nicht von der Familie",
+     "color": "red",
+     "at": "21/nicht"
+    }
+   ]
+  },
+  {
+   "at": 22,
+   "edit": "span",
+   "why": "câu 22: năm 2008 công tố viên Mary Lacy tuyên bố gia đình không còn bị nghi",
+   "items": [
+    {
+     "card": "paper",
+     "head": "2008",
+     "rows": [
+      [
+       "Mary Lacy",
+       "Staatsanwältin",
+       "22/Mary"
+      ]
+     ],
+     "note": {
+      "text": "Familie nicht mehr verdächtig",
+      "at": "22/nicht"
+     }
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "fact",
+   "why": "câu 23–24: năm 2016 chuyên gia chỉ ra mẫu là hỗn hợp nhiều người — ADN lạ chưa chắc của hung thủ",
+   "items": [
+    {
+     "photo": "lab"
+    },
+    {
+     "photo": "pip",
+     "at": "23/Mischungen"
+    },
+    {
+     "tape": "2016",
+     "color": "white",
+     "at": 23.05
+    },
+    {
+     "tape": "Mischungen",
+     "color": "red",
+     "at": "23/Mischungen"
+    },
+    {
+     "tape": "nicht sicher vom Täter",
+     "at": "24/Täter"
+    }
+   ]
+  },
+  {
+   "at": 25,
+   "edit": "pair",
+   "why": "câu 25–26: 2026 cảnh sát xem xét ADN + phả hệ di truyền, nhưng mẫu quá nhỏ",
+   "items": [
+    {
+     "photo": "tree"
+    },
+    {
+     "photo": "pip",
+     "at": "26/winzig"
+    },
+    {
+     "tape": "NOV. 2026",
+     "color": "white",
+     "at": 25.05
+    },
+    {
+     "tape": "Ahnenforschung",
+     "at": "25/Ahnenforschung"
+    },
+    {
+     "tape": "Proben winzig",
+     "color": "red",
+     "at": "26/winzig"
+    }
+   ]
+  },
+  {
+   "at": 27,
+   "edit": "place",
+   "hush": true,
+   "head": false,
+   "why": "câu 27: gần 30 năm, vẫn không biết ai — khoảnh khắc lặng trước ngôi nhà",
+   "items": [
+    {
+     "photo": "house",
+     "pos": "full",
+     "view": [
+      0.15,
+      0.0,
+      0.75,
+      1.0
+     ]
+    },
+    {
+     "tape": "FAST 30 JAHRE",
+     "color": "white",
+     "size": 56,
+     "xy": [
+      540,
+      330
+     ],
+     "at": 27.05
+    },
+    {
+     "tape": "Täter unbekannt",
+     "color": "red",
+     "size": 70,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "27/nicht"
+    }
+   ]
+  },
+  {
+   "at": 28,
+   "edit": "ending",
+   "why": "câu cuối: hỏi người xem nghĩ gì, gom các manh mối",
+   "items": [
+    {
+     "photo": "win",
+     "pos": "g1"
+    },
+    {
+     "photo": "bowl",
+     "pos": "g2"
+    },
+    {
+     "photo": "gel",
+     "pos": "g3"
+    },
+    {
+     "photo": "house",
+     "pos": "g4"
+    },
+    {
+     "string": [
+      0,
+      3
+     ]
+    },
+    {
+     "string": [
+      1,
+      3
+     ]
+    },
+    {
+     "string": [
+      2,
+      3
+     ]
+    },
+    {
+     "card": "paper",
+     "head": "TÄTER",
+     "rows": [
+      [
+       "Name:",
+       "???",
+       28.02
+      ]
+     ]
+    },
+    {
+     "tape": "Schreib es in die Kommentare.",
+     "at": 28.5
+    }
+   ]
+  }
+ ]
+}
