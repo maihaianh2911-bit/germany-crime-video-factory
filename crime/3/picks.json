@@ -1,0 +1,680 @@
+{
+ "sfx": true,
+ "tail": 2.6,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "05:30",
+   "10/5:30"
+  ],
+  [
+   "05:52",
+   "12/5:52"
+  ],
+  [
+   "13:05",
+   "14/13:05"
+  ]
+ ],
+ "images": {
+  "house": {
+   "src": "1/1-1.jpg"
+  },
+  "flat": {
+   "src": "1/6-2.jpg"
+  },
+  "map": {
+   "src": "1/4-4.jpg",
+   "look": "clean",
+   "crop": [
+    0.065,
+    0.545,
+    0.845,
+    0.975
+   ]
+  },
+  "tree": {
+   "src": "1/8-3.jpg"
+  },
+  "stairs": {
+   "src": "1/9-2.jpg"
+  },
+  "pad": {
+   "src": "1/10-6.jpg"
+  },
+  "letter": {
+   "src": "1/11-6.jpg"
+  },
+  "graph": {
+   "src": "1/12-2.jpg"
+  },
+  "money": {
+   "src": "1/13-2.jpg"
+  },
+  "door": {
+   "src": "1/15-2.jpg"
+  },
+  "brushes": {
+   "src": "1/16-2.jpg"
+  },
+  "phone": {
+   "src": "1/17-4.jpg"
+  },
+  "lens": {
+   "src": "1/20-5.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "2 giây đầu: ngôi nhà thật trong tuyết đầy màn hình + câu hỏi ngay khung đầu, rồi cắt nhanh theo từng chữ: bức thư → tiền chuộc",
+   "items": [
+    {
+     "photo": "house",
+     "pos": "full",
+     "view": [
+      0.15,
+      0.0,
+      0.75,
+      1.0
+     ]
+    },
+    {
+     "photo": "letter",
+     "pos": "full",
+     "at": "1/Erpresserbrief"
+    },
+    {
+     "photo": "money",
+     "pos": "full",
+     "view": [
+      0.2,
+      0.0,
+      0.8,
+      1.0
+     ],
+     "at": "1/118.000"
+    },
+    {
+     "tape": "Wer schrieb diesen Brief?",
+     "color": "red",
+     "size": 70,
+     "xy": [
+      540,
+      1240
+     ]
+    },
+    {
+     "tape": "118.000 $ LÖSEGELD",
+     "color": "white",
+     "size": 54,
+     "xy": [
+      540,
+      1110
+     ],
+     "at": "1/118.000"
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "place",
+   "hush": true,
+   "why": "câu 2 là cú sốc: bé nằm chết ngay dưới tầng hầm nhà mình — khoảnh khắc lặng",
+   "items": [
+    {
+     "photo": "door",
+     "pos": "full",
+     "view": [
+      0.0,
+      0.1,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "tape": "8 STUNDEN SPÄTER",
+     "color": "white",
+     "size": 56,
+     "xy": [
+      540,
+      330
+     ],
+     "at": "2/acht"
+    },
+    {
+     "tape": "im eigenen Keller",
+     "color": "red",
+     "size": 66,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "2/Keller"
+    }
+   ]
+  },
+  {
+   "at": 3,
+   "edit": "pair",
+   "why": "câu 3: bức thư gần 3 trang, viết bằng giấy bút lấy trong nhà",
+   "items": [
+    {
+     "photo": "letter"
+    },
+    {
+     "photo": "pad",
+     "at": "3/Papier"
+    },
+    {
+     "tape": "FAST 3 SEITEN",
+     "color": "white",
+     "at": "3/drei"
+    },
+    {
+     "tape": "Papier + Stift aus dem Haus",
+     "at": "3/Papier"
+    }
+   ]
+  },
+  {
+   "at": 4,
+   "edit": "question",
+   "why": "câu 4–5 là hai câu hỏi lớn của vụ án",
+   "items": [
+    {
+     "photo": "lens"
+    },
+    {
+     "tape": "Wer schrieb ihn?",
+     "color": "red",
+     "at": 4.05
+    },
+    {
+     "tape": "Opfer nie aus dem Haus",
+     "at": "5/Opfer"
+    }
+   ]
+  },
+  {
+   "at": 6,
+   "edit": "chapter",
+   "why": "câu 6 gọi tên vụ án",
+   "head": {
+    "kicker": "AKTE 1996",
+    "title": "JonBenét Ramsey"
+   }
+  },
+  {
+   "at": 7,
+   "edit": "detail",
+   "why": "câu 7: Giáng sinh 1996 ở Boulder, Colorado — bản đồ có ghim đỏ",
+   "items": [
+    {
+     "photo": "map",
+     "still": true,
+     "zoom": {
+      "to": [
+       0.3,
+       0.05,
+       0.75,
+       0.45
+      ],
+      "at": "7/Boulder",
+      "dur": 1.4
+     },
+     "ring": {
+      "box": [
+       0.515,
+       0.229,
+       0.535,
+       0.249
+      ],
+      "shape": "pin",
+      "at": "7/Boulder"
+     }
+    },
+    {
+     "tape": "BOULDER, COLORADO",
+     "color": "white",
+     "at": "7/Boulder"
+    },
+    {
+     "tape": "Weihnachten",
+     "at": 7.05
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "edit": "who",
+   "why": "câu 8 giới thiệu gia đình: bé 6 tuổi, bố, mẹ, anh trai",
+   "items": [
+    {
+     "card": "paper",
+     "head": "FAMILIE RAMSEY",
+     "rows": [
+      [
+       "JonBenét",
+       "6 J.",
+       "8/JonBenét"
+      ],
+      [
+       "John",
+       "Vater",
+       "8/John"
+      ],
+      [
+       "Patsy",
+       "Mutter",
+       "8/Patsy"
+      ],
+      [
+       "Burke",
+       "Bruder",
+       "8/Burke"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "place",
+   "why": "câu 9: tối 25/12 sau bữa tiệc — theo lời cha mẹ bé đã ngủ",
+   "items": [
+    {
+     "photo": "tree"
+    },
+    {
+     "tape": "25. DEZEMBER",
+     "color": "white",
+     "at": "9/25."
+    },
+    {
+     "tape": "laut Eltern: schlief schon",
+     "at": "9/schlief"
+    }
+   ]
+  },
+  {
+   "at": 10,
+   "edit": "fact",
+   "why": "câu 10: 5:30 sáng Patsy thấy bức thư ở cầu thang",
+   "items": [
+    {
+     "photo": "stairs"
+    },
+    {
+     "photo": "letter",
+     "at": "10/Brief"
+    },
+    {
+     "tape": "05:30 UHR",
+     "color": "white",
+     "at": 10.05,
+     "pin": "tl",
+     "on": 0
+    },
+    {
+     "tape": "an der Treppe",
+     "at": "10/Treppe",
+     "pin": "br",
+     "on": 0
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "edit": "number",
+   "why": "câu 11: con số tiền chuộc chính xác và lời dọa không báo cảnh sát",
+   "items": [
+    {
+     "photo": "money"
+    },
+    {
+     "stat": [
+      [
+       "118.000",
+       "Dollar\nLösegeld",
+       "11/118.000"
+      ]
+     ]
+    },
+    {
+     "tape": "keine Polizei!",
+     "color": "red",
+     "at": "11/keine"
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "timeline",
+   "why": "câu 12–13: 5:52 gọi cấp cứu, cảnh sát không thấy dấu hiệu bắt cóc",
+   "items": [
+    {
+     "photo": "phone"
+    },
+    {
+     "card": "paper",
+     "head": "26.12.1996",
+     "rows": [
+      [
+       "05:30 Uhr",
+       "Brief",
+       12.02
+      ],
+      [
+       "05:52 Uhr",
+       "Notruf",
+       "12/5:52"
+      ]
+     ]
+    },
+    {
+     "tape": "keine Spur einer Entführung",
+     "color": "red",
+     "at": "13/keine"
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "edit": "place",
+   "hush": true,
+   "why": "câu 14–15: 13:05 bố xuống tầng hầm và tìm thấy con — khoảnh khắc lặng",
+   "items": [
+    {
+     "photo": "door",
+     "pos": "full",
+     "view": [
+      0.05,
+      0.2,
+      0.95,
+      1.0
+     ]
+    },
+    {
+     "tape": "13:05 UHR",
+     "color": "white",
+     "size": 54,
+     "xy": [
+      540,
+      1090
+     ],
+     "at": 14.05
+    },
+    {
+     "tape": "im Weinkeller",
+     "color": "red",
+     "size": 66,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "15/Weinkeller"
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "list",
+   "why": "câu 16–17: khám nghiệm và dụng cụ siết làm từ cán cọ trong nhà",
+   "items": [
+    {
+     "photo": "brushes"
+    },
+    {
+     "tape": "erdrosselt",
+     "color": "red",
+     "pin": "tl",
+     "at": "16/erdrosselt"
+    },
+    {
+     "tape": "Kopfverletzung",
+     "pin": "right",
+     "at": "16/Kopfverletzung"
+    },
+    {
+     "tape": "Schnur + Pinselstiel",
+     "pin": "bl",
+     "at": "17/Schnur"
+    },
+    {
+     "tape": "aus dem Haus",
+     "color": "white",
+     "pin": "below-r",
+     "at": "17/Malsachen"
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "edit": "board",
+   "why": "câu 18 tóm lại hiện trường: thư, dụng cụ, nạn nhân đều trong nhà",
+   "items": [
+    {
+     "photo": "letter",
+     "pos": "g1"
+    },
+    {
+     "photo": "brushes",
+     "pos": "g2",
+     "at": "18/Schlinge"
+    },
+    {
+     "photo": "door",
+     "pos": "g3",
+     "at": "18/Opfer"
+    },
+    {
+     "photo": "house",
+     "pos": "g4",
+     "at": 18.05
+    },
+    {
+     "string": [
+      3,
+      0
+     ],
+     "at": 18.1
+    },
+    {
+     "string": [
+      3,
+      1
+     ],
+     "at": "18/Schlinge"
+    },
+    {
+     "string": [
+      3,
+      2
+     ],
+     "at": "18/Opfer"
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "edit": "chapter",
+   "why": "câu 19 mở manh mối 1: bức thư",
+   "head": {
+    "kicker": "SPUR 01",
+    "title": "Der Brief"
+   }
+  },
+  {
+   "at": "19/Zweieinhalb",
+   "edit": "detail",
+   "why": "câu 19: thư dài 2,5 trang, đầy lời đe dọa",
+   "items": [
+    {
+     "photo": "letter",
+     "zoom": {
+      "to": [
+       0.1,
+       0.25,
+       0.9,
+       0.7
+      ],
+      "at": "19/voller",
+      "dur": 1.4
+     },
+     "view": [
+      0.0,
+      0.12,
+      1.0,
+      0.68
+     ]
+    },
+    {
+     "tape": "2,5 SEITEN",
+     "color": "white",
+     "at": "19/Zweieinhalb"
+    },
+    {
+     "tape": "voller Drohungen",
+     "color": "red",
+     "at": "19/voller"
+    }
+   ]
+  },
+  {
+   "at": 20,
+   "edit": "compare",
+   "why": "câu 20–21: số tiền chuộc gần bằng tiền thưởng của bố — người viết có biết tài chính gia đình?",
+   "items": [
+    {
+     "card": "paper",
+     "head": "WARUM 118.000 $?",
+     "rows": [
+      [
+       "Lösegeld",
+       "118.000 $",
+       "20/genau"
+      ],
+      {
+       "l": "≈",
+       "r": "",
+       "at": "20/Fast",
+       "color": "red"
+      },
+      [
+       "Johns Bonus",
+       "gut 118.000 $",
+       "20/Bonus"
+      ]
+     ],
+     "note": {
+      "text": "Kannte er die Finanzen?",
+      "at": "21/Kannte"
+     },
+     "stamp": {
+      "text": "FAST GLEICH",
+      "at": "20/Bonus"
+     }
+    }
+   ]
+  },
+  {
+   "at": 22,
+   "edit": "fact",
+   "why": "câu 22: sổ và bút lấy trong nhà, có dấu vết bản nháp",
+   "items": [
+    {
+     "photo": "pad"
+    },
+    {
+     "photo": "house",
+     "at": "22/Haus"
+    },
+    {
+     "tape": "Block + Stift",
+     "at": 22.05
+    },
+    {
+     "tape": "Spuren eines Entwurfs",
+     "color": "red",
+     "at": "22/Entwurfs"
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "question",
+   "why": "câu 23: nhóm bắt cóc chuyên nghiệp sao lại ngồi viết thư trong nhà nạn nhân?",
+   "items": [
+    {
+     "photo": "house"
+    },
+    {
+     "tape": "Profi-Bande?",
+     "color": "red",
+     "at": "23/Profi"
+    },
+    {
+     "tape": "Brief erst im Haus geschrieben",
+     "at": "23/Haus"
+    }
+   ]
+  },
+  {
+   "at": 24,
+   "edit": "span",
+   "why": "câu 24–25: so chữ viết — loại trừ John, không loại trừ hẳn Patsy, nhưng không chứng minh được",
+   "items": [
+    {
+     "card": "paper",
+     "head": "SCHRIFTVERGLEICH",
+     "rows": [
+      [
+       "John",
+       "ausgeschlossen",
+       "24/John"
+      ],
+      {
+       "l": "Patsy",
+       "r": "nicht ganz",
+       "at": "24/Patsy",
+       "color": "red"
+      }
+     ],
+     "note": {
+      "text": "kein Beweis",
+      "at": "25/beweist"
+     }
+    }
+   ]
+  },
+  {
+   "at": 26,
+   "edit": "statement",
+   "why": "câu cuối: manh mối tiếp theo ở tầng hầm — hẹn phần 2",
+   "items": [
+    {
+     "tape": "Die nächste Spur: der Keller",
+     "color": "white",
+     "size": 50,
+     "xy": [
+      540,
+      760
+     ],
+     "at": 26.02
+    },
+    {
+     "tape": "TEIL 2 FOLGT",
+     "color": "red",
+     "size": 86,
+     "xy": [
+      540,
+      900
+     ],
+     "at": "26/Teil"
+    }
+   ]
+  }
+ ]
+}
