@@ -1,0 +1,688 @@
+{
+ "pictures": [
+  {
+   "name": "win",
+   "src": "1/3-1.jpg",
+   "title": "Broken basement window.jpg",
+   "artist": "Rawnak Dihan",
+   "date": "2026-07-13 13:54:34",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Broken_basement_window.jpg",
+   "ai": false
+  },
+  {
+   "name": "bowl",
+   "src": "1/7-6.jpg",
+   "title": "A bowel of sliced Pineapple.jpg",
+   "artist": "Dammy Kaka",
+   "date": "2021-03-13 15:11:07",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:A_bowel_of_sliced_Pineapple.jpg",
+   "ai": false
+  },
+  {
+   "name": "gel",
+   "src": "1/16-8.jpg",
+   "title": "SDS-PAGE",
+   "artist": "qubodup",
+   "date": "",
+   "license": "CC0",
+   "page": "https://www.flickr.com/photos/21051491@N02/11585511555",
+   "ai": false
+  },
+  {
+   "name": "case",
+   "src": "1/5-6.jpg",
+   "title": "Resväska - 50-årspresent till byggmästaren Anders Diös, Uppsala 1941",
+   "artist": "Sundgren, Gunnar, Sundgren, Gunnar",
+   "date": "",
+   "license": "CC0",
+   "page": "https://www.europeana.eu/item/91617/upmu_photo_GS04587",
+   "ai": false
+  },
+  {
+   "name": "well",
+   "src": "1/4-1.jpg",
+   "title": "Basement window-well coverings (13975399765).jpg",
+   "artist": "Madison Scott-Clary from Loveland, USA",
+   "date": "2014-04-22 08:26",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Basement_window-well_coverings_(13975399765).jpg",
+   "ai": false
+  },
+  {
+   "name": "cellar",
+   "src": "1/3-5.jpg",
+   "title": "BASEMENT - EAST ROOM OF MAIN BLOCK, DETAIL OF FRAMING WITH FRAGMENTS OF BROKEN WINE BOTTLES - Blandfield, U.S. Route 17 and State Route 624, Caret, Essex County",
+   "artist": "",
+   "date": "Documentation compiled after 1933",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:BASEMENT_-_EAST_ROOM_OF_MAIN_BLOCK,_DETAIL_OF_FRAMING_WITH_FRAGMENTS_OF_BROKEN_WINE_BOTTLES_-_Blandfield,_U.S._Route_17_and_State_Route_624,_Caret,_Essex_County,_VA_HABS_VA,29-CAR.V,1-36.tif",
+   "ai": false
+  },
+  {
+   "name": "steps",
+   "src": "1/6-1.jpg",
+   "title": "Fußabdrucke 003 2017 11 15.jpg",
+   "artist": "Friedrich Haag",
+   "date": "Taken on 15.11.2017 15:42:26",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Fu%C3%9Fabdrucke_003_2017_11_15.jpg",
+   "ai": false
+  },
+  {
+   "name": "tape",
+   "src": "1/9-2.jpg",
+   "title": "Police Crime Scene Tape",
+   "artist": "JobsForFelonsHub",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/144110575@N07/27144250843",
+   "ai": false
+  },
+  {
+   "name": "jury",
+   "src": "1/11-1.jpg",
+   "title": "Grand jury seated in courtroom, Seattle, January 6, 1947.jpg",
+   "artist": "IMLS Digital Collections &amp; Content",
+   "date": "1947-01-06",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Grand_jury_seated_in_courtroom,_Seattle,_January_6,_1947.jpg",
+   "ai": false
+  },
+  {
+   "name": "bkk",
+   "src": "1/13-3.jpg",
+   "title": "Bangkok - Rama VIII Bridge at sunrise Jan 2024.jpg",
+   "artist": "Dominic Nelson",
+   "date": "2024-01-02 06:56:11",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bangkok_-_Rama_VIII_Bridge_at_sunrise_Jan_2024.jpg",
+   "ai": false
+  },
+  {
+   "name": "media",
+   "src": "1/14-3.jpg",
+   "title": "Awaiting John Mark Karr",
+   "artist": "Jax House",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/20705618@N00/222596593",
+   "ai": false
+  },
+  {
+   "name": "lab",
+   "src": "1/15-5.jpg",
+   "title": "Armed Forces DNA Identification Laboratory analysts 2018.jpg",
+   "artist": "Air Force Staff Sgt. Nicole Leidholm, photographer",
+   "date": "2018-08-24",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Armed_Forces_DNA_Identification_Laboratory_analysts_2018.jpg",
+   "ai": false
+  },
+  {
+   "name": "pip",
+   "src": "1/15-8.jpg",
+   "title": "DNA lab",
+   "artist": "umseas",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/26835854@N07/6946913449",
+   "ai": false
+  },
+  {
+   "name": "tree",
+   "src": "1/17-7.jpg",
+   "title": "Moymirids tree.png",
+   "artist": "Ppv714",
+   "date": "2023-01-01",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Moymirids_tree.png",
+   "ai": false
+  },
+  {
+   "name": "house",
+   "src": "1/1-1.jpg",
+   "title": "Picture for Seminar.jpg",
+   "artist": "Jahnaiyabonaparte",
+   "date": "2020-12-09",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Picture_for_Seminar.jpg",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 4.283,
+   "said": [
+    "Ein zerbrochenes Fenster,",
+    "eine Schale Ananas und fremde DNA."
+   ],
+   "edit": "hook",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "win.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "bowl.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "gel.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "TEIL 2"
+    },
+    {
+     "type": "tape",
+     "text": "Fall JonBenét Ramsey"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 4.283,
+   "end": 7.41,
+   "said": [
+    "Das ist Teil zwei im Fall",
+    "JonBenét Ramsey."
+   ],
+   "edit": "chapter",
+   "head": "JonBenét Ramsey",
+   "items": []
+  },
+  {
+   "scene": 3,
+   "start": 7.41,
+   "end": 11.367,
+   "said": [
+    "Im Keller war ein Fenster zerbrochen,",
+    "darunter stand ein Koffer."
+   ],
+   "edit": "detail",
+   "head": "Der Keller",
+   "items": [
+    {
+     "type": "photo",
+     "image": "win.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "case.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "zerbrochen"
+    },
+    {
+     "type": "tape",
+     "text": "Koffer darunter"
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "start": 11.367,
+   "end": 14.137,
+   "said": [
+    "Kam der Täter hier herein,",
+    "oder hinaus?"
+   ],
+   "edit": "question",
+   "head": "Der Keller",
+   "items": [
+    {
+     "type": "photo",
+     "image": "well.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "herein oder hinaus?"
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "start": 14.137,
+   "end": 23.473,
+   "said": [
+    "Doch John sagte, er habe",
+    "es früher selbst eingeschlagen,",
+    "als er den Schlüssel vergessen hatte.",
+    "Ein Einbruch in dieser Nacht",
+    "ist damit nicht bewiesen."
+   ],
+   "edit": "compare",
+   "head": "Der Keller",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "start": 23.473,
+   "end": 29.581,
+   "said": [
+    "Schuhabdrücke und andere Spuren",
+    "im Keller führten zu niemandem,",
+    "der angeklagt werden konnte."
+   ],
+   "edit": "fact",
+   "head": "Der Keller",
+   "items": [
+    {
+     "type": "photo",
+     "image": "cellar.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "steps.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Schuhabdrücke"
+    },
+    {
+     "type": "tape",
+     "text": "niemand angeklagt"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 29.581,
+   "end": 32.397,
+   "said": [
+    "Dann die Ananas",
+    "in einer Schale in der Küche."
+   ],
+   "edit": "place",
+   "head": "Die Ananas",
+   "items": [
+    {
+     "type": "photo",
+     "image": "bowl.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "in der Küche"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 32.397,
+   "end": 43.753,
+   "said": [
+    "Laut den Eltern schlief JonBenét",
+    "nach der Feier schon.",
+    "Doch in ihrem Dünndarm fand man Reste,",
+    "vermutlich Ananas.",
+    "Wann sie gegessen hat, und mit wem,",
+    "lässt sich nicht sagen."
+   ],
+   "edit": "compare",
+   "head": "Die Ananas",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 43.753,
+   "end": 53.458,
+   "said": [
+    "Und ein Fehler am ersten Tag:",
+    "Das Haus wurde",
+    "nicht vollständig abgesperrt.",
+    "Freunde gingen durch viele Räume,",
+    "John trug seine Tochter",
+    "aus dem Keller."
+   ],
+   "edit": "actions",
+   "head": "Der erste Tag",
+   "items": [
+    {
+     "type": "photo",
+     "image": "tape.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 53.458,
+   "end": 58.529,
+   "said": [
+    "Das beweist keine Schuld,",
+    "aber die Spuren des Täters",
+    "waren kaum noch zu trennen."
+   ],
+   "edit": "statement",
+   "head": "Der erste Tag",
+   "items": [
+    {
+     "type": "tape",
+     "text": "beweist keine Schuld"
+    },
+    {
+     "type": "tape",
+     "text": "Spuren vermischt"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 58.529,
+   "end": 63.919,
+   "said": [
+    "1999 stimmte eine Grand Jury dafür,",
+    "die Eltern anzuklagen."
+   ],
+   "edit": "where",
+   "head": "Die Grand Jury",
+   "items": [
+    {
+     "type": "card"
+    },
+    {
+     "type": "photo",
+     "image": "jury.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "für Anklage der Eltern"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 63.919,
+   "end": 71.874,
+   "said": [
+    "Doch Staatsanwalt",
+    "Alex Hunter erhob keine Anklage:",
+    "Die Beweise reichten nicht.",
+    "Niemand aus der Familie",
+    "wurde je verurteilt."
+   ],
+   "edit": "who",
+   "head": "Die Grand Jury",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 71.874,
+   "end": 79.83,
+   "said": [
+    "2006 wurde in Thailand John",
+    "Mark Karr festgenommen.",
+    "Er behauptete,",
+    "mit JonBenéts Tod zu tun zu haben."
+   ],
+   "edit": "figure",
+   "head": "Das Geständnis",
+   "items": [
+    {
+     "type": "photo",
+     "image": "bkk.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "THAILAND"
+    },
+    {
+     "type": "tape",
+     "text": "John Mark Karr"
+    },
+    {
+     "type": "tape",
+     "text": "„Geständnis“"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 79.83,
+   "end": 84.097,
+   "said": [
+    "Doch seine DNA passte nicht,",
+    "die Anklage wurde fallengelassen."
+   ],
+   "edit": "place",
+   "head": "Das Geständnis",
+   "items": [
+    {
+     "type": "photo",
+     "image": "media.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "DNA passt nicht"
+    },
+    {
+     "type": "tape",
+     "text": "Anklage fallengelassen"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 84.097,
+   "end": 88.962,
+   "said": [
+    "An JonBenéts Kleidung fand man DNA,",
+    "die nicht von der Familie stammt."
+   ],
+   "edit": "detail",
+   "head": "Die DNA",
+   "items": [
+    {
+     "type": "photo",
+     "image": "gel.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "nicht von der Familie"
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "start": 88.962,
+   "end": 94.737,
+   "said": [
+    "2008 erklärte Staatsanwältin Mary",
+    "Lacy die Familie",
+    "für nicht mehr verdächtig."
+   ],
+   "edit": "span",
+   "head": "Die DNA",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "start": 94.737,
+   "end": 104.023,
+   "said": [
+    "Doch 2016 zeigten Experten:",
+    "Manche Proben sind Mischungen",
+    "mehrerer Menschen.",
+    "Fremde DNA muss also",
+    "nicht vom Täter stammen."
+   ],
+   "edit": "fact",
+   "head": "Die DNA",
+   "items": [
+    {
+     "type": "photo",
+     "image": "lab.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "pip.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "2016"
+    },
+    {
+     "type": "tape",
+     "text": "Mischungen"
+    },
+    {
+     "type": "tape",
+     "text": "nicht sicher vom Täter"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 104.023,
+   "end": 115.238,
+   "said": [
+    "Im November 2026 prüfte die Polizei",
+    "neue DNA-Methoden mit Ahnenforschung.",
+    "Doch manche Proben sind winzig,",
+    "ein Test könnte sie ganz verbrauchen."
+   ],
+   "edit": "pair",
+   "head": "Die DNA",
+   "items": [
+    {
+     "type": "photo",
+     "image": "tree.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "pip.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "NOV. 2026"
+    },
+    {
+     "type": "tape",
+     "text": "Ahnenforschung"
+    },
+    {
+     "type": "tape",
+     "text": "Proben winzig"
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "start": 115.238,
+   "end": 120.756,
+   "said": [
+    "Fast 30 Jahre später weiß man,",
+    "wie JonBenét starb,",
+    "aber nicht, wer es war."
+   ],
+   "edit": "place",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "FAST 30 JAHRE"
+    },
+    {
+     "type": "tape",
+     "text": "Täter unbekannt"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 120.756,
+   "end": 125.4,
+   "said": [
+    "Was denkst du?"
+   ],
+   "edit": "ending",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "win.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "bowl.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "gel.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "house.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare."
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  }
+ ]
+}

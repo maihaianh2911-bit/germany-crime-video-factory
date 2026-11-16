@@ -1,0 +1,2007 @@
+{
+ "duration": 125.4,
+ "lang": "de",
+ "title": "Der Fall JonBenét Ramsey",
+ "aiTag": "KI-Illustration",
+ "timeline": {
+  "labels": [
+   "1996",
+   "1999",
+   "2006",
+   "2008",
+   "2016",
+   "2026"
+  ],
+  "marks": [
+   7.64,
+   58.599,
+   71.944,
+   89.032,
+   94.968,
+   104.233
+  ],
+  "idx": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/4/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 4.283,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/win.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Rawnak Dihan / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.125,
+      0.0,
+      0.875,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/bowl.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Dammy Kaka / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.28906,
+      0.0,
+      0.71094,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 1.899
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/gel.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "qubodup / CC0",
+     "bleed": true,
+     "view": [
+      0.28906,
+      0.0,
+      0.71094,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 3.085
+    },
+    {
+     "type": "tape",
+     "text": "TEIL 2",
+     "color": "red",
+     "px": 96,
+     "x": 540,
+     "y": 1250,
+     "align": "center",
+     "rot": 0.94,
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "Fall JonBenét Ramsey",
+     "color": "white",
+     "px": 50,
+     "x": 540,
+     "y": 1115,
+     "align": "center",
+     "rot": -0.84,
+     "s": 0.0
+    }
+   ],
+   "credit": "Foto: Rawnak Dihan / CC BY-SA 4.0 · Dammy Kaka / CC BY-SA 4.0 · qubodup / CC0",
+   "edit": "hook"
+  },
+  {
+   "s": 4.283,
+   "e": 7.41,
+   "scene": 2,
+   "head": {
+    "kicker": "AKTE 1996 · TEIL 2",
+    "title": "JonBenét Ramsey",
+    "mode": "mid",
+    "from": null,
+    "s": 4.283
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 7.41,
+   "e": 11.367,
+   "scene": 3,
+   "head": {
+    "kicker": "SPUR 02",
+    "title": "Der Keller",
+    "mode": "top",
+    "from": null,
+    "s": 7.41
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/win.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      140.0,
+      519.4,
+      800,
+      693.3
+     ],
+     "ai": false,
+     "rot": -1.3,
+     "credit": "Rawnak Dihan / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.20183,
+      1.0,
+      0.84817
+     ],
+     "drift": 0.1,
+     "rings": [
+      {
+       "s": 8.32,
+       "box": [
+        0.38,
+        0.38,
+        0.72,
+        0.55
+       ],
+       "shape": "ellipse",
+       "color": "yellow"
+      }
+     ],
+     "s": 7.41
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/case.jpg",
+     "w": 1400,
+     "h": 1077,
+     "box": [
+      655.0,
+      1138.5,
+      290,
+      223.1
+     ],
+     "ai": false,
+     "rot": 2.1,
+     "credit": "Sundgren, Gunnar, Sundgren, Gunnar / CC0",
+     "view": [
+      0.0,
+      0.01601,
+      1.0,
+      0.98399
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 10.4
+    },
+    {
+     "type": "tape",
+     "text": "zerbrochen",
+     "color": "red",
+     "px": 62,
+     "x": 124.0,
+     "y": 1188.7,
+     "align": "left",
+     "rot": -1,
+     "s": 8.74
+    },
+    {
+     "type": "tape",
+     "text": "Koffer darunter",
+     "color": "yellow",
+     "px": 67,
+     "x": 800.0,
+     "y": 1078.2,
+     "align": "center",
+     "rot": 1.14,
+     "s": 10.4
+    }
+   ],
+   "credit": "Foto: Rawnak Dihan / CC BY-SA 4.0 · Sundgren, Gunnar, Sundgren, Gunnar / CC0",
+   "edit": "detail"
+  },
+  {
+   "s": 11.367,
+   "e": 14.137,
+   "scene": 4,
+   "head": {
+    "kicker": "SPUR 02",
+    "title": "Der Keller",
+    "mode": "top",
+    "from": "top",
+    "s": 11.367
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/well.jpg",
+     "w": 1400,
+     "h": 934,
+     "box": [
+      140.0,
+      599.2,
+      800,
+      533.7
+     ],
+     "ai": false,
+     "rot": -0.93,
+     "credit": "Madison Scott-Clary from Loveland, USA / CC BY 2.0",
+     "view": [
+      0.0,
+      0.00906,
+      1.0,
+      0.99094
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 11.367
+    },
+    {
+     "type": "tape",
+     "text": "herein oder hinaus?",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1201.1,
+     "align": "center",
+     "rot": 1.91,
+     "s": 11.605
+    }
+   ],
+   "credit": "Foto: Madison Scott-Clary from Loveland, USA / CC BY 2.0",
+   "edit": "question"
+  },
+  {
+   "s": 14.137,
+   "e": 23.473,
+   "scene": 5,
+   "head": {
+    "kicker": "SPUR 02",
+    "title": "Der Keller",
+    "mode": "top",
+    "from": "top",
+    "s": 14.137
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      421.0,
+      900,
+      1000
+     ],
+     "rot": -0.89,
+     "head": "DAS FENSTER",
+     "rows": [
+      {
+       "l": "Theorie",
+       "r": "Einstieg?",
+       "s": 14.367,
+       "color": ""
+      },
+      {
+       "l": "John",
+       "r": "Schlüssel vergessen",
+       "s": 18.287,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": {
+      "text": "EINBRUCH\nNICHT BEWIESEN",
+      "s": 22.287
+     },
+     "s": 14.137
+    }
+   ],
+   "credit": "",
+   "edit": "compare"
+  },
+  {
+   "s": 23.473,
+   "e": 29.581,
+   "scene": 6,
+   "head": {
+    "kicker": "SPUR 02",
+    "title": "Der Keller",
+    "mode": "top",
+    "from": "top",
+    "s": 23.473
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/cellar.jpg",
+     "w": 1550,
+     "h": 2000,
+     "box": [
+      327.3,
+      383.0,
+      425.5,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.14,
+     "credit": "Public domain",
+     "view": [
+      0.00777,
+      0.0,
+      0.99223,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 23.473
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/steps.jpg",
+     "w": 1920,
+     "h": 1196,
+     "box": [
+      260.0,
+      1021.1,
+      560,
+      348.8
+     ],
+     "ai": false,
+     "rot": 1.49,
+     "credit": "Friedrich Haag / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01598,
+      1.0,
+      0.98402
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 23.543
+    },
+    {
+     "type": "tape",
+     "text": "Schuhabdrücke",
+     "color": "yellow",
+     "px": 67,
+     "x": 311.3,
+     "y": 393.0,
+     "align": "left",
+     "rot": -1.24,
+     "s": 23.543
+    },
+    {
+     "type": "tape",
+     "text": "niemand angeklagt",
+     "color": "red",
+     "px": 62,
+     "x": 732.8,
+     "y": 1000.2,
+     "align": "right",
+     "rot": 1.29,
+     "s": 26.533
+    }
+   ],
+   "credit": "Foto: Public domain · Friedrich Haag / CC BY-SA 4.0",
+   "edit": "fact"
+  },
+  {
+   "s": 29.581,
+   "e": 32.397,
+   "scene": 7,
+   "head": {
+    "kicker": "SPUR 03",
+    "title": "Die Ananas",
+    "mode": "top",
+    "from": null,
+    "s": 29.581
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/bowl.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      150.0,
+      423.5,
+      780,
+      468.0
+     ],
+     "ai": false,
+     "rot": -2.08,
+     "credit": "Dammy Kaka / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.20993,
+      1.0,
+      0.99007
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 29.581
+    },
+    {
+     "type": "tape",
+     "text": "in der Küche",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 433.5,
+     "align": "left",
+     "rot": 2.83,
+     "s": 31.411
+    }
+   ],
+   "credit": "Foto: Dammy Kaka / CC BY-SA 4.0",
+   "edit": "place"
+  },
+  {
+   "s": 32.397,
+   "e": 43.753,
+   "scene": 8,
+   "head": {
+    "kicker": "SPUR 03",
+    "title": "Die Ananas",
+    "mode": "top",
+    "from": "top",
+    "s": 32.397
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      421.0,
+      900,
+      1000
+     ],
+     "rot": -0.89,
+     "head": "ANANAS",
+     "rows": [
+      {
+       "l": "Eltern",
+       "r": "schlief schon",
+       "s": 33.471,
+       "color": ""
+      },
+      {
+       "l": "≠",
+       "r": "",
+       "s": 36.206,
+       "color": "red"
+      },
+      {
+       "l": "Obduktion",
+       "r": "Ananas im Darm",
+       "s": 38.886,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": {
+      "text": "WANN?\nMIT WEM?",
+      "s": 40.089
+     },
+     "s": 32.397
+    }
+   ],
+   "credit": "",
+   "edit": "compare"
+  },
+  {
+   "s": 43.753,
+   "e": 53.458,
+   "scene": 9,
+   "head": {
+    "kicker": "FEHLER",
+    "title": "Der erste Tag",
+    "mode": "top",
+    "from": null,
+    "s": 43.753
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/tape.jpg",
+     "w": 1400,
+     "h": 990,
+     "box": [
+      151.8,
+      383.0,
+      776.4,
+      549.0
+     ],
+     "ai": false,
+     "rot": -2.5,
+     "credit": "JobsForFelonsHub / CC BY 2.0",
+     "view": [
+      0.0,
+      0.00777,
+      1.0,
+      0.99223
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 43.753
+    },
+    {
+     "type": "card",
+     "style": "lined",
+     "box": [
+      100.0,
+      953.9,
+      880,
+      505.1
+     ],
+     "rot": 1.08,
+     "head": "",
+     "rows": [
+      {
+       "l": "Haus nicht abgesperrt",
+       "r": "",
+       "s": 47.523,
+       "color": ""
+      },
+      {
+       "l": "Freunde in vielen Räumen",
+       "r": "",
+       "s": 48.842,
+       "color": ""
+      },
+      {
+       "l": "Tochter nach oben getragen",
+       "r": "",
+       "s": 51.382,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 43.753
+    }
+   ],
+   "credit": "Foto: JobsForFelonsHub / CC BY 2.0",
+   "edit": "actions"
+  },
+  {
+   "s": 53.458,
+   "e": 58.529,
+   "scene": 10,
+   "head": {
+    "kicker": "FEHLER",
+    "title": "Der erste Tag",
+    "mode": "top",
+    "from": "top",
+    "s": 53.458
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "beweist keine Schuld",
+     "color": "white",
+     "px": 54,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -2.65,
+     "s": 53.671
+    },
+    {
+     "type": "tape",
+     "text": "Spuren vermischt",
+     "color": "red",
+     "px": 62,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 0.87,
+     "s": 55.448
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 58.529,
+   "e": 63.919,
+   "scene": 11,
+   "head": {
+    "kicker": "AKTE 1999",
+    "title": "Die Grand Jury",
+    "mode": "top",
+    "from": null,
+    "s": 58.529
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "folder",
+     "box": [
+      90.0,
+      441.0,
+      900,
+      960
+     ],
+     "rot": -0.43,
+     "head": "",
+     "rows": [],
+     "tab": "GRAND JURY · 1999",
+     "corner": "COLORADO",
+     "note": null,
+     "stamp": null,
+     "s": 58.529
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/jury.jpg",
+     "w": 1400,
+     "h": 1052,
+     "box": [
+      165.0,
+      572.0,
+      750,
+      563.6
+     ],
+     "ai": false,
+     "rot": 2.3,
+     "credit": "IMLS Digital Collections &amp; Content / CC BY 2.0",
+     "view": [
+      0.0,
+      0.00639,
+      1.0,
+      0.99361
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 58.898
+    },
+    {
+     "type": "tape",
+     "text": "für Anklage der Eltern",
+     "color": "yellow",
+     "px": 67,
+     "x": 931.0,
+     "y": 582.0,
+     "align": "right",
+     "rot": -0.77,
+     "s": 62.581
+    }
+   ],
+   "credit": "Foto: IMLS Digital Collections &amp; Content / CC BY 2.0",
+   "edit": "where"
+  },
+  {
+   "s": 63.919,
+   "e": 71.874,
+   "scene": 12,
+   "head": {
+    "kicker": "AKTE 1999",
+    "title": "Die Grand Jury",
+    "mode": "top",
+    "from": "top",
+    "s": 63.919
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      640.0,
+      860,
+      562
+     ],
+     "rot": -0.89,
+     "head": "ENTSCHEIDUNG",
+     "rows": [
+      {
+       "l": "Grand Jury",
+       "r": "Anklage",
+       "s": 64.134,
+       "color": ""
+      },
+      {
+       "l": "Alex Hunter",
+       "r": "keine Anklage",
+       "s": 65.109,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "niemand verurteilt",
+      "s": 69.136
+     },
+     "stamp": null,
+     "s": 63.919
+    }
+   ],
+   "credit": "",
+   "edit": "who"
+  },
+  {
+   "s": 71.874,
+   "e": 79.83,
+   "scene": 13,
+   "head": {
+    "kicker": "AKTE 2006",
+    "title": "Das Geständnis",
+    "mode": "top",
+    "from": null,
+    "s": 71.874
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/bkk.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      220.0,
+      663.7,
+      640,
+      426.7
+     ],
+     "ai": false,
+     "rot": -2.52,
+     "credit": "Dominic Nelson / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.0114,
+      1.0,
+      0.9886
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 71.874
+    },
+    {
+     "type": "tape",
+     "text": "THAILAND",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 603.4,
+     "align": "center",
+     "rot": 1.99,
+     "s": 73.484
+    },
+    {
+     "type": "tape",
+     "text": "John Mark Karr",
+     "color": "yellow",
+     "px": 67,
+     "x": 876.0,
+     "y": 1066.4,
+     "align": "right",
+     "rot": -0.57,
+     "s": 73.884
+    },
+    {
+     "type": "tape",
+     "text": "„Geständnis“",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1158.6,
+     "align": "center",
+     "rot": 3.31,
+     "s": 76.426
+    }
+   ],
+   "credit": "Foto: Dominic Nelson / CC BY-SA 4.0",
+   "edit": "figure"
+  },
+  {
+   "s": 79.83,
+   "e": 84.097,
+   "scene": 14,
+   "head": {
+    "kicker": "AKTE 2006",
+    "title": "Das Geständnis",
+    "mode": "top",
+    "from": "top",
+    "s": 79.83
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/media.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      174.0,
+      383.0,
+      732.0,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.46,
+     "credit": "Jax House / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.00663,
+      1.0,
+      0.99337
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 79.83
+    },
+    {
+     "type": "tape",
+     "text": "DNA passt nicht",
+     "color": "red",
+     "px": 62,
+     "x": 194.0,
+     "y": 1000.2,
+     "align": "left",
+     "rot": -1,
+     "s": 80.24
+    },
+    {
+     "type": "tape",
+     "text": "Anklage fallengelassen",
+     "color": "yellow",
+     "px": 67,
+     "x": 158.0,
+     "y": 908.0,
+     "align": "left",
+     "rot": -1.01,
+     "s": 81.82
+    }
+   ],
+   "credit": "Foto: Jax House / CC BY-SA 2.0",
+   "edit": "place"
+  },
+  {
+   "s": 84.097,
+   "e": 88.962,
+   "scene": 15,
+   "head": {
+    "kicker": "SPUR 04",
+    "title": "Die DNA",
+    "mode": "top",
+    "from": null,
+    "s": 84.097
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/gel.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      140.0,
+      566.1,
+      800,
+      600.0
+     ],
+     "ai": false,
+     "rot": -2.52,
+     "credit": "qubodup / CC0",
+     "view": [
+      0.0,
+      0.00604,
+      1.0,
+      0.99396
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.0,
+       0.27863,
+       0.6,
+       0.87137
+      ],
+      "s": 86.14,
+      "e": 87.54
+     },
+     "rings": [],
+     "s": 84.097
+    },
+    {
+     "type": "tape",
+     "text": "nicht von der Familie",
+     "color": "red",
+     "px": 62,
+     "x": 160.0,
+     "y": 1234.3,
+     "align": "left",
+     "rot": -1,
+     "s": 86.984
+    }
+   ],
+   "credit": "Foto: qubodup / CC0",
+   "edit": "detail"
+  },
+  {
+   "s": 88.962,
+   "e": 94.737,
+   "scene": 16,
+   "head": {
+    "kicker": "SPUR 04",
+    "title": "Die DNA",
+    "mode": "top",
+    "from": "top",
+    "s": 88.962
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      688.0,
+      860,
+      466
+     ],
+     "rot": -0.89,
+     "head": "2008",
+     "rows": [
+      {
+       "l": "Mary Lacy",
+       "r": "Staatsanwältin",
+       "s": 91.375,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "Familie nicht mehr verdächtig",
+      "s": 93.123
+     },
+     "stamp": null,
+     "s": 88.962
+    }
+   ],
+   "credit": "",
+   "edit": "span"
+  },
+  {
+   "s": 94.737,
+   "e": 104.023,
+   "scene": 17,
+   "head": {
+    "kicker": "SPUR 04",
+    "title": "Die DNA",
+    "mode": "top",
+    "from": "top",
+    "s": 94.737
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/lab.jpg",
+     "w": 1800,
+     "h": 1200,
+     "box": [
+      150.0,
+      397.5,
+      780,
+      520.0
+     ],
+     "ai": false,
+     "rot": -1.91,
+     "credit": "Air Force Staff Sgt. Nicole Leidholm, photographer / Public domain",
+     "view": [
+      0.0,
+      0.00931,
+      1.0,
+      0.99069
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 94.737
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/pip.jpg",
+     "w": 1400,
+     "h": 949,
+     "box": [
+      260.0,
+      1005.7,
+      560,
+      379.6
+     ],
+     "ai": false,
+     "rot": 1.1,
+     "credit": "umseas / CC BY 2.0",
+     "view": [
+      0.0,
+      0.01251,
+      1.0,
+      0.98749
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 98.867
+    },
+    {
+     "type": "tape",
+     "text": "2016",
+     "color": "white",
+     "px": 67,
+     "x": 836.0,
+     "y": 1361.3,
+     "align": "right",
+     "rot": -0.81,
+     "s": 95.145
+    },
+    {
+     "type": "tape",
+     "text": "Mischungen",
+     "color": "red",
+     "px": 62,
+     "x": 910.0,
+     "y": 985.7,
+     "align": "right",
+     "rot": 1.9,
+     "s": 98.867
+    },
+    {
+     "type": "tape",
+     "text": "nicht sicher vom Täter",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 407.5,
+     "align": "left",
+     "rot": -2.13,
+     "s": 102.804
+    }
+   ],
+   "credit": "Foto: Air Force Staff Sgt. Nicole Leidholm, photographer / Public domain · umseas / CC BY 2.0",
+   "edit": "fact"
+  },
+  {
+   "s": 104.023,
+   "e": 115.238,
+   "scene": 18,
+   "head": {
+    "kicker": "SPUR 04",
+    "title": "Die DNA",
+    "mode": "top",
+    "from": "top",
+    "s": 104.023
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/tree.jpg",
+     "w": 1400,
+     "h": 1097,
+     "box": [
+      30.0,
+      518.1,
+      580,
+      454.5
+     ],
+     "ai": false,
+     "rot": -2.04,
+     "credit": "Ppv714 / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00697,
+      1.0,
+      0.99303
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 104.023
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/pip.jpg",
+     "w": 1400,
+     "h": 949,
+     "box": [
+      485.0,
+      895.9,
+      560,
+      379.6
+     ],
+     "ai": false,
+     "rot": 1.1,
+     "credit": "umseas / CC BY 2.0",
+     "view": [
+      0.0,
+      0.01251,
+      1.0,
+      0.98749
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 111.829
+    },
+    {
+     "type": "tape",
+     "text": "NOV. 2026",
+     "color": "white",
+     "px": 67,
+     "x": 765.0,
+     "y": 835.6,
+     "align": "center",
+     "rot": -2.3,
+     "s": 104.452
+    },
+    {
+     "type": "tape",
+     "text": "Ahnenforschung",
+     "color": "yellow",
+     "px": 67,
+     "x": 22,
+     "y": 528.1,
+     "align": "left",
+     "rot": 2.76,
+     "s": 109.233
+    },
+    {
+     "type": "tape",
+     "text": "Proben winzig",
+     "color": "red",
+     "px": 62,
+     "x": 765.0,
+     "y": 1343.7,
+     "align": "center",
+     "rot": -3.06,
+     "s": 111.829
+    }
+   ],
+   "credit": "Foto: Ppv714 / CC BY-SA 4.0 · umseas / CC BY 2.0",
+   "edit": "pair"
+  },
+  {
+   "s": 115.238,
+   "e": 120.756,
+   "scene": 19,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/house.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Jahnaiyabonaparte / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.23906,
+      0.0,
+      0.66094,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 115.238
+    },
+    {
+     "type": "tape",
+     "text": "FAST 30 JAHRE",
+     "color": "white",
+     "px": 56,
+     "x": 540,
+     "y": 330,
+     "align": "center",
+     "rot": -1,
+     "s": 115.614
+    },
+    {
+     "type": "tape",
+     "text": "Täter unbekannt",
+     "color": "red",
+     "px": 70,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1,
+     "s": 119.128
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: Jahnaiyabonaparte / CC BY-SA 4.0",
+   "edit": "place"
+  },
+  {
+   "s": 120.756,
+   "e": 125.4,
+   "scene": 20,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/4/img/win.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      144.2,
+      143.4,
+      301.5,
+      402.0
+     ],
+     "ai": false,
+     "rot": -1.3,
+     "credit": "Rawnak Dihan / CC BY-SA 4.0",
+     "view": [
+      0.01248,
+      0.0,
+      0.98752,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 120.756
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/bowl.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      570.0,
+      223.4,
+      430,
+      322.5
+     ],
+     "ai": false,
+     "rot": 2.33,
+     "credit": "Dammy Kaka / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01161,
+      1.0,
+      0.98839
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 120.756
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/gel.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      85.0,
+      638.8,
+      430,
+      322.5
+     ],
+     "ai": false,
+     "rot": -2.57,
+     "credit": "qubodup / CC0",
+     "view": [
+      0.0,
+      0.01161,
+      1.0,
+      0.98839
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 120.756
+    },
+    {
+     "type": "photo",
+     "src": "crime/4/img/house.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      565.0,
+      679.0,
+      430,
+      322.5
+     ],
+     "ai": false,
+     "rot": 2.38,
+     "credit": "Jahnaiyabonaparte / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01161,
+      1.0,
+      0.98839
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 120.756
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      180.0,
+      1080.0,
+      720,
+      370
+     ],
+     "rot": 0.76,
+     "head": "TÄTER",
+     "rows": [
+      {
+       "l": "Name:",
+       "r": "???",
+       "s": 120.899,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 120.756
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare.",
+     "color": "yellow",
+     "px": 66,
+     "x": 540.0,
+     "y": 1020.6,
+     "align": "center",
+     "rot": -0.9,
+     "s": 121.448
+    },
+    {
+     "type": "string",
+     "a": [
+      294.9,
+      169.4
+     ],
+     "b": [
+      780.0,
+      705.0
+     ],
+     "s": 120.756
+    },
+    {
+     "type": "string",
+     "a": [
+      785.0,
+      249.4
+     ],
+     "b": [
+      780.0,
+      705.0
+     ],
+     "s": 120.756
+    },
+    {
+     "type": "string",
+     "a": [
+      300.0,
+      664.8
+     ],
+     "b": [
+      780.0,
+      705.0
+     ],
+     "s": 120.756
+    }
+   ],
+   "credit": "Foto: Rawnak Dihan / CC BY-SA 4.0 · Dammy Kaka / CC BY-SA 4.0 · qubodup / CC0 · Jahnaiyabonaparte / CC BY-SA 4.0",
+   "edit": "ending"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 1.733,
+   "text": "Ein zerbrochenes Fenster,",
+   "line": 1
+  },
+  {
+   "s": 1.733,
+   "e": 4.303,
+   "text": "eine Schale Ananas und fremde DNA.",
+   "line": 1
+  },
+  {
+   "s": 4.323,
+   "e": 5.775,
+   "text": "Das ist Teil zwei im Fall",
+   "line": 2
+  },
+  {
+   "s": 5.775,
+   "e": 7.43,
+   "text": "JonBenét Ramsey.",
+   "line": 2
+  },
+  {
+   "s": 7.45,
+   "e": 9.69,
+   "text": "Im Keller war ein Fenster zerbrochen,",
+   "line": 3
+  },
+  {
+   "s": 9.69,
+   "e": 11.387,
+   "text": "darunter stand ein Koffer.",
+   "line": 3
+  },
+  {
+   "s": 11.407,
+   "e": 12.707,
+   "text": "Kam der Täter hier herein,",
+   "line": 4
+  },
+  {
+   "s": 12.707,
+   "e": 14.157,
+   "text": "oder hinaus?",
+   "line": 4
+  },
+  {
+   "s": 14.177,
+   "e": 15.917,
+   "text": "Doch John sagte, er habe",
+   "line": 5
+  },
+  {
+   "s": 15.917,
+   "e": 17.917,
+   "text": "es früher selbst eingeschlagen,",
+   "line": 5
+  },
+  {
+   "s": 17.917,
+   "e": 20.043,
+   "text": "als er den Schlüssel vergessen hatte.",
+   "line": 5
+  },
+  {
+   "s": 20.063,
+   "e": 21.52,
+   "text": "Ein Einbruch in dieser Nacht",
+   "line": 6
+  },
+  {
+   "s": 21.52,
+   "e": 23.493,
+   "text": "ist damit nicht bewiesen.",
+   "line": 6
+  },
+  {
+   "s": 23.513,
+   "e": 25.322,
+   "text": "Schuhabdrücke und andere Spuren",
+   "line": 7
+  },
+  {
+   "s": 25.322,
+   "e": 27.48,
+   "text": "im Keller führten zu niemandem,",
+   "line": 7
+  },
+  {
+   "s": 27.48,
+   "e": 29.601,
+   "text": "der angeklagt werden konnte.",
+   "line": 7
+  },
+  {
+   "s": 29.621,
+   "e": 30.401,
+   "text": "Dann die Ananas",
+   "line": 8
+  },
+  {
+   "s": 30.401,
+   "e": 32.417,
+   "text": "in einer Schale in der Küche.",
+   "line": 8
+  },
+  {
+   "s": 32.437,
+   "e": 34.594,
+   "text": "Laut den Eltern schlief JonBenét",
+   "line": 9
+  },
+  {
+   "s": 34.594,
+   "e": 36.156,
+   "text": "nach der Feier schon.",
+   "line": 9
+  },
+  {
+   "s": 36.176,
+   "e": 38.036,
+   "text": "Doch in ihrem Dünndarm fand man Reste,",
+   "line": 10
+  },
+  {
+   "s": 38.036,
+   "e": 40.039,
+   "text": "vermutlich Ananas.",
+   "line": 10
+  },
+  {
+   "s": 40.059,
+   "e": 42.039,
+   "text": "Wann sie gegessen hat, und mit wem,",
+   "line": 11
+  },
+  {
+   "s": 42.039,
+   "e": 43.773,
+   "text": "lässt sich nicht sagen.",
+   "line": 11
+  },
+  {
+   "s": 43.793,
+   "e": 45.853,
+   "text": "Und ein Fehler am ersten Tag:",
+   "line": 12
+  },
+  {
+   "s": 45.853,
+   "e": 46.633,
+   "text": "Das Haus wurde",
+   "line": 12
+  },
+  {
+   "s": 46.633,
+   "e": 48.792,
+   "text": "nicht vollständig abgesperrt.",
+   "line": 12
+  },
+  {
+   "s": 48.812,
+   "e": 51.072,
+   "text": "Freunde gingen durch viele Räume,",
+   "line": 13
+  },
+  {
+   "s": 51.072,
+   "e": 52.232,
+   "text": "John trug seine Tochter",
+   "line": 13
+  },
+  {
+   "s": 52.232,
+   "e": 53.478,
+   "text": "aus dem Keller.",
+   "line": 13
+  },
+  {
+   "s": 53.498,
+   "e": 55.118,
+   "text": "Das beweist keine Schuld,",
+   "line": 14
+  },
+  {
+   "s": 55.118,
+   "e": 56.498,
+   "text": "aber die Spuren des Täters",
+   "line": 14
+  },
+  {
+   "s": 56.498,
+   "e": 58.549,
+   "text": "waren kaum noch zu trennen.",
+   "line": 14
+  },
+  {
+   "s": 58.569,
+   "e": 62.144,
+   "text": "1999 stimmte eine Grand Jury dafür,",
+   "line": 15
+  },
+  {
+   "s": 62.144,
+   "e": 63.939,
+   "text": "die Eltern anzuklagen.",
+   "line": 15
+  },
+  {
+   "s": 63.959,
+   "e": 64.859,
+   "text": "Doch Staatsanwalt",
+   "line": 16
+  },
+  {
+   "s": 64.859,
+   "e": 67.119,
+   "text": "Alex Hunter erhob keine Anklage:",
+   "line": 16
+  },
+  {
+   "s": 67.119,
+   "e": 69.086,
+   "text": "Die Beweise reichten nicht.",
+   "line": 16
+  },
+  {
+   "s": 69.106,
+   "e": 70.146,
+   "text": "Niemand aus der Familie",
+   "line": 17
+  },
+  {
+   "s": 70.146,
+   "e": 71.894,
+   "text": "wurde je verurteilt.",
+   "line": 17
+  },
+  {
+   "s": 71.914,
+   "e": 74.274,
+   "text": "2006 wurde in Thailand John",
+   "line": 18
+  },
+  {
+   "s": 74.274,
+   "e": 76.256,
+   "text": "Mark Karr festgenommen.",
+   "line": 18
+  },
+  {
+   "s": 76.276,
+   "e": 77.436,
+   "text": "Er behauptete,",
+   "line": 19
+  },
+  {
+   "s": 77.436,
+   "e": 79.85,
+   "text": "mit JonBenéts Tod zu tun zu haben.",
+   "line": 19
+  },
+  {
+   "s": 79.87,
+   "e": 81.69,
+   "text": "Doch seine DNA passte nicht,",
+   "line": 20
+  },
+  {
+   "s": 81.69,
+   "e": 84.117,
+   "text": "die Anklage wurde fallengelassen.",
+   "line": 20
+  },
+  {
+   "s": 84.137,
+   "e": 86.721,
+   "text": "An JonBenéts Kleidung fand man DNA,",
+   "line": 21
+  },
+  {
+   "s": 86.721,
+   "e": 88.982,
+   "text": "die nicht von der Familie stammt.",
+   "line": 21
+  },
+  {
+   "s": 89.002,
+   "e": 91.609,
+   "text": "2008 erklärte Staatsanwältin Mary",
+   "line": 22
+  },
+  {
+   "s": 91.609,
+   "e": 92.798,
+   "text": "Lacy die Familie",
+   "line": 22
+  },
+  {
+   "s": 92.798,
+   "e": 94.757,
+   "text": "für nicht mehr verdächtig.",
+   "line": 22
+  },
+  {
+   "s": 94.777,
+   "e": 97.737,
+   "text": "Doch 2016 zeigten Experten:",
+   "line": 23
+  },
+  {
+   "s": 97.737,
+   "e": 99.337,
+   "text": "Manche Proben sind Mischungen",
+   "line": 23
+  },
+  {
+   "s": 99.337,
+   "e": 100.914,
+   "text": "mehrerer Menschen.",
+   "line": 23
+  },
+  {
+   "s": 100.934,
+   "e": 102.354,
+   "text": "Fremde DNA muss also",
+   "line": 24
+  },
+  {
+   "s": 102.354,
+   "e": 104.043,
+   "text": "nicht vom Täter stammen.",
+   "line": 24
+  },
+  {
+   "s": 104.063,
+   "e": 107.463,
+   "text": "Im November 2026 prüfte die Polizei",
+   "line": 25
+  },
+  {
+   "s": 107.463,
+   "e": 110.619,
+   "text": "neue DNA-Methoden mit Ahnenforschung.",
+   "line": 25
+  },
+  {
+   "s": 110.639,
+   "e": 112.719,
+   "text": "Doch manche Proben sind winzig,",
+   "line": 26
+  },
+  {
+   "s": 112.719,
+   "e": 115.258,
+   "text": "ein Test könnte sie ganz verbrauchen.",
+   "line": 26
+  },
+  {
+   "s": 115.278,
+   "e": 117.617,
+   "text": "Fast 30 Jahre später weiß man,",
+   "line": 27
+  },
+  {
+   "s": 117.617,
+   "e": 118.958,
+   "text": "wie JonBenét starb,",
+   "line": 27
+  },
+  {
+   "s": 118.958,
+   "e": 120.776,
+   "text": "aber nicht, wer es war.",
+   "line": 27
+  },
+  {
+   "s": 120.796,
+   "e": 122.82,
+   "text": "Was denkst du?",
+   "line": 28
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/4/voice/line_01.mp3"
+  },
+  {
+   "s": 4.403,
+   "src": "crime/4/voice/line_02.mp3"
+  },
+  {
+   "s": 7.53,
+   "src": "crime/4/voice/line_03.mp3"
+  },
+  {
+   "s": 11.487,
+   "src": "crime/4/voice/line_04.mp3"
+  },
+  {
+   "s": 14.257,
+   "src": "crime/4/voice/line_05.mp3"
+  },
+  {
+   "s": 20.143,
+   "src": "crime/4/voice/line_06.mp3"
+  },
+  {
+   "s": 23.593,
+   "src": "crime/4/voice/line_07.mp3"
+  },
+  {
+   "s": 29.701,
+   "src": "crime/4/voice/line_08.mp3"
+  },
+  {
+   "s": 32.517,
+   "src": "crime/4/voice/line_09.mp3"
+  },
+  {
+   "s": 36.256,
+   "src": "crime/4/voice/line_10.mp3"
+  },
+  {
+   "s": 40.139,
+   "src": "crime/4/voice/line_11.mp3"
+  },
+  {
+   "s": 43.873,
+   "src": "crime/4/voice/line_12.mp3"
+  },
+  {
+   "s": 48.892,
+   "src": "crime/4/voice/line_13.mp3"
+  },
+  {
+   "s": 53.578,
+   "src": "crime/4/voice/line_14.mp3"
+  },
+  {
+   "s": 58.649,
+   "src": "crime/4/voice/line_15.mp3"
+  },
+  {
+   "s": 64.039,
+   "src": "crime/4/voice/line_16.mp3"
+  },
+  {
+   "s": 69.186,
+   "src": "crime/4/voice/line_17.mp3"
+  },
+  {
+   "s": 71.994,
+   "src": "crime/4/voice/line_18.mp3"
+  },
+  {
+   "s": 76.356,
+   "src": "crime/4/voice/line_19.mp3"
+  },
+  {
+   "s": 79.95,
+   "src": "crime/4/voice/line_20.mp3"
+  },
+  {
+   "s": 84.217,
+   "src": "crime/4/voice/line_21.mp3"
+  },
+  {
+   "s": 89.082,
+   "src": "crime/4/voice/line_22.mp3"
+  },
+  {
+   "s": 94.857,
+   "src": "crime/4/voice/line_23.mp3"
+  },
+  {
+   "s": 101.014,
+   "src": "crime/4/voice/line_24.mp3"
+  },
+  {
+   "s": 104.143,
+   "src": "crime/4/voice/line_25.mp3"
+  },
+  {
+   "s": 110.719,
+   "src": "crime/4/voice/line_26.mp3"
+  },
+  {
+   "s": 115.358,
+   "src": "crime/4/voice/line_27.mp3"
+  },
+  {
+   "s": 120.876,
+   "src": "crime/4/voice/line_28.mp3"
+  }
+ ],
+ "music": "crime/4/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ],
+ "sfx": "crime/4/sfx.wav",
+ "sfxVolume": 0.6
+}
