@@ -1,0 +1,1627 @@
+[
+ {
+  "i": 1,
+  "text": "Ein zerbrochenes Fenster, eine Schale Ananas und fremde DNA.",
+  "tts": "Ein zerbrochenes Fenster, eine Schale Ananas und fremde DNA.",
+  "voice": "clone_611",
+  "file": "line_01.mp3",
+  "duration": 3.703,
+  "heard": "Ein zerbrochenes Fenster, eine Schale Ananas und fremde Dena.",
+  "score": 0.89,
+  "diff": [
+   "dna→dena"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.16
+   ],
+   [
+    0.2941,
+    0.78
+   ],
+   [
+    0.4314,
+    1.5
+   ],
+   [
+    0.5098,
+    1.62
+   ],
+   [
+    0.6275,
+    1.96
+   ],
+   [
+    0.7451,
+    2.42
+   ],
+   [
+    0.8039,
+    2.78
+   ],
+   [
+    0.9216,
+    3.18
+   ],
+   [
+    1.0,
+    3.44
+   ]
+  ]
+ },
+ {
+  "i": 2,
+  "text": "Das ist Teil zwei im Fall JonBenét Ramsey.",
+  "tts": "Das ist Teil zwei im Fall JonBenét Ramsey.",
+  "voice": "clone_611",
+  "file": "line_02.mp3",
+  "duration": 2.727,
+  "heard": "Das ist Teil 2 im Fallion Bene Ramsey.",
+  "score": 0.75,
+  "diff": [
+   "falljonbenét→fallionbene"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1,
+    0.16
+   ],
+   [
+    0.2,
+    0.34
+   ],
+   [
+    0.3333,
+    0.58
+   ],
+   [
+    0.3667,
+    0.92
+   ],
+   [
+    0.4333,
+    1.16
+   ],
+   [
+    0.6667,
+    1.6
+   ],
+   [
+    0.8,
+    1.82
+   ],
+   [
+    1.0,
+    2.5
+   ]
+  ]
+ },
+ {
+  "i": 3,
+  "text": "Im Keller war ein Fenster zerbrochen, darunter stand ein Koffer.",
+  "tts": "Im Keller war ein Fenster zerbrochen, darunter stand ein Koffer.",
+  "voice": "clone_611",
+  "file": "line_03.mp3",
+  "duration": 3.557,
+  "heard": "Im Keller war ein Fenster zerbrochen, darunter stand ein Koffer.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0377,
+    0.16
+   ],
+   [
+    0.1509,
+    0.46
+   ],
+   [
+    0.2075,
+    0.7
+   ],
+   [
+    0.2642,
+    0.84
+   ],
+   [
+    0.3962,
+    1.26
+   ],
+   [
+    0.5849,
+    2.24
+   ],
+   [
+    0.7358,
+    2.52
+   ],
+   [
+    0.8302,
+    2.76
+   ],
+   [
+    0.8868,
+    2.92
+   ],
+   [
+    1.0,
+    3.38
+   ]
+  ]
+ },
+ {
+  "i": 4,
+  "text": "Kam der Täter hier herein, oder hinaus?",
+  "tts": "Kam der Täter hier herein, oder hinaus?",
+  "voice": "clone_611",
+  "file": "line_04.mp3",
+  "duration": 2.37,
+  "heard": "kam der Täter hierherein oder hinaus?",
+  "score": 0.77,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0968,
+    0.2
+   ],
+   [
+    0.1935,
+    0.36
+   ],
+   [
+    0.3548,
+    0.72
+   ],
+   [
+    0.6774,
+    1.3
+   ],
+   [
+    0.8065,
+    1.64
+   ],
+   [
+    1.0,
+    1.92
+   ]
+  ]
+ },
+ {
+  "i": 5,
+  "text": "Doch John sagte, er habe es früher selbst eingeschlagen, als er den Schlüssel vergessen hatte.",
+  "tts": "Doch John sagte, er habe es früher selbst eingeschlagen, als er den Schlüssel vergessen hatte.",
+  "voice": "clone_611",
+  "file": "line_05.mp3",
+  "duration": 5.486,
+  "heard": "Doch John sagte, er habe es früher selbst eingeschlagen, als er den Schlüssel vergessen hatte.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0519,
+    0.16
+   ],
+   [
+    0.1039,
+    0.46
+   ],
+   [
+    0.1688,
+    1.38
+   ],
+   [
+    0.1948,
+    1.52
+   ],
+   [
+    0.2468,
+    1.74
+   ],
+   [
+    0.2727,
+    1.9
+   ],
+   [
+    0.3506,
+    2.12
+   ],
+   [
+    0.4286,
+    2.52
+   ],
+   [
+    0.5974,
+    3.74
+   ],
+   [
+    0.6364,
+    3.88
+   ],
+   [
+    0.6623,
+    3.98
+   ],
+   [
+    0.7013,
+    4.08
+   ],
+   [
+    0.8182,
+    4.48
+   ],
+   [
+    0.9351,
+    4.8
+   ],
+   [
+    1.0,
+    5.28
+   ]
+  ]
+ },
+ {
+  "i": 6,
+  "text": "Ein Einbruch in dieser Nacht ist damit nicht bewiesen.",
+  "tts": "Ein Einbruch in dieser Nacht ist damit nicht bewiesen.",
+  "voice": "clone_611",
+  "file": "line_06.mp3",
+  "duration": 3.05,
+  "heard": "Ein Einbruch in dieser Nacht ist damit nicht gewesen.",
+  "score": 0.89,
+  "diff": [
+   "bewiesen→gewesen"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0682,
+    0.16
+   ],
+   [
+    0.25,
+    0.76
+   ],
+   [
+    0.2955,
+    0.9
+   ],
+   [
+    0.4318,
+    1.1
+   ],
+   [
+    0.5455,
+    1.5
+   ],
+   [
+    0.6136,
+    1.72
+   ],
+   [
+    0.7273,
+    1.96
+   ],
+   [
+    0.8409,
+    2.24
+   ],
+   [
+    1.0,
+    2.62
+   ]
+  ]
+ },
+ {
+  "i": 7,
+  "text": "Schuhabdrücke und andere Spuren im Keller führten zu niemandem, der angeklagt werden konnte.",
+  "tts": "Schuhabdrücke und andere Spuren im Keller führten zu niemandem, der angeklagt werden konnte.",
+  "voice": "clone_611",
+  "file": "line_07.mp3",
+  "duration": 5.708,
+  "heard": "Schuheabdrücke und andere Spuren im Keller führten zu niemandem, der angeklagt werden konnte.",
+  "score": 0.92,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1772,
+    0.78
+   ],
+   [
+    0.2152,
+    0.98
+   ],
+   [
+    0.2911,
+    1.22
+   ],
+   [
+    0.3671,
+    1.88
+   ],
+   [
+    0.3924,
+    2.06
+   ],
+   [
+    0.4684,
+    2.38
+   ],
+   [
+    0.557,
+    2.88
+   ],
+   [
+    0.5823,
+    3.02
+   ],
+   [
+    0.6962,
+    4.0
+   ],
+   [
+    0.7342,
+    4.06
+   ],
+   [
+    0.8481,
+    4.7
+   ],
+   [
+    0.9241,
+    4.9
+   ],
+   [
+    1.0,
+    5.24
+   ]
+  ]
+ },
+ {
+  "i": 8,
+  "text": "Dann die Ananas in einer Schale in der Küche.",
+  "tts": "Dann die Ananas in einer Schale in der Küche.",
+  "voice": "clone_611",
+  "file": "line_08.mp3",
+  "duration": 2.416,
+  "heard": "dann die Ananas in einer Schale in der Küche.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1111,
+    0.18
+   ],
+   [
+    0.1944,
+    0.3
+   ],
+   [
+    0.3611,
+    0.78
+   ],
+   [
+    0.4167,
+    1.02
+   ],
+   [
+    0.5556,
+    1.22
+   ],
+   [
+    0.7222,
+    1.58
+   ],
+   [
+    0.7778,
+    1.66
+   ],
+   [
+    0.8611,
+    1.76
+   ],
+   [
+    1.0,
+    2.2
+   ]
+  ]
+ },
+ {
+  "i": 9,
+  "text": "Laut den Eltern schlief JonBenét nach der Feier schon.",
+  "tts": "Laut den Eltern schlief JonBenét nach der Feier schon.",
+  "voice": "clone_611",
+  "file": "line_09.mp3",
+  "duration": 3.339,
+  "heard": "Laut den Eltern schlief Jon Bené nach der Feier schon.",
+  "score": 0.84,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0909,
+    0.38
+   ],
+   [
+    0.1591,
+    0.68
+   ],
+   [
+    0.2955,
+    1.02
+   ],
+   [
+    0.4545,
+    1.54
+   ],
+   [
+    0.5227,
+    1.74
+   ],
+   [
+    0.6136,
+    2.14
+   ],
+   [
+    0.7045,
+    2.32
+   ],
+   [
+    0.7727,
+    2.48
+   ],
+   [
+    0.8864,
+    2.8
+   ],
+   [
+    1.0,
+    3.04
+   ]
+  ]
+ },
+ {
+  "i": 10,
+  "text": "Doch in ihrem Dünndarm fand man Reste, vermutlich Ananas.",
+  "tts": "Doch in ihrem Dünndarm fand man Reste, vermutlich Ananas.",
+  "voice": "clone_611",
+  "file": "line_10.mp3",
+  "duration": 3.483,
+  "heard": "Doch in ihrem Dünndaum fand man Reste vermutlich Ananas.",
+  "score": 0.89,
+  "diff": [
+   "duenndarm→duenndaum"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0851,
+    0.14
+   ],
+   [
+    0.1277,
+    0.32
+   ],
+   [
+    0.234,
+    0.48
+   ],
+   [
+    0.4043,
+    1.04
+   ],
+   [
+    0.4894,
+    1.24
+   ],
+   [
+    0.5532,
+    1.44
+   ],
+   [
+    0.6596,
+    1.86
+   ],
+   [
+    0.8723,
+    2.68
+   ],
+   [
+    1.0,
+    3.06
+   ]
+  ]
+ },
+ {
+  "i": 11,
+  "text": "Wann sie gegessen hat, und mit wem, lässt sich nicht sagen.",
+  "tts": "Wann sie gegessen hat, und mit wem, lässt sich nicht sagen.",
+  "voice": "clone_611",
+  "file": "line_11.mp3",
+  "duration": 3.334,
+  "heard": "wenn sie gegessen hat und mit wem lässt sich nicht sagen.",
+  "score": 0.91,
+  "diff": [
+   "wann→wenn"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.087,
+    0.18
+   ],
+   [
+    0.1522,
+    0.36
+   ],
+   [
+    0.3261,
+    0.8
+   ],
+   [
+    0.3913,
+    1.1
+   ],
+   [
+    0.4565,
+    1.42
+   ],
+   [
+    0.5217,
+    1.62
+   ],
+   [
+    0.587,
+    1.98
+   ],
+   [
+    0.6957,
+    2.28
+   ],
+   [
+    0.7826,
+    2.52
+   ],
+   [
+    0.8913,
+    2.7
+   ],
+   [
+    1.0,
+    3.08
+   ]
+  ]
+ },
+ {
+  "i": 12,
+  "text": "Und ein Fehler am ersten Tag: Das Haus wurde nicht vollständig abgesperrt.",
+  "tts": "Und ein Fehler am ersten Tag: Das Haus wurde nicht vollständig abgesperrt.",
+  "voice": "clone_611",
+  "file": "line_12.mp3",
+  "duration": 4.619,
+  "heard": "und ein Fehler am ersten Tag. Das Haus wurde nicht vollständig abgesperrt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0492,
+    0.2
+   ],
+   [
+    0.0984,
+    0.36
+   ],
+   [
+    0.1967,
+    0.7
+   ],
+   [
+    0.2295,
+    0.96
+   ],
+   [
+    0.3279,
+    1.24
+   ],
+   [
+    0.377,
+    2.06
+   ],
+   [
+    0.4262,
+    2.24
+   ],
+   [
+    0.4918,
+    2.52
+   ],
+   [
+    0.5738,
+    2.84
+   ],
+   [
+    0.6557,
+    3.04
+   ],
+   [
+    0.8361,
+    3.7
+   ],
+   [
+    1.0,
+    4.44
+   ]
+  ]
+ },
+ {
+  "i": 13,
+  "text": "Freunde gingen durch viele Räume, John trug seine Tochter aus dem Keller.",
+  "tts": "Freunde gingen durch viele Räume, John trug seine Tochter aus dem Keller.",
+  "voice": "clone_611",
+  "file": "line_13.mp3",
+  "duration": 4.286,
+  "heard": "Freunde gingen durch viele Räume, John trug seine Tochter aus dem Keller.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1167,
+    0.48
+   ],
+   [
+    0.2167,
+    0.82
+   ],
+   [
+    0.3,
+    1.0
+   ],
+   [
+    0.3833,
+    1.32
+   ],
+   [
+    0.4667,
+    2.26
+   ],
+   [
+    0.5333,
+    2.54
+   ],
+   [
+    0.6,
+    2.8
+   ],
+   [
+    0.6833,
+    2.96
+   ],
+   [
+    0.8,
+    3.42
+   ],
+   [
+    0.85,
+    3.6
+   ],
+   [
+    0.9,
+    3.74
+   ],
+   [
+    1.0,
+    3.98
+   ]
+  ]
+ },
+ {
+  "i": 14,
+  "text": "Das beweist keine Schuld, aber die Spuren des Täters waren kaum noch zu trennen.",
+  "tts": "Das beweist keine Schuld, aber die Spuren des Täters waren kaum noch zu trennen.",
+  "voice": "clone_611",
+  "file": "line_14.mp3",
+  "duration": 4.671,
+  "heard": "Das beweist keine Schuld, aber die Spuren des Täters waren kaum noch zu trennen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0462,
+    0.16
+   ],
+   [
+    0.1538,
+    0.66
+   ],
+   [
+    0.2308,
+    0.86
+   ],
+   [
+    0.3231,
+    1.62
+   ],
+   [
+    0.3846,
+    1.76
+   ],
+   [
+    0.4308,
+    1.92
+   ],
+   [
+    0.5231,
+    2.38
+   ],
+   [
+    0.5692,
+    2.54
+   ],
+   [
+    0.6615,
+    3.0
+   ],
+   [
+    0.7385,
+    3.28
+   ],
+   [
+    0.8,
+    3.6
+   ],
+   [
+    0.8615,
+    3.84
+   ],
+   [
+    0.8923,
+    4.04
+   ],
+   [
+    1.0,
+    4.42
+   ]
+  ]
+ },
+ {
+  "i": 15,
+  "text": "1999 stimmte eine Grand Jury dafür, die Eltern anzuklagen.",
+  "tts": "Neunzehnhundertneunundneunzig stimmte eine Grand Jury dafür, die Eltern anzuklagen.",
+  "voice": "clone_611",
+  "file": "line_15.mp3",
+  "duration": 4.99,
+  "heard": "1999 stimmte eine Grantschuri dafür, die Eltern anzuklagen.",
+  "score": 0.82,
+  "diff": [
+   "grandjury→grantschuri"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.08,
+    1.2
+   ],
+   [
+    0.22,
+    2.24
+   ],
+   [
+    0.3,
+    2.38
+   ],
+   [
+    0.52,
+    3.02
+   ],
+   [
+    0.62,
+    3.68
+   ],
+   [
+    0.68,
+    3.74
+   ],
+   [
+    0.8,
+    4.0
+   ],
+   [
+    1.0,
+    4.68
+   ]
+  ]
+ },
+ {
+  "i": 16,
+  "text": "Doch Staatsanwalt Alex Hunter erhob keine Anklage: Die Beweise reichten nicht.",
+  "tts": "Doch Staatsanwalt Alex Hunter erhob keine Anklage: Die Beweise reichten nicht.",
+  "voice": "clone_611",
+  "file": "line_16.mp3",
+  "duration": 4.747,
+  "heard": "Doch Staatsanwalt Alex Hunter erhob keine Anklage, die Beweise reichten nicht.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0606,
+    0.16
+   ],
+   [
+    0.2424,
+    0.9
+   ],
+   [
+    0.303,
+    1.12
+   ],
+   [
+    0.3939,
+    1.6
+   ],
+   [
+    0.4697,
+    2.04
+   ],
+   [
+    0.5455,
+    2.26
+   ],
+   [
+    0.6515,
+    3.16
+   ],
+   [
+    0.697,
+    3.26
+   ],
+   [
+    0.803,
+    3.58
+   ],
+   [
+    0.9242,
+    4.08
+   ],
+   [
+    1.0,
+    4.44
+   ]
+  ]
+ },
+ {
+  "i": 17,
+  "text": "Niemand aus der Familie wurde je verurteilt.",
+  "tts": "Niemand aus der Familie wurde je verurteilt.",
+  "voice": "clone_611",
+  "file": "line_17.mp3",
+  "duration": 2.408,
+  "heard": "Niemand aus der Familie wurde je verurteilt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1892,
+    0.3
+   ],
+   [
+    0.2703,
+    0.48
+   ],
+   [
+    0.3514,
+    0.6
+   ],
+   [
+    0.5405,
+    1.04
+   ],
+   [
+    0.6757,
+    1.4
+   ],
+   [
+    0.7297,
+    1.56
+   ],
+   [
+    1.0,
+    2.22
+   ]
+  ]
+ },
+ {
+  "i": 18,
+  "text": "2006 wurde in Thailand John Mark Karr festgenommen.",
+  "tts": "Zweitausendsechs wurde in Thailand John Mark Karr festgenommen.",
+  "voice": "clone_611",
+  "file": "line_18.mp3",
+  "duration": 3.962,
+  "heard": "2006 wurde in Thailand John Mark Kahr festgenommen.",
+  "score": 0.88,
+  "diff": [
+   "karr→kahr"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.093,
+    0.9
+   ],
+   [
+    0.2093,
+    1.36
+   ],
+   [
+    0.2558,
+    1.54
+   ],
+   [
+    0.4419,
+    1.94
+   ],
+   [
+    0.5349,
+    2.36
+   ],
+   [
+    0.6279,
+    2.68
+   ],
+   [
+    0.7209,
+    3.06
+   ],
+   [
+    1.0,
+    3.58
+   ]
+  ]
+ },
+ {
+  "i": 19,
+  "text": "Er behauptete, mit JonBenéts Tod zu tun zu haben.",
+  "tts": "Er behauptete, mit JonBenéts Tod zu tun zu haben.",
+  "voice": "clone_611",
+  "file": "line_19.mp3",
+  "duration": 3.194,
+  "heard": "er behauptete, mit John Benetton zu tun zu haben.",
+  "score": 0.78,
+  "diff": [
+   "jonbenétstod→johnbenetton"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0513,
+    0.12
+   ],
+   [
+    0.3077,
+    1.16
+   ],
+   [
+    0.3846,
+    1.32
+   ],
+   [
+    0.4872,
+    1.46
+   ],
+   [
+    0.6923,
+    2.0
+   ],
+   [
+    0.7436,
+    2.22
+   ],
+   [
+    0.8205,
+    2.46
+   ],
+   [
+    0.8718,
+    2.64
+   ],
+   [
+    1.0,
+    2.9
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "text": "Doch seine DNA passte nicht, die Anklage wurde fallengelassen.",
+  "tts": "Doch seine DNA passte nicht, die Anklage wurde fallengelassen.",
+  "voice": "clone_611",
+  "file": "line_20.mp3",
+  "duration": 3.867,
+  "heard": "Doch seine DNA passte nicht, die Anklage wurde fallen gelassen.",
+  "score": 0.84,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0769,
+    0.12
+   ],
+   [
+    0.1731,
+    0.34
+   ],
+   [
+    0.2308,
+    0.72
+   ],
+   [
+    0.3462,
+    1.24
+   ],
+   [
+    0.4423,
+    1.82
+   ],
+   [
+    0.5,
+    1.92
+   ],
+   [
+    0.6346,
+    2.56
+   ],
+   [
+    0.7308,
+    2.8
+   ],
+   [
+    0.8462,
+    3.14
+   ],
+   [
+    1.0,
+    3.66
+   ]
+  ]
+ },
+ {
+  "i": 21,
+  "text": "An JonBenéts Kleidung fand man DNA, die nicht von der Familie stammt.",
+  "tts": "An JonBenéts Kleidung fand man DNA, die nicht von der Familie stammt.",
+  "voice": "clone_611",
+  "file": "line_21.mp3",
+  "duration": 4.465,
+  "heard": "An Jungbenet Kleidung fand man nahe, die nicht von der Familie stammt.",
+  "score": 0.83,
+  "diff": [
+   "jonbenéts→jungbenet",
+   "dna→nahe"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0351,
+    0.2
+   ],
+   [
+    0.193,
+    0.82
+   ],
+   [
+    0.3333,
+    1.4
+   ],
+   [
+    0.4035,
+    1.64
+   ],
+   [
+    0.4561,
+    1.88
+   ],
+   [
+    0.5263,
+    2.68
+   ],
+   [
+    0.5789,
+    2.84
+   ],
+   [
+    0.6667,
+    3.02
+   ],
+   [
+    0.7193,
+    3.2
+   ],
+   [
+    0.7719,
+    3.32
+   ],
+   [
+    0.8947,
+    3.7
+   ],
+   [
+    1.0,
+    4.34
+   ]
+  ]
+ },
+ {
+  "i": 22,
+  "text": "2008 erklärte Staatsanwältin Mary Lacy die Familie für nicht mehr verdächtig.",
+  "tts": "Zweitausendacht erklärte Staatsanwältin Mary Lacy die Familie für nicht mehr verdächtig.",
+  "voice": "clone_611",
+  "file": "line_22.mp3",
+  "duration": 5.375,
+  "heard": "2008 erklärte Staatsanwältin Mary Lacey die Familie für nicht mehr verdächtig.",
+  "score": 0.91,
+  "diff": [
+   "lacy→lacey"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0597,
+    0.7
+   ],
+   [
+    0.1791,
+    1.36
+   ],
+   [
+    0.3881,
+    2.32
+   ],
+   [
+    0.4478,
+    2.56
+   ],
+   [
+    0.5224,
+    3.08
+   ],
+   [
+    0.5672,
+    3.32
+   ],
+   [
+    0.6716,
+    3.82
+   ],
+   [
+    0.7164,
+    4.12
+   ],
+   [
+    0.791,
+    4.32
+   ],
+   [
+    0.8507,
+    4.5
+   ],
+   [
+    1.0,
+    5.14
+   ]
+  ]
+ },
+ {
+  "i": 23,
+  "text": "Doch 2016 zeigten Experten: Manche Proben sind Mischungen mehrerer Menschen.",
+  "tts": "Doch zweitausendsechzehn zeigten Experten: Manche Proben sind Mischungen mehrerer Menschen.",
+  "voice": "clone_611",
+  "file": "line_23.mp3",
+  "duration": 5.757,
+  "heard": "Doch 2016 zeigten Experten, manche Proben sind mischungen mehrerer Menschen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0615,
+    0.16
+   ],
+   [
+    0.1231,
+    1.2
+   ],
+   [
+    0.2308,
+    1.92
+   ],
+   [
+    0.3538,
+    2.96
+   ],
+   [
+    0.4462,
+    3.4
+   ],
+   [
+    0.5385,
+    3.84
+   ],
+   [
+    0.6,
+    4.06
+   ],
+   [
+    0.7538,
+    4.56
+   ],
+   [
+    0.8769,
+    5.02
+   ],
+   [
+    1.0,
+    5.28
+   ]
+  ]
+ },
+ {
+  "i": 24,
+  "text": "Fremde DNA muss also nicht vom Täter stammen.",
+  "tts": "Fremde DNA muss also nicht vom Täter stammen.",
+  "voice": "clone_611",
+  "file": "line_24.mp3",
+  "duration": 2.729,
+  "heard": "Fremde DNA muss also nicht vom Täter stammen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1622,
+    0.38
+   ],
+   [
+    0.2432,
+    0.82
+   ],
+   [
+    0.3514,
+    1.24
+   ],
+   [
+    0.4595,
+    1.42
+   ],
+   [
+    0.5946,
+    1.64
+   ],
+   [
+    0.6757,
+    1.84
+   ],
+   [
+    0.8108,
+    2.14
+   ],
+   [
+    1.0,
+    2.48
+   ]
+  ]
+ },
+ {
+  "i": 25,
+  "text": "Im November 2026 prüfte die Polizei neue DNA-Methoden mit Ahnenforschung.",
+  "tts": "Im November zweitausendsechsundzwanzig prüfte die Polizei neue DNA-Methoden mit Ahnenforschung.",
+  "voice": "clone_611",
+  "file": "line_25.mp3",
+  "duration": 6.176,
+  "heard": "Im November 2026 prüfte die Polizei neue DNA-Methoden mit Ahnenforschung.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0323,
+    0.14
+   ],
+   [
+    0.1613,
+    0.42
+   ],
+   [
+    0.2258,
+    1.92
+   ],
+   [
+    0.3226,
+    2.74
+   ],
+   [
+    0.371,
+    2.9
+   ],
+   [
+    0.4839,
+    3.4
+   ],
+   [
+    0.5484,
+    3.92
+   ],
+   [
+    0.5968,
+    4.38
+   ],
+   [
+    0.7258,
+    5.0
+   ],
+   [
+    0.7742,
+    5.14
+   ],
+   [
+    1.0,
+    6.08
+   ]
+  ]
+ },
+ {
+  "i": 26,
+  "text": "Doch manche Proben sind winzig, ein Test könnte sie ganz verbrauchen.",
+  "tts": "Doch manche Proben sind winzig, ein Test könnte sie ganz verbrauchen.",
+  "voice": "clone_611",
+  "file": "line_26.mp3",
+  "duration": 4.239,
+  "heard": "Doch manche Proden sind winzig. Ein Test könnte sie ganz verbrauchen.",
+  "score": 0.91,
+  "diff": [
+   "proben→proden"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0702,
+    0.14
+   ],
+   [
+    0.1754,
+    0.52
+   ],
+   [
+    0.2807,
+    0.94
+   ],
+   [
+    0.3509,
+    1.16
+   ],
+   [
+    0.4561,
+    2.08
+   ],
+   [
+    0.5088,
+    2.24
+   ],
+   [
+    0.5789,
+    2.56
+   ],
+   [
+    0.6842,
+    2.88
+   ],
+   [
+    0.7368,
+    3.16
+   ],
+   [
+    0.807,
+    3.4
+   ],
+   [
+    1.0,
+    4.06
+   ]
+  ]
+ },
+ {
+  "i": 27,
+  "text": "Fast 30 Jahre später weiß man, wie JonBenét starb, aber nicht, wer es war.",
+  "tts": "Fast dreißig Jahre später weiß man, wie JonBenét starb, aber nicht, wer es war.",
+  "voice": "clone_611",
+  "file": "line_27.mp3",
+  "duration": 5.118,
+  "heard": "Fast 30 Jahre später weiß man, wie Jon Benit starb, aber nicht, wer es war.",
+  "score": 0.9,
+  "diff": [
+   "jonbenét→jonbenit"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0702,
+    0.24
+   ],
+   [
+    0.1053,
+    0.68
+   ],
+   [
+    0.193,
+    1.0
+   ],
+   [
+    0.2982,
+    1.48
+   ],
+   [
+    0.3684,
+    1.72
+   ],
+   [
+    0.4211,
+    2.34
+   ],
+   [
+    0.4737,
+    2.46
+   ],
+   [
+    0.5263,
+    2.64
+   ],
+   [
+    0.614,
+    3.0
+   ],
+   [
+    0.7018,
+    3.68
+   ],
+   [
+    0.7719,
+    3.82
+   ],
+   [
+    0.8596,
+    4.4
+   ],
+   [
+    0.9123,
+    4.48
+   ],
+   [
+    0.9474,
+    4.66
+   ],
+   [
+    1.0,
+    4.88
+   ]
+  ]
+ },
+ {
+  "i": 28,
+  "text": "Was denkst du?",
+  "tts": "Was denkst du?",
+  "voice": "clone_611",
+  "file": "line_28.mp3",
+  "duration": 1.144,
+  "heard": "Was denkst du?",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.2727,
+    0.18
+   ],
+   [
+    0.8182,
+    0.74
+   ],
+   [
+    1.0,
+    0.9
+   ]
+  ]
+ }
+]
