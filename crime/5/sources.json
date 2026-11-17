@@ -1,16 +1,6 @@
 {
  "pictures": [
   {
-   "name": "print",
-   "src": "1/9-3.jpg",
-   "title": "Footprints in the snow, Munich 2021 06.jpg",
-   "artist": "Kritzolina",
-   "date": "Taken on 17 January 2021, 17:02:41",
-   "license": "CC BY-SA 4.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Footprints_in_the_snow,_Munich_2021_06.jpg",
-   "ai": false
-  },
-  {
    "name": "farm",
    "src": "1/1-1.jpg",
    "title": "Hinterkaifeck-Hof.jpg",
@@ -21,23 +11,33 @@
    "ai": false
   },
   {
-   "name": "trail",
-   "src": "1/9-8.jpg",
-   "title": "Lábnyomok a hóban",
-   "artist": "Fortepan",
-   "date": "",
-   "license": "CC BY-SA 4.0",
-   "page": "https://www.europeana.eu/item/2048128/835976",
+   "name": "plots",
+   "src": "1/2-6.jpg",
+   "title": "Hinterkaifeck Flurkarte nach 1870.jpg",
+   "artist": "Königlich Bayerisches Vermessungsamt",
+   "date": "after 1870",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Hinterkaifeck_Flurkarte_nach_1870.jpg",
    "ai": false
   },
   {
-   "name": "memo",
-   "src": "1/2-7.jpg",
-   "title": "Hinterkaifeck Inschrift.jpg",
-   "artist": "Christian Greller from Regenstauf, Germany",
-   "date": "2007-01-16 17:25",
-   "license": "CC BY 2.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Hinterkaifeck_Inschrift.jpg",
+   "name": "sterbe",
+   "src": "2/1-4.jpg",
+   "title": "Sterbebildchen der sechs Ermordeten.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:17:27",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sterbebildchen_der_sechs_Ermordeten.jpg",
+   "ai": false
+  },
+  {
+   "name": "poster",
+   "src": "2/1-2.jpg",
+   "title": "Plakat mit Belohnung von 100 000 Mark.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:19:28",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Plakat_mit_Belohnung_von_100_000_Mark.jpg",
    "ai": false
   },
   {
@@ -61,13 +61,33 @@
    "ai": false
   },
   {
-   "name": "field",
-   "src": "1/10-8.jpg",
-   "title": "Farm track across snowy field - geograph.org.uk - 2201602.jpg",
-   "artist": "Peter Barr",
-   "date": "2010-12-18",
+   "name": "tree",
+   "src": "2/1-10.jpg",
+   "title": "Stammbaum der Familie Gruber.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:22:57",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Stammbaum_der_Familie_Gruber.jpg",
+   "ai": false
+  },
+  {
+   "name": "stube",
+   "src": "2/13-4.jpg",
+   "title": "Bauernstube",
+   "artist": "arne.list",
+   "date": "",
    "license": "CC BY-SA 2.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Farm_track_across_snowy_field_-_geograph.org.uk_-_2201602.jpg",
+   "page": "https://www.flickr.com/photos/21914065@N05/3188280237",
+   "ai": false
+  },
+  {
+   "name": "trail",
+   "src": "2/11-2.jpg",
+   "title": "Footprints on Snow",
+   "artist": "espinr",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/85898981@N00/12943716035",
    "ai": false
   },
   {
@@ -82,42 +102,102 @@
   },
   {
    "name": "attic",
-   "src": "1/11-1.jpg",
-   "title": "DETAIL OF ATTIC CONSTRUCTION - Abraham Van Campen House, Old Mine Road, Millbrook, Warren County, NJ HABS NJ,21-MILBRO.V,4-7.tif",
-   "artist": "",
-   "date": "Documentation compiled after 1933",
-   "license": "Public domain",
-   "page": "https://commons.wikimedia.org/wiki/File:DETAIL_OF_ATTIC_CONSTRUCTION_-_Abraham_Van_Campen_House,_Old_Mine_Road,_Millbrook,_Warren_County,_NJ_HABS_NJ,21-MILBRO.V,4-7.tif",
+   "src": "2/5-3.jpg",
+   "title": "Kirche Ritschenhausen Dachboden (1).jpg",
+   "artist": "Wikitarisch",
+   "date": "2024-05-15 17:33:58",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kirche_Ritschenhausen_Dachboden_(1).jpg",
    "ai": false
   },
   {
-   "name": "barn",
-   "src": "1/12-6.jpg",
-   "title": "Interiör från ladugård/magasin, Fullerö 16:4, Gamla Uppsala socken, Uppland 1978",
-   "artist": "Wannberg, Elisabeth, Wannberg, Elisabeth",
+   "name": "door",
+   "src": "2/6-6.jpg",
+   "title": "NMP 1780s House Interior Attic stairs doorway",
+   "artist": "Infrogmation",
    "date": "",
-   "license": "CC0",
-   "page": "https://www.europeana.eu/item/91617/upmu_photo_SM1129_02",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/29350288@N06/6711520483",
    "ai": false
   },
   {
-   "name": "hoes",
-   "src": "1/8-3.jpg",
-   "title": "Hoes at Kitagata Shikinooka Museum.jpg",
-   "artist": "Peka",
-   "date": "2019-04-05 16:08:08",
-   "license": "CC BY-SA 4.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Hoes_at_Kitagata_Shikinooka_Museum.jpg",
-   "ai": false
-  },
-  {
-   "name": "cows",
-   "src": "1/15-3.jpg",
-   "title": "In the cattle barn at the Vermont History Expo 2012",
-   "artist": "leewrightonflickr",
-   "date": "",
+   "name": "track",
+   "src": "1/10-8.jpg",
+   "title": "Farm track across snowy field - geograph.org.uk - 2201602.jpg",
+   "artist": "Peter Barr",
+   "date": "2010-12-18",
    "license": "CC BY-SA 2.0",
-   "page": "https://www.flickr.com/photos/8256974@N05/7395590470",
+   "page": "https://commons.wikimedia.org/wiki/File:Farm_track_across_snowy_field_-_geograph.org.uk_-_2201602.jpg",
+   "ai": false
+  },
+  {
+   "name": "memo",
+   "src": "1/2-7.jpg",
+   "title": "Hinterkaifeck Inschrift.jpg",
+   "artist": "Christian Greller from Regenstauf, Germany",
+   "date": "2007-01-16 17:25",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hinterkaifeck_Inschrift.jpg",
+   "ai": false
+  },
+  {
+   "name": "haue",
+   "src": "2/1-3.jpg",
+   "title": "Reuthaue als mutmaßliche Mordwaffe 2.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:25:41",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Reuthaue_als_mutma%C3%9Fliche_Mordwaffe_2.jpg",
+   "ai": false
+  },
+  {
+   "name": "stall",
+   "src": "2/9-6.jpg",
+   "title": "Wittgendorf, Hof Hartmann, Kuhstall",
+   "artist": "Möbius, Walter (Herstellung) (Fotograf)",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "page": "https://www.europeana.eu/item/463/item_ZSWYDXC2RGCW33EK3JDIQY73HGTNRLBU",
+   "ai": false
+  },
+  {
+   "name": "stadel",
+   "src": "1/2-4.jpg",
+   "title": "Tatortfotos zu Mord in Hinterkaifeck ,.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:16:59",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tatortfotos_zu_Mord_in_Hinterkaifeck_,.jpg",
+   "ai": false
+  },
+  {
+   "name": "aussage",
+   "src": "2/1-6.jpg",
+   "title": "Aussage von Josef Brummer über Karl Gabriels Tod.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:21:19",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aussage_von_Josef_Brummer_%C3%BCber_Karl_Gabriels_Tod.jpg",
+   "ai": false
+  },
+  {
+   "name": "haue1",
+   "src": "2/1-8.jpg",
+   "title": "Reuthaue als mutmaßliche Mordwaffe 1.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:25:30",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Reuthaue_als_mutma%C3%9Fliche_Mordwaffe_1.jpg",
+   "ai": false
+  },
+  {
+   "name": "attic2",
+   "src": "2/4-1.jpg",
+   "title": "Chorzów Siemianowicka 46 attic 2020.jpg",
+   "artist": "Adrian Tync",
+   "date": "2020-09-21 08:44:39",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Chorz%C3%B3w_Siemianowicka_46_attic_2020.jpg",
    "ai": false
   },
   {
@@ -139,6 +219,76 @@
    "license": "CC BY-SA 4.0",
    "page": "https://commons.wikimedia.org/wiki/File:Ausstellung_zu_Mord_in_Hinterkaifeck_11.jpg",
    "ai": false
+  },
+  {
+   "name": "mahnmal",
+   "src": "2/1-12.jpg",
+   "title": "Hinterkaifeck1.jpg",
+   "artist": "Kililuki",
+   "date": "27 April 2025, 13:01:50 (according to Exif data)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hinterkaifeck1.jpg",
+   "ai": false
+  },
+  {
+   "name": "grab",
+   "src": "2/1-11.jpg",
+   "title": "Hinterkaifeck.jpg",
+   "artist": "Benutzer:Tegernbach",
+   "date": "2006-06",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hinterkaifeck.jpg",
+   "ai": false
+  },
+  {
+   "name": "stairs",
+   "src": "2/6-2.jpg",
+   "title": "Attic stairs, Talbot House (TOC H)",
+   "artist": "ThruTheseLines",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/62811324@N02/6860982561",
+   "ai": false
+  },
+  {
+   "name": "cows",
+   "src": "2/9-1.jpg",
+   "title": "Kuhstall",
+   "artist": "Stiftung Domäne Dahlem - Estate and Museum",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "page": "https://www.europeana.eu/item/1569/item_AUQAY5JP55MBOF5OR37CDXI4TJZ25CKG",
+   "ai": false
+  },
+  {
+   "name": "print",
+   "src": "1/9-3.jpg",
+   "title": "Footprints in the snow, Munich 2021 06.jpg",
+   "artist": "Kritzolina",
+   "date": "Taken on 17 January 2021, 17:02:41",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Footprints_in_the_snow,_Munich_2021_06.jpg",
+   "ai": false
+  },
+  {
+   "name": "haue3",
+   "src": "2/1-9.jpg",
+   "title": "Reuthaue als mutmaßliche Mordwaffe 3.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:20:09",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Reuthaue_als_mutma%C3%9Fliche_Mordwaffe_3.jpg",
+   "ai": false
+  },
+  {
+   "name": "cow",
+   "src": "2/9-2.jpg",
+   "title": "Kuhstall",
+   "artist": "Stiftung Domäne Dahlem - Estate and Museum",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "page": "https://www.europeana.eu/item/1569/item_HC2JM5J6L73432B3AKPZ3NDJB5EJANMW",
+   "ai": false
   }
  ],
  "scenes": [
@@ -152,13 +302,8 @@
     "aber nicht wieder weg."
    ],
    "edit": "hook",
-   "head": "",
+   "head": "Hinterkaifeck",
    "items": [
-    {
-     "type": "photo",
-     "image": "print.jpg",
-     "ai": false
-    },
     {
      "type": "photo",
      "image": "farm.jpg",
@@ -166,7 +311,7 @@
     },
     {
      "type": "photo",
-     "image": "trail.jpg",
+     "image": "plots.jpg",
      "ai": false
     },
     {
@@ -188,11 +333,11 @@
     "sechs Menschen auf dem Hof tot."
    ],
    "edit": "place",
-   "head": "",
+   "head": "Hinterkaifeck",
    "items": [
     {
      "type": "photo",
-     "image": "memo.jpg",
+     "image": "sterbe.jpg",
      "ai": false
     },
     {
@@ -209,9 +354,26 @@
     "Das ist Hinterkaifeck, Deutschlands",
     "bekanntester ungelöster Mordfall."
    ],
-   "edit": "chapter",
+   "edit": "where",
    "head": "Hinterkaifeck",
-   "items": []
+   "items": [
+    {
+     "type": "card"
+    },
+    {
+     "type": "photo",
+     "image": "poster.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "bekanntester Fall"
+    },
+    {
+     "type": "tape",
+     "text": "ungelöst"
+    }
+   ]
   },
   {
    "scene": 4,
@@ -230,7 +392,7 @@
     },
     {
      "type": "tape",
-     "text": "einsamer Einödhof"
+     "text": "ein einsamer Hof"
     }
    ]
   },
@@ -251,10 +413,6 @@
     },
     {
      "type": "tape",
-     "text": "SCHROBENHAUSEN"
-    },
-    {
-     "type": "tape",
      "text": "Frühjahr 1922"
     }
    ]
@@ -262,13 +420,10 @@
   {
    "scene": 6,
    "start": 17.341,
-   "end": 25.219,
+   "end": 20.76,
    "said": [
     "Hier lebte der Bauer Andreas",
-    "Gruber mit seiner Frau Cäzilia.",
-    "Dazu ihre verwitwete Tochter Viktoria",
-    "und deren zwei Kinder,",
-    "Cäzilia und Josef."
+    "Gruber mit seiner Frau Cäzilia."
    ],
    "edit": "who",
    "head": "Hinterkaifeck",
@@ -280,18 +435,45 @@
   },
   {
    "scene": 7,
+   "start": 20.76,
+   "end": 25.219,
+   "said": [
+    "Dazu ihre verwitwete Tochter Viktoria",
+    "und deren zwei Kinder,",
+    "Cäzilia und Josef."
+   ],
+   "edit": "detail",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "tree.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Tochter Viktoria"
+    },
+    {
+     "type": "tape",
+     "text": "Cäzilia und Josef"
+    }
+   ]
+  },
+  {
+   "scene": 8,
    "start": 25.219,
    "end": 28.984,
    "said": [
     "Ende März erzählte Andreas Gruber",
     "den Nachbarn von seltsamen Dingen."
    ],
-   "edit": "figure",
+   "edit": "place",
    "head": "Hinterkaifeck",
    "items": [
     {
      "type": "photo",
-     "image": "farm.jpg",
+     "image": "stube.jpg",
      "ai": false
     },
     {
@@ -305,7 +487,7 @@
    ]
   },
   {
-   "scene": 8,
+   "scene": 9,
    "start": 28.984,
    "end": 32.135,
    "said": [
@@ -317,17 +499,21 @@
    "items": [
     {
      "type": "photo",
-     "image": "field.jpg",
+     "image": "trail.jpg",
      "ai": false
     },
     {
      "type": "photo",
-     "image": "print.jpg",
+     "image": "plots.jpg",
      "ai": false
     },
     {
      "type": "tape",
-     "text": "zum Hof"
+     "text": "Spuren im Schnee"
+    },
+    {
+     "type": "tape",
+     "text": "ZUM HOF"
     },
     {
      "type": "tape",
@@ -336,9 +522,9 @@
    ]
   },
   {
-   "scene": 9,
+   "scene": 10,
    "start": 32.135,
-   "end": 34.305,
+   "end": 34.065,
    "said": [
     "Ein Hausschlüssel war verschwunden.",
     "Und auf dem Dachboden hörte"
@@ -353,13 +539,17 @@
     },
     {
      "type": "tape",
+     "text": "Symbolbild"
+    },
+    {
+     "type": "tape",
      "text": "Hausschlüssel weg"
     }
    ]
   },
   {
-   "scene": 10,
-   "start": 34.305,
+   "scene": 11,
+   "start": 34.065,
    "end": 36.109,
    "said": [
     "er Schritte."
@@ -374,12 +564,16 @@
     },
     {
      "type": "tape",
-     "text": "Schritte auf dem Dachboden"
+     "text": "AUF DEM DACHBODEN"
+    },
+    {
+     "type": "tape",
+     "text": "Schritte"
     }
    ]
   },
   {
-   "scene": 11,
+   "scene": 12,
    "start": 36.109,
    "end": 40.373,
    "said": [
@@ -387,12 +581,21 @@
     "den Hof Monate zuvor verlassen.",
     "Sie sagte, dort spuke es."
    ],
-   "edit": "statement",
+   "edit": "figure",
    "head": "Hinterkaifeck",
    "items": [
     {
+     "type": "photo",
+     "image": "door.jpg",
+     "ai": false
+    },
+    {
      "type": "tape",
-     "text": "Die alte Magd ging"
+     "text": "DIE FRÜHERE MAGD"
+    },
+    {
+     "type": "tape",
+     "text": "ging Monate zuvor"
     },
     {
      "type": "tape",
@@ -401,7 +604,7 @@
    ]
   },
   {
-   "scene": 12,
+   "scene": 13,
    "start": 40.373,
    "end": 45.849,
    "said": [
@@ -413,7 +616,7 @@
    "items": [
     {
      "type": "photo",
-     "image": "farm2.jpg",
+     "image": "track.jpg",
      "ai": false
     },
     {
@@ -422,40 +625,45 @@
    ]
   },
   {
-   "scene": 13,
+   "scene": 14,
    "start": 45.849,
    "end": 48.473,
    "said": [
     "Es war ihr erster Tag auf dem Hof.",
     "Und ihr letzter."
    ],
-   "edit": "statement",
+   "edit": "detail",
    "head": "Hinterkaifeck",
    "items": [
+    {
+     "type": "photo",
+     "image": "sterbe_m.jpg",
+     "ai": false
+    },
     {
      "type": "tape",
      "text": "ERSTER TAG"
     },
     {
      "type": "tape",
-     "text": "und letzter"
+     "text": "und ihr letzter"
     }
    ]
   },
   {
-   "scene": 14,
+   "scene": 15,
    "start": 48.473,
    "end": 51.337,
    "said": [
     "In dieser Nacht",
     "wurden alle sechs Menschen getötet."
    ],
-   "edit": "figure",
+   "edit": "place",
    "head": "Hinterkaifeck",
    "items": [
     {
      "type": "photo",
-     "image": "barn.jpg",
+     "image": "memo.jpg",
      "ai": false
     },
     {
@@ -469,33 +677,33 @@
    ]
   },
   {
-   "scene": 15,
+   "scene": 16,
    "start": 51.337,
    "end": 54.128,
    "said": [
     "Als Tatwaffe gilt eine Reuthaue,",
     "eine Art Hacke."
    ],
-   "edit": "place",
+   "edit": "detail",
    "head": "Hinterkaifeck",
    "items": [
     {
      "type": "photo",
-     "image": "hoes.jpg",
+     "image": "haue.jpg",
      "ai": false
     },
     {
      "type": "tape",
-     "text": "TATWAFFE"
+     "text": "GILT ALS TATWAFFE"
     },
     {
      "type": "tape",
-     "text": "Reuthaue (Symbolbild)"
+     "text": "eine Art Hacke"
     }
    ]
   },
   {
-   "scene": 16,
+   "scene": 17,
    "start": 54.128,
    "end": 57.706,
    "said": [
@@ -516,7 +724,7 @@
    ]
   },
   {
-   "scene": 17,
+   "scene": 18,
    "start": 57.706,
    "end": 60.897,
    "said": [
@@ -528,7 +736,7 @@
    "items": [
     {
      "type": "photo",
-     "image": "cows.jpg",
+     "image": "stall.jpg",
      "ai": false
     },
     {
@@ -537,12 +745,12 @@
     },
     {
      "type": "tape",
-     "text": "jemand fütterte das Vieh"
+     "text": "jemand versorgt das Vieh"
     }
    ]
   },
   {
-   "scene": 18,
+   "scene": 19,
    "start": 60.897,
    "end": 65.597,
    "said": [
@@ -555,7 +763,7 @@
    "items": [
     {
      "type": "photo",
-     "image": "barn.jpg",
+     "image": "stadel.jpg",
      "ai": false
     },
     {
@@ -564,7 +772,7 @@
    ]
   },
   {
-   "scene": 19,
+   "scene": 20,
    "start": 65.597,
    "end": 69.921,
    "said": [
@@ -572,15 +780,17 @@
     "unter Verdacht, doch keinem wurde",
     "die Tat nachgewiesen."
    ],
-   "edit": "where",
+   "edit": "pair",
    "head": "Hinterkaifeck",
    "items": [
     {
-     "type": "card"
+     "type": "photo",
+     "image": "poster_b.jpg",
+     "ai": false
     },
     {
      "type": "photo",
-     "image": "doc1.jpg",
+     "image": "aussage.jpg",
      "ai": false
     },
     {
@@ -594,7 +804,7 @@
    ]
   },
   {
-   "scene": 20,
+   "scene": 21,
    "start": 69.921,
    "end": 75.058,
    "said": [
@@ -607,12 +817,7 @@
    "items": [
     {
      "type": "photo",
-     "image": "attic.jpg",
-     "ai": false
-    },
-    {
-     "type": "photo",
-     "image": "hoes.jpg",
+     "image": "haue1.jpg",
      "ai": false
     },
     {
@@ -621,28 +826,42 @@
     },
     {
      "type": "tape",
+     "text": "beim Abriss des Hofes"
+    },
+    {
+     "type": "photo",
+     "image": "attic2.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
      "text": "im Dachboden versteckt"
     }
    ]
   },
   {
-   "scene": 21,
+   "scene": 22,
    "start": 75.058,
    "end": 78.733,
    "said": [
     "1955 wurden die Ermittlungen",
     "eingestellt."
    ],
-   "edit": "span",
+   "edit": "timeline",
    "head": "Hinterkaifeck",
    "items": [
+    {
+     "type": "photo",
+     "image": "doc1.jpg",
+     "ai": false
+    },
     {
      "type": "card"
     }
    ]
   },
   {
-   "scene": 22,
+   "scene": 23,
    "start": 78.733,
    "end": 83.191,
    "said": [
@@ -663,12 +882,12 @@
     },
     {
      "type": "tape",
-     "text": "Polizeischüler prüfen neu"
+     "text": "angehende Kriminalbeamte"
     }
    ]
   },
   {
-   "scene": 23,
+   "scene": 24,
    "start": 83.191,
    "end": 88.352,
    "said": [
@@ -685,19 +904,24 @@
    ]
   },
   {
-   "scene": 24,
+   "scene": 25,
    "start": 88.352,
    "end": 92.006,
    "said": [
     "Über hundert Jahre später ist",
     "Hinterkaifeck noch immer ungelöst."
    ],
-   "edit": "place",
+   "edit": "pair",
    "head": "Hinterkaifeck",
    "items": [
     {
      "type": "photo",
-     "image": "farm.jpg",
+     "image": "mahnmal.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "grab.jpg",
      "ai": false
     },
     {
@@ -711,34 +935,50 @@
    ]
   },
   {
-   "scene": 25,
+   "scene": 26,
    "start": 92.006,
-   "end": 95.41,
+   "end": 93.592,
    "said": [
     "Wer war auf dem Dachboden?",
-    "Und wer versorgte",
-    "nach der Tat das Vieh?"
+    "Und wer versorgte"
    ],
    "edit": "question",
    "head": "Hinterkaifeck",
    "items": [
     {
      "type": "photo",
-     "image": "attic.jpg",
+     "image": "stairs.jpg",
      "ai": false
     },
     {
      "type": "tape",
      "text": "Wer war auf dem Dachboden?"
-    },
-    {
-     "type": "tape",
-     "text": "Wer fütterte das Vieh?"
     }
    ]
   },
   {
-   "scene": 26,
+   "scene": 27,
+   "start": 93.592,
+   "end": 95.41,
+   "said": [
+    "nach der Tat das Vieh?"
+   ],
+   "edit": "figure",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "cows.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer versorgte das Vieh?"
+    }
+   ]
+  },
+  {
+   "scene": 28,
    "start": 95.41,
    "end": 99.726,
    "said": [
@@ -747,11 +987,6 @@
    "edit": "ending",
    "head": "Hinterkaifeck",
    "items": [
-    {
-     "type": "photo",
-     "image": "farm.jpg",
-     "ai": false
-    },
     {
      "type": "photo",
      "image": "print.jpg",
@@ -764,7 +999,12 @@
     },
     {
      "type": "photo",
-     "image": "cows.jpg",
+     "image": "haue3.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "cow.jpg",
      "ai": false
     },
     {

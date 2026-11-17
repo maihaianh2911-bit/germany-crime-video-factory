@@ -38,33 +38,14 @@
    "s": 0.0,
    "e": 4.639,
    "scene": 1,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": null,
+    "s": 0.0
+   },
    "items": [
-    {
-     "type": "photo",
-     "src": "crime/5/img/print.jpg",
-     "w": 1920,
-     "h": 1280,
-     "box": [
-      0,
-      0,
-      1080,
-      1920
-     ],
-     "ai": false,
-     "rot": 0,
-     "credit": "Kritzolina / CC BY-SA 4.0",
-     "bleed": true,
-     "view": [
-      0.3125,
-      0.0,
-      0.6875,
-      1.0
-     ],
-     "drift": 0.1,
-     "rings": [],
-     "s": 0.0
-    },
     {
      "type": "photo",
      "src": "crime/5/img/farm.jpg",
@@ -80,6 +61,7 @@
      "rot": 0,
      "credit": "Andreas Biegleder / Public domain",
      "bleed": true,
+     "depth": "crime/5/img/farm.depth.jpg",
      "view": [
       0.28063,
       0.0,
@@ -87,14 +69,15 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Hof Hinterkaifeck · 1922",
      "rings": [],
-     "s": 2.85
+     "s": 0.0
     },
     {
      "type": "photo",
-     "src": "crime/5/img/trail.jpg",
-     "w": 1412,
-     "h": 2000,
+     "src": "crime/5/img/plots.jpg",
+     "w": 1400,
+     "h": 1235,
      "box": [
       0,
       0,
@@ -103,17 +86,31 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Fortepan / CC BY-SA 4.0",
+     "credit": "Königlich Bayerisches Vermessungsamt / Public domain",
      "bleed": true,
+     "depth": "crime/5/img/plots.depth.jpg",
      "view": [
-      0.10163,
+      0.2199,
       0.0,
-      0.89837,
+      0.7161,
       1.0
      ],
      "drift": 0.1,
-     "rings": [],
-     "s": 3.55
+     "label": "Flurkarte: Hof Hinterkaifeck",
+     "rings": [
+      {
+       "s": 2.85,
+       "box": [
+        0.4,
+        0.27,
+        0.53,
+        0.4
+       ],
+       "shape": "ellipse",
+       "color": "red"
+      }
+     ],
+     "s": 2.17
     },
     {
      "type": "tape",
@@ -123,7 +120,7 @@
      "x": 540,
      "y": 1240,
      "align": "center",
-     "rot": 1.41,
+     "rot": -2.87,
      "s": 0.0
     },
     {
@@ -134,41 +131,47 @@
      "x": 540,
      "y": 1110,
      "align": "center",
-     "rot": -0.68,
+     "rot": 2.8,
      "s": 2.25
     }
    ],
-   "credit": "Foto: Kritzolina / CC BY-SA 4.0 · Andreas Biegleder / Public domain · Fortepan / CC BY-SA 4.0",
+   "credit": "Foto: Andreas Biegleder / Public domain · Königlich Bayerisches Vermessungsamt / Public domain",
    "edit": "hook"
   },
   {
    "s": 4.639,
    "e": 8.072,
    "scene": 2,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 4.639
+   },
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/memo.jpg",
-     "w": 1424,
+     "src": "crime/5/img/sterbe.jpg",
+     "w": 1149,
      "h": 2000,
      "box": [
-      0,
-      0,
-      1080,
-      1920
+      245.0,
+      388.3,
+      590,
+      983.3
      ],
      "ai": false,
-     "rot": 0,
-     "credit": "Christian Greller from Regenstauf, Germany / CC BY 2.0",
-     "bleed": true,
+     "rot": -1.7,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
      "view": [
-      0.10499,
       0.0,
-      0.89501,
-      1.0
+      0.01173,
+      1.0,
+      0.98827
      ],
      "drift": 0.1,
+     "label": "Sterbebild der sechs Opfer",
      "rings": [],
      "s": 4.639
     },
@@ -176,16 +179,16 @@
      "type": "tape",
      "text": "6 TOTE",
      "color": "red",
-     "px": 80,
-     "x": 540,
-     "y": 1300,
+     "px": 72,
+     "x": 815,
+     "y": 480,
      "align": "center",
      "rot": -1,
      "s": 6.389
     }
    ],
    "hush": true,
-   "credit": "Foto: Christian Greller from Regenstauf, Germany / CC BY 2.0",
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
    "edit": "place"
   },
   {
@@ -195,13 +198,79 @@
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
-    "mode": "mid",
-    "from": null,
+    "mode": "top",
+    "from": "top",
     "s": 8.072
    },
-   "items": [],
-   "credit": "",
-   "edit": "chapter"
+   "items": [
+    {
+     "type": "card",
+     "style": "folder",
+     "box": [
+      90.0,
+      441.0,
+      900,
+      960
+     ],
+     "rot": -0.43,
+     "head": "",
+     "rows": [],
+     "tab": "AKTE · HINTERKAIFECK",
+     "corner": "1922",
+     "note": null,
+     "stamp": null,
+     "s": 8.072
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/poster.jpg",
+     "w": 1306,
+     "h": 2000,
+     "box": [
+      290.0,
+      467.2,
+      500,
+      765.7
+     ],
+     "ai": false,
+     "rot": 0.85,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
+     "view": [
+      0.01009,
+      0.0,
+      0.98991,
+      1.0
+     ],
+     "drift": 0.1,
+     "label": "Fahndungsplakat · April 1922",
+     "rings": [],
+     "s": 8.298
+    },
+    {
+     "type": "tape",
+     "text": "bekanntester Fall",
+     "color": "yellow",
+     "px": 67,
+     "x": 330,
+     "y": 1305,
+     "align": "center",
+     "rot": -2.41,
+     "s": 9.73
+    },
+    {
+     "type": "tape",
+     "text": "ungelöst",
+     "color": "red",
+     "px": 62,
+     "x": 770,
+     "y": 1305,
+     "align": "center",
+     "rot": 2.51,
+     "s": 10.401
+    }
+   ],
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
+   "edit": "where"
   },
   {
    "s": 11.95,
@@ -211,7 +280,7 @@
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
     "mode": "top",
-    "from": "mid",
+    "from": "top",
     "s": 11.95
    },
    "items": [
@@ -236,18 +305,19 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Hof Hinterkaifeck (vor 1922)",
      "rings": [],
      "s": 11.95
     },
     {
      "type": "tape",
-     "text": "einsamer Einödhof",
+     "text": "ein einsamer Hof",
      "color": "yellow",
      "px": 67,
      "x": 134.0,
      "y": 450.8,
      "align": "left",
-     "rot": 0.59,
+     "rot": 1.61,
      "s": 12.222
     }
    ],
@@ -287,6 +357,7 @@
       1.0
      ],
      "drift": 0,
+     "label": "Schrobenhausen, Oberbayern",
      "zoom": {
       "to": [
        0.36,
@@ -314,24 +385,13 @@
     },
     {
      "type": "tape",
-     "text": "SCHROBENHAUSEN",
-     "color": "white",
-     "px": 67,
-     "x": 540.0,
-     "y": 1400.9,
-     "align": "center",
-     "rot": -1,
-     "s": 13.22
-    },
-    {
-     "type": "tape",
      "text": "Frühjahr 1922",
      "color": "yellow",
      "px": 67,
      "x": 134.8,
      "y": 414.9,
      "align": "left",
-     "rot": -1.11,
+     "rot": 3.36,
      "s": 15.02
     }
    ],
@@ -340,7 +400,7 @@
   },
   {
    "s": 17.341,
-   "e": 25.219,
+   "e": 20.76,
    "scene": 6,
    "head": {
     "kicker": "AKTE 1922",
@@ -355,9 +415,9 @@
      "style": "paper",
      "box": [
       110.0,
-      566.0,
+      710.0,
       860,
-      710
+      422
      ],
      "rot": -0.89,
      "head": "FAMILIE GRUBER",
@@ -373,24 +433,6 @@
        "r": "Ehefrau",
        "s": 19.511,
        "color": ""
-      },
-      {
-       "l": "Viktoria",
-       "r": "Tochter",
-       "s": 21.681,
-       "color": ""
-      },
-      {
-       "l": "Cäzilia",
-       "r": "Enkelin",
-       "s": 23.689,
-       "color": ""
-      },
-      {
-       "l": "Josef",
-       "r": "Enkel",
-       "s": 24.384,
-       "color": ""
       }
      ],
      "tab": "",
@@ -404,9 +446,105 @@
    "edit": "who"
   },
   {
+   "s": 20.76,
+   "e": 25.219,
+   "scene": 7,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 20.76
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/tree.jpg",
+     "w": 1804,
+     "h": 1158,
+     "box": [
+      140.0,
+      609.3,
+      800,
+      513.5
+     ],
+     "ai": false,
+     "rot": -2.04,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01014,
+      1.0,
+      0.98986
+     ],
+     "drift": 0,
+     "label": "Stammbaum der Familie Gruber",
+     "zoom": {
+      "to": [
+       0.01337,
+       0.26,
+       0.66663,
+       0.9
+      ],
+      "s": 21.681,
+      "e": 23.081
+     },
+     "rings": [
+      {
+       "s": 21.965,
+       "box": [
+        0.255,
+        0.48,
+        0.457,
+        0.62
+       ],
+       "shape": "ellipse",
+       "color": "red"
+      },
+      {
+       "s": 23.134,
+       "box": [
+        0.266,
+        0.63,
+        0.426,
+        0.75
+       ],
+       "shape": "ellipse",
+       "color": "yellow"
+      }
+     ],
+     "s": 20.76
+    },
+    {
+     "type": "tape",
+     "text": "Tochter Viktoria",
+     "color": "yellow",
+     "px": 67,
+     "x": 124.0,
+     "y": 619.3,
+     "align": "left",
+     "rot": 3.27,
+     "s": 21.681
+    },
+    {
+     "type": "tape",
+     "text": "Cäzilia und Josef",
+     "color": "yellow",
+     "px": 67,
+     "x": 640,
+     "y": 1225,
+     "align": "center",
+     "rot": -0.9,
+     "s": 23.689
+    }
+   ],
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
+   "edit": "detail"
+  },
+  {
    "s": 25.219,
    "e": 28.984,
-   "scene": 7,
+   "scene": 8,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -417,25 +555,26 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/farm.jpg",
+     "src": "crime/5/img/stube.jpg",
      "w": 1400,
-     "h": 1092,
+     "h": 937,
      "box": [
-      234.5,
-      536.7,
-      610.9,
-      680.8
+      150.0,
+      396.5,
+      780,
+      522.0
      ],
      "ai": false,
-     "rot": -2.35,
-     "credit": "Andreas Biegleder / Public domain",
+     "rot": -0.96,
+     "credit": "arne.list / CC BY-SA 2.0",
      "view": [
-      0.15176,
       0.0,
-      0.84824,
-      1.0
+      0.00924,
+      1.0,
+      0.99076
      ],
      "drift": 0.1,
+     "label": "Bauernstube (Symbolbild)",
      "rings": [],
      "s": 25.219
     },
@@ -444,10 +583,10 @@
      "text": "ENDE MÄRZ",
      "color": "white",
      "px": 67,
-     "x": 540.0,
-     "y": 544.7,
-     "align": "center",
-     "rot": 2.24,
+     "x": 134.0,
+     "y": 406.5,
+     "align": "left",
+     "rot": -1,
      "s": 25.442
     },
     {
@@ -455,20 +594,20 @@
      "text": "seltsame Dinge",
      "color": "red",
      "px": 62,
-     "x": 540.0,
-     "y": 1285.7,
+     "x": 540,
+     "y": 1010,
      "align": "center",
-     "rot": -0.91,
+     "rot": -1,
      "s": 27.749
     }
    ],
-   "credit": "Foto: Andreas Biegleder / Public domain",
-   "edit": "figure"
+   "credit": "Foto: arne.list / CC BY-SA 2.0",
+   "edit": "place"
   },
   {
    "s": 28.984,
    "e": 32.135,
-   "scene": 8,
+   "scene": 9,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -479,61 +618,86 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/field.jpg",
-     "w": 1920,
-     "h": 1440,
+     "src": "crime/5/img/trail.jpg",
+     "w": 1050,
+     "h": 1400,
      "box": [
-      30.0,
-      527.8,
-      580,
-      435.0
+      85.0,
+      453.3,
+      430,
+      573.3
      ],
      "ai": false,
-     "rot": -1.72,
-     "credit": "Peter Barr / CC BY-SA 2.0",
+     "rot": -2.12,
+     "credit": "espinr / CC BY 2.0",
      "view": [
+      0.00853,
       0.0,
-      0.00845,
-      1.0,
-      0.99155
+      0.99147,
+      1.0
      ],
      "drift": 0.1,
+     "label": "Symbolbild",
      "rings": [],
      "s": 28.984
     },
     {
      "type": "photo",
-     "src": "crime/5/img/print.jpg",
-     "w": 1920,
-     "h": 1280,
+     "src": "crime/5/img/plots.jpg",
+     "w": 1400,
+     "h": 1235,
      "box": [
-      485.0,
-      899.0,
-      560,
-      373.3
+      480.0,
+      839.5,
+      500,
+      441.1
      ],
      "ai": false,
-     "rot": 1.36,
-     "credit": "Kritzolina / CC BY-SA 4.0",
+     "rot": 1.59,
+     "credit": "Königlich Bayerisches Vermessungsamt / Public domain",
      "view": [
       0.0,
-      0.0132,
+      0.00393,
       1.0,
-      0.9868
+      0.99607
      ],
      "drift": 0.1,
-     "rings": [],
-     "s": 30.174
+     "label": "Flurkarte: Hof Hinterkaifeck",
+     "rings": [
+      {
+       "s": 30.174,
+       "box": [
+        0.4,
+        0.27,
+        0.53,
+        0.4
+       ],
+       "shape": "ellipse",
+       "color": "red"
+      }
+     ],
+     "s": 30.034
     },
     {
      "type": "tape",
-     "text": "zum Hof",
+     "text": "Spuren im Schnee",
      "color": "yellow",
      "px": 67,
-     "x": 22,
-     "y": 537.8,
+     "x": 69.0,
+     "y": 463.3,
      "align": "left",
-     "rot": -2.13,
+     "rot": -0.72,
+     "s": 29.189
+    },
+    {
+     "type": "tape",
+     "text": "ZUM HOF",
+     "color": "white",
+     "px": 67,
+     "x": 730.0,
+     "y": 779.2,
+     "align": "center",
+     "rot": 1.08,
      "s": 30.174
     },
     {
@@ -541,20 +705,20 @@
      "text": "nicht zurück",
      "color": "red",
      "px": 62,
-     "x": 765.0,
-     "y": 1340.5,
+     "x": 730,
+     "y": 1375,
      "align": "center",
-     "rot": 3.22,
+     "rot": -3.24,
      "s": 31.334
     }
    ],
-   "credit": "Foto: Peter Barr / CC BY-SA 2.0 · Kritzolina / CC BY-SA 4.0",
+   "credit": "Foto: espinr / CC BY 2.0 · Königlich Bayerisches Vermessungsamt / Public domain",
    "edit": "pair"
   },
   {
    "s": 32.135,
-   "e": 34.305,
-   "scene": 9,
+   "e": 34.065,
+   "scene": 10,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -581,13 +745,24 @@
     },
     {
      "type": "tape",
+     "text": "Symbolbild",
+     "color": "white",
+     "px": 30,
+     "x": 540.0,
+     "y": 562.9,
+     "align": "center",
+     "rot": 2.96,
+     "s": 32.135
+    },
+    {
+     "type": "tape",
      "text": "Hausschlüssel weg",
      "color": "red",
      "px": 62,
      "x": 540.0,
      "y": 1232.6,
      "align": "center",
-     "rot": 1.96,
+     "rot": -0.71,
      "s": 33.125
     }
    ],
@@ -595,70 +770,82 @@
    "edit": "object"
   },
   {
-   "s": 34.305,
+   "s": 34.065,
    "e": 36.109,
-   "scene": 10,
+   "scene": 11,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
     "mode": "top",
     "from": "top",
-    "s": 34.305
+    "s": 34.065
    },
    "items": [
     {
      "type": "photo",
      "src": "crime/5/img/attic.jpg",
-     "w": 1786,
-     "h": 1443,
+     "w": 1920,
+     "h": 1440,
      "box": [
       140.0,
-      542.9,
+      566.1,
       800,
-      646.4
+      600.0
      ],
      "ai": false,
      "rot": -2.54,
-     "credit": "Public domain",
+     "credit": "Wikitarisch / CC BY 4.0",
      "view": [
       0.0,
-      0.00428,
+      0.00604,
       1.0,
-      0.99572
+      0.99396
      ],
      "drift": 0,
+     "label": "Dachboden (Symbolbild)",
      "zoom": {
       "to": [
-       0.19741,
-       0.1,
-       0.80259,
-       0.7
+       0.2467,
+       0.08,
+       0.7933,
+       0.62
       ],
       "s": 34.425,
       "e": 36.025
      },
      "rings": [],
-     "s": 34.305
+     "s": 34.065
     },
     {
      "type": "tape",
-     "text": "Schritte auf dem Dachboden",
+     "text": "AUF DEM DACHBODEN",
+     "color": "white",
+     "px": 67,
+     "x": 124.0,
+     "y": 576.1,
+     "align": "left",
+     "rot": -1,
+     "s": 34.425
+    },
+    {
+     "type": "tape",
+     "text": "Schritte",
      "color": "red",
      "px": 62,
-     "x": 160.0,
-     "y": 1257.5,
-     "align": "left",
+     "x": 956.0,
+     "y": 866.1,
+     "align": "right",
      "rot": -1,
      "s": 35.345
     }
    ],
-   "credit": "Foto: Public domain",
+   "credit": "Foto: Wikitarisch / CC BY 4.0",
    "edit": "detail"
   },
   {
    "s": 36.109,
    "e": 40.373,
-   "scene": 11,
+   "scene": 12,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -668,15 +855,51 @@
    },
    "items": [
     {
+     "type": "photo",
+     "src": "crime/5/img/door.jpg",
+     "w": 1050,
+     "h": 1400,
+     "box": [
+      284.7,
+      536.7,
+      510.6,
+      680.8
+     ],
+     "ai": false,
+     "rot": -1.84,
+     "credit": "Infrogmation / CC BY 2.0",
+     "view": [
+      0.00715,
+      0.0,
+      0.99285,
+      1.0
+     ],
+     "drift": 0.1,
+     "label": "Treppe (Symbolbild)",
+     "rings": [],
+     "s": 36.109
+    },
+    {
      "type": "tape",
-     "text": "Die alte Magd ging",
+     "text": "DIE FRÜHERE MAGD",
      "color": "white",
-     "px": 80,
+     "px": 67,
      "x": 540.0,
-     "y": 921.0,
+     "y": 476.4,
      "align": "center",
-     "rot": -1.12,
-     "s": 36.308
+     "rot": 1.18,
+     "s": 36.347
+    },
+    {
+     "type": "tape",
+     "text": "ging Monate zuvor",
+     "color": "yellow",
+     "px": 67,
+     "x": 268.7,
+     "y": 877.1,
+     "align": "left",
+     "rot": -2.9,
+     "s": 37.417
     },
     {
      "type": "tape",
@@ -684,19 +907,19 @@
      "color": "red",
      "px": 62,
      "x": 540,
-     "y": 1010,
+     "y": 1260,
      "align": "center",
-     "rot": 2.06,
+     "rot": 1.09,
      "s": 39.359
     }
    ],
-   "credit": "",
-   "edit": "statement"
+   "credit": "Foto: Infrogmation / CC BY 2.0",
+   "edit": "figure"
   },
   {
    "s": 40.373,
    "e": 45.849,
-   "scene": 12,
+   "scene": 13,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -707,25 +930,26 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/farm2.jpg",
-     "w": 1400,
-     "h": 627,
+     "src": "crime/5/img/track.jpg",
+     "w": 1920,
+     "h": 1440,
      "box": [
-      150.0,
-      440.8,
-      780,
-      433.3
+      174.0,
+      383.0,
+      732.0,
+      549.0
      ],
      "ai": false,
-     "rot": -1.58,
-     "credit": "Unknown authorUnknown author / Public domain",
+     "rot": -2.13,
+     "credit": "Peter Barr / CC BY-SA 2.0",
      "view": [
-      0.08452,
       0.0,
-      0.91548,
-      1.0
+      0.00663,
+      1.0,
+      0.99337
      ],
      "drift": 0.1,
+     "label": "Feldweg im Schnee (Symbolbild)",
      "rings": [],
      "s": 40.373
     },
@@ -761,13 +985,13 @@
      "s": 40.373
     }
    ],
-   "credit": "Foto: Unknown authorUnknown author / Public domain",
+   "credit": "Foto: Peter Barr / CC BY-SA 2.0",
    "edit": "timeline"
   },
   {
    "s": 45.849,
    "e": 48.473,
-   "scene": 13,
+   "scene": 14,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -777,35 +1001,72 @@
    },
    "items": [
     {
-     "type": "tape",
-     "text": "ERSTER TAG",
-     "color": "white",
-     "px": 70,
-     "x": 540.0,
-     "y": 921.0,
-     "align": "center",
-     "rot": -3.37,
-     "s": 46.014
+     "type": "photo",
+     "src": "crime/5/img/sterbe_m.jpg",
+     "w": 1612,
+     "h": 901,
+     "box": [
+      140.0,
+      642.5,
+      800,
+      447.1
+     ],
+     "ai": false,
+     "rot": -1.17,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01436,
+      1.0,
+      0.98564
+     ],
+     "drift": 0.1,
+     "label": "Sterbebild · 1922",
+     "rings": [
+      {
+       "s": 47.648,
+       "box": [
+        0.08,
+        0.52,
+        0.92,
+        0.84
+       ],
+       "shape": "ellipse",
+       "color": "red"
+      }
+     ],
+     "s": 45.849
     },
     {
      "type": "tape",
-     "text": "und letzter",
+     "text": "ERSTER TAG",
+     "color": "white",
+     "px": 67,
+     "x": 124.0,
+     "y": 652.5,
+     "align": "left",
+     "rot": -1,
+     "s": 46.253
+    },
+    {
+     "type": "tape",
+     "text": "und ihr letzter",
      "color": "red",
-     "px": 72,
-     "x": 540,
-     "y": 1010,
+     "px": 62,
+     "x": 700,
+     "y": 1200,
      "align": "center",
-     "rot": 1.21,
+     "rot": -1,
      "s": 47.648
     }
    ],
-   "credit": "",
-   "edit": "statement"
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
+   "edit": "detail"
   },
   {
    "s": 48.473,
    "e": 51.337,
-   "scene": 14,
+   "scene": 15,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -816,9 +1077,9 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/barn.jpg",
-     "w": 1400,
-     "h": 901,
+     "src": "crime/5/img/memo.jpg",
+     "w": 1424,
+     "h": 2000,
      "box": [
       0,
       0,
@@ -827,15 +1088,17 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
+     "credit": "Christian Greller from Regenstauf, Germany / CC BY 2.0",
      "bleed": true,
+     "depth": "crime/5/img/memo.depth.jpg",
      "view": [
-      0.319,
+      0.10499,
       0.0,
-      0.681,
+      0.89501,
       1.0
      ],
      "drift": 0.1,
+     "label": "Gedenkstein am Tatort",
      "rings": [],
      "s": 48.473
     },
@@ -847,7 +1110,7 @@
      "x": 540,
      "y": 470,
      "align": "center",
-     "rot": 2.04,
+     "rot": -1,
      "s": 48.644
     },
     {
@@ -858,18 +1121,18 @@
      "x": 540,
      "y": 1240,
      "align": "center",
-     "rot": -2.62,
+     "rot": -1,
      "s": 50.283
     }
    ],
    "hush": true,
-   "credit": "Foto: Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
-   "edit": "figure"
+   "credit": "Foto: Christian Greller from Regenstauf, Germany / CC BY 2.0",
+   "edit": "place"
   },
   {
    "s": 51.337,
    "e": 54.128,
-   "scene": 15,
+   "scene": 16,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -880,58 +1143,71 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/hoes.jpg",
+     "src": "crime/5/img/haue.jpg",
      "w": 1920,
-     "h": 1280,
+     "h": 1202,
      "box": [
-      150.0,
-      397.5,
-      780,
-      520.0
+      140.0,
+      615.7,
+      800,
+      500.8
      ],
      "ai": false,
-     "rot": -0.99,
-     "credit": "Peka / CC BY-SA 4.0",
+     "rot": -1.96,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
      "view": [
       0.0,
-      0.00931,
+      0.01087,
       1.0,
-      0.99069
+      0.98913
      ],
      "drift": 0.1,
-     "rings": [],
+     "label": "Reuthaue (mutmaßl. Tatwaffe)",
+     "rings": [
+      {
+       "s": 52.327,
+       "box": [
+        0.02,
+        0.05,
+        0.5,
+        0.8
+       ],
+       "shape": "ellipse",
+       "color": "yellow"
+      }
+     ],
      "s": 51.337
     },
     {
      "type": "tape",
-     "text": "TATWAFFE",
+     "text": "GILT ALS TATWAFFE",
      "color": "white",
      "px": 67,
-     "x": 540.0,
-     "y": 405.5,
-     "align": "center",
+     "x": 124.0,
+     "y": 625.7,
+     "align": "left",
      "rot": -1,
-     "s": 51.506
+     "s": 51.547
     },
     {
      "type": "tape",
-     "text": "Reuthaue (Symbolbild)",
+     "text": "eine Art Hacke",
      "color": "yellow",
      "px": 67,
-     "x": 134.0,
-     "y": 407.5,
-     "align": "left",
-     "rot": -3.31,
-     "s": 52.327
+     "x": 956.0,
+     "y": 866.1,
+     "align": "right",
+     "rot": -0.93,
+     "s": 53.447
     }
    ],
-   "credit": "Foto: Peka / CC BY-SA 4.0",
-   "edit": "place"
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
+   "edit": "detail"
   },
   {
    "s": 54.128,
    "e": 57.706,
-   "scene": 16,
+   "scene": 17,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -969,7 +1245,7 @@
   {
    "s": 57.706,
    "e": 60.897,
-   "scene": 17,
+   "scene": 18,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -980,25 +1256,26 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/cows.jpg",
-     "w": 1400,
-     "h": 788,
+     "src": "crime/5/img/stall.jpg",
+     "w": 1600,
+     "h": 1140,
      "box": [
-      150.0,
-      438.0,
-      780,
-      439.0
+      154.7,
+      383.0,
+      770.5,
+      549.0
      ],
      "ai": false,
-     "rot": -1.75,
-     "credit": "leewrightonflickr / CC BY-SA 2.0",
+     "rot": -2.49,
+     "credit": "Möbius, Walter (Herstellung) (Fotograf) / CC BY-SA 4.0",
      "view": [
       0.0,
-      0.01449,
+      0.00759,
       1.0,
-      0.98551
+      0.99241
      ],
      "drift": 0.1,
+     "label": "Kuhstall (Symbolbild)",
      "rings": [],
      "s": 57.706
     },
@@ -1008,30 +1285,30 @@
      "color": "white",
      "px": 67,
      "x": 540.0,
-     "y": 446.0,
+     "y": 391.0,
      "align": "center",
      "rot": -1,
      "s": 57.883
     },
     {
      "type": "tape",
-     "text": "jemand fütterte das Vieh",
+     "text": "jemand versorgt das Vieh",
      "color": "red",
      "px": 62,
-     "x": 170.0,
-     "y": 945.2,
-     "align": "left",
+     "x": 540,
+     "y": 1010,
+     "align": "center",
      "rot": -1,
      "s": 58.796
     }
    ],
-   "credit": "Foto: leewrightonflickr / CC BY-SA 2.0",
+   "credit": "Foto: Möbius, Walter (Herstellung) (Fotograf) / CC BY-SA 4.0",
    "edit": "place"
   },
   {
    "s": 60.897,
    "e": 65.597,
-   "scene": 18,
+   "scene": 19,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1042,32 +1319,33 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/barn.jpg",
+     "src": "crime/5/img/stadel.jpg",
      "w": 1400,
-     "h": 901,
+     "h": 477,
      "box": [
       85.0,
-      407.4,
+      428.1,
       470,
-      302.5
+      261.1
      ],
      "ai": false,
-     "rot": -2.55,
-     "credit": "Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
+     "rot": -1.96,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
      "view": [
+      0.17697,
       0.0,
-      0.0175,
-      1.0,
-      0.9825
+      0.82303,
+      1.0
      ],
      "drift": 0.1,
+     "label": "Der Stadel · 1922",
      "rings": [],
      "s": 60.897
     },
     {
      "type": "stat",
      "x": 110,
-     "y": 769.9,
+     "y": 749.2,
      "rows": [
       {
        "n": "4 Tage",
@@ -1085,13 +1363,13 @@
      "s": 60.897
     }
    ],
-   "credit": "Foto: Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
    "edit": "number"
   },
   {
    "s": 65.597,
    "e": 69.921,
-   "scene": 19,
+   "scene": 20,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1101,77 +1379,85 @@
    },
    "items": [
     {
-     "type": "card",
-     "style": "folder",
+     "type": "photo",
+     "src": "crime/5/img/poster_b.jpg",
+     "w": 1804,
+     "h": 1324,
      "box": [
-      90.0,
-      441.0,
-      900,
-      960
+      30.0,
+      532.5,
+      580,
+      425.7
      ],
-     "rot": -0.43,
-     "head": "",
-     "rows": [],
-     "tab": "AKTE · HINTERKAIFECK",
-     "corner": "MÜNCHEN",
-     "note": null,
-     "stamp": null,
+     "ai": false,
+     "rot": -2.39,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00917,
+      1.0,
+      0.99083
+     ],
+     "drift": 0.1,
+     "label": "Fahndungsplakat · April 1922",
+     "rings": [],
      "s": 65.597
     },
     {
      "type": "photo",
-     "src": "crime/5/img/doc1.jpg",
-     "w": 1349,
-     "h": 2000,
+     "src": "crime/5/img/aussage.jpg",
+     "w": 1400,
+     "h": 1154,
      "box": [
-      175.0,
-      556.2,
-      729.9,
-      595.2
+      485.0,
+      854.9,
+      560,
+      461.6
      ],
      "ai": false,
-     "rot": 1.53,
+     "rot": 1.13,
      "credit": "Burkhard Mücke / CC BY-SA 4.0",
      "view": [
       0.0,
-      0.00247,
+      0.00561,
       1.0,
-      0.54753
+      0.99439
      ],
      "drift": 0.1,
+     "label": "Zeugenaussage aus der Akte",
      "rings": [],
-     "s": 65.836
+     "s": 66.947
     },
     {
      "type": "tape",
      "text": "Dutzende Verdächtige",
      "color": "yellow",
      "px": 67,
-     "x": 920.9,
-     "y": 566.2,
-     "align": "right",
+     "x": 22,
+     "y": 542.5,
+     "align": "left",
      "rot": -0.89,
-     "s": 65.667
+     "s": 66.267
     },
     {
      "type": "tape",
      "text": "keinem nachgewiesen",
      "color": "red",
      "px": 62,
-     "x": 195.0,
-     "y": 1219.6,
-     "align": "left",
+     "x": 600,
+     "y": 1400,
+     "align": "center",
      "rot": 2.02,
      "s": 67.827
     }
    ],
    "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
-   "edit": "where"
+   "edit": "pair"
   },
   {
    "s": 69.921,
    "e": 75.058,
-   "scene": 20,
+   "scene": 21,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1182,82 +1468,95 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/attic.jpg",
-     "w": 1786,
-     "h": 1443,
+     "src": "crime/5/img/haue1.jpg",
+     "w": 1400,
+     "h": 752,
      "box": [
-      200.3,
-      383.0,
-      679.5,
-      549.0
+      150.0,
+      440.8,
+      780,
+      433.3
      ],
      "ai": false,
-     "rot": -2.54,
-     "credit": "Public domain",
+     "rot": -1.55,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
      "view": [
+      0.00169,
       0.0,
-      0.00511,
-      1.0,
-      0.99489
+      0.99831,
+      1.0
      ],
      "drift": 0.1,
+     "label": "Reuthaue (mutmaßl. Tatwaffe)",
      "rings": [],
      "s": 69.921
-    },
-    {
-     "type": "photo",
-     "src": "crime/5/img/hoes.jpg",
-     "w": 1920,
-     "h": 1280,
-     "box": [
-      260.0,
-      1008.8,
-      560,
-      373.3
-     ],
-     "ai": false,
-     "rot": 1.4,
-     "credit": "Peka / CC BY-SA 4.0",
-     "view": [
-      0.0,
-      0.0132,
-      1.0,
-      0.9868
-     ],
-     "drift": 0.1,
-     "rings": [],
-     "s": 72.371
     },
     {
      "type": "tape",
      "text": "1 JAHR SPÄTER",
      "color": "white",
      "px": 67,
-     "x": 836.0,
-     "y": 1358.1,
-     "align": "right",
-     "rot": -2.38,
+     "x": 134.0,
+     "y": 450.8,
+     "align": "left",
+     "rot": 0.76,
      "s": 71.251
+    },
+    {
+     "type": "tape",
+     "text": "beim Abriss des Hofes",
+     "color": "yellow",
+     "px": 67,
+     "x": 946.0,
+     "y": 657.5,
+     "align": "right",
+     "rot": -0.57,
+     "s": 72.371
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/attic2.jpg",
+     "w": 1920,
+     "h": 1258,
+     "box": [
+      260.0,
+      1012.0,
+      560,
+      366.9
+     ],
+     "ai": false,
+     "rot": 2.15,
+     "credit": "Adrian Tync / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01387,
+      1.0,
+      0.98613
+     ],
+     "drift": 0.1,
+     "label": "Dachboden (Symbolbild)",
+     "rings": [],
+     "s": 73.551
     },
     {
      "type": "tape",
      "text": "im Dachboden versteckt",
      "color": "red",
      "px": 62,
-     "x": 859.8,
-     "y": 1000.2,
-     "align": "right",
-     "rot": 2.3,
-     "s": 73.551
+     "x": 540.0,
+     "y": 1020.0,
+     "align": "center",
+     "rot": -3.2,
+     "s": 74.111
     }
    ],
-   "credit": "Foto: Public domain · Peka / CC BY-SA 4.0",
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0 · Adrian Tync / CC BY-SA 4.0",
    "edit": "fact"
   },
   {
    "s": 75.058,
    "e": 78.733,
-   "scene": 21,
+   "scene": 22,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1267,15 +1566,40 @@
    },
    "items": [
     {
+     "type": "photo",
+     "src": "crime/5/img/doc1.jpg",
+     "w": 1349,
+     "h": 2000,
+     "box": [
+      169.7,
+      383.0,
+      740.6,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.82,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00343,
+      1.0,
+      0.49657
+     ],
+     "drift": 0.1,
+     "label": "Polizeiakte Hinterkaifeck",
+     "rings": [],
+     "s": 75.058
+    },
+    {
      "type": "card",
      "style": "paper",
      "box": [
-      110.0,
-      710.0,
-      860,
-      422
+      100.0,
+      953.9,
+      880,
+      505.1
      ],
-     "rot": -0.89,
+     "rot": 0.58,
      "head": "ERMITTLUNGEN",
      "rows": [
       {
@@ -1298,13 +1622,13 @@
      "s": 75.058
     }
    ],
-   "credit": "",
-   "edit": "span"
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
+   "edit": "timeline"
   },
   {
    "s": 78.733,
    "e": 83.191,
-   "scene": 22,
+   "scene": 23,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1334,6 +1658,7 @@
       1.0
      ],
      "drift": 0,
+     "label": "Polizeivermerk aus der Akte",
      "zoom": {
       "to": [
        0.00801,
@@ -1360,13 +1685,13 @@
     },
     {
      "type": "tape",
-     "text": "Polizeischüler prüfen neu",
+     "text": "angehende Kriminalbeamte",
      "color": "yellow",
      "px": 67,
-     "x": 218.9,
-     "y": 414.9,
-     "align": "left",
-     "rot": -0.66,
+     "x": 540,
+     "y": 1260,
+     "align": "center",
+     "rot": -0.88,
      "s": 80.663
     }
    ],
@@ -1376,7 +1701,7 @@
   {
    "s": 83.191,
    "e": 88.352,
-   "scene": 23,
+   "scene": 24,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1426,7 +1751,7 @@
   {
    "s": 88.352,
    "e": 92.006,
-   "scene": 24,
+   "scene": 25,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1437,60 +1762,84 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/farm.jpg",
+     "src": "crime/5/img/mahnmal.jpg",
      "w": 1400,
-     "h": 1092,
+     "h": 1400,
      "box": [
-      0,
-      0,
-      1080,
-      1920
+      30.0,
+      455.3,
+      580,
+      580.0
      ],
      "ai": false,
-     "rot": 0,
-     "credit": "Andreas Biegleder / Public domain",
-     "bleed": true,
+     "rot": -1.14,
+     "credit": "Kililuki / CC0",
      "view": [
-      0.28063,
       0.0,
-      0.71937,
+      0.0,
+      1.0,
       1.0
      ],
      "drift": 0.1,
+     "label": "Gedenkstätte Hinterkaifeck",
      "rings": [],
      "s": 88.352
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/grab.jpg",
+     "w": 673,
+     "h": 1400,
+     "box": [
+      570.0,
+      666.7,
+      400,
+      666.7
+     ],
+     "ai": false,
+     "rot": 1.22,
+     "credit": "Benutzer:Tegernbach / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.08732,
+      1.0,
+      0.91268
+     ],
+     "drift": 0.1,
+     "label": "Grabmal in Waidhofen",
+     "rings": [],
+     "s": 89.309
     },
     {
      "type": "tape",
      "text": "ÜBER 100 JAHRE",
      "color": "white",
-     "px": 56,
-     "x": 540,
-     "y": 470,
+     "px": 67,
+     "x": 400,
+     "y": 500,
      "align": "center",
-     "rot": -1,
+     "rot": -1.54,
      "s": 88.539
     },
     {
      "type": "tape",
      "text": "ungelöst",
      "color": "red",
-     "px": 80,
-     "x": 540,
-     "y": 1240,
-     "align": "center",
-     "rot": -1,
+     "px": 62,
+     "x": 986.0,
+     "y": 676.7,
+     "align": "right",
+     "rot": 2.51,
      "s": 90.981
     }
    ],
-   "hush": true,
-   "credit": "Foto: Andreas Biegleder / Public domain",
-   "edit": "place"
+   "credit": "Foto: Kililuki / CC0 · Benutzer:Tegernbach / CC BY-SA 3.0",
+   "edit": "pair"
   },
   {
    "s": 92.006,
-   "e": 95.41,
-   "scene": 25,
+   "e": 93.592,
+   "scene": 26,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1501,25 +1850,28 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/attic.jpg",
-     "w": 1786,
-     "h": 1443,
+     "src": "crime/5/img/stairs.jpg",
+     "w": 1050,
+     "h": 1400,
      "box": [
-      140.0,
-      542.9,
-      800,
-      646.4
+      0,
+      0,
+      1080,
+      1920
      ],
      "ai": false,
-     "rot": -2.54,
-     "credit": "Public domain",
+     "rot": 0,
+     "credit": "ThruTheseLines / CC BY 2.0",
+     "bleed": true,
+     "depth": "crime/5/img/stairs.depth.jpg",
      "view": [
+      0.125,
       0.0,
-      0.00428,
-      1.0,
-      0.99572
+      0.875,
+      1.0
      ],
      "drift": 0.1,
+     "label": "Dachbodentreppe (Symbolbild)",
      "rings": [],
      "s": 92.006
     },
@@ -1527,32 +1879,77 @@
      "type": "tape",
      "text": "Wer war auf dem Dachboden?",
      "color": "red",
-     "px": 62,
-     "x": 540.0,
-     "y": 1257.5,
+     "px": 58,
+     "x": 540,
+     "y": 1240,
      "align": "center",
      "rot": 1.2,
      "s": 92.187
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: ThruTheseLines / CC BY 2.0",
+   "edit": "question"
+  },
+  {
+   "s": 93.592,
+   "e": 95.41,
+   "scene": 27,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 93.592
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/cows.jpg",
+     "w": 1320,
+     "h": 2000,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Stiftung Domäne Dahlem - Estate and Museum / CC BY-SA 4.0",
+     "bleed": true,
+     "depth": "crime/5/img/cows.depth.jpg",
+     "view": [
+      0.1,
+      0.06133,
+      0.9,
+      1.0
+     ],
+     "drift": 0.1,
+     "label": "Kuhstall (Symbolbild)",
+     "rings": [],
+     "s": 93.592
     },
     {
      "type": "tape",
-     "text": "Wer fütterte das Vieh?",
-     "color": "yellow",
-     "px": 67,
-     "x": 124.0,
-     "y": 552.9,
-     "align": "left",
-     "rot": -0.69,
-     "s": 93.192
+     "text": "Wer versorgte das Vieh?",
+     "color": "red",
+     "px": 58,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": 1.63,
+     "s": 93.712
     }
    ],
-   "credit": "Foto: Public domain",
-   "edit": "question"
+   "hush": true,
+   "credit": "Foto: Stiftung Domäne Dahlem - Estate and Museum / CC BY-SA 4.0",
+   "edit": "figure"
   },
   {
    "s": 95.41,
    "e": 99.726,
-   "scene": 26,
+   "scene": 28,
    "head": {
     "kicker": "AKTE 1922",
     "title": "Hinterkaifeck",
@@ -1563,41 +1960,17 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/5/img/farm.jpg",
-     "w": 1400,
-     "h": 1092,
-     "box": [
-      83.8,
-      383.0,
-      422.3,
-      329.4
-     ],
-     "ai": false,
-     "rot": -2.35,
-     "credit": "Andreas Biegleder / Public domain",
-     "view": [
-      0.0,
-      0.01,
-      1.0,
-      0.99
-     ],
-     "drift": 0.1,
-     "rings": [],
-     "s": 95.41
-    },
-    {
-     "type": "photo",
      "src": "crime/5/img/print.jpg",
      "w": 1920,
      "h": 1280,
      "box": [
-      570.0,
-      437.3,
+      80.0,
+      404.3,
       430,
       286.7
      ],
      "ai": false,
-     "rot": 1.36,
+     "rot": -1.21,
      "credit": "Kritzolina / CC BY-SA 4.0",
      "view": [
       0.0,
@@ -1612,22 +1985,22 @@
     {
      "type": "photo",
      "src": "crime/5/img/attic.jpg",
-     "w": 1786,
-     "h": 1443,
+     "w": 1920,
+     "h": 1440,
      "box": [
-      96.2,
-      756.3,
-      407.7,
-      329.4
+      570.0,
+      419.4,
+      430,
+      322.5
      ],
      "ai": false,
-     "rot": -2.27,
-     "credit": "Public domain",
+     "rot": 1.39,
+     "credit": "Wikitarisch / CC BY 4.0",
      "view": [
       0.0,
-      0.00877,
+      0.01161,
       1.0,
-      0.99123
+      0.98839
      ],
      "drift": 0.1,
      "rings": [],
@@ -1635,23 +2008,47 @@
     },
     {
      "type": "photo",
-     "src": "crime/5/img/cows.jpg",
-     "w": 1400,
-     "h": 788,
+     "src": "crime/5/img/haue3.jpg",
+     "w": 1335,
+     "h": 2000,
      "box": [
-      565.0,
-      832.9,
+      85.0,
+      776.1,
       430,
-      242.0
+      289.9
      ],
      "ai": false,
-     "rot": 1.71,
-     "credit": "leewrightonflickr / CC BY-SA 2.0",
+     "rot": -2.17,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
      "view": [
       0.0,
-      0.02711,
+      0.00756,
       1.0,
-      0.97289
+      0.44244
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 95.41
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/cow.jpg",
+     "w": 1320,
+     "h": 2000,
+     "box": [
+      565.0,
+      791.1,
+      430,
+      325.8
+     ],
+     "ai": false,
+     "rot": 1.68,
+     "credit": "Stiftung Domäne Dahlem - Estate and Museum / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.45554,
+      1.0,
+      0.94446
      ],
      "drift": 0.1,
      "rings": [],
@@ -1673,7 +2070,7 @@
        "l": "Name:",
        "r": "???",
        "s": 95.547,
-       "color": ""
+       "color": "red"
       }
      ],
      "tab": "",
@@ -1696,41 +2093,41 @@
     {
      "type": "string",
      "a": [
-      294.9,
-      409.0
+      295.0,
+      430.3
      ],
      "b": [
       785.0,
-      463.3
+      445.4
      ],
      "s": 95.41
     },
     {
      "type": "string",
      "a": [
-      294.9,
-      409.0
-     ],
-     "b": [
-      300.1,
-      782.3
-     ],
-     "s": 95.41
-    },
-    {
-     "type": "string",
-     "a": [
-      294.9,
-      409.0
+      785.0,
+      445.4
      ],
      "b": [
       780.0,
-      857.1
+      817.1
+     ],
+     "s": 95.41
+    },
+    {
+     "type": "string",
+     "a": [
+      780.0,
+      817.1
+     ],
+     "b": [
+      300.0,
+      802.1
      ],
      "s": 95.41
     }
    ],
-   "credit": "Foto: Andreas Biegleder / Public domain · Kritzolina / CC BY-SA 4.0 · Public domain · leewrightonflickr / CC BY-SA 2.0",
+   "credit": "Foto: Kritzolina / CC BY-SA 4.0 · Wikitarisch / CC BY 4.0 · Burkhard Mücke / CC BY-SA 4.0 · Stiftung Domäne Dahlem - Estate and Museum / CC BY-SA 4.0",
    "edit": "ending"
   }
  ],
@@ -2186,7 +2583,7 @@
    "src": "crime/5/voice/line_25.mp3"
   }
  ],
- "music": "crime/5/bed.wav",
+ "music": null,
  "musicVolume": 0.14,
  "fonts": [
   {
@@ -2232,6 +2629,11 @@
    "style": "normal"
   }
  ],
+ "fx": {
+  "depth": true,
+  "blur": true,
+  "grain": 0.1
+ },
  "sfx": "crime/5/sfx.wav",
- "sfxVolume": 0.6
+ "sfxVolume": 1.0
 }
