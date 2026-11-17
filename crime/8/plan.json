@@ -41,13 +41,19 @@
    "s": 0.0,
    "e": 5.086,
    "scene": 1,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 2019",
+    "title": "Juwelenraub von Dresden",
+    "mode": "top",
+    "from": null,
+    "s": 0.0
+   },
    "items": [
     {
      "type": "photo",
-     "src": "crime/8/img/cordon.jpg",
+     "src": "crime/8/img/dawn.jpg",
      "w": 1920,
-     "h": 1082,
+     "h": 1440,
      "box": [
       0,
       0,
@@ -56,23 +62,25 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Lupus in Saxonia / CC BY-SA 4.0",
+     "credit": "Bambizoe from Dresden, Germany This image was orig / CC0",
      "bleed": true,
+     "depth": "crime/8/img/dawn.depth.jpg",
      "view": [
-      0.3165,
+      0.33906,
       0.0,
-      0.6335,
+      0.76094,
       1.0
      ],
      "drift": 0.1,
+     "label": "Residenzschloss, Morgen des 25.11.2019",
      "rings": [],
      "s": 0.0
     },
     {
      "type": "photo",
-     "src": "crime/8/img/night.jpg",
-     "w": 1325,
-     "h": 2000,
+     "src": "crime/8/img/dawn2.jpg",
+     "w": 1920,
+     "h": 1440,
      "box": [
       0,
       0,
@@ -81,15 +89,17 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Tilman2007 / CC BY-SA 3.0",
+     "credit": "Bambizoe from Dresden, Germany This image was orig / CC0",
      "bleed": true,
+     "depth": "crime/8/img/dawn2.depth.jpg",
      "view": [
-      0.07547,
+      0.28906,
       0.0,
-      0.92453,
+      0.71094,
       1.0
      ],
      "drift": 0.1,
+     "label": "Residenzschloss, 25.11.2019",
      "rings": [],
      "s": 2.87
     },
@@ -116,20 +126,26 @@
      "s": 0.863
     }
    ],
-   "credit": "Foto: Lupus in Saxonia / CC BY-SA 4.0 · Tilman2007 / CC BY-SA 3.0",
+   "credit": "Foto: Bambizoe from Dresden, Germany This image was orig / CC0",
    "edit": "hook"
   },
   {
    "s": 5.086,
    "e": 7.462,
    "scene": 2,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 2019",
+    "title": "Juwelenraub von Dresden",
+    "mode": "top",
+    "from": "top",
+    "s": 5.086
+   },
    "items": [
     {
      "type": "photo",
-     "src": "crime/8/img/street.jpg",
-     "w": 1400,
-     "h": 824,
+     "src": "crime/8/img/fog.jpg",
+     "w": 1920,
+     "h": 1440,
      "box": [
       0,
       0,
@@ -138,15 +154,17 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Ehrnvall, Torbjörn / CC0",
+     "credit": "Bambizoe from Dresden, Germany This image was orig / CC0",
      "bleed": true,
+     "depth": "crime/8/img/fog.depth.jpg",
      "view": [
-      0.33446,
+      0.28906,
       0.0,
-      0.66554,
+      0.71094,
       1.0
      ],
      "drift": 0.1,
+     "label": "Polizei am Schloss, 25.11.2019",
      "rings": [],
      "s": 5.086
     },
@@ -154,7 +172,7 @@
      "type": "tape",
      "text": "DRESDNER ALTSTADT",
      "color": "white",
-     "px": 52,
+     "px": 50,
      "x": 540,
      "y": 470,
      "align": "center",
@@ -173,36 +191,43 @@
      "s": 6.436
     }
    ],
-   "credit": "Foto: Ehrnvall, Torbjörn / CC0",
+   "credit": "Foto: Bambizoe from Dresden, Germany This image was orig / CC0",
    "edit": "place"
   },
   {
    "s": 7.462,
    "e": 12.116,
    "scene": 3,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 2019",
+    "title": "Juwelenraub von Dresden",
+    "mode": "top",
+    "from": "top",
+    "s": 7.462
+   },
    "items": [
     {
      "type": "photo",
-     "src": "crime/8/img/treasure2.jpg",
-     "w": 1400,
-     "h": 917,
+     "src": "crime/8/img/room.jpg",
+     "w": 1116,
+     "h": 1600,
      "box": [
-      85.0,
-      203.9,
-      470,
-      307.8
+      197.5,
+      383.0,
+      245.1,
+      351.4
      ],
      "ai": false,
-     "rot": -1.18,
-     "credit": "Rüdiger Stehn / CC BY-SA 2.0",
+     "rot": -2.36,
+     "credit": "Wolff, Paul (Herstellung) (Fotograf) / Public domain",
      "view": [
+      0.01878,
       0.0,
-      0.01677,
-      1.0,
-      0.98323
+      0.98122,
+      1.0
      ],
      "drift": 0.1,
+     "label": "Grünes Gewölbe",
      "rings": [],
      "s": 7.462
     },
@@ -211,8 +236,8 @@
      "text": "Minuten später",
      "color": "yellow",
      "px": 67,
-     "x": 69.0,
-     "y": 213.9,
+     "x": 181.5,
+     "y": 393.0,
      "align": "left",
      "rot": 3.36,
      "s": 7.668
@@ -220,7 +245,7 @@
     {
      "type": "stat",
      "x": 110,
-     "y": 571.7,
+     "y": 794.4,
      "rows": [
       {
        "n": "100",
@@ -232,7 +257,7 @@
      "s": 7.462
     }
    ],
-   "credit": "Foto: Rüdiger Stehn / CC BY-SA 2.0",
+   "credit": "Foto: Wolff, Paul (Herstellung) (Fotograf) / Public domain",
    "edit": "number"
   },
   {
@@ -241,14 +266,51 @@
    "scene": 4,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
-    "mode": "mid",
-    "from": null,
+    "title": "Juwelenraub von Dresden",
+    "mode": "top",
+    "from": "top",
     "s": 12.116
    },
-   "items": [],
-   "credit": "",
-   "edit": "chapter"
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/8/img/schloss.jpg",
+     "w": 1920,
+     "h": 1514,
+     "box": [
+      191.9,
+      383.0,
+      696.2,
+      549.0
+     ],
+     "ai": false,
+     "rot": -0.83,
+     "credit": "X-Weinzar / CC BY-SA 2.5",
+     "view": [
+      0.0,
+      0.0056,
+      1.0,
+      0.9944
+     ],
+     "drift": 0.1,
+     "label": "Residenzschloss Dresden",
+     "rings": [],
+     "s": 12.116
+    },
+    {
+     "type": "tape",
+     "text": "spektakulärster Museumseinbruch",
+     "color": "red",
+     "px": 53,
+     "x": 540,
+     "y": 1060,
+     "align": "center",
+     "rot": -1,
+     "s": 12.706
+    }
+   ],
+   "credit": "Foto: X-Weinzar / CC BY-SA 2.5",
+   "edit": "place"
   },
   {
    "s": 15.543,
@@ -256,39 +318,40 @@
    "scene": 5,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
-    "from": "mid",
+    "from": "top",
     "s": 15.543
    },
    "items": [
     {
      "type": "photo",
-     "src": "crime/8/img/room.jpg",
-     "w": 1116,
-     "h": 1600,
+     "src": "crime/8/img/jroom.jpg",
+     "w": 1400,
+     "h": 1161,
      "box": [
-      218.3,
-      404.9,
-      643.3,
-      922.3
+      140.0,
+      534.4,
+      800,
+      663.4
      ],
      "ai": false,
-     "rot": -2.36,
-     "credit": "Wolff, Paul (Herstellung) (Fotograf) / Public domain",
+     "rot": -1.66,
+     "credit": "Unknown authorUnknown author / Public domain",
      "view": [
-      0.00679,
       0.0,
-      0.99321,
-      1.0
+      0.00376,
+      1.0,
+      0.99624
      ],
      "drift": 0,
+     "label": "Juwelenzimmer, Grünes Gewölbe",
      "zoom": {
       "to": [
-       0.1,
-       0.18898,
-       0.9,
-       1.0
+       0.14735,
+       0.2,
+       0.85265,
+       0.9
       ],
       "s": 18.293,
       "e": 19.693
@@ -298,28 +361,28 @@
     },
     {
      "type": "tape",
-     "text": "RESIDENZSCHLOSS",
+     "text": "GRÜNES GEWÖLBE",
      "color": "white",
      "px": 67,
      "x": 540.0,
-     "y": 412.9,
+     "y": 542.4,
      "align": "center",
      "rot": -1,
-     "s": 16.653
+     "s": 15.745
     },
     {
      "type": "tape",
      "text": "Schatzkammer Europas",
      "color": "yellow",
      "px": 67,
-     "x": 202.3,
-     "y": 1303.2,
-     "align": "left",
+     "x": 540,
+     "y": 1340,
+     "align": "center",
      "rot": -0.61,
      "s": 18.293
     }
    ],
-   "credit": "Foto: Wolff, Paul (Herstellung) (Fotograf) / Public domain",
+   "credit": "Foto: Unknown authorUnknown author / Public domain",
    "edit": "detail"
   },
   {
@@ -328,7 +391,7 @@
    "scene": 6,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 19.984
@@ -355,6 +418,7 @@
       0.99337
      ],
      "drift": 0.1,
+     "label": "Stromverteiler (Symbolbild)",
      "rings": [],
      "s": 19.984
     },
@@ -363,8 +427,8 @@
      "text": "Stromverteiler angezündet",
      "color": "red",
      "px": 62,
-     "x": 540.0,
-     "y": 1000.2,
+     "x": 540,
+     "y": 1070,
      "align": "center",
      "rot": -1,
      "s": 20.93
@@ -374,9 +438,9 @@
      "text": "Laternen aus",
      "color": "yellow",
      "px": 67,
-     "x": 158.0,
-     "y": 393.0,
-     "align": "left",
+     "x": 540,
+     "y": 1185,
+     "align": "center",
      "rot": -1.45,
      "s": 22.767
     }
@@ -390,7 +454,7 @@
    "scene": 7,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 24.596
@@ -398,53 +462,55 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/8/img/facade.jpg",
-     "w": 1400,
-     "h": 934,
+     "src": "crime/8/img/bars.jpg",
+     "w": 1920,
+     "h": 1542,
      "box": [
-      150.0,
-      397.3,
-      780,
-      520.4
+      181.1,
+      404.9,
+      717.8,
+      922.3
      ],
      "ai": false,
-     "rot": -2.42,
-     "credit": "corno.fulgur75 / CC BY 2.0",
+     "rot": -1.13,
+     "credit": "Jörg Blobelt / CC BY-SA 4.0",
      "view": [
-      0.0,
-      0.00926,
-      1.0,
-      0.99074
+      0.25,
+      0.14643,
+      0.75,
+      0.95357
      ],
      "drift": 0.1,
-     "rings": [],
+     "label": "Vergitterte Fenster, Grünes Gewölbe",
+     "rings": [
+      {
+       "s": 27.026,
+       "box": [
+        0.38,
+        0.3,
+        0.62,
+        0.85
+       ],
+       "shape": "ellipse",
+       "color": "yellow"
+      }
+     ],
      "s": 24.596
-    },
-    {
-     "type": "tape",
-     "text": "durchs Fenster",
-     "color": "yellow",
-     "px": 67,
-     "x": 134.0,
-     "y": 407.3,
-     "align": "left",
-     "rot": 2.36,
-     "s": 25.746
     },
     {
      "type": "tape",
      "text": "Gitter durchtrennt",
      "color": "red",
      "px": 62,
-     "x": 170.0,
-     "y": 985.9,
-     "align": "left",
+     "x": 380,
+     "y": 420,
+     "align": "center",
      "rot": -1,
      "s": 27.026
     }
    ],
-   "credit": "Foto: corno.fulgur75 / CC BY 2.0",
-   "edit": "place"
+   "credit": "Foto: Jörg Blobelt / CC BY-SA 4.0",
+   "edit": "detail"
   },
   {
    "s": 29.293,
@@ -452,7 +518,7 @@
    "scene": 8,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 29.293
@@ -479,6 +545,7 @@
       0.99266
      ],
      "drift": 0.1,
+     "label": "Axt (Symbolbild)",
      "rings": [],
      "s": 29.293
     },
@@ -503,6 +570,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Vitrine (Symbolbild)",
      "rings": [],
      "s": 30.823
     },
@@ -538,7 +606,7 @@
    "scene": 9,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 33.486
@@ -576,7 +644,7 @@
    "scene": 10,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 38.024
@@ -603,6 +671,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Tiefgarage (Symbolbild)",
      "rings": [],
      "s": 38.024
     },
@@ -638,7 +707,7 @@
    "scene": 11,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 41.878
@@ -665,6 +734,7 @@
       1.0
      ],
      "drift": 0,
+     "label": "Schmuck (Symbolbild)",
      "zoom": {
       "to": [
        0.2,
@@ -710,7 +780,7 @@
    "scene": 12,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 45.141
@@ -737,6 +807,7 @@
       0.60082
      ],
      "drift": 0,
+     "label": "Berlin",
      "rings": [
       {
        "s": 47.671,
@@ -787,7 +858,7 @@
    "scene": 13,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 48.465
@@ -825,7 +896,7 @@
    "scene": 14,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 52.079
@@ -833,25 +904,26 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/8/img/bode.jpg",
+     "src": "crime/8/img/bodeN.jpg",
      "w": 1920,
-     "h": 1279,
+     "h": 1440,
      "box": [
-      150.0,
-      397.7,
-      780,
-      519.6
+      174.0,
+      383.0,
+      732.0,
+      549.0
      ],
      "ai": false,
-     "rot": -0.92,
-     "credit": "Diego Delso / CC BY-SA 4.0",
+     "rot": -1.24,
+     "credit": "Camrybrown / CC BY-SA 4.0",
      "view": [
       0.0,
-      0.00932,
+      0.00663,
       1.0,
-      0.99068
+      0.99337
      ],
      "drift": 0.1,
+     "label": "Bode-Museum, Berlin",
      "rings": [],
      "s": 52.079
     },
@@ -860,14 +932,14 @@
      "text": "schon ein anderer Coup",
      "color": "red",
      "px": 62,
-     "x": 170.0,
-     "y": 985.5,
+     "x": 194.0,
+     "y": 1000.2,
      "align": "left",
      "rot": -1,
      "s": 53.929
     }
    ],
-   "credit": "Foto: Diego Delso / CC BY-SA 4.0",
+   "credit": "Foto: Camrybrown / CC BY-SA 4.0",
    "edit": "place"
   },
   {
@@ -876,7 +948,7 @@
    "scene": 15,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 55.576
@@ -903,6 +975,7 @@
       0.98479
      ],
      "drift": 0.1,
+     "label": "Bode-Museum, Berlin",
      "rings": [],
      "s": 55.576
     },
@@ -941,7 +1014,7 @@
    "scene": 16,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 61.391
@@ -986,6 +1059,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Landgericht Dresden",
      "rings": [],
      "s": 61.641
     },
@@ -1021,7 +1095,7 @@
    "scene": 17,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 66.059
@@ -1074,7 +1148,7 @@
    "scene": 18,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 75.061
@@ -1101,6 +1175,7 @@
       0.9909
      ],
      "drift": 0,
+     "label": "Bundesgerichtshof, Karlsruhe",
      "zoom": {
       "to": [
        0.14351,
@@ -1146,7 +1221,7 @@
    "scene": 19,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 79.166
@@ -1173,6 +1248,7 @@
       0.99053
      ],
      "drift": 0.1,
+     "label": "Grünes Gewölbe",
      "rings": [],
      "s": 79.166
     },
@@ -1197,7 +1273,7 @@
    "scene": 20,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 82.66
@@ -1236,7 +1312,7 @@
    "scene": 21,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 86.678
@@ -1263,6 +1339,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Juwelenzimmer, Dresden",
      "rings": [],
      "s": 86.678
     },
@@ -1282,9 +1359,9 @@
      "text": "„Sächsischer Weißer“",
      "color": "red",
      "px": 62,
-     "x": 360.8,
-     "y": 1000.2,
-     "align": "left",
+     "x": 540,
+     "y": 1060,
+     "align": "center",
      "rot": -1,
      "s": 89.009
     }
@@ -1298,7 +1375,7 @@
    "scene": 22,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 90.356
@@ -1325,6 +1402,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Residenzschloss Dresden",
      "rings": [],
      "s": 90.356
     },
@@ -1360,7 +1438,7 @@
    "scene": 23,
    "head": {
     "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe",
+    "title": "Juwelenraub von Dresden",
     "mode": "top",
     "from": "top",
     "s": 93.537
@@ -1368,23 +1446,23 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/8/img/cordon.jpg",
+     "src": "crime/8/img/dawn.jpg",
      "w": 1920,
-     "h": 1082,
+     "h": 1440,
      "box": [
       80.0,
-      426.5,
+      386.4,
       430,
-      242.3
+      322.5
      ],
      "ai": false,
-     "rot": -1.87,
-     "credit": "Lupus in Saxonia / CC BY-SA 4.0",
+     "rot": -1.54,
+     "credit": "Bambizoe from Dresden, Germany This image was orig / CC0",
      "view": [
       0.0,
-      0.02702,
+      0.01161,
       1.0,
-      0.97298
+      0.98839
      ],
      "drift": 0.1,
      "rings": [],
@@ -1502,7 +1580,7 @@
      "type": "string",
      "a": [
       295.0,
-      450.7
+      412.4
      ],
      "b": [
       785.0,
@@ -1514,7 +1592,7 @@
      "type": "string",
      "a": [
       295.0,
-      450.7
+      412.4
      ],
      "b": [
       300.0,
@@ -1535,7 +1613,7 @@
      "s": 93.537
     }
    ],
-   "credit": "Foto: Lupus in Saxonia / CC BY-SA 4.0 · Rüdiger Stehn / CC BY-SA 2.0 · Thomas Wolf, www.foto-tw.de / CC BY-SA 3.0 · DCB, Wikimedia Commons / CC BY-SA 3.0",
+   "credit": "Foto: Bambizoe from Dresden, Germany This image was orig / CC0 · Rüdiger Stehn / CC BY-SA 2.0 · Thomas Wolf, www.foto-tw.de / CC BY-SA 3.0 · DCB, Wikimedia Commons / CC BY-SA 3.0",
    "edit": "ending"
   }
  ],
@@ -1987,7 +2065,7 @@
    "src": "crime/8/voice/line_24.mp3"
   }
  ],
- "music": "crime/8/bed.wav",
+ "music": null,
  "musicVolume": 0.14,
  "fonts": [
   {
@@ -2033,6 +2111,11 @@
    "style": "normal"
   }
  ],
+ "fx": {
+  "depth": true,
+  "blur": true,
+  "grain": 0.1
+ },
  "sfx": "crime/8/sfx.wav",
- "sfxVolume": 0.6
+ "sfxVolume": 1.0
 }
