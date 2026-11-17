@@ -1,0 +1,31 @@
+{
+ "queries": [
+  "wiki: Heilbronner Phantom",
+  "wiki: Polizistenmord von Heilbronn",
+  "wiki: Michèle Kiesewetter",
+  "wiki: Theresienwiese (Heilbronn)",
+  "wiki: Heilbronn",
+  "wiki: Nationalsozialistischer Untergrund",
+  "wiki: Eisenach",
+  "wiki: Spurensicherung",
+  "wiki: DNA-Analyse",
+  {
+   "q": "Wattestäbchen",
+   "want": "a cotton swab for taking a forensic DNA sample"
+  },
+  {
+   "q": "Streifenwagen",
+   "want": "a green and silver German police patrol car"
+  },
+  {
+   "q": "Wohnmobil",
+   "want": "a white camper van parked in a street"
+  },
+  {
+   "q": "Labor",
+   "want": "a forensic DNA laboratory with test tubes"
+  }
+ ],
+ "urls": [],
+ "gen": []
+}
