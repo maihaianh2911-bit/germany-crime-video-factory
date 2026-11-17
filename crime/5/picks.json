@@ -1,0 +1,793 @@
+{
+ "sfx": true,
+ "tail": 3.2,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "1922",
+   "4/1922"
+  ],
+  [
+   "1923",
+   "19/Jahr"
+  ],
+  [
+   "1955",
+   "20/1955"
+  ],
+  [
+   "2007",
+   "21/2007"
+  ],
+  [
+   "HEUTE",
+   "23/Über"
+  ]
+ ],
+ "images": {
+  "farm": {
+   "src": "1/1-1.jpg"
+  },
+  "farm2": {
+   "src": "1/3-1.jpg"
+  },
+  "memo": {
+   "src": "1/2-7.jpg"
+  },
+  "map": {
+   "src": "1/16-1.jpg"
+  },
+  "print": {
+   "src": "1/9-3.jpg"
+  },
+  "trail": {
+   "src": "1/9-8.jpg"
+  },
+  "field": {
+   "src": "1/10-8.jpg"
+  },
+  "attic": {
+   "src": "1/11-1.jpg",
+   "crop": [
+    0.02,
+    0.02,
+    0.95,
+    0.97
+   ]
+  },
+  "barn": {
+   "src": "1/12-6.jpg"
+  },
+  "key": {
+   "src": "1/14-4.jpg",
+   "look": "cutout"
+  },
+  "cows": {
+   "src": "1/15-3.jpg"
+  },
+  "hoes": {
+   "src": "1/8-3.jpg"
+  },
+  "doc1": {
+   "src": "1/1-3.jpg"
+  },
+  "doc2": {
+   "src": "1/1-7.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "2 giây đầu: dấu chân trên tuyết đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt nhanh theo từng chữ: trang trại thật 1922 → vệt chân đi vào",
+   "items": [
+    {
+     "photo": "print",
+     "pos": "full",
+     "view": [
+      0.25,
+      0.0,
+      0.75,
+      1.0
+     ]
+    },
+    {
+     "photo": "farm",
+     "pos": "full",
+     "view": [
+      0.2,
+      0.0,
+      0.8,
+      1.0
+     ],
+     "at": "1/Hof"
+    },
+    {
+     "photo": "trail",
+     "pos": "full",
+     "at": "1/nicht"
+    },
+    {
+     "tape": "Wer war im Haus?",
+     "color": "red",
+     "size": 74,
+     "xy": [
+      540,
+      1240
+     ]
+    },
+    {
+     "tape": "HINEIN – NICHT HERAUS",
+     "color": "white",
+     "size": 50,
+     "xy": [
+      540,
+      1110
+     ],
+     "at": "1/führen"
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "place",
+   "hush": true,
+   "why": "câu 2 là cú sốc: cả sáu người chết — khoảnh khắc lặng trên bia tưởng niệm thật ghi tên các nạn nhân",
+   "items": [
+    {
+     "photo": "memo",
+     "pos": "full",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "tape": "6 TOTE",
+     "color": "red",
+     "size": 80,
+     "xy": [
+      540,
+      1300
+     ],
+     "at": "2/sechs"
+    }
+   ]
+  },
+  {
+   "at": 3,
+   "edit": "chapter",
+   "why": "câu 3 gọi tên vụ án",
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck"
+   }
+  },
+  {
+   "at": 4,
+   "edit": "place",
+   "why": "câu 4: một trang trại hẻo lánh — ảnh thật trang trại trước 1922",
+   "items": [
+    {
+     "photo": "farm2"
+    },
+    {
+     "tape": "einsamer Einödhof",
+     "at": 4.03
+    }
+   ]
+  },
+  {
+   "at": "4/Schrobenhausen",
+   "edit": "detail",
+   "why": "câu 4: gần Schrobenhausen, Thượng Bayern — bản đồ nước Đức có ghim đỏ",
+   "items": [
+    {
+     "photo": "map",
+     "still": true,
+     "zoom": {
+      "to": [
+       0.36,
+       0.66,
+       0.8,
+       0.98
+      ],
+      "at": "4/Schrobenhausen",
+      "dur": 1.2
+     },
+     "ring": {
+      "box": [
+       0.566,
+       0.818,
+       0.586,
+       0.838
+      ],
+      "shape": "pin",
+      "at": "4/Schrobenhausen"
+     }
+    },
+    {
+     "tape": "SCHROBENHAUSEN",
+     "color": "white",
+     "pin": "below",
+     "at": "4/Schrobenhausen"
+    },
+    {
+     "tape": "Frühjahr 1922",
+     "pin": "tl",
+     "at": "4/Frühjahr"
+    }
+   ]
+  },
+  {
+   "at": 5,
+   "edit": "who",
+   "why": "câu 5–6 giới thiệu cả nhà: ông bà Gruber, con gái góa chồng và hai cháu",
+   "items": [
+    {
+     "card": "paper",
+     "head": "FAMILIE GRUBER",
+     "rows": [
+      [
+       "Andreas Gruber",
+       "Bauer",
+       "5/Andreas"
+      ],
+      [
+       "Cäzilia",
+       "Ehefrau",
+       "5/Frau"
+      ],
+      [
+       "Viktoria",
+       "Tochter",
+       "6/Tochter"
+      ],
+      [
+       "Cäzilia",
+       "Enkelin",
+       "6/Cäzilia"
+      ],
+      [
+       "Josef",
+       "Enkel",
+       "6/Josef"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "figure",
+   "why": "câu 7: cuối tháng 3 ông Gruber kể chuyện lạ với hàng xóm",
+   "items": [
+    {
+     "photo": "farm",
+     "view": [
+      0.15,
+      0.0,
+      0.85,
+      1.0
+     ]
+    },
+    {
+     "tape": "ENDE MÄRZ",
+     "color": "white",
+     "pin": "top",
+     "at": 7.03
+    },
+    {
+     "tape": "seltsame Dinge",
+     "color": "red",
+     "at": "7/seltsamen"
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "edit": "pair",
+   "why": "câu 8: dấu chân trên tuyết dẫn vào trang trại, không dẫn ra",
+   "items": [
+    {
+     "photo": "field"
+    },
+    {
+     "photo": "print",
+     "at": "8/Hof"
+    },
+    {
+     "tape": "zum Hof",
+     "at": "8/Hof"
+    },
+    {
+     "tape": "nicht zurück",
+     "color": "red",
+     "at": "8/zurück"
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "object",
+   "why": "câu 9: một chiếc chìa khóa nhà biến mất",
+   "items": [
+    {
+     "sticker": "key",
+     "pos": "center",
+     "w": 640,
+     "rot": -18
+    },
+    {
+     "tape": "Hausschlüssel weg",
+     "color": "red",
+     "pin": "below",
+     "at": "9/verschwunden"
+    }
+   ]
+  },
+  {
+   "at": "9/Dachboden",
+   "edit": "detail",
+   "why": "câu 9: tiếng bước chân trên gác mái",
+   "items": [
+    {
+     "photo": "attic",
+     "zoom": {
+      "to": [
+       0.2,
+       0.1,
+       0.8,
+       0.7
+      ],
+      "at": "9/Dachboden",
+      "dur": 1.6
+     }
+    },
+    {
+     "tape": "Schritte auf dem Dachboden",
+     "color": "red",
+     "at": "9/Schritte"
+    }
+   ]
+  },
+  {
+   "at": 10,
+   "edit": "statement",
+   "why": "câu 10: người hầu gái cũ bỏ đi vì nói ở đó có ma",
+   "items": [
+    {
+     "tape": "Die alte Magd ging",
+     "color": "white",
+     "at": 10.02
+    },
+    {
+     "tape": "„Dort spukt es“",
+     "color": "red",
+     "at": "10/spuke"
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "edit": "timeline",
+   "why": "câu 11: ngày 31/3/1922 người hầu gái mới đến",
+   "items": [
+    {
+     "photo": "farm2"
+    },
+    {
+     "card": "paper",
+     "head": "31.03.1922",
+     "rows": [
+      [
+       "Neue Magd",
+       "kommt an",
+       11.03
+      ],
+      [
+       "Maria Baumgartner",
+       "",
+       "11/Maria"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "statement",
+   "why": "câu 12: ngày đầu tiên cũng là ngày cuối cùng của bà",
+   "items": [
+    {
+     "tape": "ERSTER TAG",
+     "color": "white",
+     "size": 70,
+     "at": 12.02
+    },
+    {
+     "tape": "und letzter",
+     "color": "red",
+     "size": 72,
+     "at": "12/letzter"
+    }
+   ]
+  },
+  {
+   "at": 13,
+   "edit": "figure",
+   "hush": true,
+   "why": "câu 13: đêm đó cả sáu người bị giết — khoảnh khắc lặng trong nhà kho tối",
+   "items": [
+    {
+     "photo": "barn",
+     "pos": "full",
+     "view": [
+      0.15,
+      0.0,
+      0.85,
+      1.0
+     ]
+    },
+    {
+     "tape": "IN DIESER NACHT",
+     "color": "white",
+     "size": 54,
+     "xy": [
+      540,
+      470
+     ],
+     "at": 13.02
+    },
+    {
+     "tape": "alle sechs getötet",
+     "color": "red",
+     "size": 66,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "13/getötet"
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "edit": "place",
+   "why": "câu 14: hung khí được cho là một chiếc cuốc — ảnh cuốc trong bảo tàng (chỉ để minh họa loại dụng cụ)",
+   "items": [
+    {
+     "photo": "hoes"
+    },
+    {
+     "tape": "TATWAFFE",
+     "color": "white",
+     "pin": "top",
+     "at": 14.02
+    },
+    {
+     "tape": "Reuthaue (Symbolbild)",
+     "at": "14/Reuthaue"
+    }
+   ]
+  },
+  {
+   "at": 15,
+   "edit": "statement",
+   "why": "câu 15: chi tiết rợn người nhất — hung thủ không bỏ đi ngay",
+   "items": [
+    {
+     "tape": "Das Unheimlichste",
+     "color": "white",
+     "at": 15.02
+    },
+    {
+     "tape": "Der Täter blieb?",
+     "color": "red",
+     "size": 70,
+     "at": "15/verschwand"
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "place",
+   "why": "câu 16: những ngày sau vẫn có người cho gia súc ăn",
+   "items": [
+    {
+     "photo": "cows"
+    },
+    {
+     "tape": "TAGE NACH DER TAT",
+     "color": "white",
+     "pin": "top",
+     "at": 16.02
+    },
+    {
+     "tape": "jemand fütterte das Vieh",
+     "color": "red",
+     "at": "16/versorgte"
+    }
+   ]
+  },
+  {
+   "at": 17,
+   "edit": "number",
+   "why": "câu 17: bốn ngày sau mới phát hiện; bốn người trong kho, hai trong nhà",
+   "items": [
+    {
+     "photo": "barn",
+     "pos": "small"
+    },
+    {
+     "stat": [
+      [
+       "4 Tage",
+       "bis zur\nEntdeckung",
+       "17/vier"
+      ],
+      [
+       "4 + 2",
+       "Scheune · Haus",
+       "17/Scheune",
+       "red"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "edit": "where",
+   "why": "câu 18: hàng chục người bị nghi, không ai bị chứng minh — hồ sơ cảnh sát München thật",
+   "items": [
+    {
+     "card": "folder",
+     "tab": "AKTE · HINTERKAIFECK",
+     "corner": "MÜNCHEN"
+    },
+    {
+     "photo": "doc1",
+     "pos": "in",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      0.55
+     ],
+     "at": 18.03
+    },
+    {
+     "tape": "Dutzende Verdächtige",
+     "at": "18/Dutzende"
+    },
+    {
+     "tape": "keinem nachgewiesen",
+     "color": "red",
+     "at": "18/keinem"
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "edit": "fact",
+   "why": "câu 19: chiếc cuốc chỉ tìm thấy một năm sau khi phá dỡ trang trại, giấu trên gác mái",
+   "items": [
+    {
+     "photo": "attic"
+    },
+    {
+     "photo": "hoes",
+     "at": "19/Abriss"
+    },
+    {
+     "tape": "1 JAHR SPÄTER",
+     "color": "white",
+     "at": "19/Jahr"
+    },
+    {
+     "tape": "im Dachboden versteckt",
+     "color": "red",
+     "at": "19/versteckt"
+    }
+   ]
+  },
+  {
+   "at": 20,
+   "edit": "span",
+   "why": "câu 20: năm 1955 đình chỉ điều tra",
+   "items": [
+    {
+     "card": "paper",
+     "head": "ERMITTLUNGEN",
+     "rows": [
+      [
+       "1922",
+       "Tat",
+       20.02
+      ],
+      {
+       "l": "1955",
+       "r": "eingestellt",
+       "at": "20/eingestellt",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": 21,
+   "edit": "detail",
+   "why": "câu 21: năm 2007 các học viên cảnh sát xem lại hồ sơ — giấy tờ điều tra thật",
+   "items": [
+    {
+     "photo": "doc2",
+     "zoom": {
+      "to": [
+       0.0,
+       0.0,
+       1.0,
+       0.5
+      ],
+      "at": "21/rollten",
+      "dur": 1.4
+     }
+    },
+    {
+     "tape": "2007",
+     "color": "white",
+     "pin": "top",
+     "at": 21.02
+    },
+    {
+     "tape": "Polizeischüler prüfen neu",
+     "at": "21/Kriminalbeamte"
+    }
+   ]
+  },
+  {
+   "at": 22,
+   "edit": "compare",
+   "why": "câu 22: họ tin đã biết hung thủ nhưng không công bố tên",
+   "items": [
+    {
+     "card": "paper",
+     "head": "ERGEBNIS 2007",
+     "rows": [
+      [
+       "Täter",
+       "bekannt?",
+       "22/Täter"
+      ],
+      {
+       "l": "Name",
+       "r": "nicht genannt",
+       "at": "22/keinen",
+       "color": "red"
+      }
+     ],
+     "stamp": {
+      "text": "AUS RÜCKSICHT\nAUF NACHKOMMEN",
+      "at": "22/Rücksicht"
+     }
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "place",
+   "hush": true,
+   "why": "câu 23: hơn 100 năm vẫn chưa có lời giải — khoảnh khắc lặng trước trang trại thật",
+   "items": [
+    {
+     "photo": "farm",
+     "pos": "full",
+     "view": [
+      0.2,
+      0.0,
+      0.8,
+      1.0
+     ]
+    },
+    {
+     "tape": "ÜBER 100 JAHRE",
+     "color": "white",
+     "size": 56,
+     "xy": [
+      540,
+      470
+     ],
+     "at": 23.02
+    },
+    {
+     "tape": "ungelöst",
+     "color": "red",
+     "size": 80,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "23/ungelöst"
+    }
+   ]
+  },
+  {
+   "at": 24,
+   "edit": "question",
+   "why": "câu 24: hai câu hỏi còn bỏ ngỏ",
+   "items": [
+    {
+     "photo": "attic"
+    },
+    {
+     "tape": "Wer war auf dem Dachboden?",
+     "color": "red",
+     "at": 24.02
+    },
+    {
+     "tape": "Wer fütterte das Vieh?",
+     "at": "24/Und"
+    }
+   ]
+  },
+  {
+   "at": 25,
+   "edit": "ending",
+   "why": "câu cuối: hỏi người xem nghĩ gì, gom các manh mối",
+   "items": [
+    {
+     "photo": "farm",
+     "pos": "g1"
+    },
+    {
+     "photo": "print",
+     "pos": "g2"
+    },
+    {
+     "photo": "attic",
+     "pos": "g3"
+    },
+    {
+     "photo": "cows",
+     "pos": "g4"
+    },
+    {
+     "string": [
+      0,
+      1
+     ]
+    },
+    {
+     "string": [
+      0,
+      2
+     ]
+    },
+    {
+     "string": [
+      0,
+      3
+     ]
+    },
+    {
+     "card": "paper",
+     "head": "TÄTER",
+     "rows": [
+      [
+       "Name:",
+       "???",
+       25.02
+      ]
+     ]
+    },
+    {
+     "tape": "Schreib es in die Kommentare.",
+     "at": 25.5
+    }
+   ]
+  }
+ ]
+}
