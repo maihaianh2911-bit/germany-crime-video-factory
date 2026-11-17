@@ -1,0 +1,2237 @@
+{
+ "duration": 99.726,
+ "lang": "de",
+ "title": "Der Fall Hinterkaifeck",
+ "aiTag": "KI-Illustration",
+ "timeline": {
+  "labels": [
+   "1922",
+   "1923",
+   "1955",
+   "2007",
+   "HEUTE"
+  ],
+  "marks": [
+   15.54,
+   71.251,
+   75.128,
+   78.803,
+   88.422
+  ],
+  "idx": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/5/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 4.639,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/print.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Kritzolina / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.3125,
+      0.0,
+      0.6875,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/farm.jpg",
+     "w": 1400,
+     "h": 1092,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Andreas Biegleder / Public domain",
+     "bleed": true,
+     "view": [
+      0.28063,
+      0.0,
+      0.71937,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 2.85
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/trail.jpg",
+     "w": 1412,
+     "h": 2000,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Fortepan / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.10163,
+      0.0,
+      0.89837,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 3.55
+    },
+    {
+     "type": "tape",
+     "text": "Wer war im Haus?",
+     "color": "red",
+     "px": 74,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": 1.41,
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "HINEIN – NICHT HERAUS",
+     "color": "white",
+     "px": 50,
+     "x": 540,
+     "y": 1110,
+     "align": "center",
+     "rot": -0.68,
+     "s": 2.25
+    }
+   ],
+   "credit": "Foto: Kritzolina / CC BY-SA 4.0 · Andreas Biegleder / Public domain · Fortepan / CC BY-SA 4.0",
+   "edit": "hook"
+  },
+  {
+   "s": 4.639,
+   "e": 8.072,
+   "scene": 2,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/memo.jpg",
+     "w": 1424,
+     "h": 2000,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Christian Greller from Regenstauf, Germany / CC BY 2.0",
+     "bleed": true,
+     "view": [
+      0.10499,
+      0.0,
+      0.89501,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 4.639
+    },
+    {
+     "type": "tape",
+     "text": "6 TOTE",
+     "color": "red",
+     "px": 80,
+     "x": 540,
+     "y": 1300,
+     "align": "center",
+     "rot": -1,
+     "s": 6.389
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: Christian Greller from Regenstauf, Germany / CC BY 2.0",
+   "edit": "place"
+  },
+  {
+   "s": 8.072,
+   "e": 11.95,
+   "scene": 3,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "mid",
+    "from": null,
+    "s": 8.072
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 11.95,
+   "e": 13.1,
+   "scene": 4,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "mid",
+    "s": 11.95
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/farm2.jpg",
+     "w": 1400,
+     "h": 627,
+     "box": [
+      150.0,
+      440.8,
+      780,
+      433.3
+     ],
+     "ai": false,
+     "rot": -1.58,
+     "credit": "Unknown authorUnknown author / Public domain",
+     "view": [
+      0.08452,
+      0.0,
+      0.91548,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 11.95
+    },
+    {
+     "type": "tape",
+     "text": "einsamer Einödhof",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 450.8,
+     "align": "left",
+     "rot": 0.59,
+     "s": 12.222
+    }
+   ],
+   "credit": "Foto: Unknown authorUnknown author / Public domain",
+   "edit": "place"
+  },
+  {
+   "s": 13.1,
+   "e": 17.341,
+   "scene": 5,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 13.1
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/map.jpg",
+     "w": 1688,
+     "h": 2000,
+     "box": [
+      150.8,
+      404.9,
+      778.4,
+      922.3
+     ],
+     "ai": false,
+     "rot": -1.6,
+     "credit": "NordNordWest / CC BY-SA 3.0 de",
+     "view": [
+      0.00291,
+      0.0,
+      0.99709,
+      1.0
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.36,
+       0.55743,
+       0.8,
+       1.0
+      ],
+      "s": 13.22,
+      "e": 14.42
+     },
+     "rings": [
+      {
+       "s": 13.22,
+       "box": [
+        0.566,
+        0.818,
+        0.586,
+        0.838
+       ],
+       "shape": "pin",
+       "color": "yellow"
+      }
+     ],
+     "s": 13.1
+    },
+    {
+     "type": "tape",
+     "text": "SCHROBENHAUSEN",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 1400.9,
+     "align": "center",
+     "rot": -1,
+     "s": 13.22
+    },
+    {
+     "type": "tape",
+     "text": "Frühjahr 1922",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.8,
+     "y": 414.9,
+     "align": "left",
+     "rot": -1.11,
+     "s": 15.02
+    }
+   ],
+   "credit": "Foto: NordNordWest / CC BY-SA 3.0 de",
+   "edit": "detail"
+  },
+  {
+   "s": 17.341,
+   "e": 25.219,
+   "scene": 6,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 17.341
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      566.0,
+      860,
+      710
+     ],
+     "rot": -0.89,
+     "head": "FAMILIE GRUBER",
+     "rows": [
+      {
+       "l": "Andreas Gruber",
+       "r": "Bauer",
+       "s": 18.411,
+       "color": ""
+      },
+      {
+       "l": "Cäzilia",
+       "r": "Ehefrau",
+       "s": 19.511,
+       "color": ""
+      },
+      {
+       "l": "Viktoria",
+       "r": "Tochter",
+       "s": 21.681,
+       "color": ""
+      },
+      {
+       "l": "Cäzilia",
+       "r": "Enkelin",
+       "s": 23.689,
+       "color": ""
+      },
+      {
+       "l": "Josef",
+       "r": "Enkel",
+       "s": 24.384,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 17.341
+    }
+   ],
+   "credit": "",
+   "edit": "who"
+  },
+  {
+   "s": 25.219,
+   "e": 28.984,
+   "scene": 7,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 25.219
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/farm.jpg",
+     "w": 1400,
+     "h": 1092,
+     "box": [
+      234.5,
+      536.7,
+      610.9,
+      680.8
+     ],
+     "ai": false,
+     "rot": -2.35,
+     "credit": "Andreas Biegleder / Public domain",
+     "view": [
+      0.15176,
+      0.0,
+      0.84824,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 25.219
+    },
+    {
+     "type": "tape",
+     "text": "ENDE MÄRZ",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 544.7,
+     "align": "center",
+     "rot": 2.24,
+     "s": 25.442
+    },
+    {
+     "type": "tape",
+     "text": "seltsame Dinge",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1285.7,
+     "align": "center",
+     "rot": -0.91,
+     "s": 27.749
+    }
+   ],
+   "credit": "Foto: Andreas Biegleder / Public domain",
+   "edit": "figure"
+  },
+  {
+   "s": 28.984,
+   "e": 32.135,
+   "scene": 8,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 28.984
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/field.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      30.0,
+      527.8,
+      580,
+      435.0
+     ],
+     "ai": false,
+     "rot": -1.72,
+     "credit": "Peter Barr / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.00845,
+      1.0,
+      0.99155
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 28.984
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/print.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      485.0,
+      899.0,
+      560,
+      373.3
+     ],
+     "ai": false,
+     "rot": 1.36,
+     "credit": "Kritzolina / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.0132,
+      1.0,
+      0.9868
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 30.174
+    },
+    {
+     "type": "tape",
+     "text": "zum Hof",
+     "color": "yellow",
+     "px": 67,
+     "x": 22,
+     "y": 537.8,
+     "align": "left",
+     "rot": -2.13,
+     "s": 30.174
+    },
+    {
+     "type": "tape",
+     "text": "nicht zurück",
+     "color": "red",
+     "px": 62,
+     "x": 765.0,
+     "y": 1340.5,
+     "align": "center",
+     "rot": 3.22,
+     "s": 31.334
+    }
+   ],
+   "credit": "Foto: Peter Barr / CC BY-SA 2.0 · Kritzolina / CC BY-SA 4.0",
+   "edit": "pair"
+  },
+  {
+   "s": 32.135,
+   "e": 34.305,
+   "scene": 9,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 32.135
+   },
+   "items": [
+    {
+     "type": "sticker",
+     "src": "crime/5/img/key.png",
+     "w": 1367,
+     "h": 1227,
+     "box": [
+      220.0,
+      589.9,
+      640,
+      574.5
+     ],
+     "ai": false,
+     "rot": -18,
+     "credit": "~Brenda-Starr~ / CC BY 2.0",
+     "s": 32.135
+    },
+    {
+     "type": "tape",
+     "text": "Hausschlüssel weg",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1232.6,
+     "align": "center",
+     "rot": 1.96,
+     "s": 33.125
+    }
+   ],
+   "credit": "Foto: ~Brenda-Starr~ / CC BY 2.0",
+   "edit": "object"
+  },
+  {
+   "s": 34.305,
+   "e": 36.109,
+   "scene": 10,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 34.305
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/attic.jpg",
+     "w": 1786,
+     "h": 1443,
+     "box": [
+      140.0,
+      542.9,
+      800,
+      646.4
+     ],
+     "ai": false,
+     "rot": -2.54,
+     "credit": "Public domain",
+     "view": [
+      0.0,
+      0.00428,
+      1.0,
+      0.99572
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.19741,
+       0.1,
+       0.80259,
+       0.7
+      ],
+      "s": 34.425,
+      "e": 36.025
+     },
+     "rings": [],
+     "s": 34.305
+    },
+    {
+     "type": "tape",
+     "text": "Schritte auf dem Dachboden",
+     "color": "red",
+     "px": 62,
+     "x": 160.0,
+     "y": 1257.5,
+     "align": "left",
+     "rot": -1,
+     "s": 35.345
+    }
+   ],
+   "credit": "Foto: Public domain",
+   "edit": "detail"
+  },
+  {
+   "s": 36.109,
+   "e": 40.373,
+   "scene": 11,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 36.109
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "Die alte Magd ging",
+     "color": "white",
+     "px": 80,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -1.12,
+     "s": 36.308
+    },
+    {
+     "type": "tape",
+     "text": "„Dort spukt es“",
+     "color": "red",
+     "px": 62,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 2.06,
+     "s": 39.359
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 40.373,
+   "e": 45.849,
+   "scene": 12,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 40.373
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/farm2.jpg",
+     "w": 1400,
+     "h": 627,
+     "box": [
+      150.0,
+      440.8,
+      780,
+      433.3
+     ],
+     "ai": false,
+     "rot": -1.58,
+     "credit": "Unknown authorUnknown author / Public domain",
+     "view": [
+      0.08452,
+      0.0,
+      0.91548,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 40.373
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      100.0,
+      953.9,
+      880,
+      505.1
+     ],
+     "rot": 0.58,
+     "head": "31.03.1922",
+     "rows": [
+      {
+       "l": "Neue Magd",
+       "r": "kommt an",
+       "s": 40.648,
+       "color": ""
+      },
+      {
+       "l": "Maria Baumgartner",
+       "r": "",
+       "s": 44.32,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 40.373
+    }
+   ],
+   "credit": "Foto: Unknown authorUnknown author / Public domain",
+   "edit": "timeline"
+  },
+  {
+   "s": 45.849,
+   "e": 48.473,
+   "scene": 13,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 45.849
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "ERSTER TAG",
+     "color": "white",
+     "px": 70,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -3.37,
+     "s": 46.014
+    },
+    {
+     "type": "tape",
+     "text": "und letzter",
+     "color": "red",
+     "px": 72,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 1.21,
+     "s": 47.648
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 48.473,
+   "e": 51.337,
+   "scene": 14,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 48.473
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/barn.jpg",
+     "w": 1400,
+     "h": 901,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
+     "bleed": true,
+     "view": [
+      0.319,
+      0.0,
+      0.681,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 48.473
+    },
+    {
+     "type": "tape",
+     "text": "IN DIESER NACHT",
+     "color": "white",
+     "px": 54,
+     "x": 540,
+     "y": 470,
+     "align": "center",
+     "rot": 2.04,
+     "s": 48.644
+    },
+    {
+     "type": "tape",
+     "text": "alle sechs getötet",
+     "color": "red",
+     "px": 66,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -2.62,
+     "s": 50.283
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
+   "edit": "figure"
+  },
+  {
+   "s": 51.337,
+   "e": 54.128,
+   "scene": 15,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 51.337
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/hoes.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      150.0,
+      397.5,
+      780,
+      520.0
+     ],
+     "ai": false,
+     "rot": -0.99,
+     "credit": "Peka / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00931,
+      1.0,
+      0.99069
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 51.337
+    },
+    {
+     "type": "tape",
+     "text": "TATWAFFE",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 405.5,
+     "align": "center",
+     "rot": -1,
+     "s": 51.506
+    },
+    {
+     "type": "tape",
+     "text": "Reuthaue (Symbolbild)",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 407.5,
+     "align": "left",
+     "rot": -3.31,
+     "s": 52.327
+    }
+   ],
+   "credit": "Foto: Peka / CC BY-SA 4.0",
+   "edit": "place"
+  },
+  {
+   "s": 54.128,
+   "e": 57.706,
+   "scene": 16,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 54.128
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "Das Unheimlichste",
+     "color": "white",
+     "px": 85,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -3.31,
+     "s": 54.313
+    },
+    {
+     "type": "tape",
+     "text": "Der Täter blieb?",
+     "color": "red",
+     "px": 70,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 1.3,
+     "s": 55.878
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 57.706,
+   "e": 60.897,
+   "scene": 17,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 57.706
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/cows.jpg",
+     "w": 1400,
+     "h": 788,
+     "box": [
+      150.0,
+      438.0,
+      780,
+      439.0
+     ],
+     "ai": false,
+     "rot": -1.75,
+     "credit": "leewrightonflickr / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01449,
+      1.0,
+      0.98551
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 57.706
+    },
+    {
+     "type": "tape",
+     "text": "TAGE NACH DER TAT",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 446.0,
+     "align": "center",
+     "rot": -1,
+     "s": 57.883
+    },
+    {
+     "type": "tape",
+     "text": "jemand fütterte das Vieh",
+     "color": "red",
+     "px": 62,
+     "x": 170.0,
+     "y": 945.2,
+     "align": "left",
+     "rot": -1,
+     "s": 58.796
+    }
+   ],
+   "credit": "Foto: leewrightonflickr / CC BY-SA 2.0",
+   "edit": "place"
+  },
+  {
+   "s": 60.897,
+   "e": 65.597,
+   "scene": 18,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 60.897
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/barn.jpg",
+     "w": 1400,
+     "h": 901,
+     "box": [
+      85.0,
+      407.4,
+      470,
+      302.5
+     ],
+     "ai": false,
+     "rot": -2.55,
+     "credit": "Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
+     "view": [
+      0.0,
+      0.0175,
+      1.0,
+      0.9825
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 60.897
+    },
+    {
+     "type": "stat",
+     "x": 110,
+     "y": 769.9,
+     "rows": [
+      {
+       "n": "4 Tage",
+       "text": "bis zur\nEntdeckung",
+       "s": 61.307,
+       "color": "white"
+      },
+      {
+       "n": "4 + 2",
+       "text": "Scheune · Haus",
+       "s": 63.908,
+       "color": "red"
+      }
+     ],
+     "s": 60.897
+    }
+   ],
+   "credit": "Foto: Wannberg, Elisabeth, Wannberg, Elisabeth / CC0",
+   "edit": "number"
+  },
+  {
+   "s": 65.597,
+   "e": 69.921,
+   "scene": 19,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 65.597
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "folder",
+     "box": [
+      90.0,
+      441.0,
+      900,
+      960
+     ],
+     "rot": -0.43,
+     "head": "",
+     "rows": [],
+     "tab": "AKTE · HINTERKAIFECK",
+     "corner": "MÜNCHEN",
+     "note": null,
+     "stamp": null,
+     "s": 65.597
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/doc1.jpg",
+     "w": 1349,
+     "h": 2000,
+     "box": [
+      175.0,
+      556.2,
+      729.9,
+      595.2
+     ],
+     "ai": false,
+     "rot": 1.53,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00247,
+      1.0,
+      0.54753
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 65.836
+    },
+    {
+     "type": "tape",
+     "text": "Dutzende Verdächtige",
+     "color": "yellow",
+     "px": 67,
+     "x": 920.9,
+     "y": 566.2,
+     "align": "right",
+     "rot": -0.89,
+     "s": 65.667
+    },
+    {
+     "type": "tape",
+     "text": "keinem nachgewiesen",
+     "color": "red",
+     "px": 62,
+     "x": 195.0,
+     "y": 1219.6,
+     "align": "left",
+     "rot": 2.02,
+     "s": 67.827
+    }
+   ],
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
+   "edit": "where"
+  },
+  {
+   "s": 69.921,
+   "e": 75.058,
+   "scene": 20,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 69.921
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/attic.jpg",
+     "w": 1786,
+     "h": 1443,
+     "box": [
+      200.3,
+      383.0,
+      679.5,
+      549.0
+     ],
+     "ai": false,
+     "rot": -2.54,
+     "credit": "Public domain",
+     "view": [
+      0.0,
+      0.00511,
+      1.0,
+      0.99489
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 69.921
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/hoes.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      260.0,
+      1008.8,
+      560,
+      373.3
+     ],
+     "ai": false,
+     "rot": 1.4,
+     "credit": "Peka / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.0132,
+      1.0,
+      0.9868
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 72.371
+    },
+    {
+     "type": "tape",
+     "text": "1 JAHR SPÄTER",
+     "color": "white",
+     "px": 67,
+     "x": 836.0,
+     "y": 1358.1,
+     "align": "right",
+     "rot": -2.38,
+     "s": 71.251
+    },
+    {
+     "type": "tape",
+     "text": "im Dachboden versteckt",
+     "color": "red",
+     "px": 62,
+     "x": 859.8,
+     "y": 1000.2,
+     "align": "right",
+     "rot": 2.3,
+     "s": 73.551
+    }
+   ],
+   "credit": "Foto: Public domain · Peka / CC BY-SA 4.0",
+   "edit": "fact"
+  },
+  {
+   "s": 75.058,
+   "e": 78.733,
+   "scene": 21,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 75.058
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      710.0,
+      860,
+      422
+     ],
+     "rot": -0.89,
+     "head": "ERMITTLUNGEN",
+     "rows": [
+      {
+       "l": "1922",
+       "r": "Tat",
+       "s": 75.245,
+       "color": ""
+      },
+      {
+       "l": "1955",
+       "r": "eingestellt",
+       "s": 77.668,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 75.058
+    }
+   ],
+   "credit": "",
+   "edit": "span"
+  },
+  {
+   "s": 78.733,
+   "e": 83.191,
+   "scene": 22,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 78.733
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/doc2.jpg",
+     "w": 1323,
+     "h": 2000,
+     "box": [
+      234.9,
+      404.9,
+      610.1,
+      922.3
+     ],
+     "ai": false,
+     "rot": -1.12,
+     "credit": "Burkhard Mücke / CC BY-SA 4.0",
+     "view": [
+      0.00801,
+      0.0,
+      0.99199,
+      1.0
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.00801,
+       0.0,
+       0.99199,
+       1.0
+      ],
+      "s": 79.582,
+      "e": 80.982
+     },
+     "rings": [],
+     "s": 78.733
+    },
+    {
+     "type": "tape",
+     "text": "2007",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 412.9,
+     "align": "center",
+     "rot": -1,
+     "s": 78.935
+    },
+    {
+     "type": "tape",
+     "text": "Polizeischüler prüfen neu",
+     "color": "yellow",
+     "px": 67,
+     "x": 218.9,
+     "y": 414.9,
+     "align": "left",
+     "rot": -0.66,
+     "s": 80.663
+    }
+   ],
+   "credit": "Foto: Burkhard Mücke / CC BY-SA 4.0",
+   "edit": "detail"
+  },
+  {
+   "s": 83.191,
+   "e": 88.352,
+   "scene": 23,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 83.191
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      421.0,
+      900,
+      1000
+     ],
+     "rot": -0.89,
+     "head": "ERGEBNIS 2007",
+     "rows": [
+      {
+       "l": "Täter",
+       "r": "bekannt?",
+       "s": 84.201,
+       "color": ""
+      },
+      {
+       "l": "Name",
+       "r": "nicht genannt",
+       "s": 85.681,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": {
+      "text": "AUS RÜCKSICHT\nAUF NACHKOMMEN",
+      "s": 86.681
+     },
+     "s": 83.191
+    }
+   ],
+   "credit": "",
+   "edit": "compare"
+  },
+  {
+   "s": 88.352,
+   "e": 92.006,
+   "scene": 24,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 88.352
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/farm.jpg",
+     "w": 1400,
+     "h": 1092,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Andreas Biegleder / Public domain",
+     "bleed": true,
+     "view": [
+      0.28063,
+      0.0,
+      0.71937,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 88.352
+    },
+    {
+     "type": "tape",
+     "text": "ÜBER 100 JAHRE",
+     "color": "white",
+     "px": 56,
+     "x": 540,
+     "y": 470,
+     "align": "center",
+     "rot": -1,
+     "s": 88.539
+    },
+    {
+     "type": "tape",
+     "text": "ungelöst",
+     "color": "red",
+     "px": 80,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1,
+     "s": 90.981
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: Andreas Biegleder / Public domain",
+   "edit": "place"
+  },
+  {
+   "s": 92.006,
+   "e": 95.41,
+   "scene": 25,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 92.006
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/attic.jpg",
+     "w": 1786,
+     "h": 1443,
+     "box": [
+      140.0,
+      542.9,
+      800,
+      646.4
+     ],
+     "ai": false,
+     "rot": -2.54,
+     "credit": "Public domain",
+     "view": [
+      0.0,
+      0.00428,
+      1.0,
+      0.99572
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 92.006
+    },
+    {
+     "type": "tape",
+     "text": "Wer war auf dem Dachboden?",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1257.5,
+     "align": "center",
+     "rot": 1.2,
+     "s": 92.187
+    },
+    {
+     "type": "tape",
+     "text": "Wer fütterte das Vieh?",
+     "color": "yellow",
+     "px": 67,
+     "x": 124.0,
+     "y": 552.9,
+     "align": "left",
+     "rot": -0.69,
+     "s": 93.192
+    }
+   ],
+   "credit": "Foto: Public domain",
+   "edit": "question"
+  },
+  {
+   "s": 95.41,
+   "e": 99.726,
+   "scene": 26,
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck",
+    "mode": "top",
+    "from": "top",
+    "s": 95.41
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/5/img/farm.jpg",
+     "w": 1400,
+     "h": 1092,
+     "box": [
+      83.8,
+      383.0,
+      422.3,
+      329.4
+     ],
+     "ai": false,
+     "rot": -2.35,
+     "credit": "Andreas Biegleder / Public domain",
+     "view": [
+      0.0,
+      0.01,
+      1.0,
+      0.99
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 95.41
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/print.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      570.0,
+      437.3,
+      430,
+      286.7
+     ],
+     "ai": false,
+     "rot": 1.36,
+     "credit": "Kritzolina / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01735,
+      1.0,
+      0.98265
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 95.41
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/attic.jpg",
+     "w": 1786,
+     "h": 1443,
+     "box": [
+      96.2,
+      756.3,
+      407.7,
+      329.4
+     ],
+     "ai": false,
+     "rot": -2.27,
+     "credit": "Public domain",
+     "view": [
+      0.0,
+      0.00877,
+      1.0,
+      0.99123
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 95.41
+    },
+    {
+     "type": "photo",
+     "src": "crime/5/img/cows.jpg",
+     "w": 1400,
+     "h": 788,
+     "box": [
+      565.0,
+      832.9,
+      430,
+      242.0
+     ],
+     "ai": false,
+     "rot": 1.71,
+     "credit": "leewrightonflickr / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.02711,
+      1.0,
+      0.97289
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 95.41
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      180.0,
+      1080.0,
+      720,
+      370
+     ],
+     "rot": 0.76,
+     "head": "TÄTER",
+     "rows": [
+      {
+       "l": "Name:",
+       "r": "???",
+       "s": 95.547,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 95.41
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare.",
+     "color": "yellow",
+     "px": 66,
+     "x": 540.0,
+     "y": 1020.6,
+     "align": "center",
+     "rot": -0.9,
+     "s": 95.953
+    },
+    {
+     "type": "string",
+     "a": [
+      294.9,
+      409.0
+     ],
+     "b": [
+      785.0,
+      463.3
+     ],
+     "s": 95.41
+    },
+    {
+     "type": "string",
+     "a": [
+      294.9,
+      409.0
+     ],
+     "b": [
+      300.1,
+      782.3
+     ],
+     "s": 95.41
+    },
+    {
+     "type": "string",
+     "a": [
+      294.9,
+      409.0
+     ],
+     "b": [
+      780.0,
+      857.1
+     ],
+     "s": 95.41
+    }
+   ],
+   "credit": "Foto: Andreas Biegleder / Public domain · Kritzolina / CC BY-SA 4.0 · Public domain · leewrightonflickr / CC BY-SA 2.0",
+   "edit": "ending"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 2.14,
+   "text": "Ein Bauer findet Fußspuren im Schnee.",
+   "line": 1
+  },
+  {
+   "s": 2.14,
+   "e": 3.4,
+   "text": "Sie führen zu seinem Hof,",
+   "line": 1
+  },
+  {
+   "s": 3.4,
+   "e": 4.679,
+   "text": "aber nicht wieder weg.",
+   "line": 1
+  },
+  {
+   "s": 4.679,
+   "e": 6.359,
+   "text": "Wenige Tage später sind alle",
+   "line": 2
+  },
+  {
+   "s": 6.359,
+   "e": 8.112,
+   "text": "sechs Menschen auf dem Hof tot.",
+   "line": 2
+  },
+  {
+   "s": 8.112,
+   "e": 9.7,
+   "text": "Das ist Hinterkaifeck, Deutschlands",
+   "line": 3
+  },
+  {
+   "s": 9.7,
+   "e": 11.99,
+   "text": "bekanntester ungelöster Mordfall.",
+   "line": 3
+  },
+  {
+   "s": 11.99,
+   "e": 13.87,
+   "text": "Ein einsamer Hof bei Schrobenhausen",
+   "line": 4
+  },
+  {
+   "s": 13.87,
+   "e": 17.381,
+   "text": "in Oberbayern, im Frühjahr 1922.",
+   "line": 4
+  },
+  {
+   "s": 17.381,
+   "e": 18.641,
+   "text": "Hier lebte der Bauer Andreas",
+   "line": 5
+  },
+  {
+   "s": 18.641,
+   "e": 20.8,
+   "text": "Gruber mit seiner Frau Cäzilia.",
+   "line": 5
+  },
+  {
+   "s": 20.8,
+   "e": 22.372,
+   "text": "Dazu ihre verwitwete Tochter Viktoria",
+   "line": 6
+  },
+  {
+   "s": 22.372,
+   "e": 23.659,
+   "text": "und deren zwei Kinder,",
+   "line": 6
+  },
+  {
+   "s": 23.659,
+   "e": 25.259,
+   "text": "Cäzilia und Josef.",
+   "line": 6
+  },
+  {
+   "s": 25.259,
+   "e": 26.979,
+   "text": "Ende März erzählte Andreas Gruber",
+   "line": 7
+  },
+  {
+   "s": 26.979,
+   "e": 29.024,
+   "text": "den Nachbarn von seltsamen Dingen.",
+   "line": 7
+  },
+  {
+   "s": 29.024,
+   "e": 31.004,
+   "text": "Spuren im Schnee, die zum Hof führten,",
+   "line": 8
+  },
+  {
+   "s": 31.004,
+   "e": 32.175,
+   "text": "aber nicht zurück.",
+   "line": 8
+  },
+  {
+   "s": 32.175,
+   "e": 33.595,
+   "text": "Ein Hausschlüssel war verschwunden.",
+   "line": 9
+  },
+  {
+   "s": 33.595,
+   "e": 35.214,
+   "text": "Und auf dem Dachboden hörte",
+   "line": 9
+  },
+  {
+   "s": 35.214,
+   "e": 36.149,
+   "text": "er Schritte.",
+   "line": 9
+  },
+  {
+   "s": 36.149,
+   "e": 37.065,
+   "text": "Die frühere Magd hatte",
+   "line": 10
+  },
+  {
+   "s": 37.065,
+   "e": 38.653,
+   "text": "den Hof Monate zuvor verlassen.",
+   "line": 10
+  },
+  {
+   "s": 38.653,
+   "e": 40.413,
+   "text": "Sie sagte, dort spuke es.",
+   "line": 10
+  },
+  {
+   "s": 40.413,
+   "e": 44.29,
+   "text": "Am 31. März 1922 kam eine neue Magd,",
+   "line": 11
+  },
+  {
+   "s": 44.29,
+   "e": 45.889,
+   "text": "Maria Baumgartner.",
+   "line": 11
+  },
+  {
+   "s": 45.889,
+   "e": 47.169,
+   "text": "Es war ihr erster Tag auf dem Hof.",
+   "line": 12
+  },
+  {
+   "s": 47.169,
+   "e": 48.513,
+   "text": "Und ihr letzter.",
+   "line": 12
+  },
+  {
+   "s": 48.513,
+   "e": 49.113,
+   "text": "In dieser Nacht",
+   "line": 13
+  },
+  {
+   "s": 49.113,
+   "e": 51.377,
+   "text": "wurden alle sechs Menschen getötet.",
+   "line": 13
+  },
+  {
+   "s": 51.377,
+   "e": 53.097,
+   "text": "Als Tatwaffe gilt eine Reuthaue,",
+   "line": 14
+  },
+  {
+   "s": 53.097,
+   "e": 54.168,
+   "text": "eine Art Hacke.",
+   "line": 14
+  },
+  {
+   "s": 54.168,
+   "e": 55.848,
+   "text": "Das Unheimlichste: Der Täter",
+   "line": 15
+  },
+  {
+   "s": 55.848,
+   "e": 57.746,
+   "text": "verschwand offenbar nicht sofort.",
+   "line": 15
+  },
+  {
+   "s": 57.746,
+   "e": 59.426,
+   "text": "In den folgenden Tagen versorgte",
+   "line": 16
+  },
+  {
+   "s": 59.426,
+   "e": 60.937,
+   "text": "jemand weiter das Vieh.",
+   "line": 16
+  },
+  {
+   "s": 60.937,
+   "e": 62.077,
+   "text": "Erst nach vier Tagen fanden",
+   "line": 17
+  },
+  {
+   "s": 62.077,
+   "e": 63.697,
+   "text": "Nachbarn die Toten. Vier lagen",
+   "line": 17
+  },
+  {
+   "s": 63.697,
+   "e": 65.637,
+   "text": "in der Scheune, zwei im Haus.",
+   "line": 17
+  },
+  {
+   "s": 65.637,
+   "e": 66.677,
+   "text": "Dutzende Menschen gerieten",
+   "line": 18
+  },
+  {
+   "s": 66.677,
+   "e": 68.357,
+   "text": "unter Verdacht, doch keinem wurde",
+   "line": 18
+  },
+  {
+   "s": 68.357,
+   "e": 69.961,
+   "text": "die Tat nachgewiesen.",
+   "line": 18
+  },
+  {
+   "s": 69.961,
+   "e": 71.361,
+   "text": "Die Reuthaue tauchte erst ein Jahr",
+   "line": 19
+  },
+  {
+   "s": 71.361,
+   "e": 73.521,
+   "text": "später auf, beim Abriss des Hofes,",
+   "line": 19
+  },
+  {
+   "s": 73.521,
+   "e": 75.098,
+   "text": "versteckt im Dachboden.",
+   "line": 19
+  },
+  {
+   "s": 75.098,
+   "e": 77.638,
+   "text": "1955 wurden die Ermittlungen",
+   "line": 20
+  },
+  {
+   "s": 77.638,
+   "e": 78.773,
+   "text": "eingestellt.",
+   "line": 20
+  },
+  {
+   "s": 78.773,
+   "e": 81.493,
+   "text": "2007 rollten angehende Kriminalbeamte",
+   "line": 21
+  },
+  {
+   "s": 81.493,
+   "e": 83.231,
+   "text": "den Fall noch einmal auf.",
+   "line": 21
+  },
+  {
+   "s": 83.231,
+   "e": 85.171,
+   "text": "Sie glaubten, den Täter zu kennen,",
+   "line": 22
+  },
+  {
+   "s": 85.171,
+   "e": 86.571,
+   "text": "nannten aber keinen Namen,",
+   "line": 22
+  },
+  {
+   "s": 86.571,
+   "e": 88.392,
+   "text": "aus Rücksicht auf die Nachkommen.",
+   "line": 22
+  },
+  {
+   "s": 88.392,
+   "e": 89.79,
+   "text": "Über hundert Jahre später ist",
+   "line": 23
+  },
+  {
+   "s": 89.79,
+   "e": 92.046,
+   "text": "Hinterkaifeck noch immer ungelöst.",
+   "line": 23
+  },
+  {
+   "s": 92.046,
+   "e": 93.162,
+   "text": "Wer war auf dem Dachboden?",
+   "line": 24
+  },
+  {
+   "s": 93.162,
+   "e": 94.168,
+   "text": "Und wer versorgte",
+   "line": 24
+  },
+  {
+   "s": 94.168,
+   "e": 95.45,
+   "text": "nach der Tat das Vieh?",
+   "line": 24
+  },
+  {
+   "s": 95.45,
+   "e": 97.176,
+   "text": "Was denkst du?",
+   "line": 25
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/5/voice/line_01.mp3"
+  },
+  {
+   "s": 4.759,
+   "src": "crime/5/voice/line_02.mp3"
+  },
+  {
+   "s": 8.192,
+   "src": "crime/5/voice/line_03.mp3"
+  },
+  {
+   "s": 12.07,
+   "src": "crime/5/voice/line_04.mp3"
+  },
+  {
+   "s": 17.461,
+   "src": "crime/5/voice/line_05.mp3"
+  },
+  {
+   "s": 20.88,
+   "src": "crime/5/voice/line_06.mp3"
+  },
+  {
+   "s": 25.339,
+   "src": "crime/5/voice/line_07.mp3"
+  },
+  {
+   "s": 29.104,
+   "src": "crime/5/voice/line_08.mp3"
+  },
+  {
+   "s": 32.255,
+   "src": "crime/5/voice/line_09.mp3"
+  },
+  {
+   "s": 36.229,
+   "src": "crime/5/voice/line_10.mp3"
+  },
+  {
+   "s": 40.493,
+   "src": "crime/5/voice/line_11.mp3"
+  },
+  {
+   "s": 45.969,
+   "src": "crime/5/voice/line_12.mp3"
+  },
+  {
+   "s": 48.593,
+   "src": "crime/5/voice/line_13.mp3"
+  },
+  {
+   "s": 51.457,
+   "src": "crime/5/voice/line_14.mp3"
+  },
+  {
+   "s": 54.248,
+   "src": "crime/5/voice/line_15.mp3"
+  },
+  {
+   "s": 57.826,
+   "src": "crime/5/voice/line_16.mp3"
+  },
+  {
+   "s": 61.017,
+   "src": "crime/5/voice/line_17.mp3"
+  },
+  {
+   "s": 65.717,
+   "src": "crime/5/voice/line_18.mp3"
+  },
+  {
+   "s": 70.041,
+   "src": "crime/5/voice/line_19.mp3"
+  },
+  {
+   "s": 75.178,
+   "src": "crime/5/voice/line_20.mp3"
+  },
+  {
+   "s": 78.853,
+   "src": "crime/5/voice/line_21.mp3"
+  },
+  {
+   "s": 83.311,
+   "src": "crime/5/voice/line_22.mp3"
+  },
+  {
+   "s": 88.472,
+   "src": "crime/5/voice/line_23.mp3"
+  },
+  {
+   "s": 92.126,
+   "src": "crime/5/voice/line_24.mp3"
+  },
+  {
+   "s": 95.53,
+   "src": "crime/5/voice/line_25.mp3"
+  }
+ ],
+ "music": "crime/5/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ],
+ "sfx": "crime/5/sfx.wav",
+ "sfxVolume": 0.6
+}

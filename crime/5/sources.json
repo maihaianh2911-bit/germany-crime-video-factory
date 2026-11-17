@@ -1,0 +1,789 @@
+{
+ "pictures": [
+  {
+   "name": "print",
+   "src": "1/9-3.jpg",
+   "title": "Footprints in the snow, Munich 2021 06.jpg",
+   "artist": "Kritzolina",
+   "date": "Taken on 17 January 2021, 17:02:41",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Footprints_in_the_snow,_Munich_2021_06.jpg",
+   "ai": false
+  },
+  {
+   "name": "farm",
+   "src": "1/1-1.jpg",
+   "title": "Hinterkaifeck-Hof.jpg",
+   "artist": "Andreas Biegleder",
+   "date": "1922",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Hinterkaifeck-Hof.jpg",
+   "ai": false
+  },
+  {
+   "name": "trail",
+   "src": "1/9-8.jpg",
+   "title": "Lábnyomok a hóban",
+   "artist": "Fortepan",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "page": "https://www.europeana.eu/item/2048128/835976",
+   "ai": false
+  },
+  {
+   "name": "memo",
+   "src": "1/2-7.jpg",
+   "title": "Hinterkaifeck Inschrift.jpg",
+   "artist": "Christian Greller from Regenstauf, Germany",
+   "date": "2007-01-16 17:25",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hinterkaifeck_Inschrift.jpg",
+   "ai": false
+  },
+  {
+   "name": "farm2",
+   "src": "1/3-1.jpg",
+   "title": "Photo - Hinterkaifeck.jpg",
+   "artist": "Unknown authorUnknown author",
+   "date": "-",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Photo_-_Hinterkaifeck.jpg",
+   "ai": false
+  },
+  {
+   "name": "map",
+   "src": "1/16-1.jpg",
+   "title": "Germany adm location map.svg",
+   "artist": "NordNordWest",
+   "date": "2014-09-15",
+   "license": "CC BY-SA 3.0 de",
+   "page": "https://commons.wikimedia.org/wiki/File:Germany_adm_location_map.svg",
+   "ai": false
+  },
+  {
+   "name": "field",
+   "src": "1/10-8.jpg",
+   "title": "Farm track across snowy field - geograph.org.uk - 2201602.jpg",
+   "artist": "Peter Barr",
+   "date": "2010-12-18",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Farm_track_across_snowy_field_-_geograph.org.uk_-_2201602.jpg",
+   "ai": false
+  },
+  {
+   "name": "key",
+   "src": "1/14-4.jpg",
+   "title": "Key 3",
+   "artist": "~Brenda-Starr~",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/37753256@N08/3509344402",
+   "ai": false
+  },
+  {
+   "name": "attic",
+   "src": "1/11-1.jpg",
+   "title": "DETAIL OF ATTIC CONSTRUCTION - Abraham Van Campen House, Old Mine Road, Millbrook, Warren County, NJ HABS NJ,21-MILBRO.V,4-7.tif",
+   "artist": "",
+   "date": "Documentation compiled after 1933",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:DETAIL_OF_ATTIC_CONSTRUCTION_-_Abraham_Van_Campen_House,_Old_Mine_Road,_Millbrook,_Warren_County,_NJ_HABS_NJ,21-MILBRO.V,4-7.tif",
+   "ai": false
+  },
+  {
+   "name": "barn",
+   "src": "1/12-6.jpg",
+   "title": "Interiör från ladugård/magasin, Fullerö 16:4, Gamla Uppsala socken, Uppland 1978",
+   "artist": "Wannberg, Elisabeth, Wannberg, Elisabeth",
+   "date": "",
+   "license": "CC0",
+   "page": "https://www.europeana.eu/item/91617/upmu_photo_SM1129_02",
+   "ai": false
+  },
+  {
+   "name": "hoes",
+   "src": "1/8-3.jpg",
+   "title": "Hoes at Kitagata Shikinooka Museum.jpg",
+   "artist": "Peka",
+   "date": "2019-04-05 16:08:08",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hoes_at_Kitagata_Shikinooka_Museum.jpg",
+   "ai": false
+  },
+  {
+   "name": "cows",
+   "src": "1/15-3.jpg",
+   "title": "In the cattle barn at the Vermont History Expo 2012",
+   "artist": "leewrightonflickr",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/8256974@N05/7395590470",
+   "ai": false
+  },
+  {
+   "name": "doc1",
+   "src": "1/1-3.jpg",
+   "title": "Ausstellung zu Mord in Hinterkaifeck 15.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:20:55",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ausstellung_zu_Mord_in_Hinterkaifeck_15.jpg",
+   "ai": false
+  },
+  {
+   "name": "doc2",
+   "src": "1/1-7.jpg",
+   "title": "Ausstellung zu Mord in Hinterkaifeck 11.jpg",
+   "artist": "Burkhard Mücke",
+   "date": "2026-03-27 11:17:15",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ausstellung_zu_Mord_in_Hinterkaifeck_11.jpg",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 4.639,
+   "said": [
+    "Ein Bauer findet Fußspuren im Schnee.",
+    "Sie führen zu seinem Hof,",
+    "aber nicht wieder weg."
+   ],
+   "edit": "hook",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "print.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "farm.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "trail.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer war im Haus?"
+    },
+    {
+     "type": "tape",
+     "text": "HINEIN – NICHT HERAUS"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 4.639,
+   "end": 8.072,
+   "said": [
+    "Wenige Tage später sind alle",
+    "sechs Menschen auf dem Hof tot."
+   ],
+   "edit": "place",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "memo.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "6 TOTE"
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "start": 8.072,
+   "end": 11.95,
+   "said": [
+    "Das ist Hinterkaifeck, Deutschlands",
+    "bekanntester ungelöster Mordfall."
+   ],
+   "edit": "chapter",
+   "head": "Hinterkaifeck",
+   "items": []
+  },
+  {
+   "scene": 4,
+   "start": 11.95,
+   "end": 13.1,
+   "said": [
+    "Ein einsamer Hof bei Schrobenhausen"
+   ],
+   "edit": "place",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "farm2.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "einsamer Einödhof"
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "start": 13.1,
+   "end": 17.341,
+   "said": [
+    "in Oberbayern, im Frühjahr 1922."
+   ],
+   "edit": "detail",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "map.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "SCHROBENHAUSEN"
+    },
+    {
+     "type": "tape",
+     "text": "Frühjahr 1922"
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "start": 17.341,
+   "end": 25.219,
+   "said": [
+    "Hier lebte der Bauer Andreas",
+    "Gruber mit seiner Frau Cäzilia.",
+    "Dazu ihre verwitwete Tochter Viktoria",
+    "und deren zwei Kinder,",
+    "Cäzilia und Josef."
+   ],
+   "edit": "who",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 25.219,
+   "end": 28.984,
+   "said": [
+    "Ende März erzählte Andreas Gruber",
+    "den Nachbarn von seltsamen Dingen."
+   ],
+   "edit": "figure",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "farm.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "ENDE MÄRZ"
+    },
+    {
+     "type": "tape",
+     "text": "seltsame Dinge"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 28.984,
+   "end": 32.135,
+   "said": [
+    "Spuren im Schnee, die zum Hof führten,",
+    "aber nicht zurück."
+   ],
+   "edit": "pair",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "field.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "print.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "zum Hof"
+    },
+    {
+     "type": "tape",
+     "text": "nicht zurück"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 32.135,
+   "end": 34.305,
+   "said": [
+    "Ein Hausschlüssel war verschwunden.",
+    "Und auf dem Dachboden hörte"
+   ],
+   "edit": "object",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "sticker",
+     "image": "key.png",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Hausschlüssel weg"
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 34.305,
+   "end": 36.109,
+   "said": [
+    "er Schritte."
+   ],
+   "edit": "detail",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "attic.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Schritte auf dem Dachboden"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 36.109,
+   "end": 40.373,
+   "said": [
+    "Die frühere Magd hatte",
+    "den Hof Monate zuvor verlassen.",
+    "Sie sagte, dort spuke es."
+   ],
+   "edit": "statement",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Die alte Magd ging"
+    },
+    {
+     "type": "tape",
+     "text": "„Dort spukt es“"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 40.373,
+   "end": 45.849,
+   "said": [
+    "Am 31. März 1922 kam eine neue Magd,",
+    "Maria Baumgartner."
+   ],
+   "edit": "timeline",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "farm2.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 45.849,
+   "end": 48.473,
+   "said": [
+    "Es war ihr erster Tag auf dem Hof.",
+    "Und ihr letzter."
+   ],
+   "edit": "statement",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "tape",
+     "text": "ERSTER TAG"
+    },
+    {
+     "type": "tape",
+     "text": "und letzter"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 48.473,
+   "end": 51.337,
+   "said": [
+    "In dieser Nacht",
+    "wurden alle sechs Menschen getötet."
+   ],
+   "edit": "figure",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "barn.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "IN DIESER NACHT"
+    },
+    {
+     "type": "tape",
+     "text": "alle sechs getötet"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 51.337,
+   "end": 54.128,
+   "said": [
+    "Als Tatwaffe gilt eine Reuthaue,",
+    "eine Art Hacke."
+   ],
+   "edit": "place",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "hoes.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "TATWAFFE"
+    },
+    {
+     "type": "tape",
+     "text": "Reuthaue (Symbolbild)"
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "start": 54.128,
+   "end": 57.706,
+   "said": [
+    "Das Unheimlichste: Der Täter",
+    "verschwand offenbar nicht sofort."
+   ],
+   "edit": "statement",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Das Unheimlichste"
+    },
+    {
+     "type": "tape",
+     "text": "Der Täter blieb?"
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "start": 57.706,
+   "end": 60.897,
+   "said": [
+    "In den folgenden Tagen versorgte",
+    "jemand weiter das Vieh."
+   ],
+   "edit": "place",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "cows.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "TAGE NACH DER TAT"
+    },
+    {
+     "type": "tape",
+     "text": "jemand fütterte das Vieh"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 60.897,
+   "end": 65.597,
+   "said": [
+    "Erst nach vier Tagen fanden",
+    "Nachbarn die Toten. Vier lagen",
+    "in der Scheune, zwei im Haus."
+   ],
+   "edit": "number",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "barn.jpg",
+     "ai": false
+    },
+    {
+     "type": "stat"
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "start": 65.597,
+   "end": 69.921,
+   "said": [
+    "Dutzende Menschen gerieten",
+    "unter Verdacht, doch keinem wurde",
+    "die Tat nachgewiesen."
+   ],
+   "edit": "where",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "card"
+    },
+    {
+     "type": "photo",
+     "image": "doc1.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Dutzende Verdächtige"
+    },
+    {
+     "type": "tape",
+     "text": "keinem nachgewiesen"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 69.921,
+   "end": 75.058,
+   "said": [
+    "Die Reuthaue tauchte erst ein Jahr",
+    "später auf, beim Abriss des Hofes,",
+    "versteckt im Dachboden."
+   ],
+   "edit": "fact",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "attic.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "hoes.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "1 JAHR SPÄTER"
+    },
+    {
+     "type": "tape",
+     "text": "im Dachboden versteckt"
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "start": 75.058,
+   "end": 78.733,
+   "said": [
+    "1955 wurden die Ermittlungen",
+    "eingestellt."
+   ],
+   "edit": "span",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 22,
+   "start": 78.733,
+   "end": 83.191,
+   "said": [
+    "2007 rollten angehende Kriminalbeamte",
+    "den Fall noch einmal auf."
+   ],
+   "edit": "detail",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "doc2.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "2007"
+    },
+    {
+     "type": "tape",
+     "text": "Polizeischüler prüfen neu"
+    }
+   ]
+  },
+  {
+   "scene": 23,
+   "start": 83.191,
+   "end": 88.352,
+   "said": [
+    "Sie glaubten, den Täter zu kennen,",
+    "nannten aber keinen Namen,",
+    "aus Rücksicht auf die Nachkommen."
+   ],
+   "edit": "compare",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 24,
+   "start": 88.352,
+   "end": 92.006,
+   "said": [
+    "Über hundert Jahre später ist",
+    "Hinterkaifeck noch immer ungelöst."
+   ],
+   "edit": "place",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "farm.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "ÜBER 100 JAHRE"
+    },
+    {
+     "type": "tape",
+     "text": "ungelöst"
+    }
+   ]
+  },
+  {
+   "scene": 25,
+   "start": 92.006,
+   "end": 95.41,
+   "said": [
+    "Wer war auf dem Dachboden?",
+    "Und wer versorgte",
+    "nach der Tat das Vieh?"
+   ],
+   "edit": "question",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "attic.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer war auf dem Dachboden?"
+    },
+    {
+     "type": "tape",
+     "text": "Wer fütterte das Vieh?"
+    }
+   ]
+  },
+  {
+   "scene": 26,
+   "start": 95.41,
+   "end": 99.726,
+   "said": [
+    "Was denkst du?"
+   ],
+   "edit": "ending",
+   "head": "Hinterkaifeck",
+   "items": [
+    {
+     "type": "photo",
+     "image": "farm.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "print.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "attic.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "cows.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare."
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  }
+ ]
+}
