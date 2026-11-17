@@ -1,12 +1,14 @@
 {
- "started": "2026-11-17 07:03:00 UTC",
+ "started": "2026-11-17 07:11:31 UTC",
  "queries": [
   {
    "k": 1,
    "query": "wiki: Hinterkaifeck",
-   "kept": 0,
+   "kept": 23,
    "candidates": 24,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 23
+   },
    "error": null,
    "match": [],
    "wikidata": {
@@ -21,16 +23,18 @@
    "sources": {
     "wiki": {
      "usable": 24,
-     "seconds": 2.8
+     "seconds": 3.4
     }
    }
   },
   {
    "k": 2,
    "query": "wiki: Schrobenhausen",
-   "kept": 0,
+   "kept": 24,
    "candidates": 56,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 24
+   },
    "error": null,
    "match": [],
    "wikidata": {
@@ -45,23 +49,33 @@
    "sources": {
     "wiki": {
      "usable": 60,
-     "seconds": 9.0
+     "seconds": 5.2
     }
    }
   },
   {
    "k": 3,
    "query": "wiki: Waidhofen (Oberbayern)",
-   "kept": 0,
-   "candidates": 0,
-   "kept_by_source": {},
-   "error": "wiki: no Wikidata item named \"Waidhofen (Oberbayern)\" (try the name of its Wikipedia article, or commons: Waidhofen (Oberbayern))",
+   "kept": 7,
+   "candidates": 34,
+   "kept_by_source": {
+    "commons": 7
+   },
+   "error": null,
    "match": [],
-   "wikidata": null,
+   "wikidata": {
+    "id": "Q544776",
+    "label": "Waidhofen",
+    "description": "Gemeinde im Landkreis Neuburg-Schrobenhausen in Bayern",
+    "coord": [
+     48.57917,
+     11.33889
+    ]
+   },
    "sources": {
     "wiki": {
-     "error": "RuntimeError:  wiki: no Wikidata item named \"Waidhofen (Oberbayern)\" (try the name of its Wikipedia article, or com",
-     "seconds": 0.3
+     "usable": 38,
+     "seconds": 4.1
     }
    }
   },
@@ -77,37 +91,49 @@
    "sources": {
     "geo": {
      "usable": 6,
-     "seconds": 1.7
+     "seconds": 1.3
     }
    }
   },
   {
    "k": 5,
    "query": "footprints in snow",
-   "kept": 0,
+   "kept": 8,
    "candidates": 42,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "openverse": 4,
+    "commons": 4
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.369,
+    0.383,
+    0.348,
+    0.347,
+    0.37,
+    0.346,
+    0.354,
+    0.336
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
      "total": 37499,
      "returned": 20,
      "usable": 19,
-     "seconds": 0.6
+     "seconds": 0.7
     },
     "openverse": {
      "total": 240,
      "returned": 20,
      "usable": 20,
-     "seconds": 7.4
+     "seconds": 7.9
     },
     "europeana": {
      "total": 3,
      "returned": 3,
      "usable": 3,
-     "seconds": 0.8
+     "seconds": 0.3
     }
    },
    "commons_50": {
@@ -118,11 +144,23 @@
   {
    "k": 6,
    "query": "attic",
-   "kept": 0,
+   "kept": 8,
    "candidates": 56,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 6,
+    "openverse": 2
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.353,
+    0.324,
+    0.293,
+    0.301,
+    0.307,
+    0.288,
+    0.274,
+    0.261
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
@@ -135,13 +173,13 @@
      "total": 240,
      "returned": 20,
      "usable": 20,
-     "seconds": 8.7
+     "seconds": 12.7
     },
     "europeana": {
      "total": 1686,
      "returned": 40,
      "usable": 20,
-     "seconds": 1.0
+     "seconds": 0.4
     }
    },
    "commons_50": {
@@ -152,11 +190,24 @@
   {
    "k": 7,
    "query": "Dachboden",
-   "kept": 0,
+   "kept": 8,
    "candidates": 59,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "openverse": 5,
+    "europeana": 1,
+    "commons": 2
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.376,
+    0.325,
+    0.385,
+    0.326,
+    0.349,
+    0.361,
+    0.355,
+    0.301
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
@@ -169,13 +220,13 @@
      "total": 135,
      "returned": 20,
      "usable": 20,
-     "seconds": 8.3
+     "seconds": 12.6
     },
     "europeana": {
      "total": 92,
      "returned": 40,
      "usable": 20,
-     "seconds": 0.5
+     "seconds": 0.4
     }
    },
    "commons_50": {
@@ -186,11 +237,23 @@
   {
    "k": 8,
    "query": "barn interior",
-   "kept": 0,
+   "kept": 8,
    "candidates": 57,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 5,
+    "openverse": 3
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.302,
+    0.304,
+    0.296,
+    0.308,
+    0.346,
+    0.28,
+    0.292,
+    0.282
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
@@ -203,7 +266,7 @@
      "total": 240,
      "returned": 20,
      "usable": 20,
-     "seconds": 11.8
+     "seconds": 1.4
     },
     "europeana": {
      "total": 3650,
@@ -220,11 +283,23 @@
   {
    "k": 9,
    "query": "Bauernhof Oberbayern",
-   "kept": 0,
+   "kept": 8,
    "candidates": 25,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 6,
+    "openverse": 2
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.3,
+    0.295,
+    0.286,
+    0.263,
+    0.292,
+    0.246,
+    0.263,
+    0.234
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
@@ -237,13 +312,13 @@
      "total": 5,
      "returned": 5,
      "usable": 5,
-     "seconds": 4.0
+     "seconds": 7.5
     },
     "europeana": {
      "total": 0,
      "returned": 0,
      "usable": 0,
-     "seconds": 0.3
+     "seconds": 0.2
     }
    },
    "commons_50": {
@@ -254,11 +329,16 @@
   {
    "k": 10,
    "query": "Einödhof",
-   "kept": 0,
+   "kept": 2,
    "candidates": 25,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 2
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.228,
+    0.2
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
@@ -271,13 +351,13 @@
      "total": 0,
      "returned": 0,
      "usable": 0,
-     "seconds": 1.4
+     "seconds": 2.5
     },
     "europeana": {
      "total": 5,
      "returned": 5,
      "usable": 5,
-     "seconds": 0.4
+     "seconds": 0.3
     }
    },
    "commons_50": {
@@ -288,11 +368,23 @@
   {
    "k": 11,
    "query": "old key",
-   "kept": 0,
+   "kept": 8,
    "candidates": 57,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "openverse": 7,
+    "commons": 1
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.241,
+    0.239,
+    0.243,
+    0.255,
+    0.224,
+    0.27,
+    0.243,
+    0.213
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
@@ -305,13 +397,13 @@
      "total": 240,
      "returned": 20,
      "usable": 20,
-     "seconds": 7.1
+     "seconds": 5.2
     },
     "europeana": {
      "total": 327,
      "returned": 40,
      "usable": 20,
-     "seconds": 0.5
+     "seconds": 0.4
     }
    },
    "commons_50": {
@@ -322,30 +414,42 @@
   {
    "k": 12,
    "query": "Kuhstall",
-   "kept": 0,
+   "kept": 8,
    "candidates": 59,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "europeana": 7,
+    "commons": 1
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.375,
+    0.344,
+    0.34,
+    0.324,
+    0.302,
+    0.341,
+    0.287,
+    0.313
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
      "total": 14360,
      "returned": 20,
      "usable": 19,
-     "seconds": 0.6
+     "seconds": 0.7
     },
     "openverse": {
      "total": 194,
      "returned": 20,
      "usable": 20,
-     "seconds": 5.5
+     "seconds": 5.0
     },
     "europeana": {
      "total": 90,
      "returned": 40,
      "usable": 20,
-     "seconds": 0.4
+     "seconds": 0.5
     }
    },
    "commons_50": {
@@ -356,30 +460,42 @@
   {
    "k": 13,
    "query": "snowy field",
-   "kept": 0,
+   "kept": 8,
    "candidates": 60,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 2,
+    "openverse": 6
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.349,
+    0.328,
+    0.298,
+    0.286,
+    0.296,
+    0.283,
+    0.299,
+    0.273
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
      "total": 41717,
      "returned": 20,
      "usable": 20,
-     "seconds": 0.7
+     "seconds": 0.6
     },
     "openverse": {
      "total": 240,
      "returned": 20,
      "usable": 20,
-     "seconds": 7.1
+     "seconds": 7.7
     },
     "europeana": {
      "total": 568,
      "returned": 40,
      "usable": 20,
-     "seconds": 0.3
+     "seconds": 0.5
     }
    },
    "commons_50": {
@@ -407,7 +523,7 @@
      "total": 0,
      "returned": 0,
      "usable": 0,
-     "seconds": 2.4
+     "seconds": 1.8
     },
     "europeana": {
      "total": 0,
@@ -424,30 +540,42 @@
   {
    "k": 15,
    "query": "Zeitung 1922",
-   "kept": 0,
+   "kept": 8,
    "candidates": 47,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 7,
+    "europeana": 1
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.323,
+    0.344,
+    0.306,
+    0.346,
+    0.309,
+    0.301,
+    0.284,
+    0.315
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
      "total": 1561,
      "returned": 20,
      "usable": 20,
-     "seconds": 0.6
+     "seconds": 0.7
     },
     "openverse": {
      "total": 11,
      "returned": 11,
      "usable": 11,
-     "seconds": 4.4
+     "seconds": 5.0
     },
     "europeana": {
      "total": 870,
      "returned": 40,
      "usable": 20,
-     "seconds": 0.4
+     "seconds": 0.6
     }
    },
    "commons_50": {
@@ -458,11 +586,24 @@
   {
    "k": 16,
    "query": "Bauernstube",
-   "kept": 0,
+   "kept": 8,
    "candidates": 59,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "openverse": 5,
+    "europeana": 2,
+    "commons": 1
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.322,
+    0.318,
+    0.315,
+    0.295,
+    0.269,
+    0.261,
+    0.265,
+    0.252
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
@@ -475,7 +616,7 @@
      "total": 126,
      "returned": 20,
      "usable": 20,
-     "seconds": 1.1
+     "seconds": 4.9
     },
     "europeana": {
      "total": 112,
@@ -492,24 +633,29 @@
   {
    "k": 17,
    "query": "Friedhof Grabstein Oberbayern",
-   "kept": 0,
+   "kept": 2,
    "candidates": 2,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 2
+   },
    "error": null,
-   "match": [],
+   "match": [
+    0.291,
+    0.243
+   ],
    "wikidata": null,
    "sources": {
     "commons": {
      "total": 6,
      "returned": 6,
      "usable": 4,
-     "seconds": 0.6
+     "seconds": 0.5
     },
     "openverse": {
      "total": 0,
      "returned": 0,
      "usable": 0,
-     "seconds": 2.6
+     "seconds": 0.7
     },
     "europeana": {
      "total": 0,
@@ -526,9 +672,11 @@
   {
    "k": 18,
    "query": "File:Germany adm location map.svg",
-   "kept": 0,
+   "kept": 1,
    "candidates": 1,
-   "kept_by_source": {},
+   "kept_by_source": {
+    "commons": 1
+   },
    "error": null,
    "match": [],
    "wikidata": null,
@@ -536,37 +684,96 @@
   }
  ],
  "problems": [],
- "seconds_search": 103,
+ "seconds_search": 368,
  "dropped": {
-  "too_small": 18,
-  "duplicates": 0,
-  "not_fitting": 0
+  "too_small": 39,
+  "duplicates": 27,
+  "not_fitting": 207
  },
  "ranking": "on",
  "vs_first_search": {
   "pictures_then": 102,
-  "pictures_now": 0,
-  "in_both": 0,
-  "new_now": 0
+  "pictures_now": 139,
+  "in_both": 20,
+  "new_now": 119
  },
  "downloads": {
-  "tried": 10,
-  "failed": 0,
-  "seconds": 2,
-  "failed_by_host": {},
-  "failed_examples": []
+  "tried": 447,
+  "failed": 9,
+  "seconds": 400,
+  "failed_by_host": {
+   "finds.org.uk": 7,
+   "sammlung.belvedere.at": 1,
+   "sokisamlingar.sormlandsmuseum.se": 1
+  },
+  "failed_examples": [
+   {
+    "q": "old key",
+    "host": "finds.org.uk",
+    "s": 0.06,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old key",
+    "host": "finds.org.uk",
+    "s": 0.03,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old key",
+    "host": "finds.org.uk",
+    "s": 0.04,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old key",
+    "host": "finds.org.uk",
+    "s": 0.03,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old key",
+    "host": "finds.org.uk",
+    "s": 0.05,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old key",
+    "host": "finds.org.uk",
+    "s": 0.05,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old key",
+    "host": "finds.org.uk",
+    "s": 0.04,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "Kuhstall",
+    "host": "sammlung.belvedere.at",
+    "s": 2.28,
+    "err": "HTTPError: 403 HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "Zeitung 1922",
+    "host": "sokisamlingar.sormlandsmuseum.se",
+    "s": 66.76,
+    "err": "URLError:  <urlopen error timed out>"
+   }
+  ]
  },
  "api": {
-  "calls": 75,
+  "calls": 432,
   "failed": 0,
-  "seconds": 109,
+  "seconds": 279,
   "calls_by_host": {
-   "api.europeana.eu": 13,
-   "api.openverse.org": 13,
-   "commons.wikimedia.org": 49
+   "api.europeana.eu": 190,
+   "api.openverse.org": 183,
+   "commons.wikimedia.org": 59
   },
   "failed_examples": []
  },
  "refused_sources": [],
- "seconds_total": 120
+ "seconds_total": 385
 }
