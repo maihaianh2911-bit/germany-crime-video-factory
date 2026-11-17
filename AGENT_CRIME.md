@@ -91,6 +91,9 @@ Read the issue form (Vụ án, Kịch bản, Giọng đọc, Ghi chú) and the o
   (`Waidhofen, Oberbayern`).
 - On the board use German case-file words: `AKTE`, `TATORT`, `ZEUGE`, `SPUR`, `UNGELÖST`, `DNA-ABGLEICH`,
   `KEINE ÜBEREINSTIMMUNG`, `TÄTER: ???`, `Kripo`, `LKA`, `Soko`.
+- `speed` (default 1): the owner asked on 17/11/2026 for a 20 % faster pace → `"speed": 1.2` (every line is sped up
+  after the voice step, pitch kept, and the pauses between lines shrink by the same factor). Estimate the length with
+  ~0.055 s per character + 0.33 s per line at 1.2 (≥ 60 s, iron rule 2).
 - `tts`: respellings for names and abbreviations the voice may misread (`{"2": "Ihr Name war Anneliese Michell."}`)
   (`prompts/readings.json` is applied to every line). Write `LKA`, `DNA` and numbers as a narrator says them only
   in `tts`, never in `lines` (lines are the subtitles).

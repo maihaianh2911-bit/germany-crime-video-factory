@@ -287,4 +287,8 @@ RUN.caption_only(); assert sent == [['caption.txt']] and 'caption.txt' in said[-
 open(os.path.join(RUN.JOB, 'caption.txt'), 'w', encoding='utf-8').write('kurz')
 try: RUN.caption_only(); raise AssertionError('a bad caption must be refused')
 except SystemExit: assert len(sent) == 1 and 'hashtag' in said[-1], said
+# voice speed (script.json "speed", owner 17/11/2026): atempo after the trim, nothing added at speed 1
+os.environ.setdefault('VN11_API_KEY', 'x')
+import tts_lines as TL, ff as FF
+assert TL.tempo_filter(1.0) == FF.TRIM and TL.tempo_filter(1.2) == FF.TRIM + ',atempo=1.2'
 print('crime unit checks OK')

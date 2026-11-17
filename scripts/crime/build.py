@@ -85,6 +85,7 @@ def credit_of(name):
 # ---- voice timeline and subtitles
 # before the first line / after the last one: "lead" leaves room for a hook card, "tail" for a closing card
 LEAD, TAIL = float(picks.get('lead', 0.3)), float(picks.get('tail', 1.8))
+PACE = float(spec.get('speed', 1))   # a faster voice (script.json "speed") also gets shorter pauses between lines
 t = LEAD; starts = {}; subs = []; voice = []; srt = []
 for i in range(1, len(lines) + 1):
     starts[i] = t
@@ -94,8 +95,8 @@ for i in range(1, len(lines) + 1):
         cs = t + C.time_at(before / total_w, dur[i], align[i]) - 0.08
         subs.append({'s': round(max(0, cs), 3), 'e': round(t + dur[i] + 0.3, 3), 'text': txt, 'line': i})
     srt.append({'s': round(t, 3), 'e': round(t + dur[i], 3), 'text': text[i]})
-    t += dur[i] + (0.4 if text[i].rstrip().endswith(END) else 0.22)
-total = round(t - 0.22 + TAIL, 3)
+    t += dur[i] + (0.4 if text[i].rstrip().endswith(END) else 0.22) / PACE
+total = round(t - 0.22 / PACE + TAIL, 3)
 for x, y in zip(subs, subs[1:]):   # a piece stays until the next one, or a moment after its line ends
     x['e'] = round(min(y['s'], x['e']) if y['line'] != x['line'] else y['s'], 3)
 subs[-1]['e'] = round(min(total - 0.3, subs[-1]['e'] + 0.5), 3)
