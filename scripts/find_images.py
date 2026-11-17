@@ -30,8 +30,9 @@ Ranking (17/11/2026). A free-text query asks each archive for 20 pictures, not 8
 one and keeps the 8 that fit the words best: CLIP (open_clip ViT-B/32, MIT; weights from its GitHub release) scores
 picture against text ("want", else the query), and the archive's own order counts a little too. The score is
 "match" in index.json and on the contact sheet (about 0.30 and more: it shows the thing; under 0.22: it does not).
-Without torch/open_clip installed, or with FIND_RANK=0, the first 8 are kept as before. `wiki:` and `geo:` results
-keep their order (they are about the thing by construction) unless the query has a "want".
+Without torch/open_clip installed, or with FIND_RANK=0, the first 8 are kept as before; so are the results of a query
+in another script (Japanese …) without a "want": CLIP reads English. `wiki:` and `geo:` results keep their order
+(they are about the thing by construction) unless the query has a "want".
 
 For every query: up to 8 pictures (24 for wiki, 12 for geo, or "keep"), only licences that allow use in a monetised
 video, no files under 400 px, no duplicate scans of the same picture (also across earlier rounds listed in
@@ -511,7 +512,10 @@ def main():
         exact = isinstance(q, dict) or q.startswith('File:')
         src = None if exact else source_of(q)[0]
         keep = int(keep or (KEEP_WIKI if src == 'wiki' else KEEP_GEO if src == 'geo' else KEEP))
-        rank = not exact and (bool(want) or src not in ABOUT) and Clip.ready()
+        # ranked against "want", else against the query's own words when CLIP can read them (it reads English and
+        # other Latin-script words; a query in Japanese or Cyrillic keeps the archive's order)
+        readable = bool(want) or not re.search(r'[^\x00-\u024f\u2000-\u206f]', source_of(q)[1] if not exact else '')
+        rank = not exact and (bool(want) or src not in ABOUT) and readable and Clip.ready()
         err, n_found = None, 0
         try:
             found = [outside(q)] if isinstance(q, dict) else search(q, deep=rank)
