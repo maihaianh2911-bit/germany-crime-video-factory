@@ -292,7 +292,12 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
      thanh thì chết" — the first frame is a full-frame picture with sound, never text on an empty board), `"tail": 3.8` (seconds after the last line: room for a closing
      card at `"at": <last line>.99`), `"tape_scale": 1.15` (all tapes larger), `"timeline": [["1976", "2/1976"],
      ["1968", "14/Jahre"], …]` (a year bar between the board and the subtitle; the marker moves to each year when its
-     "at" comes, and may go back in time). Scene: `"hush": true` (a quiet moment: the music drops out, the camera
+     "at" comes, and may go back in time). `"fx": {"depth": true, "blur": true, "grain": 0.1}` (picture effects, trial of 17/11/2026 on video #5, all off
+     by default: `depth` — every picture shown with `"pos": "full"` gets a depth map (`scripts/crime/depth.py`,
+     Depth Anything V2) and the camera moves *into* it, near things moving more than far ones; `blur` — motion blur
+     while a print, tape or card flies in and while a scene slides in; `grain` — moving film grain over the whole
+     frame, its strength. The owner saw version B of #5 with all three and has **not chosen yet**: set `fx` only
+     where the owner asked for it; a video with `fx` renders ~25 % longer and its file is larger). Scene: `"hush": true` (a quiet moment: the music drops out, the camera
      only pushes in slowly, no year bar). Photo: `"pos": "full"` (the whole frame, no border, darkened at top and
      bottom; one that cuts in later comes with a white flash, a hit and a shutter click: the hook montage — the
      strongest picture at 0.0 s, then a new one on each key word of line 1, ~0.5–1 s apart). Ring: `"shape": "pin"` (a red map pin with pulses at the box's centre). Every tape is made smaller when
