@@ -1,0 +1,28 @@
+{
+ "queries": [
+  "wiki: Juwelendiebstahl im Grünen Gewölbe",
+  "wiki: Green Vault burglary",
+  "wiki: Grünes Gewölbe",
+  "wiki: Residenzschloss Dresden",
+  "wiki: Taschenbergpalais",
+  "wiki: Bode-Museum",
+  "wiki: Big Maple Leaf",
+  "wiki: Landgericht Dresden",
+  "wiki: Bundesgerichtshof",
+  "wiki: Dresden",
+  {
+   "q": "Brillant",
+   "want": "a jewel with many diamonds in a museum display"
+  },
+  {
+   "q": "Vitrine",
+   "want": "a museum glass display case with treasures"
+  },
+  {
+   "q": "Absperrung Polizei",
+   "want": "police barrier tape in front of a palace"
+  }
+ ],
+ "urls": [],
+ "gen": []
+}
