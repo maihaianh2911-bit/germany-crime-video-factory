@@ -1,5 +1,12 @@
 {
  "sfx": true,
+ "sfx_volume": 2,
+ "music": false,
+ "fx": {
+  "depth": true,
+  "blur": true,
+  "grain": 0.1
+ },
  "tail": 3.2,
  "tape_scale": 1.15,
  "timeline": [
@@ -25,61 +32,158 @@
   ]
  ],
  "images": {
-  "farm": {
-   "src": "1/1-1.jpg"
-  },
-  "farm2": {
-   "src": "1/3-1.jpg"
-  },
-  "memo": {
-   "src": "1/2-7.jpg"
-  },
-  "map": {
-   "src": "1/16-1.jpg"
-  },
   "print": {
    "src": "1/9-3.jpg"
   },
   "trail": {
+   "src": "2/11-2.jpg"
+  },
+  "farm": {
+   "src": "1/1-1.jpg"
+  },
+  "trail2": {
    "src": "1/9-8.jpg"
   },
-  "field": {
-   "src": "1/10-8.jpg"
-  },
-  "attic": {
-   "src": "1/11-1.jpg",
+  "sterbe": {
+   "src": "2/1-4.jpg",
+   "look": "clean",
    "crop": [
-    0.02,
-    0.02,
+    0.04,
+    0.03,
     0.95,
-    0.97
+    0.975
    ]
   },
-  "barn": {
-   "src": "1/12-6.jpg"
+  "sterbe_m": {
+   "src": "2/1-4.jpg",
+   "look": "clean",
+   "crop": [
+    0.08,
+    0.565,
+    0.92,
+    0.845
+   ]
+  },
+  "farm2": {
+   "src": "1/3-1.jpg"
+  },
+  "map": {
+   "src": "1/16-1.jpg"
+  },
+  "tree": {
+   "src": "2/1-10.jpg",
+   "look": "clean",
+   "crop": [
+    0.03,
+    0.03,
+    0.97,
+    0.95
+   ]
+  },
+  "stube": {
+   "src": "2/13-4.jpg"
+  },
+  "field": {
+   "src": "2/10-2.jpg"
+  },
+  "plots": {
+   "src": "1/2-6.jpg",
+   "look": "clean"
   },
   "key": {
    "src": "1/14-4.jpg",
    "look": "cutout"
   },
-  "cows": {
-   "src": "1/15-3.jpg"
+  "attic": {
+   "src": "2/5-3.jpg"
   },
-  "hoes": {
-   "src": "1/8-3.jpg"
+  "door": {
+   "src": "2/6-6.jpg"
+  },
+  "track": {
+   "src": "1/10-8.jpg"
+  },
+  "poster": {
+   "src": "2/1-2.jpg",
+   "look": "clean"
+  },
+  "poster_b": {
+   "src": "2/1-2.jpg",
+   "look": "clean",
+   "crop": [
+    0.03,
+    0.5,
+    0.97,
+    0.95
+   ]
+  },
+  "haue": {
+   "src": "2/1-3.jpg"
+  },
+  "stall": {
+   "src": "2/9-6.jpg"
+  },
+  "stadel": {
+   "src": "1/2-4.jpg",
+   "crop": [
+    0.016,
+    0.547,
+    0.307,
+    0.735
+   ]
+  },
+  "aussage": {
+   "src": "2/1-6.jpg",
+   "look": "clean",
+   "crop": [
+    0.012,
+    0.025,
+    0.462,
+    0.525
+   ]
+  },
+  "haue1": {
+   "src": "2/1-8.jpg",
+   "crop": [
+    0.0,
+    0.2,
+    0.62,
+    0.9
+   ]
+  },
+  "attic2": {
+   "src": "2/4-1.jpg"
   },
   "doc1": {
    "src": "1/1-3.jpg"
   },
   "doc2": {
    "src": "1/1-7.jpg"
+  },
+  "mahnmal": {
+   "src": "2/1-12.jpg"
+  },
+  "grab": {
+   "src": "2/1-11.jpg"
+  },
+  "stairs": {
+   "src": "2/6-2.jpg"
+  },
+  "cows": {
+   "src": "2/9-1.jpg"
+  },
+  "haue3": {
+   "src": "2/1-9.jpg"
+  },
+  "cow": {
+   "src": "2/9-2.jpg"
   }
  },
  "scenes": [
   {
    "at": 1,
    "edit": "hook",
-   "why": "2 giây đầu: dấu chân trên tuyết đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt nhanh theo từng chữ: trang trại thật 1922 → vệt chân đi vào",
+   "why": "2 giây đầu: dấu chân trên tuyết đầy màn hình, có tiếng; cắt nhanh theo từng chữ của câu 1: vệt chân trên tuyết → trang trại thật năm 1922 → vệt chân đi vào rừng",
    "items": [
     {
      "photo": "print",
@@ -92,6 +196,11 @@
      ]
     },
     {
+     "photo": "trail",
+     "pos": "full",
+     "at": "1/Schnee"
+    },
+    {
      "photo": "farm",
      "pos": "full",
      "view": [
@@ -100,10 +209,10 @@
       0.8,
       1.0
      ],
-     "at": "1/Hof"
+     "at": "1/zu"
     },
     {
-     "photo": "trail",
+     "photo": "trail2",
      "pos": "full",
      "at": "1/nicht"
     },
@@ -132,26 +241,21 @@
    "at": 2,
    "edit": "place",
    "hush": true,
-   "why": "câu 2 là cú sốc: cả sáu người chết — khoảnh khắc lặng trên bia tưởng niệm thật ghi tên các nạn nhân",
+   "why": "câu 2 là cú sốc: cả sáu người chết — khoảnh khắc lặng trước tấm thiệp tang thật in tên sáu nạn nhân",
    "items": [
     {
-     "photo": "memo",
-     "pos": "full",
-     "view": [
-      0.0,
-      0.0,
-      1.0,
-      1.0
+     "photo": "sterbe",
+     "pos": [
+      540,
+      760,
+      680
      ]
     },
     {
      "tape": "6 TOTE",
      "color": "red",
      "size": 80,
-     "xy": [
-      540,
-      1300
-     ],
+     "pin": "below",
      "at": "2/sechs"
     }
    ]
@@ -166,6 +270,31 @@
    }
   },
   {
+   "at": "3/Deutschlands",
+   "edit": "where",
+   "why": "câu 3: vụ án chưa có lời giải nổi tiếng nhất nước Đức — bìa hồ sơ kẹp ảnh trang trại thật do cảnh sát chụp năm 1922",
+   "items": [
+    {
+     "card": "folder",
+     "tab": "AKTE · HINTERKAIFECK",
+     "corner": "1922"
+    },
+    {
+     "photo": "farm",
+     "at": "3/Deutschlands"
+    },
+    {
+     "tape": "bekanntester Fall",
+     "at": "3/bekanntester"
+    },
+    {
+     "tape": "ungelöst",
+     "color": "red",
+     "at": "3/ungelöster"
+    }
+   ]
+  },
+  {
    "at": 4,
    "edit": "place",
    "why": "câu 4: một trang trại hẻo lánh — ảnh thật trang trại trước 1922",
@@ -174,7 +303,7 @@
      "photo": "farm2"
     },
     {
-     "tape": "einsamer Einödhof",
+     "tape": "ein einsamer Hof",
      "at": 4.03
     }
    ]
@@ -224,7 +353,7 @@
   {
    "at": 5,
    "edit": "who",
-   "why": "câu 5–6 giới thiệu cả nhà: ông bà Gruber, con gái góa chồng và hai cháu",
+   "why": "câu 5 giới thiệu ông bà Gruber",
    "items": [
     {
      "card": "paper",
@@ -239,44 +368,76 @@
        "Cäzilia",
        "Ehefrau",
        "5/Frau"
-      ],
-      [
-       "Viktoria",
-       "Tochter",
-       "6/Tochter"
-      ],
-      [
-       "Cäzilia",
-       "Enkelin",
-       "6/Cäzilia"
-      ],
-      [
-       "Josef",
-       "Enkel",
-       "6/Josef"
       ]
      ]
     }
    ]
   },
   {
-   "at": 7,
-   "edit": "figure",
-   "why": "câu 7: cuối tháng 3 ông Gruber kể chuyện lạ với hàng xóm",
+   "at": 6,
+   "edit": "detail",
+   "why": "câu 6: con gái góa chồng Viktoria và hai cháu — khoanh trên sơ đồ gia đình thật trong hồ sơ",
    "items": [
     {
-     "photo": "farm",
-     "view": [
-      0.15,
-      0.0,
-      0.85,
-      1.0
+     "photo": "tree",
+     "zoom": {
+      "to": [
+       0.06,
+       0.26,
+       0.62,
+       0.9
+      ],
+      "at": "6/Tochter",
+      "dur": 1.4
+     },
+     "rings": [
+      {
+       "box": [
+        0.255,
+        0.48,
+        0.457,
+        0.62
+       ],
+       "color": "red",
+       "at": "6/Viktoria"
+      },
+      {
+       "box": [
+        0.266,
+        0.63,
+        0.426,
+        0.75
+       ],
+       "at": "6/Kinder"
+      }
      ]
+    },
+    {
+     "tape": "Tochter Viktoria",
+     "at": "6/Tochter"
+    },
+    {
+     "tape": "ZWEI KINDER",
+     "color": "white",
+     "at": "6/zwei"
+    },
+    {
+     "tape": "Cäzilia und Josef",
+     "at": "6/Cäzilia"
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "place",
+   "why": "câu 7: cuối tháng 3 ông Gruber kể chuyện lạ với hàng xóm — căn phòng nhà nông (ảnh minh họa)",
+   "items": [
+    {
+     "photo": "stube"
     },
     {
      "tape": "ENDE MÄRZ",
      "color": "white",
-     "pin": "top",
      "at": 7.03
     },
     {
@@ -289,17 +450,32 @@
   {
    "at": 8,
    "edit": "pair",
-   "why": "câu 8: dấu chân trên tuyết dẫn vào trang trại, không dẫn ra",
+   "why": "câu 8: dấu chân trên tuyết dẫn vào trang trại, không dẫn ra — cánh đồng tuyết bên bìa rừng và bản đồ thửa đất thật của trang trại",
    "items": [
     {
      "photo": "field"
     },
     {
-     "photo": "print",
-     "at": "8/Hof"
+     "photo": "plots",
+     "at": "8/zum",
+     "ring": {
+      "box": [
+       0.4,
+       0.27,
+       0.53,
+       0.4
+      ],
+      "color": "red",
+      "at": "8/Hof"
+     }
     },
     {
-     "tape": "zum Hof",
+     "tape": "Spuren im Schnee",
+     "at": 8.03
+    },
+    {
+     "tape": "ZUM HOF",
+     "color": "white",
      "at": "8/Hof"
     },
     {
@@ -329,25 +505,30 @@
    ]
   },
   {
-   "at": "9/Dachboden",
+   "at": "9/auf",
    "edit": "detail",
-   "why": "câu 9: tiếng bước chân trên gác mái",
+   "why": "câu 9: tiếng bước chân trên gác mái — phóng vào cuối gác mái tối",
    "items": [
     {
      "photo": "attic",
      "zoom": {
       "to": [
-       0.2,
-       0.1,
-       0.8,
-       0.7
+       0.28,
+       0.08,
+       0.76,
+       0.62
       ],
       "at": "9/Dachboden",
       "dur": 1.6
      }
     },
     {
-     "tape": "Schritte auf dem Dachboden",
+     "tape": "AUF DEM DACHBODEN",
+     "color": "white",
+     "at": "9/Dachboden"
+    },
+    {
+     "tape": "Schritte",
      "color": "red",
      "at": "9/Schritte"
     }
@@ -355,13 +536,20 @@
   },
   {
    "at": 10,
-   "edit": "statement",
-   "why": "câu 10: người hầu gái cũ bỏ đi vì nói ở đó có ma",
+   "edit": "figure",
+   "why": "câu 10: người hầu gái cũ bỏ đi vì nói ở đó có ma — cánh cửa mở lên cầu thang tối, không thấy ai",
    "items": [
     {
-     "tape": "Die alte Magd ging",
+     "photo": "door"
+    },
+    {
+     "tape": "DIE FRÜHERE MAGD",
      "color": "white",
-     "at": 10.02
+     "at": 10.03
+    },
+    {
+     "tape": "ging Monate zuvor",
+     "at": "10/Monate"
     },
     {
      "tape": "„Dort spukt es“",
@@ -373,10 +561,10 @@
   {
    "at": 11,
    "edit": "timeline",
-   "why": "câu 11: ngày 31/3/1922 người hầu gái mới đến",
+   "why": "câu 11: ngày 31/3/1922 người hầu gái mới đến — con đường tuyết dẫn tới trang trại (ảnh minh họa)",
    "items": [
     {
-     "photo": "farm2"
+     "photo": "track"
     },
     {
      "card": "paper",
@@ -398,78 +586,91 @@
   },
   {
    "at": 12,
-   "edit": "statement",
-   "why": "câu 12: ngày đầu tiên cũng là ngày cuối cùng của bà",
+   "edit": "detail",
+   "why": "câu 12: ngày đầu tiên cũng là ngày cuối cùng — khoanh tên bà trên tấm thiệp tang thật",
    "items": [
+    {
+     "photo": "sterbe_m",
+     "ring": {
+      "box": [
+       0.08,
+       0.52,
+       0.92,
+       0.84
+      ],
+      "color": "red",
+      "at": "12/letzter"
+     }
+    },
     {
      "tape": "ERSTER TAG",
      "color": "white",
-     "size": 70,
-     "at": 12.02
+     "at": "12/erster"
     },
     {
-     "tape": "und letzter",
+     "tape": "und ihr letzter",
      "color": "red",
-     "size": 72,
      "at": "12/letzter"
     }
    ]
   },
   {
    "at": 13,
-   "edit": "figure",
+   "edit": "place",
    "hush": true,
-   "why": "câu 13: đêm đó cả sáu người bị giết — khoảnh khắc lặng trong nhà kho tối",
+   "why": "câu 13: đêm đó cả sáu người bị giết — khoảnh khắc lặng trước tờ thông báo treo thưởng thật năm 1922 (\"Sechsfacher Raubmord\")",
    "items": [
     {
-     "photo": "barn",
-     "pos": "full",
-     "view": [
-      0.15,
-      0.0,
-      0.85,
-      1.0
+     "photo": "poster",
+     "pos": [
+      540,
+      880,
+      620
      ]
     },
     {
      "tape": "IN DIESER NACHT",
      "color": "white",
-     "size": 54,
-     "xy": [
-      540,
-      470
-     ],
+     "pin": "top",
      "at": 13.02
     },
     {
      "tape": "alle sechs getötet",
      "color": "red",
-     "size": 66,
-     "xy": [
-      540,
-      1240
-     ],
+     "pin": "bottom",
      "at": "13/getötet"
     }
    ]
   },
   {
    "at": 14,
-   "edit": "place",
-   "why": "câu 14: hung khí được cho là một chiếc cuốc — ảnh cuốc trong bảo tàng (chỉ để minh họa loại dụng cụ)",
+   "edit": "detail",
+   "why": "câu 14: hung khí được cho là một chiếc cuốc Reuthaue — ảnh thật chiếc cuốc trưng bày, khoanh lưỡi cuốc",
    "items": [
     {
-     "photo": "hoes"
+     "photo": "haue",
+     "ring": {
+      "box": [
+       0.02,
+       0.05,
+       0.5,
+       0.8
+      ],
+      "at": "14/Reuthaue"
+     }
     },
     {
-     "tape": "TATWAFFE",
+     "tape": "GILT ALS TATWAFFE",
      "color": "white",
-     "pin": "top",
-     "at": 14.02
+     "at": "14/Tatwaffe"
     },
     {
-     "tape": "Reuthaue (Symbolbild)",
+     "tape": "Reuthaue",
      "at": "14/Reuthaue"
+    },
+    {
+     "tape": "eine Art Hacke",
+     "at": "14/Hacke"
     }
    ]
   },
@@ -494,10 +695,10 @@
   {
    "at": 16,
    "edit": "place",
-   "why": "câu 16: những ngày sau vẫn có người cho gia súc ăn",
+   "why": "câu 16: những ngày sau vẫn có người chăm gia súc — ảnh chuồng bò thời xưa (ảnh minh họa)",
    "items": [
     {
-     "photo": "cows"
+     "photo": "stall"
     },
     {
      "tape": "TAGE NACH DER TAT",
@@ -506,7 +707,7 @@
      "at": 16.02
     },
     {
-     "tape": "jemand fütterte das Vieh",
+     "tape": "jemand versorgt das Vieh",
      "color": "red",
      "at": "16/versorgte"
     }
@@ -515,10 +716,10 @@
   {
    "at": 17,
    "edit": "number",
-   "why": "câu 17: bốn ngày sau mới phát hiện; bốn người trong kho, hai trong nhà",
+   "why": "câu 17: bốn ngày sau mới phát hiện; bốn người trong kho, hai trong nhà — ảnh nhỏ là nhà kho thật (cắt từ ảnh hiện trường, không có nạn nhân)",
    "items": [
     {
-     "photo": "barn",
+     "photo": "stadel",
      "pos": "small"
     },
     {
@@ -540,32 +741,27 @@
   },
   {
    "at": 18,
-   "edit": "where",
-   "why": "câu 18: hàng chục người bị nghi, không ai bị chứng minh — hồ sơ cảnh sát München thật",
+   "edit": "pair",
+   "why": "câu 18: hàng chục người bị nghi, không ai bị chứng minh — phần dưới tờ treo thưởng thật và một trang lời khai thật",
    "items": [
     {
-     "card": "folder",
-     "tab": "AKTE · HINTERKAIFECK",
-     "corner": "MÜNCHEN"
+     "photo": "poster_b"
     },
     {
-     "photo": "doc1",
-     "pos": "in",
-     "view": [
-      0.0,
-      0.0,
-      1.0,
-      0.55
-     ],
-     "at": 18.03
+     "photo": "aussage",
+     "at": "18/Verdacht"
     },
     {
      "tape": "Dutzende Verdächtige",
-     "at": "18/Dutzende"
+     "at": "18/gerieten"
     },
     {
      "tape": "keinem nachgewiesen",
      "color": "red",
+     "xy": [
+      600,
+      1370
+     ],
      "at": "18/keinem"
     }
    ]
@@ -573,14 +769,10 @@
   {
    "at": 19,
    "edit": "fact",
-   "why": "câu 19: chiếc cuốc chỉ tìm thấy một năm sau khi phá dỡ trang trại, giấu trên gác mái",
+   "why": "câu 19: chiếc cuốc chỉ được tìm thấy một năm sau khi phá dỡ trang trại, giấu trên gác mái — ảnh thật chiếc cuốc + gác mái",
    "items": [
     {
-     "photo": "attic"
-    },
-    {
-     "photo": "hoes",
-     "at": "19/Abriss"
+     "photo": "haue1"
     },
     {
      "tape": "1 JAHR SPÄTER",
@@ -588,17 +780,36 @@
      "at": "19/Jahr"
     },
     {
+     "tape": "beim Abriss des Hofes",
+     "pin": "tr",
+     "on": 0,
+     "at": "19/Abriss"
+    },
+    {
+     "photo": "attic2",
+     "at": "19/versteckt"
+    },
+    {
      "tape": "im Dachboden versteckt",
      "color": "red",
-     "at": "19/versteckt"
+     "at": "19/Dachboden"
     }
    ]
   },
   {
    "at": 20,
-   "edit": "span",
-   "why": "câu 20: năm 1955 đình chỉ điều tra",
+   "edit": "timeline",
+   "why": "câu 20: 1922 xảy ra, 1955 đình chỉ điều tra — công văn thật của cảnh sát München",
    "items": [
+    {
+     "photo": "doc1",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      0.5
+     ]
+    },
     {
      "card": "paper",
      "head": "ERMITTLUNGEN",
@@ -643,7 +854,8 @@
      "at": 21.02
     },
     {
-     "tape": "Polizeischüler prüfen neu",
+     "tape": "angehende Kriminalbeamte",
+     "pin": "br",
      "at": "21/Kriminalbeamte"
     }
    ]
@@ -678,38 +890,33 @@
   },
   {
    "at": 23,
-   "edit": "place",
-   "hush": true,
-   "why": "câu 23: hơn 100 năm vẫn chưa có lời giải — khoảnh khắc lặng trước trang trại thật",
+   "edit": "pair",
+   "why": "câu 23: hơn 100 năm sau vẫn chưa có lời giải — đài tưởng niệm tại nơi xảy ra và bia mộ các nạn nhân hôm nay",
    "items": [
     {
-     "photo": "farm",
-     "pos": "full",
-     "view": [
-      0.2,
-      0.0,
-      0.8,
-      1.0
-     ]
+     "photo": "mahnmal"
+    },
+    {
+     "photo": "grab",
+     "pos": [
+      770,
+      1000,
+      400
+     ],
+     "at": "23/später"
     },
     {
      "tape": "ÜBER 100 JAHRE",
      "color": "white",
-     "size": 56,
      "xy": [
-      540,
-      470
+      400,
+      500
      ],
      "at": 23.02
     },
     {
      "tape": "ungelöst",
      "color": "red",
-     "size": 80,
-     "xy": [
-      540,
-      1240
-     ],
      "at": "23/ungelöst"
     }
    ]
@@ -717,42 +924,85 @@
   {
    "at": 24,
    "edit": "question",
-   "why": "câu 24: hai câu hỏi còn bỏ ngỏ",
+   "hush": true,
+   "why": "câu 24, câu hỏi thứ nhất: ai đã ở trên gác mái? — cầu thang dẫn lên gác mái, đầy màn hình",
    "items": [
     {
-     "photo": "attic"
+     "photo": "stairs",
+     "pos": "full"
     },
     {
      "tape": "Wer war auf dem Dachboden?",
      "color": "red",
+     "size": 58,
+     "xy": [
+      540,
+      1240
+     ],
      "at": 24.02
+    }
+   ]
+  },
+  {
+   "at": "24/versorgte",
+   "edit": "figure",
+   "hush": true,
+   "why": "câu 24, câu hỏi thứ hai: kẻ giấu mặt nào đã chăm gia súc sau vụ án? — chuồng bò tối, đầy màn hình",
+   "items": [
+    {
+     "photo": "cows",
+     "pos": "full",
+     "view": [
+      0.1,
+      0.35,
+      0.9,
+      1.0
+     ]
     },
     {
-     "tape": "Wer fütterte das Vieh?",
-     "at": "24/Und"
+     "tape": "Wer versorgte das Vieh?",
+     "color": "red",
+     "size": 58,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "24/versorgte"
     }
    ]
   },
   {
    "at": 25,
    "edit": "ending",
-   "why": "câu cuối: hỏi người xem nghĩ gì, gom các manh mối",
+   "why": "câu cuối: hỏi người xem nghĩ gì, gom các manh mối: dấu chân, gác mái, chiếc cuốc, gia súc",
    "items": [
     {
-     "photo": "farm",
+     "photo": "print",
      "pos": "g1"
     },
     {
-     "photo": "print",
+     "photo": "attic",
      "pos": "g2"
     },
     {
-     "photo": "attic",
-     "pos": "g3"
+     "photo": "haue3",
+     "pos": "g3",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      0.45
+     ]
     },
     {
-     "photo": "cows",
-     "pos": "g4"
+     "photo": "cow",
+     "pos": "g4",
+     "view": [
+      0.0,
+      0.45,
+      1.0,
+      0.95
+     ]
     },
     {
      "string": [
@@ -762,25 +1012,26 @@
     },
     {
      "string": [
-      0,
-      2
+      1,
+      3
      ]
     },
     {
      "string": [
-      0,
-      3
+      3,
+      2
      ]
     },
     {
      "card": "paper",
      "head": "TÄTER",
      "rows": [
-      [
-       "Name:",
-       "???",
-       25.02
-      ]
+      {
+       "l": "Name:",
+       "r": "???",
+       "color": "red",
+       "at": 25.02
+      }
      ]
     },
     {
