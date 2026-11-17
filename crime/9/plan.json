@@ -38,13 +38,19 @@
    "s": 0.0,
    "e": 4.766,
    "scene": 1,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": null,
+    "s": 0.0
+   },
    "items": [
     {
      "type": "photo",
-     "src": "crime/9/img/kadewe88.jpg",
-     "w": 1920,
-     "h": 1157,
+     "src": "crime/9/img/kadewe_front.jpg",
+     "w": 960,
+     "h": 1521,
      "box": [
       0,
       0,
@@ -53,15 +59,17 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Roland Arhelger / CC BY-SA 4.0",
+     "credit": "Rlbberlin / CC BY-SA 2.0",
      "bleed": true,
+     "depth": "crime/9/img/kadewe_front.depth.jpg",
      "view": [
-      0.33052,
+      0.05439,
       0.0,
-      0.66948,
+      0.94561,
       1.0
      ],
      "drift": 0.1,
+     "label": "KaDeWe, Berlin",
      "rings": [],
      "s": 0.0
     },
@@ -80,6 +88,7 @@
      "rot": 0,
      "credit": "Peer Grimm / CC BY-SA 3.0 de",
      "bleed": true,
+     "depth": "crime/9/img/police.depth.jpg",
      "view": [
       0.22,
       0.0,
@@ -87,116 +96,107 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Polizei Berlin, 1990",
      "rings": [],
      "s": 2.59
     },
     {
-     "type": "photo",
-     "src": "crime/9/img/track.jpg",
-     "w": 1400,
-     "h": 1400,
-     "box": [
-      0,
-      0,
-      1080,
-      1920
-     ],
-     "ai": false,
-     "rot": 0,
-     "credit": "Roger D Kidd / CC BY-SA 2.0",
-     "bleed": true,
-     "view": [
-      0.21875,
-      0.0,
-      0.78125,
-      1.0
-     ],
-     "drift": 0.1,
-     "rings": [],
-     "s": 3.53
-    },
-    {
      "type": "tape",
-     "text": "Wer ist Dagobert?",
+     "text": "Bomben im Kaufhaus",
      "color": "red",
-     "px": 76,
+     "px": 72,
      "x": 540,
      "y": 1240,
      "align": "center",
-     "rot": 0.57,
+     "rot": -2.41,
      "s": 0.0
     },
     {
      "type": "tape",
-     "text": "BOMBEN IM KAUFHAUS",
+     "text": "6 JAHRE GEJAGT",
      "color": "white",
-     "px": 50,
+     "px": 54,
      "x": 540,
      "y": 1110,
      "align": "center",
-     "rot": -0.85,
-     "s": 1.13
+     "rot": 1.65,
+     "s": 3.53
     }
    ],
-   "credit": "Foto: Roland Arhelger / CC BY-SA 4.0 · Peer Grimm / CC BY-SA 3.0 de · Roger D Kidd / CC BY-SA 2.0",
+   "credit": "Foto: Rlbberlin / CC BY-SA 2.0 · Peer Grimm / CC BY-SA 3.0 de",
    "edit": "hook"
   },
   {
    "s": 4.766,
-   "e": 7.944,
-   "scene": 2,
-   "head": null,
-   "items": [
-    {
-     "type": "tape",
-     "text": "6 Jahre gejagt",
-     "color": "white",
-     "px": 66,
-     "x": 540.0,
-     "y": 800.0,
-     "align": "center",
-     "rot": -2.08,
-     "s": 4.943
-    },
-    {
-     "type": "tape",
-     "text": "und gefeiert",
-     "color": "red",
-     "px": 76,
-     "x": 540,
-     "y": 1010,
-     "align": "center",
-     "rot": 0.69,
-     "s": 5.316
-    }
-   ],
-   "credit": "",
-   "edit": "statement"
-  },
-  {
-   "s": 7.944,
    "e": 9.55,
-   "scene": 3,
-   "head": {
-    "kicker": "AKTE 1988–1994",
-    "title": "Der Fall Dagobert",
-    "mode": "mid",
-    "from": null,
-    "s": 7.944
-   },
-   "items": [],
-   "credit": "",
-   "edit": "chapter"
-  },
-  {
-   "s": 9.55,
-   "e": 13.949,
-   "scene": 4,
+   "scene": 2,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
     "mode": "top",
-    "from": "mid",
+    "from": "top",
+    "s": 4.766
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/badge.jpg",
+     "w": 1334,
+     "h": 2000,
+     "box": [
+      211.9,
+      404.9,
+      656.2,
+      922.3
+     ],
+     "ai": false,
+     "rot": -2.25,
+     "credit": "Membeth / CC0",
+     "view": [
+      0.1,
+      0.24037,
+      0.9,
+      1.0
+     ],
+     "drift": 0,
+     "label": "Abzeichen der Soko Dagobert",
+     "zoom": {
+      "to": [
+       0.15,
+       0.33533,
+       0.85,
+       1.0
+      ],
+      "s": 8.697,
+      "e": 10.097
+     },
+     "rings": [],
+     "s": 4.766
+    },
+    {
+     "type": "tape",
+     "text": "Volksheld?",
+     "color": "red",
+     "px": 62,
+     "x": 195.9,
+     "y": 414.9,
+     "align": "left",
+     "rot": -1,
+     "s": 6.816
+    }
+   ],
+   "credit": "Foto: Membeth / CC0",
+   "edit": "detail"
+  },
+  {
+   "s": 9.55,
+   "e": 13.949,
+   "scene": 3,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
     "s": 9.55
    },
    "items": [
@@ -206,27 +206,28 @@
      "w": 1920,
      "h": 1157,
      "box": [
-      140.0,
-      625.1,
-      800,
-      482.1
+      150.0,
+      422.5,
+      780,
+      470.0
      ],
      "ai": false,
      "rot": -1.73,
      "credit": "Roland Arhelger / CC BY-SA 4.0",
      "view": [
       0.0,
-      0.01194,
+      0.01231,
       1.0,
-      0.98806
+      0.98769
      ],
      "drift": 0,
+     "label": "KaDeWe, Berlin 1988",
      "zoom": {
       "to": [
-       0.21705,
-       0.1,
-       0.88295,
-       0.75
+       0.0,
+       0.05,
+       0.76893,
+       0.8
       ],
       "s": 11.951,
       "e": 13.351
@@ -240,7 +241,7 @@
      "color": "white",
      "px": 67,
      "x": 540.0,
-     "y": 633.1,
+     "y": 430.5,
      "align": "center",
      "rot": -1,
      "s": 9.62
@@ -250,20 +251,20 @@
      "text": "Bombe im KaDeWe",
      "color": "red",
      "px": 62,
-     "x": 160.0,
-     "y": 1175.4,
+     "x": 170.0,
+     "y": 960.7,
      "align": "left",
      "rot": -1,
      "s": 12.531
     }
    ],
    "credit": "Foto: Roland Arhelger / CC BY-SA 4.0",
-   "edit": "detail"
+   "edit": "place"
   },
   {
    "s": 13.949,
    "e": 19.682,
-   "scene": 5,
+   "scene": 4,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -274,32 +275,33 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/9/img/sbahn.jpg",
+     "src": "crime/9/img/zoo.jpg",
      "w": 1920,
-     "h": 1280,
+     "h": 1294,
      "box": [
       85.0,
-      402.0,
+      400.3,
       470,
-      313.3
+      316.8
      ],
      "ai": false,
-     "rot": -2.32,
-     "credit": "Sludge G / CC BY-SA 2.0",
+     "rot": -0.89,
+     "credit": "Roehrensee / CC BY-SA 3.0",
      "view": [
       0.0,
-      0.01589,
+      0.01526,
       1.0,
-      0.98411
+      0.98474
      ],
      "drift": 0.1,
+     "label": "S-Bahn am Bahnhof Zoo, 1989",
      "rings": [],
      "s": 13.949
     },
     {
      "type": "stat",
      "x": 110,
-     "y": 775.3,
+     "y": 777.1,
      "rows": [
       {
        "n": "500.000",
@@ -316,19 +318,19 @@
      "color": "yellow",
      "px": 67,
      "x": 69.0,
-     "y": 412.0,
+     "y": 410.3,
      "align": "left",
      "rot": -1.63,
      "s": 17.959
     }
    ],
-   "credit": "Foto: Sludge G / CC BY-SA 2.0",
+   "credit": "Foto: Roehrensee / CC BY-SA 3.0",
    "edit": "number"
   },
   {
    "s": 19.682,
    "e": 22.795,
-   "scene": 6,
+   "scene": 5,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -366,7 +368,7 @@
   {
    "s": 22.795,
    "e": 26.701,
-   "scene": 7,
+   "scene": 6,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -396,6 +398,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Karstadt am Hermannplatz, Berlin",
      "rings": [],
      "s": 22.795
     },
@@ -428,7 +431,7 @@
   {
    "s": 26.701,
    "e": 29.074,
-   "scene": 8,
+   "scene": 7,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -439,32 +442,33 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/9/img/money.jpg",
+     "src": "crime/9/img/dm500.jpg",
      "w": 1920,
-     "h": 972,
+     "h": 1080,
      "box": [
       85.0,
-      428.1,
+      426.5,
       470,
-      261.1
+      264.4
      ],
      "ai": false,
-     "rot": -1.17,
-     "credit": "Gestaltung von Hermann Eidenbenz. Das Portrait zei / Public domain",
+     "rot": -1.67,
+     "credit": "Dr. Thomas Liptak / CC BY-SA 4.0",
      "view": [
-      0.02003,
       0.0,
-      0.97997,
-      1.0
+      0.02459,
+      1.0,
+      0.97541
      ],
      "drift": 0.1,
+     "label": "D-Mark (Symbolbild)",
      "rings": [],
      "s": 26.701
     },
     {
      "type": "stat",
      "x": 110,
-     "y": 749.2,
+     "y": 750.9,
      "rows": [
       {
        "n": "1,4 Mio.",
@@ -476,13 +480,13 @@
      "s": 26.701
     }
    ],
-   "credit": "Foto: Gestaltung von Hermann Eidenbenz. Das Portrait zei / Public domain",
+   "credit": "Foto: Dr. Thomas Liptak / CC BY-SA 4.0",
    "edit": "number"
   },
   {
    "s": 29.074,
    "e": 35.3,
-   "scene": 9,
+   "scene": 8,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -492,14 +496,51 @@
    },
    "items": [
     {
+     "type": "photo",
+     "src": "crime/9/img/ads.jpg",
+     "w": 1920,
+     "h": 1636,
+     "box": [
+      140.0,
+      525.3,
+      800,
+      681.7
+     ],
+     "ai": false,
+     "rot": -1.54,
+     "credit": "Friedrich Karl Wunder / Public domain",
+     "view": [
+      0.0,
+      0.00312,
+      1.0,
+      0.99688
+     ],
+     "drift": 0.1,
+     "label": "Zeitungsanzeigen (Symbolbild)",
+     "rings": [
+      {
+       "s": 33.482,
+       "box": [
+        0.36,
+        0.27,
+        0.67,
+        0.58
+       ],
+       "shape": "ellipse",
+       "color": "yellow"
+      }
+     ],
+     "s": 29.074
+    },
+    {
      "type": "tape",
      "text": "ZEITUNGSANZEIGE",
      "color": "white",
-     "px": 60,
+     "px": 67,
      "x": 540.0,
-     "y": 921.0,
+     "y": 533.3,
      "align": "center",
-     "rot": -0.68,
+     "rot": -1,
      "s": 31.401
     },
     {
@@ -508,19 +549,19 @@
      "color": "red",
      "px": 56,
      "x": 540,
-     "y": 1010,
+     "y": 1330,
      "align": "center",
-     "rot": 2.78,
+     "rot": -1,
      "s": 33.482
     }
    ],
-   "credit": "",
-   "edit": "statement"
+   "credit": "Foto: Friedrich Karl Wunder / Public domain",
+   "edit": "detail"
   },
   {
    "s": 35.3,
    "e": 37.549,
-   "scene": 10,
+   "scene": 9,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -550,6 +591,7 @@
       0.9905
      ],
      "drift": 0.1,
+     "label": "Karstadt Hermannplatz, 1930er",
      "rings": [],
      "s": 35.3
     },
@@ -571,7 +613,7 @@
   {
    "s": 37.549,
    "e": 41.269,
-   "scene": 11,
+   "scene": 10,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -601,6 +643,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Karstadt am Hermannplatz, Berlin",
      "rings": [],
      "s": 37.549
     },
@@ -625,6 +668,7 @@
       0.9852
      ],
      "drift": 0.1,
+     "label": "Polizei Berlin, 1990",
      "rings": [],
      "s": 39.299
     },
@@ -657,7 +701,7 @@
   {
    "s": 41.269,
    "e": 44.002,
-   "scene": 12,
+   "scene": 11,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -684,7 +728,7 @@
   {
    "s": 44.002,
    "e": 46.73,
-   "scene": 13,
+   "scene": 12,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -714,6 +758,7 @@
       0.99199
      ],
      "drift": 0.1,
+     "label": "S-Bahn (Symbolbild)",
      "rings": [],
      "s": 44.002
     },
@@ -746,7 +791,7 @@
   {
    "s": 46.73,
    "e": 51.303,
-   "scene": 14,
+   "scene": 13,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -757,25 +802,26 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/9/img/track.jpg",
-     "w": 1400,
-     "h": 1400,
+     "src": "crime/9/img/gleis.jpg",
+     "w": 1920,
+     "h": 1271,
      "box": [
       30.0,
-      455.3,
+      553.3,
       580,
-      580.0
+      383.9
      ],
      "ai": false,
-     "rot": -2.13,
-     "credit": "Roger D Kidd / CC BY-SA 2.0",
+     "rot": -0.89,
+     "credit": "Roehrensee / CC BY-SA 3.0",
      "view": [
       0.0,
-      0.0,
+      0.01302,
       1.0,
-      1.0
+      0.98698
      ],
      "drift": 0.1,
+     "label": "Gleis (Symbolbild)",
      "rings": [],
      "s": 46.73
     },
@@ -800,6 +846,7 @@
       0.9868
      ],
      "drift": 0.1,
+     "label": "Lore (Symbolbild)",
      "rings": [],
      "s": 47.565
     },
@@ -826,13 +873,13 @@
      "s": 50.269
     }
    ],
-   "credit": "Foto: Roger D Kidd / CC BY-SA 2.0 · Antti Leppänen / CC BY 4.0",
+   "credit": "Foto: Roehrensee / CC BY-SA 3.0 · Antti Leppänen / CC BY 4.0",
    "edit": "pair"
   },
   {
    "s": 51.303,
    "e": 58.892,
-   "scene": 15,
+   "scene": 14,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -862,6 +909,7 @@
       0.99396
      ],
      "drift": 0,
+     "label": "Nasses Laub (Symbolbild)",
      "zoom": {
       "to": [
        0.0,
@@ -915,7 +963,7 @@
   {
    "s": 58.892,
    "e": 61.625,
-   "scene": 16,
+   "scene": 15,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -953,7 +1001,7 @@
   {
    "s": 61.625,
    "e": 69.019,
-   "scene": 17,
+   "scene": 16,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -983,6 +1031,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Symbolbild",
      "rings": [],
      "s": 61.625
     },
@@ -1024,7 +1073,7 @@
   {
    "s": 69.019,
    "e": 70.743,
-   "scene": 18,
+   "scene": 17,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -1048,6 +1097,7 @@
      "rot": 0,
      "credit": "JesterWr - bei Verwendung Ch.Grube angeben / CC BY-SA 3.0 de",
      "bleed": true,
+     "depth": "crime/9/img/funke.depth.jpg",
      "view": [
       0.3375,
       0.0,
@@ -1055,6 +1105,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Arno Funke, 2015",
      "rings": [],
      "s": 69.019
     },
@@ -1088,7 +1139,7 @@
   {
    "s": 70.743,
    "e": 75.434,
-   "scene": 19,
+   "scene": 18,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -1135,7 +1186,7 @@
   {
    "s": 75.434,
    "e": 81.158,
-   "scene": 20,
+   "scene": 19,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -1165,6 +1216,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Arno Funke, 2009",
      "rings": [],
      "s": 75.434
     },
@@ -1208,7 +1260,7 @@
   {
    "s": 81.158,
    "e": 86.745,
-   "scene": 21,
+   "scene": 20,
    "head": {
     "kicker": "AKTE 1988–1994",
     "title": "Der Fall Dagobert",
@@ -1243,23 +1295,23 @@
     },
     {
      "type": "photo",
-     "src": "crime/9/img/sbahn.jpg",
+     "src": "crime/9/img/zoo.jpg",
      "w": 1920,
-     "h": 1280,
+     "h": 1294,
      "box": [
       570.0,
-      437.3,
+      435.7,
       430,
-      286.7
+      289.8
      ],
      "ai": false,
-     "rot": 2.59,
-     "credit": "Sludge G / CC BY-SA 2.0",
+     "rot": 1.07,
+     "credit": "Roehrensee / CC BY-SA 3.0",
      "view": [
       0.0,
-      0.01735,
+      0.01685,
       1.0,
-      0.98265
+      0.98315
      ],
      "drift": 0.1,
      "rings": [],
@@ -1267,22 +1319,22 @@
     },
     {
      "type": "photo",
-     "src": "crime/9/img/track.jpg",
-     "w": 1400,
-     "h": 1400,
+     "src": "crime/9/img/badge.jpg",
+     "w": 1334,
+     "h": 2000,
      "box": [
-      135.3,
+      190.1,
       756.3,
-      329.4,
+      219.7,
       329.4
      ],
      "ai": false,
-     "rot": -1.35,
-     "credit": "Roger D Kidd / CC BY-SA 2.0",
+     "rot": -1.14,
+     "credit": "Membeth / CC0",
      "view": [
+      0.02321,
       0.0,
-      0.0,
-      1.0,
+      0.97679,
       1.0
      ],
      "drift": 0.1,
@@ -1363,7 +1415,7 @@
      ],
      "b": [
       785.0,
-      463.3
+      461.7
      ],
      "s": 81.158
     },
@@ -1371,10 +1423,10 @@
      "type": "string",
      "a": [
       785.0,
-      463.3
+      461.7
      ],
      "b": [
-      300.0,
+      299.9,
       782.3
      ],
      "s": 81.158
@@ -1382,7 +1434,7 @@
     {
      "type": "string",
      "a": [
-      300.0,
+      299.9,
       782.3
      ],
      "b": [
@@ -1392,7 +1444,7 @@
      "s": 81.158
     }
    ],
-   "credit": "Foto: Roland Arhelger / CC BY-SA 4.0 · Sludge G / CC BY-SA 2.0 · Roger D Kidd / CC BY-SA 2.0 · Doris Antony, Berlin / CC BY-SA 3.0",
+   "credit": "Foto: Roland Arhelger / CC BY-SA 4.0 · Roehrensee / CC BY-SA 3.0 · Membeth / CC0 · Doris Antony, Berlin / CC BY-SA 3.0",
    "edit": "ending"
   }
  ],
@@ -1800,7 +1852,7 @@
    "src": "crime/9/voice/line_25.mp3"
   }
  ],
- "music": "crime/9/bed.wav",
+ "music": null,
  "musicVolume": 0.14,
  "fonts": [
   {
@@ -1846,6 +1898,11 @@
    "style": "normal"
   }
  ],
+ "fx": {
+  "depth": true,
+  "blur": true,
+  "grain": 0.1
+ },
  "sfx": "crime/9/sfx.wav",
- "sfxVolume": 0.6
+ "sfxVolume": 1.0
 }
