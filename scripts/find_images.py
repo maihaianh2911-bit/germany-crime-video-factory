@@ -44,6 +44,7 @@ query fails does the script exit with an error. An archive that answers 429 (too
 in the same run. Stdlib + Pillow (+ torch and open_clip_torch for the ranking).
 """
 import io, json, os, re, sys, time, urllib.parse, urllib.request
+import threading
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image, ImageDraw
 
@@ -60,12 +61,20 @@ except Exception:
     LANG = 'en'
 
 
+WIKIMEDIA = threading.BoundedSemaphore(2)   # Wikimedia asks for few requests at a time, whatever runs in parallel here
+
+
 def get(url, tries=4, raw=True, timeout=60):
+    gentle = urllib.parse.urlsplit(url).netloc.endswith('wikimedia.org')
     for i in range(tries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': UA}), timeout=timeout) as r:
-                b = r.read()
-                return b if raw else json.loads(b)
+            if gentle: WIKIMEDIA.acquire()
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': UA}), timeout=timeout) as r:
+                    b = r.read()
+            finally:
+                if gentle: time.sleep(0.05); WIKIMEDIA.release()
+            return b if raw else json.loads(b)
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503, 504) and i < tries - 1:
                 time.sleep(8 * (i + 1)); continue
@@ -184,14 +193,15 @@ def loc(q, n):
 COMMONS = 'https://commons.wikimedia.org/w/api.php'
 WIKIDATA = 'https://www.wikidata.org/w/api.php'
 OK = re.compile(r'^(public domain|pd|cc0|cc[- ]by(-sa)?[- ]?\d|cc[- ]by(-sa)?$)', re.I)
-INFO = {'prop': 'imageinfo', 'iiprop': 'url|extmetadata|size|mime', 'iiurlwidth': 500}
+SMALL = 330   # the small version looked at for the ranking (a standard Commons width)
+INFO = {'prop': 'imageinfo', 'iiprop': 'url|extmetadata|size|mime', 'iiurlwidth': SMALL}
 # page furniture of Wikipedia articles and maps that show no place: never a picture of the thing
 ICON = re.compile(r'(?i)(commons-logo|wik\w*[- ]logo|qsicon|oojs|red pog|loca\w+ map|\bicon\b|flag of|disambig|padlock|'
                   r'question book|ambox|edit-ltr|symbol \w+ vote|speaker|nuvola|crystal clear|\.svg$)')
 
 
 def commons_items(pages, source='commons', exact=False, order=None):
-    """Results from the pages of a Commons answer asked with INFO (a 500 px version of every file). The picture kept
+    """Results from the pages of a Commons answer asked with INFO (a small version of every file). The picture kept
     is the largest standard size up to 1920 px (3840 for an exact file); a file under 960 px is taken whole."""
     pages = list(pages)
     if order:   # a list of titles: the API answers in its own order
@@ -209,9 +219,9 @@ def commons_items(pages, source='commons', exact=False, order=None):
         if not OK.search(lic): continue
         small = (ii.get('thumburl') or ii.get('url') or '').split('?')[0]
         w = ii.get('width') or 0
-        if '/500px-' in small:
+        if re.search(r'/\d+px-[^/]+$', small):   # a real thumbnail: the same file in another standard width
             top = [x for x in STD if (svg or x <= w) and x <= (3840 if exact else 1920)]
-            url = small.replace('/500px-', f'/{top[-1]}px-') if top else ii['url'].split('?')[0]
+            url = re.sub(r'/\d+px-([^/]+)$', lambda m: f'/{top[-1]}px-{m.group(1)}', small) if top else ii['url'].split('?')[0]
         else:
             url = small
         out.append(item(source, pg['title'][5:], ii.get('descriptionurl'), url, lic,
@@ -249,12 +259,11 @@ def geo(q, n):
     rad = min(10000, max(10, int(m.group(3) or 500)))
     d = commons_api(generator='geosearch', ggscoord=f'{m.group(1)}|{m.group(2)}', ggsradius=rad, ggsnamespace=6,
                     ggslimit=min(100, n * 2), **INFO)
-    out, tiles = [], 0
+    out, series = [], set()
     for r in commons_items((d.get('query') or {}).get('pages', {}).values(), 'commons/geo'):
-        if re.match(r'(?i)^(DOP\d+|orthophoto|luftbild\w* \d)', r['title']):   # survey tiles cover every square: one is enough
-            tiles += 1
-            if tiles > 1: continue
-        out.append(r)
+        key = re.sub(r'\d+', '#', r['title'])   # survey tiles and photo series differ in their numbers only: one of each
+        if key in series: continue
+        series.add(key); out.append(r)
     return out
 
 
@@ -322,7 +331,10 @@ ABOUT = ('wiki', 'geo')   # sources whose results are about the thing by constru
 class Clip:
     """Scores how well a picture fits a text (open_clip ViT-B/32, weights from its GitHub release, on the CPU)."""
     URL = 'https://github.com/mlfoundations/open_clip/releases/download/v0.2-weights/vit_b_32-quickgelu-laion400m_e32-46683a32.pt'
-    model = None; failed = False
+    # what a documentary for a general audience must not show by accident (Flickr has everything): pictures that look
+    # like one of these (0.21 and more; ordinary pictures stay under 0.18) are dropped from ranked results
+    UNFIT = ('a nude person', 'a woman in lingerie or underwear', 'an erotic photo')
+    model = None; failed = False; unfit = None
 
     @classmethod
     def ready(cls):
@@ -342,10 +354,15 @@ class Clip:
 
     @classmethod
     def scores(cls, images, text):
-        with cls.torch.no_grad():
-            fi = cls.model.encode_image(cls.torch.stack([cls.pre(im) for im in images])); fi /= fi.norm(dim=-1, keepdim=True)
+        """For every picture: how well it fits the text, and how much it looks like something not to show."""
+        t = cls.torch
+        with t.no_grad():
+            fi = t.cat([cls.model.encode_image(t.stack([cls.pre(im) for im in images[i:i + 32]])) for i in range(0, len(images), 32)])
+            fi /= fi.norm(dim=-1, keepdim=True)
             ft = cls.model.encode_text(cls.tok([text, 'a photo of ' + text])); ft /= ft.norm(dim=-1, keepdim=True)
-            return (fi @ ft.T).max(dim=1).values.tolist()
+            if cls.unfit is None:
+                cls.unfit = cls.model.encode_text(cls.tok(list(cls.UNFIT))); cls.unfit /= cls.unfit.norm(dim=-1, keepdim=True)
+            return (fi @ ft.T).max(dim=1).values.tolist(), (fi @ cls.unfit.T).max(dim=1).values.tolist()
 
 
 def picture(url, tries=2, timeout=30):
@@ -355,7 +372,8 @@ def picture(url, tries=2, timeout=30):
 def ranked(found, text):
     """The results ordered by how well their small version fits the text (CLIP), the archive's own order counting
     a little (0.004 per place: it decides between pictures CLIP finds alike, as for a name it does not know).
-    Results whose small version cannot be loaded go last. Sets r['match']."""
+    Results whose small version cannot be loaded go last; pictures that look unsuitable (Clip.UNFIT) are left out.
+    Sets r['match']. Returns (results, number left out)."""
     def small(r):
         try:
             im = picture(r['preview'], tries=1, timeout=15); im.thumbnail((448, 448)); return im   # one try: a slow host only loses its place
@@ -364,11 +382,13 @@ def ranked(found, text):
     with ThreadPoolExecutor(6) as ex:
         ims = list(ex.map(small, found))
     ok = [(r, im) for r, im in zip(found, ims) if im is not None]
-    if not ok: return found
-    for (r, _), sc in zip(ok, Clip.scores([im for _, im in ok], text)):
+    if not ok: return found, 0
+    fit, unfit = Clip.scores([im for _, im in ok], text)
+    for (r, _), sc in zip(ok, fit):
         r['match'] = round(sc, 3)
-    best = sorted((r for r, _ in ok), key=lambda r: -(r['match'] - 0.004 * r.get('rank', 0)))
-    return best + [r for r, im in zip(found, ims) if im is None]
+    out = [r for (r, _), u in zip(ok, unfit) if u >= 0.21]
+    best = sorted((r for r, _ in ok if r not in out), key=lambda r: -(r['match'] - 0.004 * r.get('rank', 0)))
+    return best + [r for r, im in zip(found, ims) if im is None], len(out)
 
 
 def source_of(q):
@@ -474,7 +494,7 @@ def main():
     if queries[:1] == ['--spec']:
         queries = json.load(open(queries[1], encoding='utf-8'))
     os.makedirs(out, exist_ok=True)
-    index, kept_hashes, dropped = [], seen_hashes(), {'small': 0, 'duplicate': 0, 'unfit': 0}
+    index, kept_hashes, dropped = [], seen_hashes(), {'small': 0, 'duplicate': 0, 'unfit': 0, 'unsuitable': 0}
     for k, q in enumerate(queries, 1):
         want = keep = None
         if isinstance(q, dict) and q.get('q'):   # a query with its own wish
@@ -494,7 +514,7 @@ def main():
             dropped['small'] += len(small); found = [r for r in found if r not in small]
         n_found = len(found)
         if rank and len(found) > 1:
-            found = ranked(found, want or source_of(q)[1])
+            found, n_out = ranked(found, want or source_of(q)[1]); dropped['unsuitable'] += n_out
             if want:   # asked for by a description: what does not show it is no use (CLIP under 0.18: something else)
                 poor = [r for r in found if r.get('match', 1) < MATCH_MIN]
                 dropped['unfit'] += len(poor); found = [r for r in found if r not in poor]
@@ -551,7 +571,7 @@ def main():
     json.dump(index, open(f'{out}/index.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     if index and all(e.get('error') for e in index):
         raise SystemExit('tìm ảnh: mọi từ khóa đều lỗi (mạng hoặc các kho ảnh không trả lời)')
-    print(f"dropped: {dropped['small']} too small, {dropped['duplicate']} duplicates, {dropped['unfit']} not showing what was asked")
+    print(f"dropped: {dropped['small']} too small, {dropped['duplicate']} duplicates, {dropped['unfit']} not showing what was asked, {dropped['unsuitable']} unsuitable")
 
 
 if __name__ == '__main__':

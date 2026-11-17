@@ -231,13 +231,13 @@ def _pg(title, w, h, lic='CC BY-SA 4.0', mime='image/jpeg', i=0):
     name = title[5:].replace(' ', '_')
     return {'title': title, 'index': i, 'imageinfo': [{'mime': mime, 'width': w, 'height': h, 'descriptionurl': 'https://commons.wikimedia.org/wiki/' + name,
             'url': f'https://upload.wikimedia.org/wikipedia/commons/a/ab/{name}?utm=1',
-            'thumburl': (f'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/{name}/500px-{name}' if w > 500 else f'https://upload.wikimedia.org/wikipedia/commons/a/ab/{name}'),
+            'thumburl': (f'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/{name}/330px-{name}' if w > 330 else f'https://upload.wikimedia.org/wikipedia/commons/a/ab/{name}'),
             'extmetadata': {'LicenseShortName': {'value': lic}}}]}
 res = F.commons_items([_pg('File:Big.jpg', 5100, 3000, i=1), _pg('File:Mid.jpg', 1400, 900, i=2), _pg('File:Small.jpg', 640, 480, i=3),
-                       _pg('File:Tiny.jpg', 400, 300, i=4), _pg('File:Press.jpg', 3000, 2000, lic='All rights reserved', i=5)])
+                       _pg('File:Tiny.jpg', 300, 300, i=4), _pg('File:Press.jpg', 3000, 2000, lic='All rights reserved', i=5)])
 assert [r['title'] for r in res] == ['Big.jpg', 'Mid.jpg', 'Small.jpg', 'Tiny.jpg'], res
-assert res[0]['thumb'].endswith('/1920px-Big.jpg') and res[0]['preview'].endswith('/500px-Big.jpg'), res[0]
-assert res[1]['thumb'].endswith('/1280px-Mid.jpg') and res[2]['thumb'].endswith('/ab/Small.jpg') and res[2]['preview'].endswith('/500px-Small.jpg'), res[1:3]
+assert res[0]['thumb'].endswith('/1920px-Big.jpg') and res[0]['preview'].endswith('/330px-Big.jpg'), res[0]
+assert res[1]['thumb'].endswith('/1280px-Mid.jpg') and res[2]['thumb'].endswith('/ab/Small.jpg') and res[2]['preview'].endswith('/330px-Small.jpg'), res[1:3]
 assert res[3]['thumb'] == res[3]['preview'] and '?' not in res[3]['thumb'], res[3]
 assert F.commons_items([_pg('File:Big.jpg', 5100, 3000)], exact=True)[0]['thumb'].endswith('/3840px-Big.jpg')
 # a list of titles comes back in the order asked, not in the API's
