@@ -374,7 +374,7 @@ class Clip:
             return (fi @ ft.T).max(dim=1).values.tolist(), (fi @ cls.unfit.T).max(dim=1).values.tolist()
 
 
-def picture(url, tries=2, timeout=30):
+def picture(url, tries=2, timeout=20):   # a dead host costs 45 s at most, not minutes
     return Image.open(io.BytesIO(get(url, tries=tries, timeout=timeout))).convert('RGB')
 
 
