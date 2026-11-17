@@ -1,43 +1,13 @@
 {
  "pictures": [
   {
-   "name": "box",
-   "src": "1/5-5.jpg",
-   "title": "Cotton swabs (or cotton buds) -in round container.jpg",
-   "artist": "shahram sharif",
-   "date": "2007-01-05 14:24:42",
-   "license": "CC BY 2.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Cotton_swabs_(or_cotton_buds)_-in_round_container.jpg",
-   "ai": false
-  },
-  {
-   "name": "dna",
-   "src": "1/8-5.jpg",
-   "title": "An early DNA fingerprint showing DNA patterns from a mother (lanes 2 and 8) and her four children (adjacent lanes to the right). Lane 1 is an unrelated person. ",
-   "artist": "Alec Jeffreys",
-   "date": "",
-   "license": "CC BY 4.0",
-   "page": "https://www.europeana.eu/item/9200579/s97p57mj",
-   "ai": false
-  },
-  {
-   "name": "car",
-   "src": "1/9-1.jpg",
-   "title": "Mannheim-Polizei-Streifenwagen.jpg",
-   "artist": "Frank",
-   "date": "2008",
+   "name": "tower",
+   "src": "2/2-3.jpg",
+   "title": "Heilbronn General-Wever-Turm S 20071228.jpg",
+   "artist": "K. Jähne",
+   "date": "2007-12-28",
    "license": "CC BY-SA 3.0",
-   "page": "https://commons.wikimedia.org/wiki/File:Mannheim-Polizei-Streifenwagen.jpg",
-   "ai": false
-  },
-  {
-   "name": "rail",
-   "src": "1/13-2.jpg",
-   "title": "Crime Scene Investigators",
-   "artist": "Aaron Jacobs",
-   "date": "",
-   "license": "CC BY-SA 2.0",
-   "page": "https://www.flickr.com/photos/34653106@N00/86954206",
+   "page": "https://commons.wikimedia.org/wiki/File:Heilbronn_General-Wever-Turm_S_20071228.jpg",
    "ai": false
   },
   {
@@ -51,6 +21,26 @@
    "ai": false
   },
   {
+   "name": "dna",
+   "src": "1/8-5.jpg",
+   "title": "An early DNA fingerprint showing DNA patterns from a mother (lanes 2 and 8) and her four children (adjacent lanes to the right). Lane 1 is an unrelated person. ",
+   "artist": "Alec Jeffreys",
+   "date": "",
+   "license": "CC BY 4.0",
+   "page": "https://www.europeana.eu/item/9200579/s97p57mj",
+   "ai": false
+  },
+  {
+   "name": "city",
+   "src": "2/5-2.jpg",
+   "title": "Heilbronn Innenstadt u Wartberg 20050918.jpg",
+   "artist": "K. Jähne",
+   "date": "2005-09-18",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Heilbronn_Innenstadt_u_Wartberg_20050918.jpg",
+   "ai": false
+  },
+  {
    "name": "wiese",
    "src": "1/2-4.jpg",
    "title": "Heilbronn-theresienwiese-2015-1.JPG",
@@ -58,6 +48,16 @@
    "date": "2015-06-16 17:07:22",
    "license": "CC BY-SA 4.0",
    "page": "https://commons.wikimedia.org/wiki/File:Heilbronn-theresienwiese-2015-1.JPG",
+   "ai": false
+  },
+  {
+   "name": "car",
+   "src": "1/9-1.jpg",
+   "title": "Mannheim-Polizei-Streifenwagen.jpg",
+   "artist": "Frank",
+   "date": "2008",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mannheim-Polizei-Streifenwagen.jpg",
    "ai": false
   },
   {
@@ -81,13 +81,23 @@
    "ai": false
   },
   {
-   "name": "night",
-   "src": "1/10-5.jpg",
-   "title": "wedding",
-   "artist": "borkur.net",
+   "name": "hnnight",
+   "src": "2/2-17.jpg",
+   "title": "Heilbronn Schleuse 3 (76620861).jpeg",
+   "artist": "Josef Dvorak",
+   "date": "before 14 July 2014, 23:43:18 (UTC)",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Heilbronn_Schleuse_3_(76620861).jpeg",
+   "ai": false
+  },
+  {
+   "name": "plaque",
+   "src": "1/2-2.jpg",
+   "title": "IMG_20171228_135608",
+   "artist": "stephanie.thoma",
    "date": "",
-   "license": "CC BY 2.0",
-   "page": "https://www.flickr.com/photos/61732101@N00/5496541486",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/129523799@N04/27785531819",
    "ai": false
   },
   {
@@ -131,13 +141,33 @@
    "ai": false
   },
   {
-   "name": "plaque",
-   "src": "1/2-2.jpg",
-   "title": "IMG_20171228_135608",
-   "artist": "stephanie.thoma",
-   "date": "",
-   "license": "CC BY-SA 2.0",
-   "page": "https://www.flickr.com/photos/129523799@N04/27785531819",
+   "name": "box",
+   "src": "1/5-5.jpg",
+   "title": "Cotton swabs (or cotton buds) -in round container.jpg",
+   "artist": "shahram sharif",
+   "date": "2007-01-05 14:24:42",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cotton_swabs_(or_cotton_buds)_-in_round_container.jpg",
+   "ai": false
+  },
+  {
+   "name": "zwickau",
+   "src": "2/6-1.jpg",
+   "title": "Nationalsozialistischer Untergrund - Explosion in Zwickau 2011 1 (aka).jpg",
+   "artist": "André Karwath aka Aka",
+   "date": "16 November 2011",
+   "license": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Nationalsozialistischer_Untergrund_-_Explosion_in_Zwickau_2011_1_(aka).jpg",
+   "ai": false
+  },
+  {
+   "name": "camper",
+   "src": "2/12-1.jpg",
+   "title": "Wohnmobil Mercedes 206D Orion Berlin 04.jpg",
+   "artist": "Singlespeedfahrer",
+   "date": "2023-03-12 13:59:46",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wohnmobil_Mercedes_206D_Orion_Berlin_04.jpg",
    "ai": false
   },
   {
@@ -162,21 +192,16 @@
     "Österreich und Frankreich."
    ],
    "edit": "hook",
-   "head": "",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
-     "image": "box.jpg",
+     "image": "tower.jpg",
      "ai": false
     },
     {
      "type": "photo",
-     "image": "dna.jpg",
-     "ai": false
-    },
-    {
-     "type": "photo",
-     "image": "car.jpg",
+     "image": "map.jpg",
      "ai": false
     },
     {
@@ -185,7 +210,7 @@
     },
     {
      "type": "tape",
-     "text": "40 TATORTE"
+     "text": "40 TATORTE · 1 DNA"
     }
    ]
   },
@@ -198,11 +223,11 @@
     "Und niemand wusste, wer sie ist."
    ],
    "edit": "list",
-   "head": "",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
-     "image": "rail.jpg",
+     "image": "dna.jpg",
      "ai": false
     },
     {
@@ -228,7 +253,7 @@
     "sie die Frau ohne Gesicht."
    ],
    "edit": "statement",
-   "head": "",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "tape",
@@ -243,9 +268,19 @@
    "said": [
     "Das ist das Phantom von Heilbronn."
    ],
-   "edit": "chapter",
-   "head": "Das Phantom",
-   "items": []
+   "edit": "place",
+   "head": "Das Phantom von Heilbronn",
+   "items": [
+    {
+     "type": "photo",
+     "image": "city.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "HEILBRONN"
+    }
+   ]
   },
   {
    "scene": 5,
@@ -258,7 +293,7 @@
     "an ganz verschiedenen Tatorten."
    ],
    "edit": "timeline",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -279,7 +314,7 @@
     "bekannten Person."
    ],
    "edit": "compare",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "card"
@@ -295,7 +330,7 @@
     "wurde in Heilbronn eine junge"
    ],
    "edit": "detail",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -320,7 +355,7 @@
     "Polizistin erschossen."
    ],
    "edit": "place",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -346,7 +381,7 @@
     "Ihr Kollege überlebte schwer verletzt."
    ],
    "edit": "who",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "card"
@@ -362,7 +397,7 @@
     "fand man wieder dieselbe DNA."
    ],
    "edit": "fact",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -394,7 +429,7 @@
     "Die Belohnung stieg auf 300.000 Euro."
    ],
    "edit": "number",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -419,11 +454,11 @@
     "einbricht und spurlos verschwindet?"
    ],
    "edit": "question",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
-     "image": "night.jpg",
+     "image": "hnnight.jpg",
      "ai": false
     },
     {
@@ -446,11 +481,11 @@
     "die nichts miteinander zu tun hatten."
    ],
    "edit": "board",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
-     "image": "rail.jpg",
+     "image": "plaque.jpg",
      "ai": false
     },
     {
@@ -491,7 +526,7 @@
     "2009 kam die Wende."
    ],
    "edit": "statement",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "tape",
@@ -513,7 +548,7 @@
     "mit denen Spuren gesichert wurden."
    ],
    "edit": "detail",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -540,7 +575,7 @@
     "Wattestäbchen verpackte."
    ],
    "edit": "fact",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -554,7 +589,7 @@
     },
     {
      "type": "tape",
-     "text": "Fabrik (Symbolbild)"
+     "text": "in der Fabrik"
     },
     {
      "type": "tape",
@@ -571,7 +606,7 @@
     "aber nicht frei von menschlicher DNA."
    ],
    "edit": "object",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "sticker",
@@ -596,7 +631,7 @@
     "Das Phantom hatte nie existiert."
    ],
    "edit": "statement",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "tape",
@@ -618,7 +653,7 @@
     "dieser Verbrechen zu tun hatte."
    ],
    "edit": "span",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "card"
@@ -634,7 +669,7 @@
     "der Spurensicherung strengere Regeln."
    ],
    "edit": "place",
-   "head": "Das Phantom",
+   "head": "Das Phantom von Heilbronn",
    "items": [
     {
      "type": "photo",
@@ -658,9 +693,19 @@
    "said": [
     "Und der Mord an Michèle Kiesewetter?"
    ],
-   "edit": "chapter",
+   "edit": "figure",
    "head": "Michèle Kiesewetter",
-   "items": []
+   "items": [
+    {
+     "type": "photo",
+     "image": "wiese.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "und der Polizistenmord?"
+    }
+   ]
   },
   {
    "scene": 22,
@@ -676,7 +721,7 @@
    "items": [
     {
      "type": "photo",
-     "image": "plaque.jpg",
+     "image": "zwickau.jpg",
      "ai": false
     },
     {
@@ -697,9 +742,14 @@
     "Ihre Dienstwaffe fand man im Wohnmobil",
     "von zwei NSU-Mitgliedern."
    ],
-   "edit": "statement",
+   "edit": "figure",
    "head": "Michèle Kiesewetter",
    "items": [
+    {
+     "type": "photo",
+     "image": "camper.jpg",
+     "ai": false
+    },
     {
      "type": "tape",
      "text": "ihre Dienstwaffe"

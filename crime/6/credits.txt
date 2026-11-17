@@ -1,23 +1,25 @@
 Nguồn ảnh (ảnh CC BY và CC BY-SA phải ghi tên tác giả và giấy phép trong mô tả video):
 
-- Cotton swabs (or cotton buds) -in round container.jpg — shahram sharif (2007-01-05 14:24:42) — CC BY 2.0 [commons]
-  https://commons.wikimedia.org/wiki/File:Cotton_swabs_(or_cotton_buds)_-in_round_container.jpg
-- An early DNA fingerprint showing DNA patterns from a mother (lanes 2 and 8) and her four children (adjacent lanes to the right). Lane 1 is an unrelated person.  — Alec Jeffreys — CC BY 4.0 [europeana]
-  https://www.europeana.eu/item/9200579/s97p57mj
-- Mannheim-Polizei-Streifenwagen.jpg — Frank (2008) — CC BY-SA 3.0 [commons]
-  https://commons.wikimedia.org/wiki/File:Mannheim-Polizei-Streifenwagen.jpg
-- Crime Scene Investigators — Aaron Jacobs — CC BY-SA 2.0 [openverse/flickr]
-  https://www.flickr.com/photos/34653106@N00/86954206
+- Heilbronn General-Wever-Turm S 20071228.jpg — K. Jähne (2007-12-28) — CC BY-SA 3.0 [commons/geo]
+  https://commons.wikimedia.org/wiki/File:Heilbronn_General-Wever-Turm_S_20071228.jpg
 - Germany adm location map.svg — NordNordWest (2014-09-15) — CC BY-SA 3.0 de [commons]
   https://commons.wikimedia.org/wiki/File:Germany_adm_location_map.svg
+- An early DNA fingerprint showing DNA patterns from a mother (lanes 2 and 8) and her four children (adjacent lanes to the right). Lane 1 is an unrelated person.  — Alec Jeffreys — CC BY 4.0 [europeana]
+  https://www.europeana.eu/item/9200579/s97p57mj
+- Heilbronn Innenstadt u Wartberg 20050918.jpg — K. Jähne (2005-09-18) — CC BY-SA 3.0 [commons/wiki]
+  https://commons.wikimedia.org/wiki/File:Heilbronn_Innenstadt_u_Wartberg_20050918.jpg
 - Heilbronn-theresienwiese-2015-1.JPG — Peter Schmelzle (2015-06-16 17:07:22) — CC BY-SA 4.0 [commons]
   https://commons.wikimedia.org/wiki/File:Heilbronn-theresienwiese-2015-1.JPG
+- Mannheim-Polizei-Streifenwagen.jpg — Frank (2008) — CC BY-SA 3.0 [commons]
+  https://commons.wikimedia.org/wiki/File:Mannheim-Polizei-Streifenwagen.jpg
 - The first DNA fingerprint. The first three lanes contain DNA from a woman, her mother and her father respectively. Lanes 4 - 11 contain DNA from assorted other  — Alec Jeffreys — CC BY 4.0 [europeana]
   https://www.europeana.eu/item/9200579/r9zdbnsh
 - Mercedes Benz Police Car.jpg — stephenhanafin from Kilkenny, Ireland (2007-03-25 11:40) — CC BY-SA 2.0 [commons]
   https://commons.wikimedia.org/wiki/File:Mercedes_Benz_Police_Car.jpg
-- wedding — borkur.net — CC BY 2.0 [openverse/flickr]
-  https://www.flickr.com/photos/61732101@N00/5496541486
+- Heilbronn Schleuse 3 (76620861).jpeg — Josef Dvorak (before 14 July 2014, 23:43:18 (UTC)) — CC BY-SA 3.0 [commons/geo]
+  https://commons.wikimedia.org/wiki/File:Heilbronn_Schleuse_3_(76620861).jpeg
+- IMG_20171228_135608 — stephanie.thoma — CC BY-SA 2.0 [openverse/flickr]
+  https://www.flickr.com/photos/129523799@N04/27785531819
 - DNA-evidence.jpg — Daekow (2014-05-09 21:02:10) — CC BY-SA 4.0 [commons]
   https://commons.wikimedia.org/wiki/File:DNA-evidence.jpg
 - Red Spice — darkday. — CC BY 2.0 [openverse/flickr]
@@ -26,7 +28,11 @@ Nguồn ảnh (ảnh CC BY và CC BY-SA phải ghi tên tác giả và giấy ph
   https://commons.wikimedia.org/wiki/File:Cotton_swab,_package_and_swabs.jpg
 - White menbo.jpg — Aney (2005-08-24) — CC BY-SA 3.0 [commons]
   https://commons.wikimedia.org/wiki/File:White_menbo.jpg
-- IMG_20171228_135608 — stephanie.thoma — CC BY-SA 2.0 [openverse/flickr]
-  https://www.flickr.com/photos/129523799@N04/27785531819
+- Cotton swabs (or cotton buds) -in round container.jpg — shahram sharif (2007-01-05 14:24:42) — CC BY 2.0 [commons]
+  https://commons.wikimedia.org/wiki/File:Cotton_swabs_(or_cotton_buds)_-in_round_container.jpg
+- Nationalsozialistischer Untergrund - Explosion in Zwickau 2011 1 (aka).jpg — André Karwath aka Aka (16 November 2011) — CC BY-SA 2.5 [commons/wiki]
+  https://commons.wikimedia.org/wiki/File:Nationalsozialistischer_Untergrund_-_Explosion_in_Zwickau_2011_1_(aka).jpg
+- Wohnmobil Mercedes 206D Orion Berlin 04.jpg — Singlespeedfahrer (2023-03-12 13:59:46) — CC0 [commons]
+  https://commons.wikimedia.org/wiki/File:Wohnmobil_Mercedes_206D_Orion_Berlin_04.jpg
 - Schattenwurf 06.jpg — Philipp Baum (2025-08-29) — CC BY-SA 4.0 [commons]
   https://commons.wikimedia.org/wiki/File:Schattenwurf_06.jpg

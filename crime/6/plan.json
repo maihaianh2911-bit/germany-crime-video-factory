@@ -35,37 +35,18 @@
    "s": 0.0,
    "e": 5.014,
    "scene": 1,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom von Heilbronn",
+    "mode": "top",
+    "from": null,
+    "s": 0.0
+   },
    "items": [
     {
      "type": "photo",
-     "src": "crime/6/img/box.jpg",
-     "w": 1920,
-     "h": 1298,
-     "box": [
-      0,
-      0,
-      1080,
-      1920
-     ],
-     "ai": false,
-     "rot": 0,
-     "credit": "shahram sharif / CC BY 2.0",
-     "bleed": true,
-     "view": [
-      0.30986,
-      0.0,
-      0.69014,
-      1.0
-     ],
-     "drift": 0.1,
-     "rings": [],
-     "s": 0.0
-    },
-    {
-     "type": "photo",
-     "src": "crime/6/img/dna.jpg",
-     "w": 1004,
+     "src": "crime/6/img/tower.jpg",
+     "w": 1078,
      "h": 1400,
      "box": [
       0,
@@ -75,23 +56,25 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Alec Jeffreys / CC BY 4.0",
+     "credit": "K. Jähne / CC BY-SA 3.0",
      "bleed": true,
+     "depth": "crime/6/img/tower.depth.jpg",
      "view": [
-      0.10782,
+      0.13474,
       0.0,
-      0.89218,
+      0.86526,
       1.0
      ],
      "drift": 0.1,
+     "label": "Tatort Theresienwiese, Heilbronn",
      "rings": [],
-     "s": 1.874
+     "s": 0.0
     },
     {
      "type": "photo",
-     "src": "crime/6/img/car.jpg",
-     "w": 1400,
-     "h": 652,
+     "src": "crime/6/img/map.jpg",
+     "w": 1688,
+     "h": 2000,
      "box": [
       0,
       0,
@@ -100,17 +83,31 @@
      ],
      "ai": false,
      "rot": 0,
-     "credit": "Frank / CC BY-SA 3.0",
+     "credit": "NordNordWest / CC BY-SA 3.0 de",
      "bleed": true,
+     "depth": "crime/6/img/map.depth.jpg",
      "view": [
-      0.41902,
-      0.0,
-      0.68098,
+      0.17,
+      0.3248,
+      0.62,
       1.0
      ],
      "drift": 0.1,
-     "rings": [],
-     "s": 2.693
+     "label": "Heilbronn, Baden-Württemberg",
+     "rings": [
+      {
+       "s": 1.874,
+       "box": [
+        0.362,
+        0.744,
+        0.382,
+        0.764
+       ],
+       "shape": "pin",
+       "color": "yellow"
+      }
+     ],
+     "s": 1.874
     },
     {
      "type": "tape",
@@ -120,51 +117,58 @@
      "x": 540,
      "y": 1240,
      "align": "center",
-     "rot": 3.37,
+     "rot": -3.48,
      "s": 0.0
     },
     {
      "type": "tape",
-     "text": "40 TATORTE",
+     "text": "40 TATORTE · 1 DNA",
      "color": "white",
-     "px": 56,
+     "px": 52,
      "x": 540,
      "y": 1110,
      "align": "center",
-     "rot": -2.38,
+     "rot": 2.3,
      "s": 1.528
     }
    ],
-   "credit": "Foto: shahram sharif / CC BY 2.0 · Alec Jeffreys / CC BY 4.0 · Frank / CC BY-SA 3.0",
+   "credit": "Foto: K. Jähne / CC BY-SA 3.0 · NordNordWest / CC BY-SA 3.0 de",
    "edit": "hook"
   },
   {
    "s": 5.014,
    "e": 8.503,
    "scene": 2,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom von Heilbronn",
+    "mode": "top",
+    "from": "top",
+    "s": 5.014
+   },
    "items": [
     {
      "type": "photo",
-     "src": "crime/6/img/rail.jpg",
-     "w": 1400,
-     "h": 934,
+     "src": "crime/6/img/dna.jpg",
+     "w": 1004,
+     "h": 1400,
      "box": [
-      150.0,
-      218.2,
-      780,
-      520.4
+      343.1,
+      383.0,
+      393.7,
+      549.0
      ],
      "ai": false,
-     "rot": -2.07,
-     "credit": "Aaron Jacobs / CC BY-SA 2.0",
+     "rot": -2.08,
+     "credit": "Alec Jeffreys / CC BY 4.0",
      "view": [
+      0.01061,
       0.0,
-      0.00926,
-      1.0,
-      0.99074
+      0.98939,
+      1.0
      ],
      "drift": 0.1,
+     "label": "DNA-Profil (Symbolbild)",
      "rings": [],
      "s": 5.014
     },
@@ -173,8 +177,8 @@
      "text": "Morde",
      "color": "red",
      "px": 62,
-     "x": 170.0,
-     "y": 806.8,
+     "x": 327.1,
+     "y": 393.0,
      "align": "left",
      "rot": 0.64,
      "s": 5.197
@@ -184,8 +188,8 @@
      "text": "Einbrüche",
      "color": "yellow",
      "px": 67,
-     "x": 910.0,
-     "y": 812.3,
+     "x": 752.8,
+     "y": 657.5,
      "align": "right",
      "rot": -1.66,
      "s": 5.644
@@ -195,21 +199,27 @@
      "text": "Diebstähle",
      "color": "yellow",
      "px": 67,
-     "x": 170.0,
-     "y": 907.4,
-     "align": "left",
+     "x": 752.8,
+     "y": 908.0,
+     "align": "right",
      "rot": 1.11,
      "s": 6.364
     }
    ],
-   "credit": "Foto: Aaron Jacobs / CC BY-SA 2.0",
+   "credit": "Foto: Alec Jeffreys / CC BY 4.0",
    "edit": "list"
   },
   {
    "s": 8.503,
    "e": 11.226,
    "scene": 3,
-   "head": null,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom von Heilbronn",
+    "mode": "top",
+    "from": "top",
+    "s": 8.503
+   },
    "items": [
     {
      "type": "tape",
@@ -217,7 +227,7 @@
      "color": "red",
      "px": 74,
      "x": 540.0,
-     "y": 800.0,
+     "y": 921.0,
      "align": "center",
      "rot": -1.29,
      "s": 9.733
@@ -232,14 +242,51 @@
    "scene": 4,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
-    "mode": "mid",
-    "from": null,
+    "title": "Das Phantom von Heilbronn",
+    "mode": "top",
+    "from": "top",
     "s": 11.226
    },
-   "items": [],
-   "credit": "",
-   "edit": "chapter"
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/city.jpg",
+     "w": 1400,
+     "h": 931,
+     "box": [
+      150.0,
+      398.1,
+      780,
+      518.7
+     ],
+     "ai": false,
+     "rot": -1.44,
+     "credit": "K. Jähne / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.00938,
+      1.0,
+      0.99062
+     ],
+     "drift": 0.1,
+     "label": "Heilbronn",
+     "rings": [],
+     "s": 11.226
+    },
+    {
+     "type": "tape",
+     "text": "HEILBRONN",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 406.1,
+     "align": "center",
+     "rot": -1,
+     "s": 11.377
+    }
+   ],
+   "credit": "Foto: K. Jähne / CC BY-SA 3.0",
+   "edit": "place"
   },
   {
    "s": 13.125,
@@ -247,9 +294,9 @@
    "scene": 5,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
-    "from": "mid",
+    "from": "top",
     "s": 13.125
    },
    "items": [
@@ -274,6 +321,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "DNA-Profil (Symbolbild)",
      "rings": [],
      "s": 13.125
     },
@@ -318,7 +366,7 @@
    "scene": 6,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 20.389
@@ -374,7 +422,7 @@
    "scene": 7,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 22.863
@@ -401,6 +449,7 @@
       1.0
      ],
      "drift": 0,
+     "label": "Heilbronn, Baden-Württemberg",
      "zoom": {
       "to": [
        0.17,
@@ -458,7 +507,7 @@
    "scene": 8,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 26.953
@@ -479,6 +528,7 @@
      "rot": 0,
      "credit": "Peter Schmelzle / CC BY-SA 4.0",
      "bleed": true,
+     "depth": "crime/6/img/wiese.depth.jpg",
      "view": [
       0.08906,
       0.0,
@@ -486,6 +536,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Theresienwiese, Heilbronn",
      "rings": [],
      "s": 26.953
     },
@@ -522,7 +573,7 @@
    "scene": 9,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 28.79
@@ -575,7 +626,7 @@
    "scene": 10,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 33.197
@@ -602,6 +653,7 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Streifenwagen (Symbolbild)",
      "rings": [],
      "s": 33.197
     },
@@ -626,6 +678,7 @@
       0.99556
      ],
      "drift": 0.1,
+     "label": "DNA-Profil (Symbolbild)",
      "rings": [],
      "s": 34.826
     },
@@ -661,7 +714,7 @@
    "scene": 11,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 35.934
@@ -688,6 +741,7 @@
       0.98413
      ],
      "drift": 0.1,
+     "label": "Streifenwagen (Symbolbild)",
      "rings": [],
      "s": 35.934
     },
@@ -726,7 +780,7 @@
    "scene": 12,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 41.738
@@ -734,25 +788,26 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/6/img/night.jpg",
-     "w": 1050,
-     "h": 1400,
+     "src": "crime/6/img/hnnight.jpg",
+     "w": 1920,
+     "h": 1280,
      "box": [
-      194.1,
-      404.9,
-      691.7,
-      922.3
+      140.0,
+      599.4,
+      800,
+      533.3
      ],
      "ai": false,
-     "rot": -1.52,
-     "credit": "borkur.net / CC BY 2.0",
+     "rot": -1.96,
+     "credit": "Josef Dvorak / CC BY-SA 3.0",
      "view": [
-      0.00524,
       0.0,
-      0.99476,
-      1.0
+      0.0091,
+      1.0,
+      0.9909
      ],
      "drift": 0.1,
+     "label": "Heilbronn bei Nacht",
      "rings": [],
      "s": 41.738
     },
@@ -762,7 +817,7 @@
      "color": "red",
      "px": 62,
      "x": 540.0,
-     "y": 1395.4,
+     "y": 1200.9,
      "align": "center",
      "rot": 3.19,
      "s": 41.927
@@ -772,14 +827,14 @@
      "text": "spurlos verschwunden",
      "color": "yellow",
      "px": 67,
-     "x": 178.1,
-     "y": 414.9,
+     "x": 124.0,
+     "y": 609.4,
      "align": "left",
      "rot": -0.5,
      "s": 44.134
     }
    ],
-   "credit": "Foto: borkur.net / CC BY 2.0",
+   "credit": "Foto: Josef Dvorak / CC BY-SA 3.0",
    "edit": "question"
   },
   {
@@ -788,7 +843,7 @@
    "scene": 13,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 45.513
@@ -796,23 +851,23 @@
    "items": [
     {
      "type": "photo",
-     "src": "crime/6/img/rail.jpg",
-     "w": 1400,
-     "h": 934,
+     "src": "crime/6/img/plaque.jpg",
+     "w": 790,
+     "h": 1400,
      "box": [
-      80.0,
-      404.2,
-      430,
-      286.9
+      196.2,
+      383.0,
+      197.6,
+      329.4
      ],
      "ai": false,
-     "rot": -2.07,
-     "credit": "Aaron Jacobs / CC BY-SA 2.0",
+     "rot": -1.31,
+     "credit": "stephanie.thoma / CC BY-SA 2.0",
      "view": [
+      0.0014,
       0.0,
-      0.01732,
-      1.0,
-      0.98268
+      0.9986,
+      1.0
      ],
      "drift": 0.1,
      "rings": [],
@@ -905,7 +960,7 @@
      "type": "string",
      "a": [
       295.0,
-      430.2
+      409.0
      ],
      "b": [
       785.0,
@@ -938,7 +993,7 @@
      "s": 48.763
     }
    ],
-   "credit": "Foto: Aaron Jacobs / CC BY-SA 2.0 · Frank / CC BY-SA 3.0 · stephenhanafin from Kilkenny, Ireland / CC BY-SA 2.0 · NordNordWest / CC BY-SA 3.0 de",
+   "credit": "Foto: stephanie.thoma / CC BY-SA 2.0 · Frank / CC BY-SA 3.0 · stephenhanafin from Kilkenny, Ireland / CC BY-SA 2.0 · NordNordWest / CC BY-SA 3.0 de",
    "edit": "board"
   },
   {
@@ -947,7 +1002,7 @@
    "scene": 14,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 50.508
@@ -986,7 +1041,7 @@
    "scene": 15,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 52.299
@@ -1013,6 +1068,7 @@
       0.9909
      ],
      "drift": 0,
+     "label": "Spurensicherung (Symbolbild)",
      "zoom": {
       "to": [
        0.29444,
@@ -1058,7 +1114,7 @@
    "scene": 16,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 56.432
@@ -1085,6 +1141,7 @@
       0.99062
      ],
      "drift": 0.1,
+     "label": "Fabrik (Symbolbild)",
      "rings": [],
      "s": 56.432
     },
@@ -1109,18 +1166,19 @@
       1.0
      ],
      "drift": 0.1,
+     "label": "Wattestäbchen (Symbolbild)",
      "rings": [],
      "s": 59.122
     },
     {
      "type": "tape",
-     "text": "Fabrik (Symbolbild)",
+     "text": "in der Fabrik",
      "color": "yellow",
      "px": 67,
      "x": 134.0,
      "y": 408.1,
      "align": "left",
-     "rot": -2.08,
+     "rot": -0.68,
      "s": 58.522
     },
     {
@@ -1144,7 +1202,7 @@
    "scene": 17,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 60.927
@@ -1198,7 +1256,7 @@
    "scene": 18,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 64.293
@@ -1237,7 +1295,7 @@
    "scene": 19,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 66.3
@@ -1284,7 +1342,7 @@
    "scene": 20,
    "head": {
     "kicker": "AKTE 1993–2009",
-    "title": "Das Phantom",
+    "title": "Das Phantom von Heilbronn",
     "mode": "top",
     "from": "top",
     "s": 71.094
@@ -1311,6 +1369,7 @@
       0.99107
      ],
      "drift": 0.1,
+     "label": "Wattestäbchen (Symbolbild)",
      "rings": [],
      "s": 71.094
     },
@@ -1347,13 +1406,50 @@
    "head": {
     "kicker": "AKTE 2007",
     "title": "Michèle Kiesewetter",
-    "mode": "mid",
+    "mode": "top",
     "from": null,
     "s": 75.416
    },
-   "items": [],
-   "credit": "",
-   "edit": "chapter"
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/wiese.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      220.0,
+      637.1,
+      640,
+      480.0
+     ],
+     "ai": false,
+     "rot": -2.43,
+     "credit": "Peter Schmelzle / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00763,
+      1.0,
+      0.99237
+     ],
+     "drift": 0.1,
+     "label": "Theresienwiese, Heilbronn",
+     "rings": [],
+     "s": 75.416
+    },
+    {
+     "type": "tape",
+     "text": "und der Polizistenmord?",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1185.3,
+     "align": "center",
+     "rot": 0.67,
+     "s": 75.627
+    }
+   ],
+   "credit": "Foto: Peter Schmelzle / CC BY-SA 4.0",
+   "edit": "figure"
   },
   {
    "s": 77.584,
@@ -1363,40 +1459,41 @@
     "kicker": "AKTE 2007",
     "title": "Michèle Kiesewetter",
     "mode": "top",
-    "from": "mid",
+    "from": "top",
     "s": 77.584
    },
    "items": [
     {
      "type": "photo",
-     "src": "crime/6/img/plaque.jpg",
-     "w": 790,
-     "h": 1400,
+     "src": "crime/6/img/zwickau.jpg",
+     "w": 1920,
+     "h": 1320,
      "box": [
-      263.3,
-      404.9,
-      553.4,
-      922.3
+      140.0,
+      591.1,
+      800,
+      550.0
      ],
      "ai": false,
-     "rot": -1.31,
-     "credit": "stephanie.thoma / CC BY-SA 2.0",
+     "rot": -1.67,
+     "credit": "André Karwath aka Aka / CC BY-SA 2.5",
      "view": [
       0.0,
-      0.01976,
+      0.00824,
       1.0,
-      0.98024
+      0.99176
      ],
      "drift": 0,
+     "label": "Zwickau, November 2011",
      "zoom": {
       "to": [
-       0.0,
-       0.03951,
-       1.0,
-       1.0
+       0.09413,
+       0.1,
+       0.80587,
+       0.8
       ],
-      "s": 80.234,
-      "e": 81.634
+      "s": 81.574,
+      "e": 82.974
      },
      "rings": [],
      "s": 77.584
@@ -1406,9 +1503,9 @@
      "text": "2011",
      "color": "white",
      "px": 67,
-     "x": 832.7,
-     "y": 414.9,
-     "align": "right",
+     "x": 540.0,
+     "y": 599.1,
+     "align": "center",
      "rot": -1,
      "s": 77.654
     },
@@ -1417,14 +1514,14 @@
      "text": "Terrorgruppe NSU",
      "color": "red",
      "px": 62,
-     "x": 540.0,
-     "y": 1395.4,
-     "align": "center",
+     "x": 124.0,
+     "y": 601.1,
+     "align": "left",
      "rot": -1,
      "s": 81.574
     }
    ],
-   "credit": "Foto: stephanie.thoma / CC BY-SA 2.0",
+   "credit": "Foto: André Karwath aka Aka / CC BY-SA 2.5",
    "edit": "detail"
   },
   {
@@ -1440,14 +1537,39 @@
    },
    "items": [
     {
+     "type": "photo",
+     "src": "crime/6/img/camper.jpg",
+     "w": 1920,
+     "h": 1341,
+     "box": [
+      220.0,
+      653.6,
+      640,
+      447.0
+     ],
+     "ai": false,
+     "rot": -2.45,
+     "credit": "Singlespeedfahrer / CC0",
+     "view": [
+      0.0,
+      0.00988,
+      1.0,
+      0.99012
+     ],
+     "drift": 0.1,
+     "label": "Wohnmobil (Symbolbild)",
+     "rings": [],
+     "s": 83.181
+    },
+    {
      "type": "tape",
      "text": "ihre Dienstwaffe",
      "color": "white",
-     "px": 89,
+     "px": 67,
      "x": 540.0,
-     "y": 921.0,
+     "y": 661.6,
      "align": "center",
-     "rot": -1.62,
+     "rot": 2.61,
      "s": 83.365
     },
     {
@@ -1455,15 +1577,15 @@
      "text": "im Wohnmobil des NSU",
      "color": "red",
      "px": 62,
-     "x": 540,
-     "y": 1010,
-     "align": "center",
-     "rot": 2.74,
+     "x": 204.0,
+     "y": 663.6,
+     "align": "left",
+     "rot": -0.66,
      "s": 84.431
     }
    ],
-   "credit": "",
-   "edit": "statement"
+   "credit": "Foto: Singlespeedfahrer / CC0",
+   "edit": "figure"
   },
   {
    "s": 86.691,
@@ -1498,6 +1620,7 @@
       0.99337
      ],
      "drift": 0.1,
+     "label": "NSU-Mahnmal „Schattenwurf“",
      "rings": [],
      "s": 86.691
     },
@@ -2140,7 +2263,7 @@
    "src": "crime/6/voice/line_25.mp3"
   }
  ],
- "music": "crime/6/bed.wav",
+ "music": null,
  "musicVolume": 0.14,
  "fonts": [
   {
@@ -2186,6 +2309,11 @@
    "style": "normal"
   }
  ],
+ "fx": {
+  "depth": true,
+  "blur": true,
+  "grain": 0.1
+ },
  "sfx": "crime/6/sfx.wav",
- "sfxVolume": 0.6
+ "sfxVolume": 1.0
 }
