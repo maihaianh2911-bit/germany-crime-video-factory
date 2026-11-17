@@ -1,0 +1,621 @@
+{
+ "sfx": true,
+ "tail": 3.2,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "1988",
+   "4/Mai"
+  ],
+  [
+   "1992",
+   "7/1992"
+  ],
+  [
+   "1994",
+   "19/22."
+  ],
+  [
+   "2000",
+   "22/2000"
+  ],
+  [
+   "HEUTE",
+   "23/Heute"
+  ]
+ ],
+ "images": {
+  "kadewe88": {
+   "src": "1/3-1.jpg"
+  },
+  "kadewe": {
+   "src": "1/2-1.jpg"
+  },
+  "karstadt": {
+   "src": "1/5-7.jpg"
+  },
+  "karstadt_old": {
+   "src": "1/5-6.jpg"
+  },
+  "sbahn": {
+   "src": "1/6-4.jpg"
+  },
+  "sbahn2": {
+   "src": "1/6-6.jpg"
+  },
+  "track": {
+   "src": "1/7-1.jpg"
+  },
+  "handcar": {
+   "src": "1/8-1.jpg"
+  },
+  "phone": {
+   "src": "1/10-7.jpg"
+  },
+  "money": {
+   "src": "1/12-2.jpg"
+  },
+  "leaves": {
+   "src": "1/13-1.jpg"
+  },
+  "police": {
+   "src": "1/14-1.jpg"
+  },
+  "funke": {
+   "src": "1/1-3.jpg"
+  },
+  "funke2": {
+   "src": "1/1-1.jpg"
+  },
+  "gbf": {
+   "src": "1/1-4.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "2 giây đầu: KaDeWe thật năm 1988 đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt nhanh theo từng chữ: cảnh sát Berlin → đường ray bỏ hoang",
+   "items": [
+    {
+     "photo": "kadewe88",
+     "pos": "full",
+     "view": [
+      0.15,
+      0.0,
+      0.85,
+      1.0
+     ]
+    },
+    {
+     "photo": "police",
+     "pos": "full",
+     "view": [
+      0.1,
+      0.0,
+      0.7,
+      1.0
+     ],
+     "at": "1/Polizei"
+    },
+    {
+     "photo": "track",
+     "pos": "full",
+     "at": "1/sechs"
+    },
+    {
+     "tape": "Wer ist Dagobert?",
+     "color": "red",
+     "size": 76,
+     "xy": [
+      540,
+      1240
+     ]
+    },
+    {
+     "tape": "BOMBEN IM KAUFHAUS",
+     "color": "white",
+     "size": 50,
+     "xy": [
+      540,
+      1110
+     ],
+     "at": "1/Bomben"
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "statement",
+   "why": "câu 2: bị truy lùng nhưng lại được coi như người hùng",
+   "items": [
+    {
+     "tape": "6 Jahre gejagt",
+     "color": "white",
+     "size": 66,
+     "at": 2.02
+    },
+    {
+     "tape": "und gefeiert",
+     "color": "red",
+     "size": 76,
+     "at": "2/feiern"
+    }
+   ]
+  },
+  {
+   "at": 3,
+   "edit": "chapter",
+   "why": "câu 3 gọi tên vụ án",
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert"
+   }
+  },
+  {
+   "at": 4,
+   "edit": "detail",
+   "why": "câu 4: tháng 5/1988 bom nổ ở KaDeWe — ảnh KaDeWe thật năm 1988",
+   "items": [
+    {
+     "photo": "kadewe88",
+     "zoom": {
+      "to": [
+       0.25,
+       0.1,
+       0.85,
+       0.75
+      ],
+      "at": "4/KaDeWe",
+      "dur": 1.4
+     }
+    },
+    {
+     "tape": "MAI 1988",
+     "color": "white",
+     "pin": "top",
+     "at": "4/Mai"
+    },
+    {
+     "tape": "Bombe im KaDeWe",
+     "color": "red",
+     "at": "4/explodiert"
+    }
+   ]
+  },
+  {
+   "at": 5,
+   "edit": "number",
+   "why": "câu 5: đòi 500.000 mác, ném tiền từ tàu S-Bahn đang chạy",
+   "items": [
+    {
+     "photo": "sbahn",
+     "pos": "small"
+    },
+    {
+     "stat": [
+      [
+       "500.000",
+       "Mark",
+       "5/500.000",
+       "yellow"
+      ]
+     ]
+    },
+    {
+     "tape": "aus der fahrenden S-Bahn",
+     "at": "5/S-Bahn"
+    }
+   ]
+  },
+  {
+   "at": 6,
+   "edit": "statement",
+   "why": "câu 6: giao tiền thành công, thủ phạm trốn thoát",
+   "items": [
+    {
+     "tape": "Übergabe klappt",
+     "color": "white",
+     "size": 66,
+     "at": 6.02
+    },
+    {
+     "tape": "Täter entkommt",
+     "color": "red",
+     "size": 72,
+     "at": "6/Täter"
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "place",
+   "why": "câu 7: năm 1992 hắn tống tiền Karstadt — Karstadt Hermannplatz, Berlin",
+   "items": [
+    {
+     "photo": "karstadt"
+    },
+    {
+     "tape": "1992",
+     "color": "white",
+     "pin": "top",
+     "at": "7/1992"
+    },
+    {
+     "tape": "diesmal Karstadt",
+     "color": "red",
+     "at": "7/Karstadt"
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "edit": "number",
+   "why": "câu 8: đòi 1,4 triệu mác",
+   "items": [
+    {
+     "photo": "money",
+     "pos": "small"
+    },
+    {
+     "stat": [
+      [
+       "1,4 Mio.",
+       "Mark",
+       "8/1,4",
+       "yellow"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "statement",
+   "why": "câu 9–10: tín hiệu là quảng cáo trên báo \"Dagobert gửi lời chào các cháu\"",
+   "items": [
+    {
+     "tape": "ZEITUNGSANZEIGE",
+     "color": "white",
+     "size": 60,
+     "at": "9/Zeitungsanzeige"
+    },
+    {
+     "tape": "„Dagobert grüßt seine Neffen“",
+     "color": "red",
+     "at": "10/Dagobert"
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "edit": "place",
+   "why": "câu 11: từ đó kẻ tống tiền có tên \"Dagobert\" — ảnh cũ Karstadt Hermannplatz",
+   "items": [
+    {
+     "photo": "karstadt_old"
+    },
+    {
+     "tape": "sein Name: DAGOBERT",
+     "color": "red",
+     "at": "11/Namen"
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "fact",
+   "why": "câu 12: để gây sức ép, hắn gây nhiều vụ nổ ở các cửa hàng Karstadt",
+   "items": [
+    {
+     "photo": "karstadt"
+    },
+    {
+     "photo": "police",
+     "at": "12/Anschläge"
+    },
+    {
+     "tape": "mehrere Anschläge",
+     "color": "red",
+     "at": "12/Anschläge"
+    },
+    {
+     "tape": "Druck auf Karstadt",
+     "at": "12/Druck"
+    }
+   ]
+  },
+  {
+   "at": 13,
+   "edit": "statement",
+   "why": "câu 13: hắn nghĩ ra đủ mẹo giao tiền mới",
+   "items": [
+    {
+     "tape": "IMMER NEUE TRICKS",
+     "color": "white",
+     "size": 62,
+     "at": "13/Tricks"
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "edit": "place",
+   "why": "câu 14: mẹo 1 — chiếc hộp gắn nam châm vào tàu",
+   "items": [
+    {
+     "photo": "sbahn2"
+    },
+    {
+     "tape": "TRICK 1",
+     "color": "white",
+     "pin": "top",
+     "at": 14.02
+    },
+    {
+     "tape": "Magnet-Kiste am Zug",
+     "color": "red",
+     "at": "14/Magneten"
+    }
+   ]
+  },
+  {
+   "at": 15,
+   "edit": "pair",
+   "why": "câu 15: mẹo 2 — goòng tự chế trên đường ray bỏ hoang, trật bánh ngay trước mặt hắn (ảnh minh họa loại vật)",
+   "items": [
+    {
+     "photo": "track"
+    },
+    {
+     "photo": "handcar",
+     "at": "15/Lore"
+    },
+    {
+     "tape": "TRICK 2",
+     "color": "white",
+     "at": 15.02
+    },
+    {
+     "tape": "Lore entgleist",
+     "color": "red",
+     "at": "15/entgleist"
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "detail",
+   "why": "câu 16–17: cảnh sát đuổi sát rồi trượt chân — báo viết \"phân chó\", thật ra là lá ướt",
+   "items": [
+    {
+     "photo": "leaves",
+     "zoom": {
+      "to": [
+       0.0,
+       0.45,
+       0.6,
+       1.0
+      ],
+      "at": "17/nasse",
+      "dur": 1.2
+     }
+    },
+    {
+     "tape": "Polizist rutscht aus",
+     "at": "16/rutscht",
+     "pin": "tl"
+    },
+    {
+     "tape": "Hundekot? Nein:",
+     "color": "white",
+     "pin": "center",
+     "at": "17/Hundekot"
+    },
+    {
+     "tape": "nasse Blätter",
+     "color": "red",
+     "at": "17/nasse",
+     "pin": "bottom"
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "edit": "statement",
+   "why": "câu 18: cảnh sát bị chế giễu, Dagobert thành ngôi sao",
+   "items": [
+    {
+     "tape": "Polizei: Gespött",
+     "color": "white",
+     "size": 62,
+     "at": 18.02
+    },
+    {
+     "tape": "Dagobert: Star",
+     "color": "red",
+     "size": 72,
+     "at": "18/Star"
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "edit": "timeline",
+   "why": "câu 19–20: ngày 22/4/1994 bị bắt ở Berlin, trong một buồng điện thoại",
+   "items": [
+    {
+     "photo": "phone"
+    },
+    {
+     "card": "paper",
+     "head": "22.04.1994",
+     "rows": [
+      [
+       "Berlin",
+       "Telefonzelle",
+       "20/Telefonzelle"
+      ],
+      {
+       "l": "Dagobert",
+       "r": "gefasst",
+       "at": "20/fasst",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": 21,
+   "edit": "figure",
+   "hush": true,
+   "why": "câu 21: lộ tên thật — Arno Funke (ảnh năm 2015, người của công chúng) — khoảnh khắc lặng",
+   "items": [
+    {
+     "photo": "funke",
+     "pos": "full",
+     "view": [
+      0.2,
+      0.0,
+      0.85,
+      1.0
+     ]
+    },
+    {
+     "tape": "DAGOBERT =",
+     "color": "white",
+     "size": 56,
+     "xy": [
+      540,
+      470
+     ],
+     "at": 21.02
+    },
+    {
+     "tape": "Arno Funke",
+     "color": "red",
+     "size": 80,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "21/Arno"
+    }
+   ]
+  },
+  {
+   "at": 22,
+   "edit": "span",
+   "why": "câu 22: bị kết án 9 năm, năm 2000 ra tù sớm",
+   "items": [
+    {
+     "card": "paper",
+     "head": "URTEIL",
+     "rows": [
+      [
+       "Haft",
+       "9 Jahre",
+       "22/neun"
+      ],
+      {
+       "l": "2000",
+       "r": "vorzeitig frei",
+       "at": "22/2000",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "figure",
+   "why": "câu 23–24: ngày nay vẽ tranh biếm họa, và là bạn của một cảnh sát từng truy lùng ông",
+   "items": [
+    {
+     "photo": "funke2"
+    },
+    {
+     "tape": "HEUTE",
+     "color": "white",
+     "at": 23.02,
+     "pin": "top"
+    },
+    {
+     "tape": "zeichnet Cartoons",
+     "at": "23/Cartoons",
+     "pin": "left"
+    },
+    {
+     "tape": "mit einem Polizisten befreundet",
+     "color": "red",
+     "at": "24/befreundet",
+     "pin": "below"
+    }
+   ]
+  },
+  {
+   "at": 25,
+   "edit": "ending",
+   "why": "câu cuối: tội phạm hay người hùng? — mời bình luận",
+   "items": [
+    {
+     "photo": "kadewe88",
+     "pos": "g1"
+    },
+    {
+     "photo": "sbahn",
+     "pos": "g2"
+    },
+    {
+     "photo": "track",
+     "pos": "g3"
+    },
+    {
+     "photo": "phone",
+     "pos": "g4"
+    },
+    {
+     "string": [
+      0,
+      1
+     ]
+    },
+    {
+     "string": [
+      1,
+      2
+     ]
+    },
+    {
+     "string": [
+      2,
+      3
+     ]
+    },
+    {
+     "card": "paper",
+     "head": "DAGOBERT",
+     "rows": [
+      [
+       "Verbrecher?",
+       "",
+       25.02
+      ],
+      {
+       "l": "Volksheld?",
+       "r": "",
+       "at": "25/Volksheld",
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "tape": "Schreib es in die Kommentare.",
+     "at": "25/Was"
+    }
+   ]
+  }
+ ]
+}
