@@ -286,6 +286,21 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
        under the last item, or at `"xy": [x, y]`. ≤ 3 rows.
      - `string`: `[i, j]` = a red string between items i and j of this scene (0-based, prints, stickers or cards).
    - `credit` is automatic (`Foto: Author / Licence` at the foot of the frame, nothing on AI pictures).
+   - **The first 10 seconds must say what the story is** (owner, 17/11/2026, after #5–#9: "hình ảnh không mang tính
+     nhận diện, nhất là 10s đầu… người xem nhìn vào không biết sắp kể câu chuyện gì"; only #7, which opens on the
+     real face of Wilhelm Voigt, passed):
+     - **frame 0 is the most identifying real picture of the case**: the person it is about, the place, the famous
+       object (Voigt's portrait; the farm of Hinterkaifeck; the KaDeWe; the jewel room) — never a symbol picture,
+       a texture or a detail that could belong to any case (a cotton swab, footprints, police tape, an overgrown
+       track);
+     - **the case name is on screen from frame 0**: scene 1 carries `"head"` (`{"kicker": "AKTE 2007", "title":
+       "Das Phantom von Heilbronn"}`); the later `chapter` scene for the same name is then left out;
+     - the cuts of the hook (lines 1–3) show only real pictures of the case, each with its `label`.
+   - **`label`** (owner, 17/11/2026): what a picture shows, typed on a paper strip at the foot of the print (on a
+     full-frame picture: above the subtitle). Give it in `images` (`"kadewe": {"src": "2/1-1.jpg", "label": "KaDeWe,
+     Berlin · 1988"}`; an item's own `"label"` overrides, `""` removes it): every real picture names the place,
+     person or thing and the year (≤ ~30 characters); every symbol picture says `Symbolbild`. Keep pins `bottom`
+     and `below` free on a labelled print (the label sits there).
    - **Version B options** (a trial the owner asked for on 15/11/2026, issue #2; until the owner chooses, use them only
      where the owner asked for version B). Top level of picks.json: `"sfx": true` (synthesized sound effects for every
      motion: typewriter keys, tape slaps, a stamp thud, paper swishes, a whoosh at each cut, a boom for chapter heads

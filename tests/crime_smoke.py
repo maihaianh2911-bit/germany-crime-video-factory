@@ -137,6 +137,7 @@ vb = json.load(open(os.path.join(job, 'picks.json'), encoding='utf-8'))
 vb.update({'sfx': True, 'lead': 1.5, 'tail': 3.0, 'timeline': [['1976', 1], ['1968', 2], ['1976', 3]]})
 vb['scenes'][3]['hush'] = True
 vb['scenes'][4]['items'][0].update({'pos': 'full', 'ring': {'box': [0.4, 0.4, 0.45, 0.45], 'shape': 'pin', 'at': w4}})
+vb['images']['street']['label'] = 'Klingenberg · 1976'; vb['scenes'][0]['items'][0]['label'] = 'Hof · 1922'   # picture labels (17/11)
 vb['scenes'][0]['items'].append({'tape': 'Ein sehr langer Satz auf einem Klebeband, viel zu breit', 'color': 'red', 'size': 90})
 jb = os.path.join(tmp, 'jobB'); os.makedirs(jb); json.dump(vb, open(os.path.join(jb, 'picks.json'), 'w', encoding='utf-8'), ensure_ascii=False)
 shutil.copy(os.path.join(job, 'script.json'), jb)
@@ -145,6 +146,7 @@ pb = json.load(open(os.path.join(tmp, 'outB', 'plan.json'), encoding='utf-8'))
 assert abs(pb['duration'] - plan['duration'] - (1.5 - 0.3) - (3.0 - 1.8)) < 0.01 and abs(pb['voice'][0]['s'] - 1.5) < 1e-6
 assert pb['timeline']['labels'] == ['1968', '1976'] and pb['timeline']['idx'] == [1, 0, 1] and pb['timeline']['marks'] == sorted(pb['timeline']['marks'])
 assert pb['scenes'][3].get('hush') and not pb['scenes'][2].get('hush')
+assert pb['scenes'][0]['items'][0]['label'] == 'Hof · 1922' and pb['scenes'][3]['items'][0]['label'] == 'Klingenberg · 1976' and 'label' not in pb['scenes'][4]['items'][0]
 fb = pb['scenes'][4]['items'][0]; assert fb.get('bleed') and fb['box'] == [0, 0, layout.W, layout.H] and fb['rot'] == 0 and fb['rings'][0]['shape'] == 'pin'
 assert abs((fb['view'][2] - fb['view'][0]) * fb['w'] / ((fb['view'][3] - fb['view'][1]) * fb['h']) - layout.W / layout.H) < 0.01   # the frame's shape
 long_t = [i for i in pb['scenes'][0]['items'] if i['type'] == 'tape'][-1]; assert long_t['px'] < 60, long_t['px']

@@ -12,7 +12,7 @@ type Box = [number, number, number, number];
 type Ring = { s: number; box: View; shape: 'ellipse' | 'rect' | 'pin'; color: string };   // pin: a map pin at the box's centre
 type Base = { s: number; e?: number };
 export type PhotoI = Base & { type: 'photo'; src: string; w: number; h: number; box: Box; view: View; rot: number; ai: boolean; bleed?: boolean;
-  credit: string; drift: number; depth?: string; zoom?: { to: View; s: number; e: number }; rings: Ring[] };
+  credit: string; drift: number; depth?: string; zoom?: { to: View; s: number; e: number }; rings: Ring[]; label?: string };
 export type StickerI = Base & { type: 'sticker'; src: string; w: number; h: number; box: Box; rot: number; ai: boolean; credit: string };
 export type TapeI = Base & { type: 'tape'; text: string; color: 'yellow' | 'red' | 'white'; px: number; x: number; y: number;
   align: 'left' | 'right' | 'center'; rot: number };
@@ -199,6 +199,16 @@ const DepthImg: React.FC<{ it: PhotoI; v: View; iw: number; ih: number; phase: n
   return <canvas ref={ref} width={iw} height={ih} style={{ position: 'absolute', left: 0, top: 0, width: iw, height: ih, display: state === 'off' ? 'none' : 'block' }} />;
 };
 
+// what a picture shows, typed on a strip of paper glued across its foot ("Theresienwiese, Heilbronn · 2007",
+// "Symbolbild"): the viewer always knows what he is looking at
+const PhotoLabel: React.FC<{ text: string; F: Faces; t: number; s: number; style: React.CSSProperties }> = ({ text, F, t, s, style }) => {
+  const k = easeOut((t - s - 0.15) / 0.3);
+  return (
+    <div style={{ position: 'absolute', whiteSpace: 'nowrap', fontFamily: fam(F.mono, 'monospace'), fontWeight: 700, fontSize: 27, letterSpacing: '0.02em',
+      color: '#161514', background: '#f3efe6', padding: '5px 14px 6px', boxShadow: '0 3px 8px rgba(0,0,0,.45)', opacity: k, ...style }}>{text}</div>
+  );
+};
+
 const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces }> = ({ it, t, sc, tag, F }) => {
   const [x, y, bw, bh] = it.box;
   const B = it.bleed ? 0 : BORDER;   // a full-frame picture has no paper border
@@ -218,6 +228,7 @@ const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces 
       <div style={{ position: 'absolute', inset: 0, boxShadow: 'inset 0 0 160px rgba(0,0,0,.6)' }} />
       <Rings it={it} t={t} v={[v0, v1, v2, v3]} iw={iw} ih={ih} />
       {it.ai ? <AiTag tag={tag} F={F} style={{ left: 30, top: 140 }} /> : null}
+      {it.label ? <PhotoLabel text={it.label} F={F} t={t} s={it.s} style={{ left: '50%', top: 1400, transform: 'translateX(-50%) rotate(-1deg)' }} /> : null}
       {late ? <div style={{ position: 'absolute', inset: 0, background: '#fff', opacity: 0.75 * (1 - easeOut((t - it.s) / 0.18)) }} /> : null}
     </div>
   );
@@ -231,6 +242,8 @@ const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces 
         <Rings it={it} t={t} v={[v0, v1, v2, v3]} iw={iw} ih={ih} />
         {it.ai ? <AiTag tag={tag} F={F} style={{ left: 10, bottom: 10 }} /> : null}
       </div>
+      {it.label ? <PhotoLabel text={it.label} F={F} t={t} s={it.s} style={{ left: '50%', bottom: -16, transform: `translateX(-50%) rotate(${(-it.rot * 0.6).toFixed(2)}deg)`,
+        maxWidth: bw + 40, overflow: 'hidden', textOverflow: 'ellipsis' }} /> : null}
     </div>
   );
 };
@@ -502,7 +515,7 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
   const F = plan.faces;
   const allText = plan.scenes.map((s) => (s.head ? s.head.kicker + s.head.title : '') + s.credit + s.items.map((i) =>
     'text' in i ? i.text : i.type === 'card' ? i.head + i.tab + i.corner + i.rows.map((r) => r.l + r.r).join('') + (i.note?.text || '') + (i.stamp?.text || '')
-      : i.type === 'stat' ? i.rows.map((r) => r.n + r.text).join('') : '').join('')).join('') + plan.subs.map((c) => c.text).join('') + plan.aiTag + (plan.timeline?.labels.join('') || '');
+      : i.type === 'stat' ? i.rows.map((r) => r.n + r.text).join('') : i.type === 'photo' ? (i.label || '') : '').join('')).join('') + plan.subs.map((c) => c.text).join('') + plan.aiTag + (plan.timeline?.labels.join('') || '');
   useFonts(plan.fonts, F, allText);
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();

@@ -175,6 +175,10 @@ for j, sc in enumerate(scenes_in):
                 bas = (box[2] / box[3]) if o.get('bleed') else (box[2] - 2 * L.BORDER) / (box[3] - 2 * L.BORDER)
                 o['view'] = L.fit_view(view, bas, w, h)
                 o['drift'] = 0 if it.get('still') else it.get('drift', 0.1)
+                # what the picture shows, typed on a paper strip at its foot (owner 17/11/2026: the pictures must say what
+                # they are): picks.json images[name].label, or the item's own "label" ("" = none)
+                lab = it.get('label', image(name).get('label', ''))
+                if lab: o['label'] = str(lab)
                 z = it.get('zoom')
                 if z:
                     zs = at_time(z['at']) if z.get('at') else ts + 0.4
