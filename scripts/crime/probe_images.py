@@ -70,9 +70,9 @@ def watched(src, fn):
     return run
 
 
-def search(q):
+def search(q, **kw):
     CUR['q'] = q
-    return _search(q)
+    return _search(q, **kw)
 
 
 F.get, F.js, F.search = get, js, search
