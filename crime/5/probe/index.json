@@ -3,139 +3,140 @@
   "k": 1,
   "query": "wiki: Hinterkaifeck",
   "results": [],
-  "candidates": 0,
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 24,
+  "wikidata": {
+   "id": "Q878856",
+   "label": "Hinterkaifeck",
+   "description": "ehemaliger Einödhof in Bayern; Tatort eines ungeklärten Mehrfachmordes 1922",
+   "coord": [
+    48.5944,
+    11.3222
+   ]
+  }
  },
  {
   "k": 2,
   "query": "wiki: Schrobenhausen",
   "results": [],
-  "candidates": 0,
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 56,
+  "wikidata": {
+   "id": "Q504746",
+   "label": "Schrobenhausen",
+   "description": "Stadt im oberbayerischen Landkreis Neuburg-Schrobenhausen",
+   "coord": [
+    48.56685,
+    11.25825
+   ]
+  }
  },
  {
   "k": 3,
   "query": "wiki: Waidhofen (Oberbayern)",
   "results": [],
   "candidates": 0,
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "error": "wiki: no Wikidata item named \"Waidhofen (Oberbayern)\" (try the name of its Wikipedia article, or commons: Waidhofen (Oberbayern))"
  },
  {
   "k": 4,
   "query": "geo: 48.5944,11.3222 1500",
   "results": [],
-  "candidates": 0,
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 6
  },
  {
   "k": 5,
   "query": "footprints in snow",
   "results": [],
-  "candidates": 0,
-  "want": "a trail of human footprints in deep snow",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 42,
+  "want": "a trail of human footprints in deep snow"
  },
  {
   "k": 6,
   "query": "attic",
   "results": [],
-  "candidates": 0,
-  "want": "inside a dark attic under an old wooden roof with beams",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 56,
+  "want": "inside a dark attic under an old wooden roof with beams"
  },
  {
   "k": 7,
   "query": "Dachboden",
   "results": [],
-  "candidates": 0,
-  "want": "inside a dark attic under an old wooden roof with beams",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 59,
+  "want": "inside a dark attic under an old wooden roof with beams"
  },
  {
   "k": 8,
   "query": "barn interior",
   "results": [],
-  "candidates": 0,
-  "want": "inside an old dark wooden barn with hay on the floor",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 57,
+  "want": "inside an old dark wooden barn with hay on the floor"
  },
  {
   "k": 9,
   "query": "Bauernhof Oberbayern",
   "results": [],
-  "candidates": 0,
-  "want": "an old Bavarian farmhouse with a barn, seen from the yard",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 25,
+  "want": "an old Bavarian farmhouse with a barn, seen from the yard"
  },
  {
   "k": 10,
   "query": "Einödhof",
   "results": [],
-  "candidates": 0,
-  "want": "a lonely farm standing alone in the fields",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 25,
+  "want": "a lonely farm standing alone in the fields"
  },
  {
   "k": 11,
   "query": "old key",
   "results": [],
-  "candidates": 0,
-  "want": "one old iron door key lying on a plain background",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 57,
+  "want": "one old iron door key lying on a plain background"
  },
  {
   "k": 12,
   "query": "Kuhstall",
   "results": [],
-  "candidates": 0,
-  "want": "cows standing in an old stable",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 59,
+  "want": "cows standing in an old stable"
  },
  {
   "k": 13,
   "query": "snowy field",
   "results": [],
-  "candidates": 0,
-  "want": "an empty snow-covered field at a forest edge in winter",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 60,
+  "want": "an empty snow-covered field at a forest edge in winter"
  },
  {
   "k": 14,
   "query": "Polizei Bayern 1920",
   "results": [],
-  "candidates": 0,
-  "want": "policemen in uniform around 1920, black and white photograph",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 6,
+  "want": "policemen in uniform around 1920, black and white photograph"
  },
  {
   "k": 15,
   "query": "Zeitung 1922",
   "results": [],
-  "candidates": 0,
-  "want": "the front page of a German newspaper of the 1920s",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 47,
+  "want": "the front page of a German newspaper of the 1920s"
  },
  {
   "k": 16,
   "query": "Bauernstube",
   "results": [],
-  "candidates": 0,
-  "want": "the living room of an old farmhouse with a table and a stove",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 59,
+  "want": "the living room of an old farmhouse with a table and a stove"
  },
  {
   "k": 17,
   "query": "Friedhof Grabstein Oberbayern",
   "results": [],
-  "candidates": 0,
-  "want": "old gravestones in a village cemetery in Bavaria",
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 2,
+  "want": "old gravestones in a village cemetery in Bavaria"
  },
  {
   "k": 18,
   "query": "File:Germany adm location map.svg",
   "results": [],
-  "candidates": 0,
-  "error": "search() got an unexpected keyword argument 'deep'"
+  "candidates": 1
  }
 ]

@@ -1,27 +1,53 @@
 {
- "started": "2026-11-17 06:55:45 UTC",
+ "started": "2026-11-17 07:03:00 UTC",
  "queries": [
   {
    "k": 1,
    "query": "wiki: Hinterkaifeck",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 24,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
-   "wikidata": null,
-   "sources": {}
+   "wikidata": {
+    "id": "Q878856",
+    "label": "Hinterkaifeck",
+    "description": "ehemaliger Einödhof in Bayern; Tatort eines ungeklärten Mehrfachmordes 1922",
+    "coord": [
+     48.5944,
+     11.3222
+    ]
+   },
+   "sources": {
+    "wiki": {
+     "usable": 24,
+     "seconds": 2.8
+    }
+   }
   },
   {
    "k": 2,
    "query": "wiki: Schrobenhausen",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 56,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
-   "wikidata": null,
-   "sources": {}
+   "wikidata": {
+    "id": "Q504746",
+    "label": "Schrobenhausen",
+    "description": "Stadt im oberbayerischen Landkreis Neuburg-Schrobenhausen",
+    "coord": [
+     48.56685,
+     11.25825
+    ]
+   },
+   "sources": {
+    "wiki": {
+     "usable": 60,
+     "seconds": 9.0
+    }
+   }
   },
   {
    "k": 3,
@@ -29,32 +55,61 @@
    "kept": 0,
    "candidates": 0,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": "wiki: no Wikidata item named \"Waidhofen (Oberbayern)\" (try the name of its Wikipedia article, or commons: Waidhofen (Oberbayern))",
    "match": [],
    "wikidata": null,
-   "sources": {}
+   "sources": {
+    "wiki": {
+     "error": "RuntimeError:  wiki: no Wikidata item named \"Waidhofen (Oberbayern)\" (try the name of its Wikipedia article, or com",
+     "seconds": 0.3
+    }
+   }
   },
   {
    "k": 4,
    "query": "geo: 48.5944,11.3222 1500",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 6,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {}
+   "sources": {
+    "geo": {
+     "usable": 6,
+     "seconds": 1.7
+    }
+   }
   },
   {
    "k": 5,
    "query": "footprints in snow",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 42,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 37499,
+     "returned": 20,
+     "usable": 19,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 7.4
+    },
+    "europeana": {
+     "total": 3,
+     "returned": 3,
+     "usable": 3,
+     "seconds": 0.8
+    }
+   },
    "commons_50": {
     "usable": 49,
     "usable_big_enough": 49
@@ -64,12 +119,31 @@
    "k": 6,
    "query": "attic",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 56,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 85945,
+     "returned": 20,
+     "usable": 19,
+     "seconds": 0.8
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 8.7
+    },
+    "europeana": {
+     "total": 1686,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 1.0
+    }
+   },
    "commons_50": {
     "usable": 49,
     "usable_big_enough": 49
@@ -79,12 +153,31 @@
    "k": 7,
    "query": "Dachboden",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 59,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 62934,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 0.7
+    },
+    "openverse": {
+     "total": 135,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 8.3
+    },
+    "europeana": {
+     "total": 92,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 0.5
+    }
+   },
    "commons_50": {
     "usable": 50,
     "usable_big_enough": 50
@@ -94,12 +187,31 @@
    "k": 8,
    "query": "barn interior",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 57,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 19744,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 0.7
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 11.8
+    },
+    "europeana": {
+     "total": 3650,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 0.5
+    }
+   },
    "commons_50": {
     "usable": 50,
     "usable_big_enough": 49
@@ -109,12 +221,31 @@
    "k": 9,
    "query": "Bauernhof Oberbayern",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 25,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 78,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 5,
+     "returned": 5,
+     "usable": 5,
+     "seconds": 4.0
+    },
+    "europeana": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.3
+    }
+   },
    "commons_50": {
     "usable": 49,
     "usable_big_enough": 49
@@ -124,12 +255,31 @@
    "k": 10,
    "query": "Einödhof",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 25,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 166,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 0.7
+    },
+    "openverse": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 1.4
+    },
+    "europeana": {
+     "total": 5,
+     "returned": 5,
+     "usable": 5,
+     "seconds": 0.4
+    }
+   },
    "commons_50": {
     "usable": 50,
     "usable_big_enough": 50
@@ -139,12 +289,31 @@
    "k": 11,
    "query": "old key",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 57,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 508378,
+     "returned": 20,
+     "usable": 17,
+     "seconds": 0.7
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 7.1
+    },
+    "europeana": {
+     "total": 327,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 0.5
+    }
+   },
    "commons_50": {
     "usable": 43,
     "usable_big_enough": 41
@@ -154,12 +323,31 @@
    "k": 12,
    "query": "Kuhstall",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 59,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 14360,
+     "returned": 20,
+     "usable": 19,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 194,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 5.5
+    },
+    "europeana": {
+     "total": 90,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 0.4
+    }
+   },
    "commons_50": {
     "usable": 49,
     "usable_big_enough": 49
@@ -169,12 +357,31 @@
    "k": 13,
    "query": "snowy field",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 60,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 41717,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 0.7
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 7.1
+    },
+    "europeana": {
+     "total": 568,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 0.3
+    }
+   },
    "commons_50": {
     "usable": 50,
     "usable_big_enough": 49
@@ -184,12 +391,31 @@
    "k": 14,
    "query": "Polizei Bayern 1920",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 6,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 20,
+     "returned": 20,
+     "usable": 6,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 2.4
+    },
+    "europeana": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.2
+    }
+   },
    "commons_50": {
     "usable": 6,
     "usable_big_enough": 6
@@ -199,12 +425,31 @@
    "k": 15,
    "query": "Zeitung 1922",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 47,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 1561,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 11,
+     "returned": 11,
+     "usable": 11,
+     "seconds": 4.4
+    },
+    "europeana": {
+     "total": 870,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 0.4
+    }
+   },
    "commons_50": {
     "usable": 50,
     "usable_big_enough": 40
@@ -214,12 +459,31 @@
    "k": 16,
    "query": "Bauernstube",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 59,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 932,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 0.8
+    },
+    "openverse": {
+     "total": 126,
+     "returned": 20,
+     "usable": 20,
+     "seconds": 1.1
+    },
+    "europeana": {
+     "total": 112,
+     "returned": 40,
+     "usable": 20,
+     "seconds": 0.5
+    }
+   },
    "commons_50": {
     "usable": 45,
     "usable_big_enough": 44
@@ -229,12 +493,31 @@
    "k": 17,
    "query": "Friedhof Grabstein Oberbayern",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 2,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
-   "sources": {},
+   "sources": {
+    "commons": {
+     "total": 6,
+     "returned": 6,
+     "usable": 4,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 2.6
+    },
+    "europeana": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.3
+    }
+   },
    "commons_50": {
     "usable": 4,
     "usable_big_enough": 2
@@ -244,19 +527,21 @@
    "k": 18,
    "query": "File:Germany adm location map.svg",
    "kept": 0,
-   "candidates": 0,
+   "candidates": 1,
    "kept_by_source": {},
-   "error": "search() got an unexpected keyword argument 'deep'",
+   "error": null,
    "match": [],
    "wikidata": null,
    "sources": {}
   }
  ],
- "problems": [
-  "search stopped: SystemExit: tìm ảnh: mọi từ khóa đều lỗi (mạng hoặc các kho ảnh không trả lời)"
- ],
- "seconds_search": 7,
- "dropped": null,
+ "problems": [],
+ "seconds_search": 103,
+ "dropped": {
+  "too_small": 18,
+  "duplicates": 0,
+  "not_fitting": 0
+ },
  "ranking": "on",
  "vs_first_search": {
   "pictures_then": 102,
@@ -265,21 +550,23 @@
   "new_now": 0
  },
  "downloads": {
-  "tried": 0,
+  "tried": 10,
   "failed": 0,
-  "seconds": 0,
+  "seconds": 2,
   "failed_by_host": {},
   "failed_examples": []
  },
  "api": {
-  "calls": 13,
+  "calls": 75,
   "failed": 0,
-  "seconds": 31,
+  "seconds": 109,
   "calls_by_host": {
-   "commons.wikimedia.org": 13
+   "api.europeana.eu": 13,
+   "api.openverse.org": 13,
+   "commons.wikimedia.org": 49
   },
   "failed_examples": []
  },
  "refused_sources": [],
- "seconds_total": 45
+ "seconds_total": 120
 }
