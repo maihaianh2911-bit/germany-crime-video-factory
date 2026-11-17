@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Machine steps of a crime video (GitHub Actions). Usage: run.py <N> <step> [<step> ...]
 
+  probe    (manual, alone) the picture search of round 1 once more, every request logged → renders/crime/<N>/probe/;
+           changes nothing of the video or the issue
   prepare  voice (one 11labs job per line, unchanged lines reused), voice check with word times, picture search
            and AI illustrations round 1 (only when the queries changed) → renders/crime/<N>/voice/, img/1/
            (when the voice or its check fails, the lines already read are kept in voice-partial/ for the next run)
@@ -289,6 +291,19 @@ def caption_only():
             f'- Video: {link("video.mp4")}\n- Tải về: {link("video.mp4").replace("/blob/", "/raw/")}\n- Phụ đề: {link("subtitles.srt")}')
 
 
+def probe():
+    """Diagnose the picture search (manual run, steps "probe"): round 1 once more with the queries of script.json,
+    every request logged (probe_images.py) → renders/crime/<N>/probe/ (probe.json, index.json, contact sheets).
+    Touches no label, no comment and no picture of the video."""
+    script = json.load(open(os.path.join(JOB, 'script.json'), encoding='utf-8'))
+    q = (script.get('queries') or []) + (script.get('urls') or [])
+    d = os.path.join(WORK, 'probe'); shutil.rmtree(d, ignore_errors=True)
+    spec = os.path.join(ROOT, 'out', f'probe-{N}.json')
+    json.dump(q, open(spec, 'w', encoding='utf-8'), ensure_ascii=False)
+    subprocess.run([sys.executable, os.path.join(HERE, 'probe_images.py'), d, spec, os.path.join(WORK, 'img', '1', 'index.json')])
+    if os.path.isdir(d): publish(['probe'], 'kiểm tra khâu tìm ảnh')
+
+
 def wake(why):
     """Call the Claude task for this issue. Returns ok | busy (a Claude chat holds the issue) | failed (the script
     then told the owner on the issue how to start Claude)."""
@@ -316,6 +331,8 @@ def stop(body):
 
 
 if __name__ == '__main__':
+    if steps == ['probe']:
+        fetch_renders(); probe(); sys.exit(0)
     if 'prepare' in steps and not os.environ.get('VN11_API_KEY'):
         stop('🤖 Máy chưa tạo được giọng đọc vì repo này **chưa có khóa giọng đọc**. Cách thêm: Settings → Secrets and '
              'variables → Actions → New repository secret, tên `VN11_API_KEY`, giá trị là khóa giọng đọc (cùng khóa như các '

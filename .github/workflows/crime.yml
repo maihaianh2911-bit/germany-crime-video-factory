@@ -20,7 +20,7 @@ on:
         description: Số phiếu
         required: true
       steps:
-        description: 'Bước: prepare (giọng + ảnh), search (tìm thêm ảnh), render (dựng), caption (chỉ đưa lời đăng lên) — cách nhau bằng dấu cách'
+        description: 'Bước: prepare (giọng + ảnh), search (tìm thêm ảnh), render (dựng), caption (chỉ đưa lời đăng lên) — cách nhau bằng dấu cách; hoặc chỉ "probe" (kiểm tra khâu tìm ảnh, không đổi gì của video)'
         default: render
 
 # least privilege: each job asks for what it needs (only `work` writes to the repository, on the renders branch)
@@ -95,7 +95,7 @@ jobs:
 
   # 3) Claude pushed crime/<N>/… (or a manual run) → voice + pictures, or the video
   work:
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.steps != 'probe')
     runs-on: ubuntu-24.04
     timeout-minutes: 270   # up to 2 hours of waiting for earlier runs (step "Chờ lượt máy trước xong") + the work
     permissions:
@@ -215,3 +215,25 @@ jobs:
             gh issue comment "$N" --body "🤖 Máy dừng giữa chừng trước khi làm xong bước \`$STEPS\` (lỗi cài đặt, quá giờ hoặc bị hủy) — xem nhật ký: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID .$CLAUDE" < /dev/null || true
           done < /tmp/todo.txt
           true
+
+  # 4) Manual run with steps "probe": the picture search of an issue once more, every request to the archives logged
+  #    (scripts/crime/probe_images.py) → renders crime/<N>/probe/. A diagnosis only: this job cannot touch the issue
+  #    (no issues permission) and changes no file of the video.
+  probe:
+    if: github.event_name == 'workflow_dispatch' && inputs.steps == 'probe'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write   # the renders branch
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      IN_ISSUE: ${{ inputs.issue }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tìm ảnh lại một lần, ghi lại mọi yêu cầu
+        run: |
+          case "$IN_ISSUE" in ''|*[!0-9]*) echo "::error::số phiếu không hợp lệ"; exit 1;; esac
+          pip install -q pillow
+          python3 scripts/crime/run.py "$IN_ISSUE" probe < /dev/null
