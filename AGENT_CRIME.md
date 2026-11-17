@@ -128,7 +128,7 @@ A 2-minute video uses **~20–35 different pictures** (prints and stickers). Ask
      dates and several words in one query bring paintings and portraits: prefer `wiki:` for names and `q` + `want`
      for things. A prefix searches one archive: `commons:`, `openverse:`, `europeana:`, `loc:` (slow; it refuses
      the runners), `met:`, `aic:`, `cleveland:`; `File:<name>` fetches one Commons file.
-  The contact sheet shows the score (`≈0.31`: it shows the thing; `≈0.20`: doubtful) next to the source
+  The contact sheet shows the score (`~0.31`: it shows the thing; `~0.20`: doubtful) next to the source
   (`commons/wiki` = from the article, `commons/category`, `commons/geo`).
 - `urls`: pictures you found yourself on a page that states a free licence (direct image URL + page + title +
   author + licence). Check the licence on the page. Press photos (dpa, Getty …) are **not** free: never.
@@ -296,8 +296,10 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
      by default: `depth` — every picture shown with `"pos": "full"` gets a depth map (`scripts/crime/depth.py`,
      Depth Anything V2) and the camera moves *into* it, near things moving more than far ones; `blur` — motion blur
      while a print, tape or card flies in and while a scene slides in; `grain` — moving film grain over the whole
-     frame, its strength. The owner saw version B of #5 with all three and has **not chosen yet**: set `fx` only
-     where the owner asked for it; a video with `fx` renders ~25 % longer and its file is larger). Scene: `"hush": true` (a quiet moment: the music drops out, the camera
+     frame, its strength. The owner saw version B of #5 with all three and switched them on (17/11/2026: "bật"):
+     **write `"fx": {"depth": true, "blur": true, "grain": 0.1}` in every new picks.json**; an older video keeps
+     what its picks.json says. A video with `fx` renders ~25 % longer and its file is larger; `depth` only does
+     something where a picture is shown with `"pos": "full"` — the opening and the quiet scenes). Scene: `"hush": true` (a quiet moment: the music drops out, the camera
      only pushes in slowly, no year bar). Photo: `"pos": "full"` (the whole frame, no border, darkened at top and
      bottom; one that cuts in later comes with a white flash, a hit and a shutter click: the hook montage — the
      strongest picture at 0.0 s, then a new one on each key word of line 1, ~0.5–1 s apart). Ring: `"shape": "pin"` (a red map pin with pulses at the box's centre). Every tape is made smaller when

@@ -1,7 +1,7 @@
 name: Kiểm tra mã
 
 # Runs only when code changes (not when Claude pushes a video's crime/<N>/ files): syntax, types, unit checks and a
-# smoke test of the crime pipeline on made-up data (every item of the case-file board) with three rendered frames. No 11labs, no picture search, no AI.
+# smoke test of the crime pipeline on made-up data (every item of the case-file board) with rendered frames, the picture effects (depth, blur, grain) among them. No 11labs, no picture search, no AI.
 on:
   pull_request:
   push:
@@ -41,9 +41,14 @@ jobs:
           for f in scripts/*.sh scripts/crime/*.sh; do bash -n "$f"; done
           node --check scripts/crime/stills.mjs
           python3 -c "import json; [json.load(open(f'prompts/{f}.json', encoding='utf-8')) for f in ('readings', 'channel')]"
+      # the depth effect ("fx", scripts/crime/depth.py): its model (100 MB) is kept between runs
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/crime-depth
+          key: depth-anything-v2-vits
       - name: Cài bộ dựng
         run: |
-          pip install -q numpy scipy pillow pykakasi==2.3.0 num2words==0.5.14 imageio-ffmpeg==0.8.1
+          pip install -q numpy scipy pillow pykakasi==2.3.0 num2words==0.5.14 imageio-ffmpeg==0.8.1 onnxruntime==1.29.0
           npm ci --no-audit --no-fund
           npx remotion browser ensure
           bash scripts/crime/get_fonts.sh "$FONTSOURCE"

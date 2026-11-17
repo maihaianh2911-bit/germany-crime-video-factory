@@ -240,6 +240,10 @@ assert res[0]['thumb'].endswith('/1920px-Big.jpg') and res[0]['preview'].endswit
 assert res[1]['thumb'].endswith('/1280px-Mid.jpg') and res[2]['thumb'].endswith('/ab/Small.jpg') and res[2]['preview'].endswith('/330px-Small.jpg'), res[1:3]
 assert res[3]['thumb'] == res[3]['preview'] and '?' not in res[3]['thumb'], res[3]
 assert F.commons_items([_pg('File:Big.jpg', 5100, 3000)], exact=True)[0]['thumb'].endswith('/3840px-Big.jpg')
+# a TIFF scan: its thumbnails are JPEGs named lossy-page1-<width>px-<name>.tif.jpg
+_tif = _pg('File:Scan.tif', 6665, 5290, mime='image/tiff')
+_tif['imageinfo'][0]['thumburl'] = 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Scan.tif/lossy-page1-330px-Scan.tif.jpg'
+assert F.commons_items([_tif])[0]['thumb'].endswith('/lossy-page1-1920px-Scan.tif.jpg'), F.commons_items([_tif])[0]['thumb']
 # a list of titles comes back in the order asked, not in the API's
 assert [r['title'] for r in F.commons_items([_pg('File:B.jpg', 2000, 2000), _pg('File:A.jpg', 2000, 2000)], order=['File:A.jpg', 'File:B.jpg'])] == ['A.jpg', 'B.jpg']
 assert F.ICON.search('File:Commons-logo.svg') and F.ICON.search('File:Bavaria relief location map.jpg') and not F.ICON.search('File:Hinterkaifeck-Hof.jpg')

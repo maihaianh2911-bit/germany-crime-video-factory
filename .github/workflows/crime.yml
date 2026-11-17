@@ -173,6 +173,13 @@ jobs:
         with:
           path: ~/.cache/find-images
           key: clip-vit-b-32-quickgelu-laion400m-e32
+      # the depth effect of a render ("fx" in picks.json, scripts/crime/depth.py): its model (100 MB) is kept between runs
+      - name: Mô hình chiều sâu ảnh
+        if: env.TODO == '1'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/crime-depth
+          key: depth-anything-v2-vits
       - name: Cài công cụ
         if: env.TODO == '1'
         run: |

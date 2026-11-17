@@ -29,7 +29,7 @@ With --spec, the JSON list may also hold
 Ranking (17/11/2026). A free-text query asks each archive for 20 pictures, not 8, looks at a small version of every
 one and keeps the 8 that fit the words best: CLIP (open_clip ViT-B/32, MIT; weights from its GitHub release) scores
 picture against text ("want", else the query), and the archive's own order counts a little too. The score is
-"match" in index.json and on the contact sheet (about 0.30 and more: it shows the thing; under 0.22: it does not).
+"match" in index.json and `~0.31` on the contact sheet (about 0.30 and more: it shows the thing; under 0.22: it does not).
 Without torch/open_clip installed, or with FIND_RANK=0, the first 8 are kept as before; so are the results of a query
 in another script (Japanese …) without a "want": CLIP reads English. `wiki:` and `geo:` results keep their order
 (they are about the thing by construction) unless the query has a "want".
@@ -201,6 +201,10 @@ ICON = re.compile(r'(?i)(commons-logo|wik\w*[- ]logo|qsicon|oojs|red pog|loca\w+
                   r'question book|ambox|edit-ltr|symbol \w+ vote|speaker|nuvola|crystal clear|\.svg$)')
 
 
+# the name of a Commons thumbnail: "330px-Name.jpg", and for a TIFF scan "lossy-page1-330px-Name.tif.jpg"
+THUMB = re.compile(r'/((?:lossy-)?(?:page\d+-)?)\d+px-([^/]+)$')
+
+
 def commons_items(pages, source='commons', exact=False, order=None):
     """Results from the pages of a Commons answer asked with INFO (a small version of every file). The picture kept
     is the largest standard size up to 1920 px (3840 for an exact file); a file under 960 px is taken whole."""
@@ -220,9 +224,9 @@ def commons_items(pages, source='commons', exact=False, order=None):
         if not OK.search(lic): continue
         small = (ii.get('thumburl') or ii.get('url') or '').split('?')[0]
         w = ii.get('width') or 0
-        if re.search(r'/\d+px-[^/]+$', small):   # a real thumbnail: the same file in another standard width
+        if THUMB.search(small):   # a real thumbnail: the same file in another standard width
             top = [x for x in STD if (svg or x <= w) and x <= (3840 if exact else 1920)]
-            url = re.sub(r'/\d+px-([^/]+)$', lambda m: f'/{top[-1]}px-{m.group(1)}', small) if top else ii['url'].split('?')[0]
+            url = THUMB.sub(lambda m: f'/{m.group(1)}{top[-1]}px-{m.group(2)}', small) if top else ii['url'].split('?')[0]
         else:
             url = small
         out.append(item(source, pg['title'][5:], ii.get('descriptionurl'), url, lic,
@@ -572,7 +576,7 @@ def main():
             r['file'] = p[len(out) + 1:]; files.append(p)
             results.append({key: v for key, v in r.items() if key not in ('preview', 'rank', 'error')})
             lic = re.sub(r'(?i)public domain', 'PD', r['license']).split(' (')[0]
-            fit = f"  ≈{r['match']:.2f}" if 'match' in r else ''
+            fit = f"  ~{r['match']:.2f}" if 'match' in r else ''   # "~": the sheet's font has no "≈"
             labels[p] = f"#{n}  {im.width}x{im.height}  {lic}"[:40] + f"\n{r['source']}  {r['date']}"[:42 - len(fit)] + fit
         kept_hashes += [h for _, _, h in kept]
         sheet(files, f'{out}/sheet_{k}.jpg', labels)

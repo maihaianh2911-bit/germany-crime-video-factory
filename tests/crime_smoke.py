@@ -155,6 +155,38 @@ import sfx as SFX
 names = [n.split(':')[0] for _, n in SFX.events(pb)]
 assert {'key', 'slap', 'slap_red', 'stamp', 'boom', 'ping', 'tick', 'scratch', 'whoosh', 'hit'} <= set(names) and names[0] == 'hit', set(names)   # the first frame is never silent
 
+# picture effects (17/11/2026, the owner switched them on for new videos): "fx" reaches the plan, the full-frame
+# print gets a depth map (depth.py: needs onnxruntime and the model, from $DEPTH_MODEL or its GitHub release)
+vf = json.loads(json.dumps(vb)); vf['fx'] = {'depth': True, 'blur': True, 'grain': 0.1}
+jf = os.path.join(tmp, 'jobF'); os.makedirs(jf); json.dump(vf, open(os.path.join(jf, 'picks.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+shutil.copy(os.path.join(job, 'script.json'), jf)
+try:
+    import onnxruntime; has_depth = True
+except ImportError:
+    has_depth = False
+    assert not os.environ.get('CI'), 'onnxruntime is missing: the depth effect cannot be checked'
+    print('note: onnxruntime is not installed, the depth effect is not checked')
+if has_depth:
+    run(sys.executable, os.path.join(S, 'depth.py'), os.path.join(jf, 'picks.json'), imgsrc, os.path.join(pub, 'crime', N, 'img'))
+run(sys.executable, os.path.join(S, 'build.py'), jf, pub, N, imgsrc, os.path.join(tmp, 'outF'))
+pf = json.load(open(os.path.join(tmp, 'outF', 'plan.json'), encoding='utf-8'))
+assert pf['fx'] == {'depth': True, 'blur': True, 'grain': 0.1} and 'fx' not in pb, pf.get('fx')
+ff_ = pf['scenes'][4]['items'][0]
+if has_depth:
+    dm = Image.open(os.path.join(pub, ff_['depth'])); assert dm.mode == 'L' and np.asarray(dm).std() > 2, 'flat depth map'
+    assert all('depth' not in i for x in pf['scenes'][:4] for i in x['items']), 'only full-frame pictures get a depth map'
+if '--still' in sys.argv and has_depth:
+    # the frame with the depth camera (WebGL) is drawn and is not the flat picture; a frame with blur and grain is drawn too
+    t5 = f"{pf['scenes'][4]['s'] + 1.5:.2f}"; t3 = f"{pf['scenes'][2]['s'] + 0.1:.2f}"
+    run('node', os.path.join(S, 'stills.mjs'), os.path.join(tmp, 'outB', 'plan.json'), pub, os.path.join(tmp, 'outB', 'still'), t5)
+    run('node', os.path.join(S, 'stills.mjs'), os.path.join(tmp, 'outF', 'plan.json'), pub, os.path.join(tmp, 'outF', 'still'), t5, t3)
+    flat = np.asarray(Image.open(os.path.join(tmp, 'outB', f'still_{t5}.png')).convert('RGB')).astype(int)
+    deep = np.asarray(Image.open(os.path.join(tmp, 'outF', f'still_{t5}.png')).convert('RGB')).astype(int)
+    mid = (slice(250, 650), slice(60, 480))            # the middle of the full-frame picture (half-size stills)
+    assert deep[mid].std() > 12, 'the depth picture is empty (WebGL did not draw)'
+    assert np.abs(deep[mid] - flat[mid]).mean() > 1.5, 'the depth camera changed nothing'
+    assert Image.open(os.path.join(tmp, 'outF', f'still_{t3}.png')).size == (540, 960)
+
 if '--still' in sys.argv:
     t1 = sc[0]['e'] - 0.1                    # the print with its four tapes
     t_ring = rm['rings'][0]['s']
