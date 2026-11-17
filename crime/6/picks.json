@@ -1,0 +1,765 @@
+{
+ "sfx": true,
+ "tail": 3.2,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "1993",
+   "5/1993"
+  ],
+  [
+   "2007",
+   "8/25"
+  ],
+  [
+   "2009",
+   "14/2009"
+  ],
+  [
+   "2011",
+   "22/2011"
+  ]
+ ],
+ "images": {
+  "macro": {
+   "src": "1/5-6.jpg"
+  },
+  "dna": {
+   "src": "1/8-5.jpg"
+  },
+  "dna2": {
+   "src": "1/8-2.jpg"
+  },
+  "tape": {
+   "src": "1/13-3.jpg"
+  },
+  "rail": {
+   "src": "1/13-2.jpg"
+  },
+  "map": {
+   "src": "1/15-1.jpg"
+  },
+  "wiese": {
+   "src": "1/2-4.jpg"
+  },
+  "car": {
+   "src": "1/9-1.jpg"
+  },
+  "car2": {
+   "src": "1/9-3.jpg"
+  },
+  "night": {
+   "src": "1/10-5.jpg"
+  },
+  "glove": {
+   "src": "1/6-1.jpg"
+  },
+  "factory": {
+   "src": "1/14-7.jpg"
+  },
+  "tub": {
+   "src": "1/4-1.jpg"
+  },
+  "swab": {
+   "src": "1/5-3.jpg",
+   "look": "cutout"
+  },
+  "box": {
+   "src": "1/5-5.jpg"
+  },
+  "plaque": {
+   "src": "1/2-2.jpg"
+  },
+  "shadow": {
+   "src": "1/3-8.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "2 giây đầu: đầu que bông phóng to đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt nhanh theo từng chữ: hồ sơ ADN → hiện trường",
+   "items": [
+    {
+     "photo": "box",
+     "pos": "full",
+     "view": [
+      0.2,
+      0.0,
+      0.8,
+      1.0
+     ]
+    },
+    {
+     "photo": "dna",
+     "pos": "full",
+     "at": "1/Tatorten"
+    },
+    {
+     "photo": "car",
+     "pos": "full",
+     "view": [
+      0.3,
+      0.0,
+      0.8,
+      1.0
+     ],
+     "at": "1/Deutschland"
+    },
+    {
+     "tape": "Wer ist diese Frau?",
+     "color": "red",
+     "size": 74,
+     "xy": [
+      540,
+      1240
+     ]
+    },
+    {
+     "tape": "40 TATORTE",
+     "color": "white",
+     "size": 56,
+     "xy": [
+      540,
+      1110
+     ],
+     "at": "1/40"
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "list",
+   "why": "câu 2 liệt kê các loại tội: giết người, đột nhập, trộm cắp",
+   "items": [
+    {
+     "photo": "rail"
+    },
+    {
+     "tape": "Morde",
+     "color": "red",
+     "at": 2.02
+    },
+    {
+     "tape": "Einbrüche",
+     "at": "2/Einbrüche"
+    },
+    {
+     "tape": "Diebstähle",
+     "at": "2/Diebstähle"
+    }
+   ]
+  },
+  {
+   "at": 3,
+   "edit": "statement",
+   "why": "câu 3: điều tra viên gọi cô ta là người đàn bà không mặt",
+   "items": [
+    {
+     "tape": "Die Frau ohne Gesicht",
+     "color": "red",
+     "size": 74,
+     "at": "3/Frau"
+    }
+   ]
+  },
+  {
+   "at": 4,
+   "edit": "chapter",
+   "why": "câu 4 gọi tên vụ án",
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom"
+   }
+  },
+  {
+   "at": 5,
+   "edit": "timeline",
+   "why": "câu 5–6: dấu vết xuất hiện lần đầu năm 1993, rồi liên tục nhiều năm",
+   "items": [
+    {
+     "photo": "dna"
+    },
+    {
+     "card": "paper",
+     "head": "DIE SPUR",
+     "rows": [
+      [
+       "1993",
+       "erste Spur",
+       "5/1993"
+      ],
+      [
+       "danach",
+       "immer wieder",
+       "6/Danach"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "compare",
+   "why": "câu 7: ADN không khớp với ai đã biết",
+   "items": [
+    {
+     "card": "paper",
+     "head": "DNA-ABGLEICH",
+     "rows": [
+      [
+       "DNA-Spur",
+       "",
+       7.02
+      ],
+      {
+       "l": "≠",
+       "r": "",
+       "at": "7/keiner",
+       "color": "red"
+      },
+      [
+       "bekannte Personen",
+       "",
+       "7/bekannten"
+      ]
+     ],
+     "stamp": {
+      "text": "KEIN TREFFER",
+      "at": "7/Person"
+     }
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "edit": "detail",
+   "why": "câu 8: ngày 25/4/2007 ở Heilbronn — bản đồ có ghim",
+   "items": [
+    {
+     "photo": "map",
+     "still": true,
+     "zoom": {
+      "to": [
+       0.17,
+       0.6,
+       0.6,
+       0.92
+      ],
+      "at": "8/Heilbronn",
+      "dur": 1.0
+     },
+     "ring": {
+      "box": [
+       0.362,
+       0.744,
+       0.382,
+       0.764
+      ],
+      "shape": "pin",
+      "at": "8/Heilbronn"
+     }
+    },
+    {
+     "tape": "25.04.2007",
+     "color": "white",
+     "pin": "top",
+     "at": "8/25"
+    },
+    {
+     "tape": "HEILBRONN",
+     "color": "white",
+     "pin": "below",
+     "at": "8/Heilbronn"
+    }
+   ]
+  },
+  {
+   "at": "8/junge",
+   "edit": "place",
+   "hush": true,
+   "why": "câu 8: một nữ cảnh sát trẻ bị bắn chết — khoảnh khắc lặng ở bãi Theresienwiese, nơi xảy ra vụ án",
+   "items": [
+    {
+     "photo": "wiese",
+     "pos": "full",
+     "view": [
+      0.0,
+      0.0,
+      0.6,
+      1.0
+     ]
+    },
+    {
+     "tape": "THERESIENWIESE",
+     "color": "white",
+     "size": 52,
+     "xy": [
+      540,
+      470
+     ],
+     "at": 8.6
+    },
+    {
+     "tape": "Polizistin erschossen",
+     "color": "red",
+     "size": 66,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "8/erschossen"
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "who",
+   "why": "câu 9: tên nạn nhân và đồng nghiệp bị thương nặng",
+   "items": [
+    {
+     "card": "paper",
+     "head": "HEILBRONN · 25.04.2007",
+     "rows": [
+      [
+       "Opfer",
+       "Polizistin",
+       9.02
+      ],
+      [
+       "Michèle Kiesewetter",
+       "",
+       "9/Michèle"
+      ],
+      {
+       "l": "Kollege",
+       "r": "schwer verletzt",
+       "at": "9/Kollege",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": 10,
+   "edit": "fact",
+   "why": "câu 10: trên xe tuần tra lại thấy đúng ADN đó",
+   "items": [
+    {
+     "photo": "car"
+    },
+    {
+     "photo": "dna2",
+     "at": "10/dieselbe"
+    },
+    {
+     "tape": "am Streifenwagen",
+     "at": "10/Streifenwagen"
+    },
+    {
+     "tape": "dieselbe DNA",
+     "color": "red",
+     "at": "10/dieselbe"
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "edit": "number",
+   "why": "câu 11: cả nước truy tìm, tiền thưởng 300.000 euro",
+   "items": [
+    {
+     "photo": "car2",
+     "pos": "small"
+    },
+    {
+     "tape": "ganz Deutschland sucht",
+     "at": "11/Deutschland"
+    },
+    {
+     "stat": [
+      [
+       "300.000",
+       "Euro\nBelohnung",
+       "11/300.000",
+       "yellow"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "question",
+   "why": "câu 12: người phụ nữ giết người, đột nhập rồi biến mất này là ai?",
+   "items": [
+    {
+     "photo": "night"
+    },
+    {
+     "tape": "Wer ist sie?",
+     "color": "red",
+     "at": 12.02
+    },
+    {
+     "tape": "spurlos verschwunden",
+     "at": "12/spurlos"
+    }
+   ]
+  },
+  {
+   "at": 13,
+   "edit": "board",
+   "why": "câu 13: dấu vết ở những nơi chẳng liên quan gì nhau — bảng nối các hiện trường",
+   "items": [
+    {
+     "photo": "rail",
+     "pos": "g1"
+    },
+    {
+     "photo": "car",
+     "pos": "g2",
+     "at": 13.3
+    },
+    {
+     "photo": "car2",
+     "pos": "g3",
+     "at": "13/Orten"
+    },
+    {
+     "photo": "map",
+     "pos": "g4",
+     "at": "13/nichts"
+    },
+    {
+     "string": [
+      0,
+      1
+     ],
+     "at": 13.4
+    },
+    {
+     "string": [
+      1,
+      2
+     ],
+     "at": "13/Orten"
+    },
+    {
+     "string": [
+      2,
+      3
+     ],
+     "at": "13/nichts"
+    },
+    {
+     "tape": "passt nicht zusammen",
+     "color": "red",
+     "xy": [
+      540,
+      1290
+     ],
+     "at": "13/passte"
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "edit": "statement",
+   "hush": true,
+   "why": "câu 14: năm 2009, bước ngoặt — khoảnh khắc lặng",
+   "items": [
+    {
+     "tape": "2009",
+     "color": "white",
+     "size": 96,
+     "at": 14.02
+    },
+    {
+     "tape": "DIE WENDE",
+     "color": "red",
+     "size": 80,
+     "at": "14/Wende"
+    }
+   ]
+  },
+  {
+   "at": 15,
+   "edit": "detail",
+   "why": "câu 15: kiểm tra que bông dùng để lấy mẫu",
+   "items": [
+    {
+     "photo": "glove",
+     "zoom": {
+      "to": [
+       0.3,
+       0.1,
+       0.9,
+       0.7
+      ],
+      "at": "15/Wattestäbchen",
+      "dur": 1.4
+     }
+    },
+    {
+     "tape": "SPURENSICHERUNG",
+     "color": "white",
+     "pin": "top",
+     "at": 15.02
+    },
+    {
+     "tape": "die Wattestäbchen",
+     "color": "red",
+     "at": "15/Wattestäbchen"
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "fact",
+   "why": "câu 16: ADN là của một nữ công nhân đóng gói que bông trong nhà máy",
+   "items": [
+    {
+     "photo": "factory"
+    },
+    {
+     "photo": "tub",
+     "at": "16/Wattestäbchen"
+    },
+    {
+     "tape": "Fabrik (Symbolbild)",
+     "at": "16/Fabrik"
+    },
+    {
+     "tape": "eine Verpackerin",
+     "color": "red",
+     "at": "16/verpackte"
+    }
+   ]
+  },
+  {
+   "at": 17,
+   "edit": "object",
+   "why": "câu 17: que bông tiệt trùng nhưng không sạch ADN",
+   "items": [
+    {
+     "sticker": "swab",
+     "pos": "center",
+     "w": 860,
+     "rot": -14
+    },
+    {
+     "tape": "steril",
+     "color": "white",
+     "pin": "above",
+     "at": "17/steril"
+    },
+    {
+     "tape": "aber nicht DNA-frei",
+     "color": "red",
+     "pin": "below",
+     "at": "17/aber"
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "edit": "statement",
+   "hush": true,
+   "why": "câu 18: bóng ma chưa từng tồn tại — khoảnh khắc lặng",
+   "items": [
+    {
+     "tape": "DAS PHANTOM",
+     "color": "white",
+     "size": 70,
+     "at": 18.02
+    },
+    {
+     "tape": "hat nie existiert",
+     "color": "red",
+     "size": 76,
+     "at": "18/nie"
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "edit": "span",
+   "why": "câu 19: suốt nhiều năm cảnh sát truy lùng một người vô can",
+   "items": [
+    {
+     "card": "paper",
+     "head": "JAHRELANG GEJAGT",
+     "rows": [
+      [
+       "Phantom",
+       "1993–2009",
+       "19/Jahrelang"
+      ],
+      {
+       "l": "Verpackerin",
+       "r": "unbeteiligt",
+       "at": "19/keinem",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": 20,
+   "edit": "place",
+   "why": "câu 20: từ đó que bông pháp y phải theo quy định chặt hơn",
+   "items": [
+    {
+     "photo": "box"
+    },
+    {
+     "tape": "SEITDEM",
+     "color": "white",
+     "pin": "tl",
+     "at": 20.02
+    },
+    {
+     "tape": "strengere Regeln",
+     "color": "red",
+     "at": "20/strengere"
+    }
+   ]
+  },
+  {
+   "at": 21,
+   "edit": "chapter",
+   "why": "câu 21 quay lại vụ giết nữ cảnh sát",
+   "head": {
+    "kicker": "AKTE 2007",
+    "title": "Michèle Kiesewetter"
+   }
+  },
+  {
+   "at": 22,
+   "edit": "detail",
+   "why": "câu 22: năm 2011 lộ ra vụ án thuộc chuỗi án mạng của NSU — tấm bia tưởng niệm thật các nạn nhân NSU",
+   "items": [
+    {
+     "photo": "plaque",
+     "zoom": {
+      "to": [
+       0.0,
+       0.42,
+       1.0,
+       0.72
+      ],
+      "at": "22/Mordserie",
+      "dur": 1.4
+     }
+    },
+    {
+     "tape": "2011",
+     "color": "white",
+     "pin": "tr",
+     "at": "22/2011"
+    },
+    {
+     "tape": "Terrorgruppe NSU",
+     "color": "red",
+     "pin": "below",
+     "at": "22/Terrorgruppe"
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "statement",
+   "why": "câu 23: súng công vụ của cô được tìm thấy trong xe nhà di động của hai thành viên NSU",
+   "items": [
+    {
+     "tape": "ihre Dienstwaffe",
+     "color": "white",
+     "at": 23.02
+    },
+    {
+     "tape": "im Wohnmobil des NSU",
+     "color": "red",
+     "at": "23/Wohnmobil"
+    }
+   ]
+  },
+  {
+   "at": 24,
+   "edit": "place",
+   "why": "câu 24: một dấu vết sai dẫn điều tra đi lạc nhiều năm — đài tưởng niệm \"Schattenwurf\" ghi tên các nạn nhân NSU",
+   "items": [
+    {
+     "photo": "shadow"
+    },
+    {
+     "tape": "falsche Spur",
+     "color": "red",
+     "at": "24/falsche"
+    },
+    {
+     "tape": "jahrelang in die Irre",
+     "at": "24/Irre"
+    }
+   ]
+  },
+  {
+   "at": 25,
+   "edit": "ending",
+   "why": "câu cuối: có thể luôn tin vào ADN không? — gom các manh mối, mời bình luận",
+   "items": [
+    {
+     "photo": "dna",
+     "pos": "g1"
+    },
+    {
+     "photo": "box",
+     "pos": "g2"
+    },
+    {
+     "photo": "map",
+     "pos": "g3"
+    },
+    {
+     "photo": "wiese",
+     "pos": "g4"
+    },
+    {
+     "string": [
+      0,
+      1
+     ]
+    },
+    {
+     "string": [
+      1,
+      3
+     ]
+    },
+    {
+     "string": [
+      0,
+      2
+     ]
+    },
+    {
+     "card": "paper",
+     "head": "DIE FRAGE",
+     "rows": [
+      [
+       "DNA immer sicher?",
+       "???",
+       25.02
+      ]
+     ]
+    },
+    {
+     "tape": "Schreib es in die Kommentare.",
+     "at": "25/Was"
+    }
+   ]
+  }
+ ]
+}
