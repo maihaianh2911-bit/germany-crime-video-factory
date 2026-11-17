@@ -1,0 +1,744 @@
+{
+ "sfx": true,
+ "tail": 3.0,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "1906",
+   "4/1906"
+  ],
+  [
+   "HEUTE",
+   "23/bis"
+  ]
+ ],
+ "images": {
+  "voigt": {
+   "src": "1/1-1.jpg"
+  },
+  "mug": {
+   "src": "1/1-5.jpg",
+   "crop": [
+    0.04,
+    0.03,
+    0.96,
+    0.86
+   ]
+  },
+  "kaiser": {
+   "src": "1/1-7.jpg"
+  },
+  "extra": {
+   "src": "1/1-8.jpg"
+  },
+  "book": {
+   "src": "1/2-1.jpg"
+  },
+  "head": {
+   "src": "1/2-5.jpg"
+  },
+  "sign": {
+   "src": "1/2-7.jpg"
+  },
+  "statue": {
+   "src": "1/2-8.jpg"
+  },
+  "song": {
+   "src": "1/2-4.jpg"
+  },
+  "rathaus": {
+   "src": "1/3-6.jpg"
+  },
+  "entrance": {
+   "src": "1/3-4.jpg"
+  },
+  "withstatue": {
+   "src": "1/3-8.jpg"
+  },
+  "card1906": {
+   "src": "1/5-2.jpg"
+  },
+  "cardvoigt": {
+   "src": "1/5-7.jpg"
+  },
+  "bridge": {
+   "src": "1/5-6.jpg"
+  },
+  "expo": {
+   "src": "1/6-5.jpg"
+  },
+  "soldiers": {
+   "src": "1/9-3.jpg"
+  },
+  "infant": {
+   "src": "1/9-4.jpg"
+  },
+  "theater": {
+   "src": "1/13-1.jpg"
+  },
+  "map": {
+   "src": "1/14-1.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "2 giây đầu: ảnh thật Wilhelm Voigt đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt sang tượng \"đại úy\" khi đọc \"Uniform\"",
+   "items": [
+    {
+     "photo": "voigt",
+     "pos": "full",
+     "view": [
+      0.05,
+      0.0,
+      0.95,
+      1.0
+     ]
+    },
+    {
+     "photo": "statue",
+     "pos": "full",
+     "at": "1/alte"
+    },
+    {
+     "tape": "Schuster oder Hauptmann?",
+     "color": "red",
+     "size": 70,
+     "xy": [
+      540,
+      1240
+     ]
+    },
+    {
+     "tape": "EINE ALTE UNIFORM",
+     "color": "white",
+     "size": 50,
+     "xy": [
+      540,
+      1110
+     ],
+     "at": "1/Uniform"
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "list",
+   "why": "câu 2 liệt kê những ai nghe lệnh: binh lính, thị trưởng, cả thành phố",
+   "items": [
+    {
+     "photo": "soldiers"
+    },
+    {
+     "tape": "Soldaten",
+     "at": "2/Soldaten",
+     "pin": "tl"
+    },
+    {
+     "tape": "ein Bürgermeister",
+     "at": "2/Bürgermeister",
+     "pin": "br"
+    },
+    {
+     "tape": "eine ganze Stadt",
+     "color": "red",
+     "at": "2/Stadt",
+     "pin": "below-l"
+    }
+   ]
+  },
+  {
+   "at": 3,
+   "edit": "chapter",
+   "why": "câu 3 gọi tên vụ án",
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick"
+   }
+  },
+  {
+   "at": 4,
+   "edit": "figure",
+   "why": "câu 4: Wilhelm Voigt, 57 tuổi, nhiều năm ngồi tù — ảnh cảnh sát chụp năm 1906",
+   "items": [
+    {
+     "photo": "mug"
+    },
+    {
+     "tape": "WILHELM VOIGT",
+     "color": "white",
+     "pin": "top",
+     "at": "4/Wilhelm"
+    },
+    {
+     "tape": "57 Jahre",
+     "pin": "br",
+     "at": "4/57"
+    },
+    {
+     "tape": "Jahre im Gefängnis",
+     "color": "red",
+     "at": "4/Gefängnis"
+    }
+   ]
+  },
+  {
+   "at": 5,
+   "edit": "compare",
+   "why": "câu 5: không giấy tờ thì không việc, không việc thì không giấy tờ",
+   "items": [
+    {
+     "card": "paper",
+     "head": "OHNE AUSWEG",
+     "rows": [
+      [
+       "keine Papiere",
+       "keine Arbeit",
+       5.02
+      ],
+      {
+       "l": "↺",
+       "r": "",
+       "at": 5.45,
+       "color": "red"
+      },
+      [
+       "keine Arbeit",
+       "keine Papiere",
+       5.55
+      ]
+     ],
+     "stamp": {
+      "text": "ABGELEHNT",
+      "at": 5.85
+     }
+    }
+   ]
+  },
+  {
+   "at": 6,
+   "edit": "place",
+   "why": "câu 6: thời Đế chế, quân phục có giá hơn giấy tờ — ảnh Hoàng đế Wilhelm II",
+   "items": [
+    {
+     "photo": "kaiser"
+    },
+    {
+     "tape": "KAISERREICH",
+     "color": "white",
+     "pin": "top",
+     "at": "6/Kaiserreich"
+    },
+    {
+     "tape": "Uniform > Dokument",
+     "color": "red",
+     "at": "6/Dokument"
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "detail",
+   "why": "câu 7: Voigt mua quân phục đại úy ở tiệm đồ cũ — triển lãm có ảnh ông mặc quân phục",
+   "items": [
+    {
+     "photo": "expo",
+     "zoom": {
+      "to": [
+       0.3,
+       0.05,
+       0.7,
+       0.95
+      ],
+      "at": "7/Uniform",
+      "dur": 1.2
+     }
+    },
+    {
+     "tape": "beim Trödler",
+     "at": "7/Trödlern"
+    },
+    {
+     "tape": "Hauptmanns-Uniform",
+     "color": "red",
+     "at": "7/Uniform"
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "edit": "timeline",
+   "why": "câu 8: ngày 16/10/1906 ông chặn một toán lính trên đường",
+   "items": [
+    {
+     "photo": "infant"
+    },
+    {
+     "card": "paper",
+     "head": "16.10.1906",
+     "rows": [
+      [
+       "auf der Straße",
+       "",
+       "8/Straße"
+      ],
+      [
+       "Trupp Soldaten",
+       "angehalten",
+       "8/Trupp"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "statement",
+   "why": "câu 9: ông ra lệnh, và họ đi theo",
+   "items": [
+    {
+     "tape": "Er befiehlt",
+     "color": "white",
+     "size": 70,
+     "at": 9.02
+    },
+    {
+     "tape": "Und sie folgen.",
+     "color": "red",
+     "size": 76,
+     "at": "9/Und"
+    }
+   ]
+  },
+  {
+   "at": 10,
+   "edit": "detail",
+   "why": "câu 10: đi tàu đến Köpenick, khi đó là thành phố riêng cạnh Berlin — bản đồ có ghim",
+   "items": [
+    {
+     "photo": "map",
+     "still": true,
+     "zoom": {
+      "to": [
+       0.6,
+       0.18,
+       1.0,
+       0.5
+      ],
+      "at": "10/Köpenick",
+      "dur": 1.0
+     },
+     "ring": {
+      "box": [
+       0.798,
+       0.326,
+       0.818,
+       0.346
+      ],
+      "shape": "pin",
+      "at": "10/Köpenick"
+     }
+    },
+    {
+     "tape": "KÖPENICK",
+     "color": "white",
+     "pin": "below",
+     "at": "10/Köpenick"
+    },
+    {
+     "tape": "eigene Stadt vor Berlin",
+     "pin": "tl",
+     "at": "10/eigene"
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "edit": "place",
+   "why": "câu 11: chiếm tòa thị chính, không ai được ra vào — tòa thị chính Köpenick thật",
+   "items": [
+    {
+     "photo": "rathaus"
+    },
+    {
+     "tape": "RATHAUS",
+     "color": "white",
+     "pin": "top",
+     "at": 11.02
+    },
+    {
+     "tape": "besetzt",
+     "color": "red",
+     "at": "11/besetzen",
+     "pin": "bl"
+    },
+    {
+     "tape": "niemand hinein oder hinaus",
+     "at": "11/Niemand",
+     "pin": "below"
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "figure",
+   "why": "câu 12: ông cho bắt thị trưởng",
+   "items": [
+    {
+     "photo": "entrance"
+    },
+    {
+     "tape": "Bürgermeister festgenommen",
+     "color": "red",
+     "at": "12/Bürgermeister"
+    }
+   ]
+  },
+  {
+   "at": 13,
+   "edit": "detail",
+   "why": "câu 13: ông đòi két tiền thành phố — chữ ký thật của \"đại úy\" trên biên nhận năm 1906",
+   "items": [
+    {
+     "photo": "sign",
+     "still": true,
+     "ring": {
+      "box": [
+       0.0,
+       0.62,
+       0.72,
+       0.95
+      ],
+      "shape": "rect",
+      "at": "13/Mark"
+     }
+    },
+    {
+     "tape": "DIE STADTKASSE",
+     "color": "white",
+     "pin": "above",
+     "at": "13/Stadtkasse"
+    },
+    {
+     "tape": "mehrere tausend Mark",
+     "color": "red",
+     "pin": "below",
+     "at": "13/Mark"
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "edit": "place",
+   "why": "câu 14: thị trưởng bị áp giải về Berlin — Berlin năm 1906",
+   "items": [
+    {
+     "photo": "bridge"
+    },
+    {
+     "tape": "unter Bewachung",
+     "at": "14/Bewachung",
+     "pin": "bl"
+    },
+    {
+     "tape": "nach Berlin",
+     "color": "white",
+     "pin": "top",
+     "at": "14/Berlin"
+    }
+   ]
+  },
+  {
+   "at": 15,
+   "edit": "statement",
+   "hush": true,
+   "why": "câu 15: rồi \"đại úy\" biến mất — khoảnh khắc lặng",
+   "items": [
+    {
+     "tape": "VERSCHWUNDEN",
+     "color": "white",
+     "size": 72,
+     "at": 15.02
+    },
+    {
+     "tape": "einfach so",
+     "color": "red",
+     "size": 80,
+     "at": "15/Einfach"
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "fact",
+   "why": "câu 16: cả nước Đức và nửa thế giới cười — bưu thiếp và bài hát chế năm 1906",
+   "items": [
+    {
+     "photo": "card1906"
+    },
+    {
+     "photo": "song",
+     "at": "16/halbe"
+    },
+    {
+     "tape": "ganz Deutschland lacht",
+     "at": "16/lacht"
+    },
+    {
+     "tape": "die halbe Welt",
+     "color": "red",
+     "at": "16/halbe"
+    }
+   ]
+  },
+  {
+   "at": 17,
+   "edit": "question",
+   "why": "câu 17: sĩ quan giả cho thấy người ta phục tùng bộ quân phục mù quáng thế nào",
+   "items": [
+    {
+     "photo": "head"
+    },
+    {
+     "tape": "blind gehorcht",
+     "color": "red",
+     "at": "17/blind"
+    }
+   ]
+  },
+  {
+   "at": 18,
+   "edit": "where",
+   "why": "câu 18: mười ngày sau Voigt bị bắt, do bạn tù cũ tố giác — báo Extra-Blatt thật \"Der Köpenicker Kassenräuber ergriffen\"",
+   "items": [
+    {
+     "card": "folder",
+     "tab": "AKTE · KÖPENICK",
+     "corner": "BERLIN"
+    },
+    {
+     "photo": "extra",
+     "pos": "in",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      0.45
+     ],
+     "at": 18.03
+    },
+    {
+     "tape": "10 TAGE SPÄTER",
+     "color": "white",
+     "at": "18/Zehn"
+    },
+    {
+     "tape": "gefasst",
+     "color": "red",
+     "at": "18/gefasst"
+    },
+    {
+     "tape": "verraten",
+     "at": "18/verraten"
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "edit": "span",
+   "why": "câu 19–20: bị kết án 4 năm, khoảng 20 tháng sau được Hoàng đế ân xá",
+   "items": [
+    {
+     "card": "paper",
+     "head": "URTEIL",
+     "rows": [
+      [
+       "Urteil",
+       "4 Jahre",
+       "19/vier"
+      ],
+      {
+       "l": "Begnadigt",
+       "r": "nach ~20 Monaten",
+       "at": "20/begnadigt",
+       "color": "red"
+      }
+     ],
+     "note": {
+      "text": "von Kaiser Wilhelm II.",
+      "at": "20/Kaiser"
+     }
+    }
+   ]
+  },
+  {
+   "at": 21,
+   "edit": "fact",
+   "why": "câu 21: Voigt nổi tiếng, bán bưu thiếp in hình mình, biểu diễn ở hội chợ",
+   "items": [
+    {
+     "photo": "voigt"
+    },
+    {
+     "photo": "cardvoigt",
+     "at": "21/Postkarten"
+    },
+    {
+     "tape": "berühmt",
+     "color": "red",
+     "at": "21/berühmt",
+     "pin": "top",
+     "on": 0
+    },
+    {
+     "tape": "Postkarten",
+     "at": "21/Postkarten",
+     "pin": "tr",
+     "on": 1
+    },
+    {
+     "tape": "Jahrmärkte",
+     "at": "21/Jahrmärkten",
+     "pin": "br",
+     "on": 1
+    }
+   ]
+  },
+  {
+   "at": 22,
+   "edit": "pair",
+   "why": "câu 22: câu chuyện thành kịch và phim — sách và cảnh diễn của vở kịch Zuckmayer",
+   "items": [
+    {
+     "photo": "book"
+    },
+    {
+     "photo": "theater",
+     "at": "22/Theaterstück"
+    },
+    {
+     "tape": "Theaterstück",
+     "at": "22/Theaterstück"
+    },
+    {
+     "tape": "Filme",
+     "color": "white",
+     "at": "22/Filmen"
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "statement",
+   "why": "câu 23: từ \"Köpenickiade\" đến nay chỉ trò lừa táo tợn bằng quân phục giả",
+   "items": [
+    {
+     "tape": "KÖPENICKIADE",
+     "color": "white",
+     "size": 74,
+     "at": "23/Köpenickiade"
+    },
+    {
+     "tape": "ein dreister Streich",
+     "color": "red",
+     "size": 70,
+     "at": "23/dreisten"
+    }
+   ]
+  },
+  {
+   "at": 24,
+   "edit": "place",
+   "why": "câu 24: trước tòa thị chính Köpenick ngày nay có tượng ông",
+   "items": [
+    {
+     "photo": "statue",
+     "pos": "full",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "tape": "HEUTE",
+     "color": "white",
+     "size": 56,
+     "xy": [
+      540,
+      470
+     ],
+     "at": 24.02
+    },
+    {
+     "tape": "seine Statue",
+     "color": "red",
+     "size": 70,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "24/Statue"
+    }
+   ]
+  },
+  {
+   "at": 25,
+   "edit": "ending",
+   "why": "câu cuối: hỏi người xem có phục tùng quân phục mù quáng không",
+   "items": [
+    {
+     "photo": "voigt",
+     "pos": "g1"
+    },
+    {
+     "photo": "statue",
+     "pos": "g2"
+    },
+    {
+     "photo": "rathaus",
+     "pos": "g3"
+    },
+    {
+     "photo": "card1906",
+     "pos": "g4"
+    },
+    {
+     "string": [
+      0,
+      1
+     ]
+    },
+    {
+     "string": [
+      1,
+      2
+     ]
+    },
+    {
+     "string": [
+      0,
+      3
+     ]
+    },
+    {
+     "card": "paper",
+     "head": "DIE FRAGE",
+     "rows": [
+      [
+       "Blind gehorchen?",
+       "???",
+       25.02
+      ]
+     ]
+    },
+    {
+     "tape": "Schreib es in die Kommentare.",
+     "at": "25/Schreib"
+    }
+   ]
+  }
+ ]
+}
