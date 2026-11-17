@@ -1,0 +1,699 @@
+{
+ "sfx": true,
+ "tail": 3.2,
+ "tape_scale": 1.15,
+ "timeline": [
+  [
+   "2019",
+   "1/25"
+  ],
+  [
+   "2020",
+   "12/Jahr"
+  ],
+  [
+   "2017",
+   "15/2017"
+  ],
+  [
+   "2023",
+   "17/Mai"
+  ],
+  [
+   "2024",
+   "19/2024"
+  ],
+  [
+   "HEUTE",
+   "20/heute"
+  ]
+ ],
+ "images": {
+  "cordon": {
+   "src": "1/4-1.jpg"
+  },
+  "cordon2": {
+   "src": "1/4-3.jpg"
+  },
+  "night": {
+   "src": "1/3-3.jpg"
+  },
+  "night2": {
+   "src": "1/3-7.jpg"
+  },
+  "castle": {
+   "src": "1/2-1.jpg"
+  },
+  "room": {
+   "src": "1/1-6.jpg"
+  },
+  "room2": {
+   "src": "1/1-3.jpg"
+  },
+  "treasure": {
+   "src": "1/1-5.jpg"
+  },
+  "treasure2": {
+   "src": "1/1-8.jpg"
+  },
+  "facade": {
+   "src": "1/2-8.jpg"
+  },
+  "cabinet": {
+   "src": "1/13-7.jpg"
+  },
+  "lamp": {
+   "src": "1/12-7.jpg"
+  },
+  "street": {
+   "src": "1/12-3.jpg"
+  },
+  "axe": {
+   "src": "1/10-7.jpg"
+  },
+  "vitrine": {
+   "src": "1/11-7.jpg"
+  },
+  "garage": {
+   "src": "1/14-8.jpg"
+  },
+  "brooch": {
+   "src": "1/15-5.jpg"
+  },
+  "map": {
+   "src": "1/16-1.jpg"
+  },
+  "bode": {
+   "src": "1/6-1.jpg"
+  },
+  "bode2": {
+   "src": "1/6-3.jpg"
+  },
+  "court": {
+   "src": "1/8-1.jpg"
+  },
+  "bgh": {
+   "src": "1/9-7.jpg"
+  }
+ },
+ "scenes": [
+  {
+   "at": 1,
+   "edit": "hook",
+   "why": "2 giây đầu: dây phong tỏa thật của cảnh sát trước cung điện sáng 25/11/2019 đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt sang cung điện trong đêm",
+   "items": [
+    {
+     "photo": "cordon",
+     "pos": "full",
+     "view": [
+      0.2,
+      0.0,
+      0.75,
+      1.0
+     ]
+    },
+    {
+     "photo": "night",
+     "pos": "full",
+     "view": [
+      0.15,
+      0.0,
+      0.85,
+      1.0
+     ],
+     "at": "1/kurz"
+    },
+    {
+     "tape": "Juwelen weg – in Minuten",
+     "color": "red",
+     "size": 70,
+     "xy": [
+      540,
+      1240
+     ]
+    },
+    {
+     "tape": "25.11.2019",
+     "color": "white",
+     "size": 54,
+     "xy": [
+      540,
+      1110
+     ],
+     "at": "1/25"
+    }
+   ]
+  },
+  {
+   "at": 2,
+   "edit": "place",
+   "why": "câu 2: ở phố cổ đèn bỗng tắt",
+   "items": [
+    {
+     "photo": "street",
+     "pos": "full",
+     "view": [
+      0.2,
+      0.0,
+      0.8,
+      1.0
+     ]
+    },
+    {
+     "tape": "DRESDNER ALTSTADT",
+     "color": "white",
+     "size": 52,
+     "xy": [
+      540,
+      470
+     ],
+     "at": 2.02
+    },
+    {
+     "tape": "Licht aus",
+     "color": "red",
+     "size": 74,
+     "xy": [
+      540,
+      1240
+     ],
+     "at": "2/Licht"
+    }
+   ]
+  },
+  {
+   "at": 3,
+   "edit": "number",
+   "why": "câu 3: vài phút sau mất số trang sức hơn 100 triệu euro",
+   "items": [
+    {
+     "photo": "treasure2",
+     "pos": "small"
+    },
+    {
+     "tape": "Minuten später",
+     "at": 3.02
+    },
+    {
+     "stat": [
+      [
+       "100",
+       "Mio. Euro\nund mehr",
+       "3/hundert",
+       "yellow"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 4,
+   "edit": "chapter",
+   "why": "câu 4 gọi tên vụ án",
+   "head": {
+    "kicker": "AKTE 2019",
+    "title": "Grünes Gewölbe"
+   }
+  },
+  {
+   "at": 5,
+   "edit": "detail",
+   "why": "câu 5: Grünes Gewölbe trong cung điện — ảnh cũ phòng trang sức (Juwelenzimmer)",
+   "items": [
+    {
+     "photo": "room",
+     "zoom": {
+      "to": [
+       0.1,
+       0.3,
+       0.9,
+       0.95
+      ],
+      "at": "5/Schatzkammern",
+      "dur": 1.4
+     }
+    },
+    {
+     "tape": "RESIDENZSCHLOSS",
+     "color": "white",
+     "pin": "top",
+     "at": "5/Residenzschloss"
+    },
+    {
+     "tape": "Schatzkammer Europas",
+     "at": "5/Schatzkammern",
+     "pin": "bl"
+    }
+   ]
+  },
+  {
+   "at": 6,
+   "edit": "place",
+   "why": "câu 6: kẻ trộm đốt tủ điện, đèn đường tắt",
+   "items": [
+    {
+     "photo": "cabinet"
+    },
+    {
+     "tape": "Stromverteiler angezündet",
+     "color": "red",
+     "at": "6/Stromverteiler",
+     "pin": "below"
+    },
+    {
+     "tape": "Laternen aus",
+     "at": "6/Straßenlaternen",
+     "pin": "tl"
+    }
+   ]
+  },
+  {
+   "at": 7,
+   "edit": "place",
+   "why": "câu 7: trèo vào qua cửa sổ có song sắt bị cắt từ trước — mặt tiền cung điện có cửa sổ song sắt",
+   "items": [
+    {
+     "photo": "facade"
+    },
+    {
+     "tape": "durchs Fenster",
+     "at": "7/Fenster"
+    },
+    {
+     "tape": "Gitter durchtrennt",
+     "color": "red",
+     "at": "7/Gitter"
+    }
+   ]
+  },
+  {
+   "at": 8,
+   "edit": "pair",
+   "why": "câu 8: dùng rìu chém tủ kính đến khi kính vỡ (ảnh minh họa loại vật)",
+   "items": [
+    {
+     "photo": "axe"
+    },
+    {
+     "photo": "vitrine",
+     "at": "8/Vitrine"
+    },
+    {
+     "tape": "Axt",
+     "color": "white",
+     "at": "8/Axt"
+    },
+    {
+     "tape": "Glas gibt nach",
+     "color": "red",
+     "at": "8/Sicherheitsglas",
+     "pin": "tl",
+     "on": 1
+    }
+   ]
+  },
+  {
+   "at": 9,
+   "edit": "statement",
+   "why": "câu 9: camera quay lại tất cả, vài phút sau chúng đã ra ngoài",
+   "items": [
+    {
+     "tape": "KAMERA LÄUFT",
+     "color": "white",
+     "size": 66,
+     "at": 9.02
+    },
+    {
+     "tape": "nach Minuten wieder draußen",
+     "color": "red",
+     "at": "9/Minuten"
+    }
+   ]
+  },
+  {
+   "at": 10,
+   "edit": "place",
+   "why": "câu 10: đốt xe tẩu thoát trong hầm đỗ xe",
+   "items": [
+    {
+     "photo": "garage"
+    },
+    {
+     "tape": "TIEFGARAGE",
+     "color": "white",
+     "pin": "top",
+     "at": 10.02
+    },
+    {
+     "tape": "Fluchtauto angezündet",
+     "color": "red",
+     "at": "10/Fluchtauto"
+    }
+   ]
+  },
+  {
+   "at": 11,
+   "edit": "detail",
+   "why": "câu 11: trang sức có hàng nghìn viên kim cương (ảnh minh họa, không phải món bị trộm)",
+   "items": [
+    {
+     "photo": "brooch",
+     "zoom": {
+      "to": [
+       0.2,
+       0.25,
+       0.8,
+       0.75
+      ],
+      "at": "11/Diamanten",
+      "dur": 1.2
+     }
+    },
+    {
+     "tape": "Symbolbild",
+     "color": "white",
+     "pin": "top",
+     "at": 11.02
+    },
+    {
+     "tape": "Tausende Diamanten",
+     "color": "red",
+     "at": "11/Diamanten"
+    }
+   ]
+  },
+  {
+   "at": 12,
+   "edit": "timeline",
+   "why": "câu 12: một năm sau cảnh sát khám xét nhà ở Berlin — bản đồ có ghim",
+   "items": [
+    {
+     "photo": "map",
+     "still": true,
+     "view": [
+      0.5,
+      0.15,
+      1.0,
+      0.6
+     ],
+     "ring": {
+      "box": [
+       0.78,
+       0.317,
+       0.8,
+       0.337
+      ],
+      "shape": "pin",
+      "at": "12/Berlin"
+     }
+    },
+    {
+     "card": "paper",
+     "head": "EIN JAHR SPÄTER",
+     "rows": [
+      [
+       "Berlin",
+       "Durchsuchungen",
+       "12/Berlin"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 13,
+   "edit": "statement",
+   "why": "câu 13: bị bắt là những thanh niên thuộc một đại gia đình ở Berlin",
+   "items": [
+    {
+     "tape": "FESTNAHMEN",
+     "color": "white",
+     "size": 66,
+     "at": 13.02
+    },
+    {
+     "tape": "Berliner Großfamilie",
+     "color": "red",
+     "at": "13/Großfamilie"
+    }
+   ]
+  },
+  {
+   "at": 14,
+   "edit": "place",
+   "why": "câu 14: một người từng dính vào vụ khác — bảo tàng Bode ở Berlin",
+   "items": [
+    {
+     "photo": "bode"
+    },
+    {
+     "tape": "schon ein anderer Coup",
+     "color": "red",
+     "at": "14/Coup"
+    }
+   ]
+  },
+  {
+   "at": 15,
+   "edit": "number",
+   "why": "câu 15: năm 2017 đồng xu vàng 100 kg biến mất khỏi bảo tàng Bode",
+   "items": [
+    {
+     "photo": "bode2",
+     "pos": "small"
+    },
+    {
+     "tape": "BODE-MUSEUM 2017",
+     "color": "white",
+     "at": "15/2017"
+    },
+    {
+     "stat": [
+      [
+       "100 kg",
+       "Goldmünze",
+       "15/100",
+       "yellow"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "at": 16,
+   "edit": "where",
+   "why": "câu 16: trong phiên tòa có thỏa thuận, phần lớn trang sức được trả lại — Tòa án Dresden",
+   "items": [
+    {
+     "card": "folder",
+     "tab": "PROZESS · DRESDEN",
+     "corner": "LANDGERICHT"
+    },
+    {
+     "photo": "court",
+     "pos": "in",
+     "at": 16.03
+    },
+    {
+     "tape": "Absprache",
+     "at": "16/Absprache"
+    },
+    {
+     "tape": "Beute zurück",
+     "color": "red",
+     "at": "16/zurückgegeben"
+    }
+   ]
+  },
+  {
+   "at": 17,
+   "edit": "who",
+   "why": "câu 17–18: tháng 5/2023 năm người bị kết án, một người được tha bổng",
+   "items": [
+    {
+     "card": "paper",
+     "head": "URTEIL · MAI 2023",
+     "rows": [
+      [
+       "5 Angeklagte",
+       "verurteilt",
+       "17/fünf"
+      ],
+      [
+       "Haft",
+       "4 bis gut 6 Jahre",
+       "17/vier"
+      ],
+      {
+       "l": "1 Mann",
+       "r": "freigesprochen",
+       "at": "18/freigesprochen",
+       "color": "red"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "at": 19,
+   "edit": "detail",
+   "why": "câu 19: năm 2024 Tòa án Liên bang giữ nguyên bản án",
+   "items": [
+    {
+     "photo": "bgh",
+     "zoom": {
+      "to": [
+       0.2,
+       0.0,
+       0.8,
+       0.7
+      ],
+      "at": "19/Bundesgerichtshof",
+      "dur": 1.2
+     }
+    },
+    {
+     "tape": "2024",
+     "color": "white",
+     "pin": "top",
+     "at": "19/2024"
+    },
+    {
+     "tape": "Urteil bestätigt",
+     "color": "red",
+     "at": "19/bestätigte"
+    }
+   ]
+  },
+  {
+   "at": 20,
+   "edit": "place",
+   "why": "câu 20: phần lớn trang sức nay lại được trưng bày",
+   "items": [
+    {
+     "photo": "treasure"
+    },
+    {
+     "tape": "wieder zu sehen",
+     "at": "20/wieder"
+    }
+   ]
+  },
+  {
+   "at": 21,
+   "edit": "statement",
+   "hush": true,
+   "why": "câu 21: nhưng vài món quý nhất vẫn còn mất — khoảnh khắc lặng",
+   "items": [
+    {
+     "tape": "ABER",
+     "color": "white",
+     "size": 80,
+     "at": 21.02
+    },
+    {
+     "tape": "die wertvollsten fehlen",
+     "color": "red",
+     "size": 70,
+     "at": "21/fehlen"
+    }
+   ]
+  },
+  {
+   "at": 22,
+   "edit": "place",
+   "why": "câu 22: trong đó có món đeo vai với viên kim cương \"Sächsischer Weißer\" — phòng trang sức nơi chúng từng nằm",
+   "items": [
+    {
+     "photo": "room2"
+    },
+    {
+     "tape": "Schulterzier",
+     "color": "white",
+     "pin": "top",
+     "at": "22/Schulterzier"
+    },
+    {
+     "tape": "„Sächsischer Weißer“",
+     "color": "red",
+     "at": "22/Sächsischer"
+    }
+   ]
+  },
+  {
+   "at": 23,
+   "edit": "question",
+   "why": "câu 23: chúng ở đâu?",
+   "items": [
+    {
+     "photo": "night2"
+    },
+    {
+     "tape": "Wo sind sie?",
+     "color": "red",
+     "at": 23.02
+    },
+    {
+     "tape": "zerlegt? verkauft? versteckt?",
+     "at": "23/Zerlegt"
+    }
+   ]
+  },
+  {
+   "at": 24,
+   "edit": "ending",
+   "why": "câu cuối: hỏi người xem nghĩ gì, gom các manh mối",
+   "items": [
+    {
+     "photo": "cordon",
+     "pos": "g1"
+    },
+    {
+     "photo": "treasure",
+     "pos": "g2"
+    },
+    {
+     "photo": "bode2",
+     "pos": "g3"
+    },
+    {
+     "photo": "court",
+     "pos": "g4"
+    },
+    {
+     "string": [
+      0,
+      1
+     ]
+    },
+    {
+     "string": [
+      0,
+      2
+     ]
+    },
+    {
+     "string": [
+      2,
+      3
+     ]
+    },
+    {
+     "card": "paper",
+     "head": "DIE FRAGE",
+     "rows": [
+      [
+       "Juwelen:",
+       "???",
+       24.02
+      ]
+     ]
+    },
+    {
+     "tape": "Schreib es in die Kommentare.",
+     "at": 24.4
+    }
+   ]
+  }
+ ]
+}
