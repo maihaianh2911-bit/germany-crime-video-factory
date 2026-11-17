@@ -292,10 +292,11 @@ def caption_only():
 
 
 def probe():
-    """Diagnose the picture search (manual run, steps "probe"): round 1 once more with the queries of script.json,
-    every request logged (probe_images.py) → renders/crime/<N>/probe/ (probe.json, index.json, contact sheets).
+    """Diagnose the picture search (manual run, steps "probe"): round 1 once more with the queries of script.json
+    (or those of crime/<N>/probe.json, to try other queries), every request logged (probe_images.py) → renders/crime/<N>/probe/ (probe.json, index.json, contact sheets).
     Touches no label, no comment and no picture of the video."""
-    script = json.load(open(os.path.join(JOB, 'script.json'), encoding='utf-8'))
+    own = os.path.join(JOB, 'probe.json')   # other queries to try than the video's: {"queries": […]}
+    script = json.load(open(own if os.path.exists(own) else os.path.join(JOB, 'script.json'), encoding='utf-8'))
     q = (script.get('queries') or []) + (script.get('urls') or [])
     d = os.path.join(WORK, 'probe'); shutil.rmtree(d, ignore_errors=True)
     spec = os.path.join(ROOT, 'out', f'probe-{N}.json')

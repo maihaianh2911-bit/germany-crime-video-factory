@@ -204,16 +204,47 @@ try:
     assert jobs == ['Drei.', 'Vier.'] and [r['i'] for r in json.load(open(os.path.join(vd, 'b', 'lines.json')))] == [1, 2, 3, 4], jobs
 finally:
     V.cmd_tts, sys.argv = real_tts, argv
-# picture search: a source that answers 429 (Library of Congress on the runners) is asked once per run, not per query
+# picture search: an archive that answers 429 (too many requests) is asked once per run, not per query
 import find_images as F
 asked = []
-def refused(q, n): asked.append(q); raise urllib.error.HTTPError('https://www.loc.gov/', 429, 'Too Many Requests', {}, None)
+def refused(q, n): asked.append(q); raise urllib.error.HTTPError('https://api.openverse.org/', 429, 'Too Many Requests', {}, None)
 real_find = dict(F.FIND)
 try:
-    F.FIND.update({s: (lambda q, n: []) for s in F.SOURCES}); F.FIND['loc'] = refused; F.REFUSED.clear()
-    assert F.search('first') == [] and F.search('second') == [] and asked == ['first'] and F.REFUSED == {'loc'}, asked
+    F.FIND.update({s: (lambda q, n: []) for s in F.SOURCES}); F.FIND['openverse'] = refused; F.REFUSED.clear()
+    assert F.search('first') == [] and F.search('second') == [] and asked == ['first'] and F.REFUSED == {'openverse'}, asked
+    # every archive failing is an error of the query, not "nothing found"
+    F.REFUSED.clear(); F.FIND.update({s: refused for s in F.SOURCES})
+    try: F.search('third'); raise AssertionError('search with every archive down must fail')
+    except RuntimeError: pass
+    # results of several archives are mixed one from each in turn, and know their place in their archive (the ranking uses it)
+    F.REFUSED.clear(); F.FIND.update({s: (lambda q, n, s=s: [{'source': s, 'i': i} for i in range(2)]) for s in F.SOURCES})
+    mixed = F.search('fourth')
+    assert [(r['source'], r['rank']) for r in mixed] == [(s, i) for i in range(2) for s in F.SOURCES], mixed
+    # a prefix asks one source; wiki: and geo: are sources too
+    assert F.source_of('wiki: Hinterkaifeck') == ('wiki', 'Hinterkaifeck') and F.source_of('geo: 48.59,11.32 800')[0] == 'geo'
+    assert F.source_of('Dr. Müller: Akte') == (None, 'Dr. Müller: Akte') and F.source_of('snowy field') == (None, 'snowy field')
 finally:
     F.FIND.clear(); F.FIND.update(real_find); F.REFUSED.clear()
+# Commons pictures are taken in the standard sizes: the largest up to 1920 px (3840 for an exact file); a file under
+# 960 px is taken whole; its 500 px version is the preview; a licence that does not allow the video is left out
+def _pg(title, w, h, lic='CC BY-SA 4.0', mime='image/jpeg', i=0):
+    name = title[5:].replace(' ', '_')
+    return {'title': title, 'index': i, 'imageinfo': [{'mime': mime, 'width': w, 'height': h, 'descriptionurl': 'https://commons.wikimedia.org/wiki/' + name,
+            'url': f'https://upload.wikimedia.org/wikipedia/commons/a/ab/{name}?utm=1',
+            'thumburl': (f'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/{name}/500px-{name}' if w > 500 else f'https://upload.wikimedia.org/wikipedia/commons/a/ab/{name}'),
+            'extmetadata': {'LicenseShortName': {'value': lic}}}]}
+res = F.commons_items([_pg('File:Big.jpg', 5100, 3000, i=1), _pg('File:Mid.jpg', 1400, 900, i=2), _pg('File:Small.jpg', 640, 480, i=3),
+                       _pg('File:Tiny.jpg', 400, 300, i=4), _pg('File:Press.jpg', 3000, 2000, lic='All rights reserved', i=5)])
+assert [r['title'] for r in res] == ['Big.jpg', 'Mid.jpg', 'Small.jpg', 'Tiny.jpg'], res
+assert res[0]['thumb'].endswith('/1920px-Big.jpg') and res[0]['preview'].endswith('/500px-Big.jpg'), res[0]
+assert res[1]['thumb'].endswith('/1280px-Mid.jpg') and res[2]['thumb'].endswith('/ab/Small.jpg') and res[2]['preview'].endswith('/500px-Small.jpg'), res[1:3]
+assert res[3]['thumb'] == res[3]['preview'] and '?' not in res[3]['thumb'], res[3]
+assert F.commons_items([_pg('File:Big.jpg', 5100, 3000)], exact=True)[0]['thumb'].endswith('/3840px-Big.jpg')
+# a list of titles comes back in the order asked, not in the API's
+assert [r['title'] for r in F.commons_items([_pg('File:B.jpg', 2000, 2000), _pg('File:A.jpg', 2000, 2000)], order=['File:A.jpg', 'File:B.jpg'])] == ['A.jpg', 'B.jpg']
+assert F.ICON.search('File:Commons-logo.svg') and F.ICON.search('File:Bavaria relief location map.jpg') and not F.ICON.search('File:Hinterkaifeck-Hof.jpg')
+try: F.geo('Hinterkaifeck', 5); raise AssertionError('geo: without coordinates must be refused')
+except ValueError: pass
 # scene edits (the catalogue scripts/crime/edits.py): every recipe builds, a scene without "edit" is left alone, the
 # template fills only what Claude left out, an unknown name or a missing item is refused with the names / the recipe,
 # the list for the owner marks a repeated edit, and AGENT_CRIME.md documents every name

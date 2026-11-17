@@ -8,7 +8,7 @@ per query and archive the number of hits the archive has, the number it returned
 licence filter, the time and any error; every picture download that failed; what was dropped as too small or as a
 duplicate. Then, for each free-text query, one more call to Wikimedia Commons with 50 results, to see how many
 usable pictures lie beyond the 8 a search keeps. With <old index.json> (the search of the video) the new result
-is compared with it, page by page.
+is compared with it, page by page. The spec may hold other queries than the video's (run.py: crime/<N>/probe.json).
 → <out_dir>/probe.json, index.json and the contact sheets sheet_<k>.jpg (the pictures themselves are removed: this
 is a diagnosis, the video keeps its own pictures). Never exits with an error: what failed is in probe.json.
 """
@@ -89,8 +89,9 @@ except BaseException as e:   # SystemExit too: the diagnosis goes on with what t
     report['problems'].append(f'search stopped: {type(e).__name__}: {str(e)[:200]}')
 log = buf.getvalue(); print(log)
 report['seconds_search'] = round(time.time() - t0)
-m = re.search(r'dropped: (\d+) too small, (\d+) duplicates', log)
-report['dropped'] = {'too_small': int(m.group(1)), 'duplicates': int(m.group(2))} if m else None
+m = re.search(r'dropped: (\d+) too small, (\d+) duplicates(?:, (\d+) not showing)?', log)
+report['dropped'] = {'too_small': int(m.group(1)), 'duplicates': int(m.group(2)), 'not_fitting': int(m.group(3) or 0)} if m else None
+report['ranking'] = 'on' if F.Clip.model is not None else 'off'
 try: index = json.load(open(f'{out}/index.json', encoding='utf-8'))
 except Exception: index = []
 old = {}
@@ -99,18 +100,19 @@ if old_index and os.path.exists(old_index):
 
 # beyond the 8 kept: how many usable pictures Commons has for each free-text query (one call of 50)
 CUR['q'] = 'depth'; F.js = _js
-for g in index or [{'k': k, 'query': q, 'results': []} for k, q in enumerate(queries, 1) if isinstance(q, str)]:
+for g in index or [{'k': k, 'query': q.get('q', '?') if isinstance(q, dict) else q, 'results': []} for k, q in enumerate(queries, 1)]:
     q = g['query']
-    row = {'k': g['k'], 'query': q, 'kept': len(g['results']), 'kept_by_source': {}, 'error': g.get('error')}
+    row = {'k': g['k'], 'query': q, 'kept': len(g['results']), 'candidates': g.get('candidates'), 'kept_by_source': {}, 'error': g.get('error'),
+           'match': [r['match'] for r in g['results'] if 'match' in r], 'wikidata': g.get('wikidata')}
     for r in g['results']:
         s = r['source'].split('/')[0]; row['kept_by_source'][s] = row['kept_by_source'].get(s, 0) + 1
     row['sources'] = {s: v for (qq, s), v in PER.items() if qq == q}
     if g['k'] in old:
-        a, b = {r['page'] for r in old[g['k']]['results']}, {r['page'] for r in g['results']}
-        row['vs_first_search'] = {'kept_then': len(a), 'same': len(a & b), 'new_now': len(b - a), 'gone_now': len(a - b),
-                                  'same_query': old[g['k']]['query'] == q}
-    if isinstance(q, str) and not q.startswith('File:'):
-        mm = re.match(r'^(\w+):\s*(.+)$', q); term = mm.group(2) if mm and mm.group(1).lower() in F.FIND else q
+        if old[g['k']]['query'] == q:
+            a, b = {r['page'] for r in old[g['k']]['results']}, {r['page'] for r in g['results']}
+            row['vs_first_search'] = {'kept_then': len(a), 'same': len(a & b), 'new_now': len(b - a), 'gone_now': len(a - b)}
+    if isinstance(q, str) and not q.startswith('File:') and F.source_of(q)[0] not in F.ABOUT:
+        term = F.source_of(q)[1]
         try:
             res = F.commons(term, 50)
             big = [r for r in res if not (r.get('width') and r.get('height')) or min(r['width'], r['height']) >= F.MIN_SIDE]
@@ -120,6 +122,9 @@ for g in index or [{'k': k, 'query': q, 'results': []} for k, q in enumerate(que
         time.sleep(0.5)
     report['queries'].append(row)
 
+if old:
+    then, now = {r['page'] for g in old.values() for r in g['results']}, {r['page'] for g in index for r in g['results']}
+    report['vs_first_search'] = {'pictures_then': len(then), 'pictures_now': len(now), 'in_both': len(then & now), 'new_now': len(now - then)}
 fails = [d for d in DOWN if d['err']]
 report['downloads'] = {'tried': len(DOWN), 'failed': len(fails), 'seconds': round(sum(d['s'] for d in DOWN)),
                        'failed_by_host': {h: sum(1 for d in fails if d['host'] == h) for h in sorted({d['host'] for d in fails})},
@@ -134,4 +139,4 @@ for f in os.listdir(out) if os.path.isdir(out) else []:   # keep the sheets and 
     if re.match(r'^\d+-\d+\.jpg$', f): os.remove(os.path.join(out, f))
 os.makedirs(out, exist_ok=True)
 json.dump(report, open(f'{out}/probe.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print(json.dumps({k: report[k] for k in ('seconds_total', 'dropped', 'downloads', 'api', 'refused_sources', 'problems')}, ensure_ascii=False, indent=1))
+print(json.dumps({k: report.get(k) for k in ('seconds_total', 'ranking', 'dropped', 'vs_first_search', 'downloads', 'api', 'refused_sources', 'problems')}, ensure_ascii=False, indent=1))

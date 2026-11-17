@@ -1,0 +1,23 @@
+{
+ "note": "Queries for the picture-search diagnosis only (run.py probe): what round 1 of this video would ask with the search of 17/11/2026. Not used by the video.",
+ "queries": [
+  "wiki: Hinterkaifeck",
+  "wiki: Schrobenhausen",
+  "wiki: Waidhofen (Oberbayern)",
+  "geo: 48.5944,11.3222 1500",
+  {"q": "footprints in snow", "want": "a trail of human footprints in deep snow"},
+  {"q": "attic", "want": "inside a dark attic under an old wooden roof with beams"},
+  {"q": "Dachboden", "want": "inside a dark attic under an old wooden roof with beams"},
+  {"q": "barn interior", "want": "inside an old dark wooden barn with hay on the floor"},
+  {"q": "Bauernhof Oberbayern", "want": "an old Bavarian farmhouse with a barn, seen from the yard"},
+  {"q": "Einödhof", "want": "a lonely farm standing alone in the fields"},
+  {"q": "old key", "want": "one old iron door key lying on a plain background"},
+  {"q": "Kuhstall", "want": "cows standing in an old stable"},
+  {"q": "snowy field", "want": "an empty snow-covered field at a forest edge in winter"},
+  {"q": "Polizei Bayern 1920", "want": "policemen in uniform around 1920, black and white photograph"},
+  {"q": "Zeitung 1922", "want": "the front page of a German newspaper of the 1920s"},
+  {"q": "Bauernstube", "want": "the living room of an old farmhouse with a table and a stove"},
+  {"q": "Friedhof Grabstein Oberbayern", "want": "old gravestones in a village cemetery in Bavaria"},
+  "File:Germany adm location map.svg"
+ ]
+}

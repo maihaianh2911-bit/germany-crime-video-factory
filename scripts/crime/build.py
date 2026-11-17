@@ -248,7 +248,19 @@ for j, sc in enumerate(scenes_in):
         if x.get('credit') and x['credit'] not in cred: cred.append(x['credit'])
     scenes.append({'s': round(s, 3), 'e': round(e, 3), 'scene': j + 1, 'head': hd, 'items': items, **({'hush': True} if sc.get('hush') else {}),
                    'credit': (CREDIT_PFX + ' · '.join(cred)) if cred else '', **({'edit': sc['edit']} if sc.get('edit') else {})})
-open(f'{out}/edits.md', 'w', encoding='utf-8').write(E.listing(scenes_in, text, bounds))
+# how many different pictures the video shows (owner, 17/11/2026: the videos were short of pictures): the count, the
+# pictures used more than twice and the scenes with text alone go to the log and under the list of edits
+uses = {}
+for sc_ in scenes:
+    for src_ in {image(n_)['src'] for n_ in (it_['src'].rsplit('/', 1)[1].rsplit('.', 1)[0] for it_ in sc_['items'] if it_['type'] in ('photo', 'sticker'))}:
+        uses[src_] = uses.get(src_, 0) + 1
+bare = [sc_['scene'] for sc_ in scenes if not any(it_['type'] in ('photo', 'sticker', 'card', 'stat') for it_ in sc_['items'])]
+often = {k_: v_ for k_, v_ in uses.items() if v_ > 2}
+pic_note = [f'{len(uses)} ảnh khác nhau cho {len(scenes)} cảnh' + (' (ít: nên có ít nhất 3 ảnh cho mỗi 4 cảnh)' if len(uses) * 4 < len(scenes) * 3 else '')]
+if often: pic_note.append('ảnh dùng quá 2 lần: ' + ', '.join(f'{k_} ({v_} cảnh)' for k_, v_ in sorted(often.items())))
+if len(bare) * 6 > len(scenes): pic_note.append(f'{len(bare)} cảnh chỉ có chữ (cảnh ' + ', '.join(map(str, bare)) + '): nhiều hơn 1/6 số cảnh')
+print('ảnh: ' + '; '.join(pic_note))
+open(f'{out}/edits.md', 'w', encoding='utf-8').write(E.listing(scenes_in, text, bounds) + '\nẢnh: ' + '; '.join(pic_note) + '.\n')
 if E.repeats(scenes_in):
     print('chú ý: cảnh ' + ', '.join(map(str, E.repeats(scenes_in))) + ' dùng cùng kiểu edit với cảnh ngay trước nó (nên đổi kiểu)')
 

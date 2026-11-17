@@ -104,12 +104,32 @@ Read the issue form (Vụ án, Kịch bản, Giọng đọc, Ghi chú) and the o
 
 ### 1.4 Pictures — real first, AI only where none exists, always labelled (owner's decision, 13/11/2026)
 A 2-minute video uses **~20–35 different pictures** (prints and stickers). Ask for all of them in round 1:
-- `queries` (20–30, in **English or German**): the town, the street, the house, the farm, the church, the court
-  building, the police building, the prison, the region, the grave or memorial, contemporary press and documents,
-  public people of the case (only on free licences), objects of the time (a typewriter, a 1990s computer, a car
-  model, a type of shoe). Without a prefix a query searches Wikimedia Commons, Openverse (Flickr …), Europeana and
-  the Library of Congress at once; a prefix searches one: `commons:`, `openverse:`, `europeana:`, `loc:`, `met:`,
-  `aic:`, `cleveland:`; `File:<name>` fetches one Commons file.
+- `queries` (20–30): what the machine searches (`scripts/find_images.py`, rewritten 17/11/2026 after the owner
+  found the videos short of pictures). Three kinds, in this order:
+  1. **`wiki: <name>`: everything about one thing** — the case itself first, then every place, building and public
+     person of the script: `"wiki: Hinterkaifeck"`, `"wiki: Schrobenhausen"`, `"wiki: KaDeWe"`, `"wiki: Arno Funke"`.
+     The machine finds the Wikidata item (index.json says which: check it is the right one; a name that fits
+     several things takes its Wikipedia title, `"wiki: Waidhofen (Oberbayern)"`, or the item, `"wiki: Q878856"`) and
+     brings its main picture, the pictures of its German and English Wikipedia articles, the files of its Commons
+     category and photos taken at its coordinates: up to 24, the most to the point first. **This is where the real
+     pictures of a case are** (Hinterkaifeck: 22 with one query — the reward poster, the crime-scene photos, the
+     weapon, the death card — where three free-text queries had brought 12). Never skip it.
+  2. **`geo: <lat>,<lon> <metres>`**: Commons photos taken around a point, whatever they are called (the field
+     where the farm stood, the street of the crime): `"geo: 48.5944,11.3222 1500"`. The coordinates of a `wiki:`
+     item are in index.json (`wikidata.coord`).
+  3. **A picture described, for what has no article** (the symbol pictures: an attic, footprints in snow, a key,
+     a police car of the time): `{"q": "attic", "want": "inside a dark attic under an old wooden roof with beams"}`.
+     `q`: one or two words, English or German, as an archive would file it (`Dachboden`, `barn interior`,
+     `Kuhstall`) — every extra word loses pictures (`old farmhouse attic` found 3 files on Commons, `attic`
+     thousands). `want`: what the picture must show, **in English**. The machine asks Commons, Openverse and
+     Europeana for 20 each, scores every one against `want` (CLIP) and keeps the 8 that show it best; pictures
+     that do not show it (score under 0.18) are dropped, so a group can come back small or empty: then ask
+     another word. A plain string (`"Schrobenhausen 1920"`) still works and is ranked against its own words, but
+     dates and several words in one query bring paintings and portraits: prefer `wiki:` for names and `q` + `want`
+     for things. A prefix searches one archive: `commons:`, `openverse:`, `europeana:`, `loc:` (slow; it refuses
+     the runners), `met:`, `aic:`, `cleveland:`; `File:<name>` fetches one Commons file.
+  The contact sheet shows the score (`≈0.31`: it shows the thing; `≈0.20`: doubtful) next to the source
+  (`commons/wiki` = from the article, `commons/category`, `commons/geo`).
 - `urls`: pictures you found yourself on a page that states a free licence (direct image URL + page + title +
   author + licence). Check the licence on the page. Press photos (dpa, Getty …) are **not** free: never.
 - `gen`: AI illustrations where no real picture can exist (the night, the empty room, a silhouette in a corridor,
@@ -143,13 +163,23 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
    `img/<r>/index.json` has titles, authors, dates, licences, pages, and `"ai": true` on illustrations). A group with
    an `"error"` has no sheet: repeat it in the next round. Missing pictures → write `crime/<N>/search-<r>.json`
    `{"queries": […], "urls": […], "gen": […]}` (r = 2, 3…), push. The issue is
-   `crime-voice` while the machine searches (a plain query takes up to ~1 min, a `commons:` one a few seconds) and
+   `crime-voice` while the machine searches (about 10–20 s a query) and
    comes back to `crime-pick` with a 🤖 comment. Unattended: remove `crime-busy` right after the push and stop; you
    are woken at `crime-pick`. In a chat: keep `crime-busy`, wait for that comment (check every minute), then view
    `img/<r>/`.
 3. Open the full picture (`img/<r>/<k>-<n>.jpg`) before choosing it: it must show what the line says, be sharp,
    carry no watermark or burnt-in caption, and for AI: no recognisable face, no text, no extra fingers or broken
    objects, the right era. A sticker picture must show one whole object on a plain background.
+   **Enough pictures, and the real ones first** (owner, 17/11/2026: the videos were short of pictures; video #5
+   showed 13 pictures in 26 scenes, one of them four times, while 7 real pictures of the case lay unused):
+   - every real picture of the case (the `wiki:` group of the case: scene, people's documents, the poster, the
+     weapon, the grave) is used before any symbol picture of the same thing; a symbol picture never stands for a
+     thing of which a real picture was found (the real Reuthaue, not "a hoe of this type");
+   - a picture appears **at most twice** in a video (a second time only as another crop or in the ending board);
+   - count before you write the scenes: at least **3 different pictures for every 4 scenes**. Fewer → a second
+     round (`search-2.json`: `wiki:` for the places and people not asked yet, `geo:`, more `q` + `want`) before
+     any scene is left with text alone; text-only scenes (`statement`, `chapter`) stay under one in six.
+   `build.py` prints the count and every picture used more than twice; the render comment repeats it.
 4. **Choose a scene edit for every scene ("bảng cách edit").** One scene per idea (1–2 lines). For each
    scene: **read its lines first**, decide what they are *about* (a hook, a person, a place, a time, an object, a
    number, an action, a comparison, an open question, the end), and take the edit whose "when" column says that —
