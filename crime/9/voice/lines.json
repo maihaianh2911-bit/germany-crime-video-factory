@@ -1,0 +1,1310 @@
+[
+ {
+  "i": 1,
+  "text": "Ein Erpresser legt Bomben in Kaufhäusern, und die Polizei jagt ihn sechs Jahre lang.",
+  "tts": "Ein Erpresser legt Bomben in Kaufhäusern, und die Polizei jagt ihn sechs Jahre lang.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_01.mp3",
+  "duration": 4.253,
+  "heard": "Ein Erpresser legt Bomben in Kaufhäusern und die Polizei jagt ihn sechs Jahre lang.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0435,
+    0.14
+   ],
+   [
+    0.1739,
+    0.62
+   ],
+   [
+    0.2319,
+    0.88
+   ],
+   [
+    0.3188,
+    1.2
+   ],
+   [
+    0.3478,
+    1.3
+   ],
+   [
+    0.5072,
+    1.94
+   ],
+   [
+    0.5507,
+    2.22
+   ],
+   [
+    0.5942,
+    2.34
+   ],
+   [
+    0.6957,
+    2.7
+   ],
+   [
+    0.7536,
+    3.22
+   ],
+   [
+    0.7971,
+    3.28
+   ],
+   [
+    0.8696,
+    3.52
+   ],
+   [
+    0.942,
+    3.84
+   ],
+   [
+    1.0,
+    4.06
+   ]
+  ]
+ },
+ {
+  "i": 2,
+  "text": "Trotzdem feiern ihn viele Menschen wie einen Volkshelden.",
+  "tts": "Trotzdem feiern ihn viele Menschen wie einen Volkshelden.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_02.mp3",
+  "duration": 2.844,
+  "heard": "Trotzdem feiern ihn viele Menschen wie einen Volkshelden.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1633,
+    0.48
+   ],
+   [
+    0.2857,
+    1.0
+   ],
+   [
+    0.3469,
+    1.12
+   ],
+   [
+    0.449,
+    1.4
+   ],
+   [
+    0.6122,
+    1.68
+   ],
+   [
+    0.6735,
+    1.86
+   ],
+   [
+    0.7755,
+    1.98
+   ],
+   [
+    1.0,
+    2.7
+   ]
+  ]
+ },
+ {
+  "i": 3,
+  "text": "Das ist der Fall Dagobert.",
+  "tts": "Das ist der Fall Dagobert.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_03.mp3",
+  "duration": 1.273,
+  "heard": "Das ist der Falltag, Robert.",
+  "score": 0.6,
+  "diff": [
+   "falldagobert→falltagrobert"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1364,
+    0.14
+   ],
+   [
+    0.2727,
+    0.28
+   ],
+   [
+    0.4091,
+    0.38
+   ],
+   [
+    0.7273,
+    0.84
+   ],
+   [
+    1.0,
+    1.04
+   ]
+  ]
+ },
+ {
+  "i": 4,
+  "text": "Mai 1988: Im Berliner KaDeWe explodiert eine Bombe.",
+  "tts": "Mai neunzehnhundertachtundachtzig: Im Berliner Ka De We explodiert eine Bombe.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_04.mp3",
+  "duration": 4.066,
+  "heard": "Mai 1988. Im Berliner KDW explodiert eine Bombe.",
+  "score": 0.78,
+  "diff": [
+   "kadewe→kdw"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0769,
+    0.18
+   ],
+   [
+    0.1795,
+    1.92
+   ],
+   [
+    0.2308,
+    2.06
+   ],
+   [
+    0.4359,
+    2.38
+   ],
+   [
+    0.5128,
+    2.84
+   ],
+   [
+    0.7692,
+    3.36
+   ],
+   [
+    0.8718,
+    3.52
+   ],
+   [
+    1.0,
+    3.9
+   ]
+  ]
+ },
+ {
+  "i": 5,
+  "text": "Der Erpresser fordert 500.000 Mark. Das Geld soll aus einer fahrenden S-Bahn geworfen werden.",
+  "tts": "Der Erpresser fordert fünfhunderttausend Mark. Das Geld soll aus einer fahrenden S-Bahn geworfen werden.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_05.mp3",
+  "duration": 5.399,
+  "heard": "Der Erpresser fordert 500.000 Mark. Das Geld soll aus einer fahrenden S-Bahn geworfen werden.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0395,
+    0.12
+   ],
+   [
+    0.1579,
+    0.62
+   ],
+   [
+    0.25,
+    1.04
+   ],
+   [
+    0.2895,
+    1.28
+   ],
+   [
+    0.3289,
+    1.86
+   ],
+   [
+    0.3816,
+    2.5
+   ],
+   [
+    0.4211,
+    2.58
+   ],
+   [
+    0.4737,
+    2.82
+   ],
+   [
+    0.5263,
+    3.04
+   ],
+   [
+    0.5658,
+    3.2
+   ],
+   [
+    0.6316,
+    3.32
+   ],
+   [
+    0.75,
+    3.94
+   ],
+   [
+    0.7632,
+    4.24
+   ],
+   [
+    0.8158,
+    4.5
+   ],
+   [
+    0.9211,
+    4.9
+   ],
+   [
+    1.0,
+    5.1
+   ]
+  ]
+ },
+ {
+  "i": 6,
+  "text": "Die Übergabe klappt. Der Täter entkommt mit dem Geld.",
+  "tts": "Die Übergabe klappt. Der Täter entkommt mit dem Geld.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_06.mp3",
+  "duration": 2.78,
+  "heard": "Die Übergabe klappt. Der Täter entkommt mit dem Geld.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0698,
+    0.12
+   ],
+   [
+    0.2558,
+    0.48
+   ],
+   [
+    0.3953,
+    1.22
+   ],
+   [
+    0.4651,
+    1.34
+   ],
+   [
+    0.5814,
+    1.64
+   ],
+   [
+    0.7674,
+    2.06
+   ],
+   [
+    0.8372,
+    2.22
+   ],
+   [
+    0.907,
+    2.32
+   ],
+   [
+    1.0,
+    2.5
+   ]
+  ]
+ },
+ {
+  "i": 7,
+  "text": "1992 meldet er sich wieder, diesmal bei Karstadt.",
+  "tts": "Neunzehnhundertzweiundneunzig meldet er sich wieder, diesmal bei Karstadt.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_07.mp3",
+  "duration": 3.573,
+  "heard": "1992 meldet er sich wieder, diesmal bei Karstadt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1,
+    0.7
+   ],
+   [
+    0.25,
+    1.56
+   ],
+   [
+    0.3,
+    1.68
+   ],
+   [
+    0.4,
+    1.78
+   ],
+   [
+    0.55,
+    2.42
+   ],
+   [
+    0.725,
+    2.8
+   ],
+   [
+    0.8,
+    2.9
+   ],
+   [
+    1.0,
+    3.28
+   ]
+  ]
+ },
+ {
+  "i": 8,
+  "text": "Er fordert 1,4 Millionen Mark.",
+  "tts": "Er fordert eins Komma vier Millionen Mark.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_08.mp3",
+  "duration": 2.039,
+  "heard": "Erfordert 1,4 Millionen Mark.",
+  "score": 0.77,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.375,
+    0.4
+   ],
+   [
+    0.4167,
+    0.66
+   ],
+   [
+    0.4583,
+    1.22
+   ],
+   [
+    0.8333,
+    1.52
+   ],
+   [
+    1.0,
+    1.82
+   ]
+  ]
+ },
+ {
+  "i": 9,
+  "text": "Das Zeichen, dass Karstadt zahlen will, ist eine Zeitungsanzeige.",
+  "tts": "Das Zeichen, dass Karstadt zahlen will, ist eine Zeitungsanzeige.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_09.mp3",
+  "duration": 3.357,
+  "heard": "Das Zeichen, das Karstadt zahlen will, ist eine Zeitungsanzeige.",
+  "score": 0.89,
+  "diff": [
+   "dass→das"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0566,
+    0.14
+   ],
+   [
+    0.1887,
+    0.72
+   ],
+   [
+    0.2453,
+    0.78
+   ],
+   [
+    0.3962,
+    1.14
+   ],
+   [
+    0.5094,
+    1.48
+   ],
+   [
+    0.5849,
+    1.98
+   ],
+   [
+    0.6415,
+    2.1
+   ],
+   [
+    0.717,
+    2.24
+   ],
+   [
+    1.0,
+    3.16
+   ]
+  ]
+ },
+ {
+  "i": 10,
+  "text": "Darin steht: „Dagobert grüßt seine Neffen“.",
+  "tts": "Darin steht: „Dagobert grüßt seine Neffen“.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_10.mp3",
+  "duration": 2.203,
+  "heard": "Darin steht, der Gobert grüßt seinen Effen.",
+  "score": 0.46,
+  "diff": [
+   "dagobert→dergobert"
+  ],
+  "align": []
+ },
+ {
+  "i": 11,
+  "text": "So bekommt der Erpresser seinen Namen.",
+  "tts": "So bekommt der Erpresser seinen Namen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_11.mp3",
+  "duration": 1.915,
+  "heard": "So bekommt der Erpresser seinen Namen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0625,
+    0.2
+   ],
+   [
+    0.2812,
+    0.42
+   ],
+   [
+    0.375,
+    0.58
+   ],
+   [
+    0.6562,
+    1.08
+   ],
+   [
+    0.8438,
+    1.3
+   ],
+   [
+    1.0,
+    1.64
+   ]
+  ]
+ },
+ {
+  "i": 12,
+  "text": "Um Druck zu machen, verübt er mehrere Anschläge auf Karstadt-Häuser.",
+  "tts": "Um Druck zu machen, verübt er mehrere Anschläge auf Karstadt-Häuser.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_12.mp3",
+  "duration": 3.387,
+  "heard": "Um Druck zu machen, verübt er mehrere Anschläge auf Karstadthäuser.",
+  "score": 0.86,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0357,
+    0.12
+   ],
+   [
+    0.125,
+    0.32
+   ],
+   [
+    0.1607,
+    0.5
+   ],
+   [
+    0.2679,
+    1.04
+   ],
+   [
+    0.375,
+    1.36
+   ],
+   [
+    0.4107,
+    1.46
+   ],
+   [
+    0.5357,
+    1.68
+   ],
+   [
+    0.6964,
+    2.36
+   ],
+   [
+    0.75,
+    2.56
+   ],
+   [
+    1.0,
+    3.24
+   ]
+  ]
+ },
+ {
+  "i": 13,
+  "text": "Und er erfindet immer neue Tricks für die Geldübergabe.",
+  "tts": "Und er erfindet immer neue Tricks für die Geldübergabe.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_13.mp3",
+  "duration": 2.4,
+  "heard": "und er erfindet immer neue Tricks für die Geldübergabe.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0652,
+    0.18
+   ],
+   [
+    0.1087,
+    0.32
+   ],
+   [
+    0.2826,
+    0.68
+   ],
+   [
+    0.3913,
+    0.9
+   ],
+   [
+    0.4783,
+    1.12
+   ],
+   [
+    0.6087,
+    1.42
+   ],
+   [
+    0.6739,
+    1.54
+   ],
+   [
+    0.7391,
+    1.62
+   ],
+   [
+    1.0,
+    2.2
+   ]
+  ]
+ },
+ {
+  "i": 14,
+  "text": "Eine Kiste, die mit Magneten an einem Zug hängt.",
+  "tts": "Eine Kiste, die mit Magneten an einem Zug hängt.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_14.mp3",
+  "duration": 2.394,
+  "heard": "eine Kiste, die mit Magneten an einem Zug hängt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1053,
+    0.16
+   ],
+   [
+    0.2368,
+    0.72
+   ],
+   [
+    0.3158,
+    0.86
+   ],
+   [
+    0.3947,
+    0.96
+   ],
+   [
+    0.6053,
+    1.42
+   ],
+   [
+    0.6579,
+    1.54
+   ],
+   [
+    0.7895,
+    1.68
+   ],
+   [
+    0.8684,
+    1.92
+   ],
+   [
+    1.0,
+    2.18
+   ]
+  ]
+ },
+ {
+  "i": 15,
+  "text": "Eine selbstgebaute Lore auf einem stillgelegten Gleis. Kurz vor ihm entgleist sie.",
+  "tts": "Eine selbstgebaute Lore auf einem stillgelegten Gleis. Kurz vor ihm entgleist sie.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_15.mp3",
+  "duration": 4.24,
+  "heard": "Eine selbst gebaute Loa auf einem stillgelegten Gleis. Kurz vor ihm entgleist sie.",
+  "score": 0.8,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.16
+   ],
+   [
+    0.1471,
+    0.36
+   ],
+   [
+    0.25,
+    0.78
+   ],
+   [
+    0.2941,
+    1.14
+   ],
+   [
+    0.3382,
+    1.42
+   ],
+   [
+    0.4118,
+    1.54
+   ],
+   [
+    0.6029,
+    2.22
+   ],
+   [
+    0.6765,
+    2.86
+   ],
+   [
+    0.7353,
+    3.04
+   ],
+   [
+    0.7794,
+    3.28
+   ],
+   [
+    0.8235,
+    3.46
+   ],
+   [
+    0.9559,
+    3.92
+   ],
+   [
+    1.0,
+    4.06
+   ]
+  ]
+ },
+ {
+  "i": 16,
+  "text": "Einmal ist ihm ein Polizist ganz nah, dann rutscht der Beamte aus.",
+  "tts": "Einmal ist ihm ein Polizist ganz nah, dann rutscht der Beamte aus.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_16.mp3",
+  "duration": 3.274,
+  "heard": "Einmal ist ihm ein Polizist ganz nah, dann rutscht der Beamte aus.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1132,
+    0.32
+   ],
+   [
+    0.1698,
+    0.48
+   ],
+   [
+    0.2264,
+    0.58
+   ],
+   [
+    0.283,
+    0.66
+   ],
+   [
+    0.434,
+    1.14
+   ],
+   [
+    0.5094,
+    1.28
+   ],
+   [
+    0.566,
+    1.92
+   ],
+   [
+    0.6415,
+    2.06
+   ],
+   [
+    0.7736,
+    2.34
+   ],
+   [
+    0.8302,
+    2.44
+   ],
+   [
+    0.9434,
+    2.8
+   ],
+   [
+    1.0,
+    3.0
+   ]
+  ]
+ },
+ {
+  "i": 17,
+  "text": "Die Zeitungen schreiben: auf Hundekot. In Wahrheit waren es nasse Blätter.",
+  "tts": "Die Zeitungen schreiben: auf Hundekot. In Wahrheit waren es nasse Blätter.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_17.mp3",
+  "duration": 3.648,
+  "heard": "Die Zeitungen schreiben auf Hundekot in Wahrheit warne es nasse Blätter.",
+  "score": 0.91,
+  "diff": [
+   "waren→warne"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0492,
+    0.1
+   ],
+   [
+    0.1967,
+    0.48
+   ],
+   [
+    0.3443,
+    0.86
+   ],
+   [
+    0.3934,
+    1.38
+   ],
+   [
+    0.5246,
+    2.0
+   ],
+   [
+    0.5574,
+    2.26
+   ],
+   [
+    0.6885,
+    2.62
+   ],
+   [
+    0.7705,
+    2.84
+   ],
+   [
+    0.8033,
+    2.94
+   ],
+   [
+    0.8852,
+    3.2
+   ],
+   [
+    1.0,
+    3.46
+   ]
+  ]
+ },
+ {
+  "i": 18,
+  "text": "Die Polizei wird zum Gespött, Dagobert zum Star.",
+  "tts": "Die Polizei wird zum Gespött, Dagobert zum Star.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_18.mp3",
+  "duration": 2.4,
+  "heard": "Die Polizei wird zum gespött, der Gober zum Starr.",
+  "score": 0.71,
+  "diff": [
+   "dagobert→dergober",
+   "star→starr"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.075,
+    0.1
+   ],
+   [
+    0.25,
+    0.44
+   ],
+   [
+    0.35,
+    0.66
+   ],
+   [
+    0.425,
+    0.84
+   ],
+   [
+    0.6,
+    1.44
+   ],
+   [
+    0.675,
+    1.48
+   ],
+   [
+    0.8,
+    1.76
+   ],
+   [
+    0.875,
+    1.9
+   ],
+   [
+    1.0,
+    2.24
+   ]
+  ]
+ },
+ {
+  "i": 19,
+  "text": "Doch am 22. April 1994 ist Schluss.",
+  "tts": "Doch am zweiundzwanzigsten April neunzehnhundertvierundneunzig ist Schluss.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_19.mp3",
+  "duration": 4.053,
+  "heard": "Doch am 22. April 1994 ist Schluss.",
+  "score": 0.86,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1481,
+    0.16
+   ],
+   [
+    0.2222,
+    0.28
+   ],
+   [
+    0.2963,
+    1.28
+   ],
+   [
+    0.4815,
+    1.56
+   ],
+   [
+    0.6296,
+    2.82
+   ],
+   [
+    0.7407,
+    3.52
+   ],
+   [
+    1.0,
+    3.76
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "text": "Die Polizei fasst ihn in Berlin, in einer Telefonzelle.",
+  "tts": "Die Polizei fasst ihn in Berlin, in einer Telefonzelle.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_20.mp3",
+  "duration": 2.674,
+  "heard": "die Polizei fast in Berlin in einer Telefonzelle.",
+  "score": 0.82,
+  "diff": [
+   "fasstihn→fast"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0732,
+    0.1
+   ],
+   [
+    0.2439,
+    0.48
+   ],
+   [
+    0.3415,
+    0.76
+   ],
+   [
+    0.3902,
+    0.94
+   ],
+   [
+    0.5366,
+    1.28
+   ],
+   [
+    0.5854,
+    1.7
+   ],
+   [
+    0.7073,
+    1.82
+   ],
+   [
+    1.0,
+    2.52
+   ]
+  ]
+ },
+ {
+  "i": 21,
+  "text": "Dagobert heißt Arno Funke.",
+  "tts": "Dagobert heißt Arno Funke.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_21.mp3",
+  "duration": 1.391,
+  "heard": "Dagobat heißt auch noch Funke.",
+  "score": 0.44,
+  "diff": [
+   "dagobert→dagobat",
+   "arno→auchnoch"
+  ],
+  "align": []
+ },
+ {
+  "i": 22,
+  "text": "Er wird zu neun Jahren Haft verurteilt. Im Jahr 2000 kommt er vorzeitig frei.",
+  "tts": "Er wird zu neun Jahren Haft verurteilt. Im Jahr zweitausend kommt er vorzeitig frei.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_22.mp3",
+  "duration": 4.358,
+  "heard": "Er wird zu neun Jahren Haft verurteilt. Im Jahr 2000 kommt er vorzeitig frei.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0323,
+    0.1
+   ],
+   [
+    0.0968,
+    0.22
+   ],
+   [
+    0.129,
+    0.38
+   ],
+   [
+    0.1935,
+    0.6
+   ],
+   [
+    0.2903,
+    0.84
+   ],
+   [
+    0.3548,
+    1.18
+   ],
+   [
+    0.5161,
+    2.2
+   ],
+   [
+    0.5484,
+    2.3
+   ],
+   [
+    0.6129,
+    2.4
+   ],
+   [
+    0.6774,
+    3.02
+   ],
+   [
+    0.7581,
+    3.32
+   ],
+   [
+    0.7903,
+    3.42
+   ],
+   [
+    0.9355,
+    3.82
+   ],
+   [
+    1.0,
+    4.12
+   ]
+  ]
+ },
+ {
+  "i": 23,
+  "text": "Heute zeichnet er Cartoons.",
+  "tts": "Heute zeichnet er Cartoons.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_23.mp3",
+  "duration": 1.454,
+  "heard": "Heute zeichnet er Kartons.",
+  "score": 0.75,
+  "diff": [
+   "cartoons→kartons"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.2273,
+    0.24
+   ],
+   [
+    0.5909,
+    0.66
+   ],
+   [
+    0.6818,
+    0.76
+   ],
+   [
+    1.0,
+    1.18
+   ]
+  ]
+ },
+ {
+  "i": 24,
+  "text": "Und mit einem der Polizisten, die ihn jagten, ist er inzwischen befreundet.",
+  "tts": "Und mit einem der Polizisten, die ihn jagten, ist er inzwischen befreundet.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_24.mp3",
+  "duration": 3.603,
+  "heard": "Und mit einem der Polizisten, die ihn jagten, ist er inzwischen befreundet.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0492,
+    0.2
+   ],
+   [
+    0.0984,
+    0.42
+   ],
+   [
+    0.1803,
+    0.58
+   ],
+   [
+    0.2295,
+    0.72
+   ],
+   [
+    0.3934,
+    1.32
+   ],
+   [
+    0.4426,
+    1.44
+   ],
+   [
+    0.4918,
+    1.54
+   ],
+   [
+    0.5902,
+    2.26
+   ],
+   [
+    0.6393,
+    2.42
+   ],
+   [
+    0.6721,
+    2.58
+   ],
+   [
+    0.8361,
+    2.86
+   ],
+   [
+    1.0,
+    3.44
+   ]
+  ]
+ },
+ {
+  "i": 25,
+  "text": "Verbrecher oder Volksheld? Was denkst du?",
+  "tts": "Verbrecher oder Volksheld? Was denkst du?",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_25.mp3",
+  "duration": 2.117,
+  "heard": "Verbrecher oder Volksheld, was denkst du?",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.2941,
+    0.52
+   ],
+   [
+    0.4118,
+    0.64
+   ],
+   [
+    0.6765,
+    1.52
+   ],
+   [
+    0.7647,
+    1.66
+   ],
+   [
+    0.9412,
+    1.92
+   ],
+   [
+    1.0,
+    2.0
+   ]
+  ]
+ }
+]
