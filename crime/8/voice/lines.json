@@ -1,0 +1,1388 @@
+[
+ {
+  "i": 1,
+  "text": "Dresden, 25. November 2019, kurz vor fünf Uhr morgens.",
+  "tts": "Dresden, fünfundzwanzigsten November zweitausendneunzehn, kurz vor fünf Uhr morgens.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_01.mp3",
+  "duration": 4.573,
+  "heard": "Dresden, 25. November 2019, kurz vor 5 Uhr morgens.",
+  "score": 0.89,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1795,
+    0.66
+   ],
+   [
+    0.2308,
+    1.48
+   ],
+   [
+    0.4359,
+    1.72
+   ],
+   [
+    0.5385,
+    3.16
+   ],
+   [
+    0.641,
+    3.34
+   ],
+   [
+    0.7179,
+    3.56
+   ],
+   [
+    0.7436,
+    3.78
+   ],
+   [
+    0.8205,
+    3.92
+   ],
+   [
+    1.0,
+    4.32
+   ]
+  ]
+ },
+ {
+  "i": 2,
+  "text": "In der Altstadt geht plötzlich das Licht aus.",
+  "tts": "In der Altstadt geht plötzlich das Licht aus.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_02.mp3",
+  "duration": 2.042,
+  "heard": "In der Altstadt geht plötzlich das Licht aus.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0541,
+    0.1
+   ],
+   [
+    0.1351,
+    0.2
+   ],
+   [
+    0.3514,
+    0.54
+   ],
+   [
+    0.4595,
+    0.72
+   ],
+   [
+    0.7027,
+    1.08
+   ],
+   [
+    0.7838,
+    1.28
+   ],
+   [
+    0.9189,
+    1.46
+   ],
+   [
+    1.0,
+    1.72
+   ]
+  ]
+ },
+ {
+  "i": 3,
+  "text": "Minuten später fehlen im Grünen Gewölbe Juwelen im Wert von über hundert Millionen Euro.",
+  "tts": "Minuten später fehlen im Grünen Gewölbe Juwelen im Wert von über hundert Millionen Euro.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_03.mp3",
+  "duration": 4.321,
+  "heard": "Minuten später fehlen im grünen Gewölbe Juwelen im Wert von über 100 Millionen Euro.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1,
+    0.2
+   ],
+   [
+    0.1857,
+    0.54
+   ],
+   [
+    0.2714,
+    1.0
+   ],
+   [
+    0.3,
+    1.14
+   ],
+   [
+    0.3857,
+    1.46
+   ],
+   [
+    0.4857,
+    1.86
+   ],
+   [
+    0.5857,
+    2.26
+   ],
+   [
+    0.6143,
+    2.38
+   ],
+   [
+    0.6714,
+    2.58
+   ],
+   [
+    0.7143,
+    2.84
+   ],
+   [
+    0.7714,
+    3.1
+   ],
+   [
+    0.8143,
+    3.38
+   ],
+   [
+    0.9429,
+    3.62
+   ],
+   [
+    1.0,
+    4.1
+   ]
+  ]
+ },
+ {
+  "i": 4,
+  "text": "Das ist einer der spektakulärsten Museumseinbrüche Deutschlands.",
+  "tts": "Das ist einer der spektakulärsten Museumseinbrüche Deutschlands.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_04.mp3",
+  "duration": 3.094,
+  "heard": "Das ist einer der spektakulärsten Museumseinbrüche Deutschlands.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0526,
+    0.12
+   ],
+   [
+    0.1053,
+    0.24
+   ],
+   [
+    0.193,
+    0.4
+   ],
+   [
+    0.2456,
+    0.52
+   ],
+   [
+    0.5088,
+    1.48
+   ],
+   [
+    0.7895,
+    2.36
+   ],
+   [
+    1.0,
+    2.84
+   ]
+  ]
+ },
+ {
+  "i": 5,
+  "text": "Das Grüne Gewölbe im Residenzschloss ist eine der großen Schatzkammern Europas.",
+  "tts": "Das Grüne Gewölbe im Residenzschloss ist eine der großen Schatzkammern Europas.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_05.mp3",
+  "duration": 4.107,
+  "heard": "Das grüne Gewölbe im Residenzschloss ist eine der großen Schatzkammern Europas.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0441,
+    0.14
+   ],
+   [
+    0.1176,
+    0.44
+   ],
+   [
+    0.2206,
+    0.9
+   ],
+   [
+    0.25,
+    1.04
+   ],
+   [
+    0.4706,
+    1.8
+   ],
+   [
+    0.5147,
+    2.1
+   ],
+   [
+    0.5735,
+    2.3
+   ],
+   [
+    0.6176,
+    2.4
+   ],
+   [
+    0.7059,
+    2.68
+   ],
+   [
+    0.8971,
+    3.34
+   ],
+   [
+    1.0,
+    3.92
+   ]
+  ]
+ },
+ {
+  "i": 6,
+  "text": "Die Täter hatten einen Stromverteiler angezündet. Die Straßenlaternen gingen aus.",
+  "tts": "Die Täter hatten einen Stromverteiler angezündet. Die Straßenlaternen gingen aus.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_06.mp3",
+  "duration": 4.279,
+  "heard": "Die Täter hatten einen Stromverteiler angezündet, die Straßenlatern gingen aus.",
+  "score": 0.9,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0441,
+    0.12
+   ],
+   [
+    0.1176,
+    0.48
+   ],
+   [
+    0.2059,
+    0.68
+   ],
+   [
+    0.2794,
+    0.9
+   ],
+   [
+    0.4853,
+    1.68
+   ],
+   [
+    0.6324,
+    2.68
+   ],
+   [
+    0.6765,
+    2.74
+   ],
+   [
+    0.8676,
+    3.54
+   ],
+   [
+    0.9559,
+    3.78
+   ],
+   [
+    1.0,
+    4.0
+   ]
+  ]
+ },
+ {
+  "i": 7,
+  "text": "Dann stiegen sie durch ein Fenster ein. Das Gitter davor war vorher durchtrennt worden.",
+  "tts": "Dann stiegen sie durch ein Fenster ein. Das Gitter davor war vorher durchtrennt worden.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_07.mp3",
+  "duration": 4.364,
+  "heard": "Dann stiegen sie durch ein Fenster ein. Das Gitter davor war vorher durchtrennt worden.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0556,
+    0.16
+   ],
+   [
+    0.1528,
+    0.44
+   ],
+   [
+    0.1944,
+    0.66
+   ],
+   [
+    0.2639,
+    0.94
+   ],
+   [
+    0.3056,
+    1.08
+   ],
+   [
+    0.4028,
+    1.44
+   ],
+   [
+    0.4444,
+    2.24
+   ],
+   [
+    0.4861,
+    2.36
+   ],
+   [
+    0.5694,
+    2.6
+   ],
+   [
+    0.6389,
+    2.9
+   ],
+   [
+    0.6806,
+    3.08
+   ],
+   [
+    0.7639,
+    3.4
+   ],
+   [
+    0.9167,
+    3.94
+   ],
+   [
+    1.0,
+    4.1
+   ]
+  ]
+ },
+ {
+  "i": 8,
+  "text": "Mit einer Axt schlugen sie auf eine Vitrine ein, bis das Sicherheitsglas nachgab.",
+  "tts": "Mit einer Axt schlugen sie auf eine Vitrine ein, bis das Sicherheitsglas nachgab.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_08.mp3",
+  "duration": 3.859,
+  "heard": "Mit einer Axt schlugen sie auf eine Vitrine ein, bis das Sicherheitsglas nachgab.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0448,
+    0.14
+   ],
+   [
+    0.1194,
+    0.32
+   ],
+   [
+    0.1642,
+    0.68
+   ],
+   [
+    0.2836,
+    1.06
+   ],
+   [
+    0.3284,
+    1.18
+   ],
+   [
+    0.3731,
+    1.34
+   ],
+   [
+    0.4328,
+    1.46
+   ],
+   [
+    0.5373,
+    1.84
+   ],
+   [
+    0.5821,
+    2.48
+   ],
+   [
+    0.6269,
+    2.6
+   ],
+   [
+    0.6716,
+    2.76
+   ],
+   [
+    0.8955,
+    3.4
+   ],
+   [
+    1.0,
+    3.78
+   ]
+  ]
+ },
+ {
+  "i": 9,
+  "text": "Eine Kamera filmte alles. Doch nach wenigen Minuten waren die Täter wieder draußen.",
+  "tts": "Eine Kamera filmte alles. Doch nach wenigen Minuten waren die Täter wieder draußen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_09.mp3",
+  "duration": 4.205,
+  "heard": "Eine Kamera filmte alles, doch nach wenigen Minuten waren die Täter wieder draußen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.058,
+    0.16
+   ],
+   [
+    0.1449,
+    0.44
+   ],
+   [
+    0.2319,
+    0.88
+   ],
+   [
+    0.3043,
+    1.54
+   ],
+   [
+    0.3623,
+    1.72
+   ],
+   [
+    0.4203,
+    1.98
+   ],
+   [
+    0.5217,
+    2.32
+   ],
+   [
+    0.6232,
+    2.7
+   ],
+   [
+    0.6957,
+    3.06
+   ],
+   [
+    0.7391,
+    3.22
+   ],
+   [
+    0.8116,
+    3.54
+   ],
+   [
+    0.8986,
+    3.66
+   ],
+   [
+    1.0,
+    3.92
+   ]
+  ]
+ },
+ {
+  "i": 10,
+  "text": "In einer Tiefgarage zündeten sie ihr Fluchtauto an und verschwanden.",
+  "tts": "In einer Tiefgarage zündeten sie ihr Fluchtauto an und verschwanden.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_10.mp3",
+  "duration": 3.521,
+  "heard": "in einer Tiefgarage zündeten sie ihr Fluchtauto an und verschwanden.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0345,
+    0.12
+   ],
+   [
+    0.1207,
+    0.26
+   ],
+   [
+    0.2931,
+    0.98
+   ],
+   [
+    0.431,
+    1.58
+   ],
+   [
+    0.4828,
+    1.74
+   ],
+   [
+    0.5345,
+    1.88
+   ],
+   [
+    0.7069,
+    2.36
+   ],
+   [
+    0.7414,
+    2.6
+   ],
+   [
+    0.7931,
+    2.86
+   ],
+   [
+    1.0,
+    3.34
+   ]
+  ]
+ },
+ {
+  "i": 11,
+  "text": "Gestohlen wurden Schmuckstücke mit Tausenden Diamanten.",
+  "tts": "Gestohlen wurden Schmuckstücke mit Tausenden Diamanten.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_11.mp3",
+  "duration": 2.929,
+  "heard": "gestohlen wurden Schmuckstücke mit Tausenden Diamanten.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1837,
+    0.56
+   ],
+   [
+    0.3061,
+    0.96
+   ],
+   [
+    0.5714,
+    1.58
+   ],
+   [
+    0.6327,
+    1.7
+   ],
+   [
+    0.8163,
+    2.18
+   ],
+   [
+    1.0,
+    2.7
+   ]
+  ]
+ },
+ {
+  "i": 12,
+  "text": "Ein Jahr später durchsuchte die Polizei Wohnungen in Berlin.",
+  "tts": "Ein Jahr später durchsuchte die Polizei Wohnungen in Berlin.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_12.mp3",
+  "duration": 2.991,
+  "heard": "Ein Jahr später durchsuchte die Polizei Wohnungen in Berlin.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.14
+   ],
+   [
+    0.1373,
+    0.28
+   ],
+   [
+    0.2549,
+    0.6
+   ],
+   [
+    0.4706,
+    1.32
+   ],
+   [
+    0.5294,
+    1.46
+   ],
+   [
+    0.6667,
+    1.84
+   ],
+   [
+    0.8431,
+    2.34
+   ],
+   [
+    0.8824,
+    2.46
+   ],
+   [
+    1.0,
+    2.64
+   ]
+  ]
+ },
+ {
+  "i": 13,
+  "text": "Festgenommen wurden junge Männer aus einer Berliner Großfamilie.",
+  "tts": "Festgenommen wurden junge Männer aus einer Berliner Großfamilie.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_13.mp3",
+  "duration": 3.281,
+  "heard": "Festgenommen wurden junge Männer aus einer Berliner Großfamilie.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.2143,
+    0.54
+   ],
+   [
+    0.3214,
+    1.04
+   ],
+   [
+    0.4107,
+    1.32
+   ],
+   [
+    0.5179,
+    1.6
+   ],
+   [
+    0.5714,
+    1.88
+   ],
+   [
+    0.6607,
+    2.02
+   ],
+   [
+    0.8036,
+    2.38
+   ],
+   [
+    1.0,
+    3.16
+   ]
+  ]
+ },
+ {
+  "i": 14,
+  "text": "Einer von ihnen war schon an einem anderen Coup beteiligt gewesen.",
+  "tts": "Einer von ihnen war schon an einem anderen Coup beteiligt gewesen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_14.mp3",
+  "duration": 3.163,
+  "heard": "Einer von ihnen war schon an einem anderen Coop beteiligt gewesen.",
+  "score": 0.91,
+  "diff": [
+   "coup→coop"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0909,
+    0.24
+   ],
+   [
+    0.1455,
+    0.36
+   ],
+   [
+    0.2364,
+    0.56
+   ],
+   [
+    0.2909,
+    0.98
+   ],
+   [
+    0.3818,
+    1.18
+   ],
+   [
+    0.4182,
+    1.36
+   ],
+   [
+    0.5091,
+    1.54
+   ],
+   [
+    0.6364,
+    1.78
+   ],
+   [
+    0.7091,
+    2.16
+   ],
+   [
+    0.8727,
+    2.62
+   ],
+   [
+    1.0,
+    2.84
+   ]
+  ]
+ },
+ {
+  "i": 15,
+  "text": "2017 war aus dem Berliner Bode-Museum eine 100 Kilo schwere Goldmünze verschwunden.",
+  "tts": "Zweitausendsiebzehn war aus dem Berliner Bode-Museum eine hundert Kilo schwere Goldmünze verschwunden.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_15.mp3",
+  "duration": 5.482,
+  "heard": "2017 war aus dem Berliner Bodemuseum eine 100 kg schwere Goldmünze verschwunden.",
+  "score": 0.8,
+  "diff": [
+   "kilo→kg"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.96
+   ],
+   [
+    0.1029,
+    1.48
+   ],
+   [
+    0.1471,
+    1.68
+   ],
+   [
+    0.1912,
+    1.8
+   ],
+   [
+    0.3088,
+    2.18
+   ],
+   [
+    0.4559,
+    2.88
+   ],
+   [
+    0.5147,
+    3.32
+   ],
+   [
+    0.5588,
+    3.6
+   ],
+   [
+    0.5882,
+    3.84
+   ],
+   [
+    0.6912,
+    4.22
+   ],
+   [
+    0.8235,
+    4.74
+   ],
+   [
+    1.0,
+    5.26
+   ]
+  ]
+ },
+ {
+  "i": 16,
+  "text": "Im Prozess kam es zu einer Absprache: Ein großer Teil der Beute wurde zurückgegeben.",
+  "tts": "Im Prozess kam es zu einer Absprache: Ein großer Teil der Beute wurde zurückgegeben.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_16.mp3",
+  "duration": 4.335,
+  "heard": "Im Prozess kam es zu einer Absprache. Ein großer Teil der Beute wurde zurückgegeben.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.029,
+    0.1
+   ],
+   [
+    0.1304,
+    0.58
+   ],
+   [
+    0.1739,
+    0.88
+   ],
+   [
+    0.2029,
+    1.02
+   ],
+   [
+    0.2319,
+    1.14
+   ],
+   [
+    0.3043,
+    1.28
+   ],
+   [
+    0.4348,
+    2.24
+   ],
+   [
+    0.4783,
+    2.34
+   ],
+   [
+    0.5652,
+    2.54
+   ],
+   [
+    0.6232,
+    2.86
+   ],
+   [
+    0.6667,
+    3.02
+   ],
+   [
+    0.7391,
+    3.34
+   ],
+   [
+    0.8116,
+    3.5
+   ],
+   [
+    1.0,
+    4.16
+   ]
+  ]
+ },
+ {
+  "i": 17,
+  "text": "Im Mai 2023 wurden fünf Männer verurteilt, zu Haftstrafen zwischen vier und gut sechs Jahren.",
+  "tts": "Im Mai zweitausenddreiundzwanzig wurden fünf Männer verurteilt, zu Haftstrafen zwischen vier und gut sechs Jahren.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_17.mp3",
+  "duration": 5.928,
+  "heard": "Im Mai 2023 wurden fünf Männer verurteilt zu Haftstrafen zwischen vier und gut sechs Jahren.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.026,
+    0.14
+   ],
+   [
+    0.0649,
+    0.24
+   ],
+   [
+    0.1169,
+    1.28
+   ],
+   [
+    0.1948,
+    1.94
+   ],
+   [
+    0.2468,
+    2.24
+   ],
+   [
+    0.3247,
+    2.5
+   ],
+   [
+    0.4545,
+    3.2
+   ],
+   [
+    0.4805,
+    3.48
+   ],
+   [
+    0.6234,
+    4.16
+   ],
+   [
+    0.7273,
+    4.36
+   ],
+   [
+    0.7792,
+    4.8
+   ],
+   [
+    0.8182,
+    4.96
+   ],
+   [
+    0.8571,
+    5.14
+   ],
+   [
+    0.9221,
+    5.42
+   ],
+   [
+    1.0,
+    5.72
+   ]
+  ]
+ },
+ {
+  "i": 18,
+  "text": "Ein sechster Angeklagter wurde freigesprochen.",
+  "tts": "Ein sechster Angeklagter wurde freigesprochen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_18.mp3",
+  "duration": 2.407,
+  "heard": "Ein sechster Angeklagter wurde freigesprochen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0732,
+    0.14
+   ],
+   [
+    0.2683,
+    0.54
+   ],
+   [
+    0.5366,
+    1.22
+   ],
+   [
+    0.6585,
+    1.4
+   ],
+   [
+    1.0,
+    2.14
+   ]
+  ]
+ },
+ {
+  "i": 19,
+  "text": "2024 bestätigte der Bundesgerichtshof das Urteil.",
+  "tts": "Zweitausendvierundzwanzig bestätigte der Bundesgerichtshof das Urteil.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_19.mp3",
+  "duration": 3.772,
+  "heard": "2024 bestätigte der Bundesgerichtshof das Urteil.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.093,
+    1.04
+   ],
+   [
+    0.3256,
+    2.14
+   ],
+   [
+    0.3953,
+    2.24
+   ],
+   [
+    0.7907,
+    3.04
+   ],
+   [
+    0.8605,
+    3.16
+   ],
+   [
+    1.0,
+    3.54
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "text": "Die meisten Juwelen sind heute wieder im Grünen Gewölbe zu sehen.",
+  "tts": "Die meisten Juwelen sind heute wieder im Grünen Gewölbe zu sehen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_20.mp3",
+  "duration": 3.16,
+  "heard": "Die meisten Juwelen sind heute wieder im grünen Gewölbe zu sehen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0556,
+    0.12
+   ],
+   [
+    0.1852,
+    0.36
+   ],
+   [
+    0.3148,
+    0.8
+   ],
+   [
+    0.3889,
+    0.94
+   ],
+   [
+    0.4815,
+    1.18
+   ],
+   [
+    0.5926,
+    1.46
+   ],
+   [
+    0.6296,
+    1.76
+   ],
+   [
+    0.7407,
+    2.12
+   ],
+   [
+    0.8704,
+    2.54
+   ],
+   [
+    0.9074,
+    2.68
+   ],
+   [
+    1.0,
+    2.94
+   ]
+  ]
+ },
+ {
+  "i": 21,
+  "text": "Doch nach letzten Berichten fehlen einige der wertvollsten Stücke noch immer.",
+  "tts": "Doch nach letzten Berichten fehlen einige der wertvollsten Stücke noch immer.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_21.mp3",
+  "duration": 3.685,
+  "heard": "Doch nach letzten Berichten fehlen einige der wertvollsten Stücke noch immer.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0606,
+    0.2
+   ],
+   [
+    0.1212,
+    0.42
+   ],
+   [
+    0.2273,
+    0.7
+   ],
+   [
+    0.3636,
+    1.18
+   ],
+   [
+    0.4545,
+    1.8
+   ],
+   [
+    0.5455,
+    2.12
+   ],
+   [
+    0.5909,
+    2.3
+   ],
+   [
+    0.7727,
+    2.88
+   ],
+   [
+    0.8636,
+    3.18
+   ],
+   [
+    0.9242,
+    3.32
+   ],
+   [
+    1.0,
+    3.52
+   ]
+  ]
+ },
+ {
+  "i": 22,
+  "text": "Darunter eine Schulterzier mit dem Diamanten Sächsischer Weißer.",
+  "tts": "Darunter eine Schulterzier mit dem Diamanten Sächsischer Weißer.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_22.mp3",
+  "duration": 3.345,
+  "heard": "darunter eine Schulterzieher mit dem Diamanten sächsischer Weißer.",
+  "score": 0.88,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1379,
+    0.4
+   ],
+   [
+    0.2069,
+    0.66
+   ],
+   [
+    0.4483,
+    1.4
+   ],
+   [
+    0.5,
+    1.6
+   ],
+   [
+    0.5517,
+    1.72
+   ],
+   [
+    0.7069,
+    2.3
+   ],
+   [
+    0.8966,
+    2.84
+   ],
+   [
+    1.0,
+    3.22
+   ]
+  ]
+ },
+ {
+  "i": 23,
+  "text": "Wo sind sie? Zerlegt, verkauft oder irgendwo versteckt?",
+  "tts": "Wo sind sie? Zerlegt, verkauft oder irgendwo versteckt?",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_23.mp3",
+  "duration": 2.847,
+  "heard": "Wo sind sie, zerlegt, verkauft oder ihr YouTube versteckt?",
+  "score": 0.82,
+  "diff": [
+   "irgendwo→ihryoutube"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0426,
+    0.16
+   ],
+   [
+    0.1277,
+    0.3
+   ],
+   [
+    0.1915,
+    0.78
+   ],
+   [
+    0.3404,
+    1.28
+   ],
+   [
+    0.5106,
+    1.7
+   ],
+   [
+    0.5957,
+    1.9
+   ],
+   [
+    0.6596,
+    2.08
+   ],
+   [
+    0.8085,
+    2.22
+   ],
+   [
+    1.0,
+    2.68
+   ]
+  ]
+ },
+ {
+  "i": 24,
+  "text": "Was denkst du?",
+  "tts": "Was denkst du?",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_24.mp3",
+  "duration": 0.713,
+  "heard": "Was denkst du?",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.2727,
+    0.16
+   ],
+   [
+    0.8182,
+    0.46
+   ],
+   [
+    1.0,
+    0.56
+   ]
+  ]
+ }
+]
