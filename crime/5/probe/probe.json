@@ -1,0 +1,741 @@
+{
+ "started": "2026-11-17 06:10:31 UTC",
+ "queries": [
+  {
+   "k": 1,
+   "query": "Hinterkaifeck",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 4,
+    "openverse": 4
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 29,
+     "returned": 8,
+     "usable": 7,
+     "seconds": 0.4
+    },
+    "openverse": {
+     "total": 7,
+     "returned": 7,
+     "usable": 7,
+     "seconds": 0.9
+    },
+    "europeana": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.3
+    },
+    "loc": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.1
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 27,
+    "usable_big_enough": 27
+   }
+  },
+  {
+   "k": 2,
+   "query": "commons: Hinterkaifeck",
+   "kept": 7,
+   "kept_by_source": {
+    "commons": 7
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 29,
+     "returned": 12,
+     "usable": 11,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 7,
+    "same": 7,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 27,
+    "usable_big_enough": 27
+   }
+  },
+  {
+   "k": 3,
+   "query": "commons: Hinterkaifeck Marterl",
+   "kept": 1,
+   "kept_by_source": {
+    "commons": 1
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 2,
+     "returned": 2,
+     "usable": 1,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 1,
+    "same": 1,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 1,
+    "usable_big_enough": 1
+   }
+  },
+  {
+   "k": 4,
+   "query": "Gröbern Waidhofen",
+   "kept": 0,
+   "kept_by_source": {},
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 1,
+     "returned": 1,
+     "usable": 0,
+     "seconds": 0.3
+    },
+    "openverse": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.5
+    },
+    "europeana": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.2
+    },
+    "loc": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 10.5
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 0,
+    "same": 0,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 0,
+    "usable_big_enough": 0
+   }
+  },
+  {
+   "k": 5,
+   "query": "Waidhofen Friedhof",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 7,
+    "openverse": 1
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 121,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.5
+    },
+    "openverse": {
+     "total": 1,
+     "returned": 1,
+     "usable": 1,
+     "seconds": 1.4
+    },
+    "europeana": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.2
+    },
+    "loc": {
+     "error": "HTTPError: 429 HTTP Error 429: Too Many Requests",
+     "seconds": 48.1
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 50,
+    "usable_big_enough": 50
+   }
+  },
+  {
+   "k": 6,
+   "query": "Schrobenhausen",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 5,
+    "openverse": 3
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 5989,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 80,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.6
+    },
+    "europeana": {
+     "total": 13,
+     "returned": 13,
+     "usable": 8,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 50,
+    "usable_big_enough": 48
+   }
+  },
+  {
+   "k": 7,
+   "query": "Schrobenhausen 1920",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 8
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 12,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.5
+    },
+    "openverse": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 1.9
+    },
+    "europeana": {
+     "total": 1,
+     "returned": 1,
+     "usable": 1,
+     "seconds": 0.5
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 9,
+    "usable_big_enough": 9
+   }
+  },
+  {
+   "k": 8,
+   "query": "Reuthaue",
+   "kept": 5,
+   "kept_by_source": {
+    "commons": 5
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 145402,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.5
+    },
+    "openverse": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.9
+    },
+    "europeana": {
+     "total": 1,
+     "returned": 1,
+     "usable": 1,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 5,
+    "same": 5,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 50,
+    "usable_big_enough": 46
+   }
+  },
+  {
+   "k": 9,
+   "query": "footprints in snow",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 3,
+    "openverse": 3,
+    "europeana": 2
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 37499,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.4
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 1.2
+    },
+    "europeana": {
+     "total": 3,
+     "returned": 3,
+     "usable": 3,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 49,
+    "usable_big_enough": 49
+   }
+  },
+  {
+   "k": 10,
+   "query": "snowy field farm",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 4,
+    "openverse": 4
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 9653,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 146,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 4.3
+    },
+    "europeana": {
+     "total": 1,
+     "returned": 1,
+     "usable": 1,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 50,
+    "usable_big_enough": 49
+   }
+  },
+  {
+   "k": 11,
+   "query": "old farmhouse attic",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 1,
+    "openverse": 7
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 764,
+     "returned": 8,
+     "usable": 1,
+     "seconds": 0.4
+    },
+    "openverse": {
+     "total": 46,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 3.3
+    },
+    "europeana": {
+     "total": 0,
+     "returned": 0,
+     "usable": 0,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 9,
+    "usable_big_enough": 9
+   }
+  },
+  {
+   "k": 12,
+   "query": "old barn interior",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 3,
+    "openverse": 3,
+    "europeana": 2
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 15173,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.5
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 2.0
+    },
+    "europeana": {
+     "total": 57,
+     "returned": 16,
+     "usable": 8,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 50,
+    "usable_big_enough": 49
+   }
+  },
+  {
+   "k": 13,
+   "query": "Bavarian farmhouse",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 5,
+    "europeana": 1,
+    "openverse": 2
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 335,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.5
+    },
+    "openverse": {
+     "total": 5,
+     "returned": 5,
+     "usable": 5,
+     "seconds": 3.7
+    },
+    "europeana": {
+     "total": 1,
+     "returned": 1,
+     "usable": 1,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 7,
+    "new_now": 1,
+    "gone_now": 1,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 49,
+    "usable_big_enough": 48
+   }
+  },
+  {
+   "k": 14,
+   "query": "old iron key",
+   "kept": 8,
+   "kept_by_source": {
+    "commons": 4,
+    "openverse": 4
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 63903,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.4
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 1.6
+    },
+    "europeana": {
+     "total": 54,
+     "returned": 16,
+     "usable": 8,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 50,
+    "usable_big_enough": 43
+   }
+  },
+  {
+   "k": 15,
+   "query": "cattle barn",
+   "kept": 8,
+   "kept_by_source": {
+    "openverse": 4,
+    "commons": 3,
+    "europeana": 1
+   },
+   "error": null,
+   "sources": {
+    "commons": {
+     "total": 34771,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 0.6
+    },
+    "openverse": {
+     "total": 240,
+     "returned": 8,
+     "usable": 8,
+     "seconds": 8.0
+    },
+    "europeana": {
+     "total": 114,
+     "returned": 16,
+     "usable": 8,
+     "seconds": 0.3
+    }
+   },
+   "vs_first_search": {
+    "kept_then": 8,
+    "same": 8,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   },
+   "commons_50": {
+    "usable": 50,
+    "usable_big_enough": 48
+   }
+  },
+  {
+   "k": 16,
+   "query": "File:Germany adm location map.svg",
+   "kept": 1,
+   "kept_by_source": {
+    "commons": 1
+   },
+   "error": null,
+   "sources": {},
+   "vs_first_search": {
+    "kept_then": 1,
+    "same": 1,
+    "new_now": 0,
+    "gone_now": 0,
+    "same_query": true
+   }
+  }
+ ],
+ "problems": [],
+ "seconds_search": 734,
+ "dropped": {
+  "too_small": 13,
+  "duplicates": 5
+ },
+ "downloads": {
+  "tried": 122,
+  "failed": 12,
+  "seconds": 569,
+  "failed_by_host": {
+   "blm.kulturhotell.se": 1,
+   "finds.org.uk": 5,
+   "iiif.deutsche-digitale-bibliothek.de": 4,
+   "www.kew.org": 1,
+   "www.numistral.fr": 1
+  },
+  "failed_examples": [
+   {
+    "q": "Schrobenhausen",
+    "host": "www.numistral.fr",
+    "s": 256.56,
+    "err": "URLError:  <urlopen error timed out>"
+   },
+   {
+    "q": "Schrobenhausen",
+    "host": "iiif.deutsche-digitale-bibliothek.de",
+    "s": 2.47,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "Schrobenhausen",
+    "host": "iiif.deutsche-digitale-bibliothek.de",
+    "s": 2.26,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "Schrobenhausen",
+    "host": "iiif.deutsche-digitale-bibliothek.de",
+    "s": 2.25,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "Schrobenhausen 1920",
+    "host": "iiif.deutsche-digitale-bibliothek.de",
+    "s": 0.73,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "footprints in snow",
+    "host": "blm.kulturhotell.se",
+    "s": 256.89,
+    "err": "URLError:  <urlopen error timed out>"
+   },
+   {
+    "q": "snowy field farm",
+    "host": "www.kew.org",
+    "s": 0.1,
+    "err": "HTTPError: 403 HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "old iron key",
+    "host": "finds.org.uk",
+    "s": 0.18,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old iron key",
+    "host": "finds.org.uk",
+    "s": 0.04,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old iron key",
+    "host": "finds.org.uk",
+    "s": 0.04,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old iron key",
+    "host": "finds.org.uk",
+    "s": 0.05,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   },
+   {
+    "q": "old iron key",
+    "host": "finds.org.uk",
+    "s": 0.05,
+    "err": "HTTPError: 404 HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "api": {
+  "calls": 60,
+  "failed": 1,
+  "seconds": 122,
+  "calls_by_host": {
+   "api.europeana.eu": 13,
+   "api.openverse.org": 13,
+   "commons.wikimedia.org": 31,
+   "www.loc.gov": 3
+  },
+  "failed_examples": [
+   {
+    "q": "Waidhofen Friedhof",
+    "host": "www.loc.gov",
+    "s": 48.13,
+    "err": "HTTPError: 429 HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ "refused_sources": [
+  "loc"
+ ],
+ "seconds_total": 763
+}
