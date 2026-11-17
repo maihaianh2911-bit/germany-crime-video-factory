@@ -275,7 +275,16 @@ def wiki(q, n):
     item's own pictures, the pictures of its Wikipedia articles, its Commons category, then photos taken there."""
     q = q.strip()
     qid = q if re.fullmatch(r'Q\d+', q) else None
-    for lang in dict.fromkeys((LANG, 'de', 'en')):
+    for lang in dict.fromkeys((LANG, 'de', 'en')):   # the exact title of a Wikipedia article first: "Waidhofen (Oberbayern)"
+        if qid: break
+        try:
+            d = commons_api(f'https://{lang}.wikipedia.org/w/api.php', titles=q, prop='pageprops', redirects=1)
+        except Exception:
+            continue
+        for pg in (d.get('query') or {}).get('pages', {}).values():
+            pp = pg.get('pageprops') or {}
+            if pp.get('wikibase_item') and 'disambiguation' not in pp: qid = pp['wikibase_item']
+    for lang in dict.fromkeys((LANG, 'de', 'en')):   # else the item called so
         if qid: break
         hits = js(WIKIDATA + '?' + urllib.parse.urlencode({'action': 'wbsearchentities', 'search': q, 'language': lang, 'uselang': lang,
                                                            'type': 'item', 'limit': 3, 'format': 'json'})).get('search', [])

@@ -27,11 +27,11 @@ API_HOSTS = ('commons.wikimedia.org', 'api.openverse.org', 'api.europeana.eu', '
 _get, _js, _search = F.get, F.js, F.search
 
 
-def get(url, tries=4, raw=True):
+def get(url, *a, **kw):
     host = urllib.parse.urlsplit(url).netloc
     t0, err = time.time(), ''
     try:
-        return _get(url, tries, raw)
+        return _get(url, *a, **kw)
     except Exception as e:
         err = f'{type(e).__name__}: {getattr(e, "code", "")} {str(e)[:80]}'.strip()
         raise
