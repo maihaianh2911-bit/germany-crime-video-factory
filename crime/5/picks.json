@@ -32,17 +32,14 @@
   ]
  ],
  "images": {
-  "print": {
-   "src": "1/9-3.jpg"
-  },
-  "trail": {
-   "src": "2/11-2.jpg"
-  },
   "farm": {
-   "src": "1/1-1.jpg"
+   "src": "1/1-1.jpg",
+   "label": "Hof Hinterkaifeck · 1922"
   },
-  "trail2": {
-   "src": "1/9-8.jpg"
+  "plots": {
+   "src": "1/2-6.jpg",
+   "look": "clean",
+   "label": "Flurkarte: Hof Hinterkaifeck"
   },
   "sterbe": {
    "src": "2/1-4.jpg",
@@ -52,7 +49,8 @@
     0.03,
     0.95,
     0.975
-   ]
+   ],
+   "label": "Sterbebild der sechs Opfer"
   },
   "sterbe_m": {
    "src": "2/1-4.jpg",
@@ -62,50 +60,13 @@
     0.565,
     0.92,
     0.845
-   ]
-  },
-  "farm2": {
-   "src": "1/3-1.jpg"
-  },
-  "map": {
-   "src": "1/16-1.jpg"
-  },
-  "tree": {
-   "src": "2/1-10.jpg",
-   "look": "clean",
-   "crop": [
-    0.03,
-    0.03,
-    0.97,
-    0.95
-   ]
-  },
-  "stube": {
-   "src": "2/13-4.jpg"
-  },
-  "field": {
-   "src": "2/10-2.jpg"
-  },
-  "plots": {
-   "src": "1/2-6.jpg",
-   "look": "clean"
-  },
-  "key": {
-   "src": "1/14-4.jpg",
-   "look": "cutout"
-  },
-  "attic": {
-   "src": "2/5-3.jpg"
-  },
-  "door": {
-   "src": "2/6-6.jpg"
-  },
-  "track": {
-   "src": "1/10-8.jpg"
+   ],
+   "label": "Sterbebild · 1922"
   },
   "poster": {
    "src": "2/1-2.jpg",
-   "look": "clean"
+   "look": "clean",
+   "label": "Fahndungsplakat · April 1922"
   },
   "poster_b": {
    "src": "2/1-2.jpg",
@@ -115,13 +76,63 @@
     0.5,
     0.97,
     0.95
-   ]
+   ],
+   "label": "Fahndungsplakat · April 1922"
+  },
+  "farm2": {
+   "src": "1/3-1.jpg",
+   "label": "Hof Hinterkaifeck (vor 1922)"
+  },
+  "map": {
+   "src": "1/16-1.jpg",
+   "label": "Schrobenhausen, Oberbayern"
+  },
+  "tree": {
+   "src": "2/1-10.jpg",
+   "look": "clean",
+   "crop": [
+    0.03,
+    0.03,
+    0.97,
+    0.95
+   ],
+   "label": "Stammbaum der Familie Gruber"
+  },
+  "stube": {
+   "src": "2/13-4.jpg",
+   "label": "Bauernstube (Symbolbild)"
+  },
+  "trail": {
+   "src": "2/11-2.jpg",
+   "label": "Symbolbild"
+  },
+  "key": {
+   "src": "1/14-4.jpg",
+   "look": "cutout"
+  },
+  "attic": {
+   "src": "2/5-3.jpg",
+   "label": "Dachboden (Symbolbild)"
+  },
+  "door": {
+   "src": "2/6-6.jpg",
+   "label": "Treppe (Symbolbild)"
+  },
+  "track": {
+   "src": "1/10-8.jpg",
+   "label": "Feldweg im Schnee (Symbolbild)"
+  },
+  "memo": {
+   "src": "1/2-7.jpg",
+   "label": "Gedenkstein am Tatort"
   },
   "haue": {
-   "src": "2/1-3.jpg"
+   "src": "2/1-3.jpg",
+   "label": "Reuthaue (mutmaßl. Tatwaffe)"
   },
   "stall": {
-   "src": "2/9-6.jpg"
+   "src": "2/9-6.jpg",
+   "label": "Kuhstall (Symbolbild)"
   },
   "stadel": {
    "src": "1/2-4.jpg",
@@ -130,7 +141,8 @@
     0.547,
     0.307,
     0.735
-   ]
+   ],
+   "label": "Der Stadel · 1922"
   },
   "aussage": {
    "src": "2/1-6.jpg",
@@ -140,7 +152,8 @@
     0.025,
     0.462,
     0.525
-   ]
+   ],
+   "label": "Zeugenaussage aus der Akte"
   },
   "haue1": {
    "src": "2/1-8.jpg",
@@ -149,57 +162,60 @@
     0.2,
     0.62,
     0.9
-   ]
+   ],
+   "label": "Reuthaue (mutmaßl. Tatwaffe)"
   },
   "attic2": {
-   "src": "2/4-1.jpg"
+   "src": "2/4-1.jpg",
+   "label": "Dachboden (Symbolbild)"
   },
   "doc1": {
-   "src": "1/1-3.jpg"
+   "src": "1/1-3.jpg",
+   "label": "Polizeiakte Hinterkaifeck"
   },
   "doc2": {
-   "src": "1/1-7.jpg"
+   "src": "1/1-7.jpg",
+   "label": "Polizeivermerk aus der Akte"
   },
   "mahnmal": {
-   "src": "2/1-12.jpg"
+   "src": "2/1-12.jpg",
+   "label": "Gedenkstätte Hinterkaifeck"
   },
   "grab": {
-   "src": "2/1-11.jpg"
+   "src": "2/1-11.jpg",
+   "label": "Grabmal in Waidhofen"
   },
   "stairs": {
-   "src": "2/6-2.jpg"
+   "src": "2/6-2.jpg",
+   "label": "Dachbodentreppe (Symbolbild)"
   },
   "cows": {
-   "src": "2/9-1.jpg"
+   "src": "2/9-1.jpg",
+   "label": "Kuhstall (Symbolbild)"
+  },
+  "print": {
+   "src": "1/9-3.jpg",
+   "label": "Fußspur (Symbolbild)"
   },
   "haue3": {
-   "src": "2/1-9.jpg"
+   "src": "2/1-9.jpg",
+   "label": "Reuthaue (mutmaßl. Tatwaffe)"
   },
   "cow": {
-   "src": "2/9-2.jpg"
+   "src": "2/9-2.jpg",
+   "label": "Kuhstall (Symbolbild)"
   }
  },
  "scenes": [
   {
    "at": 1,
    "edit": "hook",
-   "why": "2 giây đầu: dấu chân trên tuyết đầy màn hình, có tiếng; cắt nhanh theo từng chữ của câu 1: vệt chân trên tuyết → trang trại thật năm 1922 → vệt chân đi vào rừng",
+   "head": {
+    "kicker": "AKTE 1922",
+    "title": "Hinterkaifeck"
+   },
+   "why": "2 giây đầu nói ngay vụ gì: tên vụ án hiện từ khung đầu trên ảnh thật trang trại Hinterkaifeck (cảnh sát chụp năm 1922), có tiếng; rồi cắt sang bản đồ thửa đất thật, khoanh đỏ trang trại khi đọc \"zu seinem Hof\"",
    "items": [
-    {
-     "photo": "print",
-     "pos": "full",
-     "view": [
-      0.25,
-      0.0,
-      0.75,
-      1.0
-     ]
-    },
-    {
-     "photo": "trail",
-     "pos": "full",
-     "at": "1/Schnee"
-    },
     {
      "photo": "farm",
      "pos": "full",
@@ -208,13 +224,28 @@
       0.0,
       0.8,
       1.0
-     ],
-     "at": "1/zu"
+     ]
     },
     {
-     "photo": "trail2",
+     "photo": "plots",
      "pos": "full",
-     "at": "1/nicht"
+     "view": [
+      0.22,
+      0.0,
+      0.716,
+      1.0
+     ],
+     "at": "1/Sie",
+     "ring": {
+      "box": [
+       0.4,
+       0.27,
+       0.53,
+       0.4
+      ],
+      "color": "red",
+      "at": "1/Hof"
+     }
     },
     {
      "tape": "Wer war im Haus?",
@@ -247,32 +278,26 @@
      "photo": "sterbe",
      "pos": [
       540,
-      760,
-      680
+      880,
+      590
      ]
     },
     {
      "tape": "6 TOTE",
      "color": "red",
-     "size": 80,
-     "pin": "below",
+     "size": 72,
+     "xy": [
+      815,
+      480
+     ],
      "at": "2/sechs"
     }
    ]
   },
   {
    "at": 3,
-   "edit": "chapter",
-   "why": "câu 3 gọi tên vụ án",
-   "head": {
-    "kicker": "AKTE 1922",
-    "title": "Hinterkaifeck"
-   }
-  },
-  {
-   "at": "3/Deutschlands",
    "edit": "where",
-   "why": "câu 3: vụ án chưa có lời giải nổi tiếng nhất nước Đức — bìa hồ sơ kẹp ảnh trang trại thật do cảnh sát chụp năm 1922",
+   "why": "câu 3 gọi tên vụ án (tên đã hiện từ đầu) và nói nó chưa có lời giải — bìa hồ sơ kẹp tờ thông báo treo thưởng thật năm 1922",
    "items": [
     {
      "card": "folder",
@@ -280,16 +305,29 @@
      "corner": "1922"
     },
     {
-     "photo": "farm",
-     "at": "3/Deutschlands"
+     "photo": "poster",
+     "pos": [
+      540,
+      850,
+      500
+     ],
+     "at": 3.03
     },
     {
      "tape": "bekanntester Fall",
+     "xy": [
+      330,
+      1305
+     ],
      "at": "3/bekanntester"
     },
     {
      "tape": "ungelöst",
      "color": "red",
+     "xy": [
+      770,
+      1305
+     ],
      "at": "3/ungelöster"
     }
    ]
@@ -336,12 +374,6 @@
       "shape": "pin",
       "at": "4/Schrobenhausen"
      }
-    },
-    {
-     "tape": "SCHROBENHAUSEN",
-     "color": "white",
-     "pin": "below",
-     "at": "4/Schrobenhausen"
     },
     {
      "tape": "Frühjahr 1922",
@@ -414,15 +446,15 @@
     },
     {
      "tape": "Tochter Viktoria",
+     "pin": "tl",
      "at": "6/Tochter"
     },
     {
-     "tape": "ZWEI KINDER",
-     "color": "white",
-     "at": "6/zwei"
-    },
-    {
      "tape": "Cäzilia und Josef",
+     "xy": [
+      640,
+      1225
+     ],
      "at": "6/Cäzilia"
     }
    ]
@@ -430,7 +462,7 @@
   {
    "at": 7,
    "edit": "place",
-   "why": "câu 7: cuối tháng 3 ông Gruber kể chuyện lạ với hàng xóm — căn phòng nhà nông (ảnh minh họa)",
+   "why": "câu 7: cuối tháng 3 ông Gruber kể chuyện lạ với hàng xóm — căn phòng nhà nông (ảnh minh họa, có ghi rõ)",
    "items": [
     {
      "photo": "stube"
@@ -438,11 +470,16 @@
     {
      "tape": "ENDE MÄRZ",
      "color": "white",
+     "pin": "tl",
      "at": 7.03
     },
     {
      "tape": "seltsame Dinge",
      "color": "red",
+     "xy": [
+      540,
+      1010
+     ],
      "at": "7/seltsamen"
     }
    ]
@@ -450,13 +487,23 @@
   {
    "at": 8,
    "edit": "pair",
-   "why": "câu 8: dấu chân trên tuyết dẫn vào trang trại, không dẫn ra — cánh đồng tuyết bên bìa rừng và bản đồ thửa đất thật của trang trại",
+   "why": "câu 8: dấu chân trên tuyết dẫn vào trang trại, không dẫn ra — vệt chân trên tuyết (ảnh minh họa) và bản đồ thửa đất thật, khoanh trang trại",
    "items": [
     {
-     "photo": "field"
+     "photo": "trail",
+     "pos": [
+      300,
+      740,
+      430
+     ]
     },
     {
      "photo": "plots",
+     "pos": [
+      730,
+      1060,
+      500
+     ],
      "at": "8/zum",
      "ring": {
       "box": [
@@ -481,6 +528,10 @@
     {
      "tape": "nicht zurück",
      "color": "red",
+     "xy": [
+      730,
+      1375
+     ],
      "at": "8/zurück"
     }
    ]
@@ -488,13 +539,19 @@
   {
    "at": 9,
    "edit": "object",
-   "why": "câu 9: một chiếc chìa khóa nhà biến mất",
+   "why": "câu 9: một chiếc chìa khóa nhà biến mất (hình minh họa)",
    "items": [
     {
      "sticker": "key",
      "pos": "center",
      "w": 640,
      "rot": -18
+    },
+    {
+     "tape": "Symbolbild",
+     "color": "white",
+     "size": 30,
+     "pin": "above"
     },
     {
      "tape": "Hausschlüssel weg",
@@ -507,7 +564,7 @@
   {
    "at": "9/auf",
    "edit": "detail",
-   "why": "câu 9: tiếng bước chân trên gác mái — phóng vào cuối gác mái tối",
+   "why": "câu 9: tiếng bước chân trên gác mái — phóng vào cuối gác mái tối (ảnh minh họa)",
    "items": [
     {
      "photo": "attic",
@@ -525,11 +582,13 @@
     {
      "tape": "AUF DEM DACHBODEN",
      "color": "white",
+     "pin": "tl",
      "at": "9/Dachboden"
     },
     {
      "tape": "Schritte",
      "color": "red",
+     "pin": "right",
      "at": "9/Schritte"
     }
    ]
@@ -537,7 +596,7 @@
   {
    "at": 10,
    "edit": "figure",
-   "why": "câu 10: người hầu gái cũ bỏ đi vì nói ở đó có ma — cánh cửa mở lên cầu thang tối, không thấy ai",
+   "why": "câu 10: người hầu gái cũ bỏ đi vì nói ở đó có ma — cánh cửa mở lên cầu thang tối, không thấy ai (ảnh minh họa)",
    "items": [
     {
      "photo": "door"
@@ -549,11 +608,16 @@
     },
     {
      "tape": "ging Monate zuvor",
+     "pin": "left",
      "at": "10/Monate"
     },
     {
      "tape": "„Dort spukt es“",
      "color": "red",
+     "xy": [
+      540,
+      1260
+     ],
      "at": "10/spuke"
     }
    ]
@@ -605,11 +669,16 @@
     {
      "tape": "ERSTER TAG",
      "color": "white",
+     "pin": "tl",
      "at": "12/erster"
     },
     {
      "tape": "und ihr letzter",
      "color": "red",
+     "xy": [
+      700,
+      1200
+     ],
      "at": "12/letzter"
     }
    ]
@@ -618,26 +687,30 @@
    "at": 13,
    "edit": "place",
    "hush": true,
-   "why": "câu 13: đêm đó cả sáu người bị giết — khoảnh khắc lặng trước tờ thông báo treo thưởng thật năm 1922 (\"Sechsfacher Raubmord\")",
+   "why": "câu 13: đêm đó cả sáu người bị giết — khoảnh khắc lặng trên dòng chữ khắc ở bia tưởng niệm thật tại nơi xảy ra",
    "items": [
     {
-     "photo": "poster",
-     "pos": [
-      540,
-      880,
-      620
-     ]
+     "photo": "memo",
+     "pos": "full"
     },
     {
      "tape": "IN DIESER NACHT",
      "color": "white",
-     "pin": "top",
+     "size": 54,
+     "xy": [
+      540,
+      470
+     ],
      "at": 13.02
     },
     {
      "tape": "alle sechs getötet",
      "color": "red",
-     "pin": "bottom",
+     "size": 66,
+     "xy": [
+      540,
+      1240
+     ],
      "at": "13/getötet"
     }
    ]
@@ -662,14 +735,12 @@
     {
      "tape": "GILT ALS TATWAFFE",
      "color": "white",
+     "pin": "tl",
      "at": "14/Tatwaffe"
     },
     {
-     "tape": "Reuthaue",
-     "at": "14/Reuthaue"
-    },
-    {
      "tape": "eine Art Hacke",
+     "pin": "right",
      "at": "14/Hacke"
     }
    ]
@@ -709,6 +780,10 @@
     {
      "tape": "jemand versorgt das Vieh",
      "color": "red",
+     "xy": [
+      540,
+      1010
+     ],
      "at": "16/versorgte"
     }
    ]
@@ -716,7 +791,7 @@
   {
    "at": 17,
    "edit": "number",
-   "why": "câu 17: bốn ngày sau mới phát hiện; bốn người trong kho, hai trong nhà — ảnh nhỏ là nhà kho thật (cắt từ ảnh hiện trường, không có nạn nhân)",
+   "why": "câu 17: bốn ngày sau mới phát hiện; bốn người trong kho, hai trong nhà — ảnh nhỏ là nhà kho thật (cắt từ ảnh hiện trường của cảnh sát, phần không có nạn nhân)",
    "items": [
     {
      "photo": "stadel",
@@ -760,7 +835,7 @@
      "color": "red",
      "xy": [
       600,
-      1370
+      1400
      ],
      "at": "18/keinem"
     }
@@ -769,7 +844,7 @@
   {
    "at": 19,
    "edit": "fact",
-   "why": "câu 19: chiếc cuốc chỉ được tìm thấy một năm sau khi phá dỡ trang trại, giấu trên gác mái — ảnh thật chiếc cuốc + gác mái",
+   "why": "câu 19: chiếc cuốc chỉ được tìm thấy một năm sau khi phá dỡ trang trại, giấu trên gác mái — ảnh thật chiếc cuốc + gác mái (minh họa)",
    "items": [
     {
      "photo": "haue1"
@@ -777,11 +852,13 @@
     {
      "tape": "1 JAHR SPÄTER",
      "color": "white",
+     "pin": "tl",
+     "on": 0,
      "at": "19/Jahr"
     },
     {
      "tape": "beim Abriss des Hofes",
-     "pin": "tr",
+     "pin": "right",
      "on": 0,
      "at": "19/Abriss"
     },
@@ -792,6 +869,8 @@
     {
      "tape": "im Dachboden versteckt",
      "color": "red",
+     "pin": "top",
+     "on": 3,
      "at": "19/Dachboden"
     }
    ]
@@ -855,7 +934,10 @@
     },
     {
      "tape": "angehende Kriminalbeamte",
-     "pin": "br",
+     "xy": [
+      540,
+      1260
+     ],
      "at": "21/Kriminalbeamte"
     }
    ]
@@ -891,7 +973,7 @@
   {
    "at": 23,
    "edit": "pair",
-   "why": "câu 23: hơn 100 năm sau vẫn chưa có lời giải — đài tưởng niệm tại nơi xảy ra và bia mộ các nạn nhân hôm nay",
+   "why": "câu 23: hơn 100 năm sau vẫn chưa có lời giải — khu tưởng niệm tại nơi xảy ra và bia mộ các nạn nhân hôm nay",
    "items": [
     {
      "photo": "mahnmal"
@@ -917,6 +999,8 @@
     {
      "tape": "ungelöst",
      "color": "red",
+     "pin": "tr",
+     "on": 1,
      "at": "23/ungelöst"
     }
    ]
@@ -925,7 +1009,7 @@
    "at": 24,
    "edit": "question",
    "hush": true,
-   "why": "câu 24, câu hỏi thứ nhất: ai đã ở trên gác mái? — cầu thang dẫn lên gác mái, đầy màn hình",
+   "why": "câu 24, câu hỏi thứ nhất: ai đã ở trên gác mái? — cầu thang dẫn lên gác mái, đầy màn hình (ảnh minh họa)",
    "items": [
     {
      "photo": "stairs",
@@ -947,7 +1031,7 @@
    "at": "24/versorgte",
    "edit": "figure",
    "hush": true,
-   "why": "câu 24, câu hỏi thứ hai: kẻ giấu mặt nào đã chăm gia súc sau vụ án? — chuồng bò tối, đầy màn hình",
+   "why": "câu 24, câu hỏi thứ hai: kẻ giấu mặt nào đã chăm gia súc sau vụ án? — chuồng bò tối, đầy màn hình (ảnh minh họa)",
    "items": [
     {
      "photo": "cows",
@@ -978,11 +1062,13 @@
    "items": [
     {
      "photo": "print",
-     "pos": "g1"
+     "pos": "g1",
+     "label": ""
     },
     {
      "photo": "attic",
-     "pos": "g2"
+     "pos": "g2",
+     "label": ""
     },
     {
      "photo": "haue3",
@@ -992,7 +1078,8 @@
       0.0,
       1.0,
       0.45
-     ]
+     ],
+     "label": ""
     },
     {
      "photo": "cow",
@@ -1002,7 +1089,8 @@
       0.45,
       1.0,
       0.95
-     ]
+     ],
+     "label": ""
     },
     {
      "string": [
