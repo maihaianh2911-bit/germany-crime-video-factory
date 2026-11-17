@@ -1,0 +1,789 @@
+{
+ "pictures": [
+  {
+   "name": "box",
+   "src": "1/5-5.jpg",
+   "title": "Cotton swabs (or cotton buds) -in round container.jpg",
+   "artist": "shahram sharif",
+   "date": "2007-01-05 14:24:42",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cotton_swabs_(or_cotton_buds)_-in_round_container.jpg",
+   "ai": false
+  },
+  {
+   "name": "dna",
+   "src": "1/8-5.jpg",
+   "title": "An early DNA fingerprint showing DNA patterns from a mother (lanes 2 and 8) and her four children (adjacent lanes to the right). Lane 1 is an unrelated person. ",
+   "artist": "Alec Jeffreys",
+   "date": "",
+   "license": "CC BY 4.0",
+   "page": "https://www.europeana.eu/item/9200579/s97p57mj",
+   "ai": false
+  },
+  {
+   "name": "car",
+   "src": "1/9-1.jpg",
+   "title": "Mannheim-Polizei-Streifenwagen.jpg",
+   "artist": "Frank",
+   "date": "2008",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mannheim-Polizei-Streifenwagen.jpg",
+   "ai": false
+  },
+  {
+   "name": "rail",
+   "src": "1/13-2.jpg",
+   "title": "Crime Scene Investigators",
+   "artist": "Aaron Jacobs",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/34653106@N00/86954206",
+   "ai": false
+  },
+  {
+   "name": "map",
+   "src": "1/15-1.jpg",
+   "title": "Germany adm location map.svg",
+   "artist": "NordNordWest",
+   "date": "2014-09-15",
+   "license": "CC BY-SA 3.0 de",
+   "page": "https://commons.wikimedia.org/wiki/File:Germany_adm_location_map.svg",
+   "ai": false
+  },
+  {
+   "name": "wiese",
+   "src": "1/2-4.jpg",
+   "title": "Heilbronn-theresienwiese-2015-1.JPG",
+   "artist": "Peter Schmelzle",
+   "date": "2015-06-16 17:07:22",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Heilbronn-theresienwiese-2015-1.JPG",
+   "ai": false
+  },
+  {
+   "name": "dna2",
+   "src": "1/8-2.jpg",
+   "title": "The first DNA fingerprint. The first three lanes contain DNA from a woman, her mother and her father respectively. Lanes 4 - 11 contain DNA from assorted other ",
+   "artist": "Alec Jeffreys",
+   "date": "",
+   "license": "CC BY 4.0",
+   "page": "https://www.europeana.eu/item/9200579/r9zdbnsh",
+   "ai": false
+  },
+  {
+   "name": "car2",
+   "src": "1/9-3.jpg",
+   "title": "Mercedes Benz Police Car.jpg",
+   "artist": "stephenhanafin from Kilkenny, Ireland",
+   "date": "2007-03-25 11:40",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mercedes_Benz_Police_Car.jpg",
+   "ai": false
+  },
+  {
+   "name": "night",
+   "src": "1/10-5.jpg",
+   "title": "wedding",
+   "artist": "borkur.net",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/61732101@N00/5496541486",
+   "ai": false
+  },
+  {
+   "name": "glove",
+   "src": "1/6-1.jpg",
+   "title": "DNA-evidence.jpg",
+   "artist": "Daekow",
+   "date": "2014-05-09 21:02:10",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:DNA-evidence.jpg",
+   "ai": false
+  },
+  {
+   "name": "factory",
+   "src": "1/14-7.jpg",
+   "title": "Red Spice",
+   "artist": "darkday.",
+   "date": "",
+   "license": "CC BY 2.0",
+   "page": "https://www.flickr.com/photos/99649389@N02/16561149882",
+   "ai": false
+  },
+  {
+   "name": "tub",
+   "src": "1/4-1.jpg",
+   "title": "Cotton swab, package and swabs.jpg",
+   "artist": "Jiafei Slay Queen",
+   "date": "2025-12-21 22:44:46",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cotton_swab,_package_and_swabs.jpg",
+   "ai": false
+  },
+  {
+   "name": "swab",
+   "src": "1/5-3.jpg",
+   "title": "White menbo.jpg",
+   "artist": "Aney",
+   "date": "2005-08-24",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:White_menbo.jpg",
+   "ai": false
+  },
+  {
+   "name": "plaque",
+   "src": "1/2-2.jpg",
+   "title": "IMG_20171228_135608",
+   "artist": "stephanie.thoma",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/129523799@N04/27785531819",
+   "ai": false
+  },
+  {
+   "name": "shadow",
+   "src": "1/3-8.jpg",
+   "title": "Schattenwurf 06.jpg",
+   "artist": "Philipp Baum",
+   "date": "2025-08-29",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Schattenwurf_06.jpg",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 5.014,
+   "said": [
+    "Ihre DNA fand man an rund 40 Tatorten,",
+    "in Deutschland,",
+    "Österreich und Frankreich."
+   ],
+   "edit": "hook",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "box.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "dna.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "car.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer ist diese Frau?"
+    },
+    {
+     "type": "tape",
+     "text": "40 TATORTE"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 5.014,
+   "end": 8.503,
+   "said": [
+    "Morde, Einbrüche, Diebstähle.",
+    "Und niemand wusste, wer sie ist."
+   ],
+   "edit": "list",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "rail.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Morde"
+    },
+    {
+     "type": "tape",
+     "text": "Einbrüche"
+    },
+    {
+     "type": "tape",
+     "text": "Diebstähle"
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "start": 8.503,
+   "end": 11.226,
+   "said": [
+    "Die Ermittler nannten",
+    "sie die Frau ohne Gesicht."
+   ],
+   "edit": "statement",
+   "head": "",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Die Frau ohne Gesicht"
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "start": 11.226,
+   "end": 13.125,
+   "said": [
+    "Das ist das Phantom von Heilbronn."
+   ],
+   "edit": "chapter",
+   "head": "Das Phantom",
+   "items": []
+  },
+  {
+   "scene": 5,
+   "start": 13.125,
+   "end": 20.389,
+   "said": [
+    "1993 tauchte ihre",
+    "Spur zum ersten Mal auf.",
+    "Danach immer wieder, über Jahre,",
+    "an ganz verschiedenen Tatorten."
+   ],
+   "edit": "timeline",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "dna.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "start": 20.389,
+   "end": 22.863,
+   "said": [
+    "Die DNA passte zu keiner",
+    "bekannten Person."
+   ],
+   "edit": "compare",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 22.863,
+   "end": 26.953,
+   "said": [
+    "Dann, am 25. April 2007,",
+    "wurde in Heilbronn eine junge"
+   ],
+   "edit": "detail",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "map.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "25.04.2007"
+    },
+    {
+     "type": "tape",
+     "text": "HEILBRONN"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 26.953,
+   "end": 28.79,
+   "said": [
+    "Polizistin erschossen."
+   ],
+   "edit": "place",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "wiese.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "THERESIENWIESE"
+    },
+    {
+     "type": "tape",
+     "text": "Polizistin erschossen"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 28.79,
+   "end": 33.197,
+   "said": [
+    "Ihr Name war Michèle Kiesewetter.",
+    "Ihr Kollege überlebte schwer verletzt."
+   ],
+   "edit": "who",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 33.197,
+   "end": 35.934,
+   "said": [
+    "Am Streifenwagen",
+    "fand man wieder dieselbe DNA."
+   ],
+   "edit": "fact",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "car.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "dna2.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "am Streifenwagen"
+    },
+    {
+     "type": "tape",
+     "text": "dieselbe DNA"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 35.934,
+   "end": 41.738,
+   "said": [
+    "Jetzt suchte ganz Deutschland",
+    "nach der unbekannten Frau.",
+    "Die Belohnung stieg auf 300.000 Euro."
+   ],
+   "edit": "number",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "car2.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "ganz Deutschland sucht"
+    },
+    {
+     "type": "stat"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 41.738,
+   "end": 45.513,
+   "said": [
+    "Wer war diese Frau, die mordet,",
+    "einbricht und spurlos verschwindet?"
+   ],
+   "edit": "question",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "night.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer ist sie?"
+    },
+    {
+     "type": "tape",
+     "text": "spurlos verschwunden"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 45.513,
+   "end": 50.508,
+   "said": [
+    "Doch etwas passte nicht:",
+    "Die Spur tauchte an Orten auf,",
+    "die nichts miteinander zu tun hatten."
+   ],
+   "edit": "board",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "rail.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "car.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "car2.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "map.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "passt nicht zusammen"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 50.508,
+   "end": 52.299,
+   "said": [
+    "2009 kam die Wende."
+   ],
+   "edit": "statement",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "tape",
+     "text": "2009"
+    },
+    {
+     "type": "tape",
+     "text": "DIE WENDE"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 52.299,
+   "end": 56.432,
+   "said": [
+    "Die Ermittler prüften",
+    "die Wattestäbchen,",
+    "mit denen Spuren gesichert wurden."
+   ],
+   "edit": "detail",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "glove.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "SPURENSICHERUNG"
+    },
+    {
+     "type": "tape",
+     "text": "die Wattestäbchen"
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "start": 56.432,
+   "end": 60.927,
+   "said": [
+    "Die DNA stammte von einer Frau,",
+    "die in einer Fabrik solche",
+    "Wattestäbchen verpackte."
+   ],
+   "edit": "fact",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "factory.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "tub.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Fabrik (Symbolbild)"
+    },
+    {
+     "type": "tape",
+     "text": "eine Verpackerin"
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "start": 60.927,
+   "end": 64.293,
+   "said": [
+    "Die Stäbchen waren steril,",
+    "aber nicht frei von menschlicher DNA."
+   ],
+   "edit": "object",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "sticker",
+     "image": "swab.png",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "steril"
+    },
+    {
+     "type": "tape",
+     "text": "aber nicht DNA-frei"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 64.293,
+   "end": 66.3,
+   "said": [
+    "Das Phantom hatte nie existiert."
+   ],
+   "edit": "statement",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "tape",
+     "text": "DAS PHANTOM"
+    },
+    {
+     "type": "tape",
+     "text": "hat nie existiert"
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "start": 66.3,
+   "end": 71.094,
+   "said": [
+    "Jahrelang hatte die Polizei",
+    "eine Frau gejagt, die mit keinem",
+    "dieser Verbrechen zu tun hatte."
+   ],
+   "edit": "span",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 71.094,
+   "end": 75.416,
+   "said": [
+    "Seitdem gelten für Wattestäbchen in",
+    "der Spurensicherung strengere Regeln."
+   ],
+   "edit": "place",
+   "head": "Das Phantom",
+   "items": [
+    {
+     "type": "photo",
+     "image": "box.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "SEITDEM"
+    },
+    {
+     "type": "tape",
+     "text": "strengere Regeln"
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "start": 75.416,
+   "end": 77.584,
+   "said": [
+    "Und der Mord an Michèle Kiesewetter?"
+   ],
+   "edit": "chapter",
+   "head": "Michèle Kiesewetter",
+   "items": []
+  },
+  {
+   "scene": 22,
+   "start": 77.584,
+   "end": 83.181,
+   "said": [
+    "2011 stellte sich heraus:",
+    "Er gehörte zur Mordserie",
+    "der rechtsextremen Terrorgruppe NSU."
+   ],
+   "edit": "detail",
+   "head": "Michèle Kiesewetter",
+   "items": [
+    {
+     "type": "photo",
+     "image": "plaque.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "2011"
+    },
+    {
+     "type": "tape",
+     "text": "Terrorgruppe NSU"
+    }
+   ]
+  },
+  {
+   "scene": 23,
+   "start": 83.181,
+   "end": 86.691,
+   "said": [
+    "Ihre Dienstwaffe fand man im Wohnmobil",
+    "von zwei NSU-Mitgliedern."
+   ],
+   "edit": "statement",
+   "head": "Michèle Kiesewetter",
+   "items": [
+    {
+     "type": "tape",
+     "text": "ihre Dienstwaffe"
+    },
+    {
+     "type": "tape",
+     "text": "im Wohnmobil des NSU"
+    }
+   ]
+  },
+  {
+   "scene": 24,
+   "start": 86.691,
+   "end": 90.189,
+   "said": [
+    "Eine falsche Spur hatte die Ermittler",
+    "jahrelang in die Irre geführt."
+   ],
+   "edit": "place",
+   "head": "Michèle Kiesewetter",
+   "items": [
+    {
+     "type": "photo",
+     "image": "shadow.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "falsche Spur"
+    },
+    {
+     "type": "tape",
+     "text": "jahrelang in die Irre"
+    }
+   ]
+  },
+  {
+   "scene": 25,
+   "start": 90.189,
+   "end": 95.96,
+   "said": [
+    "Kann man DNA also immer vertrauen?",
+    "Was denkst du?"
+   ],
+   "edit": "ending",
+   "head": "Michèle Kiesewetter",
+   "items": [
+    {
+     "type": "photo",
+     "image": "dna.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "box.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "map.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "wiese.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare."
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  }
+ ]
+}

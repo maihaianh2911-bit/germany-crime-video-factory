@@ -1,0 +1,2191 @@
+{
+ "duration": 95.96,
+ "lang": "de",
+ "title": "Das Phantom von Heilbronn",
+ "aiTag": "KI-Illustration",
+ "timeline": {
+  "labels": [
+   "1993",
+   "2007",
+   "2009",
+   "2011"
+  ],
+  "marks": [
+   13.195,
+   23.693,
+   50.578,
+   77.654
+  ],
+  "idx": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/6/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 5.014,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/box.jpg",
+     "w": 1920,
+     "h": 1298,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "shahram sharif / CC BY 2.0",
+     "bleed": true,
+     "view": [
+      0.30986,
+      0.0,
+      0.69014,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/dna.jpg",
+     "w": 1004,
+     "h": 1400,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Alec Jeffreys / CC BY 4.0",
+     "bleed": true,
+     "view": [
+      0.10782,
+      0.0,
+      0.89218,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 1.874
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/car.jpg",
+     "w": 1400,
+     "h": 652,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Frank / CC BY-SA 3.0",
+     "bleed": true,
+     "view": [
+      0.41902,
+      0.0,
+      0.68098,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 2.693
+    },
+    {
+     "type": "tape",
+     "text": "Wer ist diese Frau?",
+     "color": "red",
+     "px": 74,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": 3.37,
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "40 TATORTE",
+     "color": "white",
+     "px": 56,
+     "x": 540,
+     "y": 1110,
+     "align": "center",
+     "rot": -2.38,
+     "s": 1.528
+    }
+   ],
+   "credit": "Foto: shahram sharif / CC BY 2.0 · Alec Jeffreys / CC BY 4.0 · Frank / CC BY-SA 3.0",
+   "edit": "hook"
+  },
+  {
+   "s": 5.014,
+   "e": 8.503,
+   "scene": 2,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/rail.jpg",
+     "w": 1400,
+     "h": 934,
+     "box": [
+      150.0,
+      218.2,
+      780,
+      520.4
+     ],
+     "ai": false,
+     "rot": -2.07,
+     "credit": "Aaron Jacobs / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.00926,
+      1.0,
+      0.99074
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 5.014
+    },
+    {
+     "type": "tape",
+     "text": "Morde",
+     "color": "red",
+     "px": 62,
+     "x": 170.0,
+     "y": 806.8,
+     "align": "left",
+     "rot": 0.64,
+     "s": 5.197
+    },
+    {
+     "type": "tape",
+     "text": "Einbrüche",
+     "color": "yellow",
+     "px": 67,
+     "x": 910.0,
+     "y": 812.3,
+     "align": "right",
+     "rot": -1.66,
+     "s": 5.644
+    },
+    {
+     "type": "tape",
+     "text": "Diebstähle",
+     "color": "yellow",
+     "px": 67,
+     "x": 170.0,
+     "y": 907.4,
+     "align": "left",
+     "rot": 1.11,
+     "s": 6.364
+    }
+   ],
+   "credit": "Foto: Aaron Jacobs / CC BY-SA 2.0",
+   "edit": "list"
+  },
+  {
+   "s": 8.503,
+   "e": 11.226,
+   "scene": 3,
+   "head": null,
+   "items": [
+    {
+     "type": "tape",
+     "text": "Die Frau ohne Gesicht",
+     "color": "red",
+     "px": 74,
+     "x": 540.0,
+     "y": 800.0,
+     "align": "center",
+     "rot": -1.29,
+     "s": 9.733
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 11.226,
+   "e": 13.125,
+   "scene": 4,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "mid",
+    "from": null,
+    "s": 11.226
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 13.125,
+   "e": 20.389,
+   "scene": 5,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "mid",
+    "s": 13.125
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/dna.jpg",
+     "w": 1004,
+     "h": 1400,
+     "box": [
+      343.1,
+      383.0,
+      393.7,
+      549.0
+     ],
+     "ai": false,
+     "rot": -2.08,
+     "credit": "Alec Jeffreys / CC BY 4.0",
+     "view": [
+      0.01061,
+      0.0,
+      0.98939,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 13.125
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      100.0,
+      953.9,
+      880,
+      505.1
+     ],
+     "rot": 0.58,
+     "head": "DIE SPUR",
+     "rows": [
+      {
+       "l": "1993",
+       "r": "erste Spur",
+       "s": 13.195,
+       "color": ""
+      },
+      {
+       "l": "danach",
+       "r": "immer wieder",
+       "s": 16.878,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 13.125
+    }
+   ],
+   "credit": "Foto: Alec Jeffreys / CC BY 4.0",
+   "edit": "timeline"
+  },
+  {
+   "s": 20.389,
+   "e": 22.863,
+   "scene": 6,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 20.389
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      421.0,
+      900,
+      1000
+     ],
+     "rot": -0.89,
+     "head": "DNA-ABGLEICH",
+     "rows": [
+      {
+       "l": "DNA-Spur",
+       "r": "",
+       "s": 20.552,
+       "color": ""
+      },
+      {
+       "l": "≠",
+       "r": "",
+       "s": 21.409,
+       "color": "red"
+      },
+      {
+       "l": "bekannte Personen",
+       "r": "",
+       "s": 21.7,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": {
+      "text": "KEIN TREFFER",
+      "s": 22.126
+     },
+     "s": 20.389
+    }
+   ],
+   "credit": "",
+   "edit": "compare"
+  },
+  {
+   "s": 22.863,
+   "e": 26.953,
+   "scene": 7,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 22.863
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/map.jpg",
+     "w": 1688,
+     "h": 2000,
+     "box": [
+      150.8,
+      404.9,
+      778.4,
+      922.3
+     ],
+     "ai": false,
+     "rot": -1.6,
+     "credit": "NordNordWest / CC BY-SA 3.0 de",
+     "view": [
+      0.00291,
+      0.0,
+      0.99709,
+      1.0
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.17,
+       0.54374,
+       0.6,
+       0.97626
+      ],
+      "s": 26.373,
+      "e": 27.373
+     },
+     "rings": [
+      {
+       "s": 26.373,
+       "box": [
+        0.362,
+        0.744,
+        0.382,
+        0.764
+       ],
+       "shape": "pin",
+       "color": "yellow"
+      }
+     ],
+     "s": 22.863
+    },
+    {
+     "type": "tape",
+     "text": "25.04.2007",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 412.9,
+     "align": "center",
+     "rot": -1,
+     "s": 23.693
+    },
+    {
+     "type": "tape",
+     "text": "HEILBRONN",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 1400.9,
+     "align": "center",
+     "rot": -1,
+     "s": 26.373
+    }
+   ],
+   "credit": "Foto: NordNordWest / CC BY-SA 3.0 de",
+   "edit": "detail"
+  },
+  {
+   "s": 26.953,
+   "e": 28.79,
+   "scene": 8,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 26.953
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/wiese.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Peter Schmelzle / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.08906,
+      0.0,
+      0.51094,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 26.953
+    },
+    {
+     "type": "tape",
+     "text": "THERESIENWIESE",
+     "color": "white",
+     "px": 52,
+     "x": 540,
+     "y": 470,
+     "align": "center",
+     "rot": -1,
+     "s": 26.953
+    },
+    {
+     "type": "tape",
+     "text": "Polizistin erschossen",
+     "color": "red",
+     "px": 66,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1,
+     "s": 27.873
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: Peter Schmelzle / CC BY-SA 4.0",
+   "edit": "place"
+  },
+  {
+   "s": 28.79,
+   "e": 33.197,
+   "scene": 9,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 28.79
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      662.0,
+      860,
+      518
+     ],
+     "rot": -0.89,
+     "head": "HEILBRONN · 25.04.2007",
+     "rows": [
+      {
+       "l": "Opfer",
+       "r": "Polizistin",
+       "s": 28.991,
+       "color": ""
+      },
+      {
+       "l": "Michèle Kiesewetter",
+       "r": "",
+       "s": 29.446,
+       "color": ""
+      },
+      {
+       "l": "Kollege",
+       "r": "schwer verletzt",
+       "s": 31.124,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 28.79
+    }
+   ],
+   "credit": "",
+   "edit": "who"
+  },
+  {
+   "s": 33.197,
+   "e": 35.934,
+   "scene": 10,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 33.197
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/car.jpg",
+     "w": 1400,
+     "h": 652,
+     "box": [
+      150.0,
+      440.8,
+      780,
+      433.3
+     ],
+     "ai": false,
+     "rot": -2.54,
+     "credit": "Frank / CC BY-SA 3.0",
+     "view": [
+      0.06795,
+      0.0,
+      0.93205,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 33.197
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/dna2.jpg",
+     "w": 1400,
+     "h": 1198,
+     "box": [
+      260.0,
+      955.9,
+      560,
+      479.2
+     ],
+     "ai": false,
+     "rot": 2.28,
+     "credit": "Alec Jeffreys / CC BY 4.0",
+     "view": [
+      0.0,
+      0.00444,
+      1.0,
+      0.99556
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 34.826
+    },
+    {
+     "type": "tape",
+     "text": "am Streifenwagen",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 450.8,
+     "align": "left",
+     "rot": -3.45,
+     "s": 33.39
+    },
+    {
+     "type": "tape",
+     "text": "dieselbe DNA",
+     "color": "red",
+     "px": 62,
+     "x": 910.0,
+     "y": 942.3,
+     "align": "right",
+     "rot": 1.98,
+     "s": 34.826
+    }
+   ],
+   "credit": "Foto: Frank / CC BY-SA 3.0 · Alec Jeffreys / CC BY 4.0",
+   "edit": "fact"
+  },
+  {
+   "s": 35.934,
+   "e": 41.738,
+   "scene": 11,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 35.934
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/car2.jpg",
+     "w": 1400,
+     "h": 931,
+     "box": [
+      85.0,
+      402.4,
+      470,
+      312.6
+     ],
+     "ai": false,
+     "rot": -1.54,
+     "credit": "stephenhanafin from Kilkenny, Ireland / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01587,
+      1.0,
+      0.98413
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 35.934
+    },
+    {
+     "type": "tape",
+     "text": "ganz Deutschland sucht",
+     "color": "yellow",
+     "px": 67,
+     "x": 69.0,
+     "y": 412.4,
+     "align": "left",
+     "rot": 1.48,
+     "s": 36.756
+    },
+    {
+     "type": "stat",
+     "x": 110,
+     "y": 775.0,
+     "rows": [
+      {
+       "n": "300.000",
+       "text": "Euro\nBelohnung",
+       "s": 40.086,
+       "color": "yellow"
+      }
+     ],
+     "s": 35.934
+    }
+   ],
+   "credit": "Foto: stephenhanafin from Kilkenny, Ireland / CC BY-SA 2.0",
+   "edit": "number"
+  },
+  {
+   "s": 41.738,
+   "e": 45.513,
+   "scene": 12,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 41.738
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/night.jpg",
+     "w": 1050,
+     "h": 1400,
+     "box": [
+      194.1,
+      404.9,
+      691.7,
+      922.3
+     ],
+     "ai": false,
+     "rot": -1.52,
+     "credit": "borkur.net / CC BY 2.0",
+     "view": [
+      0.00524,
+      0.0,
+      0.99476,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 41.738
+    },
+    {
+     "type": "tape",
+     "text": "Wer ist sie?",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1395.4,
+     "align": "center",
+     "rot": 3.19,
+     "s": 41.927
+    },
+    {
+     "type": "tape",
+     "text": "spurlos verschwunden",
+     "color": "yellow",
+     "px": 67,
+     "x": 178.1,
+     "y": 414.9,
+     "align": "left",
+     "rot": -0.5,
+     "s": 44.134
+    }
+   ],
+   "credit": "Foto: borkur.net / CC BY 2.0",
+   "edit": "question"
+  },
+  {
+   "s": 45.513,
+   "e": 50.508,
+   "scene": 13,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 45.513
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/rail.jpg",
+     "w": 1400,
+     "h": 934,
+     "box": [
+      80.0,
+      404.2,
+      430,
+      286.9
+     ],
+     "ai": false,
+     "rot": -2.07,
+     "credit": "Aaron Jacobs / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01732,
+      1.0,
+      0.98268
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 45.513
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/car.jpg",
+     "w": 1400,
+     "h": 652,
+     "box": [
+      570.0,
+      461.2,
+      430,
+      238.9
+     ],
+     "ai": false,
+     "rot": 1.0,
+     "credit": "Frank / CC BY-SA 3.0",
+     "view": [
+      0.05615,
+      0.0,
+      0.94385,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 47.032
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/car2.jpg",
+     "w": 1400,
+     "h": 931,
+     "box": [
+      85.0,
+      778.0,
+      430,
+      285.9
+     ],
+     "ai": false,
+     "rot": -2.51,
+     "credit": "stephenhanafin from Kilkenny, Ireland / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01764,
+      1.0,
+      0.98236
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 47.743
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/map.jpg",
+     "w": 1688,
+     "h": 2000,
+     "box": [
+      641.0,
+      789.2,
+      278.0,
+      329.4
+     ],
+     "ai": false,
+     "rot": 1.58,
+     "credit": "NordNordWest / CC BY-SA 3.0 de",
+     "view": [
+      0.00861,
+      0.0,
+      0.99139,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 48.763
+    },
+    {
+     "type": "tape",
+     "text": "passt nicht zusammen",
+     "color": "red",
+     "px": 62,
+     "x": 540,
+     "y": 1290,
+     "align": "center",
+     "rot": 3.33,
+     "s": 45.923
+    },
+    {
+     "type": "string",
+     "a": [
+      295.0,
+      430.2
+     ],
+     "b": [
+      785.0,
+      485.1
+     ],
+     "s": 47.498
+    },
+    {
+     "type": "string",
+     "a": [
+      785.0,
+      485.1
+     ],
+     "b": [
+      300.0,
+      804.0
+     ],
+     "s": 47.743
+    },
+    {
+     "type": "string",
+     "a": [
+      300.0,
+      804.0
+     ],
+     "b": [
+      780.0,
+      815.2
+     ],
+     "s": 48.763
+    }
+   ],
+   "credit": "Foto: Aaron Jacobs / CC BY-SA 2.0 · Frank / CC BY-SA 3.0 · stephenhanafin from Kilkenny, Ireland / CC BY-SA 2.0 · NordNordWest / CC BY-SA 3.0 de",
+   "edit": "board"
+  },
+  {
+   "s": 50.508,
+   "e": 52.299,
+   "scene": 14,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 50.508
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "2009",
+     "color": "white",
+     "px": 96,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -1.59,
+     "s": 50.657
+    },
+    {
+     "type": "tape",
+     "text": "DIE WENDE",
+     "color": "red",
+     "px": 80,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 1.55,
+     "s": 51.598
+    }
+   ],
+   "hush": true,
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 52.299,
+   "e": 56.432,
+   "scene": 15,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 52.299
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/glove.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      140.0,
+      599.4,
+      800,
+      533.3
+     ],
+     "ai": false,
+     "rot": -1.11,
+     "credit": "Daekow / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.0091,
+      1.0,
+      0.9909
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.29444,
+       0.1,
+       0.90556,
+       0.7
+      ],
+      "s": 53.368,
+      "e": 54.768
+     },
+     "rings": [],
+     "s": 52.299
+    },
+    {
+     "type": "tape",
+     "text": "SPURENSICHERUNG",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 607.4,
+     "align": "center",
+     "rot": -1,
+     "s": 52.495
+    },
+    {
+     "type": "tape",
+     "text": "die Wattestäbchen",
+     "color": "red",
+     "px": 62,
+     "x": 160.0,
+     "y": 1200.9,
+     "align": "left",
+     "rot": -1,
+     "s": 53.368
+    }
+   ],
+   "credit": "Foto: Daekow / CC BY-SA 4.0",
+   "edit": "detail"
+  },
+  {
+   "s": 56.432,
+   "e": 60.927,
+   "scene": 16,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 56.432
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/factory.jpg",
+     "w": 1400,
+     "h": 931,
+     "box": [
+      150.0,
+      398.1,
+      780,
+      518.7
+     ],
+     "ai": false,
+     "rot": -2.37,
+     "credit": "darkday. / CC BY 2.0",
+     "view": [
+      0.0,
+      0.00938,
+      1.0,
+      0.99062
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 56.432
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/tub.jpg",
+     "w": 1320,
+     "h": 1400,
+     "box": [
+      296.7,
+      937.5,
+      486.6,
+      516.1
+     ],
+     "ai": false,
+     "rot": 2.57,
+     "credit": "Jiafei Slay Queen / CC0",
+     "view": [
+      0.00175,
+      0.0,
+      0.99825,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 59.122
+    },
+    {
+     "type": "tape",
+     "text": "Fabrik (Symbolbild)",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 408.1,
+     "align": "left",
+     "rot": -2.08,
+     "s": 58.522
+    },
+    {
+     "type": "tape",
+     "text": "eine Verpackerin",
+     "color": "red",
+     "px": 62,
+     "x": 910.0,
+     "y": 985.0,
+     "align": "right",
+     "rot": 1.69,
+     "s": 59.942
+    }
+   ],
+   "credit": "Foto: darkday. / CC BY 2.0 · Jiafei Slay Queen / CC0",
+   "edit": "fact"
+  },
+  {
+   "s": 60.927,
+   "e": 64.293,
+   "scene": 17,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 60.927
+   },
+   "items": [
+    {
+     "type": "sticker",
+     "src": "crime/6/img/swab.png",
+     "w": 1284,
+     "h": 733,
+     "box": [
+      110.0,
+      631.6,
+      860,
+      491.0
+     ],
+     "ai": false,
+     "rot": -14,
+     "credit": "Aney / CC BY-SA 3.0",
+     "s": 60.927
+    },
+    {
+     "type": "tape",
+     "text": "steril",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 571.3,
+     "align": "center",
+     "rot": 3.25,
+     "s": 61.716
+    },
+    {
+     "type": "tape",
+     "text": "aber nicht DNA-frei",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1190.8,
+     "align": "center",
+     "rot": -0.97,
+     "s": 62.446
+    }
+   ],
+   "credit": "Foto: Aney / CC BY-SA 3.0",
+   "edit": "object"
+  },
+  {
+   "s": 64.293,
+   "e": 66.3,
+   "scene": 18,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 64.293
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "DAS PHANTOM",
+     "color": "white",
+     "px": 70,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -1.68,
+     "s": 64.446
+    },
+    {
+     "type": "tape",
+     "text": "hat nie existiert",
+     "color": "red",
+     "px": 76,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 2.29,
+     "s": 65.023
+    }
+   ],
+   "hush": true,
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 66.3,
+   "e": 71.094,
+   "scene": 19,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 66.3
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      710.0,
+      860,
+      422
+     ],
+     "rot": -0.89,
+     "head": "JAHRELANG GEJAGT",
+     "rows": [
+      {
+       "l": "Phantom",
+       "r": "1993–2009",
+       "s": 66.37,
+       "color": ""
+      },
+      {
+       "l": "Verpackerin",
+       "r": "unbeteiligt",
+       "s": 68.93,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 66.3
+    }
+   ],
+   "credit": "",
+   "edit": "span"
+  },
+  {
+   "s": 71.094,
+   "e": 75.416,
+   "scene": 20,
+   "head": {
+    "kicker": "AKTE 1993–2009",
+    "title": "Das Phantom",
+    "mode": "top",
+    "from": "top",
+    "s": 71.094
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/box.jpg",
+     "w": 1920,
+     "h": 1298,
+     "box": [
+      150.0,
+      393.8,
+      780,
+      527.3
+     ],
+     "ai": false,
+     "rot": -1.53,
+     "credit": "shahram sharif / CC BY 2.0",
+     "view": [
+      0.0,
+      0.00893,
+      1.0,
+      0.99107
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 71.094
+    },
+    {
+     "type": "tape",
+     "text": "SEITDEM",
+     "color": "white",
+     "px": 67,
+     "x": 134.0,
+     "y": 403.8,
+     "align": "left",
+     "rot": -1,
+     "s": 71.294
+    },
+    {
+     "type": "tape",
+     "text": "strengere Regeln",
+     "color": "red",
+     "px": 62,
+     "x": 170.0,
+     "y": 989.3,
+     "align": "left",
+     "rot": -1,
+     "s": 74.044
+    }
+   ],
+   "credit": "Foto: shahram sharif / CC BY 2.0",
+   "edit": "place"
+  },
+  {
+   "s": 75.416,
+   "e": 77.584,
+   "scene": 21,
+   "head": {
+    "kicker": "AKTE 2007",
+    "title": "Michèle Kiesewetter",
+    "mode": "mid",
+    "from": null,
+    "s": 75.416
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 77.584,
+   "e": 83.181,
+   "scene": 22,
+   "head": {
+    "kicker": "AKTE 2007",
+    "title": "Michèle Kiesewetter",
+    "mode": "top",
+    "from": "mid",
+    "s": 77.584
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/plaque.jpg",
+     "w": 790,
+     "h": 1400,
+     "box": [
+      263.3,
+      404.9,
+      553.4,
+      922.3
+     ],
+     "ai": false,
+     "rot": -1.31,
+     "credit": "stephanie.thoma / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01976,
+      1.0,
+      0.98024
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.0,
+       0.03951,
+       1.0,
+       1.0
+      ],
+      "s": 80.234,
+      "e": 81.634
+     },
+     "rings": [],
+     "s": 77.584
+    },
+    {
+     "type": "tape",
+     "text": "2011",
+     "color": "white",
+     "px": 67,
+     "x": 832.7,
+     "y": 414.9,
+     "align": "right",
+     "rot": -1,
+     "s": 77.654
+    },
+    {
+     "type": "tape",
+     "text": "Terrorgruppe NSU",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1395.4,
+     "align": "center",
+     "rot": -1,
+     "s": 81.574
+    }
+   ],
+   "credit": "Foto: stephanie.thoma / CC BY-SA 2.0",
+   "edit": "detail"
+  },
+  {
+   "s": 83.181,
+   "e": 86.691,
+   "scene": 23,
+   "head": {
+    "kicker": "AKTE 2007",
+    "title": "Michèle Kiesewetter",
+    "mode": "top",
+    "from": "top",
+    "s": 83.181
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "ihre Dienstwaffe",
+     "color": "white",
+     "px": 89,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -1.62,
+     "s": 83.365
+    },
+    {
+     "type": "tape",
+     "text": "im Wohnmobil des NSU",
+     "color": "red",
+     "px": 62,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 2.74,
+     "s": 84.431
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 86.691,
+   "e": 90.189,
+   "scene": 24,
+   "head": {
+    "kicker": "AKTE 2007",
+    "title": "Michèle Kiesewetter",
+    "mode": "top",
+    "from": "top",
+    "s": 86.691
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/shadow.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      174.0,
+      383.0,
+      732.0,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.51,
+     "credit": "Philipp Baum / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00663,
+      1.0,
+      0.99337
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 86.691
+    },
+    {
+     "type": "tape",
+     "text": "falsche Spur",
+     "color": "red",
+     "px": 62,
+     "x": 194.0,
+     "y": 1000.2,
+     "align": "left",
+     "rot": -1,
+     "s": 86.921
+    },
+    {
+     "type": "tape",
+     "text": "jahrelang in die Irre",
+     "color": "yellow",
+     "px": 67,
+     "x": 158.0,
+     "y": 393.0,
+     "align": "left",
+     "rot": -0.8,
+     "s": 89.101
+    }
+   ],
+   "credit": "Foto: Philipp Baum / CC BY-SA 4.0",
+   "edit": "place"
+  },
+  {
+   "s": 90.189,
+   "e": 95.96,
+   "scene": 25,
+   "head": {
+    "kicker": "AKTE 2007",
+    "title": "Michèle Kiesewetter",
+    "mode": "top",
+    "from": "top",
+    "s": 90.189
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/6/img/dna.jpg",
+     "w": 1004,
+     "h": 1400,
+     "box": [
+      176.9,
+      383.0,
+      236.2,
+      329.4
+     ],
+     "ai": false,
+     "rot": -2.08,
+     "credit": "Alec Jeffreys / CC BY 4.0",
+     "view": [
+      0.01838,
+      0.0,
+      0.98162,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 90.189
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/box.jpg",
+     "w": 1920,
+     "h": 1298,
+     "box": [
+      570.0,
+      435.3,
+      430,
+      290.7
+     ],
+     "ai": false,
+     "rot": 1.38,
+     "credit": "shahram sharif / CC BY 2.0",
+     "view": [
+      0.0,
+      0.01668,
+      1.0,
+      0.98332
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 90.189
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/map.jpg",
+     "w": 1688,
+     "h": 2000,
+     "box": [
+      161.0,
+      756.3,
+      278.0,
+      329.4
+     ],
+     "ai": false,
+     "rot": -1.62,
+     "credit": "NordNordWest / CC BY-SA 3.0 de",
+     "view": [
+      0.00861,
+      0.0,
+      0.99139,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 90.189
+    },
+    {
+     "type": "photo",
+     "src": "crime/6/img/wiese.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      565.0,
+      792.7,
+      430,
+      322.5
+     ],
+     "ai": false,
+     "rot": 1.07,
+     "credit": "Peter Schmelzle / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01161,
+      1.0,
+      0.98839
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 90.189
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      180.0,
+      1080.0,
+      720,
+      370
+     ],
+     "rot": 0.76,
+     "head": "DIE FRAGE",
+     "rows": [
+      {
+       "l": "DNA immer sicher?",
+       "r": "???",
+       "s": 90.355,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 90.189
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare.",
+     "color": "yellow",
+     "px": 66,
+     "x": 540.0,
+     "y": 1020.6,
+     "align": "center",
+     "rot": -0.9,
+     "s": 91.879
+    },
+    {
+     "type": "string",
+     "a": [
+      295.0,
+      409.0
+     ],
+     "b": [
+      785.0,
+      461.3
+     ],
+     "s": 90.189
+    },
+    {
+     "type": "string",
+     "a": [
+      785.0,
+      461.3
+     ],
+     "b": [
+      780.0,
+      818.7
+     ],
+     "s": 90.189
+    },
+    {
+     "type": "string",
+     "a": [
+      295.0,
+      409.0
+     ],
+     "b": [
+      300.0,
+      782.3
+     ],
+     "s": 90.189
+    }
+   ],
+   "credit": "Foto: Alec Jeffreys / CC BY 4.0 · shahram sharif / CC BY 2.0 · NordNordWest / CC BY-SA 3.0 de · Peter Schmelzle / CC BY-SA 4.0",
+   "edit": "ending"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 2.404,
+   "text": "Ihre DNA fand man an rund 40 Tatorten,",
+   "line": 1
+  },
+  {
+   "s": 2.404,
+   "e": 3.379,
+   "text": "in Deutschland,",
+   "line": 1
+  },
+  {
+   "s": 3.379,
+   "e": 5.054,
+   "text": "Österreich und Frankreich.",
+   "line": 1
+  },
+  {
+   "s": 5.054,
+   "e": 6.774,
+   "text": "Morde, Einbrüche, Diebstähle.",
+   "line": 2
+  },
+  {
+   "s": 6.774,
+   "e": 8.543,
+   "text": "Und niemand wusste, wer sie ist.",
+   "line": 2
+  },
+  {
+   "s": 8.543,
+   "e": 9.503,
+   "text": "Die Ermittler nannten",
+   "line": 3
+  },
+  {
+   "s": 9.503,
+   "e": 11.266,
+   "text": "sie die Frau ohne Gesicht.",
+   "line": 3
+  },
+  {
+   "s": 11.266,
+   "e": 13.165,
+   "text": "Das ist das Phantom von Heilbronn.",
+   "line": 4
+  },
+  {
+   "s": 13.165,
+   "e": 15.145,
+   "text": "1993 tauchte ihre",
+   "line": 5
+  },
+  {
+   "s": 15.145,
+   "e": 16.848,
+   "text": "Spur zum ersten Mal auf.",
+   "line": 5
+  },
+  {
+   "s": 16.848,
+   "e": 18.435,
+   "text": "Danach immer wieder, über Jahre,",
+   "line": 6
+  },
+  {
+   "s": 18.435,
+   "e": 20.429,
+   "text": "an ganz verschiedenen Tatorten.",
+   "line": 6
+  },
+  {
+   "s": 20.429,
+   "e": 21.67,
+   "text": "Die DNA passte zu keiner",
+   "line": 7
+  },
+  {
+   "s": 21.67,
+   "e": 22.903,
+   "text": "bekannten Person.",
+   "line": 7
+  },
+  {
+   "s": 22.903,
+   "e": 25.983,
+   "text": "Dann, am 25. April 2007,",
+   "line": 8
+  },
+  {
+   "s": 25.983,
+   "e": 27.203,
+   "text": "wurde in Heilbronn eine junge",
+   "line": 8
+  },
+  {
+   "s": 27.203,
+   "e": 28.83,
+   "text": "Polizistin erschossen.",
+   "line": 8
+  },
+  {
+   "s": 28.83,
+   "e": 31.004,
+   "text": "Ihr Name war Michèle Kiesewetter.",
+   "line": 9
+  },
+  {
+   "s": 31.004,
+   "e": 33.237,
+   "text": "Ihr Kollege überlebte schwer verletzt.",
+   "line": 9
+  },
+  {
+   "s": 33.237,
+   "e": 34.075,
+   "text": "Am Streifenwagen",
+   "line": 10
+  },
+  {
+   "s": 34.075,
+   "e": 35.974,
+   "text": "fand man wieder dieselbe DNA.",
+   "line": 10
+  },
+  {
+   "s": 35.974,
+   "e": 37.143,
+   "text": "Jetzt suchte ganz Deutschland",
+   "line": 11
+  },
+  {
+   "s": 37.143,
+   "e": 38.833,
+   "text": "nach der unbekannten Frau.",
+   "line": 11
+  },
+  {
+   "s": 38.833,
+   "e": 41.778,
+   "text": "Die Belohnung stieg auf 300.000 Euro.",
+   "line": 11
+  },
+  {
+   "s": 41.778,
+   "e": 43.577,
+   "text": "Wer war diese Frau, die mordet,",
+   "line": 12
+  },
+  {
+   "s": 43.577,
+   "e": 45.553,
+   "text": "einbricht und spurlos verschwindet?",
+   "line": 12
+  },
+  {
+   "s": 45.553,
+   "e": 46.913,
+   "text": "Doch etwas passte nicht:",
+   "line": 13
+  },
+  {
+   "s": 46.913,
+   "e": 48.672,
+   "text": "Die Spur tauchte an Orten auf,",
+   "line": 13
+  },
+  {
+   "s": 48.672,
+   "e": 50.548,
+   "text": "die nichts miteinander zu tun hatten.",
+   "line": 13
+  },
+  {
+   "s": 50.548,
+   "e": 52.339,
+   "text": "2009 kam die Wende.",
+   "line": 14
+  },
+  {
+   "s": 52.339,
+   "e": 53.179,
+   "text": "Die Ermittler prüften",
+   "line": 15
+  },
+  {
+   "s": 53.179,
+   "e": 54.379,
+   "text": "die Wattestäbchen,",
+   "line": 15
+  },
+  {
+   "s": 54.379,
+   "e": 56.472,
+   "text": "mit denen Spuren gesichert wurden.",
+   "line": 15
+  },
+  {
+   "s": 56.472,
+   "e": 58.232,
+   "text": "Die DNA stammte von einer Frau,",
+   "line": 16
+  },
+  {
+   "s": 58.232,
+   "e": 59.092,
+   "text": "die in einer Fabrik solche",
+   "line": 16
+  },
+  {
+   "s": 59.092,
+   "e": 60.967,
+   "text": "Wattestäbchen verpackte.",
+   "line": 16
+  },
+  {
+   "s": 60.967,
+   "e": 62.416,
+   "text": "Die Stäbchen waren steril,",
+   "line": 17
+  },
+  {
+   "s": 62.416,
+   "e": 64.333,
+   "text": "aber nicht frei von menschlicher DNA.",
+   "line": 17
+  },
+  {
+   "s": 64.333,
+   "e": 66.34,
+   "text": "Das Phantom hatte nie existiert.",
+   "line": 18
+  },
+  {
+   "s": 66.34,
+   "e": 67.6,
+   "text": "Jahrelang hatte die Polizei",
+   "line": 19
+  },
+  {
+   "s": 67.6,
+   "e": 69.24,
+   "text": "eine Frau gejagt, die mit keinem",
+   "line": 19
+  },
+  {
+   "s": 69.24,
+   "e": 71.134,
+   "text": "dieser Verbrechen zu tun hatte.",
+   "line": 19
+  },
+  {
+   "s": 71.134,
+   "e": 73.274,
+   "text": "Seitdem gelten für Wattestäbchen in",
+   "line": 20
+  },
+  {
+   "s": 73.274,
+   "e": 75.456,
+   "text": "der Spurensicherung strengere Regeln.",
+   "line": 20
+  },
+  {
+   "s": 75.456,
+   "e": 77.624,
+   "text": "Und der Mord an Michèle Kiesewetter?",
+   "line": 21
+  },
+  {
+   "s": 77.624,
+   "e": 79.624,
+   "text": "2011 stellte sich heraus:",
+   "line": 22
+  },
+  {
+   "s": 79.624,
+   "e": 80.744,
+   "text": "Er gehörte zur Mordserie",
+   "line": 22
+  },
+  {
+   "s": 80.744,
+   "e": 83.221,
+   "text": "der rechtsextremen Terrorgruppe NSU.",
+   "line": 22
+  },
+  {
+   "s": 83.221,
+   "e": 84.841,
+   "text": "Ihre Dienstwaffe fand man im Wohnmobil",
+   "line": 23
+  },
+  {
+   "s": 84.841,
+   "e": 86.731,
+   "text": "von zwei NSU-Mitgliedern.",
+   "line": 23
+  },
+  {
+   "s": 86.731,
+   "e": 88.251,
+   "text": "Eine falsche Spur hatte die Ermittler",
+   "line": 24
+  },
+  {
+   "s": 88.251,
+   "e": 90.229,
+   "text": "jahrelang in die Irre geführt.",
+   "line": 24
+  },
+  {
+   "s": 90.229,
+   "e": 91.849,
+   "text": "Kann man DNA also immer vertrauen?",
+   "line": 25
+  },
+  {
+   "s": 91.849,
+   "e": 93.41,
+   "text": "Was denkst du?",
+   "line": 25
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/6/voice/line_01.mp3"
+  },
+  {
+   "s": 5.134,
+   "src": "crime/6/voice/line_02.mp3"
+  },
+  {
+   "s": 8.623,
+   "src": "crime/6/voice/line_03.mp3"
+  },
+  {
+   "s": 11.346,
+   "src": "crime/6/voice/line_04.mp3"
+  },
+  {
+   "s": 13.245,
+   "src": "crime/6/voice/line_05.mp3"
+  },
+  {
+   "s": 16.928,
+   "src": "crime/6/voice/line_06.mp3"
+  },
+  {
+   "s": 20.509,
+   "src": "crime/6/voice/line_07.mp3"
+  },
+  {
+   "s": 22.983,
+   "src": "crime/6/voice/line_08.mp3"
+  },
+  {
+   "s": 28.91,
+   "src": "crime/6/voice/line_09.mp3"
+  },
+  {
+   "s": 33.317,
+   "src": "crime/6/voice/line_10.mp3"
+  },
+  {
+   "s": 36.054,
+   "src": "crime/6/voice/line_11.mp3"
+  },
+  {
+   "s": 41.858,
+   "src": "crime/6/voice/line_12.mp3"
+  },
+  {
+   "s": 45.633,
+   "src": "crime/6/voice/line_13.mp3"
+  },
+  {
+   "s": 50.628,
+   "src": "crime/6/voice/line_14.mp3"
+  },
+  {
+   "s": 52.419,
+   "src": "crime/6/voice/line_15.mp3"
+  },
+  {
+   "s": 56.552,
+   "src": "crime/6/voice/line_16.mp3"
+  },
+  {
+   "s": 61.047,
+   "src": "crime/6/voice/line_17.mp3"
+  },
+  {
+   "s": 64.413,
+   "src": "crime/6/voice/line_18.mp3"
+  },
+  {
+   "s": 66.42,
+   "src": "crime/6/voice/line_19.mp3"
+  },
+  {
+   "s": 71.214,
+   "src": "crime/6/voice/line_20.mp3"
+  },
+  {
+   "s": 75.536,
+   "src": "crime/6/voice/line_21.mp3"
+  },
+  {
+   "s": 77.704,
+   "src": "crime/6/voice/line_22.mp3"
+  },
+  {
+   "s": 83.301,
+   "src": "crime/6/voice/line_23.mp3"
+  },
+  {
+   "s": 86.811,
+   "src": "crime/6/voice/line_24.mp3"
+  },
+  {
+   "s": 90.309,
+   "src": "crime/6/voice/line_25.mp3"
+  }
+ ],
+ "music": "crime/6/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ],
+ "sfx": "crime/6/sfx.wav",
+ "sfxVolume": 0.6
+}
