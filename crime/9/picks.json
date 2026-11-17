@@ -26,66 +26,103 @@
  ],
  "images": {
   "kadewe88": {
-   "src": "1/3-1.jpg"
+   "src": "1/3-1.jpg",
+   "label": "KaDeWe, Berlin 1988"
   },
   "kadewe": {
-   "src": "1/2-1.jpg"
+   "src": "1/2-1.jpg",
+   "label": "KaDeWe, Berlin"
   },
   "karstadt": {
-   "src": "1/5-7.jpg"
+   "src": "1/5-7.jpg",
+   "label": "Karstadt am Hermannplatz, Berlin"
   },
   "karstadt_old": {
-   "src": "1/5-6.jpg"
+   "src": "1/5-6.jpg",
+   "label": "Karstadt Hermannplatz, 1930er"
   },
   "sbahn": {
-   "src": "1/6-4.jpg"
+   "src": "1/6-4.jpg",
+   "label": "S-Bahn Berlin, 1990"
   },
   "sbahn2": {
-   "src": "1/6-6.jpg"
+   "src": "1/6-6.jpg",
+   "label": "S-Bahn (Symbolbild)"
   },
   "track": {
-   "src": "1/7-1.jpg"
+   "src": "1/7-1.jpg",
+   "label": "Stillgelegtes Gleis (Symbolbild)"
   },
   "handcar": {
-   "src": "1/8-1.jpg"
+   "src": "1/8-1.jpg",
+   "label": "Lore (Symbolbild)"
   },
   "phone": {
-   "src": "1/10-7.jpg"
+   "src": "1/10-7.jpg",
+   "label": "Telefonzelle (Symbolbild)"
   },
   "money": {
-   "src": "1/12-2.jpg"
+   "src": "1/12-2.jpg",
+   "label": "D-Mark (Symbolbild)"
   },
   "leaves": {
-   "src": "1/13-1.jpg"
+   "src": "1/13-1.jpg",
+   "label": "Nasses Laub (Symbolbild)"
   },
   "police": {
-   "src": "1/14-1.jpg"
+   "src": "1/14-1.jpg",
+   "label": "Polizei Berlin, 1990"
   },
   "funke": {
-   "src": "1/1-3.jpg"
+   "src": "1/1-3.jpg",
+   "label": "Arno Funke, 2015"
   },
   "funke2": {
-   "src": "1/1-1.jpg"
+   "src": "1/1-1.jpg",
+   "label": "Arno Funke, 2009"
   },
   "gbf": {
-   "src": "1/1-4.jpg"
+   "src": "1/1-4.jpg",
+   "label": "Berlin (Symbolbild)"
+  },
+  "badge": {
+   "src": "2/1-1.jpg",
+   "label": "Abzeichen der Soko Dagobert"
+  },
+  "zoo": {
+   "src": "2/5-5.jpg",
+   "label": "S-Bahn am Bahnhof Zoo, 1989"
+  },
+  "dm500": {
+   "src": "2/11-4.jpg",
+   "label": "D-Mark (Symbolbild)"
+  },
+  "ads": {
+   "src": "2/12-1.jpg",
+   "label": "Zeitungsanzeigen (Symbolbild)"
+  },
+  "gleis": {
+   "src": "2/5-4.jpg",
+   "label": "Stillgelegtes Gleis (Symbolbild)"
+  },
+  "kadewe_front": {
+   "src": "2/2-18.jpg",
+   "label": "KaDeWe, Berlin"
   }
  },
  "scenes": [
   {
    "at": 1,
    "edit": "hook",
-   "why": "2 giây đầu: KaDeWe thật năm 1988 đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt nhanh theo từng chữ: cảnh sát Berlin → đường ray bỏ hoang",
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert"
+   },
+   "why": "2 giây đầu nói ngay vụ gì: tên vụ \"Der Fall Dagobert\" hiện từ khung đầu trên ảnh thật mặt tiền KaDeWe có chữ \"Kaufhaus des Westens\" (nơi quả bom đầu tiên nổ) + băng \"Bomben im Kaufhaus\"; cắt sang ảnh thật xe cảnh sát Berlin đúng chữ \"Polizei\"",
    "items": [
     {
-     "photo": "kadewe88",
-     "pos": "full",
-     "view": [
-      0.15,
-      0.0,
-      0.85,
-      1.0
-     ]
+     "photo": "kadewe_front",
+     "pos": "full"
     },
     {
      "photo": "police",
@@ -99,72 +136,71 @@
      "at": "1/Polizei"
     },
     {
-     "photo": "track",
-     "pos": "full",
-     "at": "1/sechs"
-    },
-    {
-     "tape": "Wer ist Dagobert?",
+     "tape": "Bomben im Kaufhaus",
      "color": "red",
-     "size": 76,
+     "size": 72,
      "xy": [
       540,
       1240
      ]
     },
     {
-     "tape": "BOMBEN IM KAUFHAUS",
+     "tape": "6 JAHRE GEJAGT",
      "color": "white",
-     "size": 50,
+     "size": 54,
      "xy": [
       540,
       1110
      ],
-     "at": "1/Bomben"
+     "at": "1/sechs"
     }
    ]
   },
   {
    "at": 2,
-   "edit": "statement",
-   "why": "câu 2: bị truy lùng nhưng lại được coi như người hùng",
+   "edit": "detail",
+   "why": "câu 2–3: được tung hô như người hùng — \"đây là vụ Dagobert\": huy hiệu thật của đội đặc nhiệm Soko Dagobert, phóng to vào chữ SOKO DAGOBERT đúng chữ \"Dagobert\"",
    "items": [
     {
-     "tape": "6 Jahre gejagt",
-     "color": "white",
-     "size": 66,
-     "at": 2.02
+     "photo": "badge",
+     "view": [
+      0.1,
+      0.25,
+      0.9,
+      1.0
+     ],
+     "zoom": {
+      "to": [
+       0.15,
+       0.55,
+       0.85,
+       1.0
+      ],
+      "at": "3/Dagobert",
+      "dur": 1.4
+     }
     },
     {
-     "tape": "und gefeiert",
+     "tape": "Volksheld?",
      "color": "red",
-     "size": 76,
-     "at": "2/feiern"
+     "pin": "tl",
+     "at": "2/Volkshelden"
     }
    ]
   },
   {
-   "at": 3,
-   "edit": "chapter",
-   "why": "câu 3 gọi tên vụ án",
-   "head": {
-    "kicker": "AKTE 1988–1994",
-    "title": "Der Fall Dagobert"
-   }
-  },
-  {
    "at": 4,
-   "edit": "detail",
-   "why": "câu 4: tháng 5/1988 bom nổ ở KaDeWe — ảnh KaDeWe thật năm 1988",
+   "edit": "place",
+   "why": "câu 4: tháng 5/1988 bom nổ ở KaDeWe — ảnh thật KaDeWe năm 1988",
    "items": [
     {
      "photo": "kadewe88",
      "zoom": {
       "to": [
-       0.25,
-       0.1,
-       0.85,
-       0.75
+       0.0,
+       0.05,
+       0.6,
+       0.8
       ],
       "at": "4/KaDeWe",
       "dur": 1.4
@@ -186,10 +222,10 @@
   {
    "at": 5,
    "edit": "number",
-   "why": "câu 5: đòi 500.000 mác, ném tiền từ tàu S-Bahn đang chạy",
+   "why": "câu 5: đòi 500.000 mác, ném tiền từ tàu S-Bahn đang chạy — ảnh thật S-Bahn Tây Berlin năm 1989",
    "items": [
     {
-     "photo": "sbahn",
+     "photo": "zoo",
      "pos": "small"
     },
     {
@@ -254,7 +290,7 @@
    "why": "câu 8: đòi 1,4 triệu mác",
    "items": [
     {
-     "photo": "money",
+     "photo": "dm500",
      "pos": "small"
     },
     {
@@ -271,18 +307,34 @@
   },
   {
    "at": 9,
-   "edit": "statement",
-   "why": "câu 9–10: tín hiệu là quảng cáo trên báo \"Dagobert gửi lời chào các cháu\"",
+   "edit": "detail",
+   "why": "câu 9–10: tín hiệu là quảng cáo trên báo \"Dagobert gửi lời chào các cháu\" — trang quảng cáo báo (ảnh minh họa); vòng khoanh một mẩu quảng cáo",
    "items": [
+    {
+     "photo": "ads",
+     "ring": {
+      "box": [
+       0.36,
+       0.27,
+       0.67,
+       0.58
+      ],
+      "at": "10/Dagobert"
+     }
+    },
     {
      "tape": "ZEITUNGSANZEIGE",
      "color": "white",
-     "size": 60,
+     "pin": "top",
      "at": "9/Zeitungsanzeige"
     },
     {
      "tape": "„Dagobert grüßt seine Neffen“",
      "color": "red",
+     "xy": [
+      540,
+      1330
+     ],
      "at": "10/Dagobert"
     }
    ]
@@ -365,7 +417,8 @@
    "why": "câu 15: mẹo 2 — goòng tự chế trên đường ray bỏ hoang, trật bánh ngay trước mặt hắn (ảnh minh họa loại vật)",
    "items": [
     {
-     "photo": "track"
+     "photo": "gleis",
+     "label": "Gleis (Symbolbild)"
     },
     {
      "photo": "handcar",
@@ -445,7 +498,8 @@
    "why": "câu 19–20: ngày 22/4/1994 bị bắt ở Berlin, trong một buồng điện thoại",
    "items": [
     {
-     "photo": "phone"
+     "photo": "phone",
+     "label": "Symbolbild"
     },
     {
      "card": "paper",
@@ -562,19 +616,23 @@
    "items": [
     {
      "photo": "kadewe88",
-     "pos": "g1"
+     "pos": "g1",
+     "label": ""
     },
     {
-     "photo": "sbahn",
-     "pos": "g2"
+     "photo": "zoo",
+     "pos": "g2",
+     "label": ""
     },
     {
-     "photo": "track",
-     "pos": "g3"
+     "photo": "badge",
+     "pos": "g3",
+     "label": ""
     },
     {
      "photo": "phone",
-     "pos": "g4"
+     "pos": "g4",
+     "label": ""
     },
     {
      "string": [
@@ -617,5 +675,12 @@
     }
    ]
   }
- ]
+ ],
+ "music": false,
+ "sfx_volume": 2,
+ "fx": {
+  "depth": true,
+  "blur": true,
+  "grain": 0.1
+ }
 }
