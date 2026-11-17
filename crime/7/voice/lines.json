@@ -1,0 +1,1471 @@
+[
+ {
+  "i": 1,
+  "text": "Ein arbeitsloser Schuhmacher kauft sich eine alte Uniform.",
+  "tts": "Ein arbeitsloser Schuhmacher kauft sich eine alte Uniform.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_01.mp3",
+  "duration": 2.956,
+  "heard": "Ein arbeitslose Schuhmacher kauft sich eine alte Uniform.",
+  "score": 0.88,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0612,
+    0.16
+   ],
+   [
+    0.2857,
+    0.66
+   ],
+   [
+    0.5102,
+    1.16
+   ],
+   [
+    0.6122,
+    1.66
+   ],
+   [
+    0.6939,
+    1.82
+   ],
+   [
+    0.7755,
+    1.98
+   ],
+   [
+    0.8571,
+    2.22
+   ],
+   [
+    1.0,
+    2.72
+   ]
+  ]
+ },
+ {
+  "i": 2,
+  "text": "Wenige Stunden später gehorchen ihm Soldaten, ein Bürgermeister und eine ganze Stadt.",
+  "tts": "Wenige Stunden später gehorchen ihm Soldaten, ein Bürgermeister und eine ganze Stadt.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_02.mp3",
+  "duration": 4.553,
+  "heard": "Wenige Stunden später gehorchen ihm Soldaten, ein Bürgermeister und eine ganze Stadt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0833,
+    0.32
+   ],
+   [
+    0.1806,
+    0.54
+   ],
+   [
+    0.2639,
+    0.92
+   ],
+   [
+    0.3889,
+    1.6
+   ],
+   [
+    0.4306,
+    1.72
+   ],
+   [
+    0.5417,
+    2.64
+   ],
+   [
+    0.5833,
+    2.7
+   ],
+   [
+    0.7639,
+    3.4
+   ],
+   [
+    0.8056,
+    3.58
+   ],
+   [
+    0.8611,
+    3.72
+   ],
+   [
+    0.9306,
+    4.02
+   ],
+   [
+    1.0,
+    4.32
+   ]
+  ]
+ },
+ {
+  "i": 3,
+  "text": "Das ist der Hauptmann von Köpenick.",
+  "tts": "Das ist der Hauptmann von Köpenick.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_03.mp3",
+  "duration": 1.67,
+  "heard": "Das ist der Hauptmann von Köpenick.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1034,
+    0.12
+   ],
+   [
+    0.2069,
+    0.24
+   ],
+   [
+    0.3103,
+    0.34
+   ],
+   [
+    0.6207,
+    0.78
+   ],
+   [
+    0.7241,
+    0.96
+   ],
+   [
+    1.0,
+    1.46
+   ]
+  ]
+ },
+ {
+  "i": 4,
+  "text": "Berlin, 1906. Wilhelm Voigt ist 57 Jahre alt und hat viele Jahre im Gefängnis verbracht.",
+  "tts": "Berlin, neunzehnhundertsechs. Wilhelm Voigt ist siebenundfünfzig Jahre alt und hat viele Jahre im Gefängnis verbracht.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_04.mp3",
+  "duration": 6.25,
+  "heard": "Berlin 1906, Wilhelm Feugt ist 57 Jahre alt und hat viele Jahre im Gefängnis verbracht.",
+  "score": 0.93,
+  "diff": [
+   "voigt→feugt"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0845,
+    0.28
+   ],
+   [
+    0.1408,
+    1.76
+   ],
+   [
+    0.2394,
+    2.12
+   ],
+   [
+    0.3099,
+    2.52
+   ],
+   [
+    0.3521,
+    2.62
+   ],
+   [
+    0.3803,
+    3.24
+   ],
+   [
+    0.4507,
+    3.7
+   ],
+   [
+    0.493,
+    4.08
+   ],
+   [
+    0.5352,
+    4.44
+   ],
+   [
+    0.5775,
+    4.56
+   ],
+   [
+    0.6479,
+    4.82
+   ],
+   [
+    0.7183,
+    5.14
+   ],
+   [
+    0.7465,
+    5.32
+   ],
+   [
+    0.8732,
+    5.78
+   ],
+   [
+    1.0,
+    6.12
+   ]
+  ]
+ },
+ {
+  "i": 5,
+  "text": "Ohne Papiere bekommt er keine Arbeit. Ohne Arbeit bekommt er keine Papiere.",
+  "tts": "Ohne Papiere bekommt er keine Arbeit. Ohne Arbeit bekommt er keine Papiere.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_05.mp3",
+  "duration": 3.803,
+  "heard": "Ohne Papiere bekommt er keine Arbeit. Ohne Arbeit bekommt er keine Papiere.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0645,
+    0.24
+   ],
+   [
+    0.1774,
+    0.64
+   ],
+   [
+    0.2903,
+    0.9
+   ],
+   [
+    0.3226,
+    1.1
+   ],
+   [
+    0.4032,
+    1.26
+   ],
+   [
+    0.5,
+    2.1
+   ],
+   [
+    0.5645,
+    2.36
+   ],
+   [
+    0.6613,
+    2.58
+   ],
+   [
+    0.7742,
+    2.88
+   ],
+   [
+    0.8065,
+    3.04
+   ],
+   [
+    0.8871,
+    3.18
+   ],
+   [
+    1.0,
+    3.62
+   ]
+  ]
+ },
+ {
+  "i": 6,
+  "text": "Doch im Kaiserreich gilt eine Uniform mehr als jedes Dokument.",
+  "tts": "Doch im Kaiserreich gilt eine Uniform mehr als jedes Dokument.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_06.mp3",
+  "duration": 3.206,
+  "heard": "Doch im Kaiserreich gilt eine Uniform mehr als jedes Dokument.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0769,
+    0.16
+   ],
+   [
+    0.1154,
+    0.3
+   ],
+   [
+    0.3269,
+    0.8
+   ],
+   [
+    0.4038,
+    1.1
+   ],
+   [
+    0.4808,
+    1.3
+   ],
+   [
+    0.6154,
+    1.76
+   ],
+   [
+    0.6923,
+    2.0
+   ],
+   [
+    0.75,
+    2.2
+   ],
+   [
+    0.8462,
+    2.4
+   ],
+   [
+    1.0,
+    2.9
+   ]
+  ]
+ },
+ {
+  "i": 7,
+  "text": "Bei Trödlern kauft sich Voigt die Uniform eines Hauptmanns.",
+  "tts": "Bei Trödlern kauft sich Voigt die Uniform eines Hauptmanns.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_07.mp3",
+  "duration": 3.041,
+  "heard": "Bei Trödlern kauft sich folgt die Uniform eines Hauptmanns.",
+  "score": 0.89,
+  "diff": [
+   "voigt→folgt"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.06,
+    0.12
+   ],
+   [
+    0.22,
+    0.54
+   ],
+   [
+    0.32,
+    0.82
+   ],
+   [
+    0.4,
+    1.0
+   ],
+   [
+    0.5,
+    1.44
+   ],
+   [
+    0.56,
+    1.56
+   ],
+   [
+    0.7,
+    1.98
+   ],
+   [
+    0.8,
+    2.24
+   ],
+   [
+    1.0,
+    2.94
+   ]
+  ]
+ },
+ {
+  "i": 8,
+  "text": "Am 16. Oktober 1906 hält er auf der Straße einen Trupp Soldaten an.",
+  "tts": "Am sechzehnten Oktober neunzehnhundertsechs hält er auf der Straße einen Trupp Soldaten an.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_08.mp3",
+  "duration": 4.355,
+  "heard": "Am 16. Oktober 1906 hält er auf der Straße einen Truppsoldaten an.",
+  "score": 0.8,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0377,
+    0.12
+   ],
+   [
+    0.0755,
+    0.68
+   ],
+   [
+    0.2075,
+    1.08
+   ],
+   [
+    0.283,
+    1.8
+   ],
+   [
+    0.3585,
+    2.14
+   ],
+   [
+    0.3962,
+    2.28
+   ],
+   [
+    0.4528,
+    2.38
+   ],
+   [
+    0.5094,
+    2.48
+   ],
+   [
+    0.6226,
+    2.9
+   ],
+   [
+    0.717,
+    3.18
+   ],
+   [
+    0.9623,
+    3.98
+   ],
+   [
+    1.0,
+    4.16
+   ]
+  ]
+ },
+ {
+  "i": 9,
+  "text": "Er befiehlt ihnen, ihm zu folgen. Und sie folgen.",
+  "tts": "Er befiehlt ihnen, ihm zu folgen. Und sie folgen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_09.mp3",
+  "duration": 2.38,
+  "heard": "Er befiehlt ihnen, ihm zu folgen und sie folgen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0526,
+    0.12
+   ],
+   [
+    0.2632,
+    0.48
+   ],
+   [
+    0.3947,
+    0.9
+   ],
+   [
+    0.4737,
+    0.98
+   ],
+   [
+    0.5263,
+    1.14
+   ],
+   [
+    0.6842,
+    1.58
+   ],
+   [
+    0.7632,
+    1.78
+   ],
+   [
+    0.8421,
+    1.92
+   ],
+   [
+    1.0,
+    2.28
+   ]
+  ]
+ },
+ {
+  "i": 10,
+  "text": "Mit der Bahn fahren sie nach Köpenick, damals eine eigene Stadt vor Berlin.",
+  "tts": "Mit der Bahn fahren sie nach Köpenick, damals eine eigene Stadt vor Berlin.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_10.mp3",
+  "duration": 3.646,
+  "heard": "Mit der Bahn fahren sie nach Köpenick, damals eine eigene Stadt vor Berlin.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0492,
+    0.14
+   ],
+   [
+    0.0984,
+    0.26
+   ],
+   [
+    0.1639,
+    0.48
+   ],
+   [
+    0.2623,
+    0.72
+   ],
+   [
+    0.3115,
+    0.9
+   ],
+   [
+    0.377,
+    1.04
+   ],
+   [
+    0.5082,
+    1.82
+   ],
+   [
+    0.6066,
+    2.04
+   ],
+   [
+    0.6721,
+    2.36
+   ],
+   [
+    0.7705,
+    2.66
+   ],
+   [
+    0.8525,
+    2.94
+   ],
+   [
+    0.9016,
+    3.16
+   ],
+   [
+    1.0,
+    3.34
+   ]
+  ]
+ },
+ {
+  "i": 11,
+  "text": "Voigt lässt das Rathaus besetzen. Niemand darf hinein oder hinaus.",
+  "tts": "Voigt lässt das Rathaus besetzen. Niemand darf hinein oder hinaus.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_11.mp3",
+  "duration": 3.422,
+  "heard": "Folgt lässt das Rathaus besetzen. Niemand darf hinein oder hinaus.",
+  "score": 0.9,
+  "diff": [
+   "voigt→folgt"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0909,
+    0.3
+   ],
+   [
+    0.1818,
+    0.44
+   ],
+   [
+    0.2364,
+    0.58
+   ],
+   [
+    0.3636,
+    0.94
+   ],
+   [
+    0.5091,
+    1.74
+   ],
+   [
+    0.6364,
+    2.04
+   ],
+   [
+    0.7091,
+    2.3
+   ],
+   [
+    0.8182,
+    2.72
+   ],
+   [
+    0.8909,
+    2.84
+   ],
+   [
+    1.0,
+    3.1
+   ]
+  ]
+ },
+ {
+  "i": 12,
+  "text": "Dann lässt er den Bürgermeister festnehmen.",
+  "tts": "Dann lässt er den Bürgermeister festnehmen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_12.mp3",
+  "duration": 2.003,
+  "heard": "Dann lässt er den Bürgermeister festnehmen.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1081,
+    0.18
+   ],
+   [
+    0.2432,
+    0.38
+   ],
+   [
+    0.2973,
+    0.52
+   ],
+   [
+    0.3784,
+    0.6
+   ],
+   [
+    0.7297,
+    1.22
+   ],
+   [
+    1.0,
+    1.76
+   ]
+  ]
+ },
+ {
+  "i": 13,
+  "text": "Und er verlangt die Stadtkasse. Mehrere tausend Mark wechseln den Besitzer.",
+  "tts": "Und er verlangt die Stadtkasse. Mehrere tausend Mark wechseln den Besitzer.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_13.mp3",
+  "duration": 3.785,
+  "heard": "und er verlangt die Stadtkasse. Mehrere Tausend Mark wechseln den Besitzer.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0476,
+    0.14
+   ],
+   [
+    0.0794,
+    0.22
+   ],
+   [
+    0.2063,
+    0.62
+   ],
+   [
+    0.254,
+    0.68
+   ],
+   [
+    0.4127,
+    1.62
+   ],
+   [
+    0.5238,
+    2.06
+   ],
+   [
+    0.6349,
+    2.48
+   ],
+   [
+    0.6984,
+    2.68
+   ],
+   [
+    0.8254,
+    3.14
+   ],
+   [
+    0.873,
+    3.18
+   ],
+   [
+    1.0,
+    3.54
+   ]
+  ]
+ },
+ {
+  "i": 14,
+  "text": "Den Bürgermeister schickt er unter Bewachung nach Berlin.",
+  "tts": "Den Bürgermeister schickt er unter Bewachung nach Berlin.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_14.mp3",
+  "duration": 2.713,
+  "heard": "Den Bürgermeister schickt er unter Bewachung nach Berlin.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0612,
+    0.12
+   ],
+   [
+    0.3265,
+    0.78
+   ],
+   [
+    0.4694,
+    1.26
+   ],
+   [
+    0.5102,
+    1.36
+   ],
+   [
+    0.6122,
+    1.52
+   ],
+   [
+    0.7959,
+    2.0
+   ],
+   [
+    0.8776,
+    2.12
+   ],
+   [
+    1.0,
+    2.36
+   ]
+  ]
+ },
+ {
+  "i": 15,
+  "text": "Dann verschwindet der Hauptmann. Einfach so.",
+  "tts": "Dann verschwindet der Hauptmann. Einfach so.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_15.mp3",
+  "duration": 2.134,
+  "heard": "dann verschwindet der Hauptmann. Einfach so.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1081,
+    0.14
+   ],
+   [
+    0.4324,
+    0.64
+   ],
+   [
+    0.5135,
+    0.72
+   ],
+   [
+    0.7568,
+    1.48
+   ],
+   [
+    0.9459,
+    1.78
+   ],
+   [
+    1.0,
+    1.96
+   ]
+  ]
+ },
+ {
+  "i": 16,
+  "text": "Ganz Deutschland lacht, und die halbe Welt lacht mit.",
+  "tts": "Ganz Deutschland lacht, und die halbe Welt lacht mit.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_16.mp3",
+  "duration": 2.47,
+  "heard": "Ganz Deutschland lacht und die halbe Welt lacht mit.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.093,
+    0.18
+   ],
+   [
+    0.3488,
+    0.54
+   ],
+   [
+    0.4651,
+    0.88
+   ],
+   [
+    0.5349,
+    1.26
+   ],
+   [
+    0.6047,
+    1.36
+   ],
+   [
+    0.7209,
+    1.58
+   ],
+   [
+    0.814,
+    1.74
+   ],
+   [
+    0.9302,
+    2.04
+   ],
+   [
+    1.0,
+    2.18
+   ]
+  ]
+ },
+ {
+  "i": 17,
+  "text": "Ein falscher Offizier hat gezeigt, wie blind man einer Uniform gehorcht.",
+  "tts": "Ein falscher Offizier hat gezeigt, wie blind man einer Uniform gehorcht.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_17.mp3",
+  "duration": 3.694,
+  "heard": "Ein falscher Offizier hat gezeigt, wie Blindmann einer Uniform gehorcht.",
+  "score": 0.86,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0492,
+    0.16
+   ],
+   [
+    0.1803,
+    0.54
+   ],
+   [
+    0.3115,
+    1.0
+   ],
+   [
+    0.3607,
+    1.12
+   ],
+   [
+    0.4754,
+    1.84
+   ],
+   [
+    0.5246,
+    1.96
+   ],
+   [
+    0.6721,
+    2.4
+   ],
+   [
+    0.7541,
+    2.66
+   ],
+   [
+    0.8689,
+    3.06
+   ],
+   [
+    1.0,
+    3.56
+   ]
+  ]
+ },
+ {
+  "i": 18,
+  "text": "Zehn Tage später wird Voigt gefasst. Ein früherer Mithäftling hatte ihn verraten.",
+  "tts": "Zehn Tage später wird Voigt gefasst. Ein früherer Mithäftling hatte ihn verraten.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_18.mp3",
+  "duration": 4.181,
+  "heard": "Zehn Tage später wird folgt gefasst. Ein früherer Mitteffling hatte ihn verraten.",
+  "score": 0.83,
+  "diff": [
+   "voigt→folgt",
+   "mithaeftling→mitteffling"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0588,
+    0.28
+   ],
+   [
+    0.1176,
+    0.46
+   ],
+   [
+    0.2059,
+    0.82
+   ],
+   [
+    0.2647,
+    1.06
+   ],
+   [
+    0.3382,
+    1.44
+   ],
+   [
+    0.4412,
+    2.12
+   ],
+   [
+    0.4853,
+    2.22
+   ],
+   [
+    0.6029,
+    2.62
+   ],
+   [
+    0.7647,
+    3.1
+   ],
+   [
+    0.8382,
+    3.3
+   ],
+   [
+    0.8824,
+    3.56
+   ],
+   [
+    1.0,
+    4.04
+   ]
+  ]
+ },
+ {
+  "i": 19,
+  "text": "Er wird zu vier Jahren Gefängnis verurteilt.",
+  "tts": "Er wird zu vier Jahren Gefängnis verurteilt.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_19.mp3",
+  "duration": 1.868,
+  "heard": "Er wird zu vier Jahren Gefängnis verurteilt.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0541,
+    0.1
+   ],
+   [
+    0.1622,
+    0.18
+   ],
+   [
+    0.2162,
+    0.32
+   ],
+   [
+    0.3243,
+    0.5
+   ],
+   [
+    0.4865,
+    0.72
+   ],
+   [
+    0.7297,
+    1.14
+   ],
+   [
+    1.0,
+    1.68
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "text": "Doch nach rund 20 Monaten begnadigt ihn Kaiser Wilhelm der Zweite.",
+  "tts": "Doch nach rund zwanzig Monaten begnadigt ihn Kaiser Wilhelm der Zweite.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_20.mp3",
+  "duration": 3.602,
+  "heard": "Doch nach rund 20 Monaten begnadigt ihm Kaiser Wilhelm II.",
+  "score": 0.76,
+  "diff": [
+   "ihn→ihm",
+   "derzweite→ii"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0833,
+    0.14
+   ],
+   [
+    0.1667,
+    0.3
+   ],
+   [
+    0.25,
+    0.56
+   ],
+   [
+    0.2917,
+    1.08
+   ],
+   [
+    0.4375,
+    1.5
+   ],
+   [
+    0.625,
+    2.1
+   ],
+   [
+    0.6875,
+    2.2
+   ],
+   [
+    0.8125,
+    2.44
+   ],
+   [
+    0.9583,
+    2.84
+   ],
+   [
+    1.0,
+    3.1
+   ]
+  ]
+ },
+ {
+  "i": 21,
+  "text": "Voigt wird berühmt. Er verkauft Postkarten mit seinem Bild und tritt auf Jahrmärkten auf.",
+  "tts": "Voigt wird berühmt. Er verkauft Postkarten mit seinem Bild und tritt auf Jahrmärkten auf.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_21.mp3",
+  "duration": 4.654,
+  "heard": "Feucht wird berühmt. Er verkauft Postkarten mit seinem Bild und tritt auf Jahrmärkten auf.",
+  "score": 0.93,
+  "diff": [
+   "voigt→feucht"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.08,
+    0.34
+   ],
+   [
+    0.1333,
+    0.5
+   ],
+   [
+    0.2267,
+    1.3
+   ],
+   [
+    0.2533,
+    1.4
+   ],
+   [
+    0.36,
+    1.76
+   ],
+   [
+    0.4933,
+    2.34
+   ],
+   [
+    0.5333,
+    2.48
+   ],
+   [
+    0.6133,
+    2.66
+   ],
+   [
+    0.6667,
+    2.94
+   ],
+   [
+    0.7067,
+    3.3
+   ],
+   [
+    0.7733,
+    3.58
+   ],
+   [
+    0.8133,
+    3.72
+   ],
+   [
+    0.96,
+    4.24
+   ],
+   [
+    1.0,
+    4.44
+   ]
+  ]
+ },
+ {
+  "i": 22,
+  "text": "Seine Geschichte wird zum Theaterstück und zu Filmen.",
+  "tts": "Seine Geschichte wird zum Theaterstück und zu Filmen.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_22.mp3",
+  "duration": 2.708,
+  "heard": "Seine Geschichte wird zum Tertarstück und zu filmen.",
+  "score": 0.88,
+  "diff": [
+   "theaterstueck→tertarstueck"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1136,
+    0.26
+   ],
+   [
+    0.3409,
+    0.6
+   ],
+   [
+    0.4318,
+    0.92
+   ],
+   [
+    0.5,
+    1.14
+   ],
+   [
+    0.75,
+    1.76
+   ],
+   [
+    0.8182,
+    1.98
+   ],
+   [
+    0.8636,
+    2.18
+   ],
+   [
+    1.0,
+    2.54
+   ]
+  ]
+ },
+ {
+  "i": 23,
+  "text": "Das Wort Köpenickiade steht bis heute für einen dreisten Streich mit falscher Uniform.",
+  "tts": "Das Wort Köpenickiade steht bis heute für einen dreisten Streich mit falscher Uniform.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_23.mp3",
+  "duration": 4.343,
+  "heard": "Das Wort Köpenikjade steht bis heute für einen 30. Streich mit falscher Uniform.",
+  "score": 0.85,
+  "diff": [
+   "koepenickiade→koepenikjade",
+   "dreisten→dreissig"
+  ],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0455,
+    0.14
+   ],
+   [
+    0.1061,
+    0.32
+   ],
+   [
+    0.2727,
+    1.16
+   ],
+   [
+    0.3485,
+    1.52
+   ],
+   [
+    0.3939,
+    1.66
+   ],
+   [
+    0.4697,
+    1.96
+   ],
+   [
+    0.5152,
+    2.16
+   ],
+   [
+    0.5909,
+    2.28
+   ],
+   [
+    0.6212,
+    2.76
+   ],
+   [
+    0.7273,
+    3.1
+   ],
+   [
+    0.7727,
+    3.44
+   ],
+   [
+    0.8939,
+    3.8
+   ],
+   [
+    1.0,
+    4.14
+   ]
+  ]
+ },
+ {
+  "i": 24,
+  "text": "Und vor dem Rathaus Köpenick steht heute seine Statue.",
+  "tts": "Und vor dem Rathaus Köpenick steht heute seine Statue.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_24.mp3",
+  "duration": 2.711,
+  "heard": "Und vor dem Rathaus Köpenick steht heute seine Statue.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0667,
+    0.12
+   ],
+   [
+    0.1333,
+    0.26
+   ],
+   [
+    0.2,
+    0.38
+   ],
+   [
+    0.3556,
+    0.86
+   ],
+   [
+    0.5333,
+    1.46
+   ],
+   [
+    0.6444,
+    1.64
+   ],
+   [
+    0.7556,
+    1.86
+   ],
+   [
+    0.8667,
+    2.14
+   ],
+   [
+    1.0,
+    2.58
+   ]
+  ]
+ },
+ {
+  "i": 25,
+  "text": "Würdest du einer Uniform blind gehorchen? Schreib es in die Kommentare.",
+  "tts": "Würdest du einer Uniform blind gehorchen? Schreib es in die Kommentare.",
+  "voice": "clone_611",
+  "speed": 1.2,
+  "file": "line_25.mp3",
+  "duration": 3.247,
+  "heard": "Würdest du einer Uniform blind gehorchen? Schreib es in die Kommentare.",
+  "score": 1.0,
+  "diff": [],
+  "align": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.1186,
+    0.22
+   ],
+   [
+    0.1525,
+    0.34
+   ],
+   [
+    0.2373,
+    0.46
+   ],
+   [
+    0.3559,
+    0.84
+   ],
+   [
+    0.4407,
+    1.08
+   ],
+   [
+    0.5932,
+    1.98
+   ],
+   [
+    0.7119,
+    2.28
+   ],
+   [
+    0.7458,
+    2.38
+   ],
+   [
+    0.7797,
+    2.46
+   ],
+   [
+    0.8305,
+    2.54
+   ],
+   [
+    1.0,
+    2.9
+   ]
+  ]
+ }
+]
