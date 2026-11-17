@@ -1,0 +1,62 @@
+{
+ "title": "Der Hauptmann von Köpenick",
+ "voice": "clone_611",
+ "speed": 1.2,
+ "lines": [
+  "Ein arbeitsloser Schuhmacher kauft sich eine alte Uniform.",
+  "Wenige Stunden später gehorchen ihm Soldaten, ein Bürgermeister und eine ganze Stadt.",
+  "Das ist der Hauptmann von Köpenick.",
+  "Berlin, 1906. Wilhelm Voigt ist 57 Jahre alt und hat viele Jahre im Gefängnis verbracht.",
+  "Ohne Papiere bekommt er keine Arbeit. Ohne Arbeit bekommt er keine Papiere.",
+  "Doch im Kaiserreich gilt eine Uniform mehr als jedes Dokument.",
+  "Bei Trödlern kauft sich Voigt die Uniform eines Hauptmanns.",
+  "Am 16. Oktober 1906 hält er auf der Straße einen Trupp Soldaten an.",
+  "Er befiehlt ihnen, ihm zu folgen. Und sie folgen.",
+  "Mit der Bahn fahren sie nach Köpenick, damals eine eigene Stadt vor Berlin.",
+  "Voigt lässt das Rathaus besetzen. Niemand darf hinein oder hinaus.",
+  "Dann lässt er den Bürgermeister festnehmen.",
+  "Und er verlangt die Stadtkasse. Mehrere tausend Mark wechseln den Besitzer.",
+  "Den Bürgermeister schickt er unter Bewachung nach Berlin.",
+  "Dann verschwindet der Hauptmann. Einfach so.",
+  "Ganz Deutschland lacht, und die halbe Welt lacht mit.",
+  "Ein falscher Offizier hat gezeigt, wie blind man einer Uniform gehorcht.",
+  "Zehn Tage später wird Voigt gefasst. Ein früherer Mithäftling hatte ihn verraten.",
+  "Er wird zu vier Jahren Gefängnis verurteilt.",
+  "Doch nach rund 20 Monaten begnadigt ihn Kaiser Wilhelm der Zweite.",
+  "Voigt wird berühmt. Er verkauft Postkarten mit seinem Bild und tritt auf Jahrmärkten auf.",
+  "Seine Geschichte wird zum Theaterstück und zu Filmen.",
+  "Das Wort Köpenickiade steht bis heute für einen dreisten Streich mit falscher Uniform.",
+  "Und vor dem Rathaus Köpenick steht heute seine Statue.",
+  "Würdest du einer Uniform blind gehorchen? Schreib es in die Kommentare."
+ ],
+ "tts": {
+  "4": "Berlin, neunzehnhundertsechs. Wilhelm Voigt ist siebenundfünfzig Jahre alt und hat viele Jahre im Gefängnis verbracht.",
+  "8": "Am sechzehnten Oktober neunzehnhundertsechs hält er auf der Straße einen Trupp Soldaten an.",
+  "20": "Doch nach rund zwanzig Monaten begnadigt ihn Kaiser Wilhelm der Zweite."
+ },
+ "music": {
+  "style": "tension",
+  "key": "D",
+  "mode": "minor",
+  "bpm": 76,
+  "energy": 0.3
+ },
+ "queries": [
+  "Wilhelm Voigt",
+  "commons: Hauptmann von Köpenick",
+  "Rathaus Köpenick",
+  "Hauptmann von Köpenick Denkmal",
+  "Köpenick 1906",
+  "Prussian uniform Hauptmann",
+  "Kaiser Wilhelm II",
+  "Berlin 1906",
+  "Prussian soldiers 1900",
+  "Köpenick Altstadt",
+  "Hauptmann von Köpenick postcard",
+  "Neue Wache Berlin",
+  "Zuckmayer Hauptmann von Köpenick",
+  "File:Germany adm location map.svg"
+ ],
+ "urls": [],
+ "gen": []
+}
