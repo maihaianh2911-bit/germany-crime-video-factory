@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { AbsoluteFill, Audio, Img, Sequence, cancelRender, continueRender, delayRender, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import { CameraMotionBlur } from '@remotion/motion-blur';
 
 // Vertical (1080×1920) true-crime video laid out as the owner's sample 00-video-mau/MAU-HO-SO.mp4: a case file on a
 // dark board. Black-and-white press prints with a white border, slightly turned; paper tapes slapped on when the voice
@@ -11,7 +12,7 @@ type Box = [number, number, number, number];
 type Ring = { s: number; box: View; shape: 'ellipse' | 'rect' | 'pin'; color: string };   // pin: a map pin at the box's centre
 type Base = { s: number; e?: number };
 export type PhotoI = Base & { type: 'photo'; src: string; w: number; h: number; box: Box; view: View; rot: number; ai: boolean; bleed?: boolean;
-  credit: string; drift: number; zoom?: { to: View; s: number; e: number }; rings: Ring[] };
+  credit: string; drift: number; depth?: string; zoom?: { to: View; s: number; e: number }; rings: Ring[] };
 export type StickerI = Base & { type: 'sticker'; src: string; w: number; h: number; box: Box; rot: number; ai: boolean; credit: string };
 export type TapeI = Base & { type: 'tape'; text: string; color: 'yellow' | 'red' | 'white'; px: number; x: number; y: number;
   align: 'left' | 'right' | 'center'; rot: number };
@@ -23,11 +24,15 @@ export type StringI = Base & { type: 'string'; a: [number, number]; b: [number, 
 export type Item = PhotoI | StickerI | TapeI | CardI | StatI | StringI;
 export type Head = { kicker: string; title: string; mode: 'top' | 'mid'; from: 'top' | 'mid' | null; s: number };
 export type Scene = { s: number; e: number; scene: number; head: Head | null; items: Item[]; credit: string; edit?: string; hush?: boolean };   // hush: a quiet moment (no music, slow camera)   // edit: name of the scene edit (picks.json), for the sheets only
+// picture effects (picks.json "fx", all off by default). depth: the camera moves into full-frame pictures that have a
+// depth map (scripts/crime/depth.py); blur: motion blur while things fly in or a scene slides in; grain: moving film
+// grain over the whole frame (its strength, ~0.1)
+export type Fx = { depth?: boolean; blur?: boolean; grain?: number };
 type FontChunk = { family: string; file: string; range: string; weight: string; style: string };
 type Faces = { sub: string; mono: string; serif: string; hand: string };
 export type PlanC = { duration: number; lang: 'ja' | 'de'; title: string; aiTag: string; faces: Faces; bg: string | null;
   scenes: Scene[]; subs: { s: number; e: number; text: string }[]; voice: { s: number; src: string }[]; music: string | null;
-  musicVolume: number; fonts: FontChunk[]; sfx?: string; sfxVolume?: number; timeline?: { labels: string[]; marks: number[]; idx: number[] } | null };
+  musicVolume: number; fonts: FontChunk[]; sfx?: string; sfxVolume?: number; fx?: Fx; timeline?: { labels: string[]; marks: number[]; idx: number[] } | null };
 
 // layout.py
 const SUB_Y = 1600, SUB_W = 940, SUB_PX = 40, CREDIT_Y = 1872, BORDER = 14;
@@ -128,6 +133,72 @@ const Rings: React.FC<{ it: PhotoI; t: number; v: View; iw: number; ih: number }
   );
 };
 
+// A full-frame picture with depth: near things move more than far ones while the camera drifts sideways and pushes
+// in (a parallax ray-march through the depth map, as DepthFlow does). Drawn over the plain <Img>, which stays as the
+// fallback when WebGL is missing. `view` is the region shown at the resting plane (FOCUS).
+const DEPTH_VS = 'attribute vec2 a; varying vec2 uv; void main() { uv = vec2(a.x * 0.5 + 0.5, 0.5 - a.y * 0.5); gl_Position = vec4(a, 0.0, 1.0); }';
+const DEPTH_FS = `precision highp float;
+uniform sampler2D img, dep; uniform vec4 view; uniform vec2 pan; uniform float dz; varying vec2 uv;
+const float FOCUS = 0.3; const int N = 48;
+void main() {
+  vec2 p0 = view.xy + uv * (view.zw - view.xy);
+  vec2 dir = pan + (p0 - (view.xy + view.zw) * 0.5) * dz;   // shift of a point per unit of height above the resting plane
+  float h0 = 1.0, d0 = 0.0; vec2 q = p0 - dir * (1.0 - FOCUS);
+  for (int i = 0; i <= N; i++) {
+    float h = 1.0 - float(i) / float(N);
+    vec2 qi = p0 - dir * (h - FOCUS);
+    float d = texture2D(dep, clamp(qi, 0.0, 1.0)).r;
+    if (d >= h) {   // the ray went under the surface: the hit lies between the last two steps
+      float k = i == 0 ? 0.0 : clamp((d - h) / max(1e-4, (d - h) + (h0 - d0)), 0.0, 1.0);
+      q = p0 - dir * (h + (h0 - h) * k - FOCUS); break;
+    }
+    h0 = h; d0 = d; q = qi;
+  }
+  gl_FragColor = vec4(texture2D(img, clamp(q, 0.0, 1.0)).rgb, 1.0);
+}`;
+const loadImage = (src: string) => new Promise<HTMLImageElement>((ok, no) => { const im = new Image(); im.onload = () => ok(im); im.onerror = () => no(new Error('image ' + src)); im.src = src; });
+const DepthImg: React.FC<{ it: PhotoI; v: View; iw: number; ih: number; phase: number; slow: boolean }> = ({ it, v, iw, ih, phase, slow }) => {
+  const ref = useRef<HTMLCanvasElement>(null);
+  const st = useRef<{ gl: WebGLRenderingContext; u: Record<string, WebGLUniformLocation | null> } | null>(null);
+  const [state, setState] = useState<'wait' | 'ok' | 'off'>('wait');
+  const [h] = useState(() => delayRender('depth ' + it.src));
+  useEffect(() => {
+    let dead = false;
+    Promise.all([loadImage(staticFile(it.src)), loadImage(staticFile(it.depth!))]).then(([a, b]) => {
+      if (dead) return;
+      const gl = ref.current?.getContext('webgl', { preserveDrawingBuffer: true, antialias: false });
+      if (!gl) throw new Error('no webgl');
+      const sh = (type: number, src: string) => { const o = gl.createShader(type)!; gl.shaderSource(o, src); gl.compileShader(o);
+        if (!gl.getShaderParameter(o, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(o) || 'shader'); return o; };
+      const pr = gl.createProgram()!; gl.attachShader(pr, sh(gl.VERTEX_SHADER, DEPTH_VS)); gl.attachShader(pr, sh(gl.FRAGMENT_SHADER, DEPTH_FS)); gl.linkProgram(pr);
+      if (!gl.getProgramParameter(pr, gl.LINK_STATUS)) throw new Error('link'); gl.useProgram(pr);
+      gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer()); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+      const loc = gl.getAttribLocation(pr, 'a'); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+      [a, b].forEach((im, i) => { gl.activeTexture(gl.TEXTURE0 + i); gl.bindTexture(gl.TEXTURE_2D, gl.createTexture());
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, im);
+        for (const [k, val] of [[gl.TEXTURE_MIN_FILTER, gl.LINEAR], [gl.TEXTURE_MAG_FILTER, gl.LINEAR], [gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE], [gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE]]) gl.texParameteri(gl.TEXTURE_2D, k, val); });
+      gl.uniform1i(gl.getUniformLocation(pr, 'img'), 0); gl.uniform1i(gl.getUniformLocation(pr, 'dep'), 1);
+      st.current = { gl, u: { view: gl.getUniformLocation(pr, 'view'), pan: gl.getUniformLocation(pr, 'pan'), dz: gl.getUniformLocation(pr, 'dz') } };
+      setState('ok');
+    }).catch(() => { if (!dead) { setState('off'); continueRender(h); } });
+    return () => { dead = true; continueRender(h); };
+  }, [h, it.src, it.depth]);
+  useLayoutEffect(() => {
+    if (state !== 'ok' || !st.current) return;
+    const { gl, u } = st.current;
+    // fast at first, then settling: the move is strongest in the first two seconds of the shot
+    const k = 1 - Math.exp(-phase / (slow ? 2.4 : 1.5));
+    const dir = hash(it.src + it.s) % 2 ? 1 : -1, vw = v[2] - v[0], vh = v[3] - v[1];
+    const m = 0.035;   // a small margin, so the shifted rays stay inside the picture
+    gl.uniform4f(u.view, v[0] + vw * m, v[1] + vh * m, v[2] - vw * m, v[3] - vh * m);
+    gl.uniform2f(u.pan, dir * vw * 0.05 * (1 - 2 * k), -vh * 0.012 * (1 - 2 * k));
+    gl.uniform1f(u.dz, 0.05 + 0.2 * k);
+    gl.viewport(0, 0, iw, ih); gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    continueRender(h);
+  });
+  return <canvas ref={ref} width={iw} height={ih} style={{ position: 'absolute', left: 0, top: 0, width: iw, height: ih, display: state === 'off' ? 'none' : 'block' }} />;
+};
+
 const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces }> = ({ it, t, sc, tag, F }) => {
   const [x, y, bw, bh] = it.box;
   const B = it.bleed ? 0 : BORDER;   // a full-frame picture has no paper border
@@ -142,6 +213,7 @@ const Photo: React.FC<{ it: PhotoI; t: number; sc: Scene; tag: string; F: Faces 
     <div style={{ position: 'absolute', left: x, top: y, width: bw, height: bh, overflow: 'hidden', background: '#000',
       opacity: late ? clamp01((t - it.s) / 0.04) : sc.hush ? clamp01((t - it.s) / 0.6) : 1 }}>
       <Img src={staticFile(it.src)} style={{ position: 'absolute', left: -v0 * it.w * sx, top: -v1 * it.h * sy, width: it.w * sx, height: it.h * sy, maxWidth: 'none' }} />
+      {it.depth ? <DepthImg it={it} v={[v0, v1, v2, v3]} iw={iw} ih={ih} phase={t - it.s} slow={!!sc.hush} /> : null}
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 62%, rgba(0,0,0,.7) 100%)' }} />
       <div style={{ position: 'absolute', inset: 0, boxShadow: 'inset 0 0 160px rgba(0,0,0,.6)' }} />
       <Rings it={it} t={t} v={[v0, v1, v2, v3]} iw={iw} ih={ih} />
@@ -374,6 +446,58 @@ const Dust: React.FC<{ t: number; scene: number }> = ({ t, scene }) => {
   );
 };
 
+// moving film grain over the whole frame: fine noise that changes every frame, blended softly
+const Grain: React.FC<{ frame: number; amount: number }> = ({ frame, amount }) => (
+  <svg width={1080} height={1920} style={{ position: 'absolute', left: 0, top: 0, mixBlendMode: 'overlay', opacity: Math.min(1, amount * 4) }}>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves={2} seed={frame % 997} stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="0.6 0.6 0.6 0 -0.4  0.6 0.6 0.6 0 -0.4  0.6 0.6 0.6 0 -0.4  0 0 0 0 1" />
+    </filter>
+    <rect width={1080} height={1920} filter="url(#grain)" />
+  </svg>
+);
+
+// is anything flying in at time t (a scene sliding in, a print, tape, card, stamp or note landing)? Motion blur is
+// only computed then: it draws the board several times per frame
+const moving = (sc: Scene, t: number) => {
+  if (sc.s > 0 && t - sc.s < 0.45) return true;
+  const hit = (s: number | undefined) => s !== undefined && s > sc.s + 0.01 && t >= s - 0.04 && t - s < 0.5;
+  if (sc.head && sc.head.from && sc.head.from !== sc.head.mode && hit(sc.head.s)) return true;
+  return sc.items.some((it) => hit(it.s) || (it.type === 'card' && (hit(it.stamp?.s) || hit(it.note?.s))) || (it.type === 'stat' && it.rows.some((r) => hit(r.s))));
+};
+
+// the board: everything that lies on it, under the camera. It reads its own time, so that motion blur can draw it at
+// several moments of one frame; the time never leaves the scene of the real frame (no ghost of the next scene).
+const Board: React.FC<{ plan: PlanC; sc: Scene }> = ({ plan, sc }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = Math.min(sc.e - 1e-4, Math.max(sc.s, frame / fps));
+  const F = plan.faces;
+  const cam = camera(sc, t);
+  let shown = sc.items.filter((i) => t >= i.s && (i.e === undefined || t < i.e));
+  if (plan.fx?.depth) {   // a full-frame picture hides the ones under it: they are not drawn (one depth canvas at a time)
+    const top = shown.reduce((m, it, i) => (it.type === 'photo' && it.bleed && t - it.s > 0.06 ? i : m), -1);
+    shown = shown.filter((it, i) => !(it.type === 'photo' && it.bleed && i < top));
+  }
+  return (
+    <div style={{ position: 'absolute', inset: 0, transformOrigin: '540px 820px', opacity: 0.35 + 0.65 * cam.kin,
+      transform: `translate(${cam.tx.toFixed(2)}px, ${cam.ty.toFixed(2)}px) rotate(${cam.rot.toFixed(3)}deg) scale(${cam.zoom.toFixed(4)})` }}>
+      {shown.map((it, i) => {
+        switch (it.type) {
+          case 'photo': return <Photo key={it.src + it.s} it={it} t={t} sc={sc} tag={plan.aiTag} F={F} />;
+          case 'sticker': return <Sticker key={i} it={it} t={t} tag={plan.aiTag} F={F} />;
+          case 'tape': return <Tape key={i} it={it} t={t} F={F} />;
+          case 'card': return <Card key={i} it={it} t={t} sc={sc} F={F} />;
+          case 'stat': return <Stat key={i} it={it} t={t} F={F} />;
+          case 'string': return <Str key={i} it={it} t={t} />;
+          default: return null;
+        }
+      })}
+      {sc.head ? <HeadV h={sc.head} t={t} F={F} /> : null}
+    </div>
+  );
+};
+
 export const CrimeV: React.FC<PlanC> = (plan) => {
   const F = plan.faces;
   const allText = plan.scenes.map((s) => (s.head ? s.head.kicker + s.head.title : '') + s.credit + s.items.map((i) =>
@@ -391,29 +515,17 @@ export const CrimeV: React.FC<PlanC> = (plan) => {
   const speaking = (tt: number) => plan.subs.some((c) => tt >= c.s - 0.2 && tt < c.e + 0.2);
   const flicker = 1 + 0.025 * Math.sin(t * 11.3) * Math.sin(t * 3.1 + 0.7);
   const cam = camera(sc, t);
-  const shown = sc.items.filter((i) => t >= i.s && (i.e === undefined || t < i.e));
+  // no motion blur in a scene with a depth picture (several WebGL canvases per frame), nor in a quiet one
+  const blur = !!plan.fx?.blur && !sc.hush && !sc.items.some((i) => i.type === 'photo' && i.depth) && moving(sc, t);
   return (
     <AbsoluteFill style={{ background: '#1f1c19', overflow: 'hidden' }}>
       {plan.bg ? <Img src={staticFile(plan.bg)} style={{ position: 'absolute', inset: 0, width: 1080, height: 1920, filter: `brightness(${flicker.toFixed(4)})`,
         transform: `translate(${(-cam.tx * 0.35).toFixed(2)}px, ${(-cam.ty * 0.35).toFixed(2)}px) scale(${(1.08 + (cam.zoom - 1) * 0.3).toFixed(4)})` }} /> : null}
       <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse 75% 55% at 50% 45%, rgba(255,240,215,.07) 0%, rgba(0,0,0,0) 55%, rgba(0,0,0,.6) 100%)' }} />
-      <div style={{ position: 'absolute', inset: 0, transformOrigin: '540px 820px', opacity: 0.35 + 0.65 * cam.kin,
-        transform: `translate(${cam.tx.toFixed(2)}px, ${cam.ty.toFixed(2)}px) rotate(${cam.rot.toFixed(3)}deg) scale(${cam.zoom.toFixed(4)})` }}>
-      {shown.map((it, i) => {
-        switch (it.type) {
-          case 'photo': return <Photo key={i} it={it} t={t} sc={sc} tag={plan.aiTag} F={F} />;
-          case 'sticker': return <Sticker key={i} it={it} t={t} tag={plan.aiTag} F={F} />;
-          case 'tape': return <Tape key={i} it={it} t={t} F={F} />;
-          case 'card': return <Card key={i} it={it} t={t} sc={sc} F={F} />;
-          case 'stat': return <Stat key={i} it={it} t={t} F={F} />;
-          case 'string': return <Str key={i} it={it} t={t} />;
-          default: return null;
-        }
-      })}
-      {sc.head ? <HeadV h={sc.head} t={t} F={F} /> : null}
-      </div>
+      {blur ? <CameraMotionBlur shutterAngle={200} samples={7}><Board plan={plan} sc={sc} /></CameraMotionBlur> : <Board plan={plan} sc={sc} />}
       <Dust t={t} scene={sc.scene} />
       {plan.timeline && !sc.hush ? <Timeline tl={plan.timeline} t={t} F={F} /> : null}
+      {plan.fx?.grain ? <Grain frame={frame} amount={plan.fx.grain} /> : null}
       {sub ? (
         <div style={{ position: 'absolute', left: 540 - SUB_W / 2, width: SUB_W, top: SUB_Y, transform: 'translateY(-50%)', textAlign: 'center' }}>
           <span style={{ fontFamily: fam(F.sub, 'sans-serif'), fontWeight: 600, fontSize: SUB_PX, lineHeight: 1.32, color: '#111', background: '#f4f1ea',

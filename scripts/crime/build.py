@@ -169,6 +169,8 @@ for j, sc in enumerate(scenes_in):
                  'rot': it.get('rot', L.rot_of(name, k, 4, 14) if kind == 'sticker' else L.rot_of(name, k)), 'credit': credit_of(name)}
             if kind == 'photo' and pos == 'full':
                 o['bleed'] = True; o['rot'] = 0
+                dfile = f'{base}/img/{name}.depth.jpg'   # depth.py ("fx": {"depth": true}): the camera moves into the picture
+                if (picks.get('fx') or {}).get('depth') and os.path.exists(f'{pub}/{dfile}'): o['depth'] = dfile
             if kind == 'photo':
                 bas = (box[2] / box[3]) if o.get('bleed') else (box[2] - 2 * L.BORDER) / (box[3] - 2 * L.BORDER)
                 o['view'] = L.fit_view(view, bas, w, h)
@@ -270,6 +272,8 @@ plan = {'duration': total, 'lang': LANG, 'title': spec.get('title', ''), 'aiTag'
         'faces': {k: v['family'] for k, v in FONTS.items()}, 'bg': f'{base}/bg.jpg',
         'scenes': scenes, 'subs': subs, 'voice': voice, 'music': f'{base}/bed.wav',
         'musicVolume': spec.get('music_volume', 0.14), 'fonts': []}
+if picks.get('fx'):    # picture effects, all off by default: {"depth": true, "blur": true, "grain": 0.1} (CrimeV.tsx)
+    plan['fx'] = {k: picks['fx'][k] for k in ('depth', 'blur', 'grain') if picks['fx'].get(k)}
 if picks.get('sfx'):   # sound effects for every motion (sfx.py), mixed into one track under the voice
     n_ev = SFX.render(SFX.events(plan), total, f'{pub}/{base}/sfx.wav', mg.write_wav)
     plan['sfx'], plan['sfxVolume'] = f'{base}/sfx.wav', float(picks.get('sfx_volume', 0.6))

@@ -237,6 +237,7 @@ def render():
         shutil.copytree(os.path.join(JOB, 'own'), os.path.join(imgsrc, 'own'), dirs_exist_ok=True)
     picks = os.path.join(JOB, 'picks.json')
     sh(sys.executable, os.path.join(HERE, 'prep.py'), picks, imgsrc, os.path.join(pub, 'img'))
+    sh(sys.executable, os.path.join(HERE, 'depth.py'), picks, imgsrc, os.path.join(pub, 'img'))   # only with "fx": {"depth": true}
     out = os.path.join(ROOT, 'out', f'render-{N}')
     sh(sys.executable, os.path.join(HERE, 'build.py'), JOB, PUB, N, imgsrc, out)
     sh(sys.executable, os.path.join(HERE, 'fonts.py'), os.path.join(out, 'plan.json'), os.environ.get('FONTSOURCE', '/tmp/fontsource'), PUB)

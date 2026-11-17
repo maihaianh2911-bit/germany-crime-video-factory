@@ -170,7 +170,7 @@ jobs:
         if: env.TODO == '1'
         run: |
           # pinned to the versions tested together (PyAV 19 breaks faster-whisper 1.2: "metadata_errors")
-          pip install -q numpy scipy pillow pykakasi==2.3.0 num2words==0.5.14 faster-whisper==1.1.1 av==13.1.0 imageio-ffmpeg==0.8.1
+          pip install -q numpy scipy pillow pykakasi==2.3.0 num2words==0.5.14 faster-whisper==1.1.1 av==13.1.0 imageio-ffmpeg==0.8.1 onnxruntime==1.29.0
           npm ci --no-audit --no-fund
           npx remotion browser ensure
           bash scripts/crime/get_fonts.sh "$FONTSOURCE"
