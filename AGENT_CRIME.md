@@ -99,6 +99,8 @@ Read the issue form (Vụ án, Kịch bản, Giọng đọc, Ghi chú) and the o
   in `tts`, never in `lines` (lines are the subtitles).
 - `music`: dark, quiet bed under the voice. `style` `tension` (default) or `documentary`, minor key, `energy`
   0.2–0.4. `music_volume` (default 0.14) only if the owner asks.
+  **No background music since 17/11/2026** (owner: "k có nhạc nền, vì nhạc nền của m ko hay"): every new `picks.json` carries
+  `"music": false`; the `music` of script.json is then not used.
 - Subtitles need nothing from you: the machine cuts every line into pieces of up to ~38 characters (never inside
   `1. Juli`, `Dr. Müller` or a name) and shows each while it is spoken.
 
@@ -287,7 +289,10 @@ Commit `[crime #<N>] kịch bản`, push. Remove `crime-busy`. (Voice + pictures
    - **Version B options** (a trial the owner asked for on 15/11/2026, issue #2; until the owner chooses, use them only
      where the owner asked for version B). Top level of picks.json: `"sfx": true` (synthesized sound effects for every
      motion: typewriter keys, tape slaps, a stamp thud, paper swishes, a whoosh at each cut, a boom for chapter heads
-     and quiet scenes — `scripts/crime/sfx.py`; `"sfx_volume"` default 0.6), `"lead"` (seconds before the first
+     and quiet scenes — `scripts/crime/sfx.py`; `"sfx_volume"` default 0.6. Owner, 17/11/2026: "phần âm thanh nên làm to hơn, có âm thanh
+     lúc chuyển động" — every new picks.json carries `"sfx": true, "sfx_volume": 2, "music": false`: the sounds of
+     the motions are clearly heard, there is no music under them; with 2 the quiet sounds (keys, tapes, paper) come out about 2.7 times as loud
+     as with the old 0.6 and the loud ones (hits, stamps) about 1.7 times, without clipping), `"lead"` (seconds before the first
      line; keep the default 0.3: the owner, 15/11/2026: "2 giây đầu rất quan trọng, không có hình ảnh, không có âm
      thanh thì chết" — the first frame is a full-frame picture with sound, never text on an empty board), `"tail": 3.8` (seconds after the last line: room for a closing
      card at `"at": <last line>.99`), `"tape_scale": 1.15` (all tapes larger), `"timeline": [["1976", "2/1976"],

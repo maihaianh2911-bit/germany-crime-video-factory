@@ -177,8 +177,10 @@ def events(plan):
     return sorted(ev)
 
 
-def render(ev, total, path, write, seed=11):
-    """Mix the events into `total` seconds and write them with write(path, samples)."""
+def render(ev, total, path, write, seed=11, gain=1.0):
+    """Mix the events into `total` seconds and write them with write(path, samples). gain > 1 makes the whole
+    track louder: the quiet sounds (keys, swishes) rise by that factor, the loud ones (hits, stamps) are held at
+    full level by the soft limit."""
     r = np.random.RandomState(seed)
     out = np.zeros(int((total + 2) * SR))
     for t, name in ev:
@@ -193,6 +195,6 @@ def render(ev, total, path, write, seed=11):
         if i >= out.size: continue
         x = x[: out.size - i] * LEVEL[kind]
         out[i:i + x.size] += x
-    out = np.tanh(out * 1.1) / np.tanh(1.1)   # soft limit where sounds pile up
+    out = np.tanh(out * 1.1 * gain) / np.tanh(1.1 * gain)   # soft limit where sounds pile up (and for a louder track)
     write(path, out[: int(total * SR)])
     return len(ev)

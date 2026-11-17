@@ -158,6 +158,8 @@ assert {'key', 'slap', 'slap_red', 'stamp', 'boom', 'ping', 'tick', 'scratch', '
 # picture effects (17/11/2026, the owner switched them on for new videos): "fx" reaches the plan, the full-frame
 # print gets a depth map (depth.py: needs onnxruntime and the model, from $DEPTH_MODEL or its GitHub release)
 vf = json.loads(json.dumps(vb)); vf['fx'] = {'depth': True, 'blur': True, 'grain': 0.1}
+vf.update({'music': False, 'sfx_volume': 2})   # owner, 17/11/2026: no background music, louder sound effects
+rms_b = float(np.sqrt((x_.astype(float) ** 2).mean()))
 jf = os.path.join(tmp, 'jobF'); os.makedirs(jf); json.dump(vf, open(os.path.join(jf, 'picks.json'), 'w', encoding='utf-8'), ensure_ascii=False)
 shutil.copy(os.path.join(job, 'script.json'), jf)
 try:
@@ -171,6 +173,13 @@ if has_depth:
 run(sys.executable, os.path.join(S, 'build.py'), jf, pub, N, imgsrc, os.path.join(tmp, 'outF'))
 pf = json.load(open(os.path.join(tmp, 'outF', 'plan.json'), encoding='utf-8'))
 assert pf['fx'] == {'depth': True, 'blur': True, 'grain': 0.1} and 'fx' not in pb, pf.get('fx')
+assert pf['music'] is None and pb['music'] and pf['sfxVolume'] == 1.0 and pb['sfxVolume'] == 0.6, (pf['music'], pf['sfxVolume'])
+w_ = wave.open(os.path.join(pub, pf['sfx'])); y_ = np.frombuffer(w_.readframes(w_.getnframes()), '<i2')
+rms_f = float(np.sqrt((y_.astype(float) ** 2).mean()))
+# what is heard = the track times the player's volume: clearly louder as a whole, the quiet sounds most, nothing clipped
+assert rms_f * pf['sfxVolume'] > 1.6 * rms_b * pb['sfxVolume'] and np.abs(y_).max() <= 32767, (rms_f, rms_b)
+quiet = np.abs(x_[:y_.size]) < 3000   # where the first track was quiet (keys, swishes): louder in the track itself too
+assert np.abs(y_[:x_.size][quiet[:y_.size]]).mean() > 1.3 * np.abs(x_[:y_.size][quiet]).mean(), 'quiet sounds did not rise'
 ff_ = pf['scenes'][4]['items'][0]
 if has_depth:
     dm = Image.open(os.path.join(pub, ff_['depth'])); assert dm.mode == 'L' and np.asarray(dm).std() > 2, 'flat depth map'

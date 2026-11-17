@@ -264,11 +264,13 @@ open(f'{out}/edits.md', 'w', encoding='utf-8').write(E.listing(scenes_in, text, 
 if E.repeats(scenes_in):
     print('chú ý: cảnh ' + ', '.join(map(str, E.repeats(scenes_in))) + ' dùng cùng kiểu edit với cảnh ngay trước nó (nên đổi kiểu)')
 
-# ---- music bed and board background
-mu = {'style': 'tension', 'key': 'D', 'mode': 'minor', 'bpm': 70, 'energy': 0.3, **spec.get('music', {})}
-music = mg.render([{'from': 0, 'to': total, **mu}], lambda v: v, total)
-bed = music / (np.abs(music).max() or 1) * 0.8
-mg.write_wav(f'{pub}/{base}/bed.wav', bed)
+# ---- music bed (none when picks.json says "music": false — owner, 17/11/2026: no background music) and board background
+music_on = picks.get('music', True) is not False
+if music_on:
+    mu = {'style': 'tension', 'key': 'D', 'mode': 'minor', 'bpm': 70, 'energy': 0.3, **spec.get('music', {})}
+    music = mg.render([{'from': 0, 'to': total, **mu}], lambda v: v, total)
+    bed = music / (np.abs(music).max() or 1) * 0.8
+    mg.write_wav(f'{pub}/{base}/bed.wav', bed)
 prep.board(f'{pub}/{base}/bg.jpg')
 
 # ---- the year bar ("timeline": [[label, at], …]): the marker moves to each year when its "at" comes
@@ -282,13 +284,14 @@ if picks.get('timeline'):
 
 plan = {'duration': total, 'lang': LANG, 'title': spec.get('title', ''), 'aiTag': AI_TAG, 'timeline': timeline,
         'faces': {k: v['family'] for k, v in FONTS.items()}, 'bg': f'{base}/bg.jpg',
-        'scenes': scenes, 'subs': subs, 'voice': voice, 'music': f'{base}/bed.wav',
+        'scenes': scenes, 'subs': subs, 'voice': voice, 'music': f'{base}/bed.wav' if music_on else None,
         'musicVolume': spec.get('music_volume', 0.14), 'fonts': []}
 if picks.get('fx'):    # picture effects, all off by default: {"depth": true, "blur": true, "grain": 0.1} (CrimeV.tsx)
     plan['fx'] = {k: picks['fx'][k] for k in ('depth', 'blur', 'grain') if picks['fx'].get(k)}
 if picks.get('sfx'):   # sound effects for every motion (sfx.py), mixed into one track under the voice
-    n_ev = SFX.render(SFX.events(plan), total, f'{pub}/{base}/sfx.wav', mg.write_wav)
-    plan['sfx'], plan['sfxVolume'] = f'{base}/sfx.wav', float(picks.get('sfx_volume', 0.6))
+    vol = float(picks.get('sfx_volume', 0.6))   # over 1: the track itself is made louder (sfx.py), the player stays at 1
+    n_ev = SFX.render(SFX.events(plan), total, f'{pub}/{base}/sfx.wav', mg.write_wav, gain=max(1.0, vol))
+    plan['sfx'], plan['sfxVolume'] = f'{base}/sfx.wav', min(1.0, vol)
 json.dump(plan, open(f'{out}/plan.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
