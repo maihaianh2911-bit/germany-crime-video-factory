@@ -1,0 +1,2182 @@
+{
+ "duration": 94.845,
+ "lang": "de",
+ "title": "Der Hauptmann von Köpenick",
+ "aiTag": "KI-Illustration",
+ "timeline": {
+  "labels": [
+   "1906",
+   "HEUTE"
+  ],
+  "marks": [
+   10.709,
+   82.104
+  ],
+  "idx": [
+   0,
+   1
+  ]
+ },
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/7/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 3.469,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/voigt.jpg",
+     "w": 1703,
+     "h": 2000,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Bain News Service, publisher / Public domain",
+     "bleed": true,
+     "view": [
+      0.1697,
+      0.0,
+      0.8303,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/statue.jpg",
+     "w": 843,
+     "h": 1400,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Membeth / Public domain",
+     "bleed": true,
+     "view": [
+      0.03292,
+      0.0,
+      0.96708,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 2.243
+    },
+    {
+     "type": "tape",
+     "text": "Schuster oder Hauptmann?",
+     "color": "red",
+     "px": 67,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1.89,
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "EINE ALTE UNIFORM",
+     "color": "white",
+     "px": 50,
+     "x": 540,
+     "y": 1110,
+     "align": "center",
+     "rot": 2.41,
+     "s": 2.48
+    }
+   ],
+   "credit": "Foto: Bain News Service, publisher / Public domain · Membeth / Public domain",
+   "edit": "hook"
+  },
+  {
+   "s": 3.469,
+   "e": 8.356,
+   "scene": 2,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/soldiers.jpg",
+     "w": 1353,
+     "h": 2000,
+     "box": [
+      313.4,
+      143.4,
+      453.3,
+      670.0
+     ],
+     "ai": false,
+     "rot": -2.45,
+     "credit": "Europeana 1914-1918 / CC BY-SA 3.0",
+     "view": [
+      0.01038,
+      0.0,
+      0.98962,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 3.469
+    },
+    {
+     "type": "tape",
+     "text": "Soldaten",
+     "color": "yellow",
+     "px": 67,
+     "x": 297.4,
+     "y": 153.4,
+     "align": "left",
+     "rot": 0.73,
+     "s": 5.259
+    },
+    {
+     "type": "tape",
+     "text": "ein Bürgermeister",
+     "color": "yellow",
+     "px": 67,
+     "x": 782.7,
+     "y": 789.4,
+     "align": "right",
+     "rot": -2.83,
+     "s": 6.239
+    },
+    {
+     "type": "tape",
+     "text": "eine ganze Stadt",
+     "color": "red",
+     "px": 62,
+     "x": 333.4,
+     "y": 881.6,
+     "align": "left",
+     "rot": 1.64,
+     "s": 7.559
+    }
+   ],
+   "credit": "Foto: Europeana 1914-1918 / CC BY-SA 3.0",
+   "edit": "list"
+  },
+  {
+   "s": 8.356,
+   "e": 10.359,
+   "scene": 3,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "mid",
+    "from": null,
+    "s": 8.356
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 10.359,
+   "e": 16.942,
+   "scene": 4,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "mid",
+    "s": 10.359
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/mug.jpg",
+     "w": 1021,
+     "h": 1400,
+     "box": [
+      291.8,
+      536.7,
+      496.5,
+      680.8
+     ],
+     "ai": false,
+     "rot": -2.04,
+     "credit": "Preussische Polizei / Public domain",
+     "view": [
+      0.00796,
+      0.0,
+      0.99204,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 10.359
+    },
+    {
+     "type": "tape",
+     "text": "WILHELM VOIGT",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 544.7,
+     "align": "center",
+     "rot": 2.53,
+     "s": 12.189
+    },
+    {
+     "type": "tape",
+     "text": "57 Jahre",
+     "color": "yellow",
+     "px": 67,
+     "x": 804.3,
+     "y": 1193.5,
+     "align": "right",
+     "rot": -2.74,
+     "s": 13.049
+    },
+    {
+     "type": "tape",
+     "text": "Jahre im Gefängnis",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1285.7,
+     "align": "center",
+     "rot": 0.96,
+     "s": 15.749
+    }
+   ],
+   "credit": "Foto: Preussische Polizei / Public domain",
+   "edit": "figure"
+  },
+  {
+   "s": 16.942,
+   "e": 21.079,
+   "scene": 5,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 16.942
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      90.0,
+      421.0,
+      900,
+      1000
+     ],
+     "rot": -0.89,
+     "head": "OHNE AUSWEG",
+     "rows": [
+      {
+       "l": "keine Papiere",
+       "r": "keine Arbeit",
+       "s": 17.138,
+       "color": ""
+      },
+      {
+       "l": "↺",
+       "r": "",
+       "s": 18.774,
+       "color": "red"
+      },
+      {
+       "l": "keine Arbeit",
+       "r": "keine Papiere",
+       "s": 19.154,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": {
+      "text": "ABGELEHNT",
+      "s": 20.295
+     },
+     "s": 16.942
+    }
+   ],
+   "credit": "",
+   "edit": "compare"
+  },
+  {
+   "s": 21.079,
+   "e": 24.618,
+   "scene": 6,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 21.079
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/kaiser.jpg",
+     "w": 1027,
+     "h": 1609,
+     "box": [
+      364.8,
+      383.0,
+      350.4,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.72,
+     "credit": "Museum im Schloss Bad Pyrmont / CC0",
+     "view": [
+      0.01526,
+      0.0,
+      0.98474,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 21.079
+    },
+    {
+     "type": "tape",
+     "text": "KAISERREICH",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 391.0,
+     "align": "center",
+     "rot": -1,
+     "s": 21.449
+    },
+    {
+     "type": "tape",
+     "text": "Uniform > Dokument",
+     "color": "red",
+     "px": 62,
+     "x": 384.8,
+     "y": 1000.2,
+     "align": "left",
+     "rot": -1,
+     "s": 23.549
+    }
+   ],
+   "credit": "Foto: Museum im Schloss Bad Pyrmont / CC0",
+   "edit": "place"
+  },
+  {
+   "s": 24.618,
+   "e": 27.992,
+   "scene": 7,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 24.618
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/expo.jpg",
+     "w": 1400,
+     "h": 943,
+     "box": [
+      140.0,
+      596.7,
+      800,
+      538.9
+     ],
+     "ai": false,
+     "rot": -1.63,
+     "credit": "roger4336 / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.00875,
+      1.0,
+      0.99125
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.04199,
+       0.05,
+       0.95801,
+       0.95
+      ],
+      "s": 26.248,
+      "e": 27.448
+     },
+     "rings": [],
+     "s": 24.618
+    },
+    {
+     "type": "tape",
+     "text": "beim Trödler",
+     "color": "yellow",
+     "px": 67,
+     "x": 124.0,
+     "y": 606.7,
+     "align": "left",
+     "rot": 2.28,
+     "s": 24.808
+    },
+    {
+     "type": "tape",
+     "text": "Hauptmanns-Uniform",
+     "color": "red",
+     "px": 62,
+     "x": 160.0,
+     "y": 1203.8,
+     "align": "left",
+     "rot": -1,
+     "s": 26.248
+    }
+   ],
+   "credit": "Foto: roger4336 / CC BY-SA 2.0",
+   "edit": "detail"
+  },
+  {
+   "s": 27.992,
+   "e": 32.681,
+   "scene": 8,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 27.992
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/infant.jpg",
+     "w": 877,
+     "h": 1400,
+     "box": [
+      368.0,
+      383.0,
+      343.9,
+      549.0
+     ],
+     "ai": false,
+     "rot": -2.24,
+     "credit": "Christian Speyer (b. 1855, d. 1929) / Public domain",
+     "view": [
+      0.01604,
+      0.0,
+      0.98396,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 27.992
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      100.0,
+      953.9,
+      880,
+      505.1
+     ],
+     "rot": 0.58,
+     "head": "16.10.1906",
+     "rows": [
+      {
+       "l": "auf der Straße",
+       "r": "",
+       "s": 30.542,
+       "color": ""
+      },
+      {
+       "l": "Trupp Soldaten",
+       "r": "angehalten",
+       "s": 31.242,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 27.992
+    }
+   ],
+   "credit": "Foto: Christian Speyer (b. 1855, d. 1929) / Public domain",
+   "edit": "timeline"
+  },
+  {
+   "s": 32.681,
+   "e": 35.394,
+   "scene": 9,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 32.681
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "Er befiehlt",
+     "color": "white",
+     "px": 70,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -0.57,
+     "s": 32.848
+    },
+    {
+     "type": "tape",
+     "text": "Und sie folgen.",
+     "color": "red",
+     "px": 76,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 1.07,
+     "s": 34.331
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 35.394,
+   "e": 39.373,
+   "scene": 10,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 35.394
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/map.jpg",
+     "w": 1688,
+     "h": 2000,
+     "box": [
+      150.8,
+      404.9,
+      778.4,
+      922.3
+     ],
+     "ai": false,
+     "rot": -1.6,
+     "credit": "NordNordWest / CC BY-SA 3.0 de",
+     "view": [
+      0.00291,
+      0.0,
+      0.99709,
+      1.0
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.6,
+       0.13883,
+       1.0,
+       0.54117
+      ],
+      "s": 36.504,
+      "e": 37.504
+     },
+     "rings": [
+      {
+       "s": 36.504,
+       "box": [
+        0.798,
+        0.326,
+        0.818,
+        0.346
+       ],
+       "shape": "pin",
+       "color": "yellow"
+      }
+     ],
+     "s": 35.394
+    },
+    {
+     "type": "tape",
+     "text": "KÖPENICK",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 1400.9,
+     "align": "center",
+     "rot": -1,
+     "s": 36.504
+    },
+    {
+     "type": "tape",
+     "text": "eigene Stadt vor Berlin",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.8,
+     "y": 414.9,
+     "align": "left",
+     "rot": -1.85,
+     "s": 37.824
+    }
+   ],
+   "credit": "Foto: NordNordWest / CC BY-SA 3.0 de",
+   "edit": "detail"
+  },
+  {
+   "s": 39.373,
+   "e": 43.129,
+   "scene": 11,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 39.373
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/rathaus.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      150.0,
+      397.5,
+      780,
+      520.0
+     ],
+     "ai": false,
+     "rot": -1.92,
+     "credit": "Paul Korecky / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.00931,
+      1.0,
+      0.99069
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 39.373
+    },
+    {
+     "type": "tape",
+     "text": "RATHAUS",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 405.5,
+     "align": "center",
+     "rot": -1,
+     "s": 39.562
+    },
+    {
+     "type": "tape",
+     "text": "besetzt",
+     "color": "red",
+     "px": 62,
+     "x": 134.0,
+     "y": 893.5,
+     "align": "left",
+     "rot": -1,
+     "s": 40.384
+    },
+    {
+     "type": "tape",
+     "text": "niemand hinein oder hinaus",
+     "color": "yellow",
+     "px": 67,
+     "x": 540.0,
+     "y": 991.2,
+     "align": "center",
+     "rot": 1.69,
+     "s": 41.183
+    }
+   ],
+   "credit": "Foto: Paul Korecky / CC BY-SA 2.0",
+   "edit": "place"
+  },
+  {
+   "s": 43.129,
+   "e": 45.465,
+   "scene": 12,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 43.129
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/entrance.jpg",
+     "w": 1333,
+     "h": 2000,
+     "box": [
+      313.1,
+      536.7,
+      453.7,
+      680.8
+     ],
+     "ai": false,
+     "rot": -1.19,
+     "credit": "GodeNehler / CC BY-SA 4.0",
+     "view": [
+      0.01079,
+      0.0,
+      0.98921,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 43.129
+    },
+    {
+     "type": "tape",
+     "text": "Bürgermeister festgenommen",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1285.7,
+     "align": "center",
+     "rot": 0.54,
+     "s": 43.799
+    }
+   ],
+   "credit": "Foto: GodeNehler / CC BY-SA 4.0",
+   "edit": "figure"
+  },
+  {
+   "s": 45.465,
+   "e": 49.583,
+   "scene": 13,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 45.465
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/sign.jpg",
+     "w": 1400,
+     "h": 759,
+     "box": [
+      140.0,
+      643.9,
+      800,
+      444.4
+     ],
+     "ai": false,
+     "rot": -0.86,
+     "credit": "Wilhelm Voigt, Stadtkassenrendant v. Wiltberg / Public domain",
+     "view": [
+      0.0,
+      0.00255,
+      1.0,
+      0.99745
+     ],
+     "drift": 0,
+     "rings": [
+      {
+       "s": 48.015,
+       "box": [
+        0.0,
+        0.62,
+        0.72,
+        0.95
+       ],
+       "shape": "rect",
+       "color": "yellow"
+      }
+     ],
+     "s": 45.465
+    },
+    {
+     "type": "tape",
+     "text": "DIE STADTKASSE",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 583.6,
+     "align": "center",
+     "rot": -1,
+     "s": 46.215
+    },
+    {
+     "type": "tape",
+     "text": "mehrere tausend Mark",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1156.5,
+     "align": "center",
+     "rot": -1,
+     "s": 48.015
+    }
+   ],
+   "credit": "Foto: Wilhelm Voigt, Stadtkassenrendant v. Wiltberg / Public domain",
+   "edit": "detail"
+  },
+  {
+   "s": 49.583,
+   "e": 52.63,
+   "scene": 14,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 49.583
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/bridge.jpg",
+     "w": 1920,
+     "h": 1404,
+     "box": [
+      164.6,
+      383.0,
+      750.8,
+      549.0
+     ],
+     "ai": false,
+     "rot": -2.57,
+     "credit": "Unknown authorUnknown author / Public domain",
+     "view": [
+      0.0,
+      0.00714,
+      1.0,
+      0.99286
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 49.583
+    },
+    {
+     "type": "tape",
+     "text": "unter Bewachung",
+     "color": "yellow",
+     "px": 67,
+     "x": 148.6,
+     "y": 908.0,
+     "align": "left",
+     "rot": 2.89,
+     "s": 51.173
+    },
+    {
+     "type": "tape",
+     "text": "nach Berlin",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 391.0,
+     "align": "center",
+     "rot": -1,
+     "s": 51.773
+    }
+   ],
+   "credit": "Foto: Unknown authorUnknown author / Public domain",
+   "edit": "place"
+  },
+  {
+   "s": 52.63,
+   "e": 55.097,
+   "scene": 15,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 52.63
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "VERSCHWUNDEN",
+     "color": "white",
+     "px": 72,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -2.28,
+     "s": 52.792
+    },
+    {
+     "type": "tape",
+     "text": "einfach so",
+     "color": "red",
+     "px": 80,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 0.53,
+     "s": 54.18
+    }
+   ],
+   "hush": true,
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 55.097,
+   "e": 57.9,
+   "scene": 16,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 55.097
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/card1906.jpg",
+     "w": 1490,
+     "h": 941,
+     "box": [
+      150.0,
+      411.2,
+      780,
+      492.6
+     ],
+     "ai": false,
+     "rot": -2.0,
+     "credit": "Unknown authorUnknown author / Public domain",
+     "view": [
+      0.0,
+      0.01087,
+      1.0,
+      0.98913
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 55.097
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/song.jpg",
+     "w": 922,
+     "h": 1400,
+     "box": [
+      370.1,
+      937.5,
+      339.9,
+      516.1
+     ],
+     "ai": false,
+     "rot": 2.11,
+     "credit": "Unknown authorUnknown author / Public domain",
+     "view": [
+      0.01485,
+      0.0,
+      0.98515,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 56.527
+    },
+    {
+     "type": "tape",
+     "text": "ganz Deutschland lacht",
+     "color": "yellow",
+     "px": 67,
+     "x": 134.0,
+     "y": 421.2,
+     "align": "left",
+     "rot": -2.94,
+     "s": 55.707
+    },
+    {
+     "type": "tape",
+     "text": "die halbe Welt",
+     "color": "red",
+     "px": 62,
+     "x": 910.0,
+     "y": 972.0,
+     "align": "right",
+     "rot": 3.02,
+     "s": 56.527
+    }
+   ],
+   "credit": "Foto: Unknown authorUnknown author / Public domain",
+   "edit": "fact"
+  },
+  {
+   "s": 57.9,
+   "e": 61.928,
+   "scene": 17,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 57.9
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/head.jpg",
+     "w": 1920,
+     "h": 1440,
+     "box": [
+      140.0,
+      566.1,
+      800,
+      600.0
+     ],
+     "ai": false,
+     "rot": -1.97,
+     "credit": "Diether / CC BY-SA 3.0",
+     "view": [
+      0.0,
+      0.00604,
+      1.0,
+      0.99396
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 57.9
+    },
+    {
+     "type": "tape",
+     "text": "blind gehorcht",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1234.3,
+     "align": "center",
+     "rot": 3.14,
+     "s": 59.956
+    }
+   ],
+   "credit": "Foto: Diether / CC BY-SA 3.0",
+   "edit": "question"
+  },
+  {
+   "s": 61.928,
+   "e": 66.442,
+   "scene": 18,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 61.928
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "folder",
+     "box": [
+      90.0,
+      441.0,
+      900,
+      960
+     ],
+     "rot": -0.43,
+     "head": "",
+     "rows": [],
+     "tab": "AKTE · KÖPENICK",
+     "corner": "BERLIN",
+     "note": null,
+     "stamp": null,
+     "s": 61.928
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/extra.jpg",
+     "w": 1500,
+     "h": 2000,
+     "box": [
+      165.0,
+      628.8,
+      750,
+      450.0
+     ],
+     "ai": false,
+     "rot": 2.14,
+     "credit": "Anagoria / CC BY 3.0",
+     "view": [
+      0.0,
+      0.00582,
+      1.0,
+      0.44418
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 62.173
+    },
+    {
+     "type": "tape",
+     "text": "10 TAGE SPÄTER",
+     "color": "white",
+     "px": 67,
+     "x": 931.0,
+     "y": 638.8,
+     "align": "right",
+     "rot": -1.59,
+     "s": 61.998
+    },
+    {
+     "type": "tape",
+     "text": "gefasst",
+     "color": "red",
+     "px": 62,
+     "x": 185.0,
+     "y": 1147.0,
+     "align": "left",
+     "rot": 2.49,
+     "s": 63.438
+    },
+    {
+     "type": "tape",
+     "text": "verraten",
+     "color": "yellow",
+     "px": 67,
+     "x": 149.0,
+     "y": 1054.8,
+     "align": "left",
+     "rot": -3.4,
+     "s": 65.557
+    }
+   ],
+   "credit": "Foto: Anagoria / CC BY 3.0",
+   "edit": "where"
+  },
+  {
+   "s": 66.442,
+   "e": 72.579,
+   "scene": 19,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 66.442
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      640.0,
+      860,
+      562
+     ],
+     "rot": -0.89,
+     "head": "URTEIL",
+     "rows": [
+      {
+       "l": "Urteil",
+       "r": "4 Jahre",
+       "s": 66.832,
+       "color": ""
+      },
+      {
+       "l": "Begnadigt",
+       "r": "nach ~20 Monaten",
+       "s": 70.053,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": {
+      "text": "von Kaiser Wilhelm II.",
+      "s": 70.733
+     },
+     "stamp": null,
+     "s": 66.442
+    }
+   ],
+   "credit": "",
+   "edit": "span"
+  },
+  {
+   "s": 72.579,
+   "e": 77.566,
+   "scene": 20,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 72.579
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/voigt.jpg",
+     "w": 1703,
+     "h": 2000,
+     "box": [
+      306.3,
+      383.0,
+      467.5,
+      549.0
+     ],
+     "ai": false,
+     "rot": -2.06,
+     "credit": "Bain News Service, publisher / Public domain",
+     "view": [
+      0.00466,
+      0.0,
+      0.99534,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 72.579
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/cardvoigt.jpg",
+     "w": 1033,
+     "h": 1400,
+     "box": [
+      349.6,
+      937.5,
+      380.8,
+      516.1
+     ],
+     "ai": false,
+     "rot": 1.65,
+     "credit": "roger4336 / CC BY-SA 2.0",
+     "view": [
+      0.0102,
+      0.0,
+      0.9898,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 74.379
+    },
+    {
+     "type": "tape",
+     "text": "berühmt",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 391.0,
+     "align": "center",
+     "rot": -1.62,
+     "s": 73.114
+    },
+    {
+     "type": "tape",
+     "text": "Postkarten",
+     "color": "yellow",
+     "px": 67,
+     "x": 746.4,
+     "y": 947.5,
+     "align": "right",
+     "rot": 2.22,
+     "s": 74.379
+    },
+    {
+     "type": "tape",
+     "text": "Jahrmärkte",
+     "color": "yellow",
+     "px": 67,
+     "x": 746.4,
+     "y": 1429.6,
+     "align": "right",
+     "rot": -3.39,
+     "s": 76.36
+    }
+   ],
+   "credit": "Foto: Bain News Service, publisher / Public domain · roger4336 / CC BY-SA 2.0",
+   "edit": "fact"
+  },
+  {
+   "s": 77.566,
+   "e": 80.607,
+   "scene": 21,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 77.566
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/book.jpg",
+     "w": 1209,
+     "h": 1645,
+     "box": [
+      69.8,
+      404.9,
+      500.3,
+      680.8
+     ],
+     "ai": false,
+     "rot": -1.51,
+     "credit": "© Foto H.-P.Haack (H.-P.Haack). Das Foto darf für  / CC BY 3.0",
+     "view": [
+      0.00779,
+      0.0,
+      0.99221,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 77.566
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/theater.jpg",
+     "w": 1400,
+     "h": 1054,
+     "box": [
+      485.0,
+      874.9,
+      560,
+      421.6
+     ],
+     "ai": false,
+     "rot": 0.95,
+     "credit": "Gerd Weiss / CC BY 3.0",
+     "view": [
+      0.0,
+      0.00864,
+      1.0,
+      0.99136
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 78.74
+    },
+    {
+     "type": "tape",
+     "text": "Theaterstück",
+     "color": "yellow",
+     "px": 67,
+     "x": 53.8,
+     "y": 414.9,
+     "align": "left",
+     "rot": -3.02,
+     "s": 78.74
+    },
+    {
+     "type": "tape",
+     "text": "Filme",
+     "color": "white",
+     "px": 67,
+     "x": 765.0,
+     "y": 814.6,
+     "align": "center",
+     "rot": 0.61,
+     "s": 79.824
+    }
+   ],
+   "credit": "Foto: © Foto H.-P.Haack (H.-P.Haack). Das Foto darf für  / CC BY 3.0 · Gerd Weiss / CC BY 3.0",
+   "edit": "pair"
+  },
+  {
+   "s": 80.607,
+   "e": 85.284,
+   "scene": 22,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 80.607
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "KÖPENICKIADE",
+     "color": "white",
+     "px": 74,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -3.29,
+     "s": 80.967
+    },
+    {
+     "type": "tape",
+     "text": "ein dreister Streich",
+     "color": "red",
+     "px": 70,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 2.92,
+     "s": 82.889
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 85.284,
+   "e": 88.328,
+   "scene": 23,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 85.284
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/statue.jpg",
+     "w": 843,
+     "h": 1400,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Membeth / Public domain",
+     "bleed": true,
+     "view": [
+      0.03292,
+      0.0,
+      0.96708,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 85.284
+    },
+    {
+     "type": "tape",
+     "text": "HEUTE",
+     "color": "white",
+     "px": 56,
+     "x": 540,
+     "y": 470,
+     "align": "center",
+     "rot": -1,
+     "s": 85.458
+    },
+    {
+     "type": "tape",
+     "text": "seine Statue",
+     "color": "red",
+     "px": 70,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -1,
+     "s": 87.494
+    }
+   ],
+   "credit": "Foto: Membeth / Public domain",
+   "edit": "place"
+  },
+  {
+   "s": 88.328,
+   "e": 94.845,
+   "scene": 24,
+   "head": {
+    "kicker": "AKTE 1906",
+    "title": "Hauptmann von Köpenick",
+    "mode": "top",
+    "from": "top",
+    "s": 88.328
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/7/img/voigt.jpg",
+     "w": 1703,
+     "h": 2000,
+     "box": [
+      154.8,
+      383.0,
+      280.5,
+      329.4
+     ],
+     "ai": false,
+     "rot": -2.06,
+     "credit": "Bain News Service, publisher / Public domain",
+     "view": [
+      0.00807,
+      0.0,
+      0.99193,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 88.328
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/statue.jpg",
+     "w": 843,
+     "h": 1400,
+     "box": [
+      685.8,
+      415.9,
+      198.3,
+      329.4
+     ],
+     "ai": false,
+     "rot": 1.61,
+     "credit": "Membeth / Public domain",
+     "view": [
+      0.03082,
+      0.0,
+      0.96918,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 88.328
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/rathaus.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      85.0,
+      777.7,
+      430,
+      286.7
+     ],
+     "ai": false,
+     "rot": -2.34,
+     "credit": "Paul Korecky / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01735,
+      1.0,
+      0.98265
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 88.328
+    },
+    {
+     "type": "photo",
+     "src": "crime/7/img/card1906.jpg",
+     "w": 1490,
+     "h": 941,
+     "box": [
+      565.0,
+      818.2,
+      430,
+      271.6
+     ],
+     "ai": false,
+     "rot": 1.92,
+     "credit": "Unknown authorUnknown author / Public domain",
+     "view": [
+      0.0,
+      0.02025,
+      1.0,
+      0.97975
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 88.328
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      180.0,
+      1080.0,
+      720,
+      370
+     ],
+     "rot": 0.76,
+     "head": "DIE FRAGE",
+     "rows": [
+      {
+       "l": "Blind gehorchen?",
+       "r": "???",
+       "s": 88.513,
+       "color": ""
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 88.328
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare.",
+     "color": "yellow",
+     "px": 66,
+     "x": 540.0,
+     "y": 1020.6,
+     "align": "center",
+     "rot": -0.9,
+     "s": 90.378
+    },
+    {
+     "type": "string",
+     "a": [
+      295.1,
+      409.0
+     ],
+     "b": [
+      784.9,
+      441.9
+     ],
+     "s": 88.328
+    },
+    {
+     "type": "string",
+     "a": [
+      784.9,
+      441.9
+     ],
+     "b": [
+      300.0,
+      803.7
+     ],
+     "s": 88.328
+    },
+    {
+     "type": "string",
+     "a": [
+      295.1,
+      409.0
+     ],
+     "b": [
+      780.0,
+      844.2
+     ],
+     "s": 88.328
+    }
+   ],
+   "credit": "Foto: Bain News Service, publisher / Public domain · Membeth / Public domain · Paul Korecky / CC BY-SA 2.0 · Unknown authorUnknown author / Public domain",
+   "edit": "ending"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 1.895,
+   "text": "Ein arbeitsloser Schuhmacher kauft",
+   "line": 1
+  },
+  {
+   "s": 1.895,
+   "e": 3.509,
+   "text": "sich eine alte Uniform.",
+   "line": 1
+  },
+  {
+   "s": 3.509,
+   "e": 5.109,
+   "text": "Wenige Stunden später gehorchen",
+   "line": 2
+  },
+  {
+   "s": 5.109,
+   "e": 6.909,
+   "text": "ihm Soldaten, ein Bürgermeister",
+   "line": 2
+  },
+  {
+   "s": 6.909,
+   "e": 8.396,
+   "text": "und eine ganze Stadt.",
+   "line": 2
+  },
+  {
+   "s": 8.396,
+   "e": 10.399,
+   "text": "Das ist der Hauptmann von Köpenick.",
+   "line": 3
+  },
+  {
+   "s": 10.399,
+   "e": 13.019,
+   "text": "Berlin, 1906. Wilhelm Voigt ist",
+   "line": 4
+  },
+  {
+   "s": 13.019,
+   "e": 15.219,
+   "text": "57 Jahre alt und hat viele",
+   "line": 4
+  },
+  {
+   "s": 15.219,
+   "e": 16.982,
+   "text": "Jahre im Gefängnis verbracht.",
+   "line": 4
+  },
+  {
+   "s": 16.982,
+   "e": 19.082,
+   "text": "Ohne Papiere bekommt er keine Arbeit.",
+   "line": 5
+  },
+  {
+   "s": 19.082,
+   "e": 21.119,
+   "text": "Ohne Arbeit bekommt er keine Papiere.",
+   "line": 5
+  },
+  {
+   "s": 21.119,
+   "e": 22.219,
+   "text": "Doch im Kaiserreich gilt",
+   "line": 6
+  },
+  {
+   "s": 22.219,
+   "e": 24.658,
+   "text": "eine Uniform mehr als jedes Dokument.",
+   "line": 6
+  },
+  {
+   "s": 24.658,
+   "e": 26.098,
+   "text": "Bei Trödlern kauft sich Voigt",
+   "line": 7
+  },
+  {
+   "s": 26.098,
+   "e": 28.032,
+   "text": "die Uniform eines Hauptmanns.",
+   "line": 7
+  },
+  {
+   "s": 28.032,
+   "e": 30.412,
+   "text": "Am 16. Oktober 1906 hält er auf",
+   "line": 8
+  },
+  {
+   "s": 30.412,
+   "e": 32.721,
+   "text": "der Straße einen Trupp Soldaten an.",
+   "line": 8
+  },
+  {
+   "s": 32.721,
+   "e": 33.621,
+   "text": "Er befiehlt ihnen,",
+   "line": 9
+  },
+  {
+   "s": 33.621,
+   "e": 35.434,
+   "text": "ihm zu folgen. Und sie folgen.",
+   "line": 9
+  },
+  {
+   "s": 35.434,
+   "e": 37.254,
+   "text": "Mit der Bahn fahren sie nach Köpenick,",
+   "line": 10
+  },
+  {
+   "s": 37.254,
+   "e": 39.413,
+   "text": "damals eine eigene Stadt vor Berlin.",
+   "line": 10
+  },
+  {
+   "s": 39.413,
+   "e": 41.153,
+   "text": "Voigt lässt das Rathaus besetzen.",
+   "line": 11
+  },
+  {
+   "s": 41.153,
+   "e": 43.169,
+   "text": "Niemand darf hinein oder hinaus.",
+   "line": 11
+  },
+  {
+   "s": 43.169,
+   "e": 44.389,
+   "text": "Dann lässt er den Bürgermeister",
+   "line": 12
+  },
+  {
+   "s": 44.389,
+   "e": 45.505,
+   "text": "festnehmen.",
+   "line": 12
+  },
+  {
+   "s": 45.505,
+   "e": 47.125,
+   "text": "Und er verlangt die Stadtkasse.",
+   "line": 13
+  },
+  {
+   "s": 47.125,
+   "e": 47.985,
+   "text": "Mehrere tausend",
+   "line": 13
+  },
+  {
+   "s": 47.985,
+   "e": 49.623,
+   "text": "Mark wechseln den Besitzer.",
+   "line": 13
+  },
+  {
+   "s": 49.623,
+   "e": 50.883,
+   "text": "Den Bürgermeister schickt",
+   "line": 14
+  },
+  {
+   "s": 50.883,
+   "e": 52.67,
+   "text": "er unter Bewachung nach Berlin.",
+   "line": 14
+  },
+  {
+   "s": 52.67,
+   "e": 53.31,
+   "text": "Dann verschwindet",
+   "line": 15
+  },
+  {
+   "s": 53.31,
+   "e": 55.137,
+   "text": "der Hauptmann. Einfach so.",
+   "line": 15
+  },
+  {
+   "s": 55.137,
+   "e": 56.017,
+   "text": "Ganz Deutschland lacht,",
+   "line": 16
+  },
+  {
+   "s": 56.017,
+   "e": 57.94,
+   "text": "und die halbe Welt lacht mit.",
+   "line": 16
+  },
+  {
+   "s": 57.94,
+   "e": 59.8,
+   "text": "Ein falscher Offizier hat gezeigt,",
+   "line": 17
+  },
+  {
+   "s": 59.8,
+   "e": 61.968,
+   "text": "wie blind man einer Uniform gehorcht.",
+   "line": 17
+  },
+  {
+   "s": 61.968,
+   "e": 62.788,
+   "text": "Zehn Tage später",
+   "line": 18
+  },
+  {
+   "s": 62.788,
+   "e": 64.588,
+   "text": "wird Voigt gefasst. Ein früherer",
+   "line": 18
+  },
+  {
+   "s": 64.588,
+   "e": 66.482,
+   "text": "Mithäftling hatte ihn verraten.",
+   "line": 18
+  },
+  {
+   "s": 66.482,
+   "e": 67.202,
+   "text": "Er wird zu vier Jahren",
+   "line": 19
+  },
+  {
+   "s": 67.202,
+   "e": 68.683,
+   "text": "Gefängnis verurteilt.",
+   "line": 19
+  },
+  {
+   "s": 68.683,
+   "e": 70.529,
+   "text": "Doch nach rund 20 Monaten begnadigt",
+   "line": 20
+  },
+  {
+   "s": 70.529,
+   "e": 72.619,
+   "text": "ihn Kaiser Wilhelm der Zweite.",
+   "line": 20
+  },
+  {
+   "s": 72.619,
+   "e": 73.829,
+   "text": "Voigt wird berühmt.",
+   "line": 21
+  },
+  {
+   "s": 73.829,
+   "e": 75.535,
+   "text": "Er verkauft Postkarten mit seinem Bild",
+   "line": 21
+  },
+  {
+   "s": 75.535,
+   "e": 77.606,
+   "text": "und tritt auf Jahrmärkten auf.",
+   "line": 21
+  },
+  {
+   "s": 77.606,
+   "e": 78.492,
+   "text": "Seine Geschichte wird",
+   "line": 22
+  },
+  {
+   "s": 78.492,
+   "e": 80.647,
+   "text": "zum Theaterstück und zu Filmen.",
+   "line": 22
+  },
+  {
+   "s": 80.647,
+   "e": 82.074,
+   "text": "Das Wort Köpenickiade steht",
+   "line": 23
+  },
+  {
+   "s": 82.074,
+   "e": 83.524,
+   "text": "bis heute für einen dreisten",
+   "line": 23
+  },
+  {
+   "s": 83.524,
+   "e": 85.324,
+   "text": "Streich mit falscher Uniform.",
+   "line": 23
+  },
+  {
+   "s": 85.324,
+   "e": 86.784,
+   "text": "Und vor dem Rathaus Köpenick",
+   "line": 24
+  },
+  {
+   "s": 86.784,
+   "e": 88.368,
+   "text": "steht heute seine Statue.",
+   "line": 24
+  },
+  {
+   "s": 88.368,
+   "e": 89.208,
+   "text": "Würdest du einer Uniform",
+   "line": 25
+  },
+  {
+   "s": 89.208,
+   "e": 90.348,
+   "text": "blind gehorchen?",
+   "line": 25
+  },
+  {
+   "s": 90.348,
+   "e": 92.495,
+   "text": "Schreib es in die Kommentare.",
+   "line": 25
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/7/voice/line_01.mp3"
+  },
+  {
+   "s": 3.589,
+   "src": "crime/7/voice/line_02.mp3"
+  },
+  {
+   "s": 8.476,
+   "src": "crime/7/voice/line_03.mp3"
+  },
+  {
+   "s": 10.479,
+   "src": "crime/7/voice/line_04.mp3"
+  },
+  {
+   "s": 17.062,
+   "src": "crime/7/voice/line_05.mp3"
+  },
+  {
+   "s": 21.199,
+   "src": "crime/7/voice/line_06.mp3"
+  },
+  {
+   "s": 24.738,
+   "src": "crime/7/voice/line_07.mp3"
+  },
+  {
+   "s": 28.112,
+   "src": "crime/7/voice/line_08.mp3"
+  },
+  {
+   "s": 32.801,
+   "src": "crime/7/voice/line_09.mp3"
+  },
+  {
+   "s": 35.514,
+   "src": "crime/7/voice/line_10.mp3"
+  },
+  {
+   "s": 39.493,
+   "src": "crime/7/voice/line_11.mp3"
+  },
+  {
+   "s": 43.249,
+   "src": "crime/7/voice/line_12.mp3"
+  },
+  {
+   "s": 45.585,
+   "src": "crime/7/voice/line_13.mp3"
+  },
+  {
+   "s": 49.703,
+   "src": "crime/7/voice/line_14.mp3"
+  },
+  {
+   "s": 52.75,
+   "src": "crime/7/voice/line_15.mp3"
+  },
+  {
+   "s": 55.217,
+   "src": "crime/7/voice/line_16.mp3"
+  },
+  {
+   "s": 58.02,
+   "src": "crime/7/voice/line_17.mp3"
+  },
+  {
+   "s": 62.048,
+   "src": "crime/7/voice/line_18.mp3"
+  },
+  {
+   "s": 66.562,
+   "src": "crime/7/voice/line_19.mp3"
+  },
+  {
+   "s": 68.763,
+   "src": "crime/7/voice/line_20.mp3"
+  },
+  {
+   "s": 72.699,
+   "src": "crime/7/voice/line_21.mp3"
+  },
+  {
+   "s": 77.686,
+   "src": "crime/7/voice/line_22.mp3"
+  },
+  {
+   "s": 80.727,
+   "src": "crime/7/voice/line_23.mp3"
+  },
+  {
+   "s": 85.404,
+   "src": "crime/7/voice/line_24.mp3"
+  },
+  {
+   "s": 88.448,
+   "src": "crime/7/voice/line_25.mp3"
+  }
+ ],
+ "music": "crime/7/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ],
+ "sfx": "crime/7/sfx.wav",
+ "sfxVolume": 0.6
+}

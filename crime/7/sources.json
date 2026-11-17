@@ -1,0 +1,832 @@
+{
+ "pictures": [
+  {
+   "name": "voigt",
+   "src": "1/1-1.jpg",
+   "title": "Friedrich Wilhelm Voight.jpg",
+   "artist": "Bain News Service, publisher",
+   "date": "circa March 1910",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Voight.jpg",
+   "ai": false
+  },
+  {
+   "name": "statue",
+   "src": "1/2-8.jpg",
+   "title": "Hauptmann von Koepenick - Bronzestatue.jpg",
+   "artist": "Membeth",
+   "date": "2007-10-26",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Hauptmann_von_Koepenick_-_Bronzestatue.jpg",
+   "ai": false
+  },
+  {
+   "name": "soldiers",
+   "src": "1/9-3.jpg",
+   "title": "Photographie de soldats prussiens",
+   "artist": "Europeana 1914-1918",
+   "date": "1909",
+   "license": "CC BY-SA 3.0",
+   "page": "https://www.europeana.eu/item/2020601/https___1914_1918_europeana_eu_contributions_14770_attachments_156678",
+   "ai": false
+  },
+  {
+   "name": "mug",
+   "src": "1/1-5.jpg",
+   "title": "Wilhelm Voigt 1906 10 26.jpg",
+   "artist": "Preussische Polizei",
+   "date": "1906-10-26",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilhelm_Voigt_1906_10_26.jpg",
+   "ai": false
+  },
+  {
+   "name": "kaiser",
+   "src": "1/1-7.jpg",
+   "title": "Kaiser Wilhelm II.",
+   "artist": "Museum im Schloss Bad Pyrmont",
+   "date": "",
+   "license": "CC0",
+   "page": "https://www.europeana.eu/item/1205/item_WKHKWCDGEGUP5XMZD4XQ5PQ7TJHHRTUA",
+   "ai": false
+  },
+  {
+   "name": "expo",
+   "src": "1/6-5.jpg",
+   "title": "Köpenick - Display of the 'Captain'",
+   "artist": "roger4336",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/24736216@N07/3583057535",
+   "ai": false
+  },
+  {
+   "name": "infant",
+   "src": "1/9-4.jpg",
+   "title": "Chr.Speyer Infanterist 1870.jpg",
+   "artist": "Christian Speyer (b. 1855, d. 1929)",
+   "date": "1870",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Chr.Speyer_Infanterist_1870.jpg",
+   "ai": false
+  },
+  {
+   "name": "map",
+   "src": "1/14-1.jpg",
+   "title": "Germany adm location map.svg",
+   "artist": "NordNordWest",
+   "date": "2014-09-15",
+   "license": "CC BY-SA 3.0 de",
+   "page": "https://commons.wikimedia.org/wiki/File:Germany_adm_location_map.svg",
+   "ai": false
+  },
+  {
+   "name": "rathaus",
+   "src": "1/3-6.jpg",
+   "title": "2018-08-05 DE Berlin-Treptow-Köpenick, Alt-Köpenick, Rathaus Köpenick, KT4D 6010+KT4D 6172 (49618156843).jpg",
+   "artist": "Paul Korecky",
+   "date": "2018-08-05 14:53",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2018-08-05_DE_Berlin-Treptow-K%C3%B6penick,_Alt-K%C3%B6penick,_Rathaus_K%C3%B6penick,_KT4D_6010%2BKT4D_6172_(49618156843).jpg",
+   "ai": false
+  },
+  {
+   "name": "entrance",
+   "src": "1/3-4.jpg",
+   "title": "Straßenbahn Haltestelle Rathaus Köpenick-2.jpg",
+   "artist": "GodeNehler",
+   "date": "2019-10-13 15:17:54",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Stra%C3%9Fenbahn_Haltestelle_Rathaus_K%C3%B6penick-2.jpg",
+   "ai": false
+  },
+  {
+   "name": "sign",
+   "src": "1/2-7.jpg",
+   "title": "Hauptmann Köpenick Unterschrift.PNG",
+   "artist": "Wilhelm Voigt, Stadtkassenrendant v. Wiltberg",
+   "date": "1906-10-16",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Hauptmann_K%C3%B6penick_Unterschrift.PNG",
+   "ai": false
+  },
+  {
+   "name": "bridge",
+   "src": "1/5-6.jpg",
+   "title": "1906 Kaiser-Wilhelm-Brücke TEK.jpg",
+   "artist": "Unknown authorUnknown author",
+   "date": "1906",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:1906_Kaiser-Wilhelm-Br%C3%BCcke_TEK.jpg",
+   "ai": false
+  },
+  {
+   "name": "card1906",
+   "src": "1/5-2.jpg",
+   "title": "Der Räuberhauptmann in Köpenick AK.jpg",
+   "artist": "Unknown authorUnknown author",
+   "date": "circa 1906",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Der_R%C3%A4uberhauptmann_in_K%C3%B6penick_AK.jpg",
+   "ai": false
+  },
+  {
+   "name": "song",
+   "src": "1/2-4.jpg",
+   "title": "Hauptmann von Köpenick Liedkarte.jpg",
+   "artist": "Unknown authorUnknown author",
+   "date": "1900s",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Hauptmann_von_K%C3%B6penick_Liedkarte.jpg",
+   "ai": false
+  },
+  {
+   "name": "head",
+   "src": "1/2-5.jpg",
+   "title": "Hauptmann von Köpenick.jpg",
+   "artist": "Diether",
+   "date": "4 October 2008, 23:35:40 (according to Exif data)",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hauptmann_von_K%C3%B6penick.jpg",
+   "ai": false
+  },
+  {
+   "name": "extra",
+   "src": "1/1-8.jpg",
+   "title": "Friedrich Wilhelm Voigt, der Hauptmann von Köpenick Pressemiotteilung anagoria.jpg",
+   "artist": "Anagoria",
+   "date": "2011-11-14",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Voigt,_der_Hauptmann_von_K%C3%B6penick_Pressemiotteilung_anagoria.jpg",
+   "ai": false
+  },
+  {
+   "name": "cardvoigt",
+   "src": "1/5-7.jpg",
+   "title": "Köpenick - Rathaus and the 'Captain'",
+   "artist": "roger4336",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/24736216@N07/6698451035",
+   "ai": false
+  },
+  {
+   "name": "book",
+   "src": "1/2-1.jpg",
+   "title": "Zuckmayer Der Hauptmann von Köpenick -Halbleinen-.jpg",
+   "artist": "© Foto H.-P.Haack (H.-P.Haack). Das Foto darf für wissenschaftliche oder populärwissenschaftliche Publikationen gebührenfrei verwendet werden, sofern der Urhebe",
+   "date": "2008-05-14",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Zuckmayer_Der_Hauptmann_von_K%C3%B6penick_-Halbleinen-.jpg",
+   "ai": false
+  },
+  {
+   "name": "theater",
+   "src": "1/13-1.jpg",
+   "title": "Der Hauptmann von Köpenick (Carl Zuckmayer)",
+   "artist": "Gerd Weiss",
+   "date": "",
+   "license": "CC BY 3.0",
+   "page": "https://www.europeana.eu/item/542/item_4IXAXAGQE7YAORKPYRSWZPEDQBFRKUTO",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 3.469,
+   "said": [
+    "Ein arbeitsloser Schuhmacher kauft",
+    "sich eine alte Uniform."
+   ],
+   "edit": "hook",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "voigt.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "statue.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Schuster oder Hauptmann?"
+    },
+    {
+     "type": "tape",
+     "text": "EINE ALTE UNIFORM"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 3.469,
+   "end": 8.356,
+   "said": [
+    "Wenige Stunden später gehorchen",
+    "ihm Soldaten, ein Bürgermeister",
+    "und eine ganze Stadt."
+   ],
+   "edit": "list",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "soldiers.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Soldaten"
+    },
+    {
+     "type": "tape",
+     "text": "ein Bürgermeister"
+    },
+    {
+     "type": "tape",
+     "text": "eine ganze Stadt"
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "start": 8.356,
+   "end": 10.359,
+   "said": [
+    "Das ist der Hauptmann von Köpenick."
+   ],
+   "edit": "chapter",
+   "head": "Hauptmann von Köpenick",
+   "items": []
+  },
+  {
+   "scene": 4,
+   "start": 10.359,
+   "end": 16.942,
+   "said": [
+    "Berlin, 1906. Wilhelm Voigt ist",
+    "57 Jahre alt und hat viele",
+    "Jahre im Gefängnis verbracht."
+   ],
+   "edit": "figure",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "mug.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "WILHELM VOIGT"
+    },
+    {
+     "type": "tape",
+     "text": "57 Jahre"
+    },
+    {
+     "type": "tape",
+     "text": "Jahre im Gefängnis"
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "start": 16.942,
+   "end": 21.079,
+   "said": [
+    "Ohne Papiere bekommt er keine Arbeit.",
+    "Ohne Arbeit bekommt er keine Papiere."
+   ],
+   "edit": "compare",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "start": 21.079,
+   "end": 24.618,
+   "said": [
+    "Doch im Kaiserreich gilt",
+    "eine Uniform mehr als jedes Dokument."
+   ],
+   "edit": "place",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "kaiser.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "KAISERREICH"
+    },
+    {
+     "type": "tape",
+     "text": "Uniform > Dokument"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 24.618,
+   "end": 27.992,
+   "said": [
+    "Bei Trödlern kauft sich Voigt",
+    "die Uniform eines Hauptmanns."
+   ],
+   "edit": "detail",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "expo.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "beim Trödler"
+    },
+    {
+     "type": "tape",
+     "text": "Hauptmanns-Uniform"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 27.992,
+   "end": 32.681,
+   "said": [
+    "Am 16. Oktober 1906 hält er auf",
+    "der Straße einen Trupp Soldaten an."
+   ],
+   "edit": "timeline",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "infant.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 32.681,
+   "end": 35.394,
+   "said": [
+    "Er befiehlt ihnen,",
+    "ihm zu folgen. Und sie folgen."
+   ],
+   "edit": "statement",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Er befiehlt"
+    },
+    {
+     "type": "tape",
+     "text": "Und sie folgen."
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 35.394,
+   "end": 39.373,
+   "said": [
+    "Mit der Bahn fahren sie nach Köpenick,",
+    "damals eine eigene Stadt vor Berlin."
+   ],
+   "edit": "detail",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "map.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "KÖPENICK"
+    },
+    {
+     "type": "tape",
+     "text": "eigene Stadt vor Berlin"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 39.373,
+   "end": 43.129,
+   "said": [
+    "Voigt lässt das Rathaus besetzen.",
+    "Niemand darf hinein oder hinaus."
+   ],
+   "edit": "place",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "rathaus.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "RATHAUS"
+    },
+    {
+     "type": "tape",
+     "text": "besetzt"
+    },
+    {
+     "type": "tape",
+     "text": "niemand hinein oder hinaus"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 43.129,
+   "end": 45.465,
+   "said": [
+    "Dann lässt er den Bürgermeister",
+    "festnehmen."
+   ],
+   "edit": "figure",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "entrance.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Bürgermeister festgenommen"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 45.465,
+   "end": 49.583,
+   "said": [
+    "Und er verlangt die Stadtkasse.",
+    "Mehrere tausend",
+    "Mark wechseln den Besitzer."
+   ],
+   "edit": "detail",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "sign.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "DIE STADTKASSE"
+    },
+    {
+     "type": "tape",
+     "text": "mehrere tausend Mark"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 49.583,
+   "end": 52.63,
+   "said": [
+    "Den Bürgermeister schickt",
+    "er unter Bewachung nach Berlin."
+   ],
+   "edit": "place",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "bridge.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "unter Bewachung"
+    },
+    {
+     "type": "tape",
+     "text": "nach Berlin"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 52.63,
+   "end": 55.097,
+   "said": [
+    "Dann verschwindet",
+    "der Hauptmann. Einfach so."
+   ],
+   "edit": "statement",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "tape",
+     "text": "VERSCHWUNDEN"
+    },
+    {
+     "type": "tape",
+     "text": "einfach so"
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "start": 55.097,
+   "end": 57.9,
+   "said": [
+    "Ganz Deutschland lacht,",
+    "und die halbe Welt lacht mit."
+   ],
+   "edit": "fact",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "card1906.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "song.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "ganz Deutschland lacht"
+    },
+    {
+     "type": "tape",
+     "text": "die halbe Welt"
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "start": 57.9,
+   "end": 61.928,
+   "said": [
+    "Ein falscher Offizier hat gezeigt,",
+    "wie blind man einer Uniform gehorcht."
+   ],
+   "edit": "question",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "head.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "blind gehorcht"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 61.928,
+   "end": 66.442,
+   "said": [
+    "Zehn Tage später",
+    "wird Voigt gefasst. Ein früherer",
+    "Mithäftling hatte ihn verraten."
+   ],
+   "edit": "where",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "card"
+    },
+    {
+     "type": "photo",
+     "image": "extra.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "10 TAGE SPÄTER"
+    },
+    {
+     "type": "tape",
+     "text": "gefasst"
+    },
+    {
+     "type": "tape",
+     "text": "verraten"
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "start": 66.442,
+   "end": 72.579,
+   "said": [
+    "Er wird zu vier Jahren",
+    "Gefängnis verurteilt.",
+    "Doch nach rund 20 Monaten begnadigt",
+    "ihn Kaiser Wilhelm der Zweite."
+   ],
+   "edit": "span",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 72.579,
+   "end": 77.566,
+   "said": [
+    "Voigt wird berühmt.",
+    "Er verkauft Postkarten mit seinem Bild",
+    "und tritt auf Jahrmärkten auf."
+   ],
+   "edit": "fact",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "voigt.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "cardvoigt.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "berühmt"
+    },
+    {
+     "type": "tape",
+     "text": "Postkarten"
+    },
+    {
+     "type": "tape",
+     "text": "Jahrmärkte"
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "start": 77.566,
+   "end": 80.607,
+   "said": [
+    "Seine Geschichte wird",
+    "zum Theaterstück und zu Filmen."
+   ],
+   "edit": "pair",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "book.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "theater.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Theaterstück"
+    },
+    {
+     "type": "tape",
+     "text": "Filme"
+    }
+   ]
+  },
+  {
+   "scene": 22,
+   "start": 80.607,
+   "end": 85.284,
+   "said": [
+    "Das Wort Köpenickiade steht",
+    "bis heute für einen dreisten",
+    "Streich mit falscher Uniform."
+   ],
+   "edit": "statement",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "tape",
+     "text": "KÖPENICKIADE"
+    },
+    {
+     "type": "tape",
+     "text": "ein dreister Streich"
+    }
+   ]
+  },
+  {
+   "scene": 23,
+   "start": 85.284,
+   "end": 88.328,
+   "said": [
+    "Und vor dem Rathaus Köpenick",
+    "steht heute seine Statue."
+   ],
+   "edit": "place",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "statue.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "HEUTE"
+    },
+    {
+     "type": "tape",
+     "text": "seine Statue"
+    }
+   ]
+  },
+  {
+   "scene": 24,
+   "start": 88.328,
+   "end": 94.845,
+   "said": [
+    "Würdest du einer Uniform",
+    "blind gehorchen?",
+    "Schreib es in die Kommentare."
+   ],
+   "edit": "ending",
+   "head": "Hauptmann von Köpenick",
+   "items": [
+    {
+     "type": "photo",
+     "image": "voigt.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "statue.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "rathaus.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "card1906.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare."
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  }
+ ]
+}
