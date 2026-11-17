@@ -1,0 +1,673 @@
+{
+ "pictures": [
+  {
+   "name": "kadewe88",
+   "src": "1/3-1.jpg",
+   "title": "KA DE WE mit Weihnachtsbeleuchtung, Berlin 1988.JPG",
+   "artist": "Roland Arhelger",
+   "date": "1988-12",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:KA_DE_WE_mit_Weihnachtsbeleuchtung,_Berlin_1988.JPG",
+   "ai": false
+  },
+  {
+   "name": "police",
+   "src": "1/14-1.jpg",
+   "title": "Bundesarchiv Bild 183-1990-0929-301, Berlin, Polizeiautos Lada und VW Golf.jpg",
+   "artist": "Peer Grimm",
+   "date": "29 September 1990",
+   "license": "CC BY-SA 3.0 de",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1990-0929-301,_Berlin,_Polizeiautos_Lada_und_VW_Golf.jpg",
+   "ai": false
+  },
+  {
+   "name": "track",
+   "src": "1/7-1.jpg",
+   "title": "Disused railway track near Endon Bank, Staffordshire - geograph.org.uk - 6383369.jpg",
+   "artist": "Roger D Kidd",
+   "date": "2019-09-12",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Disused_railway_track_near_Endon_Bank,_Staffordshire_-_geograph.org.uk_-_6383369.jpg",
+   "ai": false
+  },
+  {
+   "name": "sbahn",
+   "src": "1/6-4.jpg",
+   "title": "Berlin S-Bahn-Zug, DR-Baureihe 270, 270 057-3, Berlin Greifswalder Straße, DDR, Jan 1990 (3853119319).jpg",
+   "artist": "Sludge G",
+   "date": "1990-01",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Berlin_S-Bahn-Zug,_DR-Baureihe_270,_270_057-3,_Berlin_Greifswalder_Stra%C3%9Fe,_DDR,_Jan_1990_(3853119319).jpg",
+   "ai": false
+  },
+  {
+   "name": "karstadt",
+   "src": "1/5-7.jpg",
+   "title": "2019-05-09-Karstadt-am-Hermannplatz.jpg",
+   "artist": "Gunnar Klack",
+   "date": "2019-05-09",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2019-05-09-Karstadt-am-Hermannplatz.jpg",
+   "ai": false
+  },
+  {
+   "name": "money",
+   "src": "1/12-2.jpg",
+   "title": "Banknote mit dem Nominalwert 10 Deutsche Mark (Serie 1961), Wertseite, ausgegeben 1980.jpg",
+   "artist": "Gestaltung von Hermann Eidenbenz. Das Portrait zeigt einen namentlich nicht bekannten Mann, ursprünglich ein Gemälde von Lucas Cranach d.Ä.; auf der Banknote is",
+   "date": "1980-01-02",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Banknote_mit_dem_Nominalwert_10_Deutsche_Mark_(Serie_1961),_Wertseite,_ausgegeben_1980.jpg",
+   "ai": false
+  },
+  {
+   "name": "karstadt_old",
+   "src": "1/5-6.jpg",
+   "title": "Ansichtskarte „Karstadt-Haus am Hermannplatz“",
+   "artist": "FHXB Friedrichshain-Kreuzberg Museum",
+   "date": "",
+   "license": "Public domain",
+   "page": "https://www.europeana.eu/item/1420/item_KMFRTC5SF5KBPQMACQ2KBC7OMIZU3QWB",
+   "ai": false
+  },
+  {
+   "name": "sbahn2",
+   "src": "1/6-6.jpg",
+   "title": "Hohen Neuendorf S-Bahn station in 1990.jpg",
+   "artist": "Smiley.toerist",
+   "date": "1990-08-23",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hohen_Neuendorf_S-Bahn_station_in_1990.jpg",
+   "ai": false
+  },
+  {
+   "name": "handcar",
+   "src": "1/8-1.jpg",
+   "title": "Sheffield Car Co. Handcar Itä-Pasila.jpg",
+   "artist": "Antti Leppänen",
+   "date": "2017-06-17 14:28:03",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sheffield_Car_Co._Handcar_It%C3%A4-Pasila.jpg",
+   "ai": false
+  },
+  {
+   "name": "leaves",
+   "src": "1/13-1.jpg",
+   "title": "Wet path and fallen leaves, Omagh - geograph.org.uk - 4733482.jpg",
+   "artist": "Kenneth Allen",
+   "date": "2015-11-09",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wet_path_and_fallen_leaves,_Omagh_-_geograph.org.uk_-_4733482.jpg",
+   "ai": false
+  },
+  {
+   "name": "phone",
+   "src": "1/10-7.jpg",
+   "title": "Berlin Luebars telephone booth.jpg",
+   "artist": "Doris Antony, Berlin",
+   "date": "2012-06-01",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Berlin_Luebars_telephone_booth.jpg",
+   "ai": false
+  },
+  {
+   "name": "funke",
+   "src": "1/1-3.jpg",
+   "title": "ArnoFunke2015.JPG",
+   "artist": "JesterWr - bei Verwendung Ch.Grube angeben",
+   "date": "2015-03-14",
+   "license": "CC BY-SA 3.0 de",
+   "page": "https://commons.wikimedia.org/wiki/File:ArnoFunke2015.JPG",
+   "ai": false
+  },
+  {
+   "name": "funke2",
+   "src": "1/1-1.jpg",
+   "title": "ArnoFunke Buchmesse2009.jpg",
+   "artist": "OmiTs",
+   "date": "2009-03-14",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:ArnoFunke_Buchmesse2009.jpg",
+   "ai": false
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.0,
+   "end": 4.766,
+   "said": [
+    "Ein Erpresser legt Bomben",
+    "in Kaufhäusern, und die Polizei",
+    "jagt ihn sechs Jahre lang."
+   ],
+   "edit": "hook",
+   "head": "",
+   "items": [
+    {
+     "type": "photo",
+     "image": "kadewe88.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "police.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "track.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Wer ist Dagobert?"
+    },
+    {
+     "type": "tape",
+     "text": "BOMBEN IM KAUFHAUS"
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "start": 4.766,
+   "end": 7.944,
+   "said": [
+    "Trotzdem feiern ihn",
+    "viele Menschen wie einen Volkshelden."
+   ],
+   "edit": "statement",
+   "head": "",
+   "items": [
+    {
+     "type": "tape",
+     "text": "6 Jahre gejagt"
+    },
+    {
+     "type": "tape",
+     "text": "und gefeiert"
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "start": 7.944,
+   "end": 9.55,
+   "said": [
+    "Das ist der Fall Dagobert."
+   ],
+   "edit": "chapter",
+   "head": "Der Fall Dagobert",
+   "items": []
+  },
+  {
+   "scene": 4,
+   "start": 9.55,
+   "end": 13.949,
+   "said": [
+    "Mai 1988: Im Berliner KaDeWe",
+    "explodiert eine Bombe."
+   ],
+   "edit": "detail",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "kadewe88.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "MAI 1988"
+    },
+    {
+     "type": "tape",
+     "text": "Bombe im KaDeWe"
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "start": 13.949,
+   "end": 19.682,
+   "said": [
+    "Der Erpresser fordert 500.000 Mark.",
+    "Das Geld soll aus einer fahrenden",
+    "S-Bahn geworfen werden."
+   ],
+   "edit": "number",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "sbahn.jpg",
+     "ai": false
+    },
+    {
+     "type": "stat"
+    },
+    {
+     "type": "tape",
+     "text": "aus der fahrenden S-Bahn"
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "start": 19.682,
+   "end": 22.795,
+   "said": [
+    "Die Übergabe klappt.",
+    "Der Täter entkommt mit dem Geld."
+   ],
+   "edit": "statement",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Übergabe klappt"
+    },
+    {
+     "type": "tape",
+     "text": "Täter entkommt"
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "start": 22.795,
+   "end": 26.701,
+   "said": [
+    "1992 meldet er sich wieder,",
+    "diesmal bei Karstadt."
+   ],
+   "edit": "place",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "karstadt.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "1992"
+    },
+    {
+     "type": "tape",
+     "text": "diesmal Karstadt"
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "start": 26.701,
+   "end": 29.074,
+   "said": [
+    "Er fordert 1,4 Millionen Mark."
+   ],
+   "edit": "number",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "money.jpg",
+     "ai": false
+    },
+    {
+     "type": "stat"
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "start": 29.074,
+   "end": 35.3,
+   "said": [
+    "Das Zeichen, dass Karstadt",
+    "zahlen will, ist eine Zeitungsanzeige.",
+    "Darin steht: „Dagobert grüßt",
+    "seine Neffen“."
+   ],
+   "edit": "statement",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "tape",
+     "text": "ZEITUNGSANZEIGE"
+    },
+    {
+     "type": "tape",
+     "text": "„Dagobert grüßt seine Neffen“"
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "start": 35.3,
+   "end": 37.549,
+   "said": [
+    "So bekommt der Erpresser seinen Namen."
+   ],
+   "edit": "place",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "karstadt_old.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "sein Name: DAGOBERT"
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "start": 37.549,
+   "end": 41.269,
+   "said": [
+    "Um Druck zu machen,",
+    "verübt er mehrere Anschläge",
+    "auf Karstadt-Häuser."
+   ],
+   "edit": "fact",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "karstadt.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "police.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "mehrere Anschläge"
+    },
+    {
+     "type": "tape",
+     "text": "Druck auf Karstadt"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "start": 41.269,
+   "end": 44.002,
+   "said": [
+    "Und er erfindet immer neue Tricks",
+    "für die Geldübergabe."
+   ],
+   "edit": "statement",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "tape",
+     "text": "IMMER NEUE TRICKS"
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "start": 44.002,
+   "end": 46.73,
+   "said": [
+    "Eine Kiste, die mit Magneten",
+    "an einem Zug hängt."
+   ],
+   "edit": "place",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "sbahn2.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "TRICK 1"
+    },
+    {
+     "type": "tape",
+     "text": "Magnet-Kiste am Zug"
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "start": 46.73,
+   "end": 51.303,
+   "said": [
+    "Eine selbstgebaute",
+    "Lore auf einem stillgelegten Gleis.",
+    "Kurz vor ihm entgleist sie."
+   ],
+   "edit": "pair",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "track.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "handcar.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "TRICK 2"
+    },
+    {
+     "type": "tape",
+     "text": "Lore entgleist"
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "start": 51.303,
+   "end": 58.892,
+   "said": [
+    "Einmal ist ihm ein Polizist ganz nah,",
+    "dann rutscht der Beamte aus.",
+    "Die Zeitungen schreiben: auf Hundekot.",
+    "In Wahrheit waren es nasse Blätter."
+   ],
+   "edit": "detail",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "leaves.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "Polizist rutscht aus"
+    },
+    {
+     "type": "tape",
+     "text": "Hundekot? Nein:"
+    },
+    {
+     "type": "tape",
+     "text": "nasse Blätter"
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "start": 58.892,
+   "end": 61.625,
+   "said": [
+    "Die Polizei wird zum Gespött,",
+    "Dagobert zum Star."
+   ],
+   "edit": "statement",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "tape",
+     "text": "Polizei: Gespött"
+    },
+    {
+     "type": "tape",
+     "text": "Dagobert: Star"
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "start": 61.625,
+   "end": 69.019,
+   "said": [
+    "Doch am 22. April 1994 ist Schluss.",
+    "Die Polizei fasst ihn in Berlin,",
+    "in einer Telefonzelle."
+   ],
+   "edit": "timeline",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "phone.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "start": 69.019,
+   "end": 70.743,
+   "said": [
+    "Dagobert heißt Arno Funke."
+   ],
+   "edit": "figure",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "funke.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "DAGOBERT ="
+    },
+    {
+     "type": "tape",
+     "text": "Arno Funke"
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "start": 70.743,
+   "end": 75.434,
+   "said": [
+    "Er wird zu neun Jahren",
+    "Haft verurteilt.",
+    "Im Jahr 2000 kommt er vorzeitig frei."
+   ],
+   "edit": "span",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "card"
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "start": 75.434,
+   "end": 81.158,
+   "said": [
+    "Heute zeichnet er Cartoons.",
+    "Und mit einem der Polizisten,",
+    "die ihn jagten,",
+    "ist er inzwischen befreundet."
+   ],
+   "edit": "figure",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "funke2.jpg",
+     "ai": false
+    },
+    {
+     "type": "tape",
+     "text": "HEUTE"
+    },
+    {
+     "type": "tape",
+     "text": "zeichnet Cartoons"
+    },
+    {
+     "type": "tape",
+     "text": "mit einem Polizisten befreundet"
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "start": 81.158,
+   "end": 86.745,
+   "said": [
+    "Verbrecher oder Volksheld?",
+    "Was denkst du?"
+   ],
+   "edit": "ending",
+   "head": "Der Fall Dagobert",
+   "items": [
+    {
+     "type": "photo",
+     "image": "kadewe88.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "sbahn.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "track.jpg",
+     "ai": false
+    },
+    {
+     "type": "photo",
+     "image": "phone.jpg",
+     "ai": false
+    },
+    {
+     "type": "card"
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare."
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    },
+    {
+     "type": "string"
+    }
+   ]
+  }
+ ]
+}

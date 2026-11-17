@@ -1,0 +1,1851 @@
+{
+ "duration": 86.745,
+ "lang": "de",
+ "title": "Der Fall Dagobert",
+ "aiTag": "KI-Illustration",
+ "timeline": {
+  "labels": [
+   "1988",
+   "1992",
+   "1994",
+   "2000",
+   "HEUTE"
+  ],
+  "marks": [
+   9.62,
+   22.865,
+   61.975,
+   73.213,
+   75.504
+  ],
+  "idx": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "faces": {
+  "sub": "Source Sans 3 Variable",
+  "mono": "Courier Prime",
+  "serif": "Merriweather",
+  "hand": "Patrick Hand"
+ },
+ "bg": "crime/9/bg.jpg",
+ "scenes": [
+  {
+   "s": 0.0,
+   "e": 4.766,
+   "scene": 1,
+   "head": null,
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/kadewe88.jpg",
+     "w": 1920,
+     "h": 1157,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Roland Arhelger / CC BY-SA 4.0",
+     "bleed": true,
+     "view": [
+      0.33052,
+      0.0,
+      0.66948,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 0.0
+    },
+    {
+     "type": "photo",
+     "src": "crime/9/img/police.jpg",
+     "w": 1400,
+     "h": 896,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Peer Grimm / CC BY-SA 3.0 de",
+     "bleed": true,
+     "view": [
+      0.22,
+      0.0,
+      0.58,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 2.59
+    },
+    {
+     "type": "photo",
+     "src": "crime/9/img/track.jpg",
+     "w": 1400,
+     "h": 1400,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "Roger D Kidd / CC BY-SA 2.0",
+     "bleed": true,
+     "view": [
+      0.21875,
+      0.0,
+      0.78125,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 3.53
+    },
+    {
+     "type": "tape",
+     "text": "Wer ist Dagobert?",
+     "color": "red",
+     "px": 76,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": 0.57,
+     "s": 0.0
+    },
+    {
+     "type": "tape",
+     "text": "BOMBEN IM KAUFHAUS",
+     "color": "white",
+     "px": 50,
+     "x": 540,
+     "y": 1110,
+     "align": "center",
+     "rot": -0.85,
+     "s": 1.13
+    }
+   ],
+   "credit": "Foto: Roland Arhelger / CC BY-SA 4.0 · Peer Grimm / CC BY-SA 3.0 de · Roger D Kidd / CC BY-SA 2.0",
+   "edit": "hook"
+  },
+  {
+   "s": 4.766,
+   "e": 7.944,
+   "scene": 2,
+   "head": null,
+   "items": [
+    {
+     "type": "tape",
+     "text": "6 Jahre gejagt",
+     "color": "white",
+     "px": 66,
+     "x": 540.0,
+     "y": 800.0,
+     "align": "center",
+     "rot": -2.08,
+     "s": 4.943
+    },
+    {
+     "type": "tape",
+     "text": "und gefeiert",
+     "color": "red",
+     "px": 76,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 0.69,
+     "s": 5.316
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 7.944,
+   "e": 9.55,
+   "scene": 3,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "mid",
+    "from": null,
+    "s": 7.944
+   },
+   "items": [],
+   "credit": "",
+   "edit": "chapter"
+  },
+  {
+   "s": 9.55,
+   "e": 13.949,
+   "scene": 4,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "mid",
+    "s": 9.55
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/kadewe88.jpg",
+     "w": 1920,
+     "h": 1157,
+     "box": [
+      140.0,
+      625.1,
+      800,
+      482.1
+     ],
+     "ai": false,
+     "rot": -1.73,
+     "credit": "Roland Arhelger / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.01194,
+      1.0,
+      0.98806
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.21705,
+       0.1,
+       0.88295,
+       0.75
+      ],
+      "s": 11.951,
+      "e": 13.351
+     },
+     "rings": [],
+     "s": 9.55
+    },
+    {
+     "type": "tape",
+     "text": "MAI 1988",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 633.1,
+     "align": "center",
+     "rot": -1,
+     "s": 9.62
+    },
+    {
+     "type": "tape",
+     "text": "Bombe im KaDeWe",
+     "color": "red",
+     "px": 62,
+     "x": 160.0,
+     "y": 1175.4,
+     "align": "left",
+     "rot": -1,
+     "s": 12.531
+    }
+   ],
+   "credit": "Foto: Roland Arhelger / CC BY-SA 4.0",
+   "edit": "detail"
+  },
+  {
+   "s": 13.949,
+   "e": 19.682,
+   "scene": 5,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 13.949
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/sbahn.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      85.0,
+      402.0,
+      470,
+      313.3
+     ],
+     "ai": false,
+     "rot": -2.32,
+     "credit": "Sludge G / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01589,
+      1.0,
+      0.98411
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 13.949
+    },
+    {
+     "type": "stat",
+     "x": 110,
+     "y": 775.3,
+     "rows": [
+      {
+       "n": "500.000",
+       "text": "Mark",
+       "s": 15.059,
+       "color": "yellow"
+      }
+     ],
+     "s": 13.949
+    },
+    {
+     "type": "tape",
+     "text": "aus der fahrenden S-Bahn",
+     "color": "yellow",
+     "px": 67,
+     "x": 69.0,
+     "y": 412.0,
+     "align": "left",
+     "rot": -1.63,
+     "s": 17.959
+    }
+   ],
+   "credit": "Foto: Sludge G / CC BY-SA 2.0",
+   "edit": "number"
+  },
+  {
+   "s": 19.682,
+   "e": 22.795,
+   "scene": 6,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 19.682
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "Übergabe klappt",
+     "color": "white",
+     "px": 66,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -2.05,
+     "s": 19.857
+    },
+    {
+     "type": "tape",
+     "text": "Täter entkommt",
+     "color": "red",
+     "px": 72,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 1.05,
+     "s": 21.092
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 22.795,
+   "e": 26.701,
+   "scene": 7,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 22.795
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/karstadt.jpg",
+     "w": 1920,
+     "h": 1920,
+     "box": [
+      265.5,
+      383.0,
+      549.0,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.79,
+     "credit": "Gunnar Klack / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 22.795
+    },
+    {
+     "type": "tape",
+     "text": "1992",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 391.0,
+     "align": "center",
+     "rot": -1,
+     "s": 22.865
+    },
+    {
+     "type": "tape",
+     "text": "diesmal Karstadt",
+     "color": "red",
+     "px": 62,
+     "x": 285.5,
+     "y": 1000.2,
+     "align": "left",
+     "rot": -1,
+     "s": 25.765
+    }
+   ],
+   "credit": "Foto: Gunnar Klack / CC BY-SA 4.0",
+   "edit": "place"
+  },
+  {
+   "s": 26.701,
+   "e": 29.074,
+   "scene": 8,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 26.701
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/money.jpg",
+     "w": 1920,
+     "h": 972,
+     "box": [
+      85.0,
+      428.1,
+      470,
+      261.1
+     ],
+     "ai": false,
+     "rot": -1.17,
+     "credit": "Gestaltung von Hermann Eidenbenz. Das Portrait zei / Public domain",
+     "view": [
+      0.02003,
+      0.0,
+      0.97997,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 26.701
+    },
+    {
+     "type": "stat",
+     "x": 110,
+     "y": 749.2,
+     "rows": [
+      {
+       "n": "1,4 Mio.",
+       "text": "Mark",
+       "s": 27.171,
+       "color": "yellow"
+      }
+     ],
+     "s": 26.701
+    }
+   ],
+   "credit": "Foto: Gestaltung von Hermann Eidenbenz. Das Portrait zei / Public domain",
+   "edit": "number"
+  },
+  {
+   "s": 29.074,
+   "e": 35.3,
+   "scene": 9,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 29.074
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "ZEITUNGSANZEIGE",
+     "color": "white",
+     "px": 60,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -0.68,
+     "s": 31.401
+    },
+    {
+     "type": "tape",
+     "text": "„Dagobert grüßt seine Neffen“",
+     "color": "red",
+     "px": 56,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 2.78,
+     "s": 33.482
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 35.3,
+   "e": 37.549,
+   "scene": 10,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 35.3
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/karstadt_old.jpg",
+     "w": 2000,
+     "h": 1323,
+     "box": [
+      150.0,
+      399.5,
+      780,
+      516.0
+     ],
+     "ai": false,
+     "rot": -1.49,
+     "credit": "FHXB Friedrichshain-Kreuzberg Museum / Public domain",
+     "view": [
+      0.0,
+      0.0095,
+      1.0,
+      0.9905
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 35.3
+    },
+    {
+     "type": "tape",
+     "text": "sein Name: DAGOBERT",
+     "color": "red",
+     "px": 62,
+     "x": 170.0,
+     "y": 983.7,
+     "align": "left",
+     "rot": -1,
+     "s": 36.67
+    }
+   ],
+   "credit": "Foto: FHXB Friedrichshain-Kreuzberg Museum / Public domain",
+   "edit": "place"
+  },
+  {
+   "s": 37.549,
+   "e": 41.269,
+   "scene": 11,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 37.549
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/karstadt.jpg",
+     "w": 1920,
+     "h": 1920,
+     "box": [
+      265.5,
+      383.0,
+      549.0,
+      549.0
+     ],
+     "ai": false,
+     "rot": -1.79,
+     "credit": "Gunnar Klack / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 37.549
+    },
+    {
+     "type": "photo",
+     "src": "crime/9/img/police.jpg",
+     "w": 1400,
+     "h": 896,
+     "box": [
+      260.0,
+      1016.3,
+      560,
+      358.4
+     ],
+     "ai": false,
+     "rot": 1.33,
+     "credit": "Peer Grimm / CC BY-SA 3.0 de",
+     "view": [
+      0.0,
+      0.0148,
+      1.0,
+      0.9852
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 39.299
+    },
+    {
+     "type": "tape",
+     "text": "mehrere Anschläge",
+     "color": "red",
+     "px": 62,
+     "x": 794.5,
+     "y": 1000.2,
+     "align": "right",
+     "rot": -1.06,
+     "s": 39.299
+    },
+    {
+     "type": "tape",
+     "text": "Druck auf Karstadt",
+     "color": "yellow",
+     "px": 67,
+     "x": 249.5,
+     "y": 393.0,
+     "align": "left",
+     "rot": 3.07,
+     "s": 37.739
+    }
+   ],
+   "credit": "Foto: Gunnar Klack / CC BY-SA 4.0 · Peer Grimm / CC BY-SA 3.0 de",
+   "edit": "fact"
+  },
+  {
+   "s": 41.269,
+   "e": 44.002,
+   "scene": 12,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 41.269
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "IMMER NEUE TRICKS",
+     "color": "white",
+     "px": 62,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -2.52,
+     "s": 42.459
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 44.002,
+   "e": 46.73,
+   "scene": 13,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 44.002
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/sbahn2.jpg",
+     "w": 1920,
+     "h": 1342,
+     "box": [
+      150.0,
+      384.9,
+      780,
+      545.2
+     ],
+     "ai": false,
+     "rot": -2.06,
+     "credit": "Smiley.toerist / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.00801,
+      1.0,
+      0.99199
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 44.002
+    },
+    {
+     "type": "tape",
+     "text": "TRICK 1",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 392.9,
+     "align": "center",
+     "rot": -1,
+     "s": 44.17
+    },
+    {
+     "type": "tape",
+     "text": "Magnet-Kiste am Zug",
+     "color": "red",
+     "px": 62,
+     "x": 170.0,
+     "y": 998.3,
+     "align": "left",
+     "rot": -1,
+     "s": 45.032
+    }
+   ],
+   "credit": "Foto: Smiley.toerist / CC BY-SA 4.0",
+   "edit": "place"
+  },
+  {
+   "s": 46.73,
+   "e": 51.303,
+   "scene": 14,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 46.73
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/track.jpg",
+     "w": 1400,
+     "h": 1400,
+     "box": [
+      30.0,
+      455.3,
+      580,
+      580.0
+     ],
+     "ai": false,
+     "rot": -2.13,
+     "credit": "Roger D Kidd / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 46.73
+    },
+    {
+     "type": "photo",
+     "src": "crime/9/img/handcar.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      485.0,
+      899.0,
+      560,
+      373.3
+     ],
+     "ai": false,
+     "rot": 1.44,
+     "credit": "Antti Leppänen / CC BY 4.0",
+     "view": [
+      0.0,
+      0.0132,
+      1.0,
+      0.9868
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 47.565
+    },
+    {
+     "type": "tape",
+     "text": "TRICK 2",
+     "color": "white",
+     "px": 67,
+     "x": 765.0,
+     "y": 838.7,
+     "align": "center",
+     "rot": -2.11,
+     "s": 46.934
+    },
+    {
+     "type": "tape",
+     "text": "Lore entgleist",
+     "color": "red",
+     "px": 62,
+     "x": 765.0,
+     "y": 1340.5,
+     "align": "center",
+     "rot": 1.12,
+     "s": 50.269
+    }
+   ],
+   "credit": "Foto: Roger D Kidd / CC BY-SA 2.0 · Antti Leppänen / CC BY 4.0",
+   "edit": "pair"
+  },
+  {
+   "s": 51.303,
+   "e": 58.892,
+   "scene": 15,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 51.303
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/leaves.jpg",
+     "w": 1400,
+     "h": 1050,
+     "box": [
+      140.0,
+      566.1,
+      800,
+      600.0
+     ],
+     "ai": false,
+     "rot": -1.04,
+     "credit": "Kenneth Allen / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.00604,
+      1.0,
+      0.99396
+     ],
+     "drift": 0,
+     "zoom": {
+      "to": [
+       0.0,
+       0.40725,
+       0.6,
+       1.0
+      ],
+      "s": 57.92,
+      "e": 59.12
+     },
+     "rings": [],
+     "s": 51.303
+    },
+    {
+     "type": "tape",
+     "text": "Polizist rutscht aus",
+     "color": "yellow",
+     "px": 67,
+     "x": 124.0,
+     "y": 576.1,
+     "align": "left",
+     "rot": 1.49,
+     "s": 53.433
+    },
+    {
+     "type": "tape",
+     "text": "Hundekot? Nein:",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 866.1,
+     "align": "center",
+     "rot": -1,
+     "s": 56.361
+    },
+    {
+     "type": "tape",
+     "text": "nasse Blätter",
+     "color": "red",
+     "px": 62,
+     "x": 540.0,
+     "y": 1158.1,
+     "align": "center",
+     "rot": -1,
+     "s": 57.92
+    }
+   ],
+   "credit": "Foto: Kenneth Allen / CC BY-SA 2.0",
+   "edit": "detail"
+  },
+  {
+   "s": 58.892,
+   "e": 61.625,
+   "scene": 16,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 58.892
+   },
+   "items": [
+    {
+     "type": "tape",
+     "text": "Polizei: Gespött",
+     "color": "white",
+     "px": 62,
+     "x": 540.0,
+     "y": 921.0,
+     "align": "center",
+     "rot": -1.64,
+     "s": 59.06
+    },
+    {
+     "type": "tape",
+     "text": "Dagobert: Star",
+     "color": "red",
+     "px": 72,
+     "x": 540,
+     "y": 1010,
+     "align": "center",
+     "rot": 1.2,
+     "s": 60.923
+    }
+   ],
+   "credit": "",
+   "edit": "statement"
+  },
+  {
+   "s": 61.625,
+   "e": 69.019,
+   "scene": 17,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 61.625
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/phone.jpg",
+     "w": 1446,
+     "h": 2000,
+     "box": [
+      341.5,
+      383.0,
+      396.9,
+      549.0
+     ],
+     "ai": false,
+     "rot": -0.91,
+     "credit": "Doris Antony, Berlin / CC BY-SA 3.0",
+     "view": [
+      0.01033,
+      0.0,
+      0.98967,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 61.625
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      100.0,
+      953.9,
+      880,
+      505.1
+     ],
+     "rot": 0.58,
+     "head": "22.04.1994",
+     "rows": [
+      {
+       "l": "Berlin",
+       "r": "Telefonzelle",
+       "s": 67.964,
+       "color": ""
+      },
+      {
+       "l": "Dagobert",
+       "r": "gefasst",
+       "s": 66.513,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 61.625
+    }
+   ],
+   "credit": "Foto: Doris Antony, Berlin / CC BY-SA 3.0",
+   "edit": "timeline"
+  },
+  {
+   "s": 69.019,
+   "e": 70.743,
+   "scene": 18,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 69.019
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/funke.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "ai": false,
+     "rot": 0,
+     "credit": "JesterWr - bei Verwendung Ch.Grube angeben / CC BY-SA 3.0 de",
+     "bleed": true,
+     "view": [
+      0.3375,
+      0.0,
+      0.7125,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 69.019
+    },
+    {
+     "type": "tape",
+     "text": "DAGOBERT =",
+     "color": "white",
+     "px": 56,
+     "x": 540,
+     "y": 470,
+     "align": "center",
+     "rot": 1.95,
+     "s": 69.166
+    },
+    {
+     "type": "tape",
+     "text": "Arno Funke",
+     "color": "red",
+     "px": 80,
+     "x": 540,
+     "y": 1240,
+     "align": "center",
+     "rot": -3.48,
+     "s": 69.911
+    }
+   ],
+   "hush": true,
+   "credit": "Foto: JesterWr - bei Verwendung Ch.Grube angeben / CC BY-SA 3.0 de",
+   "edit": "figure"
+  },
+  {
+   "s": 70.743,
+   "e": 75.434,
+   "scene": 19,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 70.743
+   },
+   "items": [
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      110.0,
+      710.0,
+      860,
+      422
+     ],
+     "rot": -0.89,
+     "head": "URTEIL",
+     "rows": [
+      {
+       "l": "Haft",
+       "r": "9 Jahre",
+       "s": 71.193,
+       "color": ""
+      },
+      {
+       "l": "2000",
+       "r": "vorzeitig frei",
+       "s": 73.213,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 70.743
+    }
+   ],
+   "credit": "",
+   "edit": "span"
+  },
+  {
+   "s": 75.434,
+   "e": 81.158,
+   "scene": 20,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 75.434
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/funke2.jpg",
+     "w": 1283,
+     "h": 2000,
+     "box": [
+      321.6,
+      536.7,
+      436.7,
+      680.8
+     ],
+     "ai": false,
+     "rot": -2.43,
+     "credit": "OmiTs / CC BY-SA 3.0",
+     "view": [
+      0.01202,
+      0.0,
+      0.98798,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 75.434
+    },
+    {
+     "type": "tape",
+     "text": "HEUTE",
+     "color": "white",
+     "px": 67,
+     "x": 540.0,
+     "y": 544.7,
+     "align": "center",
+     "rot": 1.31,
+     "s": 75.583
+    },
+    {
+     "type": "tape",
+     "text": "zeichnet Cartoons",
+     "color": "yellow",
+     "px": 67,
+     "x": 305.6,
+     "y": 877.1,
+     "align": "left",
+     "rot": -1.02,
+     "s": 76.232
+    },
+    {
+     "type": "tape",
+     "text": "mit einem Polizisten befreundet",
+     "color": "red",
+     "px": 53,
+     "x": 540.0,
+     "y": 1275.8,
+     "align": "center",
+     "rot": 2.36,
+     "s": 80.152
+    }
+   ],
+   "credit": "Foto: OmiTs / CC BY-SA 3.0",
+   "edit": "figure"
+  },
+  {
+   "s": 81.158,
+   "e": 86.745,
+   "scene": 21,
+   "head": {
+    "kicker": "AKTE 1988–1994",
+    "title": "Der Fall Dagobert",
+    "mode": "top",
+    "from": "top",
+    "s": 81.158
+   },
+   "items": [
+    {
+     "type": "photo",
+     "src": "crime/9/img/kadewe88.jpg",
+     "w": 1920,
+     "h": 1157,
+     "box": [
+      80.0,
+      418.1,
+      430,
+      259.1
+     ],
+     "ai": false,
+     "rot": -1.73,
+     "credit": "Roland Arhelger / CC BY-SA 4.0",
+     "view": [
+      0.0,
+      0.02301,
+      1.0,
+      0.97699
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 81.158
+    },
+    {
+     "type": "photo",
+     "src": "crime/9/img/sbahn.jpg",
+     "w": 1920,
+     "h": 1280,
+     "box": [
+      570.0,
+      437.3,
+      430,
+      286.7
+     ],
+     "ai": false,
+     "rot": 2.59,
+     "credit": "Sludge G / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.01735,
+      1.0,
+      0.98265
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 81.158
+    },
+    {
+     "type": "photo",
+     "src": "crime/9/img/track.jpg",
+     "w": 1400,
+     "h": 1400,
+     "box": [
+      135.3,
+      756.3,
+      329.4,
+      329.4
+     ],
+     "ai": false,
+     "rot": -1.35,
+     "credit": "Roger D Kidd / CC BY-SA 2.0",
+     "view": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 81.158
+    },
+    {
+     "type": "photo",
+     "src": "crime/9/img/phone.jpg",
+     "w": 1446,
+     "h": 2000,
+     "box": [
+      660.9,
+      789.2,
+      238.2,
+      329.4
+     ],
+     "ai": false,
+     "rot": 1.44,
+     "credit": "Doris Antony, Berlin / CC BY-SA 3.0",
+     "view": [
+      0.0177,
+      0.0,
+      0.9823,
+      1.0
+     ],
+     "drift": 0.1,
+     "rings": [],
+     "s": 81.158
+    },
+    {
+     "type": "card",
+     "style": "paper",
+     "box": [
+      180.0,
+      1080.0,
+      720,
+      370
+     ],
+     "rot": 0.76,
+     "head": "DAGOBERT",
+     "rows": [
+      {
+       "l": "Verbrecher?",
+       "r": "",
+       "s": 81.32,
+       "color": ""
+      },
+      {
+       "l": "Volksheld?",
+       "r": "",
+       "s": 81.868,
+       "color": "red"
+      }
+     ],
+     "tab": "",
+     "corner": "",
+     "note": null,
+     "stamp": null,
+     "s": 81.158
+    },
+    {
+     "type": "tape",
+     "text": "Schreib es in die Kommentare.",
+     "color": "yellow",
+     "px": 66,
+     "x": 540.0,
+     "y": 1020.6,
+     "align": "center",
+     "rot": -0.9,
+     "s": 82.748
+    },
+    {
+     "type": "string",
+     "a": [
+      295.0,
+      444.0
+     ],
+     "b": [
+      785.0,
+      463.3
+     ],
+     "s": 81.158
+    },
+    {
+     "type": "string",
+     "a": [
+      785.0,
+      463.3
+     ],
+     "b": [
+      300.0,
+      782.3
+     ],
+     "s": 81.158
+    },
+    {
+     "type": "string",
+     "a": [
+      300.0,
+      782.3
+     ],
+     "b": [
+      780.0,
+      815.2
+     ],
+     "s": 81.158
+    }
+   ],
+   "credit": "Foto: Roland Arhelger / CC BY-SA 4.0 · Sludge G / CC BY-SA 2.0 · Roger D Kidd / CC BY-SA 2.0 · Doris Antony, Berlin / CC BY-SA 3.0",
+   "edit": "ending"
+  }
+ ],
+ "subs": [
+  {
+   "s": 0.22,
+   "e": 1.42,
+   "text": "Ein Erpresser legt Bomben",
+   "line": 1
+  },
+  {
+   "s": 1.42,
+   "e": 2.92,
+   "text": "in Kaufhäusern, und die Polizei",
+   "line": 1
+  },
+  {
+   "s": 2.92,
+   "e": 4.806,
+   "text": "jagt ihn sechs Jahre lang.",
+   "line": 1
+  },
+  {
+   "s": 4.806,
+   "e": 5.926,
+   "text": "Trotzdem feiern ihn",
+   "line": 2
+  },
+  {
+   "s": 5.926,
+   "e": 7.984,
+   "text": "viele Menschen wie einen Volkshelden.",
+   "line": 2
+  },
+  {
+   "s": 7.984,
+   "e": 9.59,
+   "text": "Das ist der Fall Dagobert.",
+   "line": 3
+  },
+  {
+   "s": 9.59,
+   "e": 12.501,
+   "text": "Mai 1988: Im Berliner KaDeWe",
+   "line": 4
+  },
+  {
+   "s": 12.501,
+   "e": 13.989,
+   "text": "explodiert eine Bombe.",
+   "line": 4
+  },
+  {
+   "s": 13.989,
+   "e": 16.489,
+   "text": "Der Erpresser fordert 500.000 Mark.",
+   "line": 5
+  },
+  {
+   "s": 16.489,
+   "e": 17.929,
+   "text": "Das Geld soll aus einer fahrenden",
+   "line": 5
+  },
+  {
+   "s": 17.929,
+   "e": 19.722,
+   "text": "S-Bahn geworfen werden.",
+   "line": 5
+  },
+  {
+   "s": 19.722,
+   "e": 20.942,
+   "text": "Die Übergabe klappt.",
+   "line": 6
+  },
+  {
+   "s": 20.942,
+   "e": 22.835,
+   "text": "Der Täter entkommt mit dem Geld.",
+   "line": 6
+  },
+  {
+   "s": 22.835,
+   "e": 25.255,
+   "text": "1992 meldet er sich wieder,",
+   "line": 7
+  },
+  {
+   "s": 25.255,
+   "e": 26.741,
+   "text": "diesmal bei Karstadt.",
+   "line": 7
+  },
+  {
+   "s": 26.741,
+   "e": 29.114,
+   "text": "Er fordert 1,4 Millionen Mark.",
+   "line": 8
+  },
+  {
+   "s": 29.114,
+   "e": 30.287,
+   "text": "Das Zeichen, dass Karstadt",
+   "line": 9
+  },
+  {
+   "s": 30.287,
+   "e": 32.804,
+   "text": "zahlen will, ist eine Zeitungsanzeige.",
+   "line": 9
+  },
+  {
+   "s": 32.804,
+   "e": 34.294,
+   "text": "Darin steht: „Dagobert grüßt",
+   "line": 10
+  },
+  {
+   "s": 34.294,
+   "e": 35.34,
+   "text": "seine Neffen“.",
+   "line": 10
+  },
+  {
+   "s": 35.34,
+   "e": 37.589,
+   "text": "So bekommt der Erpresser seinen Namen.",
+   "line": 11
+  },
+  {
+   "s": 37.589,
+   "e": 38.628,
+   "text": "Um Druck zu machen,",
+   "line": 12
+  },
+  {
+   "s": 38.628,
+   "e": 39.949,
+   "text": "verübt er mehrere Anschläge",
+   "line": 12
+  },
+  {
+   "s": 39.949,
+   "e": 41.309,
+   "text": "auf Karstadt-Häuser.",
+   "line": 12
+  },
+  {
+   "s": 41.309,
+   "e": 42.729,
+   "text": "Und er erfindet immer neue Tricks",
+   "line": 13
+  },
+  {
+   "s": 42.729,
+   "e": 44.042,
+   "text": "für die Geldübergabe.",
+   "line": 13
+  },
+  {
+   "s": 44.042,
+   "e": 45.462,
+   "text": "Eine Kiste, die mit Magneten",
+   "line": 14
+  },
+  {
+   "s": 45.462,
+   "e": 46.77,
+   "text": "an einem Zug hängt.",
+   "line": 14
+  },
+  {
+   "s": 46.77,
+   "e": 47.535,
+   "text": "Eine selbstgebaute",
+   "line": 15
+  },
+  {
+   "s": 47.535,
+   "e": 49.644,
+   "text": "Lore auf einem stillgelegten Gleis.",
+   "line": 15
+  },
+  {
+   "s": 49.644,
+   "e": 51.343,
+   "text": "Kurz vor ihm entgleist sie.",
+   "line": 15
+  },
+  {
+   "s": 51.343,
+   "e": 53.263,
+   "text": "Einmal ist ihm ein Polizist ganz nah,",
+   "line": 16
+  },
+  {
+   "s": 53.263,
+   "e": 54.95,
+   "text": "dann rutscht der Beamte aus.",
+   "line": 16
+  },
+  {
+   "s": 54.95,
+   "e": 56.95,
+   "text": "Die Zeitungen schreiben: auf Hundekot.",
+   "line": 17
+  },
+  {
+   "s": 56.95,
+   "e": 58.932,
+   "text": "In Wahrheit waren es nasse Blätter.",
+   "line": 17
+  },
+  {
+   "s": 58.932,
+   "e": 60.38,
+   "text": "Die Polizei wird zum Gespött,",
+   "line": 18
+  },
+  {
+   "s": 60.38,
+   "e": 61.665,
+   "text": "Dagobert zum Star.",
+   "line": 18
+  },
+  {
+   "s": 61.665,
+   "e": 66.051,
+   "text": "Doch am 22. April 1994 ist Schluss.",
+   "line": 19
+  },
+  {
+   "s": 66.051,
+   "e": 67.686,
+   "text": "Die Polizei fasst ihn in Berlin,",
+   "line": 20
+  },
+  {
+   "s": 67.686,
+   "e": 69.059,
+   "text": "in einer Telefonzelle.",
+   "line": 20
+  },
+  {
+   "s": 69.059,
+   "e": 70.783,
+   "text": "Dagobert heißt Arno Funke.",
+   "line": 21
+  },
+  {
+   "s": 70.783,
+   "e": 71.623,
+   "text": "Er wird zu neun Jahren",
+   "line": 22
+  },
+  {
+   "s": 71.623,
+   "e": 72.983,
+   "text": "Haft verurteilt.",
+   "line": 22
+  },
+  {
+   "s": 72.983,
+   "e": 75.474,
+   "text": "Im Jahr 2000 kommt er vorzeitig frei.",
+   "line": 22
+  },
+  {
+   "s": 75.474,
+   "e": 77.262,
+   "text": "Heute zeichnet er Cartoons.",
+   "line": 23
+  },
+  {
+   "s": 77.262,
+   "e": 78.582,
+   "text": "Und mit einem der Polizisten,",
+   "line": 24
+  },
+  {
+   "s": 78.582,
+   "e": 79.521,
+   "text": "die ihn jagten,",
+   "line": 24
+  },
+  {
+   "s": 79.521,
+   "e": 81.198,
+   "text": "ist er inzwischen befreundet.",
+   "line": 24
+  },
+  {
+   "s": 81.198,
+   "e": 82.718,
+   "text": "Verbrecher oder Volksheld?",
+   "line": 25
+  },
+  {
+   "s": 82.718,
+   "e": 84.195,
+   "text": "Was denkst du?",
+   "line": 25
+  }
+ ],
+ "voice": [
+  {
+   "s": 0.3,
+   "src": "crime/9/voice/line_01.mp3"
+  },
+  {
+   "s": 4.886,
+   "src": "crime/9/voice/line_02.mp3"
+  },
+  {
+   "s": 8.064,
+   "src": "crime/9/voice/line_03.mp3"
+  },
+  {
+   "s": 9.67,
+   "src": "crime/9/voice/line_04.mp3"
+  },
+  {
+   "s": 14.069,
+   "src": "crime/9/voice/line_05.mp3"
+  },
+  {
+   "s": 19.802,
+   "src": "crime/9/voice/line_06.mp3"
+  },
+  {
+   "s": 22.915,
+   "src": "crime/9/voice/line_07.mp3"
+  },
+  {
+   "s": 26.821,
+   "src": "crime/9/voice/line_08.mp3"
+  },
+  {
+   "s": 29.194,
+   "src": "crime/9/voice/line_09.mp3"
+  },
+  {
+   "s": 32.884,
+   "src": "crime/9/voice/line_10.mp3"
+  },
+  {
+   "s": 35.42,
+   "src": "crime/9/voice/line_11.mp3"
+  },
+  {
+   "s": 37.669,
+   "src": "crime/9/voice/line_12.mp3"
+  },
+  {
+   "s": 41.389,
+   "src": "crime/9/voice/line_13.mp3"
+  },
+  {
+   "s": 44.122,
+   "src": "crime/9/voice/line_14.mp3"
+  },
+  {
+   "s": 46.85,
+   "src": "crime/9/voice/line_15.mp3"
+  },
+  {
+   "s": 51.423,
+   "src": "crime/9/voice/line_16.mp3"
+  },
+  {
+   "s": 55.03,
+   "src": "crime/9/voice/line_17.mp3"
+  },
+  {
+   "s": 59.012,
+   "src": "crime/9/voice/line_18.mp3"
+  },
+  {
+   "s": 61.745,
+   "src": "crime/9/voice/line_19.mp3"
+  },
+  {
+   "s": 66.131,
+   "src": "crime/9/voice/line_20.mp3"
+  },
+  {
+   "s": 69.139,
+   "src": "crime/9/voice/line_21.mp3"
+  },
+  {
+   "s": 70.863,
+   "src": "crime/9/voice/line_22.mp3"
+  },
+  {
+   "s": 75.554,
+   "src": "crime/9/voice/line_23.mp3"
+  },
+  {
+   "s": 77.342,
+   "src": "crime/9/voice/line_24.mp3"
+  },
+  {
+   "s": 81.278,
+   "src": "crime/9/voice/line_25.mp3"
+  }
+ ],
+ "music": "crime/9/bed.wav",
+ "musicVolume": 0.14,
+ "fonts": [
+  {
+   "family": "Source Sans 3 Variable",
+   "file": "crime/fonts/source-sans-3-latin-wght-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "200 900",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  },
+  {
+   "family": "Courier Prime",
+   "file": "crime/fonts/courier-prime-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "normal"
+  },
+  {
+   "family": "Merriweather",
+   "file": "crime/fonts/merriweather-latin-700-italic.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "700",
+   "style": "italic"
+  },
+  {
+   "family": "Patrick Hand",
+   "file": "crime/fonts/patrick-hand-latin-400-normal.woff2",
+   "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+   "weight": "400",
+   "style": "normal"
+  }
+ ],
+ "sfx": "crime/9/sfx.wav",
+ "sfxVolume": 0.6
+}
