@@ -30,95 +30,129 @@
  ],
  "images": {
   "cordon": {
-   "src": "1/4-1.jpg"
+   "src": "1/4-1.jpg",
+   "label": "Absperrung am Schloss, 25.11.2019"
   },
   "cordon2": {
-   "src": "1/4-3.jpg"
-  },
-  "night": {
-   "src": "1/3-3.jpg"
+   "src": "1/4-3.jpg",
+   "label": "Absperrung am Schloss, 25.11.2019"
   },
   "night2": {
-   "src": "1/3-7.jpg"
-  },
-  "castle": {
-   "src": "1/2-1.jpg"
+   "src": "1/3-7.jpg",
+   "label": "Residenzschloss Dresden"
   },
   "room": {
-   "src": "1/1-6.jpg"
+   "src": "1/1-6.jpg",
+   "label": "Juwelenzimmer, Grünes Gewölbe"
   },
   "room2": {
-   "src": "1/1-3.jpg"
+   "src": "1/1-3.jpg",
+   "label": "Juwelenzimmer, Dresden"
   },
   "treasure": {
-   "src": "1/1-5.jpg"
+   "src": "1/1-5.jpg",
+   "label": "Grünes Gewölbe"
   },
   "treasure2": {
-   "src": "1/1-8.jpg"
-  },
-  "facade": {
-   "src": "1/2-8.jpg"
+   "src": "1/1-8.jpg",
+   "label": "Grünes Gewölbe"
   },
   "cabinet": {
-   "src": "1/13-7.jpg"
-  },
-  "lamp": {
-   "src": "1/12-7.jpg"
-  },
-  "street": {
-   "src": "1/12-3.jpg"
+   "src": "1/13-7.jpg",
+   "label": "Stromverteiler (Symbolbild)"
   },
   "axe": {
-   "src": "1/10-7.jpg"
+   "src": "1/10-7.jpg",
+   "label": "Axt (Symbolbild)"
   },
   "vitrine": {
-   "src": "1/11-7.jpg"
+   "src": "1/11-7.jpg",
+   "label": "Vitrine (Symbolbild)"
   },
   "garage": {
-   "src": "1/14-8.jpg"
+   "src": "1/14-8.jpg",
+   "label": "Tiefgarage (Symbolbild)"
   },
   "brooch": {
-   "src": "1/15-5.jpg"
+   "src": "1/15-5.jpg",
+   "label": "Schmuck (Symbolbild)"
   },
   "map": {
-   "src": "1/16-1.jpg"
+   "src": "1/16-1.jpg",
+   "label": "Berlin"
   },
   "bode": {
-   "src": "1/6-1.jpg"
+   "src": "1/6-1.jpg",
+   "label": "Bode-Museum, Berlin"
   },
   "bode2": {
-   "src": "1/6-3.jpg"
+   "src": "1/6-3.jpg",
+   "label": "Bode-Museum, Berlin"
   },
   "court": {
-   "src": "1/8-1.jpg"
+   "src": "1/8-1.jpg",
+   "label": "Landgericht Dresden"
   },
   "bgh": {
-   "src": "1/9-7.jpg"
+   "src": "1/9-7.jpg",
+   "label": "Bundesgerichtshof, Karlsruhe"
+  },
+  "dawn": {
+   "src": "2/3-21.jpg",
+   "label": "Residenzschloss, Morgen des 25.11.2019"
+  },
+  "dawn2": {
+   "src": "2/3-24.jpg",
+   "label": "Residenzschloss, 25.11.2019"
+  },
+  "fog": {
+   "src": "2/3-23.jpg",
+   "label": "Polizei am Schloss, 25.11.2019"
+  },
+  "bars": {
+   "src": "2/3-16.jpg",
+   "label": "Vergitterte Fenster, Grünes Gewölbe"
+  },
+  "jroom": {
+   "src": "2/3-11.jpg",
+   "label": "Juwelenzimmer, Grünes Gewölbe"
+  },
+  "schloss": {
+   "src": "2/4-2.jpg",
+   "label": "Residenzschloss Dresden"
+  },
+  "bodeN": {
+   "src": "2/6-12.jpg",
+   "label": "Bode-Museum, Berlin"
   }
  },
  "scenes": [
   {
    "at": 1,
    "edit": "hook",
-   "why": "2 giây đầu: dây phong tỏa thật của cảnh sát trước cung điện sáng 25/11/2019 đầy màn hình + câu hỏi ngay khung đầu, có tiếng; cắt sang cung điện trong đêm",
+   "head": {
+    "kicker": "AKTE 2019",
+    "title": "Juwelenraub von Dresden"
+   },
+   "why": "2 giây đầu nói ngay vụ gì: tên vụ hiện từ khung đầu; ảnh thật cung điện Dresden sáng 25/11/2019 có xe cảnh sát, cắt sang ảnh thật thứ hai cùng sáng đó",
    "items": [
     {
-     "photo": "cordon",
+     "photo": "dawn",
      "pos": "full",
      "view": [
-      0.2,
+      0.25,
       0.0,
-      0.75,
+      0.85,
       1.0
      ]
     },
     {
-     "photo": "night",
+     "photo": "dawn2",
      "pos": "full",
      "view": [
-      0.15,
+      0.2,
       0.0,
-      0.85,
+      0.8,
       1.0
      ],
      "at": "1/kurz"
@@ -147,10 +181,10 @@
   {
    "at": 2,
    "edit": "place",
-   "why": "câu 2: ở phố cổ đèn bỗng tắt",
+   "why": "câu 2: đèn ở phố cổ tắt — ảnh thật sáng hôm đó: sương mù, xe cảnh sát trước cung điện",
    "items": [
     {
-     "photo": "street",
+     "photo": "fog",
      "pos": "full",
      "view": [
       0.2,
@@ -162,7 +196,7 @@
     {
      "tape": "DRESDNER ALTSTADT",
      "color": "white",
-     "size": 52,
+     "size": 50,
      "xy": [
       540,
       470
@@ -184,11 +218,12 @@
   {
    "at": 3,
    "edit": "number",
-   "why": "câu 3: vài phút sau mất số trang sức hơn 100 triệu euro",
+   "why": "câu 3: vài phút sau mất trang sức hơn 100 triệu euro — phòng trang sức thật",
    "items": [
     {
-     "photo": "treasure2",
-     "pos": "small"
+     "photo": "room",
+     "pos": "small",
+     "label": "Grünes Gewölbe"
     },
     {
      "tape": "Minuten später",
@@ -208,41 +243,55 @@
   },
   {
    "at": 4,
-   "edit": "chapter",
-   "why": "câu 4 gọi tên vụ án",
-   "head": {
-    "kicker": "AKTE 2019",
-    "title": "Grünes Gewölbe"
-   }
+   "edit": "place",
+   "why": "câu 4: một trong những vụ trộm bảo tàng ngoạn mục nhất — cung điện Dresden (tên vụ đã hiện từ đầu)",
+   "items": [
+    {
+     "photo": "schloss"
+    },
+    {
+     "tape": "spektakulärster Museumseinbruch",
+     "color": "red",
+     "at": "4/spektakulärsten",
+     "xy": [
+      540,
+      1060
+     ],
+     "size": 54
+    }
+   ]
   },
   {
    "at": 5,
    "edit": "detail",
-   "why": "câu 5: Grünes Gewölbe trong cung điện — ảnh cũ phòng trang sức (Juwelenzimmer)",
+   "why": "câu 5: Grünes Gewölbe là kho báu lớn của châu Âu — phòng trang sức (ảnh cũ)",
    "items": [
     {
-     "photo": "room",
+     "photo": "jroom",
      "zoom": {
       "to": [
-       0.1,
-       0.3,
-       0.9,
-       0.95
+       0.15,
+       0.2,
+       0.85,
+       0.9
       ],
       "at": "5/Schatzkammern",
       "dur": 1.4
      }
     },
     {
-     "tape": "RESIDENZSCHLOSS",
+     "tape": "GRÜNES GEWÖLBE",
      "color": "white",
      "pin": "top",
-     "at": "5/Residenzschloss"
+     "at": 5.02
     },
     {
      "tape": "Schatzkammer Europas",
      "at": "5/Schatzkammern",
-     "pin": "bl"
+     "xy": [
+      540,
+      1340
+     ]
     }
    ]
   },
@@ -258,31 +307,52 @@
      "tape": "Stromverteiler angezündet",
      "color": "red",
      "at": "6/Stromverteiler",
-     "pin": "below"
+     "xy": [
+      540,
+      1070
+     ]
     },
     {
      "tape": "Laternen aus",
      "at": "6/Straßenlaternen",
-     "pin": "tl"
+     "xy": [
+      540,
+      1185
+     ]
     }
    ]
   },
   {
    "at": 7,
-   "edit": "place",
-   "why": "câu 7: trèo vào qua cửa sổ có song sắt bị cắt từ trước — mặt tiền cung điện có cửa sổ song sắt",
+   "edit": "detail",
+   "why": "câu 7: trèo vào qua cửa sổ có song sắt bị cắt từ trước — ảnh thật các cửa sổ có song sắt của Grünes Gewölbe (một băng chữ ở góc trên, vòng tròn đánh dấu song sắt)",
    "items": [
     {
-     "photo": "facade"
-    },
-    {
-     "tape": "durchs Fenster",
-     "at": "7/Fenster"
+     "photo": "bars",
+     "view": [
+      0.25,
+      0.15,
+      0.75,
+      0.95
+     ],
+     "ring": {
+      "box": [
+       0.38,
+       0.3,
+       0.62,
+       0.85
+      ],
+      "at": "7/Gitter"
+     }
     },
     {
      "tape": "Gitter durchtrennt",
      "color": "red",
-     "at": "7/Gitter"
+     "at": "7/Gitter",
+     "xy": [
+      380,
+      420
+     ]
     }
    ]
   },
@@ -444,7 +514,7 @@
    "why": "câu 14: một người từng dính vào vụ khác — bảo tàng Bode ở Berlin",
    "items": [
     {
-     "photo": "bode"
+     "photo": "bodeN"
     },
     {
      "tape": "schon ein anderer Coup",
@@ -616,7 +686,11 @@
     {
      "tape": "„Sächsischer Weißer“",
      "color": "red",
-     "at": "22/Sächsischer"
+     "at": "22/Sächsischer",
+     "xy": [
+      540,
+      1060
+     ]
     }
    ]
   },
@@ -645,20 +719,24 @@
    "why": "câu cuối: hỏi người xem nghĩ gì, gom các manh mối",
    "items": [
     {
-     "photo": "cordon",
-     "pos": "g1"
+     "photo": "dawn",
+     "pos": "g1",
+     "label": ""
     },
     {
      "photo": "treasure",
-     "pos": "g2"
+     "pos": "g2",
+     "label": ""
     },
     {
      "photo": "bode2",
-     "pos": "g3"
+     "pos": "g3",
+     "label": ""
     },
     {
      "photo": "court",
-     "pos": "g4"
+     "pos": "g4",
+     "label": ""
     },
     {
      "string": [
@@ -695,5 +773,12 @@
     }
    ]
   }
- ]
+ ],
+ "music": false,
+ "sfx_volume": 2,
+ "fx": {
+  "depth": true,
+  "blur": true,
+  "grain": 0.1
+ }
 }
